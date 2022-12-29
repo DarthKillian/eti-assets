@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\View;
 use Input;
+use DB;
 use League\Csv\Reader;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 use League\Csv\EscapeFormula;
@@ -260,42 +261,44 @@ class ReportsController extends Controller
 
             $actionlogs = Actionlog::with('item', 'user', 'target', 'location')
                 ->orderBy('created_at', 'DESC')
-                ->chunk(20, function ($actionlogs) use ($handle) {
-                    $executionTime = microtime(true) - $_SERVER['REQUEST_TIME_FLOAT'];
-                    \Log::debug('Walking results: ' . $executionTime);
-                    $count = 0;
+                ->chunk(
+                    20,
+                    function ($actionlogs) use ($handle) {
+                        $executionTime = microtime(true) - $_SERVER['REQUEST_TIME_FLOAT'];
+                        \Log::debug('Walking results: ' . $executionTime);
+                        $count = 0;
 
-                    foreach ($actionlogs as $actionlog) {
-                        $count++;
-                        $target_name = '';
+                        foreach ($actionlogs as $actionlog) {
+                            $count++;
+                            $target_name = '';
 
-                        if ($actionlog->target) {
-                            if ($actionlog->targetType() == 'user') {
-                                $target_name = $actionlog->target->getFullNameAttribute();
-                            } else {
-                                $target_name = $actionlog->target->getDisplayNameAttribute();
+                            if ($actionlog->target) {
+                                if ($actionlog->targetType() == 'user') {
+                                    $target_name = $actionlog->target->getFullNameAttribute();
+                                } else {
+                                    $target_name = $actionlog->target->getDisplayNameAttribute();
+                                }
                             }
-                        }
 
-                        if ($actionlog->item) {
-                            $item_name = e($actionlog->item->getDisplayNameAttribute());
-                        } else {
-                            $item_name = '';
-                        }
+                            if ($actionlog->item) {
+                                $item_name = e($actionlog->item->getDisplayNameAttribute());
+                            } else {
+                                $item_name = '';
+                            }
 
-                        $row = [
-                                $actionlog->created_at,
-                            ($actionlog->user) ? e($actionlog->user->getFullNameAttribute()) : '',
-                            $actionlog->present()->actionType(),
-                            e($actionlog->itemType()),
-                            ($actionlog->itemType() == 'user') ? $actionlog->filename : $item_name,
-                            $target_name,
-                            ($actionlog->note) ? e($actionlog->note) : '',
-                                $actionlog->log_meta,
-                        ];
-                        fputcsv($handle, $row);
+                            $row = [
+                                    $actionlog->created_at,
+                                ($actionlog->user) ? e($actionlog->user->getFullNameAttribute()) : '',
+                                $actionlog->present()->actionType(),
+                                e($actionlog->itemType()),
+                                ($actionlog->itemType() == 'user') ? $actionlog->filename : $item_name,
+                                $target_name,
+                                ($actionlog->note) ? e($actionlog->note) : '',
+                                    $actionlog->log_meta,
+                            ];
+                            fputcsv($handle, $row);
+                        }
                     }
-                }
                 );
 
             // Close the output stream
@@ -672,218 +675,220 @@ class ReportsController extends Controller
                 $assets->onlyTrashed();
             }
 
-            $assets->orderBy('assets.id', 'ASC')->chunk(20, function ($assets) use ($handle, $customfields, $request) {
-
-                $executionTime = microtime(true) - $_SERVER['REQUEST_TIME_FLOAT'];
-                \Log::debug('Walking results: ' . $executionTime);
-                $count = 0;
-
-                $formatter = new EscapeFormula("`");
-
-                foreach ($assets as $asset) {
-                    $count++;
-                    $row = [];
-
-                    if ($request->filled('id')) {
-                        $row[] = ($asset->id) ? $asset->id : '';
-                    }
-
-                    if ($request->filled('company')) {
-                        $row[] = ($asset->company) ? $asset->company->name : '';
-                    }
-
-                    if ($request->filled('asset_name')) {
-                        $row[] = ($asset->name) ? $asset->name : '';
-                    }
-
-                    if ($request->filled('asset_tag')) {
-                        $row[] = ($asset->asset_tag) ? $asset->asset_tag : '';
-                    }
-
-                    if ($request->filled('model')) {
-                        $row[] = ($asset->model) ? $asset->model->name : '';
-                        $row[] = ($asset->model) ? $asset->model->model_number : '';
-                    }
-
-                    if ($request->filled('category')) {
-                        $row[] = (($asset->model) && ($asset->model->category)) ? $asset->model->category->name : '';
-                    }
-
-                    if ($request->filled('manufacturer')) {
-                        $row[] = ($asset->model && $asset->model->manufacturer) ? $asset->model->manufacturer->name : '';
-                    }
-
-                    if ($request->filled('serial')) {
-                        $row[] = ($asset->serial) ? $asset->serial : '';
-                    }
-
-                    if ($request->filled('purchase_date')) {
-                        $row[] = ($asset->purchase_date) ? $asset->purchase_date : '';
-                    }
-
-                    if ($request->filled('purchase_cost')) {
-                        $row[] = ($asset->purchase_cost) ? Helper::formatCurrencyOutput($asset->purchase_cost) : '';
-                    }
-
-                    if ($request->filled('eol')) {
-                        $row[] = ($asset->purchase_date != '') ? $asset->present()->eol_date() : '';
-                    }
-
-                    if ($request->filled('order')) {
-                        $row[] = ($asset->order_number) ? $asset->order_number : '';
-                    }
-
-                    if ($request->filled('supplier')) {
-                        $row[] = ($asset->supplier) ? $asset->supplier->name : '';
-                    }
-
-                    if ($request->filled('location')) {
-                        $row[] = ($asset->location) ? $asset->location->present()->name() : '';
-                    }
-
-                    if ($request->filled('location_address')) {
-                        $row[] = ($asset->location) ? $asset->location->address : '';
-                        $row[] = ($asset->location) ? $asset->location->address2 : '';
-                        $row[] = ($asset->location) ? $asset->location->city : '';
-                        $row[] = ($asset->location) ? $asset->location->state : '';
-                        $row[] = ($asset->location) ? $asset->location->country : '';
-                        $row[] = ($asset->location) ? $asset->location->zip : '';
-                    }
-
-                    if ($request->filled('rtd_location')) {
-                        $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->present()->name() : '';
-                    }
-
-                    if ($request->filled('rtd_location_address')) {
-                        $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->address : '';
-                        $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->address2 : '';
-                        $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->city : '';
-                        $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->state : '';
-                        $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->country : '';
-                        $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->zip : '';
-                    }
-
-                    if ($request->filled('assigned_to')) {
-                        $row[] = ($asset->checkedOutToUser() && $asset->assigned) ? $asset->assigned->getFullNameAttribute() : ($asset->assigned ? $asset->assigned->display_name : '');
-                        $row[] = ($asset->checkedOutToUser() && $asset->assigned) ? 'user' : $asset->assignedType();
-                    }
-
-                    if ($request->filled('username')) {
-                        // Only works if we're checked out to a user, not anything else.
-                        if ($asset->checkedOutToUser()) {
-                            $row[] = ($asset->assignedto) ? $asset->assignedto->username : '';
-                        } else {
-                            $row[] = ''; // Empty string if unassigned
-                        }
-                    }
-
-                    if ($request->filled('employee_num')) {
-                        // Only works if we're checked out to a user, not anything else.
-                        if ($asset->checkedOutToUser()) {
-                            $row[] = ($asset->assignedto) ? $asset->assignedto->employee_num : '';
-                        } else {
-                            $row[] = ''; // Empty string if unassigned
-                        }
-                    }
-
-                    if ($request->filled('manager')) {
-                        if ($asset->checkedOutToUser()) {
-                            $row[] = (($asset->assignedto) && ($asset->assignedto->manager)) ? $asset->assignedto->manager->present()->fullName : '';
-                        } else {
-                            $row[] = ''; // Empty string if unassigned
-                        }
-                    }
-
-                    if ($request->filled('department')) {
-                        if ($asset->checkedOutToUser()) {
-                            $row[] = (($asset->assignedto) && ($asset->assignedto->department)) ? $asset->assignedto->department->name : '';
-                        } else {
-                            $row[] = ''; // Empty string if unassigned
-                        }
-                    }
-
-                    if ($request->filled('title')) {
-                        if ($asset->checkedOutToUser()) {
-                            $row[] = ($asset->assignedto) ? $asset->assignedto->jobtitle : '';
-                        } else {
-                            $row[] = ''; // Empty string if unassigned
-                        }
-                    }
-
-                    if ($request->filled('status')) {
-                        $row[] = ($asset->assetstatus) ? $asset->assetstatus->name . ' (' . $asset->present()->statusMeta . ')' : '';
-                    }
-
-                    if ($request->filled('warranty')) {
-                        $row[] = ($asset->warranty_months) ? $asset->warranty_months : '';
-                        $row[] = $asset->present()->warranty_expires();
-                    }
-
-                    if ($request->filled('depreciation')) {
-                        $depreciation = $asset->getDepreciatedValue();
-                        $diff = ($asset->purchase_cost - $depreciation);
-                        $row[] = Helper::formatCurrencyOutput($depreciation);
-                        $row[] = Helper::formatCurrencyOutput($diff);
-                        $row[] = ($asset->depreciation) ? $asset->depreciated_date()->format('Y-m-d') : '';
-                    }
-
-                    if ($request->filled('checkout_date')) {
-                        $row[] = ($asset->last_checkout) ? $asset->last_checkout : '';
-                    }
-
-                    if ($request->filled('expected_checkin')) {
-                        $row[] = ($asset->expected_checkin) ? $asset->expected_checkin : '';
-                    }
-
-                    if ($request->filled('created_at')) {
-                        $row[] = ($asset->created_at) ? $asset->created_at : '';
-                    }
-
-                    if ($request->filled('updated_at')) {
-                        $row[] = ($asset->updated_at) ? $asset->updated_at : '';
-                    }
-
-                    if ($request->filled('deleted_at')) {
-                        $row[] = ($asset->deleted_at) ? $asset->deleted_at : '';
-                    }
-
-                    if ($request->filled('last_audit_date')) {
-                        $row[] = ($asset->last_audit_date) ? $asset->last_audit_date : '';
-                    }
-
-                    if ($request->filled('next_audit_date')) {
-                        $row[] = ($asset->next_audit_date) ? $asset->next_audit_date : '';
-                    }
-
-                    if ($request->filled('notes')) {
-                        $row[] = ($asset->notes) ? $asset->notes : '';
-                    }
-
-                    if ($request->filled('url')) {
-                        $row[] = config('app.url') . '/hardware/' . $asset->id;
-                    }
-
-                    foreach ($customfields as $customfield) {
-                        $column_name = $customfield->db_column_name();
-                        if ($request->filled($customfield->db_column_name())) {
-                            $row[] = $asset->$column_name;
-                        }
-                    }
-
-
-                    // CSV_ESCAPE_FORMULAS is set to false in the .env
-                    if (config('app.escape_formulas') === false) {
-                        fputcsv($handle, $row);
-
-                        // CSV_ESCAPE_FORMULAS is set to true or is not set in the .env
-                    } else {
-                        fputcsv($handle, $formatter->escapeRecord($row));
-                    }
+            $assets->orderBy('assets.id', 'ASC')->chunk(
+                20,
+                function ($assets) use ($handle, $customfields, $request) {
 
                     $executionTime = microtime(true) - $_SERVER['REQUEST_TIME_FLOAT'];
-                    \Log::debug('-- Record ' . $count . ' Asset ID:' . $asset->id . ' in ' . $executionTime);
+                    \Log::debug('Walking results: ' . $executionTime);
+                    $count = 0;
+
+                    $formatter = new EscapeFormula("`");
+
+                    foreach ($assets as $asset) {
+                        $count++;
+                        $row = [];
+
+                        if ($request->filled('id')) {
+                            $row[] = ($asset->id) ? $asset->id : '';
+                        }
+
+                        if ($request->filled('company')) {
+                            $row[] = ($asset->company) ? $asset->company->name : '';
+                        }
+
+                        if ($request->filled('asset_name')) {
+                            $row[] = ($asset->name) ? $asset->name : '';
+                        }
+
+                        if ($request->filled('asset_tag')) {
+                            $row[] = ($asset->asset_tag) ? $asset->asset_tag : '';
+                        }
+
+                        if ($request->filled('model')) {
+                            $row[] = ($asset->model) ? $asset->model->name : '';
+                            $row[] = ($asset->model) ? $asset->model->model_number : '';
+                        }
+
+                        if ($request->filled('category')) {
+                            $row[] = (($asset->model) && ($asset->model->category)) ? $asset->model->category->name : '';
+                        }
+
+                        if ($request->filled('manufacturer')) {
+                            $row[] = ($asset->model && $asset->model->manufacturer) ? $asset->model->manufacturer->name : '';
+                        }
+
+                        if ($request->filled('serial')) {
+                            $row[] = ($asset->serial) ? $asset->serial : '';
+                        }
+
+                        if ($request->filled('purchase_date')) {
+                            $row[] = ($asset->purchase_date) ? $asset->purchase_date : '';
+                        }
+
+                        if ($request->filled('purchase_cost')) {
+                            $row[] = ($asset->purchase_cost) ? Helper::formatCurrencyOutput($asset->purchase_cost) : '';
+                        }
+
+                        if ($request->filled('eol')) {
+                            $row[] = ($asset->purchase_date != '') ? $asset->present()->eol_date() : '';
+                        }
+
+                        if ($request->filled('order')) {
+                            $row[] = ($asset->order_number) ? $asset->order_number : '';
+                        }
+
+                        if ($request->filled('supplier')) {
+                            $row[] = ($asset->supplier) ? $asset->supplier->name : '';
+                        }
+
+                        if ($request->filled('location')) {
+                            $row[] = ($asset->location) ? $asset->location->present()->name() : '';
+                        }
+
+                        if ($request->filled('location_address')) {
+                            $row[] = ($asset->location) ? $asset->location->address : '';
+                            $row[] = ($asset->location) ? $asset->location->address2 : '';
+                            $row[] = ($asset->location) ? $asset->location->city : '';
+                            $row[] = ($asset->location) ? $asset->location->state : '';
+                            $row[] = ($asset->location) ? $asset->location->country : '';
+                            $row[] = ($asset->location) ? $asset->location->zip : '';
+                        }
+
+                        if ($request->filled('rtd_location')) {
+                            $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->present()->name() : '';
+                        }
+
+                        if ($request->filled('rtd_location_address')) {
+                            $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->address : '';
+                            $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->address2 : '';
+                            $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->city : '';
+                            $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->state : '';
+                            $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->country : '';
+                            $row[] = ($asset->defaultLoc) ? $asset->defaultLoc->zip : '';
+                        }
+
+                        if ($request->filled('assigned_to')) {
+                            $row[] = ($asset->checkedOutToUser() && $asset->assigned) ? $asset->assigned->getFullNameAttribute() : ($asset->assigned ? $asset->assigned->display_name : '');
+                            $row[] = ($asset->checkedOutToUser() && $asset->assigned) ? 'user' : $asset->assignedType();
+                        }
+
+                        if ($request->filled('username')) {
+                            // Only works if we're checked out to a user, not anything else.
+                            if ($asset->checkedOutToUser()) {
+                                $row[] = ($asset->assignedto) ? $asset->assignedto->username : '';
+                            } else {
+                                $row[] = ''; // Empty string if unassigned
+                            }
+                        }
+
+                        if ($request->filled('employee_num')) {
+                            // Only works if we're checked out to a user, not anything else.
+                            if ($asset->checkedOutToUser()) {
+                                $row[] = ($asset->assignedto) ? $asset->assignedto->employee_num : '';
+                            } else {
+                                $row[] = ''; // Empty string if unassigned
+                            }
+                        }
+
+                        if ($request->filled('manager')) {
+                            if ($asset->checkedOutToUser()) {
+                                $row[] = (($asset->assignedto) && ($asset->assignedto->manager)) ? $asset->assignedto->manager->present()->fullName : '';
+                            } else {
+                                $row[] = ''; // Empty string if unassigned
+                            }
+                        }
+
+                        if ($request->filled('department')) {
+                            if ($asset->checkedOutToUser()) {
+                                $row[] = (($asset->assignedto) && ($asset->assignedto->department)) ? $asset->assignedto->department->name : '';
+                            } else {
+                                $row[] = ''; // Empty string if unassigned
+                            }
+                        }
+
+                        if ($request->filled('title')) {
+                            if ($asset->checkedOutToUser()) {
+                                $row[] = ($asset->assignedto) ? $asset->assignedto->jobtitle : '';
+                            } else {
+                                $row[] = ''; // Empty string if unassigned
+                            }
+                        }
+
+                        if ($request->filled('status')) {
+                            $row[] = ($asset->assetstatus) ? $asset->assetstatus->name . ' (' . $asset->present()->statusMeta . ')' : '';
+                        }
+
+                        if ($request->filled('warranty')) {
+                            $row[] = ($asset->warranty_months) ? $asset->warranty_months : '';
+                            $row[] = $asset->present()->warranty_expires();
+                        }
+
+                        if ($request->filled('depreciation')) {
+                            $depreciation = $asset->getDepreciatedValue();
+                            $diff = ($asset->purchase_cost - $depreciation);
+                            $row[] = Helper::formatCurrencyOutput($depreciation);
+                            $row[] = Helper::formatCurrencyOutput($diff);
+                            $row[] = ($asset->depreciation) ? $asset->depreciated_date()->format('Y-m-d') : '';
+                        }
+
+                        if ($request->filled('checkout_date')) {
+                            $row[] = ($asset->last_checkout) ? $asset->last_checkout : '';
+                        }
+
+                        if ($request->filled('expected_checkin')) {
+                            $row[] = ($asset->expected_checkin) ? $asset->expected_checkin : '';
+                        }
+
+                        if ($request->filled('created_at')) {
+                            $row[] = ($asset->created_at) ? $asset->created_at : '';
+                        }
+
+                        if ($request->filled('updated_at')) {
+                            $row[] = ($asset->updated_at) ? $asset->updated_at : '';
+                        }
+
+                        if ($request->filled('deleted_at')) {
+                            $row[] = ($asset->deleted_at) ? $asset->deleted_at : '';
+                        }
+
+                        if ($request->filled('last_audit_date')) {
+                            $row[] = ($asset->last_audit_date) ? $asset->last_audit_date : '';
+                        }
+
+                        if ($request->filled('next_audit_date')) {
+                            $row[] = ($asset->next_audit_date) ? $asset->next_audit_date : '';
+                        }
+
+                        if ($request->filled('notes')) {
+                            $row[] = ($asset->notes) ? $asset->notes : '';
+                        }
+
+                        if ($request->filled('url')) {
+                            $row[] = config('app.url') . '/hardware/' . $asset->id;
+                        }
+
+                        foreach ($customfields as $customfield) {
+                            $column_name = $customfield->db_column_name();
+                            if ($request->filled($customfield->db_column_name())) {
+                                $row[] = $asset->$column_name;
+                            }
+                        }
+
+
+                        // CSV_ESCAPE_FORMULAS is set to false in the .env
+                        if (config('app.escape_formulas') === false) {
+                            fputcsv($handle, $row);
+
+                            // CSV_ESCAPE_FORMULAS is set to true or is not set in the .env
+                        } else {
+                            fputcsv($handle, $formatter->escapeRecord($row));
+                        }
+
+                        $executionTime = microtime(true) - $_SERVER['REQUEST_TIME_FLOAT'];
+                        \Log::debug('-- Record ' . $count . ' Asset ID:' . $asset->id . ' in ' . $executionTime);
+                    }
                 }
-            }
             );
 
             // Close the output stream
@@ -978,13 +983,13 @@ class ReportsController extends Controller
     }
 
     /**
-    * getAssetAcceptanceReport
-    *
-    * @return mixed
-    * @throws \Illuminate\Auth\Access\AuthorizationException
-    * @author  Vincent Sposato <vincent.sposato@gmail.com>
-    * @version v1.0
-    */
+     * getAssetAcceptanceReport
+     *
+     * @return mixed
+     * @throws \Illuminate\Auth\Access\AuthorizationException
+     * @author  Vincent Sposato <vincent.sposato@gmail.com>
+     * @version v1.0
+     */
     public function getAssetAcceptanceReport($deleted = false)
     {
         $this->authorize('reports.view');
@@ -1227,13 +1232,21 @@ class ReportsController extends Controller
     public function getStockReport()
     {
         $this->authorize('reports.view');
-        $models = Asset::select('model_id')->with('model')->where('status_id', 4)->get();
+        $models = DB::table('assets')
+            ->join('models', 'assets.model_id', '=', 'models.id')
+            ->join('manufacturers', 'models.manufacturer_id', '=', 'manufacturers.id')
+            ->select('asset_tag', 'models.name as model', 'models.model_number as part_number', 'manufacturers.name as manufacturer')
+            ->where('Status_id', 4)
+            ->orderBy('manufacturers.name', 'ASC');
+
         $stock = [];
         $count = [];
-        foreach ($models as $model) {
-            $count[$model->model->name] = ($count[$model->model->name] ?? 0) + 1;
-            $stock[$model->model->name] = array('part_number' => $model->model->model_number, 'qty' => $count[$model->model->name]);
+        foreach ($models->get() as $model) {
+            // dd($model->model->manufacturer);
+            $count[$model->model] = ($count[$model->model] ?? 0) + 1;
+            $stock[$model->model] = array('part_number' => $model->part_number, 'qty' => $count[$model->model]);
         }
+
         return view('reports/stock_report', compact('stock'));
     }
 }
