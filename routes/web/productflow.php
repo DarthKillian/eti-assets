@@ -1,13 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ReceivingController;
-
+use App\Http\Controllers\ProductFlowController;
 
 Route::group(['prefix' => 'productflow', 'middleware' => ['auth']], function () {
-    Route::get('receiving', [ReceivingController::class, 'index'])->name('receiving');
-    Route::get('show', [ReceivingController::class, 'show'])->name('productflow.receiving.show');
+    Route::get('receiving', [ProductFlowController::class, 'index'])->name('receiving');
+    Route::get('show', [ProductFlowController::class, 'show'])->name('productflow.receiving.show');
 });
-
-
-?>
