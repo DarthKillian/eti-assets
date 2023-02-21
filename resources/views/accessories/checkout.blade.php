@@ -62,7 +62,7 @@
 
           {{-- @include ('partials.forms.edit.user-select', ['translated_name' => trans('general.select_user'), 'fieldname' => 'assigned_to']) --}}
           {{-- Hardcoded value to dummy user. --}}
-          <input type="text" hidden=true name="assigned_to" id="assigned_to" value="8">
+          <input type="text" hidden=true name="assigned_to" id="assigned_to" value="{{\App\Models\User::where('username', '=', 'Accessories Checkout')->first()->id}}">
 
              @if ($accessory->requireAcceptance() || $accessory->getEula() || ($snipeSettings->slack_endpoint!=''))
                  <div class="form-group notification-callout">
