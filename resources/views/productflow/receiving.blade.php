@@ -38,7 +38,7 @@
                                     <a class="btn btn-link text-left" href="{{ URL::previous() }}">
                                         {{ trans('button.cancel') }}
                                     </a>
-                                    <button type="submit" class="btn btn-primary">
+                                    <button id="receiveBtn" type="submit" class="btn btn-primary" disabled="true">
                                         <i class="fas fa-check icon-white" aria-hidden="true"></i>
                                         Receive
                                     </button>
@@ -83,10 +83,10 @@
 @section('moar_scripts')
     <script>
         /* 
-                Send request via AJAX.
-                This is to improve speed. Unfortunately, I haven't found a pretty way to handle warnings with the current notifaction framework without a lot of copy/pasta
-                May revist this later to make it a little less chatty with the server. The idea is to keep calls to the server down and minimize redirects.
-            */
+            Send request via AJAX.
+            This is to improve speed. Unfortunately, I haven't found a pretty way to handle warnings with the current notifaction framework without a lot of copy/pasta
+            May revist this later to make it a little less chatty with the server. The idea is to keep calls to the server down and minimize redirects.
+        */
 
         $("#newInventoryBtn").on('click', () => {
             $("#buttonDropdown").modal('show');
@@ -94,6 +94,9 @@
 
         $("#newAsset").on('click', () => {
             $("#buttonDropdown").modal('hide');
+        });
+        $("#receiveParts").on('input', () => {
+            $("#receiveParts").val() == "" ? $("#receiveBtn").attr('disabled', true) : $("#receiveBtn").attr('disabled', false);
         });
 
         $("#create-form").submit((e) => {
@@ -114,6 +117,7 @@
                 $("#accessory-id").val(data.payload.id);
                 $("#accessory-model_number").val(model_number);
             }
+
             if ($("#receiveParts").val() != null && $("#receiveParts").val() != "") {
                 $.ajax({
                     type: "get",
@@ -124,7 +128,7 @@
                     success: (res) => {
 
                         if (res.status == "success" && (res.payload != undefined || res.payload !=
-                            null)) {
+                                null)) {
                             (res.messages == "asset") ? asset(res): accessory(res);
 
                             console.dir(res)
