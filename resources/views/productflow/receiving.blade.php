@@ -114,7 +114,7 @@
                 $("#accessory-id").val(data.payload.id);
                 $("#accessory-model_number").val(model_number);
             }
-            if ($("#receiveParts").val() != null || $("#receiveParts").val() != "") {
+            if ($("#receiveParts").val() != null && $("#receiveParts").val() != "") {
                 $.ajax({
                     type: "get",
                     url: "/productflow/show",
