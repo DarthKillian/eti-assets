@@ -17,7 +17,7 @@
             --}}
 
             {{-- This injects the serial number & accessory modals directly to the view instead of it being called through the modal framework 'api' --}}
-            @include('modals.serialnumber') 
+            @include('modals.serialnumber')
             @include('modals.accessory')
             @include('modals.button-dropdown');
 
@@ -83,10 +83,10 @@
 @section('moar_scripts')
     <script>
         /* 
-            Send request via AJAX.
-            This is to improve speed. Unfortunately, I haven't found a pretty way to handle warnings with the current notifaction framework without a lot of copy/pasta
-            May revist this later to make it a little less chatty with the server. The idea is to keep calls to the server down and minimize redirects.
-        */
+                Send request via AJAX.
+                This is to improve speed. Unfortunately, I haven't found a pretty way to handle warnings with the current notifaction framework without a lot of copy/pasta
+                May revist this later to make it a little less chatty with the server. The idea is to keep calls to the server down and minimize redirects.
+            */
 
         $("#newInventoryBtn").on('click', () => {
             $("#buttonDropdown").modal('show');
@@ -114,29 +114,32 @@
                 $("#accessory-id").val(data.payload.id);
                 $("#accessory-model_number").val(model_number);
             }
+            if ($("#receiveParts").val() != null || $("#receiveParts").val() != "") {
+                $.ajax({
+                    type: "get",
+                    url: "/productflow/show",
+                    data: {
+                        receiveParts: $("#receiveParts").val()
+                    },
+                    success: (res) => {
 
-            $.ajax({
-                type: "get",
-                url: "/productflow/show",
-                data: {
-                    receiveParts: $("#receiveParts").val()
-                },
-                success: (res) => {
+                        if (res.status == "success" && (res.payload != undefined || res.payload !=
+                            null)) {
+                            (res.messages == "asset") ? asset(res): accessory(res);
 
-                    if (res.status == "success" && (res.payload != undefined || res.payload != null)) {
-                        (res.messages == "asset") ? asset(res) : accessory(res);
-
-                        console.dir(res)
-                    } else {
-                        // Redirect with a known false value that will prompt the server to load our warning for us (ugly I know)
-                        window.location.href = "/productflow/show?receiveParts=0"
+                            console.dir(res)
+                        } else {
+                            // Redirect with a known false value that will prompt the server to load our warning for us (ugly I know)
+                            window.location.href = "/productflow/show?receiveParts=0"
+                        }
+                    },
+                    error: (err) => {
+                        console.dir(err)
                     }
-                },
-                error: (err) => {
-                    console.dir(err)
-                }
-            });
-            e.preventDefault();
+                });
+                e.preventDefault();
+            }
+
         });
 
         $("#serial-number-form").submit((e) => {
@@ -179,7 +182,6 @@
             $("#receiveParts").focus();
             $("#accessory_modal_error_msg").slideUp("fast");
         });
-
     </script>
     @include ('partials.bootstrap-table')
 @stop
