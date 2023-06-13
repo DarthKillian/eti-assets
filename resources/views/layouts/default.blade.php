@@ -572,14 +572,6 @@
                                 </ul>
                             </li>
                         @endcan
-                        @can('admin')
-                        <li {!! (Request::is('productflow*') ? ' class="active"' : '') !!}>
-                            <a href="{{ route('productflow.receiving') }}">
-                                <i class="fas fa-truck-moving fa-fw" aria-hidden="true"></i>
-                                <span>Product Flow</span>
-                            </a>
-                        </li>              
-                        @endcan
                         @can('view', \App\Models\License::class)
                             <li{!! (Request::is('licenses*') ? ' class="active"' : '') !!}>
                                 <a href="{{ route('licenses.index') }}">
@@ -772,11 +764,6 @@
                                     <li>
                                         <a href="{{ url('reports/accessories') }}" {{ (Request::is('reports/accessories') ? ' class="active"' : '') }}>
                                             {{ trans('general.accessory_report') }}
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ url('reports/stockreport') }}" {{ (Request::is('reports/stock_report') ? ' class="active"' : '') }}>
-                                            {{ trans('general.stock_report') }}
                                         </a>
                                     </li>
                                     <li>
