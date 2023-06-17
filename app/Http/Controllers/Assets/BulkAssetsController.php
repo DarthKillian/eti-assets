@@ -299,19 +299,24 @@ class BulkAssetsController extends Controller
                 $checkout_at = e($request->get('checkout_at'));
             }
 
-            $expected_checkin = '';
+            /* $expected_checkin = '';
 
             if ($request->filled('expected_checkin')) {
                 $expected_checkin = e($request->get('expected_checkin'));
+            } */
+
+            $company_id = '';
+            if ($request->filled('company_id')) {
+                $company_id = $request->get('company_id');
             }
 
             $errors = [];
-            DB::transaction(function () use ($target, $admin, $checkout_at, $expected_checkin, $errors, $asset_ids, $request) {
+            DB::transaction(function () use ($target, $admin, $checkout_at, $company_id, $errors, $asset_ids, $request) {
                 foreach ($asset_ids as $asset_id) {
                     $asset = Asset::findOrFail($asset_id);
                     $this->authorize('checkout', $asset);
 
-                    $error = $asset->checkOut($target, $admin, $checkout_at, $expected_checkin, e($request->get('note')), $asset->name, null);
+                    $error = $asset->checkOut($target, $admin, $checkout_at, $company_id, e($request->get('note')), $asset->name, null);
 
                     if ($target->location_id != '') {
                         $asset->location_id = $target->location_id;
