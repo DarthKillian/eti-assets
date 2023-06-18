@@ -304,7 +304,7 @@ class Asset extends Depreciable
      * @since [v3.0]
      * @return bool
      */
-    public function checkOut($target, $admin = null, $checkout_at = null, $company_id = null, $note = null, $name = null, $location = null)
+    public function checkOut($target, $admin = null, $checkout_at = null, $company_id = null, $status_id = null, $note = null, $name = null, $location = null)
     {
         if (! $target) {
             return false;
@@ -315,6 +315,10 @@ class Asset extends Depreciable
 
         if ($company_id) {
             $this->company_id = $company_id;
+        }
+
+        if ($status_id) {
+            $this->status_id = $status_id;
         }
 
         $this->last_checkout = $checkout_at;
