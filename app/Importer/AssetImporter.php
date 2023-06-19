@@ -132,6 +132,7 @@ class AssetImporter extends ItemImporter
             }
         }
 
+
         if ($asset->save()) {
             $asset->logCreate(trans('general.importer.import_note'));
             $this->log('Asset '.$this->item['name'].' with serial number '.$this->item['serial'].' was created');
