@@ -61,6 +61,9 @@
                             </div>
                         </div>
 
+                        {{-- Company --}}
+                        @include ('partials.forms.edit.company-select', ['translated_name' => trans('general.company'), 'fieldname' => 'company_id'])
+
                         <!-- Status -->
                         <div class="form-group {{ $errors->has('status_id') ? 'error' : '' }}">
                             {{ Form::label('status_id', trans('admin/hardware/form.status'), array('class' => 'col-md-3 control-label')) }}
@@ -70,15 +73,17 @@
                             </div>
                         </div>
 
-                    @include ('partials.forms.checkout-selector', ['user_select' => 'true','asset_select' => 'true', 'location_select' => 'true'])
+                    {{--
+                        I need to revist this later. I want to make it so that the used doesn't have to explicitly select location for checkout.
+                        We only use location for checkouts so there is no reason to have user or asset available for selection. This would require less clicks from the user as well.
+                    --}}
+                    @include ('partials.forms.checkout-selector', ['user_select' => 'false','asset_select' => 'false', 'location_select' => 'true'])
+                    @include ('partials.forms.edit.location-select', ['translated_name' => trans('general.location'), 'fieldname' => 'assigned_location', 'select' => 'true', 'style' => 'display:inherit;', 'required'=>'true'])                    
 
-                    @include ('partials.forms.edit.user-select', ['translated_name' => trans('general.user'), 'fieldname' => 'assigned_user', 'required'=>'true'])
+                    {{-- @include ('partials.forms.edit.user-select', ['translated_name' => trans('general.user'), 'fieldname' => 'assigned_user', 'required'=>'true']) --}}
 
                     <!-- We have to pass unselect here so that we don't default to the asset that's being checked out. We want that asset to be pre-selected everywhere else. -->
-                    @include ('partials.forms.edit.asset-select', ['translated_name' => trans('general.asset'), 'fieldname' => 'assigned_asset', 'unselect' => 'true', 'style' => 'display:none;', 'required'=>'true'])
-
-                    @include ('partials.forms.edit.location-select', ['translated_name' => trans('general.location'), 'fieldname' => 'assigned_location', 'style' => 'display:none;', 'required'=>'true'])
-
+                    {{-- @include ('partials.forms.edit.asset-select', ['translated_name' => trans('general.asset'), 'fieldname' => 'assigned_asset', 'unselect' => 'true', 'style' => 'display:none;', 'required'=>'true']) --}}
 
 
                     <!-- Checkout/Checkin Date -->
@@ -94,7 +99,7 @@
                         </div>
 
                         <!-- Expected Checkin Date -->
-                        <div class="form-group {{ $errors->has('expected_checkin') ? 'error' : '' }}">
+                        {{-- <div class="form-group {{ $errors->has('expected_checkin') ? 'error' : '' }}">
                             {{ Form::label('expected_checkin', trans('admin/hardware/form.expected_checkin'), array('class' => 'col-md-3 control-label')) }}
                             <div class="col-md-8">
                                 <div class="input-group date col-md-7" data-provide="datepicker" data-date-format="yyyy-mm-dd" data-date-start-date="0d" data-date-clear-btn="true">
@@ -103,7 +108,7 @@
                                 </div>
                                 {!! $errors->first('expected_checkin', '<span class="alert-msg" aria-hidden="true"><i class="fas fa-times" aria-hidden="true"></i> :message</span>') !!}
                             </div>
-                        </div>
+                        </div> --}}
 
                         <!-- Note -->
                         <div class="form-group {{ $errors->has('note') ? 'error' : '' }}">

@@ -27,13 +27,29 @@
         <form class="form-horizontal" method="post" action="" autocomplete="off">
           {{ csrf_field() }}
 
-          <!-- Checkout selector -->
-          @include ('partials.forms.checkout-selector', ['user_select' => 'true','asset_select' => 'true', 'location_select' => 'true'])
+          
 
-          @include ('partials.forms.edit.user-select', ['translated_name' => trans('general.user'), 'fieldname' => 'assigned_user', 'required'=>'true'])
+          @include ('partials.forms.edit.user-select', ['translated_name' => trans('general.user'), 'fieldname' => 'assigned_user', 'style' => 'display:none', 'required'=>'true'])
           @include ('partials.forms.edit.asset-select', ['translated_name' => trans('general.asset'), 'fieldname' => 'assigned_asset', 'unselect' => 'true', 'style' => 'display:none;', 'required'=>'true'])
-          @include ('partials.forms.edit.location-select', ['translated_name' => trans('general.location'), 'fieldname' => 'assigned_location', 'style' => 'display:none;', 'required'=>'true'])
+          
+          
+          {{-- Company --}}
+          @include ('partials.forms.edit.company-select', ['translated_name' => trans('general.company'), 'fieldname' => 'company_id'])
 
+          {{-- Status select.... heavily butchered and Frankensteined until I find a better solution... --}}
+          <div class="form-group">
+            {{ Form::label("Status", "Status", array('class' => 'col-md-3 control-label')) }}
+            <div class="col-md-7 required">
+              <select class="js-data-ajax" data-endpoint="statuslabels" data-placeholder="{{ trans('general.select_statuslabel') }}" name="status_id" style="width: 100%" id="status_select_id" aria-label="status_id" {!!  ((isset($item)) && (Helper::checkIfRequired($item, $fieldname))) ? ' data-validation="required" required' : '' !!}{{ (isset($multiple) && ($multiple=='true')) ? " multiple='multiple'" : '' }}>
+                  <option value=""  role="option">{{ trans('general.select_status') }}</option>    
+              </select>
+            </div>
+          </div>
+          
+          <!-- Checkout selector -->
+          @include ('partials.forms.checkout-selector', ['user_select' => 'false','asset_select' => 'false', 'location_select' => 'true'])
+          @include ('partials.forms.edit.location-select', ['translated_name' => trans('general.location'), 'fieldname' => 'assigned_location', 'style' => 'display:inherit;', 'required'=>'true'])
+         
           <!-- Checkout/Checkin Date -->
               <div class="form-group {{ $errors->has('checkout_at') ? 'error' : '' }}">
                   {{ Form::label('checkout_at', trans('admin/hardware/form.checkout_date'), array('class' => 'col-md-3 control-label')) }}
@@ -47,7 +63,7 @@
               </div>
 
               <!-- Expected Checkin Date -->
-              <div class="form-group {{ $errors->has('expected_checkin') ? 'error' : '' }}">
+              {{-- <div class="form-group {{ $errors->has('expected_checkin') ? 'error' : '' }}">
                   {{ Form::label('expected_checkin', trans('admin/hardware/form.expected_checkin'), array('class' => 'col-md-3 control-label')) }}
                   <div class="col-md-8">
                       <div class="input-group date col-md-5" data-provide="datepicker" data-date-format="yyyy-mm-dd" data-date-start-date="0d" data-date-clear-btn="true">
@@ -56,7 +72,7 @@
                       </div>
                       {!! $errors->first('expected_checkin', '<span class="alert-msg" aria-hidden="true"><i class="fas fa-times" aria-hidden="true"></i> :message</span>') !!}
                   </div>
-              </div>
+              </div> --}}
 
 
           <!-- Note -->

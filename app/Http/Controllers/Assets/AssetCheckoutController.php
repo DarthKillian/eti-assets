@@ -71,9 +71,16 @@ class AssetCheckoutController extends Controller
                 $checkout_at = $request->get('checkout_at');
             }
 
-            $expected_checkin = '';
+            // Removing expected checkin as that is not anything we use. Adding Company support for checkouts instead.
+            
+            /* $expected_checkin = '';
             if ($request->filled('expected_checkin')) {
                 $expected_checkin = $request->get('expected_checkin');
+            } */
+
+            $company_id = '';
+            if ($request->filled('company_id')) {
+                $company_id = $request->get('company_id');
             }
 
             if ($request->filled('status_id')) {
@@ -89,7 +96,7 @@ class AssetCheckoutController extends Controller
                 }
             }
 
-            if ($asset->checkOut($target, $admin, $checkout_at, $expected_checkin, e($request->get('note')), $request->get('name'))) {
+            if ($asset->checkOut($target, $admin, $checkout_at, $company_id, e($request->get('note')), $request->get('name'))) {
                 return redirect()->route('hardware.index')->with('success', trans('admin/hardware/message.checkout.success'));
             }
 
