@@ -83,8 +83,9 @@ class AssetCheckoutController extends Controller
                 $company_id = $request->get('company_id');
             }
 
+            $status_id = '';
             if ($request->filled('status_id')) {
-                $asset->status_id = $request->get('status_id');
+                $status_id = $request->get('status_id');
             }
 
             if(!empty($asset->licenseseats->all())){
@@ -96,7 +97,7 @@ class AssetCheckoutController extends Controller
                 }
             }
 
-            if ($asset->checkOut($target, $admin, $checkout_at, $company_id, e($request->get('note')), $request->get('name'))) {
+            if ($asset->checkOut($target, $admin, $checkout_at, $company_id, $status_id, e($request->get('note')), $request->get('name'))) {
                 return redirect()->route('hardware.index')->with('success', trans('admin/hardware/message.checkout.success'));
             }
 
