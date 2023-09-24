@@ -8,6 +8,7 @@ use App\Http\Controllers\CheckInOutRequest;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\AssetCheckoutRequest;
 use App\Models\Asset;
+use App\Models\Statuslabel;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Facades\Auth;
 
@@ -83,8 +84,15 @@ class AssetCheckoutController extends Controller
                 $company_id = $request->get('company_id');
             }
 
+            $status_id = '';
             if ($request->filled('status_id')) {
-                $asset->status_id = $request->get('status_id');
+                $status_id = $request->get('status_id');
+            }
+
+            $status = Statuslabel::find($status_id);
+
+            if($status->name == "Deployed" || $status->name == "Delivered to Customer Site") {
+                Asset::clearAudit($asset);
             }
 
             if(!empty($asset->licenseseats->all())){
@@ -96,7 +104,7 @@ class AssetCheckoutController extends Controller
                 }
             }
 
-            if ($asset->checkOut($target, $admin, $checkout_at, $company_id, e($request->get('note')), $request->get('name'))) {
+            if ($asset->checkOut($target, $admin, $checkout_at, $company_id, $status_id, e($request->get('note')), $request->get('name'))) {
                 return redirect()->route('hardware.index')->with('success', trans('admin/hardware/message.checkout.success'));
             }
 

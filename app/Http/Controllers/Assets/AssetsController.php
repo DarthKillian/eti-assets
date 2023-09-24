@@ -335,11 +335,9 @@ class AssetsController extends Controller
             $asset->location_id = $request->input('rtd_location_id', null);
         }
 
-        if($status->name == "Deployed") {
-            $asset->next_audit_date = null;
-            $asset->last_audit_date = date('Y-m-d H:i:s');
+        if($status->name == "Deployed" || $status->name == "Delivered to Customer Site") {
+            Asset::clearAudit($asset);
         }
-
 
         if ($request->filled('image_delete')) {
             try {
@@ -912,4 +910,5 @@ class AssetsController extends Controller
 
         return view('hardware/requested', compact('requestedItems'));
     }
+
 }
