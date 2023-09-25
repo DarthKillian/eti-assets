@@ -89,11 +89,15 @@ class AssetCheckoutController extends Controller
                 $status_id = $request->get('status_id');
             }
 
+            $order_number = '';
+            if($request->filled('order_number')) {
+                $order_number = $request->input('order_number');
+            }
+
             $status = Statuslabel::find($status_id);
 
             if($status->name == "Deployed" || $status->name == "Delivered to Customer Site") {
                 Asset::clearAudit($asset);
-
             }
 
             if(!empty($asset->licenseseats->all())){
@@ -105,7 +109,7 @@ class AssetCheckoutController extends Controller
                 }
             }
 
-            if ($asset->checkOut($target, $admin, $checkout_at, $company_id, $status_id, e($request->get('note')), $request->get('name'))) {
+            if ($asset->checkOut($target, $admin, $checkout_at, $company_id, $order_number, $status_id, e($request->get('note')), $request->get('name'))) {
                 return redirect()->route('hardware.index')->with('success', trans('admin/hardware/message.checkout.success'));
             }
 
