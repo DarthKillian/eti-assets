@@ -93,6 +93,7 @@ class AssetCheckoutController extends Controller
 
             if($status->name == "Deployed" || $status->name == "Delivered to Customer Site") {
                 Asset::clearAudit($asset);
+
             }
 
             if(!empty($asset->licenseseats->all())){
