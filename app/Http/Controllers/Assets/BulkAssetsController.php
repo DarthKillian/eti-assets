@@ -7,6 +7,7 @@ use App\Helpers\Helper;
 use App\Http\Controllers\CheckInOutRequest;
 use App\Http\Controllers\Controller;
 use App\Models\Asset;
+use App\Models\Statuslabel;
 use App\Models\Setting;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -320,11 +321,18 @@ class BulkAssetsController extends Controller
                 $status_id = $request->get('status_id');
             }
 
+
             $errors = [];
             DB::transaction(function () use ($target, $admin, $checkout_at, $company_id, $order_number, $status_id, $errors, $asset_ids, $request) {
                 foreach ($asset_ids as $asset_id) {
                     $asset = Asset::findOrFail($asset_id);
                     $this->authorize('checkout', $asset);
+
+                    $status = Statuslabel::find($status_id);
+
+                    if($status->name == "Deployed" || $status->name == "Delivered to Customer Site") {
+                        Asset::clearAudit($asset);
+                    }
 
                     $error = $asset->checkOut($target, $admin, $checkout_at, $company_id, $order_number, $status_id, e($request->get('note')), $asset->name, null);
 
