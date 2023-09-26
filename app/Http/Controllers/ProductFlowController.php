@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Manufacturer;
 use Auth;
 use App\Models\Asset;
 use App\Models\Company;
@@ -49,18 +50,35 @@ class ProductFlowController extends Controller
         }
     }
 
-
+    /**
+     * Creates new asset
+     * @param Request
+     */
     public function store(Request $request)
     {
         $this->authorize(Asset::class);
         $model_number = $request->input('model_number');
+        $model = AssetModel::where('model_number', '=', $model_number)->get()[0];
+        $serialNumber = $request->input('serial_number');
 
         $asset = new Asset();
+
+        if(Manufacturer::find($model->manufacturer_id)->name == "Axis") {
+            
+            if(mb_strlen($serialNumber) <= 12) {
+                $mac = preg_replace('~..(?!$)~', '\0-', str_replace(".", "", $serialNumber));
+                $asset->_snipeit_mac_address_1 = $mac;
+            } else {
+                return redirect()->route('productflow.receiving')->with('warning', "Axis Serial Number is not valid. Pleas verify that you have scanned the correct Bar Code.");
+            }
+            
+            $asset->name                = $model->name . " " . $serialNumber;
+        }
 
         $asset->asset_tag               = $request->input('asset_tag');
         $asset->company_id              = Company::select('id')->where('name', '=', 'ETI')->get()[0]->id; // Hardcoded to ETI
         $asset->model_id                = AssetModel::select('id')->where('model_number', '=', $request->input('model_number'))->get()[0]->id;
-        $asset->serial                  = $request->input('serial_number');
+        $asset->serial                  = $serialNumber;
         $asset->user_id                 = Auth::id();
         $asset->archived                = '0';
         $asset->physical                = '1';
