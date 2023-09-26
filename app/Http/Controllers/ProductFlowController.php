@@ -63,9 +63,9 @@ class ProductFlowController extends Controller
 
         $asset = new Asset();
 
+        // Auto set MAC address and name if device is an Axis product
         if(Manufacturer::find($model->manufacturer_id)->name == "Axis") {
-            
-            if(mb_strlen($serialNumber) <= 12) {
+            if(mb_strlen($serialNumber) == 12) {
                 $mac = preg_replace('~..(?!$)~', '\0-', str_replace(".", "", $serialNumber));
                 $asset->_snipeit_mac_address_1 = $mac;
             } else {
