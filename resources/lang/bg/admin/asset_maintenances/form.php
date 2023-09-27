@@ -9,6 +9,5 @@
         'is_warranty'            => 'Подобрение на гаранцията',
         'asset_maintenance_time' => 'Asset Maintenance Time (in days)',
         'notes'                  => 'Бележки',
-        'update'                 => 'Update Asset Maintenance',
-        'create'                 => 'Create Asset Maintenance'
-    ];
+        'update'                 => 'Обнови поддръжката на актив',
+        'create'                 => 'Създаване на поддръжка на актив'

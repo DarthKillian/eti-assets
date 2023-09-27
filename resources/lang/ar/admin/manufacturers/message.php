@@ -2,11 +2,7 @@
 
 return array(
 
-    'support_url_help' => 'Use <code>{LOCALE}</code> and <code>{SERIAL}</code> in your URL as variables to have those values auto-populate when viewing assets.',
-    'does_not_exist' => 'الشركة المصنعة غير موجودة.',
-    'assoc_users'	 => 'هذه الشركة المصنعة مرتبطة حاليا مع موديل واحد على الأقل وبالتالي لا يمكن حذفها. يرجى تحديث الموديلات الخاصة بك بحيث لا تشير لهذه الشركة المصنعة وحاول مرة أخرى. ',
-
-    'create' => array(
+    'support_url_help' => 'Variables <code>{LOCALE}</code>, <code>{SERIAL}</code>, <code>{MODEL_NUMBER}</code>, and <code>{MODEL_NAME}</code> may be used in your URL to have those values auto-populate when viewing assets - for example https://support.apple.com/{LOCALE}/{SERIAL}.',
         'error'   => 'لم يتم إنشاء هذه الشركة المصنعة، يرجى المحاولة مرة أخرى.',
         'success' => 'تم إنشاء الشركة المصنعة بنجاح.'
     ),

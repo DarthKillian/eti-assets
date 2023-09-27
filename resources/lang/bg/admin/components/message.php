@@ -24,11 +24,7 @@ return array(
         'error'   		=> 'Компонентът не беше отписан, моля опитайте отново.',
         'success' 		=> 'Компонентът отписан успешно.',
         'user_does_not_exist' => 'Невалиден потребител. Моля опитайте отново.',
-        'unavailable'      => 'Not enough components remaining: :remaining remaining, :requested requested ',
-    ),
-
-    'checkin' => array(
-        'error'   		=> 'Компонентът не беше вписан, моля опитайте отново.',
+        'unavailable'      => 'Няма достатъчно компоненти: :remaining налични, :requested заявени ',
         'success' 		=> 'Компонентът вписан успешно.',
         'user_does_not_exist' => 'Невалиден потребител. Моля опитайте отново.'
     )

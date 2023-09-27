@@ -2,11 +2,7 @@
 
 return array(
 
-    'support_url_help' => 'Use <code>{LOCALE}</code> and <code>{SERIAL}</code> in your URL as variables to have those values auto-populate when viewing assets.',
-    'does_not_exist' => 'Vervaardiger bestaan ​​nie.',
-    'assoc_users'	 => 'Hierdie vervaardiger word tans geassosieer met ten minste een model en kan nie verwyder word nie. Dateer asseblief jou modelle op om nie meer hierdie vervaardiger te gebruik nie en probeer weer.',
-
-    'create' => array(
+    'support_url_help' => 'Variables <code>{LOCALE}</code>, <code>{SERIAL}</code>, <code>{MODEL_NUMBER}</code>, and <code>{MODEL_NAME}</code> may be used in your URL to have those values auto-populate when viewing assets - for example https://support.apple.com/{LOCALE}/{SERIAL}.',
         'error'   => 'Vervaardiger is nie geskep nie, probeer asseblief weer.',
         'success' => 'Vervaardiger suksesvol geskep.'
     ),
