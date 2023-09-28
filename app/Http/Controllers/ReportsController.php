@@ -504,7 +504,6 @@ class ReportsController extends Controller
                 $header[] = trans('general.zip');
             }
 
-
             if ($request->filled('assigned_to')) {
                 $header[] = trans('admin/hardware/table.checkoutto');
                 $header[] = trans('general.type');
@@ -535,17 +534,22 @@ class ReportsController extends Controller
             }
 
             if ($request->filled('warranty')) {
-                $header[] = 'Warranty';
-                $header[] = 'Warranty Expires';
+                $header[] = trans('admin/hardware/form.warranty');
+                $header[] = trans('admin/hardware/form.warranty_expires');
             }
+
             if ($request->filled('depreciation')) {
-                $header[] = 'Value';
-                $header[] = 'Diff';
-                $header[] = 'Fully Depreciated';
+                $header[] = trans('admin/hardware/table.book_value');
+                $header[] = trans('admin/hardware/table.diff');
+                $header[] = trans('admin/hardware/form.fully_depreciated');
             }
 
             if ($request->filled('checkout_date')) {
                 $header[] = trans('admin/hardware/table.checkout_date');
+            }
+
+            if ($request->filled('checkin_date')) {
+                $header[] = trans('admin/hardware/table.last_checkin_date');
             }
 
             if ($request->filled('expected_checkin')) {
@@ -593,17 +597,10 @@ class ReportsController extends Controller
             $executionTime = microtime(true) - $_SERVER['REQUEST_TIME_FLOAT'];
             \Log::debug('Added headers: ' . $executionTime);
 
-            $assets = \App\Models\Company::scopeCompanyables(Asset::select('assets.*'))->with(
-                'location',
-                'assetstatus',
-                'company',
-                'defaultLoc',
-                'assignedTo',
-                'model.category',
-                'model.manufacturer',
-                'supplier'
-            );
-
+            $assets = Asset::select('assets.*')->with(
+                'location', 'assetstatus', 'company', 'defaultLoc', 'assignedTo',
+                'model.category', 'model.manufacturer', 'supplier');
+            
             if ($request->filled('by_location_id')) {
                 $assets->whereIn('assets.location_id', $request->input('by_location_id'));
             }
@@ -651,16 +648,16 @@ class ReportsController extends Controller
             if (($request->filled('created_start')) && ($request->filled('created_end'))) {
                 $assets->whereBetween('assets.created_at', [$request->input('created_start'), $request->input('created_end')]);
             }
-            if (($request->filled('checkout_date_start')) && ($request->filled('checkout_date_end'))) {
-                $assets->whereBetween('assets.last_checkout', [$request->input('checkout_date_start'), $request->input('checkout_date_end')]);
-            }
 
             if (($request->filled('expected_checkin_start')) && ($request->filled('expected_checkin_end'))) {
                 $assets->whereBetween('assets.expected_checkin', [$request->input('expected_checkin_start'), $request->input('expected_checkin_end')]);
             }
 
             if (($request->filled('last_audit_start')) && ($request->filled('last_audit_end'))) {
-                $assets->whereBetween('assets.last_audit_date', [$request->input('last_audit_start'), $request->input('last_audit_end')]);
+                $last_audit_start = \Carbon::parse($request->input('last_audit_start'))->startOfDay();
+                $last_audit_end = \Carbon::parse($request->input('last_audit_end'))->endOfDay();
+
+                $assets->whereBetween('assets.last_audit_date', [$last_audit_start, $last_audit_end]);
             }
 
             if (($request->filled('next_audit_start')) && ($request->filled('next_audit_end'))) {
@@ -832,9 +829,15 @@ class ReportsController extends Controller
                             $row[] = ($asset->depreciation) ? $asset->depreciated_date()->format('Y-m-d') : '';
                         }
 
-                        if ($request->filled('checkout_date')) {
-                            $row[] = ($asset->last_checkout) ? $asset->last_checkout : '';
-                        }
+                    if ($request->filled('checkout_date')) {
+                        $row[] = ($asset->last_checkout) ? $asset->last_checkout : '';
+                    }
+
+                    if ($request->filled('checkin_date')) {
+                        $row[] = ($asset->last_checkin)
+                            ? Carbon::parse($asset->last_checkin)->format('Y-m-d')
+                            : '';
+                    }
 
                         if ($request->filled('expected_checkin')) {
                             $row[] = ($asset->expected_checkin) ? $asset->expected_checkin : '';
@@ -1008,7 +1011,12 @@ class ReportsController extends Controller
 
         $assetsForReport = $acceptances
             ->filter(function ($acceptance) {
-                return $acceptance->checkoutable_type == 'App\Models\Asset';
+                $acceptance_checkoutable_flag = false;
+                if ($acceptance->checkoutable){
+                    $acceptance_checkoutable_flag = $acceptance->checkoutable->checkedOutToUser();
+                }
+                
+                return $acceptance->checkoutable_type == 'App\Models\Asset' && $acceptance_checkoutable_flag;
             })
             ->map(function ($acceptance) {
                 return ['assetItem' => $acceptance->checkoutable, 'acceptance' => $acceptance];
