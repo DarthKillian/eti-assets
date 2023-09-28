@@ -86,13 +86,13 @@
                         I need to revist this later. I want to make it so that the used doesn't have to explicitly select location for checkout.
                         We only use location for checkouts so there is no reason to have user or asset available for selection. This would require less clicks from the user as well.
                     --}}
-                    @include ('partials.forms.checkout-selector', ['user_select' => 'false','asset_select' => 'false', 'location_select' => 'true'])
+                    @include ('partials.forms.checkout-selector', ['user_select' => 'false','asset_select' => 'true', 'location_select' => 'true'])
                     @include ('partials.forms.edit.location-select', ['translated_name' => trans('general.location'), 'fieldname' => 'assigned_location', 'select' => 'true', 'style' => 'display:inherit;', 'required'=>'true'])                    
 
                     {{-- @include ('partials.forms.edit.user-select', ['translated_name' => trans('general.user'), 'fieldname' => 'assigned_user', 'required'=>'true']) --}}
 
                     <!-- We have to pass unselect here so that we don't default to the asset that's being checked out. We want that asset to be pre-selected everywhere else. -->
-                    {{-- @include ('partials.forms.edit.asset-select', ['translated_name' => trans('general.asset'), 'fieldname' => 'assigned_asset', 'unselect' => 'true', 'style' => 'display:none;', 'required'=>'true']) --}}
+                    @include ('partials.forms.edit.asset-select', ['translated_name' => trans('general.asset'), 'fieldname' => 'assigned_asset', 'unselect' => 'true', 'style' => 'display:none;', 'required'=>'true'])
 
 
                     <!-- Checkout/Checkin Date -->
