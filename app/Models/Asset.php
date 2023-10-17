@@ -198,7 +198,6 @@ class Asset extends Depreciable
      */
     public static function clearAudit(Asset $asset): void
     {
-        $asset->unsetEventDispatcher();
         $asset->next_audit_date = null;
         $asset->last_audit_date = date('Y-m-d H:i:s');
         if($asset->save()) {
