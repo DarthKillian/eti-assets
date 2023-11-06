@@ -72,6 +72,7 @@ class AssetMaintenance extends Model implements ICompanyableChild
     {
         return [
             trans('admin/asset_maintenances/general.eti_repair') => trans('admin/asset_maintenances/general.eti_repair'),
+            trans('admin/asset_maintenances/general.warranty_repair') => trans('admin/asset_maintenances/general.warranty_repair'),
             trans('admin/asset_maintenances/general.oow_repair') => trans('admin/asset_maintenances/general.oow_repair'),
             trans('admin/asset_maintenances/general.ar') => trans('admin/asset_maintenances/general.ar'),
         ];
