@@ -16,16 +16,15 @@ class CreateRmaTable extends Migration
         Schema::create('rma', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('asset_id')->unsigned();
-            $table->string('rma_number');
-            $table->string('case_number');
+            $table->string('rma_number')->nullable();
+            $table->string('case_number')->nullable();
             $table->integer('user_id')->unsigned();
-            $table->integer('manufacturer_id')->unsigned();
             $table->integer('company_id')->unsigned();
             $table->string('technician');
-            $table->string('status');
+            $table->string('status')->nullable();
             $table->longtext('notes');
             $table->date('start_date');
-            $table->date('completion_date');
+            $table->date('completion_date')->nullable();
             $table->timestamps();
             $table->engine = 'InnoDB';
         });

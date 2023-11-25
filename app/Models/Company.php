@@ -253,4 +253,9 @@ final class Company extends SnipeModel
     {
         return $this->hasMany(Component::class, 'company_id');
     }
+
+    public function rma()
+    {
+        return $this->hasMany(\App\Models\RMA::class, 'company_id');
+    }
 }
