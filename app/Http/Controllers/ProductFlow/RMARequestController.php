@@ -7,5 +7,8 @@ use Illuminate\Http\Request;
 
 class RMARequestController extends Controller
 {
-    //
+    public function index()
+    {
+        return view('productflow/rma/index');
+    }
 }

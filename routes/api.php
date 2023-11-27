@@ -766,6 +766,17 @@ Route::group(['prefix' => 'v1', 'middleware' => ['api', 'throttle:api']], functi
         ]
         ); // end asset models API routes
 
+        /* Route::group(['prefix', 'rma'], function() {
+
+        }); */
+
+        Route::resource('rma', Api\RMARequestController::class,
+        ['names' => [
+                'index' => 'api.rma.index'
+            ],
+            'parameters' => ['rma' => 'rma_id']
+        ]
+        );
 
 
         /**

@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\ProductFlow;
 
-use App\Models\Manufacturer;
 use Auth;
+use App\Http\Controllers\Controller;
+use App\Models\Manufacturer;
 use App\Models\Asset;
 use App\Models\Company;
 use App\Models\Statuslabel;

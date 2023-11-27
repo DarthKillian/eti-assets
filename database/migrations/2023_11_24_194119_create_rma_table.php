@@ -19,7 +19,6 @@ class CreateRmaTable extends Migration
             $table->string('rma_number')->nullable();
             $table->string('case_number')->nullable();
             $table->integer('user_id')->unsigned();
-            $table->integer('company_id')->unsigned();
             $table->string('technician');
             $table->string('status')->nullable();
             $table->longtext('notes');

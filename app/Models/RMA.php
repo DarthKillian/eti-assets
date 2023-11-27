@@ -4,10 +4,15 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\Relation;
+use App\Models\Traits\Acceptable;
+use App\Models\Traits\Searchable;
 
 class RMA extends Model
 {
     use HasFactory;
+    use Searchable;
+    use Acceptable;
 
     protected $table = 'rma';
     protected $fillable = [
@@ -25,7 +30,7 @@ class RMA extends Model
     ];
 
     /**
-     * Define Assets relationship
+     * Establish Assets -> rma relationship
      */
     public function assets()
     {
@@ -33,7 +38,7 @@ class RMA extends Model
     }
 
     /**
-     * Define Company relationship
+     * Establish Company -> rma relationship
      */
 
     public function company()
@@ -42,7 +47,7 @@ class RMA extends Model
     }
 
     /**
-     * Define Users relationship
+     * Establish user -> rma relationship
      */
     public function users()
     {
@@ -50,7 +55,7 @@ class RMA extends Model
     }
 
     /**
-     * Define Manufacturer relationship
+     * Establish Manufacturer -> rma relationship
      */
     public function manufacturer()
     {
@@ -58,7 +63,7 @@ class RMA extends Model
     }
 
     // Declare status options
-    public function getStatusOptions()
+    static public function getStatusOptions():array
     {
         return [
             'Pending',

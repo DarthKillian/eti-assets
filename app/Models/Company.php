@@ -256,6 +256,6 @@ final class Company extends SnipeModel
 
     public function rma()
     {
-        return $this->hasMany(\App\Models\RMA::class, 'company_id');
+        return $this->hasManyThrough(\App\Models\Company::class, \App\Models\Asset::class, 'company_id', 'asset_id', 'id', 'id');
     }
 }
