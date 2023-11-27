@@ -569,6 +569,14 @@
 
     }
 
+    function assetSerialLinkFormatter(value, row) {
+        if ((row.asset) && (row.asset.id)) {
+            return '<a href="{{ config('app.url') }}/hardware/' + row.asset.id + '">' + row.asset.serial + '</a>';
+        }
+        return '';
+
+    }
+
     function departmentNameLinkFormatter(value, row) {
         if ((row.assigned_user) && (row.assigned_user.department) && (row.assigned_user.department.name)) {
             return '<a href="{{ config('app.url') }}/department/' + row.assigned_user.department.id + '">' + row.assigned_user.department.name + '</a>';

@@ -25,6 +25,8 @@ class RMA extends Model
         'completion_date',
     ];
 
+    use Searchable;
+    use Acceptable;
     protected $searchableAttributes = ['rma_number', 'case_number', 'technician', 'notes', 'status', 'start_date', 'completion_date'];
 
     /**

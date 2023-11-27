@@ -24,9 +24,8 @@ class RMAPresenter extends Presenter
                 'field' => 'asset',
                 'searchable' => true,
                 'sortable' => true,
-                'switchable' => true,
                 'title' => 'Asset',
-                'formatter' => 'assetTagLinkFormatter',
+                'formatter' => 'assetSerialLinkFormatter',
             ], [
                 'field' => 'rma_number',
                 'searchable' => true,
