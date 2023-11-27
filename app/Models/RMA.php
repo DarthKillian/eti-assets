@@ -11,8 +11,6 @@ use App\Models\Traits\Searchable;
 class RMA extends Model
 {
     use HasFactory;
-    use Searchable;
-    use Acceptable;
 
     protected $table = 'rma';
     protected $fillable = [
@@ -20,14 +18,14 @@ class RMA extends Model
         'rma_number',
         'case_number',
         'user_id',
-        'manufacturer_id',
-        'company_id',
         'technician',
         'status',
         'notes',
         'start_date',
         'completion_date',
     ];
+
+    protected $searchableAttributes = ['rma_number', 'case_number', 'technician', 'notes', 'status', 'start_date', 'completion_date'];
 
     /**
      * Establish Assets -> rma relationship

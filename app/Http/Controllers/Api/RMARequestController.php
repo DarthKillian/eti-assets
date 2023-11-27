@@ -25,7 +25,7 @@ class RMARequestController extends Controller
             'completion_date'
         ];
 
-        $rmas = RMA::select('rma.*')->with(['assets', 'assets.company', 'assets.model.manufacturer']);
+        $rmas = RMA::select('rma.*')->with('assets', 'assets.company', 'assets.model.manufacturer');
 
         if ($request->filled('search')) {
             $rmas = $rmas->TextSearch($request->input('search'));
