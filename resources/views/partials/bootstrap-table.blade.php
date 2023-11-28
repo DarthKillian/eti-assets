@@ -238,7 +238,6 @@
         }
 
         return function (value,row) {
-
             var actions = '<nobr>';
 
             // Add some overrides for any funny urls we have
@@ -442,7 +441,8 @@
         'depreciations',
         'fieldsets',
         'groups',
-        'kits'
+        'kits',
+        'rma'
     ];
 
     for (var i in formatters) {
@@ -566,7 +566,12 @@
             return '<a href="{{ config('app.url') }}/hardware/' + row.asset.id + '">' + row.asset.asset_tag + '</a>';
         }
         return '';
+    }
 
+    function rmaRequestLinkFormatter(value, row) {
+        if((row.rma_number)) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.id}>${row.rma_number}</a>`;
+        }
     }
 
     function assetSerialLinkFormatter(value, row) {
@@ -696,7 +701,6 @@
 
 
     function fileUploadNameFormatter(value) {
-        console.dir(value);
         if ((value) && (value.filename) && (value.url)) {
             return '<a href="' + value.url + '">' + value.filename + '</a>';
         }

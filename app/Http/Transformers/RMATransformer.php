@@ -27,16 +27,22 @@ class RMATransformer
             'id' => $rma->id,
             'asset' => ($rma->assets) ? ['id' => $rma->assets->id, 'serial' => $rma->assets->serial, 'asset_tag' => e($rma->assets->asset_tag)] : null,
             'rma_number' => $rma->rma_number,
+            'case_number' => $rma->case_number,
+            'company' => $rma->assets->company->name,
+            'status' => $rma->status,
+            'technician' => $rma->technician,
+            'notes' => $rma->notes,
+            'requestor' => $rma->users->first_name . " " . $rma->users->last_name,
+            'start_date' => $rma->start_date,
+            'completion_date' => $rma->completion_date,
         ];
 
-       /*  $permissions_array['available_actions'] = [
-            'checkout' => Gate::allows('checkout', Accessory::class),
-            'checkin' =>  false,
-            'update' => Gate::allows('update', Accessory::class),
-            'delete' => Gate::allows('delete', Accessory::class),
-            'clone' => Gate::allows('create', Accessory::class),
+        $permissions_array['available_actions'] = [
+            'update' => Gate::allows('update', RMA::class),
+            'delete' => Gate::allows('delete', RMA::class),
+            'clone' => Gate::allows('create', RMA::class),
             
-        ]; */
+        ];
 
         // $permissions_array['user_can_checkout'] = false;
 
@@ -44,7 +50,7 @@ class RMATransformer
             $permissions_array['user_can_checkout'] = true;
         } */
 
-        // $array += $permissions_array;
+        $array += $permissions_array;
         return $array;
     }
 }

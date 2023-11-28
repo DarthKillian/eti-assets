@@ -6,11 +6,11 @@ RMA Requests
 @parent
 @stop
 
-{{-- @section('header_right')
+@section('header_right')
     @can('create', \App\Models\RMA::class)
-        <a href="{{ route('accessories.create') }}" accesskey="n" class="btn btn-primary pull-right"> {{ trans('general.create') }}</a>
+        <a href="{{ route('rma.create') }}" accesskey="n" class="btn btn-primary pull-right"> {{ trans('general.create') }}</a>
     @endcan
-@stop --}}
+@stop
 
 {{-- Page content --}}
 @section('content')
@@ -37,7 +37,7 @@ RMA Requests
                 data-sort-order="asc"
                 id="rmaRequestsTable"
                 class="table table-striped snipe-table"
-                data-url="{{route('api.rma.index') }}"
+                data-url="{{ route('api.rma.index') }}"
                 data-export-options='{
                     "fileName": "export-rma-{{ date('Y-m-d') }}",
                     "ignoreColumn": ["actions","image","change","checkbox","checkincheckout","icon"]

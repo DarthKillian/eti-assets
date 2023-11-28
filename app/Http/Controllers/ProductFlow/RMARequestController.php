@@ -11,4 +11,9 @@ class RMARequestController extends Controller
     {
         return view('productflow/rma/index');
     }
+
+    public function create ()
+    {
+        return "hello from RMA Create";
+    }
 }

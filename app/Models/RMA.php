@@ -29,6 +29,12 @@ class RMA extends Model
     use Acceptable;
     protected $searchableAttributes = ['rma_number', 'case_number', 'technician', 'notes', 'status', 'start_date', 'completion_date'];
 
+    protected $searchableRelations = [
+        'assets' => ['asset_tag', 'serial'],
+        'assets.company' => ['name'],
+        'assets.model.manufacturer' => ['name']
+    ];
+
     /**
      * Establish Assets -> rma relationship
      */

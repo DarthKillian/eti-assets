@@ -31,18 +31,49 @@ class RMAPresenter extends Presenter
                 'searchable' => true,
                 'sortable' => true,
                 'title' => 'RMA Number',
-                // 'formatter' => 'rmaLinkFormatter',
+                'formatter' => 'rmaRequestLinkFormatter',
+
             ], [
                 'field' => 'case_number',
                 'searchable' => true,
                 'sortable' => true,
                 'title' => 'Case Number',
+                'visible' => false,
                 // 'formatter' => 'caseLinkObjFormatter',
-            ], [
-                'field' => 'user',
+            ],
+            [
+                'field' => 'company',
                 'searchable' => true,
                 'sortable' => true,
-                'title' => 'User',
+                'title' => 'Company',
+            ],
+            [
+                'field' => 'status',
+                'searchable' => true,
+                'sortable' => true,
+                'title' => 'Status',
+                // 'formatter' => 'accessoriesLinkFormatter',
+            ], [
+                'field' => 'technician',
+                'searchable' => true,
+                'sortable' => true,
+                'title' => 'Technician',
+                // 'formatter' => 'accessoriesLinkFormatter',
+            ],
+            [
+                'field' => 'requestor',
+                'searchable' => true,
+                'sortable' => true,
+                'title' => 'Requestor',
+                'visible' => false,
+                // 'formatter' => 'accessoriesLinkFormatter',
+            ],
+            [
+                'field' => 'notes',
+                'searchable' => true,
+                'sortable' => true,
+                'title' => 'Notes',
+                'visible' => false,
                 // 'formatter' => 'accessoriesLinkFormatter',
             ], [
                 'field' => 'start_date',
@@ -56,8 +87,16 @@ class RMAPresenter extends Presenter
                 'searchable' => true,
                 'sortable' => true,
                 'title' => 'Completion Date',
-                'visible' => false,
+                'visible' => true,
                 // 'formatter' => 'suppliersLinkObjFormatter',
+            ],
+            [
+                'field' => 'actions',
+                'searchable' => false,
+                'sortable' => false,
+                'switchable' => false,
+                'title' => trans('table.actions'),
+                'formatter' => 'rmaActionsFormatter',
             ],
         ];
 
@@ -70,7 +109,7 @@ class RMAPresenter extends Presenter
      */
     public function nameUrl()
     {
-        return (string) link_to_route('accessories.show', $this->name, $this->id);
+        return (string) link_to_route('rma.show', $this->name, $this->id);
     }
 
     /**
@@ -79,7 +118,7 @@ class RMAPresenter extends Presenter
      */
     public function viewUrl()
     {
-        return route('accessories.show', $this->id);
+        return route('rma.show', $this->id);
     }
 
     public function name()

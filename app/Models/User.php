@@ -462,7 +462,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
 
     public function rma()
     {
-        return $this->belongsTo(\App\Models\RMA::class, 'id');
+        return $this->hasMany(\App\Models\RMA::class, 'id');
     }
 
     /**
