@@ -71,14 +71,10 @@ class AssetMaintenance extends Model implements ICompanyableChild
     public static function getImprovementOptions()
     {
         return [
-            trans('admin/asset_maintenances/general.maintenance') => trans('admin/asset_maintenances/general.maintenance'),
-            trans('admin/asset_maintenances/general.repair')      => trans('admin/asset_maintenances/general.repair'),
-            trans('admin/asset_maintenances/general.upgrade')     => trans('admin/asset_maintenances/general.upgrade'),
-            trans('admin/asset_maintenances/general.pat_test')     => trans('admin/asset_maintenances/general.pat_test'),
-            trans('admin/asset_maintenances/general.calibration')     => trans('admin/asset_maintenances/general.calibration'),
-            trans('admin/asset_maintenances/general.software_support')      => trans('admin/asset_maintenances/general.software_support'),
-            trans('admin/asset_maintenances/general.hardware_support')      => trans('admin/asset_maintenances/general.hardware_support'),
-            trans('admin/asset_maintenances/general.configuration_change')     => trans('admin/asset_maintenances/general.configuration_change'),
+            trans('admin/asset_maintenances/general.eti_repair') => trans('admin/asset_maintenances/general.eti_repair'),
+            trans('admin/asset_maintenances/general.warranty_repair') => trans('admin/asset_maintenances/general.warranty_repair'),
+            trans('admin/asset_maintenances/general.oow_repair') => trans('admin/asset_maintenances/general.oow_repair'),
+            trans('admin/asset_maintenances/general.ar') => trans('admin/asset_maintenances/general.ar'),
         ];
     }
 
