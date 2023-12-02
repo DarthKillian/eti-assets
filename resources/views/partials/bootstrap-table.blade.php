@@ -251,6 +251,10 @@
                 var dest = 'hardware/maintenances';
             }
 
+            if (dest = 'rma') {
+                var dest = 'productflow/rma';
+            }
+
             if(element_name != '') {
                 dest = dest + '/' + row.owner_id + '/' + element_name;
             }

@@ -3,9 +3,11 @@
 namespace App\Http\Controllers\ProductFlow;
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\ProductFlow\ProductFlowController;
 use Illuminate\Http\Request;
+use App\Models\RMA;
 
-class RMARequestController extends Controller
+class RMARequestController extends ProductFlowController
 {
     public function index()
     {
@@ -15,5 +17,10 @@ class RMARequestController extends Controller
     public function create ()
     {
         return "hello from RMA Create";
+    }
+
+    public function edit (RMA $rma)
+    {
+        dd($rma);
     }
 }
