@@ -7,10 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use App\Models\Traits\Acceptable;
 use App\Models\Traits\Searchable;
+use Watson\Validating\ValidatingTrait;
 
 class RMA extends Model
 {
-    use HasFactory;
+    use HasFactory, ValidatingTrait;
 
     protected $table = 'rma';
     protected $fillable = [
@@ -33,6 +34,11 @@ class RMA extends Model
         'assets' => ['asset_tag', 'serial'],
         'assets.company' => ['name'],
         'assets.model.manufacturer' => ['name']
+    ];
+
+    protected $rules = [
+        'asset_id' => 'required|integer',
+        'rma_type' => 'required',
     ];
 
     /**

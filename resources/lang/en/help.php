@@ -30,5 +30,7 @@ return [
     'consumables'   => 'Consumables are anything purchased that will be used up over time. For example, printer ink or copier paper.',
 
     'depreciations' => 'You can set up asset depreciations to depreciate assets based on straight-line depreciation.',
+    
+    'rma' => 'RMA Requests allow you to submit a request for advanced replacement, general warranty, or out of warranty.'
 
 ];

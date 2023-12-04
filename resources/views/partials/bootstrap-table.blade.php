@@ -251,8 +251,9 @@
                 var dest = 'hardware/maintenances';
             }
 
-            if (dest = 'rma') {
+            if (dest == 'rma') {
                 var dest = 'productflow/rma';
+                
             }
 
             if(element_name != '') {
@@ -268,11 +269,19 @@
             }
 
             if ((row.available_actions) && (row.available_actions.delete === true)) {
-
                 // use the asset tag if no name is provided
                 var name_for_box = row.name
                 if (row.name=='') {
                     var name_for_box = row.asset_tag
+                }
+
+                /*
+                    This bit is necessary to handle the RMA delete confirmation box.
+                    Since we don't have a row.name set from the RMATransformer, it is necessary to do this to prevent undefined in the confirm box.
+                    While this isn't the most elegant solution, it is able to check for both null and '' scenarios. As a reminder, rma_number is null by default and this is by design
+                */
+                if (dest == 'productflow/rma') {
+                    var name_for_box = `the RMA request for the serial number: ${row.asset.serial}`
                 }
                 
                 actions += '<a href="{{ config('app.url') }}/' + dest + '/' + row.id + '" '
