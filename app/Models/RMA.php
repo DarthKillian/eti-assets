@@ -38,7 +38,11 @@ class RMA extends Model
 
     protected $rules = [
         'asset_id' => 'required|integer',
-        'rma_type' => 'required',
+        'rma_status' => 'required',
+        'notes' => 'required',
+        'technician' => 'required',
+        'start_date' => 'required',
+        'completion_date' => 'nullable',
     ];
 
     /**
@@ -78,11 +82,11 @@ class RMA extends Model
     static public function getStatusOptions():array
     {
         return [
-            'Pending',
-            'RMA Approved | Warranty Repair',
-            'RMA Approved | OOW Repair',
-            'RMA Out for Repair',
-            'RMA Declined',
+            'Pending' => 'Pending',
+            'RMA Approved | Warranty Repair' => 'RMA Approved | Warranty Repair',
+            'RMA Approved | OOW Repair' => 'RMA Approved | OOW Repair',
+            'RMA Out for Repair' => 'RMA Out for Repair',
+            'RMA Declined' => 'RMA Declined',
         ];
     }
 }

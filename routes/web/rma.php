@@ -10,9 +10,9 @@ Route::group(['prefix' => 'productflow/rma', 'middleware' => ['auth']], function
 
     Route::post('store', [RMARequestController::class, 'store'])->name('rma.store');
 
-    Route::get('{id}', [RMARequestController::class, 'show'])->name('rma.show');
-
     Route::get('{id}/edit', [RMARequestController::class, 'edit'])->name('rma.edit');
+
+    Route::get('{id}', [RMARequestController::class, 'show'])->name('rma.show');
 
     Route::post('{id}/update', [RMARequestController::class, 'update'])->name('rma.update');
 
