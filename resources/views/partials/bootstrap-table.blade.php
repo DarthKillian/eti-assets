@@ -595,6 +595,15 @@
 
     }
 
+    function newAssetSerialLinkFormatter(value, row) {
+        console.dir(row);
+        if ((row.new_asset) && (row.new_asset.id)) {
+            return '<a href="{{ config('app.url') }}/hardware/' + row.new_asset.id + '">' + row.new_asset.serial + '</a>';
+        }
+        return '';
+
+    }
+
     function departmentNameLinkFormatter(value, row) {
         if ((row.assigned_user) && (row.assigned_user.department) && (row.assigned_user.department.name)) {
             return '<a href="{{ config('app.url') }}/department/' + row.assigned_user.department.id + '">' + row.assigned_user.department.name + '</a>';

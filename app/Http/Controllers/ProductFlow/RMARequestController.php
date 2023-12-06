@@ -9,14 +9,23 @@ use Illuminate\Http\Request;
 use App\Models\RMA;
 use View;
 use Auth;
+use Carbon\Carbon;
 
 class RMARequestController extends Controller
 {
+    /**
+     * Load RMA Request index table view
+     * 
+     */
     public function index()
     {
         return view('productflow/rma/index');
     }
 
+    /**
+     * Present RMA create view with an asset pre-select or blank
+     *  
+     */
     public function create (Request $request)
     {
         $this->authorize('create', RMA::class);
@@ -31,21 +40,44 @@ class RMARequestController extends Controller
         return $view;
     }
 
+    /**
+     * Store new asset
+     * 
+     */
     public function store (Request $request)
     {
         $this->authorize('update', RMA::class);
-        $rma = new RMA();
-        $rma->asset_id = $request->input('asset_id');
 
-        dd($request->all());
-
-        if ($rma->save()) {
-            dd("saved");
+        // Check if an open RMA already exists for the selected asset. We don't want more than one RMA open for the same asset.
+        // Should I add another contraint to this to check for the RMA status being completed as well???
+        $assetID = $request->input('asset_id');
+        $currentRMA = RMA::where('asset_id', $assetID)->where('completion_date', null)->get();
+        if (count($currentRMA)) {
+            return redirect()->back()->withInput()->with('warning', trans('admin/rma/message.rma_exists'));
         }
 
+        // Prepare new RMA
+        $rma = new RMA();
+        $rma->asset_id = $request->input('asset_id');
+        $rma->user_id = Auth::id();
+        $rma->notes = $request->input('notes');
+        $rma->technician = $request->input('technician');
+        $rma->start_date = Carbon::now()->isoFormat('Y-MM-DD');
+
+        // Save RMA
+        if ($rma->save()) {
+            return redirect()->route('rma.index')->with('success', trans('admin/rma/message.create.success'));
+        }
+
+        // Inform the user they have messed up royally...
         return redirect()->back()->withInput()->withErrors($rma->getErrors());
     }
 
+    /**
+     * Present edit form
+     * 
+     * TODO: Need to make some real logic if the RMA is not found
+     */
     public function edit ($rma_id = null)
     {
         $this->authorize('update', RMA::class);
@@ -68,11 +100,32 @@ class RMARequestController extends Controller
         
     }
 
+    /**
+     * Update the RMA
+     * 
+     */
+
+    public function update (Request $request)
+    {
+        dd($request->all());
+    }
+
+    /**
+     * Display an RMA with all of it's BEAUTIFUL information
+     */
+
     public function show(Request $request, $id = null)
     {
         dd(RMA::find($id));
     }  
 
+    /**
+     * "One does not simply destroy an RMA request"
+     * Need I say more??
+     * 
+     * Destroys RMA
+     * 
+     */
     public function destroy(RMA $id)
     {
         dd($id);

@@ -25,10 +25,14 @@ class RMATransformer
 
         $array = [
             'id' => $rma->id,
-            'asset' => ($rma->assets) ? ['id' => $rma->assets->id, 'serial' => $rma->assets->serial, 'asset_tag' => e($rma->assets->asset_tag)] : null,
+            'asset' => ($rma->asset) ? ['id' => $rma->asset->id, 'serial' => $rma->asset->serial, 'asset_tag' => e($rma->asset->asset_tag)] : null,
+            'new_asset' => ($rma->newAsset) ? ['id' => $rma->newAsset->id, 'serial' => $rma->newAsset->serial, 'asset_tag' => e($rma->newAsset->asset_tag)] : null,
             'rma_number' => $rma->rma_number,
             'case_number' => $rma->case_number,
-            'company' => $rma->assets->company->name,
+            'with_admin' => $rma->with_admin,
+            'warranty_expired' => $rma->warranty_expired,
+            'repair_cost' => $rma->repair_cost,
+            'company' => $rma->asset->company->name,
             'status' => $rma->status,
             'technician' => $rma->technician,
             'notes' => $rma->notes,

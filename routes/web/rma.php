@@ -14,7 +14,7 @@ Route::group(['prefix' => 'productflow/rma', 'middleware' => ['auth']], function
 
     Route::get('{id}', [RMARequestController::class, 'show'])->name('rma.show');
 
-    Route::post('{id}/update', [RMARequestController::class, 'update'])->name('rma.update');
+    Route::put('{id}/update', [RMARequestController::class, 'update'])->name('rma.update');
 
     Route::delete('{id}', [RMARequestController::class, 'destroy'])->name('rma.destroy');
 });

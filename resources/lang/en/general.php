@@ -466,6 +466,9 @@ return [
     'error_user_company_accept_view' => 'An Asset assigned to you belongs to a different company so you can\'t accept nor deny it, please check with your manager',
     'rma_notify' => 'Notify front office',
     'rma_notify_help' => 'Send an email notification to the admin',
+    'rma_with_admin' => 'In Admin Office',
+    'rma_with_admin_help' => 'Check this if the unit is in the front admin office',
+    'rma_warranty_expired' => 'Warranty Expired',
     'importer' => [
         'checked_out_to_fullname' => 'Checked Out to: Full Name',
         'checked_out_to_first_name' => 'Checked Out to: First Name',

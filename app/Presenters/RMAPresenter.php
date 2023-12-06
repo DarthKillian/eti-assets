@@ -26,7 +26,15 @@ class RMAPresenter extends Presenter
                 'sortable' => true,
                 'title' => 'Asset',
                 'formatter' => 'assetSerialLinkFormatter',
-            ], [
+            ],
+            [
+                'field' => 'new_asset',
+                'searchable' => true,
+                'sortable' => true,
+                'title' => 'New Asset',
+                'formatter' => 'newAssetSerialLinkFormatter',
+            ],
+            [
                 'field' => 'rma_number',
                 'searchable' => true,
                 'sortable' => true,
@@ -40,6 +48,27 @@ class RMAPresenter extends Presenter
                 'title' => 'Case Number',
                 'visible' => false,
                 // 'formatter' => 'caseLinkObjFormatter',
+            ],
+            [
+                'field' => 'with_admin',
+                'searchable' => false,
+                'sortable' => false,
+                'visible' => false,
+                'title' => 'In Admin Office',
+            ],
+            [
+                'field' => 'warranty_expired',
+                'searchable' => false,
+                'sortable' => false,
+                'visible' => false,
+                'title' => 'Warranty Expired',
+            ],
+            [
+                'field' => 'repair_cost',
+                'searchable' => false,
+                'sortable' => false,
+                'visible' => false,
+                'title' => 'Repair Cost',
             ],
             [
                 'field' => 'company',
