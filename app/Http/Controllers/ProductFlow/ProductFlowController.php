@@ -18,9 +18,13 @@ class ProductFlowController extends Controller
 {
     public function index(Request $request)
     {
-        // If new_rma parameter is in the url, set a session parameter to be checked below. This will determine the redirect behavior
+        // If new_rma parameter is in the url, set a session variable to be checked below. This will determine the redirect behavior
+
         if ($request->input('new_rma') == 1) {
             session()->put('rma-redirect', 'rma.create');
+        } else {
+            // Fail safe to purge the session variable in case if it lingers when we don't want it to.
+            session()->forget('rma-redirect');
         }
         return view('productflow/receiving');
     }
@@ -51,7 +55,12 @@ class ProductFlowController extends Controller
 
         // Redirect if model is not found
         if ($request->receiveParts == "0") {
-            return redirect()->route('productflow.receiving')->with('warning', "Model not found. Please click 'New' to add the model.")->with('model', $model);
+            if (session()->get('rma-redirect') == "rma.create") {
+                session()->forget('rma-redirect');
+                return redirect()->route('productflow.receiving', ['new_rma' => 1])->with('warning', "Model not found. Please click 'New' to add the model.")->with('model', $model);
+            } else {
+                return redirect()->route('productflow.receiving')->with('warning', "Model not found. Please click 'New' to add the model.")->with('model', $model);
+            }
         }
     }
 
