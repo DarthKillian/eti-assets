@@ -49,7 +49,7 @@ class RMARequestController extends Controller
         $this->authorize('update', RMA::class);
 
         // Check if an open RMA already exists for the selected asset. We don't want more than one RMA open for the same asset.
-        // Should I add another contraint to this to check for the RMA status being completed as well???
+        // Should I add another constraint to this to check for the RMA status being completed as well???
         $assetID = $request->input('asset_id');
         $currentRMA = RMA::where('asset_id', $assetID)->where('completion_date', null)->get();
         if (count($currentRMA)) {
@@ -83,7 +83,7 @@ class RMARequestController extends Controller
         $this->authorize('update', RMA::class);
         if ( !$rma = RMA::find($rma_id)) {
             // Let's add some real logic here to gracefully redirect with an error.
-            return "nothing found";
+            return redirect()->route('rma.index')->with('error', trans('admin/rma/message.not_found'));
         }
 
         /**
@@ -105,9 +105,12 @@ class RMARequestController extends Controller
      * 
      */
 
-    public function update (Request $request)
+    public function update (Request $request, $id = null)
     {
-        dd($request->all());
+        if(!$rma = RMA::find($id)) {
+
+        }
+
     }
 
     /**

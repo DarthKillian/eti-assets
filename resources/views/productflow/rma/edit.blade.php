@@ -1,7 +1,8 @@
 @extends('layouts/edit-form', [
     'createText' => 'Create RMA Request',
     'updateText' => 'Update RMA',
-    'topSubmit' => true,
+    'topSubmit' => (Route::is('rma.create')) ? false : true,
+    'newAsset' => (Route::is('rma.create')) ? true : false,
     'helpText' => trans('help.rma'),
     'helpPosition' => 'right',
     'formAction' => ($item->id) ? route('rma.update', ['id' => $item->id]) : route('rma.store'),
@@ -12,10 +13,6 @@
 
   {{-- Asset select --}}
     @include ('partials.forms.edit.asset-select', ['translated_name' => trans('admin/hardware/table.asset_tag'), 'fieldname' => 'asset_id', 'required' => 'true'])
-
-  @if(Route::is('rma.create'))
-      <a href="{{ route('productflow.receiving', ['new_rma' => 1]) }}" class="btn btn-sm btn-primary" id="newAssetBtn">{{ trans('general.new_asset') }}</a>
-  @endif
 
   <!-- Notes -->
   <div class="form-group {{ $errors->has('notes') ? ' has-error' : '' }}">
