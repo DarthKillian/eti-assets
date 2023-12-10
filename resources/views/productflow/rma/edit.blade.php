@@ -12,7 +12,7 @@
 @section('inputFields')
 
   {{-- Asset select --}}
-    @include ('partials.forms.edit.asset-select', ['translated_name' => trans('admin/hardware/table.asset_tag'), 'fieldname' => 'asset_id', 'required' => 'true'])
+    @include ('partials.forms.edit.asset-select', ['translated_name' => trans('admin/rma/form.asset'), 'fieldname' => 'asset_id', 'required' => 'true'])
 
   <!-- Notes -->
   <div class="form-group {{ $errors->has('notes') ? ' has-error' : '' }}">
@@ -40,6 +40,28 @@
   @if(isset($item->id))
     {{-- RMA Request Status --}}
     @include('partials.forms.edit.rma_status', ['status' => $item->status])
+
+    <!-- RMA Number -->
+    <div class="form-group {{ $errors->has('rma_number') ? ' has-error' : '' }}">
+      <label for="rma_number" class="col-md-3 control-label">
+        {{ trans('admin/rma/form.rma_number') }}
+      </label>
+      <div class="col-md-2{{  (Helper::checkIfRequired($item, 'rma_number')) ? ' required' : '' }}">
+        <input class="form-control" type="text" name="rma_number" class="col-md-6 form-control" id="rma_number" value="{{ old('rma_number', $item->rma_number) }}" />
+        {!! $errors->first('rma_number', '<span class="alert-msg" aria-hidden="true"><i class="fas fa-times" aria-hidden="true"></i> :message</span>') !!}
+      </div>
+    </div>
+
+    <!-- RMA Number -->
+    <div class="form-group {{ $errors->has('case_number') ? ' has-error' : '' }}">
+      <label for="case_number" class="col-md-3 control-label">
+        {{ trans('admin/rma/form.case_number') }}
+      </label>
+      <div class="col-md-2{{  (Helper::checkIfRequired($item, 'case_number')) ? ' required' : '' }}">
+        <input class="form-control" type="text" name="case_number" class="col-md-6 form-control" id="case_number" value="{{ old('case_number', $item->case_number) }}" />
+        {!! $errors->first('case_number', '<span class="alert-msg" aria-hidden="true"><i class="fas fa-times" aria-hidden="true"></i> :message</span>') !!}
+      </div>
+    </div>
 
     <!-- Start Date -->
     <div class="form-group {{ $errors->has('start_date') ? ' has-error' : '' }}">
@@ -97,6 +119,8 @@
         {!! $errors->first('repair_cost', '<span class="alert-msg" aria-hidden="true"><i class="fas fa-times" aria-hidden="true"></i> :message</span>') !!}
       </div>
     </div>
+    @include('partials.forms.edit.new-asset-select', ['translated_name' => trans('admin/rma/form.new_asset'), 'fieldname' => 'new_asset_id', 'required' => 'false'])    
+
   @endif
 
   {{-- Display notification option if the route is create. I may add a way to send a notification on an update but I don't think that's needed right now --}}

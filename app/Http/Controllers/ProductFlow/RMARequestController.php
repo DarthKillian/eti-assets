@@ -51,7 +51,7 @@ class RMARequestController extends Controller
         // Check if an open RMA already exists for the selected asset. We don't want more than one RMA open for the same asset.
         // Should I add another constraint to this to check for the RMA status being completed as well???
         $assetID = $request->input('asset_id');
-        $currentRMA = RMA::where('asset_id', $assetID)->where('completion_date', null)->get();
+        $currentRMA = RMA::checkRMAComplete($assetID)->get();
         if (count($currentRMA)) {
             return redirect()->back()->withInput()->with('warning', trans('admin/rma/message.rma_exists'));
         }
@@ -108,8 +108,61 @@ class RMARequestController extends Controller
     public function update (Request $request, $id = null)
     {
         if(!$rma = RMA::find($id)) {
-
+            return redirect()->back()->with('error', trans('admin/rma/message.not_found'));
         }
+
+        $this->authorize($rma);
+
+        $rules = [];
+        
+
+        if ($request->input('rma_status') == "RMA Declined") {
+            $rules = ['completion_date' => 'required'];
+        }
+
+        if ($request->input('rma_status') != "Pending" && $request->input('rma_status') != "RMA Declined") {
+            $rules = ['rma_number' => 'required', 'case_number' => 'required'];
+        }
+
+        if ($request->input('rma_status') == "RMA Complete") {
+            $rules = ['rma_number' => 'required', 'case_number' => 'required', 'completion_date'=> 'required'];
+        }
+
+        $request->validate($rules);
+
+        $rma->new_asset_id = null;
+        if ($request->filled('new_asset_id')) {
+            $rma->new_asset_id = $request->new_asset_id;
+        }
+
+        if ($request->filled('with_admin')) {
+            $rma->with_admin = $request->input('with_admin');
+        }
+
+        if ($request->filled('warranty_expired')) {
+            $rma->warranty_expired = $request->input('warranty_expired');
+        }
+
+        if ($request->filled('completion_date')) {
+            $rma->completion_date = $request->input('completion_date');
+        }
+
+        if ($request->filled('repair_cost')) {
+            $rma->repair_cost = $request->input('repair_cost');
+        }
+
+        $rma->asset_id = $request->input('asset_id');
+        $rma->notes = $request->input('notes');
+        $rma->technician = $request->input('technician');
+        $rma->status = $request->input('rma_status');
+        $rma->start_date = $request->input('start_date');
+        
+        if ($rma->save()) {
+            $rma->updateAsset();
+            return redirect()->route('rma.index')->with('success', trans('admin/rma/message.update.success'));
+        }
+
+        return redirect()->back()->withInput()->withErrors($rma->getErrors());
 
     }
 

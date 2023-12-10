@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Relations\Relation;
 use App\Models\Traits\Acceptable;
 use App\Models\Traits\Searchable;
 use Watson\Validating\ValidatingTrait;
+use App\Models\Statuslabel;
 
 class RMA extends Model
 {
@@ -53,7 +54,6 @@ class RMA extends Model
         'notes' => 'required',
         'technician' => 'required',
         'start_date' => 'required',
-        'completion_date' => 'nullable',
     ];
 
     /**
@@ -106,5 +106,26 @@ class RMA extends Model
             'RMA Complete' => 'RMA Complete',
             'RMA Declined' => 'RMA Declined',
         ];
+    }
+
+    private function getStatusID($status)
+     {
+        return $this->asset->assetStatus->where('name', $status)->get()[0]->id;
+     }
+
+    public function updateAsset()
+    {
+        $statusID = null;
+        if ($this->rma_status = 'Pending') {
+            $statusID = $this->getStatusID('RMA Requested');
+            $this->asset->status_id = $statusID;
+        }
+
+        $this->asset->save();
+    }
+
+    public function scopeCheckRMAComplete($query, $assetID)
+    {
+        return $query->where('asset_id', $assetID)->where('completion_date', null);
     }
 }

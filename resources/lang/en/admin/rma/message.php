@@ -7,5 +7,11 @@ return
 
     'create' => [
         'success' => 'RMA successfully created!',
+        'error' => 'RMA could not be created'
     ],
+
+    'update' => [
+        'success' => 'RMA successfully updated!',
+        'error' => 'There was an issue updating the RMA'
+    ]
 ];
