@@ -53,10 +53,8 @@
                             @if((isset($newAsset) && ($newAsset == 'true')))
                                 <div class="col-md-3 text-right" style="padding-right: 10px;">
                                     @if(Route::is('rma.create'))
-                                        <a href="{{ route('productflow.receiving', ['new_rma' => 1]) }}" >
-                                            <button class="btn btn-sm btn-primary pull-right" id="newAssetBtn">
-                                                {{ trans('general.new_asset') }}
-                                            </button>
+                                        <a href="{{ route('productflow.receiving', ['new_rma' => 1]) }}" class="btn btn-sm btn-primary pull-right" id="newAssetBtn" >
+                                            {{ trans('general.new_asset') }}
                                         </a>
                                     @endif
                                 </div>

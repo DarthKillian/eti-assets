@@ -52,7 +52,7 @@
       </div>
     </div>
 
-    <!-- RMA Number -->
+    <!-- Case Number -->
     <div class="form-group {{ $errors->has('case_number') ? ' has-error' : '' }}">
       <label for="case_number" class="col-md-3 control-label">
         {{ trans('admin/rma/form.case_number') }}
@@ -91,7 +91,7 @@
     <div class="form-group">
       <div class="col-md-7 col-md-offset-3">
           <label for="with_admin" class="form-control">
-              <input type="checkbox" value="0" name="with_admin" aria-label="with_admin">
+              <input type="checkbox" name="with_admin" {{ (old('with_admin', $item->with_admin)) == '1' ? ' checked="checked"' : '' }} aria-label="with_admin">
               {{ trans('admin/rma/form.with_admin') }}
           </label>
           <p class="help-block">{{ trans('general.rma_with_admin_help') }}
@@ -103,7 +103,7 @@
     <div class="form-group">
         <div class="col-md-7 col-md-offset-3">
             <label for="warranty_expired" class="form-control">
-                <input type="checkbox" value="0" name="warranty_expired" aria-label="warranty_expired">
+                <input type="checkbox" name="warranty_expired" {{ (old('warranty_expired', $item->warranty_expired)) == '1' ? ' checked="checked"' : '' }} aria-label="warranty_expired">
                 {{ trans('admin/rma/form.warranty_expired') }}
             </label>
         </div>

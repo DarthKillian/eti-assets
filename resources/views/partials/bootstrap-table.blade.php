@@ -587,6 +587,12 @@
         }
     }
 
+    function rmaStatusLinkFormatter(value, row) {
+        if((row.status)) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.id}>${row.status}</a>`;
+        }
+    }
+
     function assetSerialLinkFormatter(value, row) {
         if ((row.asset) && (row.asset.id)) {
             return '<a href="{{ config('app.url') }}/hardware/' + row.asset.id + '">' + row.asset.serial + '</a>';
@@ -596,7 +602,6 @@
     }
 
     function newAssetSerialLinkFormatter(value, row) {
-        console.dir(row);
         if ((row.new_asset) && (row.new_asset.id)) {
             return '<a href="{{ config('app.url') }}/hardware/' + row.new_asset.id + '">' + row.new_asset.serial + '</a>';
         }

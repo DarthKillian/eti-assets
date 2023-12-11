@@ -64,9 +64,22 @@ class RMA extends Model
         return $this->belongsTo(\App\Models\Asset::class, 'asset_id');
     }
 
+    /**
+     * Establish new asset relationship
+     */
+
     public function newAsset()
     {
         return $this->belongsTo(\App\Models\Asset::class, 'new_asset_id');
+    }
+
+    /**
+     * 
+     * Establish rma -> asset maintenance relationship
+     */
+    public function assetMaintenance()
+    {
+        return $this->belongsTo(\App\Models\AssetMaintenance::class, 'asset_maintenance_id');
     }
 
     /**
@@ -95,7 +108,7 @@ class RMA extends Model
     }
 
     // Declare status options
-    static public function getStatusOptions():array
+    static public function getStatusOptions(): array
     {
         return [
             'Pending' => 'Pending',
@@ -109,19 +122,87 @@ class RMA extends Model
     }
 
     private function getStatusID($status)
-     {
-        return $this->asset->assetStatus->where('name', $status)->get()[0]->id;
-     }
+    {
+        return $this->asset->assetStatus->where('name', $status)->firstOrFail();
+    }
 
-    public function updateAsset()
+    /**
+     * Update Asset Status after RMA gets saved/Updated
+     * 
+     * This method is kind of clunky with if statements but is necessary to check the old RMA status and new RMA status to properly update & track asset status & maintenance status
+     */
+    public function updateAsset($oldRMAStatus = null, $oldAssetStatus = null)
     {
         $statusID = null;
-        if ($this->rma_status = 'Pending') {
-            $statusID = $this->getStatusID('RMA Requested');
-            $this->asset->status_id = $statusID;
+        $newRMAStatus = $this->status;
+
+        if ($newRMAStatus == null) {
+            $newRMAStatus = "Pending";
         }
 
-        $this->asset->save();
+        switch ($newRMAStatus) {
+            case "Pending":
+                // New RMA request | Set to RMA Requested
+                $statusID = $this->getStatusID('RMA Requested')->id;
+                $this->asset->status_id = $statusID;
+                break;
+            case "RMA Approved | Warranty Repair":
+                // RMA Approved
+                $statusID = $this->getStatusID('RMA Approved - Ready to Ship')->id;
+                $this->asset->status_id = $statusID;
+                break;
+            case "RMA Approved | OOW Repair":
+                // RMA Approved
+                $statusID = $this->getStatusID('RMA Approved - Ready to Ship')->id;
+                $this->asset->status_id = $statusID;
+                break;
+            case "RMA Approved | Advanced Replacement":
+                // Advanced Replacement
+                $statusID = $this->getStatusID('Adv RMA')->id;
+                $this->asset->status_id = $statusID;
+                break;
+            case "RMA Out for Repair":
+                // RMA Out for Warranty Repair
+                if ($oldRMAStatus == "RMA Approved | Warranty Repair") {
+                    $statusID = $this->getStatusID('RMA Out for Repair')->id;
+                    $this->asset->status_id = $statusID;
+                }
+
+                // RMA Out for OOW Repair
+                if ($oldRMAStatus == "RMA Approved | OOW Repair") {
+                    $statusID = $this->getStatusID('Out for non-Warranty Repair')->id;
+                    $this->asset->status_id = $statusID;
+                }
+                break;
+            case "RMA Complete":
+                // New Asset Serial Number received
+                if ($oldRMAStatus == "RMA Out for Repair" && $this->new_asset_id != null) {
+                    $statusID = $this->getStatusID('RMA Complete/Returned to Vendor')->id;
+                    $this->asset->status_id = $statusID;
+                }
+                if ($oldRMAStatus == "RMA Out for Repair" && $this->new_asset_id == null) {
+                    if ($this->asset->company->name != "ETI") {
+                        $statusID = $this->getStatusID('Ready to Deploy')->id;
+                        $this->asset->status_id = $statusID;
+                    }
+
+                    if ($this->asset->company->name == "ETI") {
+                        $statusID = $this->getStatusID('Stock')->id;
+                        $this->asset->status_id = $statusID;
+                    }
+                }
+                if ($oldRMAStatus == "RMA Approved | Advanced Replacement") {
+                    $statusID = $this->getStatusID('RMA Complete/Returned to Vendor')->id;
+                    $this->asset->status_id = $statusID;
+                }
+                break;
+            case "RMA Declined":
+                $statusID = $this->getStatusID('Decomissioned/Retired')->id;
+                $this->asset->status_id = $statusID;
+                break;
+        }
+
+        return $this->asset->save() ? true : false;
     }
 
     public function scopeCheckRMAComplete($query, $assetID)

@@ -13,5 +13,10 @@ return
     'update' => [
         'success' => 'RMA successfully updated!',
         'error' => 'There was an issue updating the RMA'
+    ],
+
+    'delete' => [
+        'success' => 'RMA successfully deleted!',
+        'error' => "Looks like you can't do the simplest thing... Error during RMA delete!"
     ]
 ];

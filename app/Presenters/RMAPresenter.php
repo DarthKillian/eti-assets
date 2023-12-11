@@ -55,6 +55,7 @@ class RMAPresenter extends Presenter
                 'sortable' => false,
                 'visible' => false,
                 'title' => 'In Admin Office',
+                'formatter' => 'trueFalseFormatter'
             ],
             [
                 'field' => 'warranty_expired',
@@ -62,6 +63,7 @@ class RMAPresenter extends Presenter
                 'sortable' => false,
                 'visible' => false,
                 'title' => 'Warranty Expired',
+                'formatter' => 'trueFalseFormatter'
             ],
             [
                 'field' => 'repair_cost',
@@ -77,11 +79,17 @@ class RMAPresenter extends Presenter
                 'title' => 'Company',
             ],
             [
+                'field' => 'manufacturer',
+                'searchable' => true,
+                'sortable' => true,
+                'title' => 'Manufacturer',
+            ],
+            [
                 'field' => 'status',
                 'searchable' => true,
                 'sortable' => true,
                 'title' => 'Status',
-                // 'formatter' => 'accessoriesLinkFormatter',
+                'formatter' => 'rmaStatusLinkFormatter',
             ], [
                 'field' => 'technician',
                 'searchable' => true,

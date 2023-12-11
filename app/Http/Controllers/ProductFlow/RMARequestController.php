@@ -5,6 +5,7 @@ namespace App\Http\Controllers\ProductFlow;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\ProductFlow\ProductFlowController;
 use App\Models\Asset;
+use App\Models\AssetMaintenance;
 use Illuminate\Http\Request;
 use App\Models\RMA;
 use View;
@@ -65,7 +66,7 @@ class RMARequestController extends Controller
         $rma->start_date = Carbon::now()->isoFormat('Y-MM-DD');
 
         // Save RMA
-        if ($rma->save()) {
+        if ($rma->save() && $rma->updateAsset(null, null)) {
             return redirect()->route('rma.index')->with('success', trans('admin/rma/message.create.success'));
         }
 
@@ -101,6 +102,24 @@ class RMARequestController extends Controller
     }
 
     /**
+     * Display an RMA with all of it's BEAUTIFUL information
+     */
+
+     public function show($id = null)
+     {
+         $rma = RMA::find($id);
+         $maintenance = AssetMaintenance::find($rma->asset_maintenance_id);
+         $this->authorize('view', $rma);
+
+         if (isset($rma)) {
+            return view('productflow.rma.view', compact('rma'));
+         }
+
+         return redirect()->route('rma.index')->with('error', trans('admin/rma/message.not_found'));
+     }  
+ 
+
+    /**
      * Update the RMA
      * 
      */
@@ -115,6 +134,8 @@ class RMARequestController extends Controller
 
         $rules = [];
         
+        $oldRMAStatus = $rma->status;
+        $oldAssetStatus = $rma->asset->assetStatus->get()[0]->id;
 
         if ($request->input('rma_status') == "RMA Declined") {
             $rules = ['completion_date' => 'required'];
@@ -135,12 +156,14 @@ class RMARequestController extends Controller
             $rma->new_asset_id = $request->new_asset_id;
         }
 
+        $rma->with_admin = 0;
         if ($request->filled('with_admin')) {
-            $rma->with_admin = $request->input('with_admin');
+            $rma->with_admin = 1;
         }
 
+        $rma->warranty_expired = 0;
         if ($request->filled('warranty_expired')) {
-            $rma->warranty_expired = $request->input('warranty_expired');
+            $rma->warranty_expired = 1;
         }
 
         if ($request->filled('completion_date')) {
@@ -152,13 +175,14 @@ class RMARequestController extends Controller
         }
 
         $rma->asset_id = $request->input('asset_id');
+        $rma->rma_number = $request->input('rma_number');
+        $rma->case_number = $request->input('case_number');
         $rma->notes = $request->input('notes');
         $rma->technician = $request->input('technician');
         $rma->status = $request->input('rma_status');
         $rma->start_date = $request->input('start_date');
         
-        if ($rma->save()) {
-            $rma->updateAsset();
+        if ($rma->save() && $rma->updateAsset($oldRMAStatus, $oldAssetStatus)) {
             return redirect()->route('rma.index')->with('success', trans('admin/rma/message.update.success'));
         }
 
@@ -167,23 +191,21 @@ class RMARequestController extends Controller
     }
 
     /**
-     * Display an RMA with all of it's BEAUTIFUL information
-     */
-
-    public function show(Request $request, $id = null)
-    {
-        dd(RMA::find($id));
-    }  
-
-    /**
      * "One does not simply destroy an RMA request"
      * Need I say more??
      * 
      * Destroys RMA
      * 
      */
-    public function destroy(RMA $id)
+    public function destroy($id)
     {
-        dd($id);
+        if (is_null($rma = RMA::find($id))) {
+            return redirect()->route('rma.index')->with('error', trans('admin/rma/message.not_found'));
+        }
+        $this->authorize('delete', $rma);
+
+        $rma->delete();
+
+        return redirect()->route('rma.index')->with('success', trans('admin/rma/message.delete.success'));
     }
 }

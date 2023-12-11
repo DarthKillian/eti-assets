@@ -17,10 +17,11 @@ class CreateRmaTable extends Migration
             $table->increments('id');
             $table->integer('asset_id')->unsigned();
             $table->integer('new_asset_id')->unsigned()->nullable();
+            $table->integer('asset_maintenance_id')->unsigned()->nullable();
             $table->string('rma_number')->nullable();
             $table->string('case_number')->nullable();
             $table->integer('with_admin')->default(0);
-            $table->integer('warranty_expired')->nullable();
+            $table->integer('warranty_expired')->default(0);
             $table->string('repair_cost')->nullable();
             $table->integer('user_id')->unsigned();
             $table->string('technician');

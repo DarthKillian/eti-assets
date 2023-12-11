@@ -29,8 +29,8 @@ class RMATransformer
             'new_asset' => ($rma->newAsset) ? ['id' => $rma->newAsset->id, 'serial' => $rma->newAsset->serial, 'asset_tag' => e($rma->newAsset->asset_tag)] : null,
             'rma_number' => $rma->rma_number,
             'case_number' => $rma->case_number,
-            'with_admin' => $rma->with_admin,
-            'warranty_expired' => $rma->warranty_expired,
+            'with_admin' => ($rma->with_admin ? true : false),
+            'warranty_expired' =>( $rma->warranty_expired ? true : false),
             'repair_cost' => $rma->repair_cost,
             'company' => $rma->asset->company->name,
             'status' => $rma->status,
@@ -39,6 +39,7 @@ class RMATransformer
             'requestor' => $rma->users->first_name . " " . $rma->users->last_name,
             'start_date' => $rma->start_date,
             'completion_date' => $rma->completion_date,
+            'manufacturer' => $rma->asset->model->manufacturer->name
         ];
 
         $permissions_array['available_actions'] = [
