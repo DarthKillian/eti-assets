@@ -5,7 +5,6 @@ namespace App\Http\Controllers\ProductFlow;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\ProductFlow\ProductFlowController;
 use App\Models\Asset;
-use App\Models\AssetMaintenance;
 use Illuminate\Http\Request;
 use App\Models\RMA;
 use View;
@@ -27,14 +26,14 @@ class RMARequestController extends Controller
      * Present RMA create view with an asset pre-select or blank
      *  
      */
-    public function create (Request $request)
+    public function create(Request $request)
     {
         $this->authorize('create', RMA::class);
         $view = view('productflow/rma/edit')->with('item', new RMA)->with('rma_status', RMA::getStatusOptions());
 
         $asset = null;
 
-        if($asset = Asset::find($request->input('asset_id'))) {
+        if ($asset = Asset::find($request->input('asset_id'))) {
             $asset->asset_id = $asset->id;
             $view->with('asset', $asset);
         }
@@ -45,7 +44,7 @@ class RMARequestController extends Controller
      * Store new asset
      * 
      */
-    public function store (Request $request)
+    public function store(Request $request)
     {
         $this->authorize('update', RMA::class);
 
@@ -65,6 +64,17 @@ class RMARequestController extends Controller
         $rma->technician = $request->input('technician');
         $rma->start_date = Carbon::now()->isoFormat('Y-MM-DD');
 
+        // Proof of concept adding maintenance that I'll add in later
+        /* $maintenance = new $rma->assetMaintenance();
+        $maintenance->asset_id = 161;
+        $maintenance->asset_maintenance_type = "Warranty RMA";
+        $maintenance->title = "hah hahas blals";
+        $maintenance->start_date = "2023-12-10";
+
+        if ($maintenance->save()) {
+            dd($maintenance);
+        } */
+
         // Save RMA
         if ($rma->save() && $rma->updateAsset(null, null)) {
             return redirect()->route('rma.index')->with('success', trans('admin/rma/message.create.success'));
@@ -79,10 +89,10 @@ class RMARequestController extends Controller
      * 
      * TODO: Need to make some real logic if the RMA is not found
      */
-    public function edit ($rma_id = null)
+    public function edit($rma_id = null)
     {
         $this->authorize('update', RMA::class);
-        if ( !$rma = RMA::find($rma_id)) {
+        if (!$rma = RMA::find($rma_id)) {
             // Let's add some real logic here to gracefully redirect with an error.
             return redirect()->route('rma.index')->with('error', trans('admin/rma/message.not_found'));
         }
@@ -98,42 +108,41 @@ class RMARequestController extends Controller
         }
 
         return view('productflow/rma/edit')->with('rma_status', RMA::getStatusOptions())->with('item', $rma);
-        
     }
 
     /**
      * Display an RMA with all of it's BEAUTIFUL information
      */
 
-     public function show($id = null)
-     {
-         $rma = RMA::find($id);
-         $maintenance = AssetMaintenance::find($rma->asset_maintenance_id);
-         $this->authorize('view', $rma);
+    public function show($id = null)
+    {
+        $rma = RMA::find($id);
 
-         if (isset($rma)) {
+        $this->authorize('view', $rma);
+
+        if (isset($rma)) {
             return view('productflow.rma.view', compact('rma'));
-         }
+        }
 
-         return redirect()->route('rma.index')->with('error', trans('admin/rma/message.not_found'));
-     }  
- 
+        return redirect()->route('rma.index')->with('error', trans('admin/rma/message.not_found'));
+    }
+
 
     /**
      * Update the RMA
      * 
      */
 
-    public function update (Request $request, $id = null)
+    public function update(Request $request, $id = null)
     {
-        if(!$rma = RMA::find($id)) {
+        if (!$rma = RMA::find($id)) {
             return redirect()->back()->with('error', trans('admin/rma/message.not_found'));
         }
 
         $this->authorize($rma);
 
         $rules = [];
-        
+
         $oldRMAStatus = $rma->status;
         $oldAssetStatus = $rma->asset->assetStatus->get()[0]->id;
 
@@ -146,7 +155,7 @@ class RMARequestController extends Controller
         }
 
         if ($request->input('rma_status') == "RMA Complete") {
-            $rules = ['rma_number' => 'required', 'case_number' => 'required', 'completion_date'=> 'required'];
+            $rules = ['rma_number' => 'required', 'case_number' => 'required', 'completion_date' => 'required'];
         }
 
         $request->validate($rules);
@@ -181,13 +190,12 @@ class RMARequestController extends Controller
         $rma->technician = $request->input('technician');
         $rma->status = $request->input('rma_status');
         $rma->start_date = $request->input('start_date');
-        
+
         if ($rma->save() && $rma->updateAsset($oldRMAStatus, $oldAssetStatus)) {
             return redirect()->route('rma.index')->with('success', trans('admin/rma/message.update.success'));
         }
 
         return redirect()->back()->withInput()->withErrors($rma->getErrors());
-
     }
 
     /**
