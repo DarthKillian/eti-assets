@@ -79,7 +79,7 @@ class RMA extends Model
      */
     public function assetMaintenance()
     {
-        return $this->belongsTo(\App\Models\AssetMaintenance::class, 'asset_maintenance_id');
+        return $this->hasMany(\App\Models\AssetMaintenance::class, 'id', 'asset_maintenance_id');
     }
 
     /**

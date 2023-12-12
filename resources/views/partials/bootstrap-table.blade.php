@@ -581,15 +581,35 @@
         return '';
     }
 
+    // RMA Number formatter
     function rmaRequestLinkFormatter(value, row) {
+        // Asset Maintenance RMA number formatter
+        if (row.rma && row.rma != null) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.rma.id}>${row.rma.rma_number}</a>`;
+        }
+        // RMA formatter
         if((row.rma_number)) {
             return `<a href={{ config('app.url')}}/productflow/rma/${row.id}>${row.rma_number}</a>`;
         }
     }
 
+    // RMA status formatter
     function rmaStatusLinkFormatter(value, row) {
         if((row.status)) {
             return `<a href={{ config('app.url')}}/productflow/rma/${row.id}>${row.status}</a>`;
+        }
+    }
+
+    // RMA Case number formatter
+    function caseLinkFormatter(value, row) {
+        console.dir(row)
+        if((row.case_number)) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.id}>${row.case_number}</a>`;
+        }
+
+        // Asset Maintenance Case number formatter
+        if (row.rma) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.rma.id}>${row.rma.case_number}</a>`;
         }
     }
 

@@ -469,6 +469,8 @@ return [
     'rma_with_admin' => 'In Admin Office',
     'rma_with_admin_help' => 'Check this if the unit is in the front admin office',
     'rma_warranty_expired' => 'Warranty Expired',
+    'rma_number' => 'RMA Number',
+    'case_number' => 'Case Number',
     'importer' => [
         'checked_out_to_fullname' => 'Checked Out to: Full Name',
         'checked_out_to_first_name' => 'Checked Out to: First Name',

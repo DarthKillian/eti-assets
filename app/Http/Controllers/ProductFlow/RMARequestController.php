@@ -5,6 +5,7 @@ namespace App\Http\Controllers\ProductFlow;
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\ProductFlow\ProductFlowController;
 use App\Models\Asset;
+use App\Models\AssetMaintenance;
 use Illuminate\Http\Request;
 use App\Models\RMA;
 use View;
@@ -190,6 +191,34 @@ class RMARequestController extends Controller
         $rma->technician = $request->input('technician');
         $rma->status = $request->input('rma_status');
         $rma->start_date = $request->input('start_date');
+
+        // Create Asset Maintenance from RMA data
+        $maintenance = new AssetMaintenance();
+        $maintenance->asset_id = $rma->asset_id;
+
+        switch ($rma->status) {
+            case str_contains($rma->status, "Advanced Replacement"):
+                $maintenance->asset_maintenance_type = "Advanced Replacement";
+                break;
+            case str_contains($rma->status, "Warranty Repair"):
+                $maintenance->asset_maintenance_type = "Warranty RMA";
+                break;
+            case str_contains($rma->status, "OOW Repair"):
+                $maintenance->asset_maintenance_type = "OOW Repair";
+                break;
+        }
+        $maintenance->title = $rma->asset->serial . " | RMA # " . $rma->rma_number;
+        $maintenance->notes = $rma->notes . "\n" . "AUTO CREATED BY: " . $rma->users->first_name . " " . $rma->users->last_name . " FROM RMA: " . $rma->rma_number;
+        $maintenance->user_id = $rma->user_id;
+        $maintenance->start_date = $rma->start_date;
+        if ($rma->warranty_expired == 0) {
+            $maintenance->is_warranty = 1;
+        }
+        $maintenance->rma_id = $rma->id;
+
+        if ($maintenance->save()) {
+            $rma->asset_maintenance_id = $maintenance->id;
+        }
 
         if ($rma->save() && $rma->updateAsset($oldRMAStatus, $oldAssetStatus)) {
             return redirect()->route('rma.index')->with('success', trans('admin/rma/message.update.success'));

@@ -54,6 +54,7 @@ class AssetMaintenance extends Model implements ICompanyableChild
     protected $searchableRelations = [
         'asset'     => ['name', 'asset_tag'],
         'asset.model'     => ['name', 'model_number'],
+        'rma' => ['rma_number']
     ];
 
     public function getCompanyableParents()
@@ -132,6 +133,11 @@ class AssetMaintenance extends Model implements ICompanyableChild
     {
         return $this->belongsTo(\App\Models\Asset::class, 'asset_id')
                     ->withTrashed();
+    }
+
+    public function rma()
+    {
+        return $this->belongsTo(\App\Models\RMA::class, 'rma_id');
     }
 
     /**
