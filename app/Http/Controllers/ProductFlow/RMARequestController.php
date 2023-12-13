@@ -73,7 +73,10 @@ class RMARequestController extends Controller
 
         // Save RMA
         if ($rma->save() && $rma->updateAsset(null, null)) {
-            Notification::route('mail', ['jvanvolkenburgh@etikc.com'])->notify(new RMARequest($rma));
+            $recipients = ['jvanvolkenburgh@etikc.com'];
+            if ($request->filled('notify')) {
+                Notification::route('mail', $recipients)->notify(new RMARequest($rma));
+            }
 
             return redirect()->route('rma.index')->with('success', trans('admin/rma/message.create.success'));
         }
