@@ -65,16 +65,9 @@ class RMARequestController extends Controller
         $rma->technician = $request->input('technician');
         $rma->start_date = Carbon::now()->isoFormat('Y-MM-DD');
 
-        // Proof of concept adding maintenance that I'll add in later
-        /* $maintenance = new $rma->assetMaintenance();
-        $maintenance->asset_id = 161;
-        $maintenance->asset_maintenance_type = "Warranty RMA";
-        $maintenance->title = "hah hahas blals";
-        $maintenance->start_date = "2023-12-10";
-
-        if ($maintenance->save()) {
-            dd($maintenance);
-        } */
+        if (!$rma->asset->availableForCheckout()) {
+            return redirect()->back()->with('warning', trans('admin/rma/message.create.asset_checkedout'));
+        }
 
         // Save RMA
         if ($rma->save() && $rma->updateAsset(null, null)) {
@@ -147,6 +140,8 @@ class RMARequestController extends Controller
         $oldRMAStatus = $rma->status;
         $oldAssetStatus = $rma->asset->assetStatus->get()[0]->id;
 
+        // Extra validation rules that are dynamic based on user entry
+
         if ($request->input('rma_status') == "RMA Declined") {
             $rules = ['completion_date' => 'required'];
         }
@@ -157,6 +152,10 @@ class RMARequestController extends Controller
 
         if ($request->input('rma_status') == "RMA Complete") {
             $rules = ['rma_number' => 'required', 'case_number' => 'required', 'completion_date' => 'required'];
+        }
+
+        if ($oldRMAStatus == "RMA Approved | Advanced Replacement" && $request->input('rma_status') == "RMA Complete") {
+            $rules = ['rma_number' => 'required', 'case_number' => 'required', 'completion_date' => 'required', 'new_asset_id' => 'required'];
         }
 
         $request->validate($rules);
@@ -192,8 +191,20 @@ class RMARequestController extends Controller
         $rma->status = $request->input('rma_status');
         $rma->start_date = $request->input('start_date');
 
+        if (isset($rma->asset_maintenance_id)) {
+            if (!$rma->setAssetMaintenance("update")) {
+                return redirect()->back()->with('error', "There was an error in the auto update of the asset maintenance. The maintenance either doesn't exist or the was an internal server error.");
+            }
+        }
+
+        if ($oldRMAStatus == "Pending" && !isset($rma->asset_maintenance_id)) {
+            if (!$rma->setAssetMaintenance("create")) {
+                return redirect()->back()->with('error', "There was an error in the auto creation of the asset maintenance");
+            }
+        }      
+
         // Create Asset Maintenance from RMA data
-        $maintenance = new AssetMaintenance();
+        /* $maintenance = new AssetMaintenance();
         $maintenance->asset_id = $rma->asset_id;
 
         switch ($rma->status) {
@@ -214,11 +225,11 @@ class RMARequestController extends Controller
         if ($rma->warranty_expired == 0) {
             $maintenance->is_warranty = 1;
         }
-        $maintenance->rma_id = $rma->id;
+        $maintenance->rma_id = $rma->id; */
 
-        if ($maintenance->save()) {
+        /* if ($maintenance->save()) {
             $rma->asset_maintenance_id = $maintenance->id;
-        }
+        } */
 
         if ($rma->save() && $rma->updateAsset($oldRMAStatus, $oldAssetStatus)) {
             return redirect()->route('rma.index')->with('success', trans('admin/rma/message.update.success'));

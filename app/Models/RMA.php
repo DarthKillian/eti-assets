@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Relations\Relation;
 use App\Models\Traits\Acceptable;
 use App\Models\Traits\Searchable;
 use Watson\Validating\ValidatingTrait;
-use App\Models\Statuslabel;
+use Carbon\Carbon;
 
 class RMA extends Model
 {
@@ -204,6 +204,57 @@ class RMA extends Model
 
         return $this->asset->save() ? true : false;
     }
+
+    public function setAssetMaintenance($method)
+    {
+        if ($method == "create") {
+            $maintenance = new \App\Models\AssetMaintenance();
+            $maintenance->rma_id = $this->id;
+            $maintenance->notes = $this->notes . "\n" . "AUTO CREATED BY: " . $this->users->first_name . " " . $this->users->last_name . " FROM RMA: " . $this->rma_number;
+        }
+
+        if ($method == "update") {
+            $maintenance = \App\Models\AssetMaintenance::find($this->asset_maintenance_id);
+            $maintenance->notes = $this->notes . "\n" . "AUTO CREATED BY: " . $this->users->first_name . " " . $this->users->last_name . " FROM RMA: " . $this->rma_number;
+            $maintenance->notes .= "\n" . "AUTO UPDATED BY: " . $this->users->first_name . " " . $this->users->last_name . " FROM RMA: " . $this->rma_number . " " . Carbon::now()->isoFormat('Y-MM-DD HH:MM');
+        }
+        
+        $maintenance->asset_id = $this->asset_id;
+
+        switch ($this->status) {
+            case str_contains($this->status, "Advanced Replacement"):
+                $maintenance->asset_maintenance_type = "Advanced Replacement";
+                break;
+            case str_contains($this->status, "Warranty Repair"):
+                $maintenance->asset_maintenance_type = "Warranty RMA";
+                break;
+            case str_contains($this->status, "OOW Repair"):
+                $maintenance->asset_maintenance_type = "OOW Repair";
+                break;
+            case "RMA Complete":
+                $maintenance->completion_date = $this->completion_date;
+                break;
+        }
+        $maintenance->title = $this->asset->serial . " | RMA # " . $this->rma_number;
+        $maintenance->user_id = $this->user_id;
+        $maintenance->start_date = $this->start_date;
+        
+        if ($this->warranty_expired == 0) {
+            $maintenance->is_warranty = 1;
+        }
+
+        if ($maintenance->save()) {
+            $this->asset_maintenance_id = $maintenance->id;
+            return true;
+        }
+        return false;
+
+    }
+
+    /**
+     * 
+     * Begin query scopes
+     */
 
     public function scopeCheckRMAComplete($query, $assetID)
     {

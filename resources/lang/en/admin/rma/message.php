@@ -7,7 +7,8 @@ return
 
     'create' => [
         'success' => 'RMA successfully created!',
-        'error' => 'RMA could not be created'
+        'error' => 'RMA could not be created',
+        'asset_checkedout' => 'This asset is currently checked out. Please the check in the asset to start the RMA process'
     ],
 
     'update' => [
