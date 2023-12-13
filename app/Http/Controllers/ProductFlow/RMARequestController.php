@@ -3,14 +3,11 @@
 namespace App\Http\Controllers\ProductFlow;
 
 use App\Http\Controllers\Controller;
-use App\Http\Controllers\ProductFlow\ProductFlowController;
 use App\Models\Asset;
-use App\Models\AssetMaintenance;
 use Illuminate\Http\Request;
 use App\Models\RMA;
 use Illuminate\Support\Facades\Notification;
 use App\Notifications\RMARequest;
-use View;
 use Auth;
 use Carbon\Carbon;
 
@@ -22,6 +19,7 @@ class RMARequestController extends Controller
      */
     public function index()
     {
+        $this->authorize('view', RMA::class);
         return view('productflow/rma/index');
     }
 
