@@ -121,6 +121,10 @@ class RMA extends Model
         ];
     }
 
+    /**
+     * Get Asset Status Labels through relationship and return the id of the label
+     * @return
+     */
     private function getStatusID($status)
     {
         return $this->asset->assetStatus->where('name', $status)->firstOrFail();
@@ -129,7 +133,7 @@ class RMA extends Model
     /**
      * Update Asset Status after RMA gets saved/Updated
      * 
-     * This method is kind of clunky with if statements but is necessary to check the old RMA status and new RMA status to properly update & track asset status & maintenance status
+     * This method is kind of clunky with switch/case & if statements but is necessary to check the old RMA status and new RMA status to properly update & track asset status & maintenance status
      */
     public function updateAsset($oldRMAStatus = null, $oldAssetStatus = null)
     {
@@ -158,7 +162,7 @@ class RMA extends Model
                 break;
             case "RMA Approved | Advanced Replacement":
                 // Advanced Replacement
-                $statusID = $this->getStatusID('Adv RMA')->id;
+                $statusID = $this->getStatusID('Advanced Replacement')->id;
                 $this->asset->status_id = $statusID;
                 break;
             case "RMA Out for Repair":
@@ -180,6 +184,7 @@ class RMA extends Model
                     $statusID = $this->getStatusID('RMA Complete/Returned to Vendor')->id;
                     $this->asset->status_id = $statusID;
                 }
+                // This part is disgusting looking.... completes RMA with either it being for ETI stock or for customer
                 if ($oldRMAStatus == "RMA Out for Repair" && $this->new_asset_id == null) {
                     if ($this->asset->company->name != "ETI") {
                         $statusID = $this->getStatusID('Ready to Deploy')->id;
@@ -205,6 +210,10 @@ class RMA extends Model
         return $this->asset->save() ? true : false;
     }
 
+    /**
+     * \App\Models\AssetMaintenance
+     * Creates or updates an asset maintenance during RMA update method
+     */
     public function setAssetMaintenance($method)
     {
         if ($method == "create") {

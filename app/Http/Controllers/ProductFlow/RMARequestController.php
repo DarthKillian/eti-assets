@@ -8,6 +8,8 @@ use App\Models\Asset;
 use App\Models\AssetMaintenance;
 use Illuminate\Http\Request;
 use App\Models\RMA;
+use Illuminate\Support\Facades\Notification;
+use App\Notifications\RMARequest;
 use View;
 use Auth;
 use Carbon\Carbon;
@@ -71,6 +73,8 @@ class RMARequestController extends Controller
 
         // Save RMA
         if ($rma->save() && $rma->updateAsset(null, null)) {
+            Notification::route('mail', ['jvanvolkenburgh@etikc.com'])->notify(new RMARequest($rma));
+
             return redirect()->route('rma.index')->with('success', trans('admin/rma/message.create.success'));
         }
 
@@ -87,7 +91,6 @@ class RMARequestController extends Controller
     {
         $this->authorize('update', RMA::class);
         if (!$rma = RMA::find($rma_id)) {
-            // Let's add some real logic here to gracefully redirect with an error.
             return redirect()->route('rma.index')->with('error', trans('admin/rma/message.not_found'));
         }
 
