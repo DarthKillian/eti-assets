@@ -196,46 +196,31 @@ class RMARequestController extends Controller
         $rma->status = $request->input('rma_status');
         $rma->start_date = $request->input('start_date');
 
+        // Update the asset maintenance if it exists
         if (isset($rma->asset_maintenance_id)) {
             if (!$rma->setAssetMaintenance("update")) {
                 return redirect()->back()->with('error', "There was an error in the auto update of the asset maintenance. The maintenance either doesn't exist or the was an internal server error.");
             }
         }
 
+        // If the RMA is just updated with let's say... just the notes field, we aren't updating the asset at all or anything else like that
+        // So let's just save the RMA and return with a nice message
+        if ($oldRMAStatus == "Pending" && $request->input('rma_status') == "Pending")  {
+            if ($rma->save()) {
+                return redirect()->route('rma.index')->with('success', trans('admin/rma/message.update.success'));
+            }
+            return redirect()->back()->withInput()->withErrors($rma->getErrors());
+
+        }
+
+        // This assumes that the status gets updated and the RMA needs to update the asset and create an aset maintenance
         if ($oldRMAStatus == "Pending" && !isset($rma->asset_maintenance_id)) {
             if (!$rma->setAssetMaintenance("create")) {
                 return redirect()->back()->with('error', "There was an error in the auto creation of the asset maintenance");
             }
-        }      
-
-        // Create Asset Maintenance from RMA data
-        /* $maintenance = new AssetMaintenance();
-        $maintenance->asset_id = $rma->asset_id;
-
-        switch ($rma->status) {
-            case str_contains($rma->status, "Advanced Replacement"):
-                $maintenance->asset_maintenance_type = "Advanced Replacement";
-                break;
-            case str_contains($rma->status, "Warranty Repair"):
-                $maintenance->asset_maintenance_type = "Warranty RMA";
-                break;
-            case str_contains($rma->status, "OOW Repair"):
-                $maintenance->asset_maintenance_type = "OOW Repair";
-                break;
         }
-        $maintenance->title = $rma->asset->serial . " | RMA # " . $rma->rma_number;
-        $maintenance->notes = $rma->notes . "\n" . "AUTO CREATED BY: " . $rma->users->first_name . " " . $rma->users->last_name . " FROM RMA: " . $rma->rma_number;
-        $maintenance->user_id = $rma->user_id;
-        $maintenance->start_date = $rma->start_date;
-        if ($rma->warranty_expired == 0) {
-            $maintenance->is_warranty = 1;
-        }
-        $maintenance->rma_id = $rma->id; */
 
-        /* if ($maintenance->save()) {
-            $rma->asset_maintenance_id = $maintenance->id;
-        } */
-
+        // Save RMA and update the asset if needed.
         if ($rma->save() && $rma->updateAsset($oldRMAStatus, $oldAssetStatus)) {
             return redirect()->route('rma.index')->with('success', trans('admin/rma/message.update.success'));
         }
