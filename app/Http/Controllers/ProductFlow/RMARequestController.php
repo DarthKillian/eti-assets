@@ -4,6 +4,7 @@ namespace App\Http\Controllers\ProductFlow;
 
 use App\Http\Controllers\Controller;
 use App\Models\Asset;
+use App\Models\AssetMaintenance;
 use Illuminate\Http\Request;
 use App\Models\RMA;
 use Illuminate\Support\Facades\Notification;
@@ -242,8 +243,14 @@ class RMARequestController extends Controller
         }
         $this->authorize('delete', $rma);
 
-        $rma->delete();
+        // Delete asset maintenance with the RMA
+        if ($assetMaintenance = AssetMaintenance::find($rma->asset_maintenance_id)) {
+            $assetMaintenance->delete();
+        }
 
-        return redirect()->route('rma.index')->with('success', trans('admin/rma/message.delete.success'));
+        // Delete RMA
+        if ($rma->delete() ){
+            return redirect()->route('rma.index')->with('success', trans('admin/rma/message.delete.success'));
+        }
     }
 }
