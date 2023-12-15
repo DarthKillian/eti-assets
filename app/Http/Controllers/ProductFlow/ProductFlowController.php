@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\ProductFlow;
 
-use App\Models\Manufacturer;
 use Auth;
+use App\Http\Controllers\Controller;
+use App\Models\Manufacturer;
 use App\Models\Asset;
 use App\Models\Company;
 use App\Models\Statuslabel;
@@ -15,8 +16,16 @@ use App\Models\Setting;
 
 class ProductFlowController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
+        // If new_rma parameter is in the url, set a session variable to be checked below. This will determine the redirect behavior
+
+        if ($request->input('new_rma') == 1) {
+            session()->put('rma-redirect', 'rma.create');
+        } else {
+            // Fail safe to purge the session variable in case if it lingers when we don't want it to.
+            session()->forget('rma-redirect');
+        }
         return view('productflow/receiving');
     }
 
@@ -46,7 +55,12 @@ class ProductFlowController extends Controller
 
         // Redirect if model is not found
         if ($request->receiveParts == "0") {
-            return redirect()->route('productflow.receiving')->with('warning', "Model not found. Please click 'New' to add the model.")->with('model', $model);
+            if (session()->get('rma-redirect') == "rma.create") {
+                session()->forget('rma-redirect');
+                return redirect()->route('productflow.receiving', ['new_rma' => 1])->with('warning', "Model not found. Please click 'New' to add the model.")->with('model', $model);
+            } else {
+                return redirect()->route('productflow.receiving')->with('warning', "Model not found. Please click 'New' to add the model.")->with('model', $model);
+            }
         }
     }
 
@@ -87,11 +101,13 @@ class ProductFlowController extends Controller
         $asset->requestable             = 0;
 
         if ($asset->save()) {
-            /* return view('hardware/labels')
-                ->with('assets', Asset::where('asset_tag', '=', $request->input('asset_tag'))->get())
-                ->with('settings', Setting::getSettings())
-                ->with('bulkedit', false)
-                ->with('count', 0); */
+            // If the session has the rma-redirect parameter set, redirect back to create a new rma with that asset id loaded
+            // This is to help streamline adding an asset to the system if it doesn't exist.
+            // There is a button on the rma page to create a new asset which directs to the product flow page
+            if (session()->get('rma-redirect')) {
+                session()->forget('rma-redirect');
+                return redirect()->route('rma.create', ['asset_id' => $asset->id])->with('asset_id', $asset->id);
+            }
             return redirect()->route('productflow.receiving')->with('success', "Successfully added $model_number to stock!");
         }
         return redirect()->back()->withInput()->withErrors($asset->getErrors());

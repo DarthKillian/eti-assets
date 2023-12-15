@@ -104,4 +104,13 @@ class Manufacturer extends SnipeModel
     {
         return $this->hasMany(\App\Models\Consumable::class, 'manufacturer_id');
     }
+
+    /**
+     * Establish RMA -> Manufacturer relationship through Asset Model and Asset tables
+     * assets->model->manufacturer
+     */
+    public function rma()
+    {
+        return $this->hasManyThrough(\App\Models\AssetModel::class, \App\Models\Asset::class, 'model_id', 'manufacturer_id', 'id', 'id');
+    }
 }
