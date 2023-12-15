@@ -217,13 +217,13 @@ class RMARequestController extends Controller
         // This assumes that the status gets updated and the RMA needs to update the asset and create an aset maintenance
         if ($oldRMAStatus == "Pending" && !isset($rma->asset_maintenance_id)) {
             if (!$rma->setAssetMaintenance("create")) {
-                return redirect()->back()->with('error', "There was an error in the auto creation of the asset maintenance");
+                return redirect()->back()->withInput()->with('error', "There was an error in the auto creation of the asset maintenance");
             }
         }
 
         // Save RMA and update the asset if needed.
         if ($rma->save() && $rma->updateAsset($oldRMAStatus, $oldAssetStatus)) {
-            return redirect()->route('rma.index')->with('success', trans('admin/rma/message.update.success'));
+            return redirect()->route('rma.index')->withInput()->with('success', trans('admin/rma/message.update.success'));
         }
 
         return redirect()->back()->withInput()->withErrors($rma->getErrors());
