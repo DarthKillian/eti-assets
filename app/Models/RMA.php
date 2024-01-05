@@ -219,7 +219,7 @@ class RMA extends Model
         if ($method == "create") {
             $maintenance = new \App\Models\AssetMaintenance();
             $maintenance->rma_id = $this->id;
-            $maintenance->notes = $this->notes . "\n" . "AUTO CREATED BY: " . $this->users->first_name . " " . $this->users->last_name . " FROM RMA: " . $this->rma_number;
+            $maintenance->notes = $this->notes . "\n" . "AUTO CREATED BY: " . $this->users->first_name . " " . $this->users->last_name . " FROM RMA: " . $this->rma_number . " " . Carbon::now()->isoFormat('Y-MM-DD HH:MM');
         }
 
         if ($method == "update") {
