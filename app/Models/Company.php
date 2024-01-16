@@ -366,4 +366,8 @@ final class Company extends SnipeModel
         return $query->leftJoin('users as admin_sort', 'companies.created_by', '=', 'admin_sort.id')->select('companies.*')->orderBy('admin_sort.first_name', $order)->orderBy('admin_sort.last_name', $order);
     }
 
+    public function rma()
+    {
+        return $this->hasManyThrough(\App\Models\Company::class, \App\Models\Asset::class, 'company_id', 'asset_id', 'id', 'id');
+    }
 }

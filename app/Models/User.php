@@ -618,6 +618,15 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     }
 
     /**
+     * Establish the user -> RMA relationship
+     */
+
+    public function rma()
+    {
+        return $this->hasMany(\App\Models\RMA::class, 'id');
+    }
+
+    /**
      * Set a common string when the user has been imported/synced from:
      *
      * - LDAP without password syncing

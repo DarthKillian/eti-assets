@@ -292,6 +292,14 @@ Route::group(['prefix' => 'v1', 'middleware' => ['api', 'api-throttle:api']], fu
         )->name('api.consumables.show.users');
 
 
+        // This is LEGACY endpoint URL and should be removed in the next major release
+        /* Route::get('view/{id}/users',
+              [
+                  Api\ConsumablesController::class,
+                  'getDataView'
+              ]
+        )->name('api.consumables.showUsers'); */
+
         Route::post('{consumable}/checkout',
             [
                 Api\ConsumablesController::class, 
@@ -840,6 +848,17 @@ Route::group(['prefix' => 'v1', 'middleware' => ['api', 'api-throttle:api']], fu
         ]
         ); // end asset models API routes
 
+        /* Route::group(['prefix', 'rma'], function() {
+
+        }); */
+
+        Route::resource('rma', Api\RMARequestController::class,
+        ['names' => [
+                'index' => 'api.rma.index'
+            ],
+            'parameters' => ['rma' => 'rma_id']
+        ]
+        );
 
 
         /**

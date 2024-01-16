@@ -38,7 +38,6 @@ class AccessoriesController extends Controller
             $this->authorize('view', Accessory::class);
         }
 
-
         // This array is what determines which fields should be allowed to be sorted on ON the table itself, no relations
         // Relations will be handled in query scopes a little further down.
         $allowed_columns = 
@@ -56,11 +55,16 @@ class AccessoriesController extends Controller
                 'qty',
             ];
 
+        /**
+         * Instantiate our Eloquent query. We then use various methods below to define our search
+         */
+        $accessories = Accessory::select('accessories.*')->with('category', 'company', 'manufacturer', 'users', 'location', 'supplier')
+                                ->withCount('users as users_count');
 
-        $accessories = Accessory::select('accessories.*')
-            ->with('category', 'company', 'manufacturer', 'checkouts', 'location', 'supplier', 'adminuser')
-            ->withCount('checkouts as checkouts_count');
-
+        /**
+         * This is the primary method of querying the Eloquent model instantiated above.
+         * Using the TextSearch(), we can easily pass in the user's search and it will automatically do LIKE comparisons against the Eloquent query above
+         */
         if ($request->filled('search')) {
             $accessories = $accessories->TextSearch($request->input('search'));
         }
@@ -122,6 +126,10 @@ class AccessoriesController extends Controller
         }
  
         $total = $accessories->count();
+
+        /**
+         * Get the accessories by amount (take) per page (skip)
+         */
         $accessories = $accessories->skip($offset)->take($limit)->get();
 
         return (new AccessoriesTransformer)->transformAccessories($accessories, $total);

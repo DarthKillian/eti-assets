@@ -72,14 +72,22 @@ class AssetMaintenancesPresenter extends Presenter
                 'visible' => false,
                 'formatter' => 'modelsLinkObjFormatter',
             ], [
-                'field' => 'supplier',
+                'field' => 'rma_number',
                 'searchable' => true,
                 'sortable' => true,
-                'switchable' => true,
-                'title' => trans('general.supplier'),
-                'visible' => false,
-                'formatter' => 'suppliersLinkObjFormatter',
-            ], [
+                'title' => trans('general.rma_number'),
+                'visible' => true,
+                'formatter' => 'rmaRequestLinkFormatter',
+            ], 
+            [
+                'field' => 'case_number',
+                'searchable' => true,
+                'sortable' => true,
+                'title' => trans('general.case_number'),
+                'visible' => true,
+                'formatter' => 'caseLinkFormatter',
+            ],
+            [
                 'field' => 'location',
                 'searchable' => true,
                 'sortable' => true,

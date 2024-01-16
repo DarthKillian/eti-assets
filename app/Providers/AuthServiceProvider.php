@@ -20,6 +20,7 @@ use App\Models\PredefinedKit;
 use App\Models\Statuslabel;
 use App\Models\Supplier;
 use App\Models\User;
+use App\Models\RMA;
 use App\Policies\AccessoryPolicy;
 use App\Policies\AssetModelPolicy;
 use App\Policies\AssetPolicy;
@@ -38,6 +39,7 @@ use App\Policies\PredefinedKitPolicy;
 use App\Policies\StatuslabelPolicy;
 use App\Policies\SupplierPolicy;
 use App\Policies\UserPolicy;
+use App\Policies\RMAPolicy;
 use Carbon\Carbon;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
@@ -71,6 +73,7 @@ class AuthServiceProvider extends ServiceProvider
         User::class => UserPolicy::class,
         Manufacturer::class => ManufacturerPolicy::class,
         Company::class => CompanyPolicy::class,
+        RMA::class => RMAPolicy::class,
     ];
 
     /**
@@ -263,7 +266,8 @@ class AuthServiceProvider extends ServiceProvider
                 || $user->can('view', Manufacturer::class)
                 || $user->can('view', CustomField::class)
                 || $user->can('view', CustomFieldset::class)
-                || $user->can('view', Depreciation::class);
+                || $user->can('view', Depreciation::class)
+                || $user->can('view', RMA::class);
         });
 
 
@@ -287,7 +291,9 @@ class AuthServiceProvider extends ServiceProvider
                 || $user->can('create', Accessory::class)   
                 || $user->can('update', User::class)
                 || $user->can('create', User::class)
-                || ($user->hasAccess('reports.view'));
+                || ($user->hasAccess('reports.view'))
+                || $user->can('update', RMA::class)
+                || $user->can('create', RMA::class);  
         });
 
 

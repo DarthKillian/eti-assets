@@ -126,4 +126,13 @@ class Manufacturer extends SnipeModel
     {
         return $query->leftJoin('users as admin_sort', 'manufacturers.created_by', '=', 'admin_sort.id')->select('manufacturers.*')->orderBy('admin_sort.first_name', $order)->orderBy('admin_sort.last_name', $order);
     }
+
+    /**
+     * Establish RMA -> Manufacturer relationship through Asset Model and Asset tables
+     * assets->model->manufacturer
+     */
+    public function rma()
+    {
+        return $this->hasManyThrough(\App\Models\AssetModel::class, \App\Models\Asset::class, 'model_id', 'manufacturer_id', 'id', 'id');
+    }
 }

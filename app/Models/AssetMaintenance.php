@@ -26,7 +26,7 @@ class AssetMaintenance extends Model implements ICompanyableChild
     protected $table = 'asset_maintenances';
     protected $rules = [
         'asset_id'               => 'required|integer',
-        'supplier_id'            => 'nullable|integer',
+        // 'supplier_id'            => 'required|integer',
         'asset_maintenance_type' => 'required',
         'title'                  => 'required|max:100',
         'is_warranty'            => 'boolean',
@@ -80,9 +80,7 @@ class AssetMaintenance extends Model implements ICompanyableChild
     protected $searchableRelations = [
         'asset'     => ['name', 'asset_tag', 'serial'],
         'asset.model'     => ['name', 'model_number'],
-        'asset.supplier' => ['name'],
-        'asset.assetstatus' => ['name'],
-        'supplier' => ['name'],
+        'rma' => ['rma_number', 'case_number']
     ];
 
     public function getCompanyableParents()
@@ -167,6 +165,11 @@ class AssetMaintenance extends Model implements ICompanyableChild
             ->withTrashed();
     }
     
+
+    public function rma()
+    {
+        return $this->belongsTo(\App\Models\RMA::class, 'rma_id');
+    }
 
     /**
      * Get the admin who created the maintenance

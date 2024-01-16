@@ -32,17 +32,19 @@
     {{ csrf_field() }}
 
     <div class="box box-default">
-
-        @if ($item->id)
-          <div class="box-header with-border">
-            <h2 class="box-title">
-              {{ $item->title }}
-            </h2>
-          </div><!-- /.box-header -->
-        @endif
+      <div class="box-header with-border">
+        <h2 class="box-title">
+          @if (isset($item->rma_id))
+           RMA Number {{$item->rma->rma_number}} | Case Number {{ $item->rma->case_number }}
+          @endif
+        </h2>
+      </div><!-- /.box-header -->
 
       <div class="box-body">
-
+        @include ('partials.forms.edit.asset-select', ['translated_name' => trans('admin/hardware/table.asset_tag'), 'fieldname' => 'asset_id', 'required' => 'true'])
+        {{-- @include ('partials.forms.edit.supplier-select', ['translated_name' => trans('general.supplier'), 'fieldname' => 'supplier_id', 'required' => 'true']) --}}
+        @include ('partials.forms.edit.maintenance_type')
+        
         <!-- Title -->
         <div class="form-group {{ $errors->has('title') ? ' has-error' : '' }}">
           <label for="title" class="col-md-3 control-label">
