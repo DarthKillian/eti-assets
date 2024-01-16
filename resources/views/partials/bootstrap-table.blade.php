@@ -238,7 +238,6 @@
         }
 
         return function (value,row) {
-
             var actions = '<nobr>';
 
             // Add some overrides for any funny urls we have
@@ -250,6 +249,11 @@
 
             if (dest =='maintenances') {
                 var dest = 'hardware/maintenances';
+            }
+
+            if (dest == 'rma') {
+                var dest = 'productflow/rma';
+                
             }
 
             if(element_name != '') {
@@ -265,11 +269,19 @@
             }
 
             if ((row.available_actions) && (row.available_actions.delete === true)) {
-
                 // use the asset tag if no name is provided
                 var name_for_box = row.name
                 if (row.name=='') {
                     var name_for_box = row.asset_tag
+                }
+
+                /*
+                    This bit is necessary to handle the RMA delete confirmation box.
+                    Since we don't have a row.name set from the RMATransformer, it is necessary to do this to prevent undefined in the confirm box.
+                    While this isn't the most elegant solution, it is able to check for both null and '' scenarios. As a reminder, rma_number is null by default and this is by design
+                */
+                if (dest == 'productflow/rma') {
+                    var name_for_box = `the RMA request for the serial number: ${row.asset.serial}`
                 }
                 
                 actions += '<a href="{{ config('app.url') }}/' + dest + '/' + row.id + '" '
@@ -442,7 +454,8 @@
         'depreciations',
         'fieldsets',
         'groups',
-        'kits'
+        'kits',
+        'rma'
     ];
 
     for (var i in formatters) {
@@ -564,6 +577,53 @@
     function assetTagLinkFormatter(value, row) {
         if ((row.asset) && (row.asset.id)) {
             return '<a href="{{ config('app.url') }}/hardware/' + row.asset.id + '">' + row.asset.asset_tag + '</a>';
+        }
+        return '';
+    }
+
+    // RMA Number formatter
+    function rmaRequestLinkFormatter(value, row) {
+        // Asset Maintenance RMA number formatter
+        if (row.rma && row.rma != null) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.rma.id}>${row.rma.rma_number}</a>`;
+        }
+        // RMA formatter
+        if((row.rma_number)) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.id}>${row.rma_number}</a>`;
+        }
+    }
+
+    // RMA status formatter
+    function rmaStatusLinkFormatter(value, row) {
+        if((row.status)) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.id}>${row.status}</a>`;
+        }
+    }
+
+    // RMA Case number formatter
+    function caseLinkFormatter(value, row) {
+        console.dir(row)
+        if((row.case_number)) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.id}>${row.case_number}</a>`;
+        }
+
+        // Asset Maintenance Case number formatter
+        if (row.rma) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.rma.id}>${row.rma.case_number}</a>`;
+        }
+    }
+
+    function assetSerialLinkFormatter(value, row) {
+        if ((row.asset) && (row.asset.id)) {
+            return '<a href="{{ config('app.url') }}/hardware/' + row.asset.id + '">' + row.asset.serial + '</a>';
+        }
+        return '';
+
+    }
+
+    function newAssetSerialLinkFormatter(value, row) {
+        if ((row.new_asset) && (row.new_asset.id)) {
+            return '<a href="{{ config('app.url') }}/hardware/' + row.new_asset.id + '">' + row.new_asset.serial + '</a>';
         }
         return '';
 
@@ -688,7 +748,6 @@
 
 
     function fileUploadNameFormatter(value) {
-        console.dir(value);
         if ((value) && (value.filename) && (value.url)) {
             return '<a href="' + value.url + '">' + value.filename + '</a>';
         }

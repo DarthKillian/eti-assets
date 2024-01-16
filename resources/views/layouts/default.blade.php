@@ -573,11 +573,24 @@
                             </li>
                         @endcan
                         @can('admin')
-                        <li {!! (Request::is('productflow*') ? ' class="active"' : '') !!}>
-                            <a href="{{ route('productflow.receiving') }}">
-                                <i class="fas fa-truck-moving fa-fw" aria-hidden="true"></i>
+                        <li class="treeview" {!! (Request::is('productflow*') ? ' class="active"' : '') !!}>
+                            <a href="#"><i class="fas fa-truck-moving fa-fw" aria-hidden="true"></i>
                                 <span>Product Flow</span>
                             </a>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <a href="{{ route('productflow.receiving') }}">
+                                        <i class="fa fa-cubes" aria-hidden="true"></i>
+                                        <span>Receiving</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('rma.index') }}">
+                                        <i class="fa fa-exchange" aria-hidden="true"></i>
+                                        <span>RMA Requests</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>              
                         @endcan
                         @can('view', \App\Models\License::class)

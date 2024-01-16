@@ -620,8 +620,32 @@ return [
         ],
     ],
 
-
-
+    'RMA' => [
+        [
+            'permission' => 'rma.view',
+            'label'      => 'View ',
+            'note'       => '',
+            'display'    => true,
+        ],
+        [
+            'permission' => 'rma.create',
+            'label'      => 'Create ',
+            'note'       => '',
+            'display'    => true,
+        ],
+        [
+            'permission' => 'rma.edit',
+            'label'      => 'Edit  ',
+            'note'       => '',
+            'display'    => true,
+        ],
+        [
+            'permission' => 'rma.delete',
+            'label'      => 'Delete ',
+            'note'       => '',
+            'display'    => true,
+        ],
+    ],
 
     'Self' => [
         [
