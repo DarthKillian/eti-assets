@@ -9,6 +9,7 @@ return [
     'ad_append_domain_help'     => 'Usuário não é necessário para escrever "username@domain.local", ele pode apenas digitar "username".',
     'admin_cc_email'            => 'E-mail em CC',
     'admin_cc_email_help'       => 'Se você quiser enviar uma cópia dos e-mails de check-in / check-out que são enviados aos usuários para uma conta de e-mail adicional, insira-a aqui. Caso contrário, deixe este campo em branco.',
+    'admin_settings'            => 'Configurações de administrador',
     'is_ad'				        => 'Este é um servidor de Diretório Ativo',
     'alerts'                	=> 'Alertas',
     'alert_title'               => 'Atualizar Configurações de Notificação',
@@ -356,4 +357,10 @@ return [
     'google_login'      => 'Configurações de login do Google Workspace',
     'enable_google_login'  => 'Permitir que os usuários façam login com o Google Workspace',
     'enable_google_login_help'  => 'Os usuários não serão fornecidos automaticamente. Eles devem ter uma conta existente aqui E no Google Workspace e seu nome de usuário deve corresponder ao endereço de e-mail do Google Workspace. ',
+    'mail_reply_to' => 'Endereço de Resposta do Email',
+    'mail_from' => 'Endereço de Envio do Email',
+    'database_driver' => 'Driver de Banco de Dados',
+    'bs_table_storage' => 'Armazenamento de Tabela',
+    'timezone' => 'Fuso horário',
+
 ];

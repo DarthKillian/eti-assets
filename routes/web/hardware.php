@@ -123,9 +123,10 @@ Route::group(
             [AssetCheckinController::class, 'store']
         )->name('hardware.checkin.store');
 
-        Route::get('{assetId}/view',
-            [AssetsController::class, 'show']
-        )->name('hardware.view');
+        // Redirect old legacy /asset_id/view urls to the resource route version
+        Route::get('{assetId}/view', function ($assetId) {
+            return redirect()->route('hardware.show', ['hardware' => $assetId]);
+        });
 
         Route::get('{assetId}/qr_code', 
             [AssetsController::class, 'getQrCode']
@@ -179,15 +180,16 @@ Route::group(
         Route::post('bulkcheckout',
             [BulkAssetsController::class, 'storeCheckout']
         )->name('hardware.bulkcheckout.store');
-
-        Route::get('status/adjust', [BulkStatusAdjustController::class, 'show'])->name('hardware.statusadjust.show');
     });
 
 Route::resource('hardware', 
         AssetsController::class, 
         [
             'middleware' => ['auth'],
-            'parameters' => ['asset' => 'asset_id'
+            'parameters' => ['asset' => 'asset_id',
+                'names' => [
+                    'show' => 'view',
+                ],
         ],
 ]);
 

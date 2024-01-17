@@ -9,6 +9,7 @@ return [
     'ad_append_domain_help'     => 'User isn\'t required to write "username@domain.local", they can just type "username".',
     'admin_cc_email'            => 'CC Email',
     'admin_cc_email_help'       => 'If you would like to send a copy of checkin/checkout emails that are sent to users to an additional email account, enter it here. Otherwise leave this field blank.',
+    'admin_settings'            => 'Admin Settings',
     'is_ad'				        => 'This is an Active Directory server',
     'alerts'                	=> 'Alerts',
     'alert_title'               => 'Update Notification Settings',
@@ -356,4 +357,10 @@ return [
     'google_login'      => 'Google Workspace Login Settings',
     'enable_google_login'  => 'Enable users to login with Google Workspace',
     'enable_google_login_help'  => 'Users will not be automatically provisioned. They must have an existing account here AND in Google Workspace, and their username here must match their Google Workspace email address. ',
+    'mail_reply_to' => 'Mail Reply-To Address',
+    'mail_from' => 'Mail From Address',
+    'database_driver' => 'Database Driver',
+    'bs_table_storage' => 'Table Storage',
+    'timezone' => 'Timezone',
+
 ];
