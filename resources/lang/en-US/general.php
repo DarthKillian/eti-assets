@@ -2,7 +2,7 @@
 <?php
 
 return [
-    'accessories'			=> 'መለዋወጫዎች',
+    'accessories'			=> 'Accessories',
     'activated'			    => 'Activated',
     'accepted_date'         => 'Date Accepted',
     'accessory'				=> 'Accessory',
