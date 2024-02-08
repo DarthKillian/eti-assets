@@ -66,6 +66,10 @@ class AssetCheckinController extends Controller
             $user = $asset->assignedTo;
         }
 
+        if ($request->filled('company_id')) {
+            $asset->company_id = $request->input('company_id');
+        }
+
         $asset->expected_checkin = null;
         $asset->last_checkout = null;
         $asset->last_checkin = now();

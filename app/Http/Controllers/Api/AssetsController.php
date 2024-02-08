@@ -889,6 +889,10 @@ class AssetsController extends Controller
             $asset->name = $request->input('name');
         }
 
+        if ($request->filled('company_id')) {
+            $asset->company_id = $request->input('company_id');
+        }
+
         $asset->location_id = $asset->rtd_location_id;
 
         if ($request->filled('location_id')) {
