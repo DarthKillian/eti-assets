@@ -9,6 +9,6 @@
         'is_warranty'            => 'Peningkatan garansi',
         'asset_maintenance_time' => 'Asset Maintenance Time (in days)',
         'notes'                  => 'Catatan',
-        'update'                 => 'Update Asset Maintenance',
-        'create'                 => 'Create Asset Maintenance'
+        'update'                 => 'Update Maintenance Aset',
+        'create'                 => 'Buat Maintenance Aset'
     ];

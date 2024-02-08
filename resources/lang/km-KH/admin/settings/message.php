@@ -3,7 +3,7 @@
 return [
 
     'update' => [
-        'error'                 => 'An error has occurred while updating. ',
+        'error'                 => 'កំហុសបានកើតឡើងខណៈពេលកំពុងធ្វើបច្ចុប្បន្នភាព។ ',
         'success'               => 'Settings updated successfully.',
     ],
     'backup' => [
@@ -35,10 +35,12 @@ return [
     ],
     'webhook' => [
         'sending' => 'Sending :app test message...',
+        'success' => 'Your :webhook_name Integration works!',
         'success_pt1' => 'Success! Check the ',
         'success_pt2' => ' channel for your test message, and be sure to click SAVE below to store your settings.',
         '500' => '500 Server Error.',
         'error' => 'Something went wrong. :app responded with: :error_message',
+        'error_redirect' => 'ERROR: 301/302 :endpoint returns a redirect. For security reasons, we don’t follow redirects. Please use the actual endpoint.',
         'error_misc' => 'Something went wrong. :( ',
     ]
 ];

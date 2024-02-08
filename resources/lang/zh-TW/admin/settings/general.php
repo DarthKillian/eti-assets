@@ -9,6 +9,7 @@ return [
     'ad_append_domain_help'     => '使用者不需要輸入 "username@domain.local"，他們只需要輸入 "username"。',
     'admin_cc_email'            => '電子郵件副本',
     'admin_cc_email_help'       => '如果您想將發送給用戶的繳回/借出電子郵件的副本發送到其他電子郵件帳戶，請在此處輸入。否則，請將此字段留空。',
+    'admin_settings'            => 'Admin Settings',
     'is_ad'				        => '這是AD域伺服器',
     'alerts'                	=> '警告',
     'alert_title'               => '更新通知設定',
@@ -342,7 +343,7 @@ return [
     'label2_asset_logo_help'  => 'Use the logo of the asset&apos;s assigned company, rather than the value at <code>:setting_name</code>',
     'label2_1d_type'          => '1D Barcode Type',
     'label2_1d_type_help'     => 'Format for 1D barcodes',
-    'label2_2d_type'          => '2D Barcode Type',
+    'label2_2d_type'          => '二維條碼類型',
     'label2_2d_type_help'     => 'Format for 2D barcodes',
     'label2_2d_target'        => '2D Barcode Target',
     'label2_2d_target_help'   => 'The URL the 2D barcode points to when scanned',
@@ -357,4 +358,10 @@ return [
     'google_login'      => 'Google Workspace 登入設定',
     'enable_google_login'  => '允許使用者使用 Google Workspace 登入',
     'enable_google_login_help'  => '使用者將不會自動建立。他們必須在這裡和 Google Workspace 中都有現有的帳戶，並且他們在這裡的使用者名稱必須與他們的 Google Workspace 電子郵件地址相符。',
+    'mail_reply_to' => 'Mail Reply-To Address',
+    'mail_from' => 'Mail From Address',
+    'database_driver' => 'Database Driver',
+    'bs_table_storage' => 'Table Storage',
+    'timezone' => 'Timezone',
+
 ];

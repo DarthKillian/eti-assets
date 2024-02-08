@@ -645,7 +645,7 @@
                         @can('import')
                             <li{!! (Request::is('import/*') ? ' class="active"' : '') !!}>
                                 <a href="{{ route('imports.index') }}">
-                                    <i class="fas fa-cloud-download-alt fa-fw" aria-hidden="true"></i>
+                                    <i class="fas fa-cloud-upload-alt fa-fw" aria-hidden="true"></i>
                                     <span>{{ trans('general.import') }}</span>
                                 </a>
                             </li>
@@ -985,6 +985,11 @@
 
         <script nonce="{{ csrf_token() }}">
 
+            var clipboard = new ClipboardJS('.js-copy-link');
+
+            clipboard.on('success', function(e) {
+                $('.js-copy-link').tooltip('hide').attr('data-original-title', '{{ trans('general.copied') }}').tooltip('show');
+            });
 
             // ignore: 'input[type=hidden]' is required here to validate the select2 lists
             $.validate({
@@ -1032,6 +1037,14 @@
             $(document).on('click', '[data-toggle="lightbox"]', function (event) {
                 event.preventDefault();
                 $(this).ekkoLightbox();
+            });
+            //This prevents multi-click checkouts for accessories, components, consumables
+            $(document).ready(function () {
+                $('#checkout_form').submit(function (event) {
+                    event.preventDefault();
+                    $('#submit_button').prop('disabled', true);
+                    this.submit();
+                });
             });
 
 
