@@ -193,7 +193,7 @@ class RMARequestController extends Controller
         $rma->rma_number = $request->input('rma_number');
         $rma->case_number = $request->input('case_number');
         $rma->notes = $request->input('notes');
-        $rma->technician = $request->input('technician');
+        $rma->contact = $request->input('contact');
         $rma->status = $request->input('rma_status');
         $rma->start_date = $request->input('start_date');
 
