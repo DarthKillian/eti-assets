@@ -63,7 +63,7 @@ class RMARequestController extends Controller
         $rma->asset_id = $request->input('asset_id');
         $rma->user_id = Auth::id();
         $rma->notes = $request->input('notes');
-        $rma->technician = $request->input('technician');
+        $rma->contact = $request->input('contact');
         $rma->start_date = Carbon::now()->isoFormat('Y-MM-DD');
 
         if (!$rma->asset->availableForCheckout()) {
