@@ -94,7 +94,7 @@
               <input type="checkbox" name="with_admin" {{ (old('with_admin', $item->with_admin)) == '1' ? ' checked="checked"' : '' }} aria-label="with_admin">
               {{ trans('admin/rma/form.with_admin') }}
           </label>
-          <p class="help-block">{{ trans('general.rma_with_admin_help') }}
+          <p class="help-block">{{ trans('admin/rma/general.rma_with_admin_help') }}
           </p>
       </div>
     </div>  
