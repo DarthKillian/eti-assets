@@ -25,14 +25,14 @@
 </div> <!-- .box-body -->
 
 
-  <!-- technician -->
-  <div class="form-group {{ $errors->has('technician') ? ' has-error' : '' }}">
-    <label for="technician" class="col-md-3 control-label">
-      {{ trans('admin/rma/form.technician') }}
+  <!-- contact -->
+  <div class="form-group {{ $errors->has('contact') ? ' has-error' : '' }}">
+    <label for="contact" class="col-md-3 control-label">
+      {{ trans('admin/rma/form.contact') }}
     </label>
-    <div class="col-md-8{{  (Helper::checkIfRequired($item, 'technician')) ? ' required' : '' }}">
-      <input class="form-control" type="text" name="technician" class="col-md-6 form-control" id="technician" value="{{ old('technician', $item->technician) }}" />
-      {!! $errors->first('technician', '<span class="alert-msg" aria-hidden="true"><i class="fas fa-times" aria-hidden="true"></i> :message</span>') !!}
+    <div class="col-md-8{{  (Helper::checkIfRequired($item, 'contact')) ? ' required' : '' }}">
+      <input class="form-control" type="text" name="contact" class="col-md-6 form-control" id="contact" value="{{ old('contact', $item->contact) }}" />
+      {!! $errors->first('contact', '<span class="alert-msg" aria-hidden="true"><i class="fas fa-times" aria-hidden="true"></i> :message</span>') !!}
     </div>
   </div>
 
