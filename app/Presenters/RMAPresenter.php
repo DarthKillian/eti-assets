@@ -94,7 +94,7 @@ class RMAPresenter extends Presenter
                 'field' => 'contact',
                 'searchable' => true,
                 'sortable' => true,
-                'title' => 'contact',
+                'title' => 'Contact',
                 // 'formatter' => 'accessoriesLinkFormatter',
             ],
             [
