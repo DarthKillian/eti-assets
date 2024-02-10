@@ -64,6 +64,10 @@
                       </div>
                     </div>
 
+                    {{-- Company --}}
+
+                    @include ('partials.forms.edit.company-select', ['translated_name' => trans('general.company'), 'fieldname' => 'company_id'])
+
                     <!-- Status -->
                     <div class="form-group {{ $errors->has('status_id') ? 'error' : '' }}">
                       {{ Form::label('status_id', trans('admin/hardware/form.status'), array('class' => 'col-md-3 control-label')) }}

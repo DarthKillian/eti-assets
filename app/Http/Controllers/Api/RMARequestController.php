@@ -18,7 +18,7 @@ class RMARequestController extends Controller
             'id',
             'rma_number',
             'case_number',
-            'technician',
+            'contact',
             'status',
             'notes',
             'start_date',

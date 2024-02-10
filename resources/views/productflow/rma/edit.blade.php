@@ -25,14 +25,14 @@
 </div> <!-- .box-body -->
 
 
-  <!-- technician -->
-  <div class="form-group {{ $errors->has('technician') ? ' has-error' : '' }}">
-    <label for="technician" class="col-md-3 control-label">
-      {{ trans('admin/rma/form.technician') }}
+  <!-- contact -->
+  <div class="form-group {{ $errors->has('contact') ? ' has-error' : '' }}">
+    <label for="contact" class="col-md-3 control-label">
+      {{ trans('admin/rma/form.contact') }}
     </label>
-    <div class="col-md-8{{  (Helper::checkIfRequired($item, 'technician')) ? ' required' : '' }}">
-      <input class="form-control" type="text" name="technician" class="col-md-6 form-control" id="technician" value="{{ old('technician', $item->technician) }}" />
-      {!! $errors->first('technician', '<span class="alert-msg" aria-hidden="true"><i class="fas fa-times" aria-hidden="true"></i> :message</span>') !!}
+    <div class="col-md-8{{  (Helper::checkIfRequired($item, 'contact')) ? ' required' : '' }}">
+      <input class="form-control" type="text" name="contact" class="col-md-6 form-control" id="contact" value="{{ old('contact', $item->contact) }}" />
+      {!! $errors->first('contact', '<span class="alert-msg" aria-hidden="true"><i class="fas fa-times" aria-hidden="true"></i> :message</span>') !!}
     </div>
   </div>
 
@@ -94,7 +94,7 @@
               <input type="checkbox" name="with_admin" {{ (old('with_admin', $item->with_admin)) == '1' ? ' checked="checked"' : '' }} aria-label="with_admin">
               {{ trans('admin/rma/form.with_admin') }}
           </label>
-          <p class="help-block">{{ trans('general.rma_with_admin_help') }}
+          <p class="help-block">{{ trans('admin/rma/general.rma_with_admin_help') }}
           </p>
       </div>
     </div>  
@@ -129,9 +129,9 @@
         <div class="col-md-7 col-md-offset-3">
             <label for="notify" class="form-control">
                 <input type="checkbox" value="1" name="notify" checked aria-label="notify">
-                {{ trans('general.rma_notify') }}
+                {{ trans('admin/rma/general.rma_notify') }}
             </label>
-            <p class="help-block">{{ trans('general.rma_notify_help') }}
+            <p class="help-block">{{ trans('admin/rma/general.rma_notify_help') }}
             </p>
         </div>
     </div>
