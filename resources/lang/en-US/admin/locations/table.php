@@ -15,7 +15,6 @@ return [
     'print_all_assigned'        => 'Print All Assigned',
     'name'                      => 'Location Name',
     'address'                   => 'Address',
-    'address2'                   => 'Address Line 2',
     'zip'                       => 'Postal Code',
     'locations'                 => 'Locations',
     'parent'                    => 'Parent',

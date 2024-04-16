@@ -19,7 +19,4 @@ return [
     'updated_at' => 'Updated At',
     'view' => 'View RMA for ',
     'edit' => 'Edit',
-    'rma_notify' => 'Notify Admin',
-    'rma_notify_help' => 'Send an email notification to the front office',
-    'rma_with_admin_help' => 'Is the unit with the front office?'
 ];
