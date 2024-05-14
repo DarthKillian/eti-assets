@@ -8,6 +8,7 @@ return [
     'case_number' => 'Case Number',
     'new_asset' => 'New Asset',
     'with_admin' => 'In Admin Office',
+    'rma_notify' => 'Notify Admin',
     'rma_with_admin_help' => 'Check this if the unit is in the front office',
     'rma_notify_help' => 'Send an email notification to the front office',
     'warranty_expired' => 'Warranty Expired',
