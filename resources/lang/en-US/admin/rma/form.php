@@ -7,7 +7,7 @@ return [
     'rma_number' => 'RMA Number',
     'case_number' => 'Case Number',
     'notes' => 'Notes',
-    'contact' => 'Technician',
+    'contact' => 'Contact',
     'with_admin' => 'In Admin Office',
     'warranty_expired' => 'Warranty Expired',
     'repair_cost' => 'Repair Cost',
