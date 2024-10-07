@@ -215,7 +215,7 @@ class RMARequestController extends Controller
         }
 
         // This assumes that the status gets updated and the RMA needs to update the asset and create an aset maintenance
-        if ($oldRMAStatus == "Pending" && !isset($rma->asset_maintenance_id)) {
+        if ($oldRMAStatus == "Pending" && !isset($rma->asset_maintenance_id) && $request->input('rma_status') != "RMA Declined") {
             if (!$rma->setAssetMaintenance("create")) {
                 return redirect()->back()->with('error', "There was an error in the auto creation of the asset maintenance");
             }
