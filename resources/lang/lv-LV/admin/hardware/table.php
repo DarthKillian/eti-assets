@@ -4,6 +4,7 @@ return [
 
     'asset_tag'   	=> 'Asset Tag',
     'asset_model'       => 'Modelis',
+    'assigned_to'   => 'Piešķirts',
     'book_value'  	=> 'Current Value',
     'change' 		=> 'Iekšā ārā',
     'checkout_date' => 'Izrakstīšanās datums',
@@ -24,9 +25,12 @@ return [
     'image'		    => 'Ierīces attēls',
     'days_without_acceptance' => 'Dienas bez pieņemšanas',
     'monthly_depreciation' => 'Monthly Depreciation',
+<<<<<<< HEAD
     'assigned_to'    => 'Piešķirts',
+=======
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requesting_user' => 'Requesting User',
-    'requested_date' => 'Requested Date',
-    'changed'       => 'Changed',
+    'requested_date' => 'Pieprasīšanas datums',
+    'changed'       => 'Izmainīts',
     'icon' => 'Icon',
 ];

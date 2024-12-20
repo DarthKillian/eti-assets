@@ -4,6 +4,7 @@ return [
 
     'asset_tag'   	=> 'Rhif Ased (tag)',
     'asset_model'       => 'Model',
+    'assigned_to'   => 'Wedi Neilltuo i',
     'book_value'  	=> 'Current Value',
     'change' 		=> 'Mewn/Allan',
     'checkout_date' => 'Dyddiad Allan',
@@ -24,7 +25,10 @@ return [
     'image'		    => 'Delwedd Dyfais',
     'days_without_acceptance' => 'Diwrnodau Heb Derbyn',
     'monthly_depreciation' => 'Monthly Depreciation',
+<<<<<<< HEAD
     'assigned_to'    => 'Wedi Neilltuo i',
+=======
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requesting_user' => 'Requesting User',
     'requested_date' => 'Requested Date',
     'changed'       => 'Wedi newid',

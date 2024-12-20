@@ -2,7 +2,11 @@
 
 return array(
 
+<<<<<<< HEAD
     'support_url_help' => 'Variables <code>{LOCALE}</code>, <code>{SERIAL}</code>, <code>{MODEL_NUMBER}</code>, and <code>{MODEL_NAME}</code> may be used in your URL to have those values auto-populate when viewing assets - for example https://support.apple.com/{LOCALE}/{SERIAL}.',
+=======
+    'support_url_help' => 'Variables <code>{LOCALE}</code>, <code>{SERIAL}</code>, <code>{MODEL_NUMBER}</code>, and <code>{MODEL_NAME}</code> may be used in your URL to have those values auto-populate when viewing assets - for example https://checkcoverage.apple.com/{LOCALE}/{SERIAL}.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'does_not_exist' => 'Kaore te kaihoko i te tīariari.',
     'assoc_users'	 => 'Ko tenei kaiwhakanao e whai ana ki tetahi tauira kotahi, kaore e taea te muku. Whakaorangia nga tauira kia kore koe e tohu i tenei kaihanga me te ngana ano.',
 

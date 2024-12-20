@@ -2,6 +2,7 @@
 
 return [
 
+<<<<<<< HEAD
     'select_language' => 'Selectaţi o limbă',
     'languages' => [
         'en-US'=> 'English, US',
@@ -50,6 +51,59 @@ return [
         'sr-CS' => 'Serbian (Latin)',
         'sk-SK'=> 'Slovak',
         'sl-SI'=> 'Slovenian',
+=======
+    'select_language' => 'Select a Language',
+    'languages' => [
+        'en-US'=> 'Engleză, SUA',
+        'en-GB'=> 'Engleză, Marea Britanie',
+        'am-ET' => 'Amharic',
+        'af-ZA'=> 'Afrikaani',
+        'ar-SA'=> 'Arabă',
+        'bg-BG'=> 'Bulgară',
+        'zh-CN'=> 'Chineză simplificată',
+        'zh-TW'=> 'Chineză tradițională',
+        'ca-ES' => 'Catalană',
+        'hr-HR'=> 'Croată',
+        'cs-CZ'=> 'Cehă',
+        'da-DK'=> 'Daneză',
+        'nl-NL'=> 'Olandeză',
+        'en-ID'=> 'Engleză, Indonezia',
+        'et-EE'=> 'Estonă',
+        'fil-PH'=> 'Filipineză',
+        'fi-FI'=> 'Finlandeză',
+        'fr-FR'=> 'Franceză',
+        'de-DE'=> 'Germană',
+        'de-if'=> 'Germană (informal)',
+        'el-GR'=> 'Greacă',
+        'he-IL'=> 'Ebraică',
+        'hu-HU'=> 'Maghiară',
+        'is-IS' => 'Icelandic',
+        'id-ID'=> 'Indoneziană',
+        'ga-IE'=> 'Irlandez',
+        'it-IT'=> 'Italiană',
+        'ja-JP'=> 'Japoneză',
+        'km-KH'=>'Khmer',
+        'ko-KR'=> 'Coreeană',
+        'lt-LT'=>'Lituaniană',
+        'lv-LV'=> 'Letonă',
+        'mk-MK'=> 'Macedoneană',
+        'ms-MY'=> 'Malaeză',
+        'mi-NZ'=> 'Maori',
+        'mn-MN'=> 'Mongolie',
+        //'no-NO'=> 'Norwegian',
+        'nb-NO'=> 'Norwegian Bokmål',
+        //'nn-NO'=> 'Norwegian Nynorsk',
+        'fa-IR'=> 'persană',
+        'pl-PL'=> 'Poloneză',
+        'pt-PT'=> 'Portugheză',
+        'pt-BR'=> 'Portugheză, Braziliană',
+        'ro-RO'=> 'Română',
+        'ru-RU'=> 'Rusă',
+        'sr-CS' => 'Serbian (Latin)',
+        'sk-SK'=> 'Slovacă',
+        'sl-SI'=> 'Slovenian',
+        'so-SO'=> 'Somali',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Spaniolă',
         'es-CO'=> 'Spaniolă, Columbia',
         'es-MX'=> 'Spaniolă, Mexic',
@@ -57,6 +111,7 @@ return [
         'sv-SE'=> 'Suedeză',
         'tl-PH'=> 'Tagalog',
         'ta-IN'=> 'Tamil',
+<<<<<<< HEAD
         'th-TH'=> 'Thai',
         'tr-TR'=> 'Turkish',
         'uk-UA'=> 'Ukranian',
@@ -66,6 +121,17 @@ return [
     ],
 
     'select_country' => 'Selectează o țară',
+=======
+        'th-TH'=> 'Tailandeză',
+        'tr-TR'=> 'Turcă',
+        'uk-UA'=> 'Ucraineană',
+        'vi-VN'=> 'Vietnamese',
+        'cy-GB'=> 'Galeză',
+        'zu-ZA'=> 'Zulu',
+    ],
+
+    'select_country' => 'Select a Country',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     
     'countries' => [
         'AC'=>'Insula Ascension',
@@ -132,6 +198,10 @@ return [
         'EC'=>'Ecuador',
         'EE'=>'Estonia',
         'EG'=>'Egipt',
+<<<<<<< HEAD
+=======
+        'GB-ENG'=>'England',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'ER'=>'Eritreea',
         'ES'=>'Spania',
         'ET'=>'Ethiopia',
@@ -230,6 +300,10 @@ return [
         'NG'=>'Nigeria',
         'NI'=>'Nicaragua',
         'NL'=>'Olanda',
+<<<<<<< HEAD
+=======
+        'GB-NIR' => 'Northern Ireland',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'NO'=>'Norvegia',
         'NP'=>'Nepal',
         'NR'=>'Nauru',
@@ -257,7 +331,11 @@ return [
         'RU'=>'Federaţia Rusă',
         'RW'=>'Rwanda',
         'SA'=>'Arabia Saudită',
+<<<<<<< HEAD
         'UK'=>'Scoţia',
+=======
+        'GB-SCT'=>'Scoţia',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'SB'=>'Insulele Solomon',
         'SC'=>'Seychelles',
         'SS'=>'Sudanul de Sud',
@@ -309,6 +387,10 @@ return [
         'VI'=>'Insulele Virgine Americane',
         'VN'=>'Viet Nam',
         'VU'=>'Vanuatu',
+<<<<<<< HEAD
+=======
+        'GB-WLS' =>'Wales',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'WF'=>'Insulele Wallis și Futuna',
         'WS'=>'Samoa',
         'YE'=>'Yemen',

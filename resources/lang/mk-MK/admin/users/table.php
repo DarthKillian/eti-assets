@@ -10,7 +10,7 @@ return array(
     'email'      			=> 'Е-пошта',
     'employee_num'      	=> 'Број на вработен',
     'first_name' 			=> 'Име',
-    'groupnotes'			=> 'Select a group to assign to the user, remember that a user takes on the permissions of the group they are assigned. Use ctrl+click (or cmd+click on MacOS) to deselect groups.',
+    'groupnotes'			=> 'Изберете група што ќе му ја доделите на корисникот, запомнете дека корисникот ги презема дозволите на групата што му е доделена. Користете ctrl+клик (или cmd+клик на MacOS) за да го поништите изборот на групи.',
     'id'         			=> 'ID',
     'inherit'  				=> 'Наследено',
     'job' 					=> 'Работна позиција',
@@ -20,8 +20,13 @@ return array(
     'lock_passwords'		=> 'Деталите за најава не може да се променат на оваа инсталација.',
     'manager' 				=> 'Менаџер',
     'managed_locations'     => 'Менаџирани локации',
+    'managed_users'         => 'Управувани корисници',
     'name' 					=> 'Име',
+<<<<<<< HEAD
     'nogroup'               => 'No groups have been created yet. To add one, visit: ',
+=======
+    'nogroup'               => 'Сеуште нема креирано групи. За да креирате, посетете: ',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'notes'                 => 'Забелешки',
     'password_confirm' 		=> 'Потврди ја лозинката',
     'password' 				=> 'Лозинка',
@@ -30,7 +35,11 @@ return array(
     'show_deleted'          => 'Прикажи ги избришаните корисници',
     'title' 				=> 'Наслов',
 	'to_restore_them'		=> 'да се вратат.',
+<<<<<<< HEAD
     'total_assets_cost'     => "Total Assets Cost",
+=======
+    'total_assets_cost'     => "Вкупни трошоци за средствата",
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'updateuser' 			=> 'Ажурирај го корисникот',
     'username' 				=> 'Корисничко име',
 	'user_deleted_text' 	=> 'Овој корисник е обележан како избришан.',

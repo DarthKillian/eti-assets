@@ -7,6 +7,7 @@ return [
     'checkin_and_delete'  	    => 'Entrega todos / Apaga Utilizadores',
     'delete'  	                => 'Remover',
     'edit'    	                => 'Editar',
+    'clone'    	                => 'Clone',
     'restore' 	                => 'Restaurar',
     'remove'                    => 'Remover',
     'request'                   => 'Solicitar',
@@ -21,4 +22,16 @@ return [
     'add_maintenance'           => 'Adicionar Manutenção',
     'append'                    => 'Anexar',
     'new'                       => 'Novo',
+<<<<<<< HEAD
+=======
+    'var' => [
+        'clone'     => 'Clone :item_type',
+        'edit'      => 'Edit :item_type',
+        'delete'    => 'Delete :item_type',
+        'restore'   => 'Restore :item_type',
+        'create'    => 'Create New :item_type',
+        'checkout'  => 'Checkout :item_type',
+        'checkin'   => 'Checkin :item_type',
+    ]
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

@@ -4,6 +4,7 @@ return [
 
     'asset_tag'   	=> 'Tag Aset',
     'asset_model'       => 'Model',
+    'assigned_to'   => 'Ditetapkan untuk',
     'book_value'  	=> 'Current Value',
     'change' 		=> 'Masuk/keluar',
     'checkout_date' => 'Tanggal Check out',
@@ -24,7 +25,10 @@ return [
     'image'		    => 'Perangkat Gambar',
     'days_without_acceptance' => 'Hari tanpa penerimaan',
     'monthly_depreciation' => 'Penyusutan Bulanan',
+<<<<<<< HEAD
     'assigned_to'    => 'Ditetapkan untuk',
+=======
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requesting_user' => 'Requesting User',
     'requested_date' => 'Requested Date',
     'changed'       => 'Changed',

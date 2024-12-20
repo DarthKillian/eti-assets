@@ -11,7 +11,11 @@ return [
     'country'                   => 'Riik',
     'create'                    => 'Uus asukoht',
     'update'                    => 'Uuenda asukohta',
+<<<<<<< HEAD
     'print_assigned'            => 'Print Assigned',
+=======
+    'print_assigned'            => 'Prindi määratud',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'print_all_assigned'        => 'Prindi kõik varad',
     'name'                      => 'Asukoha nimi',
     'address'                   => 'Aadress',
@@ -34,6 +38,7 @@ return [
     'asset_checked_out'         => 'Väljastatud',
     'asset_expected_checkin'    => 'Eeldatav tagastus',
     'date'                      => 'Kuupäev:',
+    'phone'                     => 'Location Phone',
     'signed_by_asset_auditor'   => 'Allkiri (varaaudiitor):',
     'signed_by_finance_auditor' => 'Allkiri (finantsaudiitor):',
     'signed_by_location_manager' => 'Allkiri (asukohahaldur):',

@@ -13,6 +13,12 @@ return [
         'file_not_found'        => 'O ficheiro de backup não foi encontrado no servidor.',
         'restore_warning'       => 'Sim, restaurar. Eu reconheço que isso irá substituir quaisquer dados existentes atualmente na base de dados. Isto também irá desligar todos os utilizadores existentes (incluindo você).',
         'restore_confirm'       => 'Tem a certeza que deseja restaurar a sua base de dados a partir de :filename?'
+<<<<<<< HEAD
+=======
+    ],
+    'restore' => [
+        'success'               => 'Your system backup has been restored. Please log in again.'
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
     'purge' => [
         'error'     => 'Ocorreu um erro ao eliminar os dados. ',

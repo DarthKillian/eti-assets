@@ -12,7 +12,11 @@ return [
         'bg-BG'=> 'Búlgaro',
         'zh-CN'=> 'Chino simplificado',
         'zh-TW'=> 'Chino tradicional',
+<<<<<<< HEAD
         'ca-ES' => 'Catalan',
+=======
+        'ca-ES' => 'Catalán',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'hr-HR'=> 'Croata',
         'cs-CZ'=> 'Checo',
         'da-DK'=> 'Danés',
@@ -40,6 +44,7 @@ return [
         'ms-MY'=> 'Malayo',
         'mi-NZ'=> 'Maorí',
         'mn-MN'=> 'Mongol',
+<<<<<<< HEAD
         'no-NO'=> 'Noruego',
         'fa-IR'=> 'Persa',
         'pl-PL'=> 'Polaco',
@@ -50,6 +55,21 @@ return [
         'sr-CS' => 'Serbio (Latino)',
         'sk-SK'=> 'Slovak',
         'sl-SI'=> 'Esloveno',
+=======
+        //'no-NO'=> 'Norwegian',
+        'nb-NO'=> 'Noruego Bokmål',
+        //'nn-NO'=> 'Norwegian Nynorsk',
+        'fa-IR'=> 'Persa',
+        'pl-PL'=> 'Polaco',
+        'pt-PT'=> 'Portugués',
+        'pt-BR'=> 'Portugués, Brasil',
+        'ro-RO'=> 'Rumano',
+        'ru-RU'=> 'Ruso',
+        'sr-CS' => 'Serbio (Latino)',
+        'sk-SK'=> 'Eslovaco',
+        'sl-SI'=> 'Esloveno',
+        'so-SO'=> 'Somalí',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Español',
         'es-CO'=> 'Español, Colombia',
         'es-MX'=> 'Español, México',
@@ -84,7 +104,11 @@ return [
         'AT'=>'Austria',
         'AU'=>'Australia',
         'AW'=>'Aruba',
+<<<<<<< HEAD
         'AX'=>'Åland',
+=======
+        'AX'=>'Islas Aland',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'AZ'=>'Azerbaiyán',
         'BA'=>'Bosnia y Herzegovina',
         'BB'=>'Barbados',
@@ -92,7 +116,11 @@ return [
         'BD'=>'Bangladesh',
         'BF'=>'Burkina Faso',
         'BG'=>'Bulgaria',
+<<<<<<< HEAD
         'BH'=>'Bahréin',
+=======
+        'BH'=>'Baréin',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'BI'=>'Burundi',
         'BJ'=>'Benín',
         'BM'=>'Bermuda',
@@ -132,6 +160,10 @@ return [
         'EC'=>'Ecuador',
         'EE'=>'Estonia',
         'EG'=>'Egipto',
+<<<<<<< HEAD
+=======
+        'GB-ENG'=>'Inglaterra',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'ER'=>'Eritrea',
         'ES'=>'España',
         'ET'=>'Etiopía',
@@ -230,6 +262,10 @@ return [
         'NG'=>'Nigeria',
         'NI'=>'Nicaragua',
         'NL'=>'Países Bajos',
+<<<<<<< HEAD
+=======
+        'GB-NIR' => 'Irlanda del Norte',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'NO'=>'Noruega',
         'NP'=>'Nepal',
         'NR'=>'Nauru',
@@ -257,7 +293,11 @@ return [
         'RU'=>'Federación Rusa',
         'RW'=>'Ruanda',
         'SA'=>'Arabia Saudita',
+<<<<<<< HEAD
         'UK'=>'Escocia',
+=======
+        'GB-SCT'=>'Escocia',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'SB'=>'Islas Salomón',
         'SC'=>'Seychelles',
         'SS'=>'Sudán del Sur',
@@ -286,8 +326,13 @@ return [
         'TJ'=>'Tajikistan',
         'TK'=>'Tokelau',
         'TI'=>'Timor Oriental',
+<<<<<<< HEAD
         'TM'=>'Turkmenistan',
         'TN'=>'Tunisia',
+=======
+        'TM'=>'Turkmenistán',
+        'TN'=>'Túnez',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'TO'=>'Tonga',
         'TP'=>'Timor Oriental (código antiguo)',
         'TR'=>'Turquía',
@@ -309,6 +354,10 @@ return [
         'VI'=>'Islas Vírgenes (EE. UU.)',
         'VN'=>'Vietnam',
         'VU'=>'Vanuatu',
+<<<<<<< HEAD
+=======
+        'GB-WLS' =>'Gales',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'WF'=>'Islas Wallis y Futuna',
         'WS'=>'Samoa',
         'YE'=>'Yemen',

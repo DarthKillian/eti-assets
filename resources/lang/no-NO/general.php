@@ -1,6 +1,10 @@
 <?php
 
 return [
+<<<<<<< HEAD
+=======
+    '2FA_reset'             => '2FA reset',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'accessories'			=> 'Tilbehør',
     'activated'			    => 'Aktivert',
     'accepted_date'         => 'Akseptdato',
@@ -10,6 +14,12 @@ return [
     'activity_report'		=> 'Aktivitetsrapport',
     'address'				=> 'Adresse',
     'admin'					=> 'Admin',
+<<<<<<< HEAD
+=======
+    'admin_tooltip'			=> 'This user has admin privileges',
+    'superuser'				=> 'Superuser',
+    'superuser_tooltip'		=> 'This user has superuser privileges',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'administrator'			=> 'Administrator',
     'add_seats'             => 'Setelisenser lagt til',
     'age'                   => "Alder",
@@ -60,6 +70,10 @@ return [
     'checkout'  			=> 'Sjekk ut',
     'checkouts_count'       => 'Sjekk ut',
     'checkins_count'        => 'Sjekk inn',
+<<<<<<< HEAD
+=======
+    'checkin_and_delete'  	=> 'Checkin and Delete',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_requests_count'   => 'Forespørsler',
     'city'  				=> 'By',
     'click_here'			=> 'Klikk her',
@@ -73,7 +87,11 @@ return [
     'consumables'			=> 'Forbruksvarer',
     'country'  				=> 'Land',
     'could_not_restore'     => 'Feil ved gjenoppretting av :item_type: :error',
+<<<<<<< HEAD
     'not_deleted'           => ':item_type er ikke slettet og kan ikke gjenopprettes',
+=======
+    'not_deleted'           => 'The :item_type was not deleted and therefore cannot be restored',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Opprett ny',
     'created'               => 'Enhet opprettet',
     'created_asset'			=> 'eiendel opprettet',
@@ -94,7 +112,11 @@ return [
     'debug_warning_text'    => 'Dette programmet kjører i produksjonsmodus med feilsøking aktiverert. Dette kan utsette følsomme data hvis programmet er tilgjengelig for omverdenen. Deaktiver debug modus ved å sette <code>APP_DEBUG</code>-verdien i filen <code>.env</code> til <code>false</code>.',
     'delete'  				=> 'Slett',
     'delete_confirm'  		=> 'Er du sikker på at du vil slette :item?',
+<<<<<<< HEAD
     'delete_confirm_no_undo' => 'Er du sikker på at du vil slette :item? Dette kan ikke angres.',
+=======
+    'delete_confirm_no_undo' => 'Are you sure, you wish to delete :item? This cannot be undone.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Slettet',
     'delete_seats'  		=> 'Slettede setelisenser',
     'deletion_failed'       => 'Sletting mislyktes',
@@ -130,6 +152,10 @@ return [
     'lastname_firstinitial' => 'Etternavn Fornavn Initialer (smith_j@example.com)',
     'firstinitial.lastname' => 'Fornavn Initialer Etternavn (j.smith@example.com)',
     'firstnamelastinitial'  => 'Fornavn Etternavn Initialer (janes@example.com)',
+<<<<<<< HEAD
+=======
+    'lastnamefirstname'      => 'Last Name.First Name (smith.jane@example.com)',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'first_name'			=> 'Fornavn',
     'first_name_format'		=> 'Fornavn (oladunk@example.com)',
     'files'                 => 'Filer',
@@ -151,9 +177,15 @@ return [
     'image_delete'         	=> 'Slett bilde',
     'include_deleted'       => 'Inkluder slettede ressurser',
     'image_upload'         	=> 'Last opp bilde',
+<<<<<<< HEAD
     'filetypes_accepted_help'    => 'Godkjent filtype er :types. Maks opplastingsstørrelse er :size.|Aksepterte filtyper er :types. Maks opplastingsstørrelse er :size.',
     'filetypes_size_help'   => 'Maks opplastingsstørrelse er :size.',
     'image_filetypes_help'  => 'Tillatte filtyper er jpg, webp, png, gif, og svg. Maks filstørrelse er :size.',
+=======
+    'filetypes_accepted_help'    => 'Accepted filetype is :types. The maximum size allowed is :size.|Accepted filetypes are :types. The maximum upload size allowed is :size.',
+    'filetypes_size_help'   => 'The maximum upload size allowed is :size.',
+    'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'Denne bildefilen var ikke lesbar. Aksepterte filtyper er jpg, webp, png, gif og svg. Mime-typen til denne filen er :mimetype.',
     'import'         	    => 'Importer',
     'import_this_file'      => 'Kartfelter og behandle denne filen',
@@ -178,16 +210,28 @@ return [
     'licenses_available'	=> 'Tilgjengelige lisenser',
     'licenses'				=> 'Lisenser',
     'list_all'				=> 'List alle',
+<<<<<<< HEAD
     'loading'				=> 'Laster... vennligst vent....',
     'lock_passwords'        => 'Denne feltverdien vil ikke bli lagret i en demo-installasjon.',
     'feature_disabled'      => 'Denne funksjonen er deaktivert i demo-installasjonen.',
     'location'              => 'Lokasjon',
+=======
+    'loading'				=> 'Laster... vennligst vent...',
+    'lock_passwords'        => 'Denne feltverdien vil ikke bli lagret i en demo-installasjon.',
+    'feature_disabled'      => 'Denne funksjonen er deaktivert i demo-installasjonen.',
+    'location'              => 'Lokasjon',
+    'location_plural'        => 'Stedslokasjoner',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'locations'				=> 'Lokasjoner',
     'logo_size'				=> 'Kvadratisk logo vises best med Logo + Text. Logo maximum display size is 50px high x 500px wide.  ',
     'logout'				=> 'Logg ut',
     'lookup_by_tag'     => 'Søk på ID-merke',
     'maintenances'          => 'Vedlikehold',
+<<<<<<< HEAD
     'manage_api_keys'       => 'Administrer API-nøkler',
+=======
+    'manage_api_keys'       => 'Manage API keys',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'manufacturer'			=> 'Produsent',
     'manufacturers'			=> 'Produsenter',
     'markdown'				=> 'Dette feltet tillater <a href="https://help.github.com/articles/github-flavored-markdown/">Github flavored markdown</a>.',
@@ -200,6 +244,12 @@ return [
     'new_password'          => 'Nytt passord',
     'next'					=> 'Neste',
     'next_audit_date'		=> 'Neste revisjon dato',
+<<<<<<< HEAD
+=======
+    'next_audit_date_help'  => 'If you use auditing in your organization, this is usually automatically calculated based on the asset&apos;s last audit date and audit frequency (in <code>Admin Settings &gt; Alerts</code>) and you can leave this blank. You can manually set this date here if you need to, but it must be later than the last audit date. ',
+    'audit_images_help'     => 'You can find audit images in the asset\'s history tab.',
+    'no_email'              => 'Ingen e-postadresse tilknyttet denne brukeren',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'last_audit'		    => 'Siste revisjon',
     'new'					=> 'ny!',
     'no_depreciation'		=> 'Ingen avskrivning',
@@ -220,7 +270,11 @@ return [
     'purchase_date'         => 'Innkjøpsdato',
     'qty'		            => 'Antall',
     'quantity'		        => 'Antall',
+<<<<<<< HEAD
     'quantity_minimum'      => 'Du har :count enheter under eller nesten under minimum antall',
+=======
+    'quantity_minimum'      => 'You have one item below or almost below minimum quantity levels|You have :count items below or almost below minimum quantity levels',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'quickscan_checkin'  	=> 'Hurtiginnsjekk ved skanning',
     'quickscan_checkin_status'  	=> 'Innsjekkingsstatus',
     'ready_to_deploy'		=> 'Klar for utlevering',
@@ -231,17 +285,30 @@ return [
     'restored'				=> 'gjenopprettet',
     'restore'				=> 'Gjenopprett',
     'requestable_models'    => 'Forespørrbare modeller',
+<<<<<<< HEAD
+=======
+    'requestable_items'     => 'Requestable Items',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requested'				=> 'Forespurt',
     'requested_date'        => 'Forespurt dato',
     'requested_assets'      => 'Forespurte eiendeler',
     'requested_assets_menu' => 'Forespurte eiendeler',
     'request_canceled'      => 'Forespørsel avbrutt',
+<<<<<<< HEAD
+=======
+    'request_item'          => 'Request this item',
+    'external_link_tooltip' => 'External link to',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'save'  				=> 'Lagre',
     'select_var'            => 'Velg :thing... ', // this will eventually replace all of our other selects
     'select'				=> 'Velg',
     'select_all'            => 'Velg alle',
     'search'				=> 'Søk',
     'select_category'       => 'Velg en kategori',
+<<<<<<< HEAD
+=======
+    'select_datasource' => 'Select a data source',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'select_department'     => 'Velg en avdeling',
     'select_depreciation'	=> 'Velg en avskrivningstype',
     'select_location'		=> 'Velg en lokasjon',
@@ -261,13 +328,24 @@ return [
     'signed_off_by'         => 'Godkjent av',
     'skin'       			=> 'Tema',
     'webhook_msg_note'        => 'En varsling vil bli sendt via webhook',
+<<<<<<< HEAD
     'webhook_test_msg'        => 'Hei-hå! Ser som din Slack-integrasjon med Snipe-IT fungerer!',
+=======
+    'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'DEMO MODUS: Noe funksjonalitet er skrudd av i denne installasjonen.',
     'site_name'				=> 'Nettstedsnavn',
     'state'  				=> 'Stat',
     'status_labels'			=> 'Statusmerker',
+<<<<<<< HEAD
     'status'    			=> 'Status',
     'accept_eula'           => 'Akseptavtale',
+=======
+    'status_label'			=> 'Status Label',
+    'status'    			=> 'Status',
+    'accept_eula'           => 'Akseptavtale',
+    'show_or_hide_eulas' => 'Show/Hide EULAs',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'supplier'              => 'Leverandør',
     'suppliers'  			=> 'Leverandører',
     'sure_to_delete'        => 'Er du sikker på at du vil slette',
@@ -291,6 +369,10 @@ return [
     'user'					=> 'Bruker',
     'accepted'			    => 'akseptert',
     'declined'			    => 'avslått',
+<<<<<<< HEAD
+=======
+    'declined_note'         => 'Declined Notes',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Ikke tildelt',
     'unaccepted_asset_report' => 'Ikke aksepterte eiendeler',
     'users'                 => 'Brukere',
@@ -309,6 +391,13 @@ return [
     'token_expired'         => 'Din sesjon har utløpt. Prøv igjen.',
     'login_enabled'         => 'Innlogging aktiv',
     'audit_due'             => 'Revisjonsfrist nær',
+<<<<<<< HEAD
+=======
+    'audit_due_days'        => 'Aktiva Frist for revisjon innen :days days|Due for Audit Om dager',
+    'checkin_due'           => 'Forfalt for innsjekk',
+    'checkin_overdue'       => 'Forfalt for innsjekk',
+    'checkin_due_days'      => 'Eiendeler Tidsfrist for innsjekk innen :days Day|Asset Due for Checkin Innen :days',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'audit_overdue'         => 'Revisjonsfrist forfalt',
     'accept'                => 'Akseptér :asset',
     'i_accept'              => 'Jeg aksepterer',
@@ -321,16 +410,26 @@ return [
     'view_all'              => 'se alle',
     'hide_deleted'          => 'Skjul slettede',
     'email'                 => 'E-post',
+<<<<<<< HEAD
     'do_not_change'         => 'Ikke endre',
     'bug_report'            => 'Rapporter feil',
+=======
+    'do_not_change'         => 'Do not change',
+    'bug_report'            => 'Report a bug',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_manual'           => 'Brukerhåndbok',
     'setup_step_1'          => 'Trinn 1',
     'setup_step_2'          => 'Trinn 2',
     'setup_step_3'          => 'Trinn 3',
     'setup_step_4'          => 'Trinn 4',
     'setup_config_check'    => 'Sjekk konfigurasjon',
+<<<<<<< HEAD
     'setup_create_database' => 'Opprett databasetabeller',
     'setup_create_admin'    => 'Opprett adminbruker',
+=======
+    'setup_create_database' => 'Create database tables',
+    'setup_create_admin'    => 'Create an admin user',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'setup_done'            => 'Ferdig!',
     'bulk_edit_about_to'    => 'Du er i ferd med å redigere følgende: ',
     'checked_out'           => 'Sjekket ut',
@@ -387,8 +486,14 @@ return [
     'accessory_name'       => 'Tilbehørets navn:',
     'clone_item'            => 'Klon element',
     'checkout_tooltip' => 'Sjekk ut denne gjenstanden',
+<<<<<<< HEAD
     'checkin_tooltip' => 'Sjekk inn dette elementet',
     'checkout_user_tooltip' => 'Sjekk dette elementet ut til en bruker',
+=======
+    'checkin_tooltip' => 'Check this item in so that it is available for re-issue, re-imaging, etc',
+    'checkout_user_tooltip' => 'Sjekk dette elementet ut til en bruker',
+    'checkin_to_diff_location' => 'You can choose to check this asset in to a location other than this asset\'s default location of :default_location if one is set',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'maintenance_mode'      => 'Tjenesten er midlertidig utilgjengelig for systemoppdateringer. Vennligst prøv igjen senere.',
     'maintenance_mode_title' => 'System midlertidig ikke tilgjengelig',
     'ldap_import'           => 'Brukerpassord bør ikke administreres av LDAP. (Dette lar deg sende glemte passord forespørsler.)',
@@ -399,19 +504,31 @@ return [
     'bulk_soft_delete'      =>'Fjern også disse brukerne ved å fjerne deres eiendelshistorikk intakt/til du fjerner slettede poster i Admin-innstillingene.',
     'bulk_checkin_delete_success' => 'Dine valgte brukere er slettet og deres elementer har blitt sjekket inn.',
     'bulk_checkin_success' => 'Elementene for de valgte brukerne har blitt sjekket inn.',
+<<<<<<< HEAD
     'set_to_null'           => 'Slette verdier for denne eiendelen Slett verdier for alle :asset_count eiendeler ',
+=======
+    'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Slett :field verdier for denne brukeren. Slett :field verdier for alle :user_count brukere ',
     'na_no_purchase_date'   => 'N/A - Ingen kjøpsdato oppgitt',
     'assets_by_status'      => 'Eiendeler etter status',
     'assets_by_status_type'      => 'Eiendeler etter status',
     'pie_chart_type'        => 'Dashbord Kakediagram type',
     'hello_name'            => 'Velkommen, :name!',
+<<<<<<< HEAD
     'unaccepted_profile_warning'   => 'Du har :count elementer som trenger godkjenning. Klikk her for å akseptere eller avslå dem',
+=======
+    'unaccepted_profile_warning'   => 'You have one item requiring acceptance. Click here to accept or decline it | You have :count items requiring acceptance. Click here to accept or decline them',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'start_date'            => 'Startdato',
     'end_date'            => 'Sluttdato',
     'alt_uploaded_image_thumbnail' => 'Opplastet miniatyrbilde',
     'placeholder_kit'       => 'Velg ett sett',
     'file_not_found'        => 'Finner ikke filen',
+<<<<<<< HEAD
+=======
+    'log_record_not_found'  => 'No record for that log entry was found.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(ingen forhåndsvisning)',
     'setup'                 => 'Innstillinger',
     'pre_flight'            => 'Test',
@@ -437,13 +554,21 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Automatisk generering av inkrementerende ressurskoder er skrudd av, så alle rader må ha "ressurskode"-kollonnen utfylt.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Merk: Automatisk generering av inkrementerende ressurskoder er er skrudd på, så for alle rader som ikke har fult ut "ressurskoden, så vil den bli generert autmatisk. Rader som har ressurskoden utfylt vil bli oppdatert med den gitte informasjonen.',
     'send_welcome_email_to_users'   => ' Send velkomstepost til nye brukere?',
+<<<<<<< HEAD
+=======
+    'send_email'                => 'Send e-post',
+    'call'                      => 'Ring nummer',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Sikkerhetskopier før importering?',
     'csv_header_field'          => 'CSV-toppfelt',
     'import_field'              => 'Importer felt',
     'sample_value'              => 'Eksempelverdi',
     'no_headers'                => 'Ingen kolonner funnet',
     'error_in_import_file'      => 'Det oppstod en feil under lesing av CSV-filen: :error',
+<<<<<<< HEAD
     'percent_complete'          => ':percent % fullført',
+=======
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Det oppstod noen feil under importeringen: ',
     'warning'                   => 'ADVARSEL: :advarsel',
     'success_redirecting'       => '"Vellykket... omadressering.',
@@ -459,6 +584,10 @@ return [
     'no_autoassign_licenses_help' => 'Ikke inkluder bruker for massetilordning gjennom lisensbrukergrensesnittet eller cli verktøy.',
     'modal_confirm_generic'      => 'Er du sikker?',
     'cannot_be_deleted'      => 'Dette objektet kan ikke slettes',
+<<<<<<< HEAD
+=======
+    'cannot_be_edited'      => 'Dette elementet kan ikke redigeres.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Dette elementet kan ikke sjekkes ut. Sjekk hvor mange som gjenstår.',
     'serial_number'        => 'Serienummer',
     'item_notes' => ':item notater',
@@ -487,6 +616,11 @@ return [
         'address2' => 'Adresselinje 2',
         'import_note' => 'Importert med csv-importør',
     ],
+<<<<<<< HEAD
+=======
+    'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
+    'checked_out_to_fields' => 'Checked Out To Fields',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% fullført',
     'uploading' => 'Laster opp... ',
     'upload_error' => 'Feil ved opplasting av fil. Vennligst sjekk at det ikke er noen tomme rader og at ingen kolonnenavn er duplisert.',
@@ -499,5 +633,47 @@ return [
     'action_permission_generic' => 'Du har ikke tillatelse til :action denne :item_type',
     'edit' => 'rediger',
     'action_source' => 'Kilde for handling',
+<<<<<<< HEAD
+=======
+    'or' => 'eller',
+    'url'                   => 'URL',
+    'edit_fieldset' => 'Redigere feltene og opsjonene',
+    'permission_denied_superuser_demo' => 'Tillatelse nektet. Du kan ikke oppdatere brukerinformasjon for superadmins på demo.',
+    'pwd_reset_not_sent' => 'Brukeren er ikke aktivert, er LDAP synkronisert eller har ikke en e-postadresse',
+    'error_sending_email' => 'Feil ved sending av e-post',
+    'sad_panda' => 'Sad panda. You are not authorized to do the thing. Maybe <a href=":link">return to the dashboard</a>, or contact your administrator.',
+    'bulk' => [
+            'delete' =>
+                [
+                'header' => 'Bulk sletting :object_type',
+                'warn'   =>  'Du er i ferd med å slette ett :object_type″Du er i ferd med å slette :count :object_type',
+                'success'   =>  ':object_type ble vellykket slettet :count :object_type',
+                'error'   =>  'Kunne ikke slette :object_type',
+                'nothing_selected'   =>  'Nei :object_type er valgt - ingenting å gjøre',
+                'partial'   =>  'Slettet :success_count :object_type, men :error_count :object_type kunne ikke slettes',
+             ],
+    ],
+    'no_requestable' => 'Det finnes ingen forespørselbare eiendeler eller modeller.',
+
+    'countable' => [
+        'accessories'  => ':count Tilbehør|:count tilbehør',
+        'assets'  => ':count Eiendeler|:count',
+        'licenses'  => ':count Lisens|:count lisenser',
+        'license_seats'  => ':count lisenssete|:count Lisensseter',
+        'consumables'  => ':count Forbruksvare|:count Forbruksvarer',
+        'components'  => ':count Komponenter|:count komponenter',
+    ],
+    'more_info' => 'Mer info',
+    'quickscan_bulk_help' => 'Checking this box will edit the asset record to reflect this new location. Leaving it unchecked will simply note the location in the audit log. Note that if this asset is checked out, it will not change the location of the person, asset or location it is checked out to.',
+    'whoops' => 'Whoops!',
+    'something_went_wrong' => 'Something went wrong with your request.',
+    'close' => 'Close',
+    'expires' => 'Utløper',
+    'map_fields'=> 'Map :item_type Fields',
+    'remaining_var' => ':count Remaining',
+    'label' => 'Label',
+    'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
+    'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

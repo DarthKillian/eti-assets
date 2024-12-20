@@ -12,8 +12,13 @@ return [
     'remember_me'                   => 'Να με θυμάσαι',
     'username_help_top'                 => 'Εισάγετε το όνομα χρήστη <strong>σας</strong> για να στείλετε email σε έναν σύνδεσμο επαναφοράς κωδικού πρόσβασης.',
     'username_help_bottom'          => 'Your username and email address <em>may</em> be the same, but may not be, depending on your configuration. If you cannot remember your username, contact your administrator. <br><br><strong>Usernames without an associated email address will not be emailed a password reset link.</strong> ',
+<<<<<<< HEAD
     'google_login'                  => 'Ή συνδεθείτε με το Google Workspace',
     'google_login_failed'           => 'Το Google Login απέτυχε, παρακαλώ προσπαθήστε ξανά.',
 
+=======
+    'google_login'                  => 'Συνδεθείτε με το Google Workspace',
+    'google_login_failed'           => 'Το Google Login απέτυχε, παρακαλώ προσπαθήστε ξανά.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];
 

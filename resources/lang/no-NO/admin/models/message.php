@@ -7,7 +7,7 @@ return array(
     'no_association' => 'ADVARSEL! Ressursmodellen for dette elementet er ugyldig eller mangler!',
     'no_association_fix' => 'Dette vil ødelegge ting på merkelige og forferdelige måte. Rediger denne ressursen nå for å tildele den en modell.',
     'assoc_users'	 => 'Denne modellen er tilknyttet en eller flere eiendeler og kan ikke slettes. Slett eiendelene, og prøv å slette modellen igjen. ',
-
+    'invalid_category_type' => 'This category must be an asset category.',
 
     'create' => array(
         'error'   => 'Modellen ble ikke opprettet. Prøv igjen.',
@@ -34,7 +34,11 @@ return array(
     'bulkedit' => array(
         'error'   		=> 'Ingen felt ble endret, så ingenting ble oppdatert.',
         'success' 		=> 'Modelloppdatering vellyket.| :model_count modeller oppdatert.',
+<<<<<<< HEAD
         'warn'          => 'Du er i ferd med å oppdatere egenskapene til følgende modell: Du er i ferd med å redigere egenskapene for de følgende modellene for :model_count :',
+=======
+        'warn'          => 'Du er i ferd med å oppdatere egenskapene til følgende modell: Du er i ferd med å redigere egenskapene for følgende modeller: model_count modeller:',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     ),
 

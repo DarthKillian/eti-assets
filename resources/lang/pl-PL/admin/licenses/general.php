@@ -14,6 +14,10 @@ return array(
     'info'  					=> 'Informacja o licencji',
     'license_seats'  			=> 'Licencje',
     'seat'  					=> 'Miejsce',
+<<<<<<< HEAD
+=======
+    'seat_count'  				=> 'Seat :count',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'seats'  					=> 'Miejsca',
     'software_licenses'  		=> 'Licencje oprogramowania',
     'user'  					=> 'Użytkownik',
@@ -23,12 +27,20 @@ return array(
         [
             'checkin_all'           => [
                 'button'            => 'Zaznacz wszystkie miejsca',
+<<<<<<< HEAD
                 'modal'             => 'Spowoduje to zaznaczenie jednego miejsca. | Ta akcja będzie sprawdzać wszystkie :checkedout_seats_count miejsc dla tej licencji.',
+=======
+                'modal'             => 'This action will checkin one seat. | This action will checkin all :checkedout_seats_count seats for this license.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
                 'enabled_tooltip'   => 'Zaznacz WSZYSTKIE miejsca dla tej licencji zarówno od użytkowników, jak i aktywów',
                 'disabled_tooltip'  => 'To jest wyłączone, ponieważ nie ma obecnie zamówionych miejsc',
                 'disabled_tooltip_reassignable'  => 'To jest wyłączone, ponieważ licencja nie jest przypisywana ponownie',
                 'success'           => 'Licencja pomyślnie odblokowana! | Wszystkie licencje zostały pomyślnie sprawdzone!',
+<<<<<<< HEAD
                 'log_msg'           => 'Zamówione za pomocą licencji masowej w interfejsie licencyjnym',
+=======
+                'log_msg'           => 'Checked in via bulk license checkin in license GUI',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
             ],
 
             'checkout_all'              => [
@@ -45,4 +57,10 @@ return array(
 
             ],
     ],
+<<<<<<< HEAD
+=======
+
+    'below_threshold' => 'Istnieją tylko :remaining_count miejsc dla tej licencji z minimalną ilością :min_amt. Możesz rozważyć zakup większej liczby miejsc.',
+    'below_threshold_short' => 'Ta pozycja jest poniżej minimalnej wymaganej ilości.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

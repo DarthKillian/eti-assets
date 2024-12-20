@@ -14,6 +14,11 @@ return array(
         'success'               => 'Έχετε συνδεθεί επιτυχώς.',
         'code_required'         => 'Απαιτείται διψήφιος κωδικός.',
         'invalid_code'          => 'Ο κωδικός δύο παραγόντων δεν είναι έγκυρος.',
+<<<<<<< HEAD
+=======
+        'enter_two_factor_code' => 'Please enter your two-factor authentication code.',
+        'please_enroll'         => 'Please enroll a device in two-factor authentication.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'signin' => array(

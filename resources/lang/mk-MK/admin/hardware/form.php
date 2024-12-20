@@ -2,6 +2,7 @@
 
 return [
     'bulk_delete'		=> 'Потврди масовно бришење на основни средства',
+<<<<<<< HEAD
     'bulk_restore'      => 'Confirm Bulk Restore Assets', 
   'bulk_delete_help'	=> 'Прегледајте ги основните средства за масовно бришење подолу. Откако ќе се избришат, овие основни средства можат да бидат обновени, но повеќе нема да бидат задолжени на корисник.',
   'bulk_restore_help'	=> 'Review the assets for bulk restoration below. Once restored, these assets will not be associated with any users they were previously assigned to.',
@@ -13,6 +14,19 @@ return [
     'bulk_update_with_custom_field' => 'Note the assets are :asset_model_count different types of models.',
     'bulk_update_model_prefix' => 'On Models', 
     'bulk_update_custom_field_unique' => 'This is a unique field and can not be bulk edited.',
+=======
+    'bulk_restore'      => 'Потврди групно враќање на основни средтва', 
+  'bulk_delete_help'	=> 'Прегледајте ги основните средства за масовно бришење подолу. Откако ќе се избришат, овие основни средства можат да бидат обновени, но повеќе нема да бидат задолжени на корисник.',
+  'bulk_restore_help'	=> 'Прегледајте ги средствата за реставрација подолу. Откако ќе се обноват, овие средства нема да се поврзат со корисници на кои претходно им биле доделени.',
+  'bulk_delete_warn'	=> 'Ќе избришете :assets_count основни средства.',
+  'bulk_restore_warn'	=> 'Ќе се вратат :asset_count основни средства.',
+    'bulk_update'		=> 'Масовно ажурирање на основни средства',
+    'bulk_update_help'	=> 'Оваа форма ви овозможува да ажурирате повеќе основни средства одеднаш. Пополнете ги полињата што треба да ги промените. Сите полиња што остануваат празни ќе останат непроменети. ',
+    'bulk_update_warn'	=> 'Ќе ги уредувате својствата на едно средство.|Ќе ги уредувате својствата на :asset_count средства.',
+    'bulk_update_with_custom_field' => 'Забележете дека средствата се :asset_model_count различни типови на модели.',
+    'bulk_update_model_prefix' => 'На модели', 
+    'bulk_update_custom_field_unique' => 'Ова е уникатно поле и не може да биде изменето во група.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'checkedout_to'		=> 'Задолжен на',
     'checkout_date'		=> 'Датум на задолжување',
     'checkin_date'		=> 'Датум на раздолжување',
@@ -23,6 +37,7 @@ return [
     'depreciation'	    => 'Амортизационен план',
     'depreciates_on'	=> 'Се амортизира на',
     'default_location'	=> 'Стандардна локација',
+    'default_location_phone' => 'Стандардна локација телефон',
     'eol_date'			=> 'EOL Дата',
     'eol_rate'			=> 'ЕОЛ стапка',
     'expected_checkin'  => 'Очекуван датум на раздолжување',
@@ -38,6 +53,9 @@ return [
     'order'				=> 'Број на нарачка',
     'qr'				=> 'QR Код',
     'requestable'		=> 'Корисниците може да го побараат ова средство',
+    'redirect_to_all'   => 'Врати се на сите :type',
+    'redirect_to_type'   => 'Оди на :type',
+    'redirect_to_checked_out_to'   => 'Оди на задолжени',
     'select_statustype'	=> 'Изберете статус',
     'serial'			=> 'Сериски број',
     'status'			=> 'Статус',
@@ -46,6 +64,7 @@ return [
     'warranty'			=> 'Гаранција',
         'warranty_expires'		=> 'Гаранцијата истекува',
     'years'				=> 'години',
+<<<<<<< HEAD
     'asset_location' => 'Update Asset Location',
     'asset_location_update_default_current' => 'Update default location AND actual location',
     'asset_location_update_default' => 'Update only default location',
@@ -55,4 +74,17 @@ return [
     'processing_spinner' => 'Processing... (This might take a bit of time on large files)',
     'optional_infos'  => 'Optional Information',
     'order_details'   => 'Order Related Information'
+=======
+    'asset_location' => 'Ажурирај локација на средството',
+    'asset_location_update_default_current' => 'Ажурирајте ја стандардната локација и вистинската локација',
+    'asset_location_update_default' => 'Ажурирајте ја само стандардната локација',
+    'asset_location_update_actual' => 'Ажурирајте ја само вистинската локација',
+    'asset_not_deployable' => 'Статусот на средствата е незадолжливо. Средството неможе да се задолжи.',
+    'asset_not_deployable_checkin' => 'Статусот на средството е незадолжливо. Користењето на оваа ознака за статус ќе го провери средството.',
+    'asset_deployable' => 'Статусот е задолжливо. Средството може да се задолжи.',
+    'processing_spinner' => 'Се обработува... (Ова може да потрае за поголеми датотеки)',
+    'optional_infos'  => 'Опционални информации',
+    'order_details'   => 'Информации за набавка',
+    'calc_eol'    => 'If nulling the EOL date, use automatic EOL calculation based on the purchase date and EOL rate.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

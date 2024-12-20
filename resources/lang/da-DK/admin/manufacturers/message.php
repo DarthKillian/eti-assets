@@ -2,7 +2,11 @@
 
 return array(
 
+<<<<<<< HEAD
     'support_url_help' => 'Variabler <code>{LOCALE}</code>, <code>{SERIAL}</code>, <code>{MODEL_NUMBER}</code>, <code>{MODEL_NAME}</code> kan bruges i din URL til at have disse værdier automatisk udfylde, når du ser aktiver - for eksempel https://support. pple.com/{LOCALE}/{SERIAL}.',
+=======
+    'support_url_help' => 'Variabler <code>{LOCALE}</code>, <code>{SERIAL}</code>, <code>{MODEL_NUMBER}</code>, <code>{MODEL_NAME}</code> kan bruges i din URL til at have disse værdier automatisk udfyldes ved visning af aktiver - for eksempel https://checkcoverage. pple.com/{LOCALE}/{SERIAL}.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'does_not_exist' => 'Fabrikant eksistere ikke.',
     'assoc_users'	 => 'Denne producent er i øjeblikket forbundet med mindst en model og kan ikke slettes. Opdater dine modeller for ikke længere at henvise til denne producent, og prøv igen.',
 

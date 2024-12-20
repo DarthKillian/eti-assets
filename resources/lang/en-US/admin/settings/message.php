@@ -14,6 +14,9 @@ return [
         'restore_warning'       => 'Yes, restore it. I acknowledge that this will overwrite any existing data currently in the database. This will also log out all of your existing users (including you).',
         'restore_confirm'       => 'Are you sure you wish to restore your database from :filename?'
     ],
+    'restore' => [
+        'success'               => 'Your system backup has been restored. Please log in again.'
+    ],
     'purge' => [
         'error'     => 'An error has occurred while purging. ',
         'validation_failed'     => 'Your purge confirmation is incorrect. Please type the word "DELETE" in the confirmation box.',
@@ -35,10 +38,26 @@ return [
     ],
     'webhook' => [
         'sending' => 'Sending :app test message...',
+<<<<<<< HEAD
+<<<<<<<< HEAD:resources/lang/en-US/admin/settings/message.php
+========
+        'success' => 'Your :webhook_name Integration works!',
+>>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/ca-ES/admin/settings/message.php
+=======
+        'success' => 'Your :webhook_name Integration works!',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'success_pt1' => 'Success! Check the ',
         'success_pt2' => ' channel for your test message, and be sure to click SAVE below to store your settings.',
         '500' => '500 Server Error.',
         'error' => 'Something went wrong. :app responded with: :error_message',
+<<<<<<< HEAD
+<<<<<<<< HEAD:resources/lang/en-US/admin/settings/message.php
+========
+        'error_redirect' => 'ERROR: 301/302 :endpoint returns a redirect. For security reasons, we don’t follow redirects. Please use the actual endpoint.',
+>>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/ca-ES/admin/settings/message.php
+=======
+        'error_redirect' => 'ERROR: 301/302 :endpoint returns a redirect. For security reasons, we don’t follow redirects. Please use the actual endpoint.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'error_misc' => 'Something went wrong. :( ',
     ]
 ];

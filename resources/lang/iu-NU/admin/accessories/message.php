@@ -26,7 +26,23 @@ return array(
         'error'   		=> 'Accessory was not checked out, please try again',
         'success' 		=> 'Accessory checked out successfully.',
         'unavailable'   => 'Accessory is not available for checkout. Check quantity available',
+<<<<<<< HEAD
+<<<<<<<< HEAD:resources/lang/iu-NU/admin/accessories/message.php
+=======
+<<<<<<<< HEAD:resources/lang/am-ET/admin/accessories/message.php
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'user_does_not_exist' => 'That user is invalid. Please try again.'
+========
+        'user_does_not_exist' => 'That user is invalid. Please try again.',
+         'checkout_qty' => array(
+            'lte'  => 'There is currently only one available accessory of this type, and you are trying to check out :checkout_qty. Please adjust the checkout quantity or the total stock of this accessory and try again.|There are :number_currently_remaining total available accessories, and you are trying to check out :checkout_qty. Please adjust the checkout quantity or the total stock of this accessory and try again.',
+            ),
+           
+<<<<<<< HEAD
+>>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/ca-ES/admin/accessories/message.php
+=======
+>>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/iu-NU/admin/accessories/message.php
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

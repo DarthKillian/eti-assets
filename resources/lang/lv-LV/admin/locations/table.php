@@ -32,8 +32,14 @@ return [
     'asset_serial'              => 'Sērijas numurs',
     'asset_location'            => 'Atrašanās vieta',
     'asset_checked_out'         => 'Izrakstīts',
+<<<<<<< HEAD
     'asset_expected_checkin'    => 'Expected Checkin',
     'date'                      => 'Datums:',
+=======
+    'asset_expected_checkin'    => 'Paredzamais reģistrēšanas datums',
+    'date'                      => 'Datums:',
+    'phone'                     => 'Location Phone',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'signed_by_asset_auditor'   => 'Signed By (Asset Auditor):',
     'signed_by_finance_auditor' => 'Signed By (Finance Auditor):',
     'signed_by_location_manager' => 'Signed By (Location Manager):',

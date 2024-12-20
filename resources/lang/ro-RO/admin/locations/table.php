@@ -34,6 +34,10 @@ return [
     'asset_checked_out'         => 'Predat',
     'asset_expected_checkin'    => 'Verificare asteptata',
     'date'                      => 'Data:',
+<<<<<<< HEAD
+=======
+    'phone'                     => 'Telefon locație',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'signed_by_asset_auditor'   => 'Semnat de (auditor de active):',
     'signed_by_finance_auditor' => 'Semnat de (auditor financiar):',
     'signed_by_location_manager' => 'Semnat de (Location Manager):',

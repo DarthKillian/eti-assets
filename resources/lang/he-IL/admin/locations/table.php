@@ -15,7 +15,11 @@ return [
     'print_all_assigned'        => 'להדפיס את כל ההקצאות',
     'name'                      => 'שם מיקום',
     'address'                   => 'כתובת',
+<<<<<<< HEAD
     'address2'                   => 'Address Line 2',
+=======
+    'address2'                   => 'שורת כתובת 2',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'zip'                       => 'מיקוד',
     'locations'                 => 'מיקומים',
     'parent'                    => 'הוֹרֶה',
@@ -24,7 +28,7 @@ return [
     'user_name'                 => 'שם משתמש',
     'department'                => 'מחלקה',
     'location'                  => 'מיקום',
-    'asset_tag'                 => 'Assets Tag',
+    'asset_tag'                 => 'תגית פריטים',
     'asset_name'                => 'שם',
     'asset_category'            => 'קטגוריה',
     'asset_manufacturer'        => 'יצרן',
@@ -34,6 +38,7 @@ return [
     'asset_checked_out'         => 'הנכס שוייך',
     'asset_expected_checkin'    => 'תאריך חזרה למלאי',
     'date'                      => 'תאריך:',
+    'phone'                     => 'מיקום טלפון',
     'signed_by_asset_auditor'   => 'אושר על ידי (מפקח הציוד):',
     'signed_by_finance_auditor' => 'אושר על ידי (מפקח הכספים):',
     'signed_by_location_manager' => 'אושר על ידי (מנהל המיקום):',

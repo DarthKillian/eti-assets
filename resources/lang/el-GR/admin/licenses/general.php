@@ -14,6 +14,10 @@ return array(
     'info'  					=> 'Πληροφορίες άδειας',
     'license_seats'  			=> 'Άδειες Θέσεις',
     'seat'  					=> 'Εδρα',
+<<<<<<< HEAD
+=======
+    'seat_count'  				=> 'Seat :count',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'seats'  					=> 'Καθίσματα',
     'software_licenses'  		=> 'Άδειες λογισμικού',
     'user'  					=> 'Χρήστης',
@@ -23,12 +27,20 @@ return array(
         [
             'checkin_all'           => [
                 'button'            => 'Checkin Όλα Τα Καθίσματα',
+<<<<<<< HEAD
                 'modal'             => 'Αυτό θα ενεργοποιήσει τον έλεγχο μιας θέσης. "Αυτή η ενέργεια θα ελέγξει όλα τα :checkedout_seats_count καθίσματα για αυτήν την άδεια.',
+=======
+                'modal'             => 'This action will checkin one seat. | This action will checkin all :checkedout_seats_count seats for this license.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
                 'enabled_tooltip'   => 'Checkin ΟΛΕΣ τις θέσεις για αυτή την άδεια χρήσης τόσο από τους χρήστες όσο και από τα περιουσιακά στοιχεία',
                 'disabled_tooltip'  => 'Αυτό είναι απενεργοποιημένο, επειδή δεν υπάρχουν καθίσματα επί του παρόντος ελεγμένο',
                 'disabled_tooltip_reassignable'  => 'Αυτό είναι απενεργοποιημένο επειδή η Άδεια δεν είναι επανασχεδιασμένη',
                 'success'           => 'Η άδεια ελέγχθηκε με επιτυχία! "Όλες οι άδειες ελέγχθηκαν επιτυχώς!',
+<<<<<<< HEAD
                 'log_msg'           => 'Έγινε έλεγχος μέσω μαζικού checkout άδειας χρήσης στο GUI άδειας',
+=======
+                'log_msg'           => 'Checked in via bulk license checkin in license GUI',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
             ],
 
             'checkout_all'              => [
@@ -45,4 +57,10 @@ return array(
 
             ],
     ],
+<<<<<<< HEAD
+=======
+
+    'below_threshold' => 'Υπάρχουν μόνο :remaining_count θέσεις που έχουν απομείνει για αυτή την άδεια με ελάχιστη ποσότητα :min_amt. Μπορεί να θέλετε να εξετάσετε το ενδεχόμενο αγοράς περισσότερων θέσεων.',
+    'below_threshold_short' => 'Αυτό το είδος είναι κάτω από την ελάχιστη απαιτούμενη ποσότητα.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

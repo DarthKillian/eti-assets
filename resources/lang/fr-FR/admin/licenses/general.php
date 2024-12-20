@@ -14,6 +14,10 @@ return array(
     'info'  					=> 'Informations de licence',
     'license_seats'  			=> 'Licence multipostes',
     'seat'  					=> 'Poste',
+<<<<<<< HEAD
+=======
+    'seat_count'  				=> 'Poste :count',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'seats'  					=> 'Postes',
     'software_licenses'  		=> 'Licences de logiciel',
     'user'  					=> 'Utilisateur',
@@ -23,12 +27,20 @@ return array(
         [
             'checkin_all'           => [
                 'button'            => 'Désattribuer tous les sièges',
+<<<<<<< HEAD
                 'modal'             => 'Cette action désassociera un siège. | Cette action désassociera :checkedout_seats_count sièges pour cette licence.',
+=======
+                'modal'             => 'Cette action désattribuera un poste. | Cette action désattribuera les :checkedout_seats_count postes pour cette licence.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
                 'enabled_tooltip'   => 'Désassocier TOUS les sièges de cette licence, à la fois des utilisateurs·trices et des actifs',
                 'disabled_tooltip'  => 'Ceci est désactivé car il n\'y a pas de siège actuellement associé',
                 'disabled_tooltip_reassignable'  => 'Ceci est désactivé car la licence n\'est pas réassignable',
                 'success'           => 'Licence désassociée avec succès ! | Toutes les licences ont été désassociées avec succès !',
+<<<<<<< HEAD
                 'log_msg'           => 'Désassociée via l\'outil de gestion des licences en volume',
+=======
+                'log_msg'           => 'Associée via l\'interface d\'attribution de licence en volumes',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
             ],
 
             'checkout_all'              => [
@@ -45,4 +57,10 @@ return array(
 
             ],
     ],
+<<<<<<< HEAD
+=======
+
+    'below_threshold' => 'Il ne reste que :remaining_count places pour cette licence avec une quantité minimale de :min_amt. Vous pouvez envisager d\'acheter plus de sièges.',
+    'below_threshold_short' => 'Cet article est en dessous de la quantité minimale requise.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

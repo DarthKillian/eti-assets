@@ -23,6 +23,7 @@ return [
     'depreciation'	    => 'Depreciation',
     'depreciates_on'	=> 'Depreciates On',
     'default_location'	=> 'Default Location',
+    'default_location_phone' => 'Default Location Phone',
     'eol_date'			=> 'EOL Date',
     'eol_rate'			=> 'EOL Rate',
     'expected_checkin'  => 'Expected Checkin Date',
@@ -38,10 +39,17 @@ return [
     'order'				=> 'Order Number',
     'qr'				=> 'QR Code',
     'requestable'		=> 'Users may request this asset',
+    'redirect_to_all'   => 'Return to all :type',
+    'redirect_to_type'   => 'Go to :type',
+    'redirect_to_checked_out_to'   => 'Go to Checked Out to',
     'select_statustype'	=> 'Select Status Type',
     'serial'			=> 'Serial',
     'status'			=> 'Status',
+<<<<<<< HEAD
     'tag'				=> 'Asset Tag',
+=======
+    'tag'				=> 'Etiqueta de Recurs',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'update'			=> 'Asset Update',
     'warranty'			=> 'Warranty',
         'warranty_expires'		=> 'Warranty Expires',
@@ -51,8 +59,10 @@ return [
     'asset_location_update_default' => 'Update only default location',
     'asset_location_update_actual' => 'Update only actual location',
     'asset_not_deployable' => 'That asset status is not deployable. This asset cannot be checked out.',
+    'asset_not_deployable_checkin' => 'That asset status is not deployable. Using this status label will checkin the asset.',
     'asset_deployable' => 'That status is deployable. This asset can be checked out.',
     'processing_spinner' => 'Processing... (This might take a bit of time on large files)',
     'optional_infos'  => 'Optional Information',
-    'order_details'   => 'Order Related Information'
+    'order_details'   => 'Order Related Information',
+    'calc_eol'    => 'If nulling the EOL date, use automatic EOL calculation based on the purchase date and EOL rate.',
 ];

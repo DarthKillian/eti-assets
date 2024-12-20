@@ -2,9 +2,17 @@
 
 return array(
 
+<<<<<<< HEAD
     'actions'	 	=> 'Tegevused',
     'action' 		=> 'Tegevus',
     'by'      		=> 'Kes',
     'item' 			=> 'Kirje',
+=======
+    'actions'	 	        => 'Tegevused',
+    'action' 		        => 'Tegevus',
+    'by'      		        => 'Kes',
+    'item' 			        => 'Vara',
+    'no_matching_records'   => 'No matching records found',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 );

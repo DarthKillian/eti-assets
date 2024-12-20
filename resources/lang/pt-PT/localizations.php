@@ -2,7 +2,7 @@
 
 return [
 
-    'select_language' => 'Selecione um idioma',
+    'select_language' => 'Select a Language',
     'languages' => [
         'en-US'=> 'Inglês, EUA',
         'en-GB'=> 'Inglês, Reino Unido',
@@ -12,7 +12,11 @@ return [
         'bg-BG'=> 'Búlgaro',
         'zh-CN'=> 'Chinês Simplificado',
         'zh-TW'=> 'Chinês Tradicional',
+<<<<<<< HEAD
         'ca-ES' => 'Catalan',
+=======
+        'ca-ES' => 'catalão',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'hr-HR'=> 'Croata',
         'cs-CZ'=> 'Checo',
         'da-DK'=> 'Dinamarquês',
@@ -40,7 +44,13 @@ return [
         'ms-MY'=> 'Malaio',
         'mi-NZ'=> 'Maori',
         'mn-MN'=> 'Mongol',
+<<<<<<< HEAD
         'no-NO'=> 'Norueguês',
+=======
+        //'no-NO'=> 'Norwegian',
+        'nb-NO'=> 'Norwegian Bokmål',
+        //'nn-NO'=> 'Norwegian Nynorsk',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'fa-IR'=> 'Persa',
         'pl-PL'=> 'Polaco',
         'pt-PT'=> 'Português',
@@ -48,8 +58,14 @@ return [
         'ro-RO'=> 'Romeno',
         'ru-RU'=> 'Russo',
         'sr-CS' => 'Sérvio (Latino)',
+<<<<<<< HEAD
         'sk-SK'=> 'Slovak',
         'sl-SI'=> 'Esloveno',
+=======
+        'sk-SK'=> 'Eslovaco',
+        'sl-SI'=> 'Esloveno',
+        'so-SO'=> 'Somali',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Espanhol',
         'es-CO'=> 'Espanhol, Colômbia',
         'es-MX'=> 'Espanhol, México',
@@ -65,7 +81,11 @@ return [
         'zu-ZA'=> 'Zulu',
     ],
 
+<<<<<<< HEAD
     'select_country' => 'Selecione um país',
+=======
+    'select_country' => 'Select a Country',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     
     'countries' => [
         'AC'=>'Ilha de Ascensão',
@@ -132,6 +152,10 @@ return [
         'EC'=>'Equador',
         'EE'=>'Estónia',
         'EG'=>'Egito',
+<<<<<<< HEAD
+=======
+        'GB-ENG'=>'England',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'ER'=>'Eritreia',
         'ES'=>'Espanha',
         'ET'=>'Etiópia',
@@ -230,6 +254,10 @@ return [
         'NG'=>'Nigéria',
         'NI'=>'Nicarágua',
         'NL'=>'Países Baixos',
+<<<<<<< HEAD
+=======
+        'GB-NIR' => 'Northern Ireland',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'NO'=>'Noruega',
         'NP'=>'Nepal',
         'NR'=>'Nauru',
@@ -257,7 +285,11 @@ return [
         'RU'=>'Federação Russa',
         'RW'=>'Ruanda',
         'SA'=>'Arábia Saudita',
+<<<<<<< HEAD
         'UK'=>'Escócia',
+=======
+        'GB-SCT'=>'Escócia',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'SB'=>'Ilhas Salomão',
         'SC'=>'Seychelles',
         'SS'=>'Sudão do Sul',
@@ -309,6 +341,10 @@ return [
         'VI'=>'Ilhas Virgens (E.U.A)',
         'VN'=>'Vietname',
         'VU'=>'Vanuatu',
+<<<<<<< HEAD
+=======
+        'GB-WLS' =>'Wales',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'WF'=>'Ilhas Wallis e Futuna',
         'WS'=>'Samoa',
         'YE'=>'Iémen',

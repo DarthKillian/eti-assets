@@ -12,8 +12,13 @@ return [
     'remember_me'                   => 'Emlékezzen rám',
     'username_help_top'                 => 'Írd be a te <strong>felhasználónevedet</strong>, hogy a jelszó visszaállítási link elküldésre kerüljön az email címedre.',
     'username_help_bottom'          => 'A felhasználóneved és az email címed <em>talán</em> azonos, talán nem, ez függ a beállításoktól. Ha nem emlékszel a felhasználónevedre, vedd fel a kapcsolatot az adminiszrátorral. <br><br><strong>Email nélküli felhasználónevek nem fognak jelszó visszaállítási linket kapni.</strong> ',
+<<<<<<< HEAD
     'google_login'                  => 'Or login with Google Workspace',
     'google_login_failed'           => 'Google bejelentkezés sikertelen, kérem, próbálja újra.',
 
+=======
+    'google_login'                  => 'Bejelentkezés Google Workspace-el',
+    'google_login_failed'           => 'Google bejelentkezés sikertelen, kérem, próbálja újra.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];
 

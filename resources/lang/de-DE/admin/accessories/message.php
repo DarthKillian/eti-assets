@@ -26,7 +26,15 @@ return array(
         'error'   		=> 'Zubehör konnte nicht herausgegeben werden. Bitte versuchen Sie es erneut',
         'success' 		=> 'Zubehör erfolgreich herausgegeben.',
         'unavailable'   => 'Zubehör ist nicht verfügbar, um herausgegeben zu werden. Prüfen Sie die verfügbare Menge',
+<<<<<<< HEAD
         'user_does_not_exist' => 'Dieser Benutzer existiert nicht. Bitte versuchen Sie es erneut.'
+=======
+        'user_does_not_exist' => 'Dieser Benutzer existiert nicht. Bitte versuchen Sie es erneut.',
+         'checkout_qty' => array(
+            'lte'  => 'Derzeit ist nur ein Zubehör dieses Typs verfügbar, und Sie versuchen :checkout_qty herauszugeben. Bitte passen Sie die Herausgabe-Menge oder den Gesamtbestand des Zubehörs an, und versuchen Sie es erneut. Es gibt :number_currently_remaining insgesamt verfügbare Zubehör, und Sie versuchen, :checkout_qty herauszugeben. Bitte passen Sie die Herausgabe-Menge oder den Gesamtbestand des Zubehörs an und versuchen Sie es erneut.',
+            ),
+           
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

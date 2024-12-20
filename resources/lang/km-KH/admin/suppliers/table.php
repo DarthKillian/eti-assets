@@ -1,6 +1,7 @@
 <?php
 
 return array(
+<<<<<<< HEAD
     'about_suppliers_title' => 'About Suppliers',
     'about_suppliers_text'  => 'Suppliers are used to track the source of items',
     'address'               => 'Supplier Address',
@@ -23,5 +24,28 @@ return array(
     'view'                  => 'View Supplier',
     'view_assets_for'       => 'View Assets for',
     'zip'                   => 'Postal Code',
+=======
+    'about_suppliers_title' => 'អំពីអ្នកផ្គត់ផ្គង់',
+    'about_suppliers_text'  => 'អ្នកផ្គត់ផ្គង់ត្រូវបានប្រើដើម្បីតាមដានប្រភពនៃធាតុ',
+    'address'               => 'អាសយដ្ឋានអ្នកផ្គត់ផ្គង់',
+    'assets'                => 'ទ្រព្យសកម្ម',
+    'city'                  => 'ទីក្រុង',
+    'contact'               => 'ឈ្មោះទំនាក់ទំនង',
+    'country'               => 'ប្រទេស',
+    'create'                => 'បង្កើតអ្នកផ្គត់ផ្គង់',
+    'email'                 => 'អ៊ីមែល',
+    'fax'                   => 'ទូរសារ',
+    'id'                    => 'លេខសម្គាល់',
+    'licenses'              => 'អាជ្ញាប័ណ្ណ',
+    'name'                  => 'អ្នកផ្គត់ផ្គង់',
+    'notes'                 => 'កំណត់ចំណាំ',
+    'phone'                 => 'ទូរស័ព្ទ',
+    'state'                 => 'រដ្ឋ',
+    'suppliers'             => 'អ្នកផ្គត់ផ្គង់ច្រើន',
+    'update'                => 'អាប់ដេតអ្នកផ្គត់ផ្គង់',
+    'view'                  => 'មើលអ្នកផ្គត់ផ្គង់',
+    'view_assets_for'       => 'មើលទ្រព្យសម្បត្តិសម្រាប់',
+    'zip'                   => 'លេខកូដប្រៃសណីយ៍',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 );

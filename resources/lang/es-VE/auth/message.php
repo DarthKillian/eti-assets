@@ -2,8 +2,9 @@
 
 return array(
 
-    'account_already_exists' => 'Una cuenta con este correo ya existe.',
+    'account_already_exists' => 'Ya existe una cuenta con este correo electrónico.',
     'account_not_found'      => 'El nombre de usuario o la contraseña son incorrectos.',
+<<<<<<< HEAD
     'account_not_activated'  => 'La cuenta de este usuario no está activada.',
     'account_suspended'      => 'La cuenta de este usuario está suspendida.',
     'account_banned'         => 'La cuenta de este usuario está bloqueada.',
@@ -14,31 +15,49 @@ return array(
         'success'               => 'Has iniciado sesión con éxito.',
         'code_required'         => 'El código de doble factor es necesario.',
         'invalid_code'          => 'El código de doble factor no es válido.',
+=======
+    'account_not_activated'  => 'Esta cuenta de usuario no está activada.',
+    'account_suspended'      => 'Esta cuenta de usuario está suspendida.',
+    'account_banned'         => 'Esta cuenta de usuario está bloqueada.',
+    'throttle'               => 'Demasiados intentos de inicio de sesión fallidos. Por favor, intente otra vez en :minutes minuto(s).',
+
+    'two_factor' => array(
+        'already_enrolled'      => 'Su dispositivo ya está inscrito.',
+        'success'               => 'Ha iniciado sesión exitosamente.',
+        'code_required'         => 'Se requiere el código de autenticación de doble factor (2FA).',
+        'invalid_code'          => 'El código de doble factor no es válido.',
+        'enter_two_factor_code' => 'Por favor ingrese su código de autenticación de doble factor.',
+        'please_enroll'         => 'Por favor inscriba un dispositivo en la autenticación de dos factores.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'signin' => array(
-        'error'   => 'Hubo un problema mientras se intentaba iniciar su sesión, por favor inténtelo de nuevo.',
-        'success' => 'Has iniciado sesión con éxito.',
+        'error'   => 'Ha habido un problema al iniciar sesión. Por favor, inténtelo de nuevo.',
+        'success' => 'Ha iniciado sesión exitosamente.',
     ),
 
     'logout' => array(
         'error'   => 'Hubo un problema al intentar cerrar la sesión, por favor inténtelo de nuevo.',
-        'success' => 'Has cerrado la sesión con éxito.',
+        'success' => 'Ha cerrado la sesión exitosamente.',
     ),
 
     'signup' => array(
-        'error'   => 'Hubo un problema mientras se creaba la cuenta, por favor inténtalo de nuevo.',
+        'error'   => 'Hubo un problema al crear la cuenta. Por favor, inténtelo de nuevo.',
         'success' => 'Cuenta creada con éxito.',
     ),
 
     'forgot-password' => array(
+<<<<<<< HEAD
         'error'   => 'Hubo un problema al intentar obtener un código para restablecer la contraseña, inténtalo de nuevo.',
+=======
+        'error'   => 'Ha habido un problema al obtener un código de restablecimiento de la contraseña. Por favor, inténtelo de nuevo.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'success' => 'Si esa dirección de correo electrónico existe en nuestro sistema, se ha enviado un correo electrónico de recuperación de contraseña.',
     ),
 
     'forgot-password-confirm' => array(
-        'error'   => 'Ha habido un problema mientras se intentaba restablecer tu contraseña, por favor, inténtalo de nuevo.',
-        'success' => 'Tu contraseña ha sido reiniciada con éxito.',
+        'error'   => 'Hubo un problema al intentar restablecer su contraseña, por favor, inténtelo de nuevo.',
+        'success' => 'Su contraseña se ha restablecido correctamente.',
     ),
 
 

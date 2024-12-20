@@ -2,11 +2,19 @@
 
 return [
     'custom_fields'		        => 'Полиња по желба',
+<<<<<<< HEAD
     'manage'                    => 'Manage',
     'field'		                => 'Поле',
     'about_fieldsets_title'		=> 'За Fieldsets',
     'about_fieldsets_text'		=> 'Fieldsets allow you to create groups of custom fields that are frequently re-used for specific asset model types.',
     'custom_format'             => 'Custom Regex format...',
+=======
+    'manage'                    => 'Управувај',
+    'field'		                => 'Поле',
+    'about_fieldsets_title'		=> 'За Fieldsets',
+    'about_fieldsets_text'		=> 'Fildsets ви овозможуваат да создавате групи на прилагодени полиња што често се повторно користат за специфични типови на модели на средства.',
+    'custom_format'             => 'Прилагоден Regex формат...',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'encrypt_field'      	        => 'Енкриптирајте ја вредноста на ова поле во базата на податоци',
     'encrypt_field_help'      => 'ПРЕДУПРЕДУВАЊЕ: Шифрирањето на поле прави полето да не може да се пребарува.',
     'encrypted'      	        => 'Енкриптирано',
@@ -27,6 +35,7 @@ return [
     'used_by_models'   		    => 'Користено по модели',
     'order'   		            => 'Подредување',
     'create_fieldset'         => 'Нов Fieldset',
+<<<<<<< HEAD
     'update_fieldset'         => 'Update Fieldset',
     'fieldset_does_not_exist'   => 'Fieldset :id does not exist',
     'fieldset_updated'         => 'Fieldset updated',
@@ -57,5 +66,37 @@ return [
     'show_in_requestable_list_short' => 'Show in requestable assets list',
     'show_in_requestable_list' => 'Show value in requestable assets list. Encrypted fields will not be shown',
     'encrypted_options' => 'This field is encrypted, so some display options will not be available.',
+=======
+    'update_fieldset'         => 'Ажурирај група на полиња',
+    'fieldset_does_not_exist'   => 'Групата на полиња :id не постои',
+    'fieldset_updated'         => 'FГрупата на полиња е ажурирана',
+    'create_fieldset_title' => ' Креирај нова група на полиња',
+    'create_field'            => 'Ново прилагодено поле',
+    'create_field_title' => 'Креирај ново прилагодено поле',
+    'value_encrypted'      	        => 'Вредноста на ова поле е емкриптирана во базата на податоци. Само административните корисници ќе можат да ја видат декриптираната вредност',
+    'show_in_email'     => 'Вклучете ја вредноста на ова поле во е-поштата испратена до корисникот? Шифрираните полиња не можат да бидат вклучени во е-пошта',
+    'show_in_email_short'     => 'Вклучи во е-пошта.',
+    'help_text' => 'Текст за помош',
+    'help_text_description' => 'Ова е опционален текст што ќе се појави под елементите на формуларот додека уредувате средства за да обезбеди контекст на полето.',
+    'about_custom_fields_title' => 'За прилагодени полина',
+    'about_custom_fields_text' => 'Прилагодените полиња ви овозможуваат да додадете произволни атрибути на средствата.',
+    'add_field_to_fieldset' => 'Додади поле во групата полина',
+    'make_optional' => 'Задолжително - кликнете за да направите по избор',
+    'make_required' => 'По избор - кликнете за да го направите задолжително',
+    'reorder' => 'Преуредување',
+    'db_field' => 'Поле во базата на податоци',
+    'db_convert_warning' => 'ПРЕДУПРЕДУВАЊЕ. Ова поле е во табелата за прилагодени полиња како <code>:db_column</code> но треба да биде <code>:expected</code>.',
+    'is_unique' => 'Оваа вредност мора да биде уникатна кај сите средства',
+    'unique' => 'Уникатно',
+    'display_in_user_view' => 'Дозволете му на задолжениот корисник да ги види овие вредности на нивната страница за преглед на задолжени средства',
+    'display_in_user_view_table' => 'Видливо за корисник',
+    'auto_add_to_fieldsets' => 'Автоматски додади го на секоја група на полиња',
+    'add_to_preexisting_fieldsets' => 'Додади на сите постоечки групи полиња',
+    'show_in_listview' => 'Прикажи во табеларен приказ по дифолт. Овластените корисници сепак ќе можат да го покажат/скријат преку селекторот на колоната',
+    'show_in_listview_short' => 'Покажи во списоци',
+    'show_in_requestable_list_short' => 'Покажете во списокот со побарливи предмети',
+    'show_in_requestable_list' => 'Прикажете вредност во списокот со побарливи предмети. Енкриптираните полиња нема да бидат прикажани',
+    'encrypted_options' => 'Ова поле е енкриптирано, некои опции за приказ нема да бидат достапни.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

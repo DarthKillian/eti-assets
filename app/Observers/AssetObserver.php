@@ -5,7 +5,7 @@ namespace App\Observers;
 use App\Models\Actionlog;
 use App\Models\Asset;
 use App\Models\Setting;
-use Auth;
+use Illuminate\Support\Facades\Auth;
 use Carbon\Carbon;
 
 class AssetObserver
@@ -62,7 +62,7 @@ class AssetObserver
             $logAction->item_type = Asset::class;
             $logAction->item_id = $asset->id;
             $logAction->created_at = date('Y-m-d H:i:s');
-            $logAction->user_id = Auth::id();
+            $logAction->created_by = auth()->id();
             $logAction->log_meta = json_encode($changed);
             $logAction->logaction('update');
         }
@@ -92,7 +92,7 @@ class AssetObserver
 
                 // only modify the 'next' one if it's *bigger* than the stored base
                 //
-                if($next_asset_tag > $settings->next_auto_tag_base) {
+                if ($next_asset_tag > $settings->next_auto_tag_base && $next_asset_tag < PHP_INT_MAX) {
                     $settings->next_auto_tag_base = $next_asset_tag;
                     $settings->save();
                 }
@@ -108,7 +108,10 @@ class AssetObserver
         $logAction->item_type = Asset::class; // can we instead say $logAction->item = $asset ?
         $logAction->item_id = $asset->id;
         $logAction->created_at = date('Y-m-d H:i:s');
-        $logAction->user_id = Auth::id();
+        $logAction->created_by = auth()->id();
+        if($asset->imported) {
+            $logAction->setActionSource('importer');
+        }
         $logAction->logaction('create');
     }
 
@@ -124,7 +127,7 @@ class AssetObserver
         $logAction->item_type = Asset::class;
         $logAction->item_id = $asset->id;
         $logAction->created_at = date('Y-m-d H:i:s');
-        $logAction->user_id = Auth::id();
+        $logAction->created_by = auth()->id();
         $logAction->logaction('delete');
     }
 
@@ -140,7 +143,7 @@ class AssetObserver
         $logAction->item_type = Asset::class;
         $logAction->item_id = $asset->id;
         $logAction->created_at = date('Y-m-d H:i:s');
-        $logAction->user_id = Auth::id();
+        $logAction->created_by = auth()->id();
         $logAction->logaction('restore');
     }
 

@@ -12,7 +12,11 @@ return [
         'bg-BG'=> 'Bulgarian',
         'zh-CN'=> '中国語 (簡体字)',
         'zh-TW'=> '中国語(繁体字)',
+<<<<<<< HEAD
         'ca-ES' => 'Catalan',
+=======
+        'ca-ES' => 'カタロニア語',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'hr-HR'=> 'Croatian',
         'cs-CZ'=> 'Czech',
         'da-DK'=> 'Danish',
@@ -40,7 +44,13 @@ return [
         'ms-MY'=> 'Malay',
         'mi-NZ'=> 'Maori',
         'mn-MN'=> 'Mongolian',
+<<<<<<< HEAD
         'no-NO'=> 'Norwegian',
+=======
+        //'no-NO'=> 'Norwegian',
+        'nb-NO'=> 'ノルウェー語ブークモール',
+        //'nn-NO'=> 'Norwegian Nynorsk',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'fa-IR'=> 'Persian',
         'pl-PL'=> 'Polish',
         'pt-PT'=> 'Portuguese',
@@ -48,8 +58,14 @@ return [
         'ro-RO'=> 'Romanian',
         'ru-RU'=> 'Russian',
         'sr-CS' => 'Serbian (Latin)',
+<<<<<<< HEAD
         'sk-SK'=> 'Slovak',
         'sl-SI'=> 'Slovenian',
+=======
+        'sk-SK'=> 'スロバキア語',
+        'sl-SI'=> 'Slovenian',
+        'so-SO'=> 'ソマリ語',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Spanish',
         'es-CO'=> 'Spanish, Colombia',
         'es-MX'=> 'Spanish, Mexico',
@@ -132,6 +148,7 @@ return [
         'EC'=>'Ecuador',
         'EE'=>'Estonia',
         'EG'=>'Egypt',
+        'GB-ENG'=>'イングランド',
         'ER'=>'Eritrea',
         'ES'=>'Spain',
         'ET'=>'Ethiopia',
@@ -230,6 +247,7 @@ return [
         'NG'=>'Nigeria',
         'NI'=>'Nicaragua',
         'NL'=>'Netherlands',
+        'GB-NIR' => '北アイルランド',
         'NO'=>'Norway',
         'NP'=>'Nepal',
         'NR'=>'Nauru',
@@ -257,7 +275,7 @@ return [
         'RU'=>'Russian Federation',
         'RW'=>'Rwanda',
         'SA'=>'Saudi Arabia',
-        'UK'=>'Scotland',
+        'GB-SCT'=>'Scotland',
         'SB'=>'Solomon Islands',
         'SC'=>'Seychelles',
         'SS'=>'南スーダン',
@@ -309,6 +327,7 @@ return [
         'VI'=>'Virgin Islands (U.S.)',
         'VN'=>'Viet Nam',
         'VU'=>'Vanuatu',
+        'GB-WLS' =>'ウェールズ',
         'WF'=>'Wallis And Futuna Islands',
         'WS'=>'Samoa',
         'YE'=>'Yemen',

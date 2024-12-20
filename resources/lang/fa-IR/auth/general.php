@@ -15,8 +15,13 @@ return [
 ',
     'username_help_bottom'          => 'نام کاربری و آدرس ایمیل شما <em>ممکن است</em> یکسان باشد، اما ممکن است نباشد، بسته به پیکربندی شما. اگر نمی توانید نام کاربری خود را به خاطر بسپارید، با سرپرست خود تماس بگیرید. <br><br><strong>برای نام‌های کاربری بدون آدرس ایمیل مرتبط، پیوند بازنشانی رمز عبور ایمیل ارسال نمی‌شود.</strong>
 ',
+<<<<<<< HEAD
     'google_login'                  => 'Or login with Google Workspace',
     'google_login_failed'           => 'Google Login failed, please try again.',
 
+=======
+    'google_login'                  => 'Login with Google Workspace',
+    'google_login_failed'           => 'Google Login failed, please try again.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];
 

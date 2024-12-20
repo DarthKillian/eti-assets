@@ -1,9 +1,21 @@
 <?php
 
 return [
+<<<<<<< HEAD
 
     'labels_per_page'    => 'Labels',
     'support_fields'     => 'Fields',
+=======
+    'example_company'    => 'Test Company Limited',
+    'example_defaultloc' => 'Building 1',
+    'example_category'   => 'Test Category',
+    'example_location'   => 'Building 2',
+    'example_manufacturer'  => 'Test Manufacturing Inc.',
+    'example_model'      => 'Test Model',
+    'example_supplier'   => 'Test Company Limited',
+    'labels_per_page'    => 'Labels',
+    'support_fields'     => 'Lauki',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'support_asset_tag'  => 'Tag',
     'support_1d_barcode' => '1D',
     'support_2d_barcode' => '2D',

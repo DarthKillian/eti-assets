@@ -2,17 +2,26 @@
 
 return [
 
-    'select_language' => 'Sprache auswählen',
+    'select_language' => 'Wählen Sie eine Sprache',
     'languages' => [
         'en-US'=> 'Englisch, USA',
         'en-GB'=> 'Englisch, UK',
+<<<<<<< HEAD
         'am-ET' => 'Amharic',
         'af-ZA'=> 'Afrikanisch',
+=======
+        'am-ET' => 'Amharisch',
+        'af-ZA'=> 'Afrikaans',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'ar-SA'=> 'Arabisch',
         'bg-BG'=> 'Bulgarisch',
         'zh-CN'=> 'Chinesisch, Vereinfacht',
         'zh-TW'=> 'Chinesisch, Traditionell',
+<<<<<<< HEAD
         'ca-ES' => 'Catalan',
+=======
+        'ca-ES' => 'Katalanisch',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'hr-HR'=> 'Kroatisch',
         'cs-CZ'=> 'Tschechisch',
         'da-DK'=> 'Dänisch',
@@ -40,7 +49,13 @@ return [
         'ms-MY'=> 'Malaiisch',
         'mi-NZ'=> 'Maori',
         'mn-MN'=> 'Mongolisch',
+<<<<<<< HEAD
         'no-NO'=> 'Norwegisch',
+=======
+        //'no-NO'=> 'Norwegian',
+        'nb-NO'=> 'Norwegisch Bokmål',
+        //'nn-NO'=> 'Norwegian Nynorsk',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'fa-IR'=> 'Persisch',
         'pl-PL'=> 'Polnisch',
         'pt-PT'=> 'Portugiesisch',
@@ -48,8 +63,14 @@ return [
         'ro-RO'=> 'Rumänisch',
         'ru-RU'=> 'Russisch',
         'sr-CS' => 'Serbisch (Lateinisch)',
+<<<<<<< HEAD
         'sk-SK'=> 'Slovak',
         'sl-SI'=> 'Slowenisch',
+=======
+        'sk-SK'=> 'Slowakisch',
+        'sl-SI'=> 'Slowenisch',
+        'so-SO'=> 'Somali',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Spanish',
         'es-CO'=> 'Spanisch, Kolumbien',
         'es-MX'=> 'Spanisch, Mexiko',
@@ -65,7 +86,7 @@ return [
         'zu-ZA'=> 'Zulu',
     ],
 
-    'select_country' => 'Land auswählen',
+    'select_country' => 'Wählen Sie ein Land',
     
     'countries' => [
         'AC'=>'Ascensionsinsel',
@@ -132,6 +153,7 @@ return [
         'EC'=>'Ecuador',
         'EE'=>'Estland',
         'EG'=>'Ägypten',
+        'GB-ENG'=>'England',
         'ER'=>'Eritrea',
         'ES'=>'Spanien',
         'ET'=>'Äthiopien',
@@ -231,6 +253,7 @@ im Indischen Ozean',
         'NG'=>'Nigeria',
         'NI'=>'Nicaragua',
         'NL'=>'Niederlande',
+        'GB-NIR' => 'Nordirland',
         'NO'=>'Norwegen',
         'NP'=>'Nepal',
         'NR'=>'Nauru',
@@ -258,7 +281,7 @@ im Indischen Ozean',
         'RU'=>'Russland',
         'RW'=>'Ruanda',
         'SA'=>'Saudi-Arabien',
-        'UK'=>'Schottland',
+        'GB-SCT'=>'Schottland',
         'SB'=>'Salomon-Inseln',
         'SC'=>'Seychellen',
         'SS'=>'Südsudan',
@@ -310,6 +333,7 @@ im Indischen Ozean',
         'VI'=>'Amerikanische Jungferninseln',
         'VN'=>'Vietnam',
         'VU'=>'Vanuatu',
+        'GB-WLS' =>'Wales',
         'WF'=>'Wallis und Futuna',
         'WS'=>'Samoa',
         'YE'=>'Jemen',

@@ -2,12 +2,19 @@
 
 return array(
 
+<<<<<<< HEAD
     'deleted' => 'Deleted asset model',
     'does_not_exist' => 'המודל אינו קיים.',
     'no_association' => 'WARNING! The asset model for this item is invalid or missing!',
     'no_association_fix' => 'This will break things in weird and horrible ways. Edit this asset now to assign it a model.',
+=======
+    'deleted' => 'דגם פריט מחוק',
+    'does_not_exist' => 'המודל אינו קיים.',
+    'no_association' => 'אזהרה! דגם הפריט אינו תקין או חסר!',
+    'no_association_fix' => 'זה ישבור דברים בדרכים שונות ומשונות. ערוך פריט זה עכשיו וקבע לו דגם.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'assoc_users'	 => 'מודל זה משויך כרגע לנכס אחד או יותר ולא ניתן למחוק אותו. מחק את הנכסים ולאחר מכן נסה למחוק שוב.',
-
+    'invalid_category_type' => 'This category must be an asset category.',
 
     'create' => array(
         'error'   => 'המודל לא נוצר, נסה שוב.',
@@ -33,14 +40,23 @@ return array(
 
     'bulkedit' => array(
         'error'   		=> 'לא השתנו שדות, ולכן שום דבר לא עודכן.',
+<<<<<<< HEAD
         'success' 		=> 'Model successfully updated. |:model_count models successfully updated.',
         'warn'          => 'You are about to update the properies of the following model: |You are about to edit the properties of the following :model_count models:',
+=======
+        'success' 		=> 'דגם עודכן בהצלחה. |:model_count דגמים עודכנו בהצלחה.',
+        'warn'          => 'אתה עומד לעדכן את תכונותיו של הדגם הבא:|אתה עומד לערוך את תכונותיהם של |:model_count הדגמים הבאים:',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     ),
 
     'bulkdelete' => array(
         'error'   		    => 'לא נבחרו מודלים, לכן לא נמחק שום דבר.',
+<<<<<<< HEAD
         'success' 		    => 'Model deleted!|:success_count models deleted!',
+=======
+        'success' 		    => 'דגם נמחק!:|success_count דגמים נמחקו!',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'success_partial' 	=> ':success_count model(s) were deleted, however :fail_count were unable to be deleted because they still have assets associated with them.'
     ),
 

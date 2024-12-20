@@ -2,7 +2,7 @@
 
 return [
 
-    'select_language' => 'Kies een taal',
+    'select_language' => 'Selecteer een taal',
     'languages' => [
         'en-US'=> 'Engels, VS',
         'en-GB'=> 'Engels, VK',
@@ -12,7 +12,11 @@ return [
         'bg-BG'=> 'Bulgaars',
         'zh-CN'=> 'Chinees, vereenvoudigd',
         'zh-TW'=> 'Chinese, traditioneel',
+<<<<<<< HEAD
         'ca-ES' => 'Catalan',
+=======
+        'ca-ES' => 'Catalaans',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'hr-HR'=> 'Kroatisch',
         'cs-CZ'=> 'Tsjechisch',
         'da-DK'=> 'Deens',
@@ -40,7 +44,13 @@ return [
         'ms-MY'=> 'Maleis',
         'mi-NZ'=> 'Maori',
         'mn-MN'=> 'Mongools',
+<<<<<<< HEAD
         'no-NO'=> 'Noors',
+=======
+        //'no-NO'=> 'Norwegian',
+        'nb-NO'=> 'Noors Bokmål',
+        //'nn-NO'=> 'Norwegian Nynorsk',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'fa-IR'=> 'Perzisch',
         'pl-PL'=> 'Pools',
         'pt-PT'=> 'Portugees',
@@ -48,8 +58,14 @@ return [
         'ro-RO'=> 'Roemeens',
         'ru-RU'=> 'Russisch',
         'sr-CS' => 'Servisch (latijns)',
+<<<<<<< HEAD
         'sk-SK'=> 'Slovak',
         'sl-SI'=> 'Sloveens',
+=======
+        'sk-SK'=> 'Slowaaks',
+        'sl-SI'=> 'Sloveens',
+        'so-SO'=> 'Somali',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Spaans',
         'es-CO'=> 'Spaans (Colombia)',
         'es-MX'=> 'Spaans (Mexico)',
@@ -65,7 +81,7 @@ return [
         'zu-ZA'=> 'Zoeloe',
     ],
 
-    'select_country' => 'Selecteer een land',
+    'select_country' => 'Selecteer een Land',
     
     'countries' => [
         'AC'=>'Ascensie Eiland',
@@ -132,6 +148,7 @@ return [
         'EC'=>'Ecuador',
         'EE'=>'Estland',
         'EG'=>'Egypte',
+        'GB-ENG'=>'Engeland',
         'ER'=>'Eritrea',
         'ES'=>'Spanje',
         'ET'=>'Ethiopië',
@@ -230,6 +247,7 @@ return [
         'NG'=>'Nigeria',
         'NI'=>'Nicaragua',
         'NL'=>'Nederland',
+        'GB-NIR' => 'Noord-Ierland',
         'NO'=>'Noorwegen',
         'NP'=>'Nepal',
         'NR'=>'Nauru',
@@ -257,7 +275,7 @@ return [
         'RU'=>'Rusland',
         'RW'=>'Rwanda',
         'SA'=>'Saoedi-Arabië',
-        'UK'=>'Schotland',
+        'GB-SCT'=>'Schotland',
         'SB'=>'Solomon eilanden',
         'SC'=>'Seychellen',
         'SS'=>'Zuid-Soedan',
@@ -309,6 +327,7 @@ return [
         'VI'=>'Amerikaanse Maagdeneilanden',
         'VN'=>'Vietnam',
         'VU'=>'Vanuatu',
+        'GB-WLS' =>'Wales',
         'WF'=>'Wallis en Futuna eilanden',
         'WS'=>'Samoa',
         'YE'=>'Jemen',

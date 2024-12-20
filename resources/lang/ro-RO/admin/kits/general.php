@@ -37,7 +37,11 @@ return [
     'accessory_detached'                => 'Accesoriul a fost detașat cu succes',
     'accessory_error'                   => 'Accesoriu deja atașat kit-ului',
     'accessory_deleted'                 => 'Ștergerea a fost reușită',
+<<<<<<< HEAD
     'accessory_none'                    => 'The accessory does not exist',
+=======
+    'accessory_none'                    => 'Accesoriul nu există',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'checkout_success'                  => 'Finalizarea comenzii a avut succes',
     'checkout_error'                    => 'Eroare la plată',
     'kit_none'                          => 'Kit nu există',
@@ -47,4 +51,8 @@ return [
     'kit_deleted'                       => 'Kit a fost șters cu succes',
     'kit_model_updated'                 => 'Modelul a fost actualizat cu succes',
     'kit_model_detached'                => 'Modelul a fost detașat cu succes',
+<<<<<<< HEAD
+=======
+    'model_already_attached'            => 'Model already attached to kit',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

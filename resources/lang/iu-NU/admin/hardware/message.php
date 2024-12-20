@@ -2,23 +2,40 @@
 
 return [
 
-    'undeployable' 		=> '<strong>Warning: </strong> This asset has been marked as currently undeployable.
-                        If this status has changed, please update the asset status.',
-    'does_not_exist' 	=> 'Asset does not exist.',
+    'undeployable' 		 => '<strong>Warning: </strong> This asset has been marked as currently undeployable. If this status has changed, please update the asset status.',
+    'does_not_exist' 	 => 'Asset does not exist.',
+    'does_not_exist_var' => 'Asset with tag :asset_tag not found.',
+    'no_tag' 	         => 'No asset tag provided.',
     'does_not_exist_or_not_requestable' => 'That asset does not exist or is not requestable.',
-    'assoc_users'	 	=> 'This asset is currently checked out to a user and cannot be deleted. Please check the asset in first, and then try deleting again. ',
+    'assoc_users'	 	 => 'This asset is currently checked out to a user and cannot be deleted. Please check the asset in first, and then try deleting again. ',
+    'warning_audit_date_mismatch' 	=> 'This asset\'s next audit date (:next_audit_date) is before the last audit date (:last_audit_date). Please update the next audit date.',
+    'labels_generated'   => 'Labels were successfully generated.',
+    'error_generating_labels' => 'Error while generating labels.',
+    'no_assets_selected' => 'No assets selected.',
 
     'create' => [
         'error'   		=> 'Asset was not created, please try again. :(',
         'success' 		=> 'Asset created successfully. :)',
         'success_linked' => 'Asset with tag :tag was created successfully. <strong><a href=":link" style="color: white;">Click here to view</a></strong>.',
+<<<<<<< HEAD
+<<<<<<<< HEAD:resources/lang/iu-NU/admin/hardware/message.php
+========
+        'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
+        'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
+>>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/en-US/admin/hardware/message.php
+=======
+        'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
+        'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
         'error'   			=> 'Asset was not updated, please try again',
         'success' 			=> 'Asset updated successfully.',
+        'encrypted_warning' => 'Asset updated successfully, but encrypted custom fields were not due to permissions',
         'nothing_updated'	=>  'No fields were selected, so nothing was updated.',
         'no_assets_selected'  =>  'No assets were selected, so nothing was updated.',
+        'assets_do_not_exist_or_are_invalid' => 'Selected assets cannot be updated.',
     ],
 
     'restore' => [
@@ -29,7 +46,7 @@ return [
     ],
 
     'audit' => [
-        'error'   		=> 'Asset audit was unsuccessful. Please try again.',
+        'error'   		=> 'Asset audit unsuccessful: :error ',
         'success' 		=> 'Asset audit successfully logged.',
     ],
 
@@ -47,12 +64,24 @@ return [
     ],
 
     'import' => [
+        'import_button'         => 'Process Import',
         'error'                 => 'Some items did not import correctly.',
         'errorDetail'           => 'The following Items were not imported because of errors.',
         'success'               => 'Your file has been imported',
         'file_delete_success'   => 'Your file has been been successfully deleted',
         'file_delete_error'      => 'The file was unable to be deleted',
         'file_missing' => 'The file selected is missing',
+<<<<<<< HEAD
+<<<<<<<< HEAD:resources/lang/iu-NU/admin/hardware/message.php
+========
+        'file_already_deleted' => 'The file selected was already deleted',
+>>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/en-US/admin/hardware/message.php
+=======
+<<<<<<<< HEAD:resources/lang/en-US/admin/hardware/message.php
+========
+        'file_already_deleted' => 'The file selected was already deleted',
+>>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/iu-NU/admin/hardware/message.php
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'One or more attributes in the header row contain malformed UTF-8 characters',
         'content_row_has_malformed_characters' => 'One or more attributes in the first row of content contain malformed UTF-8 characters',
     ],
@@ -71,6 +100,11 @@ return [
         'user_does_not_exist' => 'That user is invalid. Please try again.',
         'not_available' => 'That asset is not available for checkout!',
         'no_assets_selected' => 'You must select at least one asset from the list',
+    ],
+
+    'multi-checkout' => [
+        'error'   => 'Asset was not checked out, please try again|Assets were not checked out, please try again',
+        'success' => 'Asset checked out successfully.|Assets checked out successfully.',
     ],
 
     'checkin' => [

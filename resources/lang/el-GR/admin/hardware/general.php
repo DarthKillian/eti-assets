@@ -15,8 +15,13 @@ return [
     'delete_confirm'            => 'Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτό το στοιχείο?',
     'edit'  					=> 'Επεξεργασία παγίων',
     'model_deleted'  			=> 'Αυτό το μοντέλο περιουσιακών στοιχείων έχει διαγραφεί. Πρέπει να επαναφέρετε το μοντέλο για να μπορέσετε να επαναφέρετε το περιουσιακό στοιχείο.',
+<<<<<<< HEAD
     'model_invalid'             => 'Το μοντέλο αυτού του περιουσιακού στοιχείου δεν είναι έγκυρο.',
     'model_invalid_fix'         => 'Το περιουσιακό στοιχείο θα πρέπει να επεξεργαστεί για να διορθώσει αυτό πριν επιχειρήσετε να το ελέγξετε μέσα ή έξω.',
+=======
+    'model_invalid'             => 'This model for this asset is invalid.',
+    'model_invalid_fix'         => 'The asset must be updated use a valid asset model before attempting to check it in or out, or to audit it.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requestable'               => 'Επαναληπτικό',
     'requested'				    => 'Ζητήθηκαν',
     'not_requestable'           => 'Δεν Απαιτούνται',
@@ -27,6 +32,7 @@ return [
     'undeployable_tooltip'  	=> 'Αυτό το στοιχείο έχει μια ετικέτα κατάστασης που δεν είναι δυνατή η εγκατάσταση και δεν μπορεί να ελεγχθεί αυτή τη στιγμή.',
     'view'  					=> 'Προβολή παγίου',
     'csv_error' => 'Έχετε ένα σφάλμα στο αρχείο CSV σας:',
+<<<<<<< HEAD
     'import_text' => '
     <p>
     Upload a CSV that contains asset history. The assets and users MUST already exist in the system, or they will be skipped. Matching assets for history import happens against the asset tag. We will try to find a matching user based on the user\'s name you provide, and the criteria you select below. If you do not select any criteria below, it will simply try to match on the username format you configured in the Admin &gt; General Settings.
@@ -41,6 +47,15 @@ return [
     'csv_import_match_first' => 'Προσπαθήστε να ταιριάζει με τους χρήστες με τη μορφή του ονόματος (jane)',
     'csv_import_match_email' => 'Προσπαθήστε να ταιριάζει με τους χρήστες μέσω email ως όνομα χρήστη',
     'csv_import_match_username' => 'Προσπαθήστε να ταιριάζει με τους χρήστες με το όνομα χρήστη',
+=======
+    'import_text' => '<p>Upload a CSV that contains asset history. The assets and users MUST already exist in the system, or they will be skipped. Matching assets for history import happens against the asset tag. We will try to find a matching user based on the user\'s name you provide, and the criteria you select below. If you do not select any criteria below, it will simply try to match on the username format you configured in the <code>Admin &gt; General Settings</code>.</p><p>Fields included in the CSV must match the headers: <strong>Asset Tag, Name, Checkout Date, Checkin Date</strong>. Any additional fields will be ignored. </p><p>Checkin Date: blank or future checkin dates will checkout items to associated user.  Excluding the Checkin Date column will create a checkin date with todays date.</p>
+    ',
+    'csv_import_match_f-l' => 'Try to match users by <strong>firstname.lastname</strong> (<code>jane.smith</code>) format',
+    'csv_import_match_initial_last' => 'Try to match users by <strong>first last name</strong> (<code>jsmith</code>) format',
+    'csv_import_match_first' => 'Try to match users by <strong>name</strong> (<code>jane</code>) format',
+    'csv_import_match_email' => 'Try to match users by <strong>email</strong> as username',
+    'csv_import_match_username' => 'Προσπαθήστε να ταιριάζει με τους χρήστες από <strong>όνομα χρήστη</strong>',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'error_messages' => 'Μηνύματα σφάλματος:',
     'success_messages' => 'Μηνύματα επιτυχίας:',
     'alert_details' => 'Παρακαλούμε δείτε παρακάτω για λεπτομέρειες.',

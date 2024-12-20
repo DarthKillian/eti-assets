@@ -1,6 +1,7 @@
 <?php
 
 return [
+    '2FA_reset'             => '2FA reset',
     'accessories'			=> 'Aksesoris',
     'activated'			    => 'Diaktifkan',
     'accepted_date'         => 'Date Accepted',
@@ -10,6 +11,9 @@ return [
     'activity_report'		=> 'Laporan Aktifitas',
     'address'				=> 'Alamat',
     'admin'					=> 'Admin',
+    'admin_tooltip'			=> 'This user has admin privileges',
+    'superuser'				=> 'Superuser',
+    'superuser_tooltip'		=> 'This user has superuser privileges',
     'administrator'			=> 'Administrator',
     'add_seats'             => 'Seat ditambahkan',
     'age'                   => "Age",
@@ -60,6 +64,7 @@ return [
     'checkout'  			=> 'Checkout',
     'checkouts_count'       => 'Keluar',
     'checkins_count'        => 'Masuk',
+    'checkin_and_delete'  	=> 'Checkin and Delete',
     'user_requests_count'   => 'Permintaan',
     'city'  				=> 'Kota',
     'click_here'			=> 'Klik disini',
@@ -73,7 +78,11 @@ return [
     'consumables'			=> 'Dapat dikonsumsi',
     'country'  				=> 'Negara',
     'could_not_restore'     => 'Error restoring :item_type: :error',
+<<<<<<< HEAD
     'not_deleted'           => 'The :item_type is not deleted so it cannot be restored',
+=======
+    'not_deleted'           => 'The :item_type was not deleted and therefore cannot be restored',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Buat baru',
     'created'               => 'Item telah dibuat',
     'created_asset'			=> 'buat aset',
@@ -94,7 +103,11 @@ return [
     'debug_warning_text'    => 'Aplikasi ini berjalan dalam mode produksi dengan debugging diaktifkan. Hal ini dapat mengekspos data sensitif jika aplikasi Anda dapat diakses oleh dunia luar. Nonaktifkan mode debug dengan menetapkan nilai <code>APP_DEBUG</code> value in your <code>.env</code> file to <code>false</code>.',
     'delete'  				=> 'Hapus',
     'delete_confirm'  		=> 'Apa Anda yakin untuk menghapus :item?',
+<<<<<<< HEAD
     'delete_confirm_no_undo' => 'Are you sure you wish to delete :item? This can not be undone.',
+=======
+    'delete_confirm_no_undo' => 'Are you sure, you wish to delete :item? This cannot be undone.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Dihapus',
     'delete_seats'  		=> 'Tempat dihapus',
     'deletion_failed'       => 'Deletion failed',
@@ -130,6 +143,7 @@ return [
     'lastname_firstinitial' => 'Last Name First Initial (smith_j@example.com)',
     'firstinitial.lastname' => 'First Initial Last Name (j.smith@example.com)',
     'firstnamelastinitial'  => 'First Name Last Initial (janes@example.com)',
+    'lastnamefirstname'      => 'Last Name.First Name (smith.jane@example.com)',
     'first_name'			=> 'Nama Pertama',
     'first_name_format'		=> 'Nama Depan (jane@example.com)',
     'files'                 => 'Berkas',
@@ -151,9 +165,15 @@ return [
     'image_delete'         	=> 'Hapus Gambar',
     'include_deleted'       => 'Include Deleted Assets',
     'image_upload'         	=> 'Unggah Gambar',
+<<<<<<< HEAD
     'filetypes_accepted_help'    => 'Accepted filetype is :types. Max upload size allowed is :size.|Accepted filetypes are :types. Max upload size allowed is :size.',
     'filetypes_size_help'   => 'Max upload size allowed is :size.',
     'image_filetypes_help'  => 'Accepted filetypes are jpg, webp, png, gif, and svg. Max upload size allowed is :size.',
+=======
+    'filetypes_accepted_help'    => 'Accepted filetype is :types. The maximum size allowed is :size.|Accepted filetypes are :types. The maximum upload size allowed is :size.',
+    'filetypes_size_help'   => 'The maximum upload size allowed is :size.',
+    'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'This image file was not readable. Accepted filetypes are jpg, webp, png, gif, and svg. The mimetype of this file is: :mimetype.',
     'import'         	    => 'Impor',
     'import_this_file'      => 'Map fields and process this file',
@@ -175,19 +195,20 @@ return [
     'last_name'             => 'Nama Belakang',
     'license'				=> 'Lisensi',
     'license_report'        => 'Laporan Lisensi',
-    'licenses_available'	=> 'lisensi yang tersedia',
+    'licenses_available'	=> 'Licenses available',
     'licenses'				=> 'Lisensi',
     'list_all'				=> 'Tampilkan semua',
-    'loading'				=> 'Loading... please wait....',
+    'loading'				=> 'Loading... please wait...',
     'lock_passwords'        => 'This field value will not be saved in a demo installation.',
     'feature_disabled'      => 'Fitur ini telah dinonaktifkan untuk instalasi demo.',
     'location'              => 'Lokasi',
+    'location_plural'        => 'Location|Locations',
     'locations'				=> 'Lokasi',
     'logo_size'				=> 'Square logos look best with Logo + Text. Logo maximum display size is 50px high x 500px wide.  ',
     'logout'				=> 'Keluar',
     'lookup_by_tag'     => 'Mencari berdasarkan tag aset',
     'maintenances'          => 'Pemeliharaan',
-    'manage_api_keys'       => 'Manage API Keys',
+    'manage_api_keys'       => 'Manage API keys',
     'manufacturer'			=> 'Pabrikan',
     'manufacturers'			=> 'Pabrikan',
     'markdown'				=> 'Bidang ini mengizinkan penggunaan <a href="https://help.github.com/articles/github-flavored-markdown/">kode markup milik Github</a>.',
@@ -200,6 +221,9 @@ return [
     'new_password'          => 'New Password',
     'next'					=> 'Selanjutnya',
     'next_audit_date'		=> 'Tanggal Audit berikutnya',
+    'next_audit_date_help'  => 'If you use auditing in your organization, this is usually automatically calculated based on the asset&apos;s last audit date and audit frequency (in <code>Admin Settings &gt; Alerts</code>) and you can leave this blank. You can manually set this date here if you need to, but it must be later than the last audit date. ',
+    'audit_images_help'     => 'You can find audit images in the asset\'s history tab.',
+    'no_email'              => 'No email address associated with this user',
     'last_audit'		    => 'Audit Terakhir',
     'new'					=> 'baru!',
     'no_depreciation'		=> 'Tidak ada penyusutan',
@@ -220,7 +244,7 @@ return [
     'purchase_date'         => 'Tanggal Pembelian',
     'qty'		            => 'JML',
     'quantity'		        => 'Jumlah',
-    'quantity_minimum'      => 'You have :count items below or almost below minimum quantity levels',
+    'quantity_minimum'      => 'You have one item below or almost below minimum quantity levels|You have :count items below or almost below minimum quantity levels',
     'quickscan_checkin'  	=> 'Quick Scan Checkin',
     'quickscan_checkin_status'  	=> 'Checkin Status',
     'ready_to_deploy'		=> 'Siap digunakan',
@@ -231,17 +255,21 @@ return [
     'restored'				=> 'dikembalikan',
     'restore'				=> 'Kembalikan',
     'requestable_models'    => 'Requestable Models',
+    'requestable_items'     => 'Requestable Items',
     'requested'				=> 'Diminta',
     'requested_date'        => 'Requested Date',
     'requested_assets'      => 'Requested Assets',
     'requested_assets_menu' => 'Requested Assets',
     'request_canceled'      => 'Permintaan dibatalkan',
+    'request_item'          => 'Request this item',
+    'external_link_tooltip' => 'External link to',
     'save'  				=> 'Simpan',
     'select_var'            => 'Select :thing... ', // this will eventually replace all of our other selects
     'select'				=> 'Pilih',
     'select_all'            => 'Select All',
     'search'				=> 'Cari',
     'select_category'       => 'Pilih kategori',
+    'select_datasource' => 'Select a data source',
     'select_department'     => 'Pilih Departemen',
     'select_depreciation'	=> 'Pilih Jenis Penyusutan',
     'select_location'		=> 'Pilih lokasi',
@@ -261,13 +289,19 @@ return [
     'signed_off_by'         => 'Signed Off By',
     'skin'       			=> 'Tema',
     'webhook_msg_note'        => 'A notification will be sent via webhook',
+<<<<<<< HEAD
     'webhook_test_msg'        => 'Oh hai! Looks like your :app integration with Snipe-IT is working!',
+=======
+    'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'DEMO MODE: Beberapa fitur dinonaktifkan untuk penginstalan ini.',
     'site_name'				=> 'Nama Situs',
     'state'  				=> 'Negara',
     'status_labels'			=> 'Status Labels',
+    'status_label'			=> 'Status Label',
     'status'    			=> 'Status',
     'accept_eula'           => 'Acceptance Agreement',
+    'show_or_hide_eulas' => 'Show/Hide EULAs',
     'supplier'              => 'Pemasok',
     'suppliers'  			=> 'Pemasok',
     'sure_to_delete'        => 'Apakah anda yakin ingin menghapus',
@@ -291,6 +325,10 @@ return [
     'user'					=> 'Pengguna',
     'accepted'			    => 'diterima',
     'declined'			    => 'menurun',
+<<<<<<< HEAD
+=======
+    'declined_note'         => 'Declined Notes',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Unassigned',
     'unaccepted_asset_report' => 'Aset tidak diterima',
     'users'                 => 'Pengguna',
@@ -309,6 +347,10 @@ return [
     'token_expired'         => 'Sesi formulir anda sudah berakhir. Silahkan coba lagi.',
     'login_enabled'         => 'Login Enabled',
     'audit_due'             => 'Due for Audit',
+    'audit_due_days'        => 'Assets Due for Audit Within :days Day|Assets Due for Audit Within :days Days',
+    'checkin_due'           => 'Due for Checkin',
+    'checkin_overdue'       => 'Overdue for Checkin',
+    'checkin_due_days'      => 'Assets Due for Checkin Within :days Day|Assets Due for Checkin Within :days Days',
     'audit_overdue'         => 'Overdue for Audit',
     'accept'                => 'Accept :asset',
     'i_accept'              => 'I accept',
@@ -321,16 +363,16 @@ return [
     'view_all'              => 'view all',
     'hide_deleted'          => 'Hide Deleted',
     'email'                 => 'Email',
-    'do_not_change'         => 'Do Not Change',
-    'bug_report'            => 'Report a Bug',
+    'do_not_change'         => 'Do not change',
+    'bug_report'            => 'Report a bug',
     'user_manual'           => 'User\'s Manual',
     'setup_step_1'          => 'Step 1',
     'setup_step_2'          => 'Step 2',
     'setup_step_3'          => 'Step 3',
     'setup_step_4'          => 'Step 4',
     'setup_config_check'    => 'Configuration Check',
-    'setup_create_database' => 'Create Database Tables',
-    'setup_create_admin'    => 'Create Admin User',
+    'setup_create_database' => 'Create database tables',
+    'setup_create_admin'    => 'Create an admin user',
     'setup_done'            => 'Finished!',
     'bulk_edit_about_to'    => 'You are about to edit the following: ',
     'checked_out'           => 'Memeriksa',
@@ -387,8 +429,9 @@ return [
     'accessory_name'       => 'Nama Aksesoris:',
     'clone_item'            => 'Clone Item',
     'checkout_tooltip' => 'Check this item out',
-    'checkin_tooltip' => 'Check this item in',
+    'checkin_tooltip' => 'Check this item in so that it is available for re-issue, re-imaging, etc',
     'checkout_user_tooltip' => 'Check this item out to a user',
+    'checkin_to_diff_location' => 'You can choose to check this asset in to a location other than this asset\'s default location of :default_location if one is set',
     'maintenance_mode'      => 'The service is temporarily unavailable for system updates. Please check back later.',
     'maintenance_mode_title' => 'System Temporarily Unavailable',
     'ldap_import'           => 'User password should not be managed by LDAP. (This allows you to send forgotten password requests.)',
@@ -399,19 +442,28 @@ return [
     'bulk_soft_delete'      =>'Also soft-delete these users. Their asset history will remain intact unless/until you purge deleted records in the Admin Settings.',
     'bulk_checkin_delete_success' => 'Your selected users have been deleted and their items have been checked in.',
     'bulk_checkin_success' => 'The items for the selected users have been checked in.',
+<<<<<<< HEAD
     'set_to_null'           => 'Delete values for this asset|Delete values for all :asset_count assets ',
+=======
+    'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Delete :field values for this user|Delete :field values for all :user_count users ',
     'na_no_purchase_date'   => 'N/A - No purchase date provided',
     'assets_by_status'      => 'Assets by Status',
     'assets_by_status_type'      => 'Assets by Status Type',
     'pie_chart_type'        => 'Dashboard Pie Chart Type',
     'hello_name'            => 'Hello, :name!',
+<<<<<<< HEAD
     'unaccepted_profile_warning'   => 'You have :count items requiring acceptance. Click here to accept or decline them',
+=======
+    'unaccepted_profile_warning'   => 'You have one item requiring acceptance. Click here to accept or decline it | You have :count items requiring acceptance. Click here to accept or decline them',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'start_date'            => 'Tanggal Mulai',
     'end_date'            => 'End Date',
     'alt_uploaded_image_thumbnail' => 'Uploaded thumbnail',
     'placeholder_kit'       => 'Select a kit',
     'file_not_found'        => 'File not found',
+    'log_record_not_found'  => 'No record for that log entry was found.',
     'preview_not_available' => '(no preview)',
     'setup'                 => 'Setup',
     'pre_flight'            => 'Pre-Flight',
@@ -437,13 +489,21 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Generating auto-incrementing asset tags is disabled so all rows need to have the "Asset Tag" column populated.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Note: Generating auto-incrementing asset tags is enabled so assets will be created for rows that do not have "Asset Tag" populated. Rows that do have "Asset Tag" populated will be updated with the provided information.',
     'send_welcome_email_to_users'   => ' Send Welcome Email for new Users?',
+<<<<<<< HEAD
+=======
+    'send_email'                => 'Send Email',
+    'call'                      => 'Call number',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Backup before importing?',
     'csv_header_field'          => 'CSV Header Field',
     'import_field'              => 'Import Field',
     'sample_value'              => 'Sample Value',
     'no_headers'                => 'No Columns Found',
     'error_in_import_file'      => 'There was an error reading the CSV file: :error',
+<<<<<<< HEAD
     'percent_complete'          => ':percent % Complete',
+=======
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Some Errors occurred while importing: ',
     'warning'                   => 'WARNING: :warning',
     'success_redirecting'       => '"Success... Redirecting.',
@@ -459,6 +519,10 @@ return [
     'no_autoassign_licenses_help' => 'Do not include user for bulk-assigning through the license UI or cli tools.',
     'modal_confirm_generic'      => 'Are you sure?',
     'cannot_be_deleted'      => 'This item cannot be deleted',
+<<<<<<< HEAD
+=======
+    'cannot_be_edited'      => 'This item cannot be edited.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'This item cannot be checked out. Check the quantity remaining.',
     'serial_number'        => 'Serial Number',
     'item_notes' => ':item Notes',
@@ -487,6 +551,11 @@ return [
         'address2' => 'Address Line 2',
         'import_note' => 'Imported using csv importer',
     ],
+<<<<<<< HEAD
+=======
+    'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
+    'checked_out_to_fields' => 'Checked Out To Fields',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% lengkap',
     'uploading' => 'Uploading... ',
     'upload_error' => 'Error uploading file. Please check that there are no empty rows and that no column names are duplicated.',
@@ -499,5 +568,48 @@ return [
     'action_permission_generic' => 'You do not have permission to :action this :item_type',
     'edit' => 'sunting',
     'action_source' => 'Action Source',
+<<<<<<< HEAD
 
+=======
+    'or' => 'or',
+    'url'                   => 'URL',
+    'edit_fieldset' => 'Edit fieldset fields and options',
+    'permission_denied_superuser_demo' => 'Permission denied. You cannot update user information for superadmins on the demo.',
+    'pwd_reset_not_sent' => 'User is not activated, is LDAP synced, or does not have an email address',
+    'error_sending_email' => 'Error sending email',
+    'sad_panda' => 'Sad panda. You are not authorized to do the thing. Maybe <a href=":link">return to the dashboard</a>, or contact your administrator.',
+    'bulk' => [
+            'delete' =>
+                [
+                'header' => 'Bulk Delete :object_type',
+                'warn'   =>  'You are about to delete one :object_type|You are about to delete :count :object_type',
+                'success'   =>  ':object_type successfully deleted|Successfully deleted :count :object_type',
+                'error'   =>  'Could not delete :object_type',
+                'nothing_selected'   =>  'No :object_type selected - nothing to do',
+                'partial'   =>  'Deleted :success_count :object_type, but :error_count :object_type could not be deleted',
+             ],
+    ],
+    'no_requestable' => 'There are no requestable assets or asset models.',
+
+    'countable' => [
+        'accessories'  => ':count Accessory|:count Accessories',
+        'assets'  => ':count Asset|:count Assets',
+        'licenses'  => ':count License|:count Licenses',
+        'license_seats'  => ':count License Seat|:count License Seats',
+        'consumables'  => ':count Consumable|:count Consumables',
+        'components'  => ':count Component|:count Components',
+    ],
+    'more_info' => 'Info Lengkap',
+    'quickscan_bulk_help' => 'Checking this box will edit the asset record to reflect this new location. Leaving it unchecked will simply note the location in the audit log. Note that if this asset is checked out, it will not change the location of the person, asset or location it is checked out to.',
+    'whoops' => 'Whoops!',
+    'something_went_wrong' => 'Something went wrong with your request.',
+    'close' => 'Close',
+    'expires' => 'Berakhir',
+    'map_fields'=> 'Map :item_type Fields',
+    'remaining_var' => ':count Remaining',
+    'label' => 'Label',
+    'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
+    'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
+
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

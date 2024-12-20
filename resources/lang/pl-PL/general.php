@@ -1,6 +1,7 @@
 <?php
 
 return [
+    '2FA_reset'             => '2FA reset',
     'accessories'			=> 'Akcesoria',
     'activated'			    => 'Aktywowana',
     'accepted_date'         => 'Data akceptacji',
@@ -10,6 +11,9 @@ return [
     'activity_report'		=> 'Raport Aktywności',
     'address'				=> 'Adres',
     'admin'					=> 'Admin',
+    'admin_tooltip'			=> 'Ten użytkownik ma uprawnienia administratora',
+    'superuser'				=> 'Superużytkownik',
+    'superuser_tooltip'		=> 'Ten użytkownik ma uprawnienia superużytkownika',
     'administrator'			=> 'Administrator',
     'add_seats'             => 'Dodano miejsca',
     'age'                   => "Wiek",
@@ -60,6 +64,7 @@ return [
     'checkout'  			=> 'Przypisz',
     'checkouts_count'       => 'Przypisania',
     'checkins_count'        => 'Odbiory',
+    'checkin_and_delete'  	=> 'Checkin and Delete',
     'user_requests_count'   => 'Żądania',
     'city'  				=> 'Miasto',
     'click_here'			=> 'Kliknij tutaj',
@@ -94,7 +99,11 @@ return [
     'debug_warning_text'    => 'Ta aplikacja jest uruchomiona w trybie produkcyjnym z włączonym debugowaniem. Jeśli aplikacja jest dostępna na zewnątrz, może to zagrażać ujawnieniem wrażliwych danych. Wyłącz tryb debugowania przez ustawienie wartości <code>APP_DEBUG</code> w pliku <code>.env</code> na <code>false</code>.',
     'delete'  				=> 'Kasuj',
     'delete_confirm'  		=> 'Czy na pewno chcesz usunąć :przedmiot?',
+<<<<<<< HEAD
     'delete_confirm_no_undo' => 'Czy na pewno chcesz usunąć :item? Nie można tego cofnąć.',
+=======
+    'delete_confirm_no_undo' => 'Czy na pewno chcesz usunąć :item? Tej operacji nie można cofnąć.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Usunięte',
     'delete_seats'  		=> 'Usunięte miejsca',
     'deletion_failed'       => 'Usunięcie nieudane',
@@ -130,6 +139,10 @@ return [
     'lastname_firstinitial' => 'Nazwisko i pierwsza litera imienia (smith_j@example.com)',
     'firstinitial.lastname' => 'Pierwsza litera imienia i nazwisko (jsmith@example.com)',
     'firstnamelastinitial'  => 'Nazwisko i pierwsza litera imienia (smithj@example.com)',
+<<<<<<< HEAD
+=======
+    'lastnamefirstname'      => 'Nazwisko.Imię (kowal.jan@przyklad.com)',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'first_name'			=> 'Imię',
     'first_name_format'		=> 'Imię (jane@example.com)',
     'files'                 => 'Pliki',
@@ -151,9 +164,15 @@ return [
     'image_delete'         	=> 'Usuń zdjęcie',
     'include_deleted'       => 'Dołącz usunięte zasoby',
     'image_upload'         	=> 'Dodaj zdjęcie',
+<<<<<<< HEAD
     'filetypes_accepted_help'    => 'Akceptowany typ pliku to :types. Maksymalny dozwolony rozmiar pliku to :size.|Akceptowane typy plików to :types. Maksymalny dozwolony rozmiar plików to :size.',
     'filetypes_size_help'   => 'Maksymalny dozwolony rozmiar wysyłania to :size.',
     'image_filetypes_help'  => 'Akceptowane typy plików to jpg, webp, png, gif i svg. Maksymalny dozwolony rozmiar to :size.',
+=======
+    'filetypes_accepted_help'    => 'Akceptowany typ pliku to :types. Maksymalny dozwolony rozmiar pliku to :size.|Akceptowane typy plików to :types. Maksymalny dozwolony rozmiar pliku to :size.',
+    'filetypes_size_help'   => 'Maksymalny rozmiar pliku to :size.',
+    'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'Plik z obrazem jest nieczytelny. Akceptowane typy plików to JPG, WebP, PNG, GIF i SVG. Typ MIME przesłanego pliku to :mimetype.',
     'import'         	    => 'Zaimportuj',
     'import_this_file'      => 'Mapuj pola i przetwarzaj ten plik',
@@ -178,10 +197,11 @@ return [
     'licenses_available'	=> 'Dostępne licencje',
     'licenses'				=> 'Licencje',
     'list_all'				=> 'Pokaż Wszystkie',
-    'loading'				=> 'Ładuję, proszę czekać....',
+    'loading'				=> 'Ładuję, proszę czekać...',
     'lock_passwords'        => 'Ta wartość pola nie zostanie zapisana w instalacji demonstracyjnej.',
     'feature_disabled'      => 'Ta funkcja została wyłączona dla instalacji demo.',
     'location'              => 'Lokalizacja',
+    'location_plural'        => 'Lokalizacje|Lokalizacje',
     'locations'				=> 'Lokalizacje',
     'logo_size'				=> 'Logo kwadratowe wyglądają najlepiej z Logo + Tekst. Maksymalny rozmiar wyświetlania logo to 50px wysoki x 500px szerokości.  ',
     'logout'				=> 'Wyloguj się',
@@ -200,6 +220,9 @@ return [
     'new_password'          => 'Nowe hasło',
     'next'					=> 'Następny',
     'next_audit_date'		=> 'Data następnej inspekcji',
+    'next_audit_date_help'  => 'Jeżeli używasz audytu w swojej organizacji, jest on zazwyczaj automatycznie obliczany na podstawie ostatniej daty audytu i częstotliwości audytu ( Ustawienia <code>Administratora &gt; Powiadomienia</code>) i możesz pozostawić to pole puste. Jeśli potrzebujesz to tutaj możesz ręcznie ustawić datę, ale musi być późniejsza niż data ostatniego audytu. ',
+    'audit_images_help'     => 'Obrazy audytu można znaleźć w zakładce historii zasobów (Zasób &gt; Historia).',
+    'no_email'              => 'Brak adresu e-mail skojarzonego z tym użytkownikiem',
     'last_audit'		    => 'Ostatnia inspekcja',
     'new'					=> 'nowy!',
     'no_depreciation'		=> 'Nie Amortyzowany',
@@ -220,7 +243,11 @@ return [
     'purchase_date'         => 'Data zakupu',
     'qty'		            => 'Ilość',
     'quantity'		        => 'Ilość',
+<<<<<<< HEAD
     'quantity_minimum'      => 'Masz :count przedmiotów poniżej lub prawie poniżej minimalnych poziomów ilości',
+=======
+    'quantity_minimum'      => 'You have one item below or almost below minimum quantity levels|You have :count items below or almost below minimum quantity levels',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'quickscan_checkin'  	=> 'Szybkie skanowanie',
     'quickscan_checkin_status'  	=> 'Status przypisania',
     'ready_to_deploy'		=> 'Gotowe do wdrożenia',
@@ -231,17 +258,24 @@ return [
     'restored'				=> 'przywrócone',
     'restore'				=> 'Przywróć',
     'requestable_models'    => 'Żądane modele',
+<<<<<<< HEAD
+=======
+    'requestable_items'     => 'Requestable Items',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requested'				=> 'Wymagane',
     'requested_date'        => 'Data złożenia zapotrzebowania',
     'requested_assets'      => 'Żądane zasoby',
     'requested_assets_menu' => 'Żądane zasoby',
     'request_canceled'      => 'Żądanie anulowane',
+    'request_item'          => 'Poproś o ten przedmiot',
+    'external_link_tooltip' => 'Zewnętrzny link do',
     'save'  				=> 'Zapisz',
     'select_var'            => 'Wybierz :thing... ', // this will eventually replace all of our other selects
     'select'				=> 'Wybierz',
     'select_all'            => 'Zaznacz wszystko',
     'search'				=> 'Wyszukaj',
     'select_category'       => 'Wybierz kategorię',
+    'select_datasource' => 'Wybierz źródło danych',
     'select_department'     => 'Wybierz departament',
     'select_depreciation'	=> 'Wybierz rodzaj amortyzacji',
     'select_location'		=> 'Wybierz lokalizację',
@@ -261,13 +295,19 @@ return [
     'signed_off_by'         => 'Podpisano przez',
     'skin'       			=> 'Motyw',
     'webhook_msg_note'        => 'Powiadomienie zostanie wysłane przez webhook',
+<<<<<<< HEAD
     'webhook_test_msg'        => 'Super! Wygląda na to, że Twoja integracja :app z Snipe-IT działa!',
+=======
+    'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'Wersja demonstracyjna: Pewne funkcje zostały wyłączone w tej instalacji.',
     'site_name'				=> 'Nazwa Witryny',
     'state'  				=> 'Województwo',
     'status_labels'			=> 'Etykiety Statusu',
+    'status_label'			=> 'Etykieta statusu',
     'status'    			=> 'Status',
     'accept_eula'           => 'Umowa akceptacyjna',
+    'show_or_hide_eulas' => 'Pokaż/Ukryj EULA',
     'supplier'              => 'Dostawca',
     'suppliers'  			=> 'Dostawcy',
     'sure_to_delete'        => 'Czy na pewno chcesz usunąć',
@@ -291,6 +331,10 @@ return [
     'user'					=> 'Użytkownik',
     'accepted'			    => 'zatwierdzone',
     'declined'			    => 'odrzucony',
+<<<<<<< HEAD
+=======
+    'declined_note'         => 'Odrzucone notatki',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Nieprzypisane',
     'unaccepted_asset_report' => 'Aktywa niezatwierdzone',
     'users'                 => 'Użytkownicy',
@@ -309,6 +353,10 @@ return [
     'token_expired'         => 'Czas trwania sesji upłynął. Spróbuj ponownie.',
     'login_enabled'         => 'Logowanie włączone',
     'audit_due'             => 'Termin przeprowadzenia audytu',
+    'audit_due_days'        => 'Należności z tytułu Audytu w ciągu :days Dnia|Należne aktywa do audytu w ciągu :days',
+    'checkin_due'           => 'Należne za Checkin',
+    'checkin_overdue'       => 'Zaległe za odprawę',
+    'checkin_due_days'      => 'Należne aktywa do Checkin W ciągu :days Day|Aktywa do Checkin w ciągu :days',
     'audit_overdue'         => 'Zaległe z tytułu audytu',
     'accept'                => 'Zaakceptuj :asset',
     'i_accept'              => 'Akceptuję',
@@ -387,8 +435,13 @@ return [
     'accessory_name'       => 'Nazwa akcesorium:',
     'clone_item'            => 'Klonuj obiekt',
     'checkout_tooltip' => 'Sprawdź ten element',
+<<<<<<< HEAD
     'checkin_tooltip' => 'Sprawdź ten element w',
+=======
+    'checkin_tooltip' => 'Check this item in so that it is available for re-issue, re-imaging, etc',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'checkout_user_tooltip' => 'Sprawdź ten element do użytkownika',
+    'checkin_to_diff_location' => 'You can choose to check this asset in to a location other than this asset\'s default location of :default_location if one is set',
     'maintenance_mode'      => 'Usługa jest tymczasowo niedostępna z powodu aktualizacji systemu. Sprawdź ponownie później.',
     'maintenance_mode_title' => 'System tymczasowo niedostępny',
     'ldap_import'           => 'Hasło użytkownika nie powinno być zarządzane przez LDAP. (Pozwala to wysyłać prośbę o zresetowanie zapomnianego hasła)',
@@ -399,19 +452,27 @@ return [
     'bulk_soft_delete'      =>'Również miękkie usuwanie tych użytkowników. Ich historia zasobów pozostanie nieuszkodzona/dopóki nie usuniesz usuniętych rekordów w ustawieniach administratora.',
     'bulk_checkin_delete_success' => 'Wybrani użytkownicy zostali usunięci i ich zasoby zostały odebrane.',
     'bulk_checkin_success' => 'Elementy dla wybranych użytkowników zostały odebrane.',
+<<<<<<< HEAD
     'set_to_null'           => 'Usuń wartości dla tego zasobu|Usuń wartości dla wszystkich :asset_count aktywów ',
+=======
+    'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Usuń :field wartości dla tego użytkownika|Usuń :field wartości dla wszystkich użytkowników :user_count ',
     'na_no_purchase_date'   => 'N/A - Nie podano daty zakupu',
     'assets_by_status'      => 'Zasoby wg statusu',
     'assets_by_status_type'      => 'Zasoby według typu statusu',
     'pie_chart_type'        => 'Typ wykresu Pie Dashboard',
     'hello_name'            => 'Witaj, :name!',
-    'unaccepted_profile_warning'   => 'Masz :count elementów wymagających akceptacji. Kliknij tutaj, aby je zaakceptować lub odrzucić',
+    'unaccepted_profile_warning'   => 'You have one item requiring acceptance. Click here to accept or decline it | You have :count items requiring acceptance. Click here to accept or decline them',
     'start_date'            => 'Data rozpoczęcia',
     'end_date'            => 'Data zakończenia',
     'alt_uploaded_image_thumbnail' => 'Przesłano miniaturę',
     'placeholder_kit'       => 'Wybierz zestaw',
     'file_not_found'        => 'Nie odnaleziono pliku',
+<<<<<<< HEAD
+=======
+    'log_record_not_found'  => 'Nie znaleziono rekordu dla tego wpisu dziennika.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(brak podglądu)',
     'setup'                 => 'Ustawienia',
     'pre_flight'            => 'Sprawdzenie',
@@ -437,13 +498,21 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Generowanie automatycznie zwiększających się tagów aktywów jest wyłączone, więc wszystkie wiersze muszą mieć wypełnioną kolumnę "Znacznik aktywów".',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Uwaga: Generowanie automatycznie zwiększających się tagów aktywów jest włączone, więc aktywa zostaną utworzone dla wierszy, które nie mają wypełnionego "znacznika aktywów". Wiersze z wypełnionym "Znacznikiem aktywów" zostaną zaktualizowane podanymi informacjami.',
     'send_welcome_email_to_users'   => ' Wysłać e-mail powitalny dla nowych użytkowników?',
+<<<<<<< HEAD
+=======
+    'send_email'                => 'Wyślij e-mail',
+    'call'                      => 'Numer wywoławczy',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Kopia zapasowa przed zaimportowaniem?',
     'csv_header_field'          => 'Nagłówki pól pliku CSV',
     'import_field'              => 'Importuj pole',
     'sample_value'              => 'Przykładowa wartość',
     'no_headers'                => 'Nie znaleziono kolumn',
     'error_in_import_file'      => 'Wystąpił błąd podczas odczytu pliku CSV: :error',
+<<<<<<< HEAD
     'percent_complete'          => 'Ukończono :percent %',
+=======
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Podczas importowania wystąpiły błędy: ',
     'warning'                   => 'Ostrzeżenie: :warning',
     'success_redirecting'       => '"Sukces... Przekierowanie.',
@@ -459,6 +528,10 @@ return [
     'no_autoassign_licenses_help' => 'Nie włączaj użytkownika do grupowego przypisywania przez licencję interfejsu użytkownika lub narzędzia CL.',
     'modal_confirm_generic'      => 'Czy jesteś pewien?',
     'cannot_be_deleted'      => 'Nie można usunąć tego elementu',
+<<<<<<< HEAD
+=======
+    'cannot_be_edited'      => 'Ten element nie może być edytowany.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Ten przedmiot nie może zostać zablokowany. Sprawdź pozostałą ilość.',
     'serial_number'        => 'Numer seryjny',
     'item_notes' => ':item Notatki',
@@ -487,6 +560,11 @@ return [
         'address2' => 'Druga linia adresu',
         'import_note' => 'Zaimportowano przy użyciu importera csv',
     ],
+<<<<<<< HEAD
+=======
+    'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
+    'checked_out_to_fields' => 'Checked Out To Fields',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% ukończone',
     'uploading' => 'Wgrywanie... ',
     'upload_error' => 'Błąd podczas przesyłania pliku. Sprawdź, czy nie ma pustych wierszy i czy nazwy kolumn nie są zduplikowane.',
@@ -499,5 +577,48 @@ return [
     'action_permission_generic' => 'Nie masz uprawnień do :action this :item_type',
     'edit' => 'edycja',
     'action_source' => 'Źródło akcji',
+<<<<<<< HEAD
 
+=======
+    'or' => 'lub',
+    'url'                   => 'Adres WWW',
+    'edit_fieldset' => 'Edytuj pola i opcje zestawu pól',
+    'permission_denied_superuser_demo' => 'Odmowa uprawnień. Nie można zaktualizować informacji użytkownika dla superadminów na demo.',
+    'pwd_reset_not_sent' => 'Użytkownik nie jest aktywny, jest zsynchronizowany z LDAP lub nie posiada adresu e-mail',
+    'error_sending_email' => 'Błąd podczas wysyłania wiadomości e-mail',
+    'sad_panda' => 'Sad panda. You are not authorized to do the thing. Maybe <a href=":link">return to the dashboard</a>, or contact your administrator.',
+    'bulk' => [
+            'delete' =>
+                [
+                'header' => 'Masowe usuwanie :object_type',
+                'warn'   =>  'Zamierzasz usunąć jeden :object_type|Zamierzasz usunąć :count :object_type',
+                'success'   =>  ':object_type pomyślnie usunięty|Pomyślnie usunięto :count :object_type',
+                'error'   =>  'Nie można usunąć :object_type',
+                'nothing_selected'   =>  'Nie wybrano :object_type - nic do zrobienia',
+                'partial'   =>  'Usunięto :success_count :object_type, ale :error_count :object_type nie można usunąć',
+             ],
+    ],
+    'no_requestable' => 'Brak żądanych aktywów lub modeli aktywów.',
+
+    'countable' => [
+        'accessories'  => ':count Akcesoria|:count Akcesoria',
+        'assets'  => ':count aktywów|:count aktywów',
+        'licenses'  => ':count licencja|:count licencje',
+        'license_seats'  => ':count Licencja Siedzenia|:count Licencja',
+        'consumables'  => ':count Materiał|:count Materiałów|:count Materiałów',
+        'components'  => ':count Składnik|:count Składniki',
+    ],
+    'more_info' => 'Więcej informacji',
+    'quickscan_bulk_help' => 'Checking this box will edit the asset record to reflect this new location. Leaving it unchecked will simply note the location in the audit log. Note that if this asset is checked out, it will not change the location of the person, asset or location it is checked out to.',
+    'whoops' => 'Uuuups!',
+    'something_went_wrong' => 'Coś poszło nie tak z twoim żądaniem.',
+    'close' => 'Zamknij',
+    'expires' => 'Wygasa',
+    'map_fields'=> 'Map :item_type Fields',
+    'remaining_var' => ':count Remaining',
+    'label' => 'Label',
+    'import_asset_tag_exists' => 'Zasób z tagiem aktywów :asset_tag już istnieje i nie zażądano aktualizacji. Nie dokonano żadnych zmian.',
+    'countries_manually_entered_help' => 'Wartości z gwiazdką (*) zostały wprowadzone ręcznie i nie odpowiadają istniejącym wartościom rozwijanym ISO 3166',
+
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

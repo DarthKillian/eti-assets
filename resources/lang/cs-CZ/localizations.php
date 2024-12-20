@@ -2,7 +2,7 @@
 
 return [
 
-    'select_language' => 'Vyberte jazyk',
+    'select_language' => 'Select a Language',
     'languages' => [
         'en-US'=> 'Angličtina, USA',
         'en-GB'=> 'Angličtina, UK',
@@ -12,7 +12,11 @@ return [
         'bg-BG'=> 'Bulharština',
         'zh-CN'=> 'Zjednodušená čínština',
         'zh-TW'=> 'Tradiční čínština',
+<<<<<<< HEAD
         'ca-ES' => 'Catalan',
+=======
+        'ca-ES' => 'Katalánština',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'hr-HR'=> 'Chorvatština',
         'cs-CZ'=> 'Čeština',
         'da-DK'=> 'Dánština',
@@ -40,7 +44,13 @@ return [
         'ms-MY'=> 'Malajština',
         'mi-NZ'=> 'Maori',
         'mn-MN'=> 'Mongolština',
+<<<<<<< HEAD
         'no-NO'=> 'Norština',
+=======
+        //'no-NO'=> 'Norwegian',
+        'nb-NO'=> 'Norwegian Bokmål',
+        //'nn-NO'=> 'Norwegian Nynorsk',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'fa-IR'=> 'Perština',
         'pl-PL'=> 'Polština',
         'pt-PT'=> 'Portugalština',
@@ -48,8 +58,14 @@ return [
         'ro-RO'=> 'Rumunština',
         'ru-RU'=> 'Ruština',
         'sr-CS' => 'Serbian (Latin)',
+<<<<<<< HEAD
         'sk-SK'=> 'Slovak',
         'sl-SI'=> 'Slovinština',
+=======
+        'sk-SK'=> 'Slovenština',
+        'sl-SI'=> 'Slovinština',
+        'so-SO'=> 'Somali',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Španělština',
         'es-CO'=> 'Španělština, Kolumbie',
         'es-MX'=> 'Španělština, Mexiko',
@@ -65,7 +81,7 @@ return [
         'zu-ZA'=> 'Zuluština',
     ],
 
-    'select_country' => 'Zvolte stát',
+    'select_country' => 'Select a Country',
     
     'countries' => [
         'AC'=>'Ostrov Ascension',
@@ -132,6 +148,7 @@ return [
         'EC'=>'Ekvádor',
         'EE'=>'Estonsko',
         'EG'=>'Egypt',
+        'GB-ENG'=>'England',
         'ER'=>'Eritrea',
         'ES'=>'Španělsko',
         'ET'=>'Etiopie',
@@ -230,6 +247,7 @@ return [
         'NG'=>'Nigérie',
         'NI'=>'Nikaragua',
         'NL'=>'Nizozemsko',
+        'GB-NIR' => 'Northern Ireland',
         'NO'=>'Norsko',
         'NP'=>'Nepál',
         'NR'=>'Nauru',
@@ -257,7 +275,7 @@ return [
         'RU'=>'Ruská federace',
         'RW'=>'Rwanda',
         'SA'=>'Saúdská Arábie',
-        'UK'=>'Skotsko',
+        'GB-SCT'=>'Skotsko',
         'SB'=>'Šalamounovy ostrovy',
         'SC'=>'Seychelles',
         'SS'=>'Jižní Súdán',
@@ -309,6 +327,7 @@ return [
         'VI'=>'Americké Panenské ostrovy',
         'VN'=>'Vietnam',
         'VU'=>'Vanuatu',
+        'GB-WLS' =>'Wales',
         'WF'=>'Ostrovy Wallis a Futuna',
         'WS'=>'Samoa',
         'YE'=>'Jemen',

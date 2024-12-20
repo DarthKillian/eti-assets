@@ -26,7 +26,15 @@ return array(
         'error'   		=> 'Dodatek ni bil izdan, poskusite znova',
         'success' 		=> 'Dodatek uspešno izdan.',
         'unavailable'   => 'Accessory is not available for checkout. Check quantity available',
+<<<<<<< HEAD
         'user_does_not_exist' => 'Uporabnik je napačen. Prosim poskusite ponovno.'
+=======
+        'user_does_not_exist' => 'Uporabnik je napačen. Prosim poskusite ponovno.',
+         'checkout_qty' => array(
+            'lte'  => 'There is currently only one available accessory of this type, and you are trying to check out :checkout_qty. Please adjust the checkout quantity or the total stock of this accessory and try again.|There are :number_currently_remaining total available accessories, and you are trying to check out :checkout_qty. Please adjust the checkout quantity or the total stock of this accessory and try again.',
+            ),
+           
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

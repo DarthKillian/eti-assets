@@ -14,6 +14,7 @@ return array(
     'info'  					=> 'Informação de Licença',
     'license_seats'  			=> 'Instalações da Licença',
     'seat'  					=> 'Instalação',
+    'seat_count'  				=> 'Seat :count',
     'seats'  					=> 'Instalações',
     'software_licenses'  		=> 'Licenças de Software',
     'user'  					=> 'Utilizador',
@@ -23,12 +24,20 @@ return array(
         [
             'checkin_all'           => [
                 'button'            => 'Receber todos os lugares',
+<<<<<<< HEAD
                 'modal'             => 'Esta ação irá realizar a verificação de um único lugar. | Esta ação verificará todos os :checkedout_seats_count lugares para esta licença.',
+=======
+                'modal'             => 'This action will checkin one seat. | This action will checkin all :checkedout_seats_count seats for this license.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
                 'enabled_tooltip'   => 'Entrega de TODOS os lugares para esta licença de utilizadores e ativos',
                 'disabled_tooltip'  => 'Isto está desativado porque não há lugares recebidos no momento',
                 'disabled_tooltip_reassignable'  => 'Isso está desativado porque a licença não é reatribuível',
                 'success'           => 'Licença entregue com sucesso! Todas as licenças foram entregues com sucesso!',
+<<<<<<< HEAD
                 'log_msg'           => 'Entrega feita através da entrega em massa da licença',
+=======
+                'log_msg'           => 'Checked in via bulk license checkin in license GUI',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
             ],
 
             'checkout_all'              => [
@@ -45,4 +54,10 @@ return array(
 
             ],
     ],
+<<<<<<< HEAD
+=======
+
+    'below_threshold' => 'Existem apenas :remaining_count lugares para esta licença com uma quantidade mínima de :min_amt. Você pode querer considerar a compra de mais lugares.',
+    'below_threshold_short' => 'Este item está abaixo da quantidade mínima necessária.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

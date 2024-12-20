@@ -1,3 +1,4 @@
+
 @extends('layouts.default')
 
 {{-- Page title --}}
@@ -50,18 +51,17 @@
                                 </button>
                             </div>
                             @endif
-                            @if((isset($newAsset) && ($newAsset == 'true')))
-                                <div class="col-md-3 text-right" style="padding-right: 10px;">
-                                    @if(Route::is('rma.create'))
-                                        <a href="{{ route('productflow.receiving', ['new_rma' => 1]) }}" class="btn btn-sm btn-primary pull-right" id="newAssetBtn" >
-                                            {{ trans('general.new_asset') }}
-                                        </a>
-                                    @endif
-                                </div>
-                            @endif
-                    </div>
-                    
-                </div><!-- /.box-header -->
+                        </div>
+                        @if (isset($topSubmit) && ($topSubmit=='true'))
+                        <div class="col-md-3 text-right" style="padding-right: 10px;">
+                            <button type="submit" class="btn btn-primary pull-right">
+                                <x-icon type="checkmark" />
+                                {{ trans('general.save') }}
+                            </button>
+                        </div>
+                        @endif
+                </div>
+            </div><!-- /.box-header -->
             @endif
 
             
@@ -77,7 +77,11 @@
                     <!-- CSRF Token -->
                     {{ csrf_field() }}
                     @yield('inputFields')
-                    @include('partials.forms.edit.submit')
+                        <x-redirect_submit_options
+                                :index_route="$index_route ?? null"
+                                :button_label="trans('general.save')"
+                                :options="$options ?? []"
+                        />
                 </div>
 
             </div> <!-- ./box-body -->

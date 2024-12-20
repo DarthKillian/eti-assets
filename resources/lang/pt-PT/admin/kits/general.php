@@ -37,7 +37,11 @@ return [
     'accessory_detached'                => 'Acessório separado com sucesso',
     'accessory_error'                   => 'Acessório já anexado ao kit',
     'accessory_deleted'                 => 'Apagado com sucesso',
+<<<<<<< HEAD
     'accessory_none'                    => 'The accessory does not exist',
+=======
+    'accessory_none'                    => 'O acessório não existe',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'checkout_success'                  => 'Entrega foi bem sucedida',
     'checkout_error'                    => 'Erro de Entrega',
     'kit_none'                          => 'Kit não existe',
@@ -47,4 +51,8 @@ return [
     'kit_deleted'                       => 'Kit foi apagado com sucesso',
     'kit_model_updated'                 => 'Modelo foi atualizado com sucesso',
     'kit_model_detached'                => 'Modelo foi separado com sucesso',
+<<<<<<< HEAD
+=======
+    'model_already_attached'            => 'Model already attached to kit',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

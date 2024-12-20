@@ -23,6 +23,7 @@ return [
     'depreciation'	    => 'Afskrivninger',
     'depreciates_on'	=> 'Afskrives Den',
     'default_location'	=> 'Standardplacering',
+    'default_location_phone' => 'Standard Lokationstelefon',
     'eol_date'			=> 'EOL Dato',
     'eol_rate'			=> 'EOL Rate',
     'expected_checkin'  => 'Forventet indtjekningsdato',
@@ -38,6 +39,9 @@ return [
     'order'				=> 'Ordrenummer',
     'qr'				=> 'QR kode',
     'requestable'		=> 'Brugere kan efterspørge dette aktiv',
+    'redirect_to_all'   => 'Return to all :type',
+    'redirect_to_type'   => 'Go to :type',
+    'redirect_to_checked_out_to'   => 'Go to Checked Out to',
     'select_statustype'	=> 'Vælg statustype',
     'serial'			=> 'Serienummer',
     'status'			=> 'Status',
@@ -51,8 +55,17 @@ return [
     'asset_location_update_default' => 'Opdater kun standardplacering',
     'asset_location_update_actual' => 'Opdater kun den faktiske placering',
     'asset_not_deployable' => 'Denne aktivstatus er ikke implementerbar. Dette aktiv kan ikke tjekkes ud.',
+<<<<<<< HEAD
     'asset_deployable' => 'Denne status er anvendelig. Dette aktiv kan tjekkes ud.',
     'processing_spinner' => 'Behandler... (Dette kan tage lidt tid på store filer)',
     'optional_infos'  => 'Valgfri Information',
     'order_details'   => 'Ordre Relateret Information'
+=======
+    'asset_not_deployable_checkin' => 'That asset status is not deployable. Using this status label will checkin the asset.',
+    'asset_deployable' => 'Denne status er anvendelig. Dette aktiv kan tjekkes ud.',
+    'processing_spinner' => 'Behandler... (Dette kan tage lidt tid på store filer)',
+    'optional_infos'  => 'Valgfri Information',
+    'order_details'   => 'Ordre Relateret Information',
+    'calc_eol'    => 'If nulling the EOL date, use automatic EOL calculation based on the purchase date and EOL rate.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

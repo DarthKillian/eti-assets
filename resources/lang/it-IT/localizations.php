@@ -2,7 +2,11 @@
 
 return [
 
+<<<<<<< HEAD
     'select_language' => 'Seleziona la lingua',
+=======
+    'select_language' => 'Seleziona una lingua',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'languages' => [
         'en-US'=> 'Inglese, Stati Uniti',
         'en-GB'=> 'Inglese, Regno Unito',
@@ -40,7 +44,13 @@ return [
         'ms-MY'=> 'Malese',
         'mi-NZ'=> 'Maori',
         'mn-MN'=> 'Mongolo',
+<<<<<<< HEAD
         'no-NO'=> 'Norvegese',
+=======
+        //'no-NO'=> 'Norwegian',
+        'nb-NO'=> 'Norvegese Bokmål',
+        //'nn-NO'=> 'Norwegian Nynorsk',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'fa-IR'=> 'Persiano',
         'pl-PL'=> 'Polacco',
         'pt-PT'=> 'Portoghese',
@@ -50,6 +60,10 @@ return [
         'sr-CS' => 'Serbo (Latino)',
         'sk-SK'=> 'Slovacco',
         'sl-SI'=> 'Sloveno',
+<<<<<<< HEAD
+=======
+        'so-SO'=> 'Somalo',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Spagnolo',
         'es-CO'=> 'Spagnolo (Colombia)',
         'es-MX'=> 'Spagnolo (Messico)',
@@ -65,7 +79,11 @@ return [
         'zu-ZA'=> 'Zulu',
     ],
 
+<<<<<<< HEAD
     'select_country' => 'Seleziona un paese',
+=======
+    'select_country' => 'Seleziona un Paese',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     
     'countries' => [
         'AC'=>'Isola di Ascensione',
@@ -132,6 +150,10 @@ return [
         'EC'=>'Ecuador',
         'EE'=>'Estonia',
         'EG'=>'Egitto',
+<<<<<<< HEAD
+=======
+        'GB-ENG'=>'Inghilterra',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'ER'=>'Eritrea',
         'ES'=>'Spagna',
         'ET'=>'Etiopia',
@@ -230,6 +252,10 @@ return [
         'NG'=>'Nigeria',
         'NI'=>'Nicaragua',
         'NL'=>'Paesi Bassi',
+<<<<<<< HEAD
+=======
+        'GB-NIR' => 'Irlanda del Nord',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'NO'=>'Norvegia',
         'NP'=>'Nepal',
         'NR'=>'Nauru',
@@ -257,7 +283,11 @@ return [
         'RU'=>'Federazione Russa',
         'RW'=>'Rwanda',
         'SA'=>'Arabia Saudita',
+<<<<<<< HEAD
         'UK'=>'Scozia',
+=======
+        'GB-SCT'=>'Scozia',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'SB'=>'Isole Salomone',
         'SC'=>'Seychelles',
         'SS'=>'Sudan Sud',
@@ -309,6 +339,10 @@ return [
         'VI'=>'Isole Vergini (British.)',
         'VN'=>'Vietnam',
         'VU'=>'Vanuatu',
+<<<<<<< HEAD
+=======
+        'GB-WLS' =>'Galles',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'WF'=>'Isole di Wallis e Futuna',
         'WS'=>'Samoa',
         'YE'=>'Yemen',

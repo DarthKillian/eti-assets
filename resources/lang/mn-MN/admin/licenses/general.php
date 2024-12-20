@@ -14,6 +14,10 @@ return array(
     'info'  					=> 'Лицензийн мэдээлэл',
     'license_seats'  			=> 'Лицензийн суудал',
     'seat'  					=> 'Суудал',
+<<<<<<< HEAD
+=======
+    'seat_count'  				=> 'Seat :count',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'seats'  					=> 'Суудал',
     'software_licenses'  		=> 'Програм хангамжийн лиценз',
     'user'  					=> 'Хэрэглэгч',
@@ -23,12 +27,20 @@ return array(
         [
             'checkin_all'           => [
                 'button'            => 'Checkin All Seats',
+<<<<<<< HEAD
                 'modal'             => 'This will action checkin one seat. | This action will checkin all :checkedout_seats_count seats for this license.',
+=======
+                'modal'             => 'This action will checkin one seat. | This action will checkin all :checkedout_seats_count seats for this license.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
                 'enabled_tooltip'   => 'Checkin ALL seats for this license from both users and assets',
                 'disabled_tooltip'  => 'This is disabled because there are no seats currently checked out',
                 'disabled_tooltip_reassignable'  => 'This is disabled because the License is not reassignable',
                 'success'           => 'License successfully checked in! | All licenses were successfully checked in!',
+<<<<<<< HEAD
                 'log_msg'           => 'Checked in via bulk license checkout in license GUI',
+=======
+                'log_msg'           => 'Checked in via bulk license checkin in license GUI',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
             ],
 
             'checkout_all'              => [
@@ -45,4 +57,10 @@ return array(
 
             ],
     ],
+<<<<<<< HEAD
+=======
+
+    'below_threshold' => 'There are only :remaining_count seats left for this license with a minimum quantity of :min_amt. You may want to consider purchasing more seats.',
+    'below_threshold_short' => 'This item is below the minimum required quantity.',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

@@ -1,13 +1,17 @@
 <?php
 
     return [
-        'asset_maintenances' => 'Mantenimiento de Activos',
-        'edit'               => 'Editar Mantenimiento de Activos',
-        'delete'             => 'Eliminar Mantenimiento de Activos',
-        'view'               => 'Ver Detalles de Mantenimiento de Activos',
-        'repair'             => 'Reparación',
+        'asset_maintenances' => 'Mantenimiento de activos',
+        'edit'               => 'Editar mantenimiento del activo',
+        'delete'             => 'Eliminar mantenimiento del activo',
+        'view'               => 'Ver detalles del mantenimiento del activo',
+        'repair'             => 'Reparar',
         'maintenance'        => 'Mantenimiento',
+<<<<<<< HEAD
         'upgrade'            => 'Mejora',
+=======
+        'upgrade'            => 'Mejorar',
+>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'calibration'        => 'Calibración',
         'software_support'   => 'Soporte de software',
         'hardware_support'   => 'Soporte de hardware',
