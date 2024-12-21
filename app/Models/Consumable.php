@@ -268,18 +268,6 @@ class Consumable extends SnipeModel
      */
     public function supplier()
     {
-        return $this->belongsTo(Supplier::class, 'supplier_id');
-    }
-
-    /**
-     * Establishes the item -> supplier relationship
-     *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
-     * @since [v6.1.1]
-     * @return \Illuminate\Database\Eloquent\Relations\Relation
-     */
-    public function supplier()
-    {
         return $this->belongsTo(\App\Models\Supplier::class, 'supplier_id');
     }
 

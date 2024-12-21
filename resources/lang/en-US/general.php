@@ -310,6 +310,7 @@ return [
     'login_enabled'         => 'Login Enabled',
     'audit_due'             => 'Due for Audit',
     'audit_overdue'         => 'Overdue for Audit',
+    'audit_due_days'        => 'Assets Due for Audit Within :days Day|Assets Due for Audit Within :days Days',
     'accept'                => 'Accept :asset',
     'i_accept'              => 'I accept',
     'i_decline'             => 'I decline',
@@ -501,5 +502,6 @@ return [
     'action_source' => 'Action Source',
     'or' => 'or',
     'stock_report' => 'Stock Report',
+    'checkin_and_delete' => "Check in and Delete Asset",
 
 ];

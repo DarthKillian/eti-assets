@@ -100,9 +100,11 @@
                             </div>
                         </div>
 
-                        @include ('partials.forms.checkout-selector', ['user_select' => 'true','asset_select' => 'true', 'location_select' => 'true'])
+                        {{-- Disable checkout to user --}}
+                        {{-- @DarthKillian --}}
+                        @include ('partials.forms.checkout-selector', ['user_select' => 'false','asset_select' => 'true', 'location_select' => 'true'])
 
-                        @include ('partials.forms.edit.user-select', ['translated_name' => trans('general.user'), 'fieldname' => 'assigned_user'])
+                        {{-- @include ('partials.forms.edit.user-select', ['translated_name' => trans('general.user'), 'fieldname' => 'assigned_user']) --}}
 
                         <!-- We have to pass unselect here so that we don't default to the asset that's being checked out. We want that asset to be pre-selected everywhere else. -->
                         @include ('partials.forms.edit.asset-select', ['translated_name' => trans('general.asset'), 'fieldname' => 'assigned_asset', 'unselect' => 'true', 'style' => 'display:none;'])
@@ -130,7 +132,9 @@
                         </div>
 
                         <!-- Expected Checkin Date -->
-                        <div class="form-group {{ $errors->has('expected_checkin') ? 'error' : '' }}">
+                        {{-- Remove Expected Checkin as we do not use it. --}}
+                        {{-- @DarthKillian --}}
+                        {{-- <div class="form-group {{ $errors->has('expected_checkin') ? 'error' : '' }}">
                             <label for="expected_checkin" class="col-md-3 control-label">
                                 {{ trans('admin/hardware/form.expected_checkin') }}
                             </label>

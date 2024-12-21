@@ -987,24 +987,6 @@ dir="{{ Helper::determineLanguageDirection() }}">
             </div>
         </div>
 
-                // Invoke Bootstrap 3's tooltip
-                $('[data-tooltip="true"]').tooltip({
-                    container: 'body',
-                    animation: true,
-                });
-                
-                $('[data-toggle="popover"]').popover();
-                $('.select2 span').addClass('needsclick');
-                $('.select2 span').removeAttr('title');
-
-                // This javascript handles saving the state of the menu (expanded or not)
-                $('body').bind('expanded.pushMenu', function () {
-                    $.ajax({
-                        type: 'GET',
-                        url: "{{ route('account.menuprefs', ['state'=>'open']) }}",
-                        _token: "{{ csrf_token() }}"
-                    });
-
         {{-- Javascript files --}}
         <script src="{{ url(mix('js/dist/all.js')) }}" nonce="{{ csrf_token() }}"></script>
         <script src="{{ url('js/select2/i18n/'.Helper::mapBackToLegacyLocale(app()->getLocale()).'.js') }}"></script>

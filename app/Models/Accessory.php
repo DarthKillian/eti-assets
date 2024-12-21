@@ -378,22 +378,6 @@ class Accessory extends SnipeModel
     }
 
     /**
-     * Run after the checkout acceptance was declined by the user
-     * 
-     * @param  User   $acceptedBy
-     * @param  string $signature
-     */
-    public function declinedCheckout(User $declinedBy, $signature)
-    {
-        if (is_null($accessory_checkout = AccessoryCheckout::userAssigned()->where('assigned_to', $declinedBy->id)->where('accessory_id', $this->id)->latest('created_at'))) {
-            // Redirect to the accessory management page with error
-            return redirect()->route('accessories.index')->with('error', trans('admin/accessories/message.does_not_exist'));
-        }
-
-        $accessory_checkout->limit(1)->delete();
-    }
-
-    /**
      * -----------------------------------------------
      * BEGIN MUTATORS
      * -----------------------------------------------

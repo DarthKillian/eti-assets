@@ -21,11 +21,6 @@ class Group extends SnipeModel
         'permissions'
     ];
 
-    protected $fillable = [
-        'name',
-        'permissions'
-    ];
-
     /**
      * Whether the model should inject it's identifier to the unique
      * validation rules before attempting validation. If this property

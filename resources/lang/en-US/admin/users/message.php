@@ -6,19 +6,7 @@ return array(
     'declined'                  => 'You have successfully declined this asset.',
     'bulk_manager_warn'	        => 'Your users have been successfully updated, however your manager entry was not saved because the manager you selected was also in the user list to be edited, and users may not be their own manager. Please select your users again, excluding the manager.',
     'user_exists'               => 'User already exists!',
-<<<<<<< HEAD
-<<<<<<<< HEAD:resources/lang/en-US/admin/users/message.php
-    'user_not_found'            => 'User does not exist.',
-========
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/am-ET/admin/users/message.php
-=======
-<<<<<<<< HEAD:resources/lang/iu-NU/admin/users/message.php
-    'user_not_found'            => 'User does not exist.',
-========
-    'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/en-US/admin/users/message.php
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'The login field is required',
     'user_has_no_assets_assigned' => 'No assets currently assigned to user.',
     'user_password_required'    => 'The password is required.',

@@ -79,6 +79,11 @@
                                             </div>
                                         </div>
 
+                                        {{-- Company --}}
+                                        {{-- Added by @DarthKillian --}}
+
+                                        @include ('partials.forms.edit.company-select', ['translated_name' => trans('general.company'), 'fieldname' => 'company_id'])
+
                                         <!-- Status -->
                                         <div class="form-group {{ $errors->has('status_id') ? 'error' : '' }}">
                                             <label for="status_id" class="col-sm-3 control-label">

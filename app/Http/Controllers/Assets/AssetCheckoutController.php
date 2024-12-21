@@ -83,7 +83,10 @@ class AssetCheckoutController extends Controller
                 $checkout_at = $request->get('checkout_at');
             }
 
-            // Removing expected checkin as that is not anything we use. Adding Company support for checkouts instead.
+            /*
+                Removing expected checkin as that is not anything we use. Adding Company support for checkouts instead. 
+                @DarthKillian
+            */
             
             /* $expected_checkin = '';
             if ($request->filled('expected_checkin')) {
@@ -131,7 +134,7 @@ class AssetCheckoutController extends Controller
 
                 session()->put(['redirect_option' => $request->get('redirect_option'), 'checkout_to_type' => $request->get('checkout_to_type')]);
 
-            if ($asset->checkOut($target, $admin, $checkout_at, $expected_checkin, $request->get('note'), $request->get('name'))) {
+            if ($asset->checkOut($target, $admin, $checkout_at, $company_id, $order_number, $status_id, $request->get('note'), $request->get('name') )) {
                 return redirect()->to(Helper::getRedirectOption($request, $asset->id, 'Assets'))
                     ->with('success', trans('admin/hardware/message.checkout.success'));
             }

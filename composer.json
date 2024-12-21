@@ -1,5 +1,5 @@
 {
-  "name": "snipe/snipe-it",
+  "name": "eti/assets",
   "description": "Open source asset management system built on Laravel.",
   "keywords": [
     "assets",
@@ -74,11 +74,7 @@
     "ext-zip": "*",
     "ext-exif": "*"
   },
-  "suggest": {
-    "ext-ldap": "*"
-  },
   "require-dev": {
-    "brianium/paratest": "^6.6",
     "fakerphp/faker": "^1.16",
     "larastan/larastan": "^2.9",
     "mockery/mockery": "^1.4",

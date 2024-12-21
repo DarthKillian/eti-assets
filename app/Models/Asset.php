@@ -523,16 +523,6 @@ class Asset extends Depreciable
       return $this->assignedType() === self::ASSET;
     }
 
-    public function checkedOutToLocation(): bool
-    {
-      return $this->assignedType() === self::LOCATION;
-    }
-
-    public function checkedOutToAsset(): bool
-    {
-      return $this->assignedType() === self::ASSET;
-    }
-
     /**
      * Get the target this asset is checked out to
      *
