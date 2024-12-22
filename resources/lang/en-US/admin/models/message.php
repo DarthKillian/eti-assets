@@ -34,20 +34,7 @@ return array(
     'bulkedit' => array(
         'error'   		=> 'No fields were changed, so nothing was updated.',
         'success' 		=> 'Model successfully updated. |:model_count models successfully updated.',
-<<<<<<< HEAD
-<<<<<<<< HEAD:resources/lang/en-US/admin/models/message.php
-        'warn'          => 'You are about to update the properies of the following model: |You are about to edit the properties of the following :model_count models:',
-========
         'warn'          => 'You are about to update the properties of the following model:|You are about to edit the properties of the following :model_count models:',
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/am-ET/admin/models/message.php
-=======
-<<<<<<<< HEAD:resources/lang/ca-ES/admin/models/message.php
-        'warn'          => 'You are about to update the properies of the following model: |You are about to edit the properties of the following :model_count models:',
-========
-        'warn'          => 'You are about to update the properties of the following model:|You are about to edit the properties of the following :model_count models:',
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/en-US/admin/models/message.php
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
-
     ),
 
     'bulkdelete' => array(
