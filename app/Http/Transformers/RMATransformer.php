@@ -25,7 +25,7 @@ class RMATransformer
 
         $array = [
             'id' => $rma->id,
-            'asset' => ($rma->asset) ? ['id' => $rma->asset->id, 'serial' => $rma->asset->serial, 'asset_tag' => e($rma->asset->asset_tag)] : null,
+            'asset' => ($rma->asset) ? ['id' => $rma->asset->id, 'serial' => $rma->asset->serial, 'asset_tag' => e($rma->asset->asset_tag), 'deleted_at' => e($rma->asset->deleted_at)] : null,
             'new_asset' => ($rma->newAsset) ? ['id' => $rma->newAsset->id, 'serial' => $rma->newAsset->serial, 'asset_tag' => e($rma->newAsset->asset_tag)] : null,
             'rma_number' => $rma->rma_number,
             'case_number' => $rma->case_number,

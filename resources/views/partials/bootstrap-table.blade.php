@@ -680,6 +680,47 @@
 
     }
 
+    // RMA Number formatter
+    function rmaRequestLinkFormatter(value, row) {
+        // Asset Maintenance RMA number formatter
+        if (row.rma && row.rma != null) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.rma.id}>${row.rma.rma_number}</a>`;
+        }
+        // RMA formatter
+        if((row.rma_number)) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.id}>${row.rma_number}</a>`;
+        }
+    }
+
+    // RMA status formatter
+    function rmaStatusLinkFormatter(value, row) {
+        if((row.status)) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.id}>${row.status}</a>`;
+        }
+    }
+
+    // RMA Case number formatter
+    function caseLinkFormatter(value, row) {
+        console.dir(row)
+        if((row.case_number)) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.id}>${row.case_number}</a>`;
+        }
+
+        // Asset Maintenance Case number formatter
+        if (row.rma) {
+            return `<a href={{ config('app.url')}}/productflow/rma/${row.rma.id}>${row.rma.case_number}</a>`;
+        }
+    }
+
+    function newAssetSerialLinkFormatter(value, row) {
+        if ((row.new_asset) && (row.new_asset.id)) {
+            return '<a href="{{ config('app.url') }}/hardware/' + row.new_asset.id + '">' + row.new_asset.serial + '</a>';
+        }
+        return '';
+
+    }
+
+
     function departmentNameLinkFormatter(value, row) {
         if ((row.assigned_user) && (row.assigned_user.department) && (row.assigned_user.department.name)) {
             return '<a href="{{ config('app.url') }}/departments/' + row.assigned_user.department.id + '">' + row.assigned_user.department.name + '</a>';
@@ -696,7 +737,7 @@
     function assetSerialLinkFormatter(value, row) {
 
         if ((row.asset) && (row.asset.serial)) {
-            if (row.asset.deleted_at!='') {
+            if (row.asset.deleted_at != '') {
                 return '<span style="white-space: nowrap;"><x-icon type="x" class="text-danger" /><span class="sr-only">deleted</span> <del><a href="{{ config('app.url') }}/hardware/' + row.asset.id + '" data-tooltip="true" title="{{ trans('admin/hardware/general.deleted') }}">' + row.asset.serial + '</a></del></span>';
             }
             return '<a href="{{ config('app.url') }}/hardware/' + row.asset.id + '">' + row.asset.serial + '</a>';

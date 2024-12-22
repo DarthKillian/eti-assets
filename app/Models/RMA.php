@@ -36,7 +36,7 @@ class RMA extends Model
     protected $searchableAttributes = ['rma_number', 'case_number', 'contact', 'notes', 'status', 'start_date', 'completion_date'];
 
     protected $searchableRelations = [
-        'asset' => ['asset_tag', 'serial'],
+        'asset' => ['asset_tag', 'serial', 'deleted_at'],
         'asset.company' => ['name'],
         'asset.model.manufacturer' => ['name'],
         'newAsset' => ['asset_tag', 'serial'],

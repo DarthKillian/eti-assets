@@ -1,4 +1,3 @@
-
 @extends('layouts.default')
 
 {{-- Page title --}}
@@ -34,22 +33,14 @@
             <!-- box-header -->
             <div class="box-header with-border">
 
-                @if ((isset($topSubmit) && ($topSubmit=='true')) || (isset($item->id)) || (isset($newAsset) && ($newAsset == 'true')))
-                    <div class="col-md-12 box-title text-right" style="padding: 0px; margin: 0px;">
-                            <div class="col-md-9 text-left">
-                                @if ($item->id)
-                                    <h2 class="box-title" style="padding-top: 8px; padding-bottom: 7px;">
-                                        {{ $item->display_name }}
-                                    </h2>
-                                @endif
-                            </div>
-                            @if (isset($topSubmit) && ($topSubmit=='true'))
-                            <div class="col-md-3 text-right" style="padding-right: 10px;">
-                                <button type="submit" class="btn btn-primary pull-right">
-                                    <i class="fas fa-check icon-white" aria-hidden="true"></i>
-                                    {{ trans('general.save') }}
-                                </button>
-                            </div>
+                @if ((isset($topSubmit) && ($topSubmit=='true')) || (isset($item->id)))
+
+                <div class="col-md-12 box-title text-right" style="padding: 0px; margin: 0px;">
+                        <div class="col-md-9 text-left">
+                            @if ($item->id)
+                                <h2 class="box-title" style="padding-top: 8px; padding-bottom: 7px;">
+                                    {{ $item->display_name }}
+                                </h2>
                             @endif
                         </div>
                         @if (isset($topSubmit) && ($topSubmit=='true'))
@@ -63,8 +54,6 @@
                 </div>
             </div><!-- /.box-header -->
             @endif
-
-            
 
             <!-- box-body -->
             <div class="box-body">
