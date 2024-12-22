@@ -337,37 +337,6 @@
                         }
                     </style>
 
-                            <!-- 1D Barcode Type -->
-                            <div class="form-group{{ $errors->has('label2_1d_type') ? ' has-error' : '' }}">
-                                <div class="col-md-3 text-right">
-                                    {{ Form::label('label2_1d_type', trans('admin/settings/general.label2_1d_type'), ['class'=>'control-label']) }}
-                                </div>
-                                <div class="col-md-7">
-                                    @php
-                                        $select1DValues = [
-                                            'default' => trans('admin/settings/general.default').' [ '.$setting->alt_barcode.' ]',
-                                            'none'    => trans('admin/settings/general.none'),
-                                            'C128'    => 'C128',
-                                            'C39'     => 'C39',
-                                            'EAN5'    => 'EAN5',
-                                            'EAN13'   => 'EAN13',
-                                            'UPCA'    => 'UPCA',
-                                            'UPCE'    => 'UPCE'
-                                        ];
-                                    @endphp
-                                    {{ Form::select('label2_1d_type', $select1DValues, old('label2_1d_type', $setting->label2_1d_type), [ 'class'=>'select2 col-md-4', 'aria-label'=>'label2_1d_type' ]) }}
-                                    {!! $errors->first('label2_1d_type', '<span class="alert-msg" aria-hidden="true"><i class="fas fa-times" aria-hidden="true"></i> :message</span>') !!}
-                                    <p class="help-block">
-                                        {{ trans('admin/settings/general.label2_1d_type_help') }}.
-                                        {!!
-                                            trans('admin/settings/general.help_default_will_use', [
-                                                'default' => trans('admin/settings/general.default'),
-                                                'setting_name' => trans('admin/settings/general.barcodes').' &gt; '.trans('admin/settings/general.alt_barcode_type'),
-                                            ])
-                                        !!}
-                                    </p>
-                                </div>
-                            </div>
 
                     {{ Form::open(['method' => 'POST', 'files' => false, 'autocomplete' => 'off', 'class' => 'form-horizontal', 'role' => 'form' ]) }}
                     <!-- CSRF Token -->
