@@ -311,6 +311,7 @@ return [
     'audit_due'             => 'Due for Audit',
     'audit_overdue'         => 'Overdue for Audit',
     'audit_due_days'        => 'Assets Due for Audit Within :days Day|Assets Due for Audit Within :days Days',
+    'checkin_due'           => 'Due for Checkin',
     'accept'                => 'Accept :asset',
     'i_accept'              => 'I accept',
     'i_decline'             => 'I decline',

@@ -47,14 +47,5 @@ return [
     'kit_deleted'                       => 'Kit was successfully deleted',
     'kit_model_updated'                 => 'Model was successfully updated',
     'kit_model_detached'                => 'Model was successfully detached',
-<<<<<<< HEAD
     'model_already_attached'            => 'Model already attached to kit',
 ];
-=======
-<<<<<<<< HEAD:resources/lang/km-KH/admin/kits/general.php
-];
-========
-    'model_already_attached'            => 'Model already attached to kit',
-];
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/en-US/admin/kits/general.php
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
