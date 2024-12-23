@@ -1,17 +1,6 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'bulk_delete'		=> 'Confermi elementi di eliminazione di massa',
-    'bulk_restore'      => 'Conferma ripristino beni massivo', 
-  'bulk_delete_help'	=> 'Rivedi gli assets sottostanti per la cancellazione massiva. Una volta cancellati, questi assets potranno essere ripristinati, ma non saranno più associati ad alcun utente cui siano attualmente assegnati.',
-  'bulk_restore_help'	=> 'Esamina i beni da ripristinare qui sotto. Una volta recuperati, i beni non verranno riassegnati agli utenti a cui erano precedentemente assegnati.',
-  'bulk_delete_warn'	=> 'Stai per cancellare :asset_count assets.',
-  'bulk_restore_warn'	=> 'Stai per ripristinare :asset_count beni.',
-    'bulk_update'		=> 'Aggiornamento quantità beni',
-    'bulk_update_help'	=> 'Questo modulo consente di aggiornare più risorse in una sola volta. Riempire solo i campi che è necessario cambiare. Tutti i campi lasciati vuoti rimarranno invariati. ',
-    'bulk_update_warn'	=> 'Stai per modificare le proprietà di un singolo asset.<unk> Stai per modificare le proprietà di :asset_count asset.',
-=======
     'bulk_delete'		=> 'Conferma Eliminazione Massiva di Beni',
     'bulk_restore'      => 'Conferma Ripristino Massivo di Beni', 
   'bulk_delete_help'	=> 'Controlla i Beni scelti per l\'eliminazione massiva. Una volta eliminati, i Beni potranno essere ripristinati, ma non saranno più associati agli utenti a cui sono assegnati ora.',
@@ -21,28 +10,10 @@ return [
     'bulk_update'		=> 'Aggiornamento Massivo Beni',
     'bulk_update_help'	=> 'Questo modulo consente di aggiornare più beni alla volta. Riempi solo i campi da cambiare. Tutti i campi lasciati vuoti rimarranno invariati. ',
     'bulk_update_warn'	=> 'Stai per modificare le proprietà di un bene.|Stai per modificare le proprietà di :asset_count beni.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'bulk_update_with_custom_field' => 'Nota che i beni sono di :asset_model_count modelli differenti.',
     'bulk_update_model_prefix' => 'Sui Modelli', 
     'bulk_update_custom_field_unique' => 'Questo è un campo unico e non può essere modificato massivamente.',
     'checkedout_to'		=> 'Assegnato a',
-<<<<<<< HEAD
-    'checkout_date'		=> 'Data del check-out',
-    'checkin_date'		=> 'Data di entrata',
-    'checkout_to'		=> 'Assegnare a',
-    'cost'				=> 'Costo acquisto',
-    'create'			=> 'Creare bene',
-    'date'				=> 'Data di acquisto',
-    'depreciation'	    => 'Ammortamento',
-    'depreciates_on'	=> 'Deprezza Si',
-    'default_location'	=> 'Posizione predefinita',
-    'eol_date'			=> 'Data EOL',
-    'eol_rate'			=> 'Tasso EOL',
-    'expected_checkin'  => 'Richiesta Data di entrata',
-    'expires'			=> 'Scade',
-    'fully_depreciated'	=> 'Completamente ammortizzato',
-    'help_checkout'		=> 'Se vuoi assegnare questo prodotto immediatamente, seleziona "Pronto alla spedizione" dalla barra di stato qui sopra. ',
-=======
     'checkout_date'		=> 'Data di Assegnazione',
     'checkin_date'		=> 'Data Restituzione',
     'checkout_to'		=> 'Assegnare a',
@@ -59,39 +30,15 @@ return [
     'expires'			=> 'Scade',
     'fully_depreciated'	=> 'Pienamente Deprezzato',
     'help_checkout'		=> 'Se vuoi assegnare questo Bene subito, scegli "Pronto per Assegnazione" dall\'elenco stati qui sopra. ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'mac_address'		=> 'MAC Address',
     'manufacturer'		=> 'Produttore',
     'model'				=> 'Modello',
     'months'			=> 'mesi',
-<<<<<<< HEAD
-    'name'				=> 'Nome bene',
-=======
     'name'				=> 'Nome Bene',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'notes'				=> 'Note',
     'order'				=> 'Numero Ordine',
     'qr'				=> 'QR Code',
     'requestable'		=> 'Gli utenti possono richiedere questo bene',
-<<<<<<< HEAD
-    'select_statustype'	=> 'Selezionare il tipo di stato',
-    'serial'			=> 'Seriale',
-    'status'			=> 'Stato',
-    'tag'				=> 'Etichetta bene',
-    'update'			=> 'Aggiornamento bene',
-    'warranty'			=> 'Garanzia',
-        'warranty_expires'		=> 'Scadenza della garanzia',
-    'years'				=> 'anni',
-    'asset_location' => 'Aggiorna Posizione Bene',
-    'asset_location_update_default_current' => 'Aggiorna sia la posizione predefinita che quella attuale',
-    'asset_location_update_default' => 'Aggiorna solo la posizione predefinita',
-    'asset_location_update_actual' => 'Aggiorna solo la posizione effettiva',
-    'asset_not_deployable' => 'Lo stato del bene è "Non Assegnabile". Non puoi fare il check-out di questo bene.',
-    'asset_deployable' => 'Lo stato del bene è "Assegnabile". Puoi fare il check-out di questo bene.',
-    'processing_spinner' => 'Elaborazione... (Può volerci un po\' su file di grandi dimensioni)',
-    'optional_infos'  => 'Informazioni Opzionali',
-    'order_details'   => 'Informazioni relative all\'ordine'
-=======
     'redirect_to_all'   => 'Ritorna a tutti i :type',
     'redirect_to_type'   => 'Vai a :type',
     'redirect_to_checked_out_to'   => 'Vai agli assegnati',
@@ -114,5 +61,4 @@ return [
     'optional_infos'  => 'Informazioni Opzionali',
     'order_details'   => 'Informazioni relative all\'ordine',
     'calc_eol'    => 'Se viene annullata la data di EOL, usa il calcolo automatico in base alla data d\'acquisto e al tasso di EOL.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

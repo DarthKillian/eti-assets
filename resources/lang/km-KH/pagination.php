@@ -13,14 +13,8 @@ return array(
     |
     */
 
-<<<<<<< HEAD
-    'previous' => '&laquo; Previous',
-
-    'next'     => 'Next &raquo;',
-=======
     'previous' => '&laquo; មុន',
 
     'next'     => 'បន្ទាប់ &raquo;',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 );

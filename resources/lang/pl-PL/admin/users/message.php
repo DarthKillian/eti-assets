@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Pomyślnie odrzuciłeś ten składnik aktywów.',
     'bulk_manager_warn'	        => 'Użytkownicy zostały pomyślnie zaktualizowane, jednak Twój wpis manager nie został zapisany, bo dyrektor wybrano był również na liście użytkowników do edycji i użytkowników nie może być ich Menedżer. Wybierz użytkowników, z wyjątkiem Menedżera.',
     'user_exists'               => 'Użytkownik już istnieje!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Użytkownik nie istnieje.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Pole login jest wymagane',
     'user_has_no_assets_assigned' => 'Brak aktywów aktualnie przypisanych do użytkownika.',
     'user_password_required'    => 'Pole hasło jest wymagane.',

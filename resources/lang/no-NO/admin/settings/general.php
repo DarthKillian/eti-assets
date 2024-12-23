@@ -12,7 +12,7 @@ return [
     'admin_settings'            => 'Admin innstillinger',
     'is_ad'				        => 'Dette er en Active Directory server',
     'alerts'                	=> 'Varsler',
-    'alert_title'               => 'Update Notification Settings',
+    'alert_title'               => 'Oppdater varslingsinnstillinger',
     'alert_email'				=> 'Send varslinger til',
     'alert_email_help'    => 'E-postadresser eller distribusjonslister som du ønsker varsler skal sendes til, kommaseparert',
     'alerts_enabled'			=> 'Varslinger aktivert',
@@ -91,10 +91,6 @@ Linjeskift, topptekst, bilder, osv. kan føre til uventede resultater.',
     'ldap_integration'          => 'LDAP Integrering',
     'ldap_settings'             => 'LDAP Instillinger',
     'ldap_client_tls_cert_help' => 'Klientside TLS-sertifikat og nøkkel for LDAP tilkoblinger er vanligvis bare nyttig i Google Workspace-konfigurasjoner med "Secure LDAP." Begge er påkrevd.',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'LDAP Klient-Side TLS-nøkkel',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'LDAP-plassering',
 'ldap_location_help'             => 'LDAP plasserings feltet burde brukes hvis <strong> en OU ikke blir brukt i "Base Bind DN"-</strong> La denne stå tom hvis et OU søk brukes.',
     'ldap_login_test_help'      => 'Skriv inn et gyldig LDAP brukernavn og passord fra samme base DN som du anga ovenfor for å teste at LDAP-innlogging er riktig konfigurert. DU MÅ LAGRE DINE OPPDATERTE LDAP-INNSTILLINGER FØRST.',
@@ -212,10 +208,7 @@ Linjeskift, topptekst, bilder, osv. kan føre til uventede resultater.',
     'integrations'               => 'Integrasjoner',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Generell Webhook',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Microsoft Lag',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Test til lagring',
     'webhook_title'               => 'Oppdater Webhook innstillinger',
@@ -228,11 +221,8 @@ Linjeskift, topptekst, bilder, osv. kan føre til uventede resultater.',
     'webhook_integration_help'    => ':app-integrasjon er valgfritt, men endepunktet og kanalen er påkrevd hvis du ønsker å bruke den. For å konfigurere :app integrering, må du først <a href=":webhook_link" target="_new" rel="noopener">lage en innkommende webhook</a> på din :app konto. Klikk på knappen <strong>Test :app Integrasjon</strong> for å bekrefte at innstillingene er korrekte før du lagrer. ',
     'webhook_integration_help_button'    => 'Du vil se en testknapp etter at du har lagret din :app informasjon.',
     'webhook_test_help'           => 'Test om din :app integrasjon er riktig konfigurert. DU MÅ LAGRE DINE OPPDATERTE :app INNSTILLINGER FØRST.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Enable Shortcuts',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Snipe-IT-versjon',
     'support_footer'            => 'Støtte Footer Lenker ',
     'support_footer_help'       => 'Angi hvem som kan se lenker til Snipe-IT supportinformasjon og brukermanual',
@@ -390,8 +380,6 @@ Linjeskift, topptekst, bilder, osv. kan føre til uventede resultater.',
     'database_driver' => 'Databasedriver',
     'bs_table_storage' => 'Tabell Lagring',
     'timezone' => 'Tidssone',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Edit Profile',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
     'default_avatar' => 'Upload custom default avatar',
@@ -401,6 +389,5 @@ Linjeskift, topptekst, bilder, osv. kan føre til uventede resultater.',
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

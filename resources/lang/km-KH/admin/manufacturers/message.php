@@ -2,11 +2,7 @@
 
 return array(
 
-<<<<<<< HEAD
-    'support_url_help' => 'អថេរ <code>{LOCALE}</code>, <code>{SERIAL}</code>, <code>{MODEL_NUMBER}</code>, និង <code>{MODEL_NAME}</code> អាចត្រូវបានប្រើប្រាស់នៅក្នុងរបស់អ្នក URL ដែលមានតម្លៃទាំងនោះបង្ហាញដោយស្វ័យប្រវត្តិនៅពេលមើលទ្រព្យសកម្ម - ឧទាហរណ៍ https://support.apple.com/{LOCALE}/{SERIAL}។',
-=======
     'support_url_help' => 'អថេរ <code>{LOCALE}</code>, <code>{SERIAL}</code>, <code>{MODEL_NUMBER}</code>, និង <code>{MODEL_NAME}</code> អាចត្រូវបានប្រើប្រាស់នៅក្នុង URL របស់អ្នកដែលតម្លៃទាំងនោះបង្ហាញដោយស្វ័យប្រវត្តិនៅពេលមើលទ្រព្យសកម្ម - ឧទាហរណ៍ https://checkcoverage.apple.com/{LOCALE}/{SERIAL}។',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'does_not_exist' => 'ក្រុមហ៊ុនផលិតមិនមានទេ។',
     'assoc_users'	 => 'បច្ចុប្បន្នក្រុមហ៊ុនផលិតនេះត្រូវបានភ្ជាប់ជាមួយយ៉ាងហោចណាស់ម៉ូដែលមួយ ហើយមិនអាចលុបបានទេ។ សូម​ធ្វើ​បច្ចុប្បន្នភាព​ម៉ូដែល​របស់​អ្នក​ដើម្បី​លែង​យោង​ក្រុមហ៊ុន​ផលិត​នេះ​ហើយ​ព្យាយាម​ម្ដង​ទៀត។ ',
 

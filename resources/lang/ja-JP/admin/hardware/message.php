@@ -17,11 +17,8 @@ return [
         'error'   		=> '資産は作成されませんでした。もう一度、やり直して下さい。',
         'success' 		=> '資産は作成されました。',
         'success_linked' => ':tag を持つアセットは正常に作成されました。 <strong><a href=":link" style="color: white;"></a></strong> を表示するにはここをクリックしてください。',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'タグ:links のアセットが正常に作成されました。|:count アセットが正常に作成されました。',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -66,10 +63,7 @@ return [
         'file_delete_success'   => 'ファイルを削除しました。',
         'file_delete_error'      => 'ファイルが削除出来ませんでした。',
         'file_missing' => '選択されたファイルがありません',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => '選択したファイルは既に削除されています',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'ヘッダー行の1つ以上の属性に不正な形式のUTF-8文字が含まれています',
         'content_row_has_malformed_characters' => 'コンテンツの最初の行の1つまたは複数の属性に不正な形式のUTF-8文字が含まれています',
     ],

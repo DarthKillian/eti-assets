@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Sie haben diesen Gegenstand abgelehnt.',
     'bulk_manager_warn'	        => 'Benutzer erfolgreich geändert. Vorgesetzter sollte auch bearbeitet werden und konnte nicht angepasst werden, weil er sich nicht selbst als Vorgesetzter eingetragen haben kann. Bitte Benutzer ohne den Vorgesetzten nochmal bearbeiten.',
     'user_exists'               => 'Benutzer existiert bereits!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Benutzer existiert nicht.',
-=======
     'user_not_found'            => 'Der Benutzer existiert nicht oder Sie sind nicht berechtigt, ihn anzuzeigen.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Das Loginfeld ist erforderlich',
     'user_has_no_assets_assigned' => 'Derzeit sind keine Assets dem Benutzer zugewiesen.',
     'user_password_required'    => 'Das Passswortfeld ist erforderlich.',

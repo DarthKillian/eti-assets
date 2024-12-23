@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'דחיית את הנכס הזה בהצלחה.',
     'bulk_manager_warn'	        => 'המשתמשים שלך עודכנו בהצלחה, אך רשומת המנהל שלך לא נשמרה מפני שהמנהל שבחרת נבחר גם ברשימת המשתמשים כדי לערוך, והמשתמשים לא יכולים להיות המנהל שלהם. בחר שוב את המשתמשים שלך, למעט המנהל.',
     'user_exists'               => 'משתמש כבר קיים!',
-<<<<<<< HEAD
-    'user_not_found'            => 'משתמש לא קיים.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'יש להזין את שדה הכניסה',
     'user_has_no_assets_assigned' => 'No assets currently assigned to user.',
     'user_password_required'    => 'נדרשת הסיסמה.',

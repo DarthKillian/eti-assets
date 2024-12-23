@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Та энэ хөрөнгийг амжилттай татгалзсан.',
     'bulk_manager_warn'	        => 'Таны хэрэглэгчид амжилттай шинэчлэгдсэн хэдий ч таны менежерийн оруулгыг хадгалсангүй, учир нь таны сонгосон менежер засварлах хэрэглэгчийн жагсаалт мөн хэрэглэгчид магадгүй өөрийн менежер биш байж болно. Менежерийг оруулалгүйгээр хэрэглэгчдийг дахин сонгоно уу.',
     'user_exists'               => 'Хэрэглэгч бүртгэгдсэн байна!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Хэрэглэгч байхгүй байна.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Нэвтрэх талбар шаардлагатай байна',
     'user_has_no_assets_assigned' => 'No assets currently assigned to user.',
     'user_password_required'    => 'Нууц үг шаардагдана.',

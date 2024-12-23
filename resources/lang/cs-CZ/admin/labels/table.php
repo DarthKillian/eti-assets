@@ -1,9 +1,6 @@
 <?php
 
 return [
-<<<<<<< HEAD
-
-=======
     'example_company'    => 'Test Company Limited',
     'example_defaultloc' => 'Budova 1',
     'example_category'   => 'Zkušební kategorie',
@@ -11,7 +8,6 @@ return [
     'example_manufacturer'  => 'Zkoušky výrobce',
     'example_model'      => 'Zkušební model',
     'example_supplier'   => 'Test Company Limited',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'labels_per_page'    => 'Štítky',
     'support_fields'     => 'Pole',
     'support_asset_tag'  => 'Značka',

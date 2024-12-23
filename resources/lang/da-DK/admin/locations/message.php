@@ -8,10 +8,7 @@ return array(
     'assoc_child_loc'	 => 'Denne placering er for øjeblikket forælder på mindst et barns placering og kan ikke slettes. Opdater dine placeringer for ikke længere at henvise til denne placering, og prøv igen.',
     'assigned_assets' => 'Tildelte aktiver',
     'current_location' => 'Aktuel lokation',
-<<<<<<< HEAD
-=======
     'open_map' => 'Open in :map_provider_icon Maps',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     'create' => array(

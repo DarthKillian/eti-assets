@@ -90,10 +90,6 @@ return [
     'ldap_integration'          => 'LDAP integrace',
     'ldap_settings'             => 'Nastavení LDAP',
     'ldap_client_tls_cert_help' => 'Client-Side TLS Certificate a klíč pro LDAP jsou obvykle užitečné pouze v konfiguracích Google Workspace společně s "Secure LDAP." Oba jsou vyžadovány.',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'LDAP Client-Side TLS key',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'Umístění LDAP',
 'ldap_location_help'             => 'Pole Ldap lokace by se mělo použít, pokud <strong>se v základní linii nepoužívá.</strong> Ponechte prázdné, pokud se používá vyhledávání.',
     'ldap_login_test_help'      => 'Zadejte platné LDAP uživatelské jméno a heslo ze základu rozlišeného názvu který jste určili výše a vyzkoušejte zda je LDAP přihlašování správně nastavené. NEJPRVE JE TŘEBA ULOŽIT ZMĚNĚNÉ NASTAVENÍ LDAP.',
@@ -211,10 +207,7 @@ return [
     'integrations'               => 'Integrace',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Generál Webhook',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Týmy Microsoft',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Test pro uložení',
     'webhook_title'               => 'Aktualizovat nastavení webhooku',
@@ -227,11 +220,8 @@ return [
     'webhook_integration_help'    => ':app integrace je volitelná, ale koncový bod a kanál jsou vyžadovány, pokud jej chcete používat. Chcete-li konfigurovat integraci :app, musíte nejprve <a href=":webhook_link" target="_new" rel="noopener">vytvořit příchozí webový háček</a> na vašem účtu :app. Klikněte na tlačítko <strong>Test :app Integration</strong> pro potvrzení správného nastavení před uložením. ',
     'webhook_integration_help_button'    => 'Jakmile uložíte informace :app, objeví se testovací tlačítko.',
     'webhook_test_help'           => 'Vyzkoušejte, zda je vaše integrace :app správně nakonfigurována. MŮŽE MŮŽE MŮŽE VÁŠ AKTUALIZOVAT :app NASTAVENÍ FIRST.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Enable Shortcuts',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Verze Snipe-IT',
     'support_footer'            => 'Odkazy v zápatí na podporu ',
     'support_footer_help'       => 'Určete, kdo uvidí odkazy na Snipe-IT podporu a uživatelskou příručku',
@@ -389,8 +379,6 @@ return [
     'database_driver' => 'Ovladač databáze',
     'bs_table_storage' => 'Úložiště tabulky',
     'timezone' => 'Timezone',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Edit Profile',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
     'default_avatar' => 'Upload custom default avatar',
@@ -400,6 +388,5 @@ return [
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

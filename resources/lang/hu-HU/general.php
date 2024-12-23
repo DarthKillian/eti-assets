@@ -78,11 +78,7 @@ return [
     'consumables'			=> 'Fogyóeszközök',
     'country'  				=> 'Ország',
     'could_not_restore'     => 'Error restoring :item_type: :error',
-<<<<<<< HEAD
-    'not_deleted'           => 'The :item_type is not deleted so it cannot be restored',
-=======
     'not_deleted'           => 'The :item_type was not deleted and therefore cannot be restored',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Új létrehozása',
     'created'               => 'Elem létrehozva',
     'created_asset'			=> 'létrehozott eszköz',
@@ -103,11 +99,7 @@ return [
     'debug_warning_text'    => 'Ez az alkalmazás gyártási módban fut, a hibakeresés engedélyezve. Ez érzékeny adatokat tárhat fel, ha az alkalmazás elérhető a külvilág számára. A hibakeresési mód letiltása a <code>APP_DEBUG</code> érték <code>.env</code> fájlban történő <code>false</code> fájlban történő beállításával.',
     'delete'  				=> 'Törlés',
     'delete_confirm'  		=> 'Biztos benne, hogy törölni akarja: :item?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Biztosan törli ezt : :item? Ez a művelet nem vonható vissza.',
-=======
     'delete_confirm_no_undo' => 'Are you sure, you wish to delete :item? This cannot be undone.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Törölve',
     'delete_seats'  		=> 'Törölt elemek',
     'deletion_failed'       => 'A törlés nem sikerült',
@@ -165,15 +157,9 @@ return [
     'image_delete'         	=> 'Kép törlése',
     'include_deleted'       => 'Törölt eszközök bevonása',
     'image_upload'         	=> 'Kép feltöltése',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'Az elfogadott fájltípus :types. A megengedett maximális feltöltési méret :size.|Az elfogadott fájltípusok :types. A megengedett maximális feltöltési méret :size.',
-    'filetypes_size_help'   => 'A feltölthető méret maximum :size.',
-    'image_filetypes_help'  => 'Az elfogadott fájltípusok jpg, webp, png, gif és svg. A maximális feltöltési méret a következő: size.',
-=======
     'filetypes_accepted_help'    => 'Accepted filetype is :types. The maximum size allowed is :size.|Accepted filetypes are :types. The maximum upload size allowed is :size.',
     'filetypes_size_help'   => 'The maximum upload size allowed is :size.',
     'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'Ez a képfájl nem beolvasható. Az elfogadott fájltípusok: jpg, webp, png, gif és svg. A fájl kódolása: :mimetype.',
     'import'         	    => 'Importálás',
     'import_this_file'      => 'Map fields and process this file',
@@ -289,11 +275,7 @@ return [
     'signed_off_by'         => 'Aláírta',
     'skin'       			=> 'Kinézet',
     'webhook_msg_note'        => 'Az értesítések webhookokon keresztül lesznek elküldve',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Oh szia! Úgy látszik a te :app integrálásod a Snipe-IT-val sikeres volt!',
-=======
     'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'DEMO MODE: Néhány funkció le van tiltva a telepítéshez.',
     'site_name'				=> 'Hely neve',
     'state'  				=> 'Megye',
@@ -325,10 +307,7 @@ return [
     'user'					=> 'Felhasználó',
     'accepted'			    => 'elfogadva',
     'declined'			    => 'visszautasítva',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Declined Notes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Nincs hozzárendelve',
     'unaccepted_asset_report' => 'Elfogadhatatlan eszköz',
     'users'                 => 'Felhasználók',
@@ -442,11 +421,7 @@ return [
     'bulk_soft_delete'      =>'Gyengéden törölje ezeket a felhasználókat is. Az eszköztörténetük érintetlen marad, kivéve, ha/amíg nem törli a törölt rekordokat a Rendszergazdai beállításokban.',
     'bulk_checkin_delete_success' => 'A kiválasztott felhasználók törlésre, és a náluk levő eszközök visszavételre kerültek.',
     'bulk_checkin_success' => 'A kiválasztott felhasználókhoz tartozó eszközök visszavételre kerültek.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Az eszköz értékeinek törlése|Az összes :asset_count eszköz értékeinek törlése ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'A felhasználó :field értékeinek törlése|Az összes :user_count felhasználó :field értékeinek törlése ',
     'na_no_purchase_date'   => 'N/A - Nincs megadva a vásárlás dátuma',
     'assets_by_status'      => 'Eszközök státusz szerint',
@@ -459,10 +434,7 @@ return [
     'alt_uploaded_image_thumbnail' => 'Feltöltött indexkép',
     'placeholder_kit'       => 'Készlet kiválasztása',
     'file_not_found'        => 'A fájl nem található',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'No record for that log entry was found.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(nincs előnézet)',
     'setup'                 => 'Beállítás',
     'pre_flight'            => 'Pre-Flight',
@@ -488,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Generating auto-incrementing asset tags is disabled so all rows need to have the "Asset Tag" column populated.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Note: Generating auto-incrementing asset tags is enabled so assets will be created for rows that do not have "Asset Tag" populated. Rows that do have "Asset Tag" populated will be updated with the provided information.',
     'send_welcome_email_to_users'   => ' Email küldése az új felhasználóknak?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Email küldése',
     'call'                      => 'Call number',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Biztonsági mentés importálás előtt?',
     'csv_header_field'          => 'CSV fejléc mező',
     'import_field'              => 'Mező importálása',
     'sample_value'              => 'Minta érték',
     'no_headers'                => 'Oszlop nem található',
     'error_in_import_file'      => 'HIba lépett fel a CSV fájl olvasásakor: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % elkészült',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Hiba lépett fel az importálás közben: ',
     'warning'                   => 'FIGYELMEZTETÉS: :warning',
     'success_redirecting'       => 'Sikeres... Átirányítás.',
@@ -518,14 +483,6 @@ return [
     'no_autoassign_licenses_help' => 'Do not include user for bulk-assigning through the license UI or cli tools.',
     'modal_confirm_generic'      => 'Biztos benne?',
     'cannot_be_deleted'      => 'Ez az elem nem törölhető',
-<<<<<<< HEAD
-    'undeployable_tooltip'      => 'This item cannot be checked out. Check the quantity remaining.',
-    'serial_number'        => 'Sorozatszám',
-    'item_notes' => ':item Megjegyzések',
-    'item_name_var' => ':eszköz neve',
-    'error_user_company' => 'Checkout target company and asset company do not match',
-    'error_user_company_accept_view' => 'An Asset assigned to you belongs to a different company so you can\'t accept nor deny it, please check with your manager',
-=======
     'cannot_be_edited'      => 'Ez az elem nem szerkeszthető.',
     'undeployable_tooltip'      => 'Ez az elem nem kiadható. Ellenőrizd a fennmaradó mennyiséget.',
     'serial_number'        => 'Sorozatszám',
@@ -533,65 +490,42 @@ return [
     'item_name_var' => ':eszköz neve',
     'error_user_company' => 'A kiadásban szereplő cég nem egyezik meg az eszköznél megadott céggel',
     'error_user_company_accept_view' => 'Egy hozzád rendelt eszköz egy másik céghez tartozik, így nem fogadhatod el vagy utasíthatod vissza, kérlek egyeztess a vezetőddel',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'importer' => [
         'checked_out_to_fullname' => 'Kiadva a következőnek: Full Name',
         'checked_out_to_first_name' => 'Kiadva a következőnek: First Name',
         'checked_out_to_last_name' => 'Kiadva a következőnek: Last Name',
         'checked_out_to_username' => 'Kiadva a következőnek: Username',
         'checked_out_to_email' => 'Kiadva a következőnek: Email',
-<<<<<<< HEAD
-        'checked_out_to_tag' => 'Checked Out to: Asset Tag',
-=======
         'checked_out_to_tag' => 'Kiadva a következőnek: Asset Tag',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'manager_first_name' => 'Manager Keresztnév',
         'manager_last_name' => 'Manager Vezetéknév',
         'manager_full_name' => 'Manager Teljes Név',
         'manager_username' => 'Manager Felhasználónév',
         'checkout_type' => 'Kiadás Típusa',
-<<<<<<< HEAD
-        'checkout_location' => 'Checkout to Location',
-=======
         'checkout_location' => 'Kiadás helyszínre',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'image_filename' => 'kép fájlnév',
         'do_not_import'     => 'Ne importáld',
         'vip' => 'VIP',
         'avatar'  => 'Profilkép',
-<<<<<<< HEAD
-        'gravatar' => 'Gravatar Email',
-=======
         'gravatar' => 'Gravatar e-mail',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'currency' => 'Pénznem',
         'address2' => 'Cím sor 2',
         'import_note' => 'A CSV importálóval betöltve',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Mező eltávolítása a mezőkészletből. Ez nem fogja törölni az egyedi mezőt, csak ennek a mezőt veszi ki a mezőkészletből.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% elkészült',
     'uploading' => 'Feltöltés...',
     'upload_error' => 'Hiba a fájl feltöltése során. Kérem, ellenőrizze, hogy nincsenek üres sorok és nincsenek oszlop fejléc nevek duplikálva.',
     'copy_to_clipboard' => 'Másolás a vágólapra',
     'copied' => 'Másolva!',
     'status_compatibility' => 'If assets are already assigned, they cannot be changed to a non-deployable status type and this value change will be skipped.',
-<<<<<<< HEAD
-    'rtd_location_help' => 'This is the location of the asset when it is not checked out',
-=======
     'rtd_location_help' => 'Ez az eszköz helye, amikor nincs kiadva',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'item_not_found' => ':item_type ID :id nem létezik, vagy törölve lett',
     'action_permission_denied' => 'Nincs jogosultsága a következőhöz: :action :item_type ID :id',
     'action_permission_generic' => 'Nincs jogosultsága a következő művelethez: :action a következőn: :item_type',
     'edit' => 'szerkesztés',
     'action_source' => 'Action Source',
-<<<<<<< HEAD
-
-=======
     'or' => 'vagy',
     'url'                   => 'URL',
     'edit_fieldset' => 'Edit fieldset fields and options',
@@ -632,5 +566,4 @@ return [
     'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
     'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

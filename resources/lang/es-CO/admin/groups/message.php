@@ -2,15 +2,9 @@
 
 return array(
 
-<<<<<<< HEAD
-    'group_exists'        => 'El grupo ya existe!',
-    'group_not_found'     => 'El ID del grupo :id no existe.',
-    'group_name_required' => 'El campo nombre es requerido',
-=======
     'group_exists'        => '!El grupo ya existe!',
     'group_not_found'     => 'El ID del grupo :id no existe.',
     'group_name_required' => 'El campo nombre es obligatorio',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     'success' => array(
         'create' => 'El grupo fue creado exitosamente.',

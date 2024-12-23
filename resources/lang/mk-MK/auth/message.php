@@ -10,19 +10,12 @@ return array(
     'throttle'               => 'Премногу неуспешни обиди за најава. Обидете се повторно за :minutes минути.',
 
     'two_factor' => array(
-<<<<<<< HEAD
-        'already_enrolled'      => 'Your device is already enrolled.',
-        'success'               => 'Успешно сте најавени.',
-        'code_required'         => 'Two-factor code is required.',
-        'invalid_code'          => 'Two-factor code is invalid.',
-=======
         'already_enrolled'      => 'Вашиот уред е веќе запишан.',
         'success'               => 'Успешно сте најавени.',
         'code_required'         => 'Дво-факторски код е задолжителен.',
         'invalid_code'          => 'Дво-факторскиот код е невалиден.',
         'enter_two_factor_code' => 'Ве молиме внесете дво-факторски код за автентификација.',
         'please_enroll'         => 'Ве молиме запишете уред во двофакторна автентикација.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'signin' => array(

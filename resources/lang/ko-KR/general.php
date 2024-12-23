@@ -27,31 +27,18 @@ return [
     'asset_tag'				=> '자산 태그',
     'asset_tags'            => '자산 태그',
     'assets_available'		=> '사용 가능한 자산',
-<<<<<<< HEAD
-    'accept_assets'         => 'Accept Assets :name',
-=======
     'accept_assets'         => '승인된 자산 :name',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'accept_assets_menu'    => '승인된 자산',
     'audit'				    => '감사',
     'audit_report'			=> '감사 기록',
     'assets'				=> '자산',
     'assets_audited'        => '자산 감사',
-<<<<<<< HEAD
-    'assets_checked_in_count'     => 'assets checked in',
-    'assets_checked_out_count'     => 'assets checked out',
-    'asset_deleted_warning'     => 'This asset has been deleted. You must restore it before you can assign it to someone.',
-    'assigned_date'         => 'Date Assigned',
-    'assigned_to'           => 'Assigned to :name',
-    'assignee'              => 'Assigned to',
-=======
     'assets_checked_in_count'     => '반입된 자산',
     'assets_checked_out_count'     => '반출된 자산',
     'asset_deleted_warning'     => '이 자산은 삭제되었습니다. 다시 할당하기 전에 복원해야 합니다.',
     'assigned_date'         => '할당일',
     'assigned_to'           => '수령인 :name',
     'assignee'              => '수령인',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'avatar_delete'         => '아바타 삭제',
     'avatar_upload'         => '아바타 올리기',
     'back'      			=> '이전',
@@ -59,15 +46,9 @@ return [
     'bulkaudit'             => '대량 감사',
     'bulkaudit_status'      => '감사 상태',
     'bulk_checkout'  		=> '대량 반출',
-<<<<<<< HEAD
-    'bulk_edit'             => 'Bulk Edit',
-    'bulk_delete'           => 'Bulk Delete',
-    'bulk_actions'          => 'Bulk Actions',
-=======
     'bulk_edit'             => '일괄 편집',
     'bulk_delete'           => '일괄 삭제',
     'bulk_actions'          => '일괄 작업',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'bulk_checkin_delete'   => 'Bulk Checkin / Delete Users',
     'byod'                  => 'BYOD',
     'byod_help'             => 'This device is owned by the user',
@@ -97,11 +78,7 @@ return [
     'consumables'			=> '소모품',
     'country'  				=> '국가명',
     'could_not_restore'     => 'Error restoring :item_type: :error',
-<<<<<<< HEAD
-    'not_deleted'           => 'The :item_type is not deleted so it cannot be restored',
-=======
     'not_deleted'           => 'The :item_type was not deleted and therefore cannot be restored',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> '새로 생성',
     'created'               => '품목 생성됨',
     'created_asset'			=> '생성된 자산',
@@ -122,11 +99,7 @@ return [
     'debug_warning_text'    => '이 프로그램은 디버깅이 가능한 제품 모드에서 구동중입니다. 당신의 프로그램이 외부 환경과 접속이 가능하다면 중요한 자료가 유출될 수 있습니다. <code>.env</code> 파일의 <code>APP_DEBUG</code> 값을 <code>false</code> 로 설정하여 디버깅을 비활성화 하세요.',
     'delete'  				=> '삭제',
     'delete_confirm'  		=> ':item 을 삭제 하시겠습니까?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Are you sure you wish to delete :item? This can not be undone.',
-=======
     'delete_confirm_no_undo' => 'Are you sure, you wish to delete :item? This cannot be undone.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> '삭제됨',
     'delete_seats'  		=> '삭제한 Seat',
     'deletion_failed'       => '삭제 실패',
@@ -184,15 +157,9 @@ return [
     'image_delete'         	=> '이미지 삭제',
     'include_deleted'       => 'Include Deleted Assets',
     'image_upload'         	=> '이미지 올리기',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'Accepted filetype is :types. Max upload size allowed is :size.|Accepted filetypes are :types. Max upload size allowed is :size.',
-    'filetypes_size_help'   => 'Max upload size allowed is :size.',
-    'image_filetypes_help'  => 'Accepted filetypes are jpg, webp, png, gif, and svg. Max upload size allowed is :size.',
-=======
     'filetypes_accepted_help'    => 'Accepted filetype is :types. The maximum size allowed is :size.|Accepted filetypes are :types. The maximum upload size allowed is :size.',
     'filetypes_size_help'   => 'The maximum upload size allowed is :size.',
     'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'This image file was not readable. Accepted filetypes are jpg, webp, png, gif, and svg. The mimetype of this file is: :mimetype.',
     'import'         	    => '불러오기',
     'import_this_file'      => 'Map fields and process this file',
@@ -308,11 +275,7 @@ return [
     'signed_off_by'         => 'Signed Off By',
     'skin'       			=> '스킨',
     'webhook_msg_note'        => 'A notification will be sent via webhook',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Oh hai! Looks like your :app integration with Snipe-IT is working!',
-=======
     'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => '데모 모드: 설치 시 일부 기능은 사용할 수 없습니다.',
     'site_name'				=> '사이트 명',
     'state'  				=> '주',
@@ -325,11 +288,7 @@ return [
     'suppliers'  			=> '공급자',
     'sure_to_delete'        => '정말로 삭제 하시겠습니까',
     'sure_to_delete_var'    => ':item 을 삭제 하시겠습니까?',
-<<<<<<< HEAD
-    'delete_what'           => 'Delete :item',
-=======
     'delete_what'           => '삭제 :item',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'submit'				=> '제출',
     'target'                => '대상',
     'time_and_date_display' => '시간과 날짜 표시',
@@ -348,10 +307,7 @@ return [
     'user'					=> '사용자',
     'accepted'			    => '승인됨',
     'declined'			    => '거부됨',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Declined Notes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Unassigned',
     'unaccepted_asset_report' => '미승인 자산',
     'users'                 => '사용자',
@@ -444,11 +400,7 @@ return [
     'notification_warning'   => '경고',
     'notification_info'      => '정보',
     'asset_information'     => '자산 정보',
-<<<<<<< HEAD
-    'model_name'            => 'Model Name',
-=======
     'model_name'            => '모델명',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'asset_name'            => '자산명',
     'consumable_information' => 'Consumable Information:',
     'consumable_name'       => '소모품 명:',
@@ -469,27 +421,16 @@ return [
     'bulk_soft_delete'      =>'Also soft-delete these users. Their asset history will remain intact unless/until you purge deleted records in the Admin Settings.',
     'bulk_checkin_delete_success' => 'Your selected users have been deleted and their items have been checked in.',
     'bulk_checkin_success' => 'The items for the selected users have been checked in.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Delete values for this asset|Delete values for all :asset_count assets ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Delete :field values for this user|Delete :field values for all :user_count users ',
     'na_no_purchase_date'   => 'N/A - No purchase date provided',
     'assets_by_status'      => 'Assets by Status',
     'assets_by_status_type'      => 'Assets by Status Type',
     'pie_chart_type'        => 'Dashboard Pie Chart Type',
-<<<<<<< HEAD
-    'hello_name'            => 'Hello, :name!',
-    'unaccepted_profile_warning'   => 'You have :count items requiring acceptance. Click here to accept or decline them',
-    'start_date'            => '시작일',
-    'end_date'            => 'End Date',
-=======
     'hello_name'            => '환영합니다, :name!',
     'unaccepted_profile_warning'   => 'You have one item requiring acceptance. Click here to accept or decline it | You have :count items requiring acceptance. Click here to accept or decline them',
     'start_date'            => '시작일',
     'end_date'            => '종료일',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'alt_uploaded_image_thumbnail' => 'Uploaded thumbnail',
     'placeholder_kit'       => 'Select a kit',
     'file_not_found'        => 'File not found',
@@ -519,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Generating auto-incrementing asset tags is disabled so all rows need to have the "Asset Tag" column populated.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Note: Generating auto-incrementing asset tags is enabled so assets will be created for rows that do not have "Asset Tag" populated. Rows that do have "Asset Tag" populated will be updated with the provided information.',
     'send_welcome_email_to_users'   => ' Send Welcome Email for new Users?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Send Email',
     'call'                      => 'Call number',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Backup before importing?',
     'csv_header_field'          => 'CSV Header Field',
     'import_field'              => 'Import Field',
     'sample_value'              => 'Sample Value',
     'no_headers'                => 'No Columns Found',
     'error_in_import_file'      => 'There was an error reading the CSV file: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % Complete',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Some Errors occurred while importing: ',
     'warning'                   => 'WARNING: :warning',
     'success_redirecting'       => '"Success... Redirecting.',
@@ -549,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'Do not include user for bulk-assigning through the license UI or cli tools.',
     'modal_confirm_generic'      => 'Are you sure?',
     'cannot_be_deleted'      => 'This item cannot be deleted',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'This item cannot be edited.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'This item cannot be checked out. Check the quantity remaining.',
     'serial_number'        => 'Serial Number',
     'item_notes' => ':item Notes',
@@ -581,11 +512,8 @@ return [
         'address2' => 'Address Line 2',
         'import_note' => 'Imported using csv importer',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% 완료',
     'uploading' => 'Uploading... ',
     'upload_error' => 'Error uploading file. Please check that there are no empty rows and that no column names are duplicated.',
@@ -598,9 +526,6 @@ return [
     'action_permission_generic' => 'You do not have permission to :action this :item_type',
     'edit' => '편집',
     'action_source' => 'Action Source',
-<<<<<<< HEAD
-
-=======
     'or' => 'or',
     'url'                   => 'URL',
     'edit_fieldset' => 'Edit fieldset fields and options',
@@ -641,5 +566,4 @@ return [
     'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
     'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

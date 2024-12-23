@@ -34,11 +34,7 @@ return array(
     'bulkedit' => array(
         'error'   		=> 'Ingen felter blev ændret, så intet er blevet opdateret.',
         'success' 		=> 'Modellen blev opdateret. opdateret: model_count modeller blev opdateret.',
-<<<<<<< HEAD
-        'warn'          => 'Du er ved at opdatere properierne i følgende model: ● Du er ved at redigere egenskaberne for følgende :model_count modeller:',
-=======
         'warn'          => 'Du er ved at opdatere egenskaberne for følgende ~~~: Du er ved at redigere egenskaberne for følgende :model_count modeller:',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     ),
 

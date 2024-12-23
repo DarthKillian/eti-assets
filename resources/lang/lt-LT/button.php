@@ -4,25 +4,6 @@ return [
     'actions' 	                => 'Veiksmai',
     'add'    	                => 'Pridėti naują',
     'cancel'                    => 'Atšaukti',
-<<<<<<< HEAD
-    'checkin_and_delete'  	    => 'Checkin All / Delete User',
-    'delete'  	                => 'Ištrinti',
-    'edit'    	                => 'Keisti',
-    'restore' 	                => 'Atstatyti',
-    'remove'                    => 'Pašalinti',
-    'request'                   => 'Užklausti',
-    'submit'  	                => 'Išsaugoti',
-    'upload'                    => 'Įkelti',
-    'select_file'				=> 'Pasirinkite failą ...',
-    'select_files'				=> 'Pasirinkite failą...',
-    'generate_labels'           => '{1} Generate Label|[2,*] Generate Labels',
-    'send_password_link'        => 'Slaptažodžio atkūrimo nuoroda',
-    'go'                        => 'Go',
-    'bulk_actions'              => 'Masiniai veiksmai',
-    'add_maintenance'           => 'Add Maintenance',
-    'append'                    => 'Append',
-    'new'                       => 'Naujas',
-=======
     'checkin_and_delete'  	    => 'Paimti viską / Panaikinti naudotoją',
     'delete'  	                => 'Panaikinti',
     'edit'    	                => 'Redaguoti',
@@ -50,5 +31,4 @@ return [
         'checkout'  => 'Išduoti :item_type',
         'checkin'   => 'Paimti :item_type',
     ]
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

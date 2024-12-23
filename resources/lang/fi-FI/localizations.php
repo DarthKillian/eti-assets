@@ -12,11 +12,7 @@ return [
         'bg-BG'=> 'Bulgaria',
         'zh-CN'=> 'Kiina, yksinkertaistettu',
         'zh-TW'=> 'Kiina, perinteinen',
-<<<<<<< HEAD
-        'ca-ES' => 'Catalan',
-=======
         'ca-ES' => 'Katalaani',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'hr-HR'=> 'Kroatia',
         'cs-CZ'=> 'Tšekki',
         'da-DK'=> 'Tanska',
@@ -44,13 +40,9 @@ return [
         'ms-MY'=> 'Malaiji',
         'mi-NZ'=> 'Maori',
         'mn-MN'=> 'Mongolia',
-<<<<<<< HEAD
-        'no-NO'=> 'Norja',
-=======
         //'no-NO'=> 'Norwegian',
         'nb-NO'=> 'Norwegian Bokmål',
         //'nn-NO'=> 'Norwegian Nynorsk',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'fa-IR'=> 'Persia',
         'pl-PL'=> 'Puola',
         'pt-PT'=> 'Portugali',
@@ -58,14 +50,9 @@ return [
         'ro-RO'=> 'Romania',
         'ru-RU'=> 'Venäjä',
         'sr-CS' => 'Serbia (latinalainen)',
-<<<<<<< HEAD
-        'sk-SK'=> 'Slovak',
-        'sl-SI'=> 'Slovenia',
-=======
         'sk-SK'=> 'Slovakki',
         'sl-SI'=> 'Slovenia',
         'so-SO'=> 'Somali',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Espanja',
         'es-CO'=> 'Espanja, Kolumbia',
         'es-MX'=> 'Espanja, Meksiko',

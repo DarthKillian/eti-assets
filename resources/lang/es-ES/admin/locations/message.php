@@ -2,14 +2,6 @@
 
 return array(
 
-<<<<<<< HEAD
-    'does_not_exist' => 'Localización no existente.',
-    'assoc_users'	 => 'Esta localización está asignada al menos a un usuario y no puede ser eliminada. ',
-    'assoc_assets'	 => 'Esta ubicacion se encuentra actualmente asociada con por lo menos un activo y no puede ser eliminada. Por favor, actualice sus activos para no referenciar esta ubicacion e intentelo de nuevo. ',
-    'assoc_child_loc'	 => 'Esta ubicacion actualmente esta asociada con al menos una ubicacion hija y no puede ser eliminada. Por favor, actualice sus ubicaciones para no referenciar esta ubicacion e intentelo de nuevo. ',
-    'assigned_assets' => 'Activos asignados',
-    'current_location' => 'Ubicación Actual',
-=======
     'does_not_exist' => 'La ubicación no existe.',
     'assoc_users'    => 'Esta ubicación no se puede eliminar actualmente porque es la ubicación de al menos un activo o usuario, tiene activos asignados o es la ubicación padre de otra ubicación. Por favor, actualice sus registros para que ya no hagan referencia a esta ubicación e inténtalo de nuevo. ',
     'assoc_assets'	 => 'Esta ubicación está actualmente asociada con al menos un activo y no puede ser eliminada. Por favor actualice sus activos para que ya no hagan referencia a esta ubicación e inténtelo de nuevo. ',
@@ -17,7 +9,6 @@ return array(
     'assigned_assets' => 'Activos asignados',
     'current_location' => 'Ubicación actual',
     'open_map' => 'Abrir en mapas :map_provider_icon',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     'create' => array(

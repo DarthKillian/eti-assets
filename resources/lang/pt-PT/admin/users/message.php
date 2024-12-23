@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Recusou este artigo com sucesso.',
     'bulk_manager_warn'	        => 'Seus usuários foram atualizados com sucesso, no entanto, sua entrada de gerente não foi salva porque o gerente que você selecionou também estava na lista de usuários para ser editada e os usuários podem não ser seu próprio gerente. Selecione seus usuários novamente, excluindo o gerente.',
     'user_exists'               => 'Utilizador já existe!',
-<<<<<<< HEAD
-    'user_not_found'            => 'O utilizador não existe.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'O atributo login é obrigatório',
     'user_has_no_assets_assigned' => 'Não há conteúdos atualmente atribuídos ao usuário.',
     'user_password_required'    => 'A password é obrigatória.',

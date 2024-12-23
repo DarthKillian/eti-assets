@@ -1,27 +1,6 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'bulk_delete'		=> 'Confirmar Eliminación Masiva de Activos',
-    'bulk_restore'      => 'Confirmar recuperación masiva de activos', 
-  'bulk_delete_help'	=> 'Revisa los activos para eliminación masiva abajo. Una vez borrados, estos activos pueden ser restaurados, pero no estarán asociados con ningún usuario al que estén asignados actualmente.',
-  'bulk_restore_help'	=> 'Revisar los activos para la restauración en masa a continuación. Una vez restaurados, estos activos no estarán asociados con los usuarios a los que fueron asignados anteriormente.',
-  'bulk_delete_warn'	=> 'Vas a eliminar :asset_count activos.',
-  'bulk_restore_warn'	=> 'Está a punto de restaurar :asset_count activos.',
-    'bulk_update'		=> 'Actualización Masiva de Activos',
-    'bulk_update_help'	=> 'Este formulario te permite actualizar múltiples activos de una vez. Sólo llena los campos que necesites cambiar. Cualquier campo dejado en blanco permanecerá sin cambios. ',
-    'bulk_update_warn'	=> 'Está a punto de editar las propiedades de un solo recurso.|Está a punto de editar las propiedades de :asset_count activos.',
-    'bulk_update_with_custom_field' => 'Tenga en cuenta que los activos son :asset_model_count diferentes tipos de modelos.',
-    'bulk_update_model_prefix' => 'En modelos', 
-    'bulk_update_custom_field_unique' => 'Este es un campo único y no puede ser editado a granel.',
-    'checkedout_to'		=> 'Asignado A',
-    'checkout_date'		=> 'Fecha de Salida',
-    'checkin_date'		=> 'Fecha de Ingreso',
-    'checkout_to'		=> 'Asignar A',
-    'cost'				=> 'Costo de Compra',
-    'create'			=> 'Crear Activo',
-    'date'				=> 'Fecha de Compra',
-=======
     'bulk_delete'		=> 'Confirmar eliminación masiva de activos',
     'bulk_restore'      => 'Confirmar recuperación masiva de activos', 
   'bulk_delete_help'	=> 'Revise a continuación los activos para eliminación masiva. Una vez eliminados, estos activos se pueden restaurar, pero ya no estarán asociados a ningún usuario al que estén asignados actualmente.',
@@ -41,7 +20,6 @@ return [
     'cost'				=> 'Precio de compra',
     'create'			=> 'Crear activo',
     'date'				=> 'Fecha de compra',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'depreciation'	    => 'Depreciación',
     'depreciates_on'	=> 'Se deprecia en',
     'default_location'	=> 'Ubicación predeterminada',
@@ -76,14 +54,9 @@ return [
     'asset_location_update_default_current' => 'Actualizar ubicación predeterminada y ubicación actual',
     'asset_location_update_default' => 'Actualizar sólo la ubicación predeterminada',
     'asset_location_update_actual' => 'Actualizar sólo la ubicación actual',
-<<<<<<< HEAD
-    'asset_not_deployable' => 'Ese estado de activos no es desplegable. Este activo no puede ser verificado.',
-    'asset_deployable' => 'Ese estado es desplegable. Este activo puede ser revisado.',
-=======
     'asset_not_deployable' => 'Ese estado de activos es no utilizable. Este activo no puede ser asignado.',
     'asset_not_deployable_checkin' => 'Ese estado del activo no es utilizable. El uso de esta etiqueta de estado ingresará el activo.',
     'asset_deployable' => 'El estado indica que es utilizable. Este activo puede ser asignado.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'processing_spinner' => 'Procesando... (Esto puede tomar un poco de tiempo en archivos grandes)',
     'optional_infos'  => 'Información opcional',
     'order_details'   => 'Información relacionada con el pedido',

@@ -12,11 +12,7 @@ return [
         'bg-BG'=> 'Bulgaars',
         'zh-CN'=> 'Chinees, vereenvoudigd',
         'zh-TW'=> 'Chinese, traditioneel',
-<<<<<<< HEAD
-        'ca-ES' => 'Catalan',
-=======
         'ca-ES' => 'Catalaans',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'hr-HR'=> 'Kroatisch',
         'cs-CZ'=> 'Tsjechisch',
         'da-DK'=> 'Deens',
@@ -44,13 +40,9 @@ return [
         'ms-MY'=> 'Maleis',
         'mi-NZ'=> 'Maori',
         'mn-MN'=> 'Mongools',
-<<<<<<< HEAD
-        'no-NO'=> 'Noors',
-=======
         //'no-NO'=> 'Norwegian',
         'nb-NO'=> 'Noors Bokmål',
         //'nn-NO'=> 'Norwegian Nynorsk',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'fa-IR'=> 'Perzisch',
         'pl-PL'=> 'Pools',
         'pt-PT'=> 'Portugees',
@@ -58,14 +50,9 @@ return [
         'ro-RO'=> 'Roemeens',
         'ru-RU'=> 'Russisch',
         'sr-CS' => 'Servisch (latijns)',
-<<<<<<< HEAD
-        'sk-SK'=> 'Slovak',
-        'sl-SI'=> 'Sloveens',
-=======
         'sk-SK'=> 'Slowaaks',
         'sl-SI'=> 'Sloveens',
         'so-SO'=> 'Somali',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Spaans',
         'es-CO'=> 'Spaans (Colombia)',
         'es-MX'=> 'Spaans (Mexico)',

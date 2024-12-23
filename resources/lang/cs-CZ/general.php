@@ -78,11 +78,7 @@ return [
     'consumables'			=> 'Spotřební materiál',
     'country'  				=> 'Země',
     'could_not_restore'     => 'Chyba při obnově :item_type: :chyba',
-<<<<<<< HEAD
-    'not_deleted'           => ':item_type není odstraněn, takže nemůže být obnoven',
-=======
     'not_deleted'           => 'The :item_type was not deleted and therefore cannot be restored',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Vytvořit nové',
     'created'               => 'Položka vytvořena',
     'created_asset'			=> 'vytvořit majetek',
@@ -103,11 +99,7 @@ return [
     'debug_warning_text'    => 'Tato aplikace běží ve výrobním režimu s povoleným laděním. To znamená že citlivá data mohou být přístupná vnějšímu světu. Deaktivujte režim ladění nastavením hodnoty <code>APP_DEBUG</code> v souboru <code>.env</code> na <code>false</code>.',
     'delete'  				=> 'Odstranit',
     'delete_confirm'  		=> 'Opravdu chcete smazat :item?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Opravdu chcete odstranit :item? Tuto operaci nelze zvrátit.',
-=======
     'delete_confirm_no_undo' => 'Are you sure, you wish to delete :item? This cannot be undone.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Odstraněno',
     'delete_seats'  		=> 'Vymazaná licenční místa',
     'deletion_failed'       => 'Odstranění se nezdařilo',
@@ -165,15 +157,9 @@ return [
     'image_delete'         	=> 'Smazat obrázek',
     'include_deleted'       => 'Zahrnout odstraněné položky',
     'image_upload'         	=> 'Nahrát obrázek',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'Přijatý typ souboru je :types. Maximální povolená velikost nahrávání je :size.|Přijaté typy souborů jsou :types. Maximální povolená velikost nahrávání je :size.',
-    'filetypes_size_help'   => 'Maximální povolená velikost nahrávání je :size.',
-    'image_filetypes_help'  => 'Podporované typy souborů jsou jpg, png, gif, a svg. Velikost může být nejvýše :size.',
-=======
     'filetypes_accepted_help'    => 'Accepted filetype is :types. The maximum size allowed is :size.|Accepted filetypes are :types. The maximum upload size allowed is :size.',
     'filetypes_size_help'   => 'The maximum upload size allowed is :size.',
     'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'Soubor s obrázkem nebyl čitelný. Přijatelné druhy souborů jsou jpg, webp, png, gif, a svg. Tento soubor je druhu: :mimetype.',
     'import'         	    => 'Import',
     'import_this_file'      => 'Mapa polí a zpracovávat tento soubor',
@@ -289,11 +275,7 @@ return [
     'signed_off_by'         => 'Odepsal:',
     'skin'       			=> 'Vzhled',
     'webhook_msg_note'        => 'Oznámení zavolá webhook',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Ah haj! Vypadá to, že vaše :app integrace se Snipe-IT funguje!',
-=======
     'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'REŽIM DEMO: Některé funkce jsou pro tuto instalaci zakázány.',
     'site_name'				=> 'Název lokality',
     'state'  				=> 'Stát',
@@ -325,10 +307,7 @@ return [
     'user'					=> 'Uživatel',
     'accepted'			    => 'přijato',
     'declined'			    => 'zamítnuto',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Odmítnuté poznámky',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Nepřiřazeno',
     'unaccepted_asset_report' => 'Nepřijatelné majetky',
     'users'                 => 'Uživatelé',
@@ -442,11 +421,7 @@ return [
     'bulk_soft_delete'      =>'Také odstranit tyto uživatele. Historie jejich majetku zůstane neporušená/dokud tvrvale nevymažete smazané záznamy v nastavení správce.',
     'bulk_checkin_delete_success' => 'Vybraní uživatelé byli odstraněni a jejich položky byly odebrány.',
     'bulk_checkin_success' => 'Položky vybraných uživatelů byly odebrány.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Odstranit hodnoty z aktiva|Odstranit hodnoty z :asset_count aktiv ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Odstranit hodnoty :field pro tohoto uživatele|Odstranit :field hodnoty pro všechny :user_count uživatele ',
     'na_no_purchase_date'   => 'N/A – neznámé datum nákupu',
     'assets_by_status'      => 'Majetek podle stavu',
@@ -459,10 +434,7 @@ return [
     'alt_uploaded_image_thumbnail' => 'Nahraný náhledový obrázek',
     'placeholder_kit'       => 'Vyberte sadu',
     'file_not_found'        => 'Soubor nebyl nalezen',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'No record for that log entry was found.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(žádný náhled)',
     'setup'                 => 'Nastavení',
     'pre_flight'            => 'Předletový',
@@ -488,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Generování automatického zvyšování značek majetku je zakázáno, takže všechny řádky musí mít vyplněný sloupec "Značka majetku".',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Poznámka: Generování auto-rostoucí značky majetku je povoleno, takže aktiva budou vytvořena pro řádky, které nemají "Asset Tag". Řádky, které mají vyplněnou značku "Aktiva", budou aktualizovány s poskytnutými informacemi.',
     'send_welcome_email_to_users'   => ' Odeslat uvítací e-mail pro nové uživatele?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Poslat e-mail',
     'call'                      => 'Volat číslo',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Zálohovat před importem?',
     'csv_header_field'          => 'Pole hlavičky CSV',
     'import_field'              => 'Importovat pole',
     'sample_value'              => 'Hodnota vzorku',
     'no_headers'                => 'Nebyly nalezeny žádné sloupce',
     'error_in_import_file'      => 'Došlo k chybě při čtení CSV souboru: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':procent Dokončeno',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Došlo k některým chybám při importu: ',
     'warning'                   => 'VAROVÁNÍ: :warning',
     'success_redirecting'       => '"Úspěch... přesměrování.',
@@ -518,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'Nezahrnovat uživatele do hromadného zpracování licencí.',
     'modal_confirm_generic'      => 'Jste si jistí?',
     'cannot_be_deleted'      => 'Položka nemůže být odstraněna',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'Tuto položku nelze upravit.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Tuto položku nelze zkontrolovat. Zkontrolujte zbývající množství.',
     'serial_number'        => 'Pořadové číslo',
     'item_notes' => ':item Notes',
@@ -550,11 +512,8 @@ return [
         'address2' => 'Adresa 2',
         'import_note' => 'Importováno pomocí csv importu',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Odstranění tohoto pole ze sady polí. Tím se neodstraní vlastní pole, ale pouze spojení tohoto pole s touto sadou polí.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% dokončit',
     'uploading' => 'Nahrávám... ',
     'upload_error' => 'Chyba při nahrávání souboru. Zkontrolujte, zda nejsou žádné prázdné řádky a že nejsou duplicitní názvy sloupců.',
@@ -567,9 +526,6 @@ return [
     'action_permission_generic' => 'Nemáte oprávnění k :action tohoto :item_type',
     'edit' => 'upravit',
     'action_source' => 'Zdroj akcí',
-<<<<<<< HEAD
-
-=======
     'or' => 'nebo',
     'url'                   => 'URL',
     'edit_fieldset' => 'Upravit pole a možnosti sady polí',
@@ -610,5 +566,4 @@ return [
     'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
     'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

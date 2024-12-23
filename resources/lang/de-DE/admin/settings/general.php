@@ -90,10 +90,6 @@ return [
     'ldap_integration'          => 'LDAP Integration',
     'ldap_settings'             => 'LDAP Einstellungen',
     'ldap_client_tls_cert_help' => 'Client-seitige TLS-Zertifikat und Schlüssel für LDAP Verbindungen sind in der Regel nur in Google Workspace Konfigurationen mit "Secure LDAP" nützlich. Beide werden benötigt.',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'LDAP Client-seitiger TLS-Schlüssel',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'LDAP Standort',
 'ldap_location_help'             => 'Das Feld LDAP Standort sollte verwendet werden, wenn <strong>keine OU im Basis Bind DN verwendet wird.</strong> Leer lassen, wenn eine OU-Suche verwendet wird.',
     'ldap_login_test_help'      => 'Geben Sie einen gültigen LDAP-Benutzernamen und ein Passwort von der oben angegebenen Basis-DN ein, um zu testen, ob Ihre LDAP-Anmeldung korrekt konfiguriert ist. SIE MÜSSEN IHRE AKTUALISIERTEN LDAP-EINSTELLUNGEN ZUERST SPEICHERN.',
@@ -211,10 +207,7 @@ return [
     'integrations'               => 'Integrationen',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Allgemeiner Webhook',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Microsoft-Teams',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Teste zum Speichern',
     'webhook_title'               => 'Webhook Einstellungen aktualisieren',
@@ -227,11 +220,8 @@ return [
     'webhook_integration_help'    => ':app Integration ist optional, allerdings sind Endpunkt und Kanal erforderlich, wenn Sie sie verwenden möchten. Um die :app Integration zu konfigurieren, musst du zuerst in deinem :app Account <a href=":webhook_link" target="_new" rel="noopener">einen eingehenden Webhook erstellen</a>. Klicken Sie auf den <strong>:app Integration testen</strong> -Knopf, um zu bestätigen, dass die Einstellungen vor dem Speichern korrekt sind. ',
     'webhook_integration_help_button'    => 'Sobald Sie Ihre :app Informationen gespeichert haben, erscheint ein Test-Knopf.',
     'webhook_test_help'           => 'Testen Sie, ob Ihre :app Integration korrekt konfiguriert ist. SIE MÜSSEN SIE IHRE AKTUELLEN :app EINSTELLUNGEN ZUERST SPEICHERN.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Shortcuts aktivieren',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access-Taste, <strong>Mac</strong>: Control + Option + Access-Taste',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Snipe-IT Version',
     'support_footer'            => 'Fußzeile Support-Link ',
     'support_footer_help'       => 'Geben Sie an, wer die Links zum Snipe-IT Support-Info und Benutzerhandbuch sieht',
@@ -389,8 +379,6 @@ return [
     'database_driver' => 'Datenbanktreiber',
     'bs_table_storage' => 'Tabellen Speicher',
     'timezone' => 'Zeitzone',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Profil bearbeiten',
     'profile_edit_help'          => 'Benutzern erlauben, ihre eigenen Profile zu bearbeiten.',
     'default_avatar' => 'Benutzerdefinierten Standard-Avatar hochladen',
@@ -400,6 +388,5 @@ return [
     'due_checkin_days' => 'Zum Einchecken fällig Warnung',
     'due_checkin_days_help' => 'Wie viele Tage vor dem voraussichtlichen Check-in eines Vermögenswerts soll dieser auf der Seite „Zur Eincheckzeit fällig“ aufgeführt werden?',
     'no_groups' => 'Es wurden noch keine Gruppen erstellt. Navigieren Sie zu <code>Admin-Einstellungen > Berechtigungsgruppen</code>, um eine hinzuzufügen.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

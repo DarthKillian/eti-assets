@@ -1,9 +1,6 @@
 <?php
 
 return [
-<<<<<<< HEAD
-
-=======
     'example_company'    => 'テスト会社制限',
     'example_defaultloc' => '1号館',
     'example_category'   => 'カテゴリのテスト',
@@ -11,7 +8,6 @@ return [
     'example_manufacturer'  => '製造業テスト株式会社',
     'example_model'      => 'モデルのテスト',
     'example_supplier'   => 'テスト会社制限',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'labels_per_page'    => 'ラベル',
     'support_fields'     => '項目',
     'support_asset_tag'  => 'タグ',

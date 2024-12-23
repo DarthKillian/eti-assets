@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'A user has accepted an item',
-    'acceptance_asset_declined' => 'A user has declined an item',
-    'a_user_canceled' => 'Pengguna telah membatalkan permintaan item di laman web',
-    'a_user_requested' => 'Seorang pengguna telah meminta item di laman web',
-    'accessory_name' => 'Nama Aksesori:',
-    'additional_notes' => 'Nota tambahan:',
-    'admin_has_created' => 'Pentadbir telah membuat akaun untuk anda di: laman web web.',
-    'asset' => 'Aset:',
-    'asset_name' => 'Nama Aset:',
-    'asset_requested' => 'Aset diminta',
-    'asset_tag' => 'Tag Harta',
-    'assigned_to' => 'Ditugaskan untuk',
-    'best_regards' => 'Selamat sejahtera,',
-    'canceled' => 'Dibatalkan:',
-    'checkin_date' => 'Tarikh Semakan:',
-    'checkout_date' => 'Tarikh Semakan:',
-    'click_to_confirm' => 'Sila klik pada pautan berikut untuk mengesahkan akaun web anda:',
-    'click_on_the_link_accessory' => 'Sila klik pada pautan di bahagian bawah untuk mengesahkan bahawa anda telah menerima aksesori.',
-    'click_on_the_link_asset' => 'Sila klik pada pautan di bahagian bawah untuk mengesahkan bahawa anda telah menerima aset tersebut.',
-    'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
-=======
 
     'Accessory_Checkin_Notification' => 'Accessory checked in',
     'Accessory_Checkout_Notification' => 'Accessory checked out',
     'Asset_Checkin_Notification' => 'Asset checked in',
     'Asset_Checkout_Notification' => 'Asset checked out',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Accessory checkin confirmation',
     'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
     'Confirm_accessory_delivery' => 'Accessory delivery confirmation',
@@ -114,17 +91,6 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Selamat datang: nama',
     'welcome_to' => 'Selamat datang ke: web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Kredensial Snipe-IT anda',
-    'Accessory_Checkin_Notification' => 'Accessory checked in',
-    'Asset_Checkin_Notification' => 'Asset checked in',
-    'Asset_Checkout_Notification' => 'Asset checked out',
-    'License_Checkin_Notification' => 'License checked in',
-    'Expected_Checkin_Report' => 'Expected asset checkin report',
-    'Expected_Checkin_Notification' => 'Reminder: :name checkin deadline approaching',
-    'Expected_Checkin_Date' => 'An asset checked out to you is due to be checked back in on :date',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'View Your Assets',
     'your_credentials' => 'Kredensial Snipe-IT anda',
     'mail_sent' => 'Mail sent successfully!',

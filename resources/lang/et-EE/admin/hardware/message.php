@@ -17,11 +17,8 @@ return [
         'error'   		=> 'Vahendit ei loodud, palun proovi uuesti. :(',
         'success' 		=> 'Vahendi loomine õnnestus. :)',
         'success_linked' => 'Asset with tag :tag was created successfully. <strong><a href=":link" style="color: white;">Click here to view</a></strong>.',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -66,10 +63,7 @@ return [
         'file_delete_success'   => 'Teie fail on edukalt kustutatud',
         'file_delete_error'      => 'Faili ei saanud kustutada',
         'file_missing' => 'The file selected is missing',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => 'The file selected was already deleted',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'One or more attributes in the header row contain malformed UTF-8 characters',
         'content_row_has_malformed_characters' => 'One or more attributes in the first row of content contain malformed UTF-8 characters',
     ],

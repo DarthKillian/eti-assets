@@ -92,22 +92,6 @@ return [
         'numeric' => 'The :attribute field must be less than or equal to :value.',
         'string' => 'The :attribute field must be less than or equal to :value characters.',
     ],
-<<<<<<< HEAD
-    'starts_with'          => 'The :attribute must start with one of the following: :values.',
-    'ends_with'            => 'The :attribute must end with one of the following: :values.',
-
-    'not_in'               => 'The selected :attribute is invalid.',
-    'numeric'              => 'The :attribute must be a number.',
-    'present'              => 'The :attribute field must be present.',
-    'valid_regex'          => 'That is not a valid regex. ',
-    'regex'                => 'The :attribute format is invalid.',
-    'required'             => 'The :attribute field is required.',
-    'required_if'          => 'The :attribute field is required when :other is :value.',
-    'required_unless'      => 'The :attribute field is required unless :other is in :values.',
-    'required_with'        => 'The :attribute field is required when :values is present.',
-    'required_with_all'    => 'The :attribute field is required when :values is present.',
-    'required_without'     => 'The :attribute field is required when :values is not present.',
-=======
     'mac_address' => 'The :attribute field must be a valid MAC address.',
     'max' => [
         'array' => 'The :attribute field must not have more than :max items.',
@@ -162,7 +146,6 @@ return [
     'required_with' => 'The :attribute field is required when :values is present.',
     'required_with_all' => 'The :attribute field is required when :values are present.',
     'required_without' => 'The :attribute field is required when :values is not present.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'required_without_all' => 'The :attribute field is required when none of :values are present.',
     'same' => 'The :attribute field must match :other.',
     'size' => [
@@ -173,21 +156,10 @@ return [
     ],
     'starts_with' => 'The :attribute field must start with one of the following: :values.',
     'string'               => 'The :attribute must be a string.',
-<<<<<<< HEAD
-    'timezone'             => 'The :attribute must be a valid zone.',
-    'two_column_unique_undeleted' => 'The :attribute must be unique across :table1 and :table2. ',
-    'unique'               => 'The :attribute has already been taken.',
-    'uploaded'             => 'The :attribute failed to upload.',
-    'url'                  => 'The :attribute format is invalid.',
-    'unique_undeleted'     => 'The :attribute must be unique.',
-    'non_circular'         => 'The :attribute must not create a circular reference.',
-    'not_array'            => ':atribute harus array.',
-=======
     'two_column_unique_undeleted' => 'The :attribute must be unique across :table1 and :table2. ',
     'unique_undeleted'     => 'The :attribute must be unique.',
     'non_circular'         => 'The :attribute must not create a circular reference.',
     'not_array'            => ':attribute cannot be an array.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'disallow_same_pwd_as_user_fields' => 'Password cannot be the same as the username.',
     'letters'              => 'Password must contain at least one letter.',
     'numbers'              => 'Password must contain at least one number.',

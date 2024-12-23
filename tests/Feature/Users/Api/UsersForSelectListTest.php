@@ -6,7 +6,6 @@ use App\Models\Company;
 use App\Models\User;
 use Illuminate\Testing\Fluent\AssertableJson;
 use Laravel\Passport\Passport;
-use Tests\Support\InteractsWithSettings;
 use Tests\TestCase;
 
 class UsersForSelectListTest extends TestCase

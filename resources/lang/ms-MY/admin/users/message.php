@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Anda telah berjaya menolak aset ini.',
     'bulk_manager_warn'	        => 'Pengguna anda telah berjaya dikemas kini, namun entri pengurus anda tidak disimpan kerana pengurus yang anda pilih juga dalam senarai pengguna untuk diedit, dan pengguna mungkin bukan pengurus mereka sendiri. Sila pilih pengguna anda sekali lagi, tidak termasuk pengurus.',
     'user_exists'               => 'Pengguna telah wujud!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Pengguna tidak wujud.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Ruangan log masuk diperlukan',
     'user_has_no_assets_assigned' => 'No assets currently assigned to user.',
     'user_password_required'    => 'Ruangan kata kunci diperlukan.',

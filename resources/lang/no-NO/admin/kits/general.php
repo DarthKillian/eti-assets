@@ -37,11 +37,7 @@ return [
     'accessory_detached'                => 'Tilbehør ble koblet fra',
     'accessory_error'                   => 'Tilbehøret er allerede i settet',
     'accessory_deleted'                 => 'Slettingen var vellykket',
-<<<<<<< HEAD
-    'accessory_none'                    => 'The accessory does not exist',
-=======
     'accessory_none'                    => 'Tilbehøret finnes ikke',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'checkout_success'                  => 'Utsjekk vellykket',
     'checkout_error'                    => 'Feil ved utsjekk',
     'kit_none'                          => 'Settet eksisterer ikke',

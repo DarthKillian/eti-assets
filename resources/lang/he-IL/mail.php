@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'A user has accepted an item',
-    'acceptance_asset_declined' => 'A user has declined an item',
-    'a_user_canceled' => 'משתמש ביטל בקשת פריט באתר',
-    'a_user_requested' => 'משתמש ביקש פריט באתר',
-    'accessory_name' => 'שם אביזר:',
-    'additional_notes' => 'הערות נוספות:',
-    'admin_has_created' => 'מנהל מערכת יצר עבורך חשבון באתר האינטרנט:.',
-    'asset' => 'נכס:',
-    'asset_name' => 'שם הנכס:',
-    'asset_requested' => 'הנכס המבוקש',
-    'asset_tag' => 'תג נכס',
-    'assigned_to' => 'שהוקצה ל',
-    'best_regards' => 'כל טוב,',
-    'canceled' => 'בּוּטלָה:',
-    'checkin_date' => 'תאריך הגעה:',
-    'checkout_date' => 'תבדוק את התאריך:',
-    'click_to_confirm' => 'לחץ על הקישור הבא כדי לאשר את: חשבון האינטרנט שלך:',
-    'click_on_the_link_accessory' => 'לחץ על הקישור בתחתית הדף כדי לאשר שקיבלת את האביזר.',
-    'click_on_the_link_asset' => 'לחץ על הקישור שבתחתית כדי לאשר שקיבלת את הנכס.',
-    'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
-=======
 
     'Accessory_Checkin_Notification' => 'Accessory checked in',
     'Accessory_Checkout_Notification' => 'Accessory checked out',
     'Asset_Checkin_Notification' => 'Asset checked in',
     'Asset_Checkout_Notification' => 'Asset checked out',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Accessory checkin confirmation',
     'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
     'Confirm_accessory_delivery' => 'Accessory delivery confirmation',
@@ -114,17 +91,6 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'ברוכים הבאים: שם',
     'welcome_to' => 'ברוכים הבאים ל: אינטרנט!',
-<<<<<<< HEAD
-    'your_credentials' => 'שלך Snipe- IT אישורים',
-    'Accessory_Checkin_Notification' => 'Accessory checked in',
-    'Asset_Checkin_Notification' => 'Asset checked in',
-    'Asset_Checkout_Notification' => 'Asset checked out',
-    'License_Checkin_Notification' => 'License checked in',
-    'Expected_Checkin_Report' => 'Expected asset checkin report',
-    'Expected_Checkin_Notification' => 'Reminder: :name checkin deadline approaching',
-    'Expected_Checkin_Date' => 'An asset checked out to you is due to be checked back in on :date',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'View Your Assets',
     'your_credentials' => 'שלך Snipe- IT אישורים',
     'mail_sent' => 'Mail sent successfully!',

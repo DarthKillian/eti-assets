@@ -62,13 +62,7 @@ return [
     'link_to_update_password' => '次のリンクをクリックして、パスワードを更新してください。 :web password:',
     'login' => 'ログイン',
     'login_first_admin' => '以下の新しいログイン情報を使用して、Snipe-ITにログインします。',
-<<<<<<< HEAD
-    'login' => 'ログイン:',
-    'Low_Inventory_Report' => '在庫減レポート',
-    'inventory_report' => 'インベントリレポート',
-=======
     'low_inventory_alert' => '最小在庫を下回っているか、すぐに少なくなる :count のアイテムがあります。',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => '分数',
     'name' => '名前',
     'new_item_checked' => 'あなたの名前で新しいアイテムがチェックアウトされました。詳細は以下の通りです。',
@@ -97,17 +91,6 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'ようこそ、 :name さん',
     'welcome_to' => ':web にようこそ!',
-<<<<<<< HEAD
-    'your_credentials' => 'Snipe-IT クレデンシャル',
-    'Accessory_Checkin_Notification' => '付属品をチェックインしました',
-    'Asset_Checkin_Notification' => '資産をチェックインしました',
-    'Asset_Checkout_Notification' => '資産はチェックアウトされました',
-    'License_Checkin_Notification' => 'ライセンスをチェックインしました',
-    'Expected_Checkin_Report' => '予想される資産チェックインレポート',
-    'Expected_Checkin_Notification' => 'リマインダー: :name のチェックイン期限が近づいています',
-    'Expected_Checkin_Date' => 'チェックアウトされた資産は:date にチェックインされる予定です',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'あなたの資産を表示',
     'your_credentials' => 'Snipe-IT クレデンシャル',
     'mail_sent' => 'Mail sent successfully!',

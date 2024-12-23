@@ -91,17 +91,6 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Tere tulemast, :name',
     'welcome_to' => 'Teretulemast lehele :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Sinu Snipe-IT rekvisiidid',
-    'Accessory_Checkin_Notification' => 'Tarvikud sisse võetud',
-    'Asset_Checkin_Notification' => 'Vara sissevõetud',
-    'Asset_Checkout_Notification' => 'Asset checked out',
-    'License_Checkin_Notification' => 'Litsents sisse võetud',
-    'Expected_Checkin_Report' => 'Eeldatav vahendite tagastamise aruanne',
-    'Expected_Checkin_Notification' => 'Meeldetuletus: :name tagastamise tähtaeg läheneb',
-    'Expected_Checkin_Date' => 'Sulle väljastatud vahend tuleb tagastada :date',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'Vaata oma varasi',
     'your_credentials' => 'Sinu Snipe-IT rekvisiidid',
     'mail_sent' => 'Mail sent successfully!',

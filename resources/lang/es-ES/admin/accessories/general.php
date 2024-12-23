@@ -13,18 +13,10 @@ return array(
     'no_default_eula'					=> 'No se encontró el acuerdo de uso predeterminado. Agregue unos en Configuración.',
     'total'  							=> 'Total ',
     'remaining'  						=> 'Disponibles',
-<<<<<<< HEAD
-    'update'  							=> 'Actualizar Accesorio',
-    'use_default_eula'					=> 'En su lugar, use el <a href="#" data-toggle="modal" data-target="#eulaModal">EULA por defecto</a>.',
-    'use_default_eula_disabled'			=> '<del>En su lugar, use el EULA por defecto.</del> No esta configurado un EULA por defecto. Por favor agregue uno en Configuración.',
-    'clone'                             => 'Clonar accesorio',
-    'delete_disabled'                   => 'Este accesorio no se puede eliminar aún porque algunos elementos todavía están retirados.',
-=======
     'update'  							=> 'Actualizar accesorio',
     'use_default_eula'					=> 'En su lugar, utilice el <a href="#" data-toggle="modal" data-target="#eulaModal">acuerdo de uso predeterminado</a>.',
     'use_default_eula_disabled'			=> '<del>En su lugar, utilice el acuerdo de uso predeterminado.</del> No está configurado el acuerdo de uso predeterminado. Por favor agregue uno en Configuración.',
     'clone'                             => 'Clonar accesorio',
     'delete_disabled'                   => 'Este accesorio no se puede eliminar aún porque algunos elementos todavía están asignados.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 );

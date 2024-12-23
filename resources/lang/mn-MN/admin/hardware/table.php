@@ -25,10 +25,6 @@ return [
     'image'		    => 'Төхөөрөмжийн дүрс',
     'days_without_acceptance' => 'Хүлээн зөвшөөрөхгүй өдрүүд',
     'monthly_depreciation' => 'Monthly Depreciation',
-<<<<<<< HEAD
-    'assigned_to'    => 'Томилогдсон',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requesting_user' => 'Requesting User',
     'requested_date' => 'Requested Date',
     'changed'       => 'Changed',

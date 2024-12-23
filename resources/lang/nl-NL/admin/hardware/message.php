@@ -17,11 +17,8 @@ return [
         'error'   		=> 'Asset is niet aangemaakt, probeer het opnieuw :(',
         'success' 		=> 'Asset is succesvol aangemaakt. :)',
         'success_linked' => 'Asset met tag :tag is succesvol gemaakt. <strong><a href=":link" style="color: white;">Klik hier om te bekijken</a></strong>.',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -66,10 +63,7 @@ return [
         'file_delete_success'   => 'Je bestand is succesvol verwijderd',
         'file_delete_error'      => 'Het bestand kon niet worden verwijderd',
         'file_missing' => 'Het geselecteerde bestand ontbreekt',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => 'Het geselecteerde bestand is al verwijderd',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'Een of meer attributen in de kopregel bevatten ongeldige UTF-8-tekens',
         'content_row_has_malformed_characters' => 'Een of meer attributen in de eerste rij inhoud bevat ongeldige UTF-8 tekens',
     ],

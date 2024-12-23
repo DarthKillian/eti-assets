@@ -14,10 +14,7 @@ return array(
     'info'  					=> 'Lisensinformasjon',
     'license_seats'  			=> 'Setelisenser',
     'seat'  					=> 'Setelisens',
-<<<<<<< HEAD
-=======
     'seat_count'  				=> 'Seat :count',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'seats'  					=> 'Setelisenser',
     'software_licenses'  		=> 'Programvarelisenser',
     'user'  					=> 'Bruker',
@@ -27,20 +24,12 @@ return array(
         [
             'checkin_all'           => [
                 'button'            => 'Sjekk inn alle seter',
-<<<<<<< HEAD
-                'modal'             => 'Dette vil handling innhente ett sete. Denne handlingen vil sjekke inn alle :checkedout_seats_count seter for denne lisensen.',
-=======
                 'modal'             => 'This action will checkin one seat. | This action will checkin all :checkedout_seats_count seats for this license.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
                 'enabled_tooltip'   => 'Sjekk inn ALLE seter for denne lisensen fra både brukere og ressurser',
                 'disabled_tooltip'  => 'Dette er deaktivert fordi det ikke er seter som er sjekket ut',
                 'disabled_tooltip_reassignable'  => 'Dette er deaktivert fordi lisensen ikke kan refordeles',
                 'success'           => 'Lisensen ble sjekket inn! | Alle lisensene ble vellykket sjekket inn!',
-<<<<<<< HEAD
-                'log_msg'           => 'Sjekket inn via masselisensutsjekking i lisens GUI',
-=======
                 'log_msg'           => 'Checked in via bulk license checkin in license GUI',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
             ],
 
             'checkout_all'              => [
@@ -57,10 +46,7 @@ return array(
 
             ],
     ],
-<<<<<<< HEAD
-=======
 
     'below_threshold' => 'Det er bare :remaining_count seter igjen for denne lisensen med et minimum av :min_amt. Du kan vurdere å kjøpe flere seter.',
     'below_threshold_short' => 'Denne varen er under det minstekravene kreves.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

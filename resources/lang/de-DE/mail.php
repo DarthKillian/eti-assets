@@ -62,22 +62,12 @@ return [
     'link_to_update_password' => 'Klicken Sie bitte auf den folgenden Link zum Aktualisieren Ihres :web Passworts:',
     'login' => 'Login',
     'login_first_admin' => 'Melden Sie sich zu Ihrer neuen Snipe-IT-Installation mithilfe der unten stehenden Anmeldeinformationen an:',
-<<<<<<< HEAD
-    'login' => 'Benutzername:',
-    'Low_Inventory_Report' => 'Bericht über niedrige Lagerbestände',
-    'inventory_report' => 'Bestandsbericht',
-    'min_QTY' => 'Mindestmenge',
-    'name' => 'Name',
-    'new_item_checked' => 'Ein neuer Gegenstand wurde unter Ihrem Namen ausgecheckt. Details finden Sie weiter unten.',
-    'password' => 'Passwort:',
-=======
     'low_inventory_alert' => 'Es gibt :count Artikel, der unter dem Minimum ist oder kurz davor ist.|Es gibt :count Artikel, die unter dem Minimum sind oder kurz davor sind.',
     'min_QTY' => 'Mindestmenge',
     'name' => 'Name',
     'new_item_checked' => 'Ein neuer Gegenstand wurde unter Ihrem Namen ausgecheckt. Details finden Sie weiter unten.',
     'notes' => 'Notizen',
     'password' => 'Passwort',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'password_reset' => 'Passwort zurücksetzen',
     'read_the_terms' => 'Bitte lesen Sie die nachfolgenden Nutzungsbedingungen.',
     'read_the_terms_and_click' => 'Bitte lesen Sie die Nutzungsbedingungen unten, und klicken Sie auf den Link am unteren Ende, um zu bestätigen, dass Sie die Nutzungsbedingungen gelesen und akzeptiert haben und das Asset erhalten haben.',
@@ -101,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'Sie haben nicht akzeptierte Assets.',
     'welcome' => 'Willkommen, :name',
     'welcome_to' => 'Willkommen bei :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Ihre Snipe-IT Anmeldedaten',
-    'Accessory_Checkin_Notification' => 'Zubehör zurückgenommen',
-    'Asset_Checkin_Notification' => 'Asset zurückgenommen',
-    'Asset_Checkout_Notification' => 'Asset herausgegeben',
-    'License_Checkin_Notification' => 'Lizenz zurückgenommen',
-    'Expected_Checkin_Report' => 'Bericht über erwartete Asset Rückgaben',
-    'Expected_Checkin_Notification' => 'Erinnerung: :name Rückgabedatum nähert sich',
-    'Expected_Checkin_Date' => 'Ihr ausgebuchtes Asset ist fällig zur Rückgabe am :date',
-    'your_assets' => 'Ihre Assets anzeigen',
-    'rights_reserved' => 'Alle Rechte vorbehalten.',
-=======
     'your_assets' => 'Ihre Assets anzeigen',
     'your_credentials' => 'Ihre Snipe-IT Anmeldedaten',
     'mail_sent' => 'Mail erfolgreich gesendet!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

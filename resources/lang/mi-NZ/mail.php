@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'A user has accepted an item',
-    'acceptance_asset_declined' => 'A user has declined an item',
-    'a_user_canceled' => 'Kua whakakorea e tetahi kaiwhakamahi tetahi tonoemi i runga i te paetukutuku',
-    'a_user_requested' => 'Kua tono tetahi kaiwhakamahi i tetahi mea i runga i te paetukutuku',
-    'accessory_name' => 'Ingoa Whakauru:',
-    'additional_notes' => 'Nga Tuhipoka Atu:',
-    'admin_has_created' => 'Kua hanga e tetahi kaiwhakahaere tetahi kaute mo koe i runga i te: paetukutuku tukutuku.',
-    'asset' => 'Tahua:',
-    'asset_name' => 'Ingoa Ahua:',
-    'asset_requested' => 'Ka tonohia te taonga',
-    'asset_tag' => 'Tae Taonga',
-    'assigned_to' => 'Tohua Ki To',
-    'best_regards' => 'Ko nga whakaaro pai,',
-    'canceled' => 'Kua whakakorehia:',
-    'checkin_date' => 'Rangi Whakatau:',
-    'checkout_date' => 'Rā Whakatau:',
-    'click_to_confirm' => 'Tena koahia te hono e whai ake nei hei whakauru i to:',
-    'click_on_the_link_accessory' => 'Tena koahia te hono i raro ki te whakauru kua whiwhi koe i te taputapu.',
-    'click_on_the_link_asset' => 'Koahia te hono i raro ki te whakauru kua riro ia koe te taonga.',
-    'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
-=======
 
     'Accessory_Checkin_Notification' => 'Accessory checked in',
     'Accessory_Checkout_Notification' => 'Accessory checked out',
     'Asset_Checkin_Notification' => 'Asset checked in',
     'Asset_Checkout_Notification' => 'Asset checked out',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Accessory checkin confirmation',
     'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
     'Confirm_accessory_delivery' => 'Accessory delivery confirmation',
@@ -97,14 +74,10 @@ return [
     'requested' => 'I tonohia',
     'reset_link' => 'Tautuhi Hononga Kupuhipa',
     'reset_password' => 'Pāwhiri ki konei kia tautuhi i to kupuhipa:',
-<<<<<<< HEAD
-    'serial' => 'Waea',
-=======
     'rights_reserved' => 'All rights reserved.',
     'serial' => 'Waea',
     'snipe_webhook_test' => 'Snipe-IT Integration Test',
     'snipe_webhook_summary' => 'Snipe-IT Integration Test Summary',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'supplier' => 'Kaihoko',
     'tag' => 'Tohu',
     'test_email' => 'Test Test from Snipe-IT',
@@ -115,22 +88,9 @@ return [
     'upcoming-audits' => 'There is :count asset that is coming up for audit within :threshold days.|There are :count assets that are coming up for audit within :threshold days.',
     'user' => 'Kaiwhakamahi',
     'username' => 'Ingoa Kaiwhakamahi',
-<<<<<<< HEAD
-    'welcome' => 'Nau mai: ingoa',
-    'welcome_to' => 'Nau mai ki: web!',
-    'your_credentials' => 'Nga tohu tohu Snipe-IT',
-    'Accessory_Checkin_Notification' => 'Accessory checked in',
-    'Asset_Checkin_Notification' => 'Asset checked in',
-    'Asset_Checkout_Notification' => 'Asset checked out',
-    'License_Checkin_Notification' => 'License checked in',
-    'Expected_Checkin_Report' => 'Expected asset checkin report',
-    'Expected_Checkin_Notification' => 'Reminder: :name checkin deadline approaching',
-    'Expected_Checkin_Date' => 'An asset checked out to you is due to be checked back in on :date',
-=======
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Nau mai: ingoa',
     'welcome_to' => 'Nau mai ki: web!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'View Your Assets',
     'your_credentials' => 'Nga tohu tohu Snipe-IT',
     'mail_sent' => 'Mail sent successfully!',

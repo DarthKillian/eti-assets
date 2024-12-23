@@ -11,12 +11,9 @@ return [
     'activity_report'		=> 'Rapport d\'activité',
     'address'				=> 'Adresse',
     'admin'					=> 'Admin',
-<<<<<<< HEAD
-=======
     'admin_tooltip'			=> 'Cet utilisateur a des privilèges d\'administrateur',
     'superuser'				=> 'Super-utilisateur',
     'superuser_tooltip'		=> 'Cet utilisateur a des privilèges de super-utilisateur',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'administrator'			=> 'Administrateur·trice',
     'add_seats'             => 'Places ajoutées',
     'age'                   => "Âge",
@@ -81,11 +78,7 @@ return [
     'consumables'			=> 'Consommables',
     'country'  				=> 'Pays',
     'could_not_restore'     => 'Erreur lors de la restauration de :item_type: :error',
-<<<<<<< HEAD
-    'not_deleted'           => 'Le :item_type n\'est pas supprimé et ne peut donc pas être restauré',
-=======
     'not_deleted'           => 'The :item_type was not deleted and therefore cannot be restored',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Créer',
     'created'               => 'Élément créé',
     'created_asset'			=> 'Actif créé',
@@ -106,11 +99,7 @@ return [
     'debug_warning_text'    => 'Cette application fonctionne en mode de production avec le débogage activé. Cela peut exposer des données sensibles si votre application est accessible au monde extérieur. Désactivez le mode de débogage en définissant la valeur <code> APP_DEBUG </ code> dans votre fichier <code> .env </ code> sur <code> false </ code>.',
     'delete'  				=> 'Supprimer',
     'delete_confirm'  		=> 'Êtes-vous certain de vouloir supprimer :item?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Êtes-vous sûr·e de vouloir supprimer :item ? Cette action est irréversible.',
-=======
     'delete_confirm_no_undo' => 'Are you sure, you wish to delete :item? This cannot be undone.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Supprimé',
     'delete_seats'  		=> 'Places supprimées',
     'deletion_failed'       => 'Échec de la suppression',
@@ -169,13 +158,8 @@ return [
     'include_deleted'       => 'Inclure les matériels supprimés',
     'image_upload'         	=> 'Charger une image',
     'filetypes_accepted_help'    => 'Le type de fichier accepté est :types. La taille maximale autorisée est :size.|Les types de fichiers acceptés sont :types. La taille maximale autorisée est :size.',
-<<<<<<< HEAD
-    'filetypes_size_help'   => 'La taille maximale autorisée des téléversements est :size.',
-    'image_filetypes_help'  => 'Les types de fichiers acceptés sont jpg, webp, png, gif et svg. Taille maximale est de:size.',
-=======
     'filetypes_size_help'   => 'La taille maximale de téléversement autorisée est :size.',
     'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'Ce fichier image n\'est pas lisible. Les types de fichiers acceptés sont jpg, webp, png, gif et svg. Le type mimetype de ce fichier est : :mimetype.',
     'import'         	    => 'Importer',
     'import_this_file'      => 'Champs de la carte et traiter ce fichier',
@@ -257,10 +241,7 @@ return [
     'restored'				=> 'restauré',
     'restore'				=> 'Restaurer',
     'requestable_models'    => 'Modèles demandables',
-<<<<<<< HEAD
-=======
     'requestable_items'     => 'Éléments demandés',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requested'				=> 'Demandé',
     'requested_date'        => 'Date de la demande',
     'requested_assets'      => 'Actifs demandés',
@@ -294,11 +275,7 @@ return [
     'signed_off_by'         => 'Déconnecté par',
     'skin'       			=> 'Habillage',
     'webhook_msg_note'        => 'Une notification sera envoyée via le webhook',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Woohoo ! Il semble que votre intégration :app vers Snipe-IT fonctionne !',
-=======
     'webhook_test_msg'        => 'Woohoo ! Il semble que votre intégration de :app vers Snipe-IT fonctionne !',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'MODE DEMO: Certaines fonctionnalités sont désactivées pour cette installation.',
     'site_name'				=> 'Nom du Site',
     'state'  				=> 'État',
@@ -330,10 +307,7 @@ return [
     'user'					=> 'Utilisateur',
     'accepted'			    => 'validé',
     'declined'			    => 'refusé',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Notes refusées',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Non assigné',
     'unaccepted_asset_report' => 'Actifs refusés',
     'users'                 => 'Utilisateurs',
@@ -447,31 +421,20 @@ return [
     'bulk_soft_delete'      =>'Supprimer ces utilisateurs également. Leur historique de matériel restera intact jusqu\'à ce que vous les supprimiez définitivement depuis le panneau de configuration de l\'administrateur.',
     'bulk_checkin_delete_success' => 'Les utilisateurs sélectionnés ont été supprimés et leurs matériels ont été dissociés.',
     'bulk_checkin_success' => 'Les articles des utilisateurs sélectionnés ont été dissociés.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Supprimer des valeurs pour ce matériel|Supprimer des valeurs pour :asset_count matériels ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Supprimer les valeurs du champ :field pour cet·te utilisateur·trice|Supprimer les valeurs du champ :field pour les :user_count utilisateurs·trices ',
     'na_no_purchase_date'   => 'NC - Pas de date d\'achat renseignée',
     'assets_by_status'      => 'Matériels par statut',
     'assets_by_status_type'      => 'Matériels par type de status',
     'pie_chart_type'        => 'Type de diagramme circulaire',
     'hello_name'            => 'Bonjour, :name!',
-<<<<<<< HEAD
-    'unaccepted_profile_warning'   => 'Vous avez :count article(s) en cours d\'acceptation. Merci de cliquer ici pour valider ou refuser leur emprunt',
-=======
     'unaccepted_profile_warning'   => 'You have one item requiring acceptance. Click here to accept or decline it | You have :count items requiring acceptance. Click here to accept or decline them',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'start_date'            => 'Date de début',
     'end_date'            => 'Date de fin',
     'alt_uploaded_image_thumbnail' => 'Miniature téléchargée',
     'placeholder_kit'       => 'Sélectionnez un kit',
     'file_not_found'        => 'Fichier non trouvé',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'No record for that log entry was found.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(aucun aperçu)',
     'setup'                 => 'Configuration',
     'pre_flight'            => 'Pre-Flight',
@@ -497,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'La génération de numéros d\'inventaire autoincrémentés est désactivée, toutes les lignes doivent donc avoir la colonne "Numéro d\'inventaire" renseignée.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Note : La génération de numéros d\'inventaire autoincrémentés est activée, de sorte que les actifs seront créés pour les lignes qui n\'ont pas de numéro d\'inventaire renseigné. Les lignes qui comprennent un numéro d\'inventaire seront mises à jour avec les informations fournies.',
     'send_welcome_email_to_users'   => ' Envoyer un e-mail de bienvenue aux nouveaux·elles utilisateurs·trices ?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Envoyer un e-mail',
     'call'                      => 'Numéro d\'appel',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Sauvegarder avant d\'importer ?',
     'csv_header_field'          => 'Champ d\'en-tête CSV',
     'import_field'              => 'Importer le champ',
     'sample_value'              => 'Exemple de valeur',
     'no_headers'                => 'Aucune colonne trouvée',
     'error_in_import_file'      => 'Une erreur s\'est produite lors de la lecture du fichier CSV : :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % achevé',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Des erreurs se sont produites lors de l\'importation : ',
     'warning'                   => 'ATTENTION : :warning',
     'success_redirecting'       => '"Succès... Redirection.',
@@ -527,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'Ne pas inclure l\'utilisateur·trice dans l\'attribution groupée via l\'interface utilisateur de licence ou les outils CLI.',
     'modal_confirm_generic'      => 'Êtes-vous sûr·e ?',
     'cannot_be_deleted'      => 'Cet élément ne peut pas être supprimé',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'Cet élément ne peut pas être modifié.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Cet élément ne peut pas être attribué. Vérifiez la quantité restante.',
     'serial_number'        => 'Numéro de série',
     'item_notes' => 'Notes :item',
@@ -559,11 +512,8 @@ return [
         'address2' => 'Adresse Ligne 2',
         'import_note' => 'Importé à l\'aide de l\'importateur CSV',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Supprimer ce champ de l\'ensemble de champs. Cette opération ne supprime pas le champ personnalisé, mais uniquement l\'association de ce champ à cet ensemble de champs.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% terminé',
     'uploading' => 'Téléversement... ',
     'upload_error' => 'Erreur lors du téléversement du fichier. Veuillez vérifier qu\'il n\'y a pas de lignes vides et qu\'aucun nom de colonne n\'est dupliqué.',
@@ -576,9 +526,6 @@ return [
     'action_permission_generic' => 'Vous n\'avez pas la permission de :action ce :item_type',
     'edit' => 'éditer',
     'action_source' => 'Source de l\'action',
-<<<<<<< HEAD
-
-=======
     'or' => 'ou',
     'url'                   => 'URL',
     'edit_fieldset' => 'Modifier les champs et les options du fieldset',
@@ -619,5 +566,4 @@ return [
     'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
     'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

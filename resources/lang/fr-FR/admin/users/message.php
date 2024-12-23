@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Vous avez refusé cet actif.',
     'bulk_manager_warn'	        => 'Vos utilisateurs ont été mis à jour avec succès, mais votre entrée de gestionnaire n\'a pas été enregistrée, car le gestionnaire que vous avez sélectionné était également dans la liste d\'utilisateurs à éditer, et les utilisateurs peuvent ne pas être leur propre gestionnaire. Sélectionnez à nouveau vos utilisateurs, à l\'exclusion du gestionnaire.',
     'user_exists'               => 'L\'utilisateur existe déjà !',
-<<<<<<< HEAD
-    'user_not_found'            => 'L\'utilisateur·trice n\'existe pas.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Le champ identifiant est obligatoire',
     'user_has_no_assets_assigned' => 'Aucun actif actuellement assigné à l\'utilisateur·trice.',
     'user_password_required'    => 'Le mot de passe est obligatoire.',

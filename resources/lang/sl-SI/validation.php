@@ -13,92 +13,6 @@ return [
     |
     */
 
-<<<<<<< HEAD
-    'accepted'             => 'Atribut mora biti sprejet.',
-    'active_url'           => 'Atribut ni veljaven URL.',
-    'after'                => 'Atribut mora biti datum po: datumu.',
-    'after_or_equal'       => 'Atribut mora biti datum po ali enak: datumu.',
-    'alpha'                => 'Atribut lahko vsebuje le črke.',
-    'alpha_dash'           => 'Atribut lahko vsebuje samo črke, številke in pomišljaje.',
-    'alpha_num'            => 'Atribut lahko vsebuje le črke in številke.',
-    'array'                => 'Atribut mora biti matrika.',
-    'before'               => 'Atribut mora biti datum pred: datum.',
-    'before_or_equal'      => 'Atribut mora biti datum, ki je pred ali enakovreden datumu.',
-    'between'              => [
-        'numeric' => 'Atribut mora biti med: min -: max.',
-        'file'    => 'Atribut mora biti med: min -: max kilobajtov.',
-        'string'  => 'Atribut mora biti med: min -: max znakov.',
-        'array'   => 'Atribut mora imeti med: min in: max elementov.',
-    ],
-    'boolean'              => 'Atribut mora biti true ali false.',
-    'confirmed'            => 'Potrditev atributa se ne ujema.',
-    'date'                 => 'Atribut ni veljaven datum.',
-    'date_format'          => 'Atribut se ne ujema z obliko: format.',
-    'different'            => 'Atribut: drugi mora biti drugačen.',
-    'digits'               => 'Atribut mora biti: števnik.',
-    'digits_between'       => 'Atribut mora biti med: min in: max števkami.',
-    'dimensions'           => 'Atribut ima neveljavne dimenzije slike.',
-    'distinct'             => 'Polje atribut ima podvojeno vrednost.',
-    'email'                => 'Oblika atributa je neveljavna.',
-    'exists'               => 'Izbrani atribut je neveljaven.',
-    'file'                 => 'Atribut mora biti datoteka.',
-    'filled'               => 'Polje atribut mora imeti vrednost.',
-    'image'                => 'Atribut mora biti slika.',
-    'import_field_empty'    => 'The value for :fieldname cannot be null.',
-    'in'                   => 'Izbrani atribut je neveljaven.',
-    'in_array'             => 'Polje atributov ne obstaja v: drugem.',
-    'integer'              => 'Atribut mora biti celo število.',
-    'ip'                   => 'Atribut mora biti veljaven IP-naslov.',
-    'ipv4'                 => 'Atribut mora biti veljaven IPv4 naslov.',
-    'ipv6'                 => 'Atribut mora biti veljaven IPv6 naslov.',
-    'is_unique_department' => 'The :attribute must be unique to this Company Location',
-    'json'                 => 'Atribut mora biti veljaven JSON niz.',
-    'max'                  => [
-        'numeric' => 'Atribut ne sme biti večji od: max.',
-        'file'    => 'Atribut ne sme biti večji od: max kilobajtov.',
-        'string'  => 'Atribut ne sme biti večji od: max znakov.',
-        'array'   => 'Atribut ne sme vsebovati več kot: max elementov.',
-    ],
-    'mimes'                => 'Atribut mora biti datoteka vrste:: vrednost.',
-    'mimetypes'            => 'Atribut mora biti datoteka vrste:: vrednosti.',
-    'min'                  => [
-        'numeric' => 'Atribut mora biti vsaj: min.',
-        'file'    => 'Atribut mora biti vsaj: min kilobajtov.',
-        'string'  => 'Atribut mora biti vsaj: min znakov.',
-        'array'   => 'Atribut mora imeti vsaj: min elementov.',
-    ],
-    'starts_with'          => 'The :attribute must start with one of the following: :values.',
-    'ends_with'            => 'The :attribute must end with one of the following: :values.',
-
-    'not_in'               => 'Izbrani atribut je neveljaven.',
-    'numeric'              => 'Atribut mora biti število.',
-    'present'              => 'Polje atribut mora biti prisotno.',
-    'valid_regex'          => 'To ni veljaven regex. ',
-    'regex'                => 'Oblika atributa je neveljavna.',
-    'required'             => 'Polje ne sme biti prazno.',
-    'required_if'          => 'Polje atributa je obvezno, če: drugo je: vrednost.',
-    'required_unless'      => 'Polje atributa je obvezno, razen če je: drugo v: vrednosti.',
-    'required_with'        => 'Polje atributa je obvezno, ko: so prisotne vrednosti.',
-    'required_with_all'    => 'Polje atributa je obvezno, ko: so prisotne vrednosti.',
-    'required_without'     => 'Polje atributa je obvezno, če: vrednosti niso prisotne.',
-    'required_without_all' => 'Polje atributa je obvezno, če nobena od: vrednosti ni prisotna.',
-    'same'                 => 'Atribut in: drugi se morajo ujemati.',
-    'size'                 => [
-        'numeric' => 'Atribut mora biti: velikost.',
-        'file'    => 'Atribut mora biti: velikost kilobajtov.',
-        'string'  => 'Atribut mora biti: velikost znakov.',
-        'array'   => 'Atribut mora vsebovati: elemente velikosti.',
-    ],
-    'string'               => 'Atribut mora biti niz.',
-    'timezone'             => 'Atribut mora biti veljavno območje.',
-    'two_column_unique_undeleted' => 'The :attribute must be unique across :table1 and :table2. ',
-    'unique'               => 'Atribut je bil že sprejet.',
-    'uploaded'             => 'Atribut se ni uspel naložiti.',
-    'url'                  => 'Oblika atributa je neveljavna.',
-    'unique_undeleted'     => 'Atribut mora biti edinstven.',
-    'non_circular'         => 'The :attribute must not create a circular reference.',
-    'not_array'            => ':atribute harus array.',
-=======
     'accepted' => 'The :attribute field must be accepted.',
     'accepted_if' => 'The :attribute field must be accepted when :other is :value.',
     'active_url' => 'The :attribute field must be a valid URL.',
@@ -246,17 +160,11 @@ return [
     'unique_undeleted'     => 'Atribut mora biti edinstven.',
     'non_circular'         => 'The :attribute must not create a circular reference.',
     'not_array'            => ':attribute cannot be an array.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'disallow_same_pwd_as_user_fields' => 'Password cannot be the same as the username.',
     'letters'              => 'Password must contain at least one letter.',
     'numbers'              => 'Password must contain at least one number.',
     'case_diff'            => 'Password must use mixed case.',
     'symbols'              => 'Password must contain symbols.',
-<<<<<<< HEAD
-    'gte'                  => [
-        'numeric'          => 'Value cannot be negative'
-    ],
-=======
     'timezone' => 'The :attribute field must be a valid timezone.',
     'unique' => 'Atribut je bil že sprejet.',
     'uploaded' => 'Atribut se ni uspel naložiti.',
@@ -264,7 +172,6 @@ return [
     'url' => 'The :attribute field must be a valid URL.',
     'ulid' => 'The :attribute field must be a valid ULID.',
     'uuid' => 'The :attribute field must be a valid UUID.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     /*
@@ -284,19 +191,12 @@ return [
         'hashed_pass'      => 'Vaše trenutno geslo je napačno',
         'dumbpwd'          => 'To geslo je preveč pogosto.',
         'statuslabel_type' => 'Izbrati morate veljavn status oznake',
-<<<<<<< HEAD
-
-        // date_format validation with slightly less stupid messages. It duplicates a lot, but it gets the job done :(
-        // We use this because the default error message for date_format is reflects php Y-m-d, which non-PHP
-        // people won't know how to format. 
-=======
         'custom_field_not_found'          => 'This field does not seem to exist, please double check your custom field names.',
         'custom_field_not_found_on_model' => 'This field seems to exist, but is not available on this Asset Model\'s fieldset.',
 
         // date_format validation with slightly less stupid messages. It duplicates a lot, but it gets the job done :(
         // We use this because the default error message for date_format reflects php Y-m-d, which non-PHP
         // people won't know how to format.
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'purchase_date.date_format'     => 'The :attribute must be a valid date in YYYY-MM-DD format',
         'last_audit_date.date_format'   =>  'The :attribute must be a valid date in YYYY-MM-DD hh:mm:ss format',
         'expiration_date.date_format'   =>  'The :attribute must be a valid date in YYYY-MM-DD format',
@@ -304,11 +204,6 @@ return [
         'expected_checkin.date_format'  =>  'The :attribute must be a valid date in YYYY-MM-DD format',
         'start_date.date_format'        =>  'The :attribute must be a valid date in YYYY-MM-DD format',
         'end_date.date_format'          =>  'The :attribute must be a valid date in YYYY-MM-DD format',
-<<<<<<< HEAD
-
-    ],
-
-=======
         'checkboxes'           => ':attribute contains invalid options.',
         'radio_buttons'        => ':attribute is invalid.',
         'invalid_value_in_field' => 'Invalid value included in this field',
@@ -320,7 +215,6 @@ return [
         'ldap_filter' => ['regex' => 'This value should probably not be wrapped in parentheses.'],
 
         ],
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Attributes
@@ -334,8 +228,6 @@ return [
 
     'attributes' => [],
 
-<<<<<<< HEAD
-=======
     /*
     |--------------------------------------------------------------------------
     | Generic Validation Messages - we use these in the jquery validation where we don't have
@@ -350,5 +242,4 @@ return [
     ],
 
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Rydych wedi llwyddo I wrthod yr ased yma.',
     'bulk_manager_warn'	        => 'Mae eich defnyddwyr wedi diweddaru\'n llwyddiannus ond mae\'r blwch rheolwr heb newid gan fod y rheolwr yn y rhestr o defnyddwyr. Dewisiwch eto heb cynnwys y rheolwr.',
     'user_exists'               => 'Defnyddiwr yn bodoli yn barod!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Nid yw\'r defnyddiwr yn bodoli.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Mae angen llenwi\'r maes login',
     'user_has_no_assets_assigned' => 'No assets currently assigned to user.',
     'user_password_required'    => 'Rhaid gosod cyfrinair.',

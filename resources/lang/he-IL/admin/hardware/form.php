@@ -11,11 +11,7 @@ return [
     'bulk_update_help'	=> 'טופס זה מאפשר לך לעדכן מספר נכסים בבת אחת. מלא רק את השדות שאתה צריך לשנות. כל השדות שנותרו ריקים יישארו ללא שינוי.',
     'bulk_update_warn'	=> 'You are about to edit the properties of a single asset.|You are about to edit the properties of :asset_count assets.',
     'bulk_update_with_custom_field' => 'Note the assets are :asset_model_count different types of models.',
-<<<<<<< HEAD
-    'bulk_update_model_prefix' => 'On Models', 
-=======
     'bulk_update_model_prefix' => 'בדגמים', 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'bulk_update_custom_field_unique' => 'This is a unique field and can not be bulk edited.',
     'checkedout_to'		=> 'הוצא אל',
     'checkout_date'		=> 'תבדוק את התאריך',

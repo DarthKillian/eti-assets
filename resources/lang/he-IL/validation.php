@@ -13,92 +13,6 @@ return [
     |
     */
 
-<<<<<<< HEAD
-    'accepted'             => 'התכונה: חייבת להתקבל.',
-    'active_url'           => 'התכונה: אינה כתובת אתר חוקית.',
-    'after'                => 'התכונה: חייבת להיות תאריך לאחר: תאריך.',
-    'after_or_equal'       => 'התכונה: חייבת להיות תאריך אחרי או שווה ל: תאריך.',
-    'alpha'                => 'התכונה: יכולה להכיל רק אותיות.',
-    'alpha_dash'           => 'התכונה: עשויה להכיל רק אותיות, מספרים וקווים.',
-    'alpha_num'            => 'התכונה: עשויה להכיל רק אותיות ומספרים.',
-    'array'                => 'התכונה: חייבת להיות מערך.',
-    'before'               => 'התכונה: חייבת להיות תאריך לפני: תאריך.',
-    'before_or_equal'      => 'התכונה: חייבת להיות תאריך לפני או שווה ל: תאריך.',
-    'between'              => [
-        'numeric' => 'התכונה: חייבת להיות בין: min ו-: max.',
-        'file'    => 'התכונה: חייבת להיות בין: min ו-: max kilobytes.',
-        'string'  => 'התכונה: חייבת להיות בין: דקות ו-: תווים מקסימליים.',
-        'array'   => 'התכונה: חייבת להיות בין: min ו-: max items.',
-    ],
-    'boolean'              => 'שדה התכונה: חייב להיות אמיתי או שגוי.',
-    'confirmed'            => 'אישור התכונה אינו תואם.',
-    'date'                 => 'התכונה: אינה תאריך חוקי.',
-    'date_format'          => 'התכונה: אינה תואמת את הפורמט: format.',
-    'different'            => 'התכונה: ו-: אחרים חייבים להיות שונים.',
-    'digits'               => 'התכונה: חייבת להיות: ספרות ספרות.',
-    'digits_between'       => 'התכונה: חייבת להיות בין: דקות ו-: ספרות מקסימליות.',
-    'dimensions'           => 'לתכונה: יש ממדי תמונה לא חוקיים.',
-    'distinct'             => 'שדה התכונה: יש ערך כפול.',
-    'email'                => 'התכונה: חייבת להיות כתובת דוא"ל חוקית.',
-    'exists'               => 'התכונה שנבחרה: אינה חוקית.',
-    'file'                 => 'התכונה: חייבת להיות קובץ.',
-    'filled'               => 'שדה המאפיין חייב להיות בעל ערך.',
-    'image'                => 'התכונה: חייבת להיות תמונה.',
-    'import_field_empty'    => 'The value for :fieldname cannot be null.',
-    'in'                   => 'התכונה שנבחרה: אינה חוקית.',
-    'in_array'             => 'שדה התכונה: אינו קיים ב-: other.',
-    'integer'              => 'התכונה: חייבת להיות מספר שלם.',
-    'ip'                   => 'התכונה: חייבת להיות כתובת IP חוקית.',
-    'ipv4'                 => 'התכונה: חייבת להיות כתובת IPv4 חוקית.',
-    'ipv6'                 => 'התכונה: חייבת להיות כתובת IPv6 חוקית.',
-    'is_unique_department' => 'The :attribute must be unique to this Company Location',
-    'json'                 => 'התכונה: חייבת להיות מחרוזת JSON חוקית.',
-    'max'                  => [
-        'numeric' => 'התכונה: לא יכולה להיות גדולה מ: מקסימום.',
-        'file'    => 'התכונה: לא יכולה להיות גדולה מ: קילו-בתים מקסימליים.',
-        'string'  => 'התכונה: לא יכולה להיות גדולה מ: תווים מקסימליים.',
-        'array'   => 'לתכונה: אין יותר מ: פריטים מקסימליים.',
-    ],
-    'mimes'                => 'התכונה: חייבת להיות קובץ מסוג:: ערכים.',
-    'mimetypes'            => 'התכונה: חייבת להיות קובץ מסוג:: ערכים.',
-    'min'                  => [
-        'numeric' => 'התכונה: חייבת להיות לפחות: דקות.',
-        'file'    => 'התכונה: חייבת להיות לפחות: קילובייט מינימלי.',
-        'string'  => 'התכונה: חייבת להיות לפחות: דקות תווים.',
-        'array'   => 'התכונה: חייבת לכלול לפחות פריטים מינימליים.',
-    ],
-    'starts_with'          => 'השדה חייב להכיל לפחות אחד מהערכים הבאים.',
-    'ends_with'            => 'The :attribute must end with one of the following: :values.',
-
-    'not_in'               => 'התכונה שנבחרה: אינה חוקית.',
-    'numeric'              => 'התכונה: חייבת להיות מספר.',
-    'present'              => 'שדה התכונה: חייב להיות נוכח.',
-    'valid_regex'          => 'הקלט לא חוקי. ',
-    'regex'                => 'תבנית התכונה: אינה חוקית.',
-    'required'             => 'שדה התכונה: נדרש.',
-    'required_if'          => 'שדה התכונה: נדרש כאשר: other is: value.',
-    'required_unless'      => 'שדה התכונה: נדרש, אלא אם: אחרים נמצאים ב: ערכים.',
-    'required_with'        => 'שדה התכונה: נדרש כאשר: ערכים קיימים.',
-    'required_with_all'    => 'שדה התכונה: נדרש כאשר: ערכים קיימים.',
-    'required_without'     => 'שדה התכונה: נדרש כאשר: ערכים לא קיימים.',
-    'required_without_all' => 'שדה התכונה: נדרש כאשר אף אחד מערכים אלה אינו קיים.',
-    'same'                 => 'התכונה: ו-: אחרים חייבים להתאים.',
-    'size'                 => [
-        'numeric' => 'התכונה: חייבת להיות: גודל.',
-        'file'    => 'התכונה: חייבת להיות: גודל קילובייט.',
-        'string'  => 'התכונה: חייבת להיות: גודל תווים.',
-        'array'   => 'התכונה: חייבת להכיל: פריטי גודל.',
-    ],
-    'string'               => 'התכונה: חייבת להיות מחרוזת.',
-    'timezone'             => 'התכונה: חייבת להיות אזור חוקי.',
-    'two_column_unique_undeleted' => 'The :attribute must be unique across :table1 and :table2. ',
-    'unique'               => 'התכונה: כבר נלקחה.',
-    'uploaded'             => 'התכונה: נכשלה.',
-    'url'                  => 'תבנית התכונה: אינה חוקית.',
-    'unique_undeleted'     => 'השדה חייב מזהה יחודי.',
-    'non_circular'         => 'The :attribute must not create a circular reference.',
-    'not_array'            => ':atribute harus array.',
-=======
     'accepted' => 'The :attribute field must be accepted.',
     'accepted_if' => 'The :attribute field must be accepted when :other is :value.',
     'active_url' => 'The :attribute field must be a valid URL.',
@@ -246,17 +160,11 @@ return [
     'unique_undeleted'     => 'השדה חייב מזהה יחודי.',
     'non_circular'         => 'The :attribute must not create a circular reference.',
     'not_array'            => ':attribute cannot be an array.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'disallow_same_pwd_as_user_fields' => 'Password cannot be the same as the username.',
     'letters'              => 'Password must contain at least one letter.',
     'numbers'              => 'Password must contain at least one number.',
     'case_diff'            => 'Password must use mixed case.',
     'symbols'              => 'Password must contain symbols.',
-<<<<<<< HEAD
-    'gte'                  => [
-        'numeric'          => 'הערך לא יכול להיות שלילי'
-    ],
-=======
     'timezone' => 'The :attribute field must be a valid timezone.',
     'unique' => 'התכונה: כבר נלקחה.',
     'uploaded' => 'התכונה: נכשלה.',
@@ -264,7 +172,6 @@ return [
     'url' => 'The :attribute field must be a valid URL.',
     'ulid' => 'The :attribute field must be a valid ULID.',
     'uuid' => 'The :attribute field must be a valid UUID.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     /*
@@ -284,19 +191,12 @@ return [
         'hashed_pass'      => 'הסיסמה הנוכחית שלך שגויה',
         'dumbpwd'          => 'סיסמה זו נפוצה מדי.',
         'statuslabel_type' => 'עליך לבחור סוג תווית סטטוס חוקי',
-<<<<<<< HEAD
-
-        // date_format validation with slightly less stupid messages. It duplicates a lot, but it gets the job done :(
-        // We use this because the default error message for date_format is reflects php Y-m-d, which non-PHP
-        // people won't know how to format. 
-=======
         'custom_field_not_found'          => 'This field does not seem to exist, please double check your custom field names.',
         'custom_field_not_found_on_model' => 'This field seems to exist, but is not available on this Asset Model\'s fieldset.',
 
         // date_format validation with slightly less stupid messages. It duplicates a lot, but it gets the job done :(
         // We use this because the default error message for date_format reflects php Y-m-d, which non-PHP
         // people won't know how to format.
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'purchase_date.date_format'     => 'The :attribute must be a valid date in YYYY-MM-DD format',
         'last_audit_date.date_format'   =>  'The :attribute must be a valid date in YYYY-MM-DD hh:mm:ss format',
         'expiration_date.date_format'   =>  'The :attribute must be a valid date in YYYY-MM-DD format',
@@ -304,11 +204,6 @@ return [
         'expected_checkin.date_format'  =>  'The :attribute must be a valid date in YYYY-MM-DD format',
         'start_date.date_format'        =>  'The :attribute must be a valid date in YYYY-MM-DD format',
         'end_date.date_format'          =>  'The :attribute must be a valid date in YYYY-MM-DD format',
-<<<<<<< HEAD
-
-    ],
-
-=======
         'checkboxes'           => ':attribute contains invalid options.',
         'radio_buttons'        => ':attribute is invalid.',
         'invalid_value_in_field' => 'Invalid value included in this field',
@@ -320,7 +215,6 @@ return [
         'ldap_filter' => ['regex' => 'This value should probably not be wrapped in parentheses.'],
 
         ],
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Attributes
@@ -334,8 +228,6 @@ return [
 
     'attributes' => [],
 
-<<<<<<< HEAD
-=======
     /*
     |--------------------------------------------------------------------------
     | Generic Validation Messages - we use these in the jquery validation where we don't have
@@ -350,5 +242,4 @@ return [
     ],
 
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

@@ -45,11 +45,7 @@ return [
     'select_statustype'	=> 'Select Status Type',
     'serial'			=> 'Serial',
     'status'			=> 'Status',
-<<<<<<< HEAD
     'tag'				=> 'Asset Tag',
-=======
-    'tag'				=> 'Etiqueta de Recurs',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'update'			=> 'Asset Update',
     'warranty'			=> 'Warranty',
         'warranty_expires'		=> 'Warranty Expires',

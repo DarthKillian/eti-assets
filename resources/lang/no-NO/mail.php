@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'En bruker har godtatt et element',
-    'acceptance_asset_declined' => 'En bruker har avvist et element',
-    'a_user_canceled' => 'Brukeren har avbrutt en element-forespørsel på webområdet',
-    'a_user_requested' => 'En bruker har bedt om et element på webområdet',
-    'accessory_name' => 'Navn tilbehør:',
-    'additional_notes' => 'Flere notater:',
-    'admin_has_created' => 'En administrator har opprettet en konto for deg på :web nettsted.',
-    'asset' => 'Eiendel:',
-    'asset_name' => 'Navn:',
-    'asset_requested' => 'Eiendel forespurt',
-    'asset_tag' => 'Eiendelsmerke',
-    'assigned_to' => 'Tilordnet til',
-    'best_regards' => 'Med vennlig hilsen,',
-    'canceled' => 'Avbrutt:',
-    'checkin_date' => 'Innsjekkdato:',
-    'checkout_date' => 'Utsjekkdato:',
-    'click_to_confirm' => 'Klikk på følgende link for å bekrefte din :web konto:',
-    'click_on_the_link_accessory' => 'Vennligst klikk på lenken nedenfor for å bekreft at du har mottatt tilbehøret.',
-    'click_on_the_link_asset' => 'Vennligst klikk på lenken nedenfor for å bekreft at du har mottatt eiendelen.',
-    'Confirm_Asset_Checkin' => 'Bekreft innsjekk av eiendel',
-=======
 
     'Accessory_Checkin_Notification' => 'Tilbehør sjekket inn',
     'Accessory_Checkout_Notification' => 'Tilbehør sjekket ut',
     'Asset_Checkin_Notification' => 'Eiendel sjekket inn',
     'Asset_Checkout_Notification' => 'Ressurs sjekket ut',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Bekreft innsjekk av tilbehør',
     'Confirm_Asset_Checkin' => 'Bekreft innsjekk av eiendel',
     'Confirm_accessory_delivery' => 'Bekreft levering av tilbehør',
@@ -85,13 +62,7 @@ return [
     'link_to_update_password' => 'Klikk på følgende link for å bekrefte din :web passord:',
     'login' => 'Logg inn',
     'login_first_admin' => 'Logg inn på din nye Snipe-IT-installasjon ved å bruke kontoen nedenfor:',
-<<<<<<< HEAD
-    'login' => 'Logg inn:',
-    'Low_Inventory_Report' => 'Rapport lav lagerbeholdning',
-    'inventory_report' => 'Lagerbeholdnings rapport',
-=======
     'low_inventory_alert' => ':count enhet er under minimumnivå for beholdning, eller vil snart nå dette nivået.|:count enheter er under minimumnivå for beholdning, eller vil snart nå dette nivået.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Min. antall',
     'name' => 'Navn',
     'new_item_checked' => 'En ny enhet har blitt sjekket ut under ditt navn, detaljer nedenfor.',
@@ -120,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Velkommen :name',
     'welcome_to' => 'Velkommen til :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Din Snipe-IT konto',
-    'Accessory_Checkin_Notification' => 'Tilbehør sjekket inn',
-    'Asset_Checkin_Notification' => 'Eiendel sjekket inn',
-    'Asset_Checkout_Notification' => 'Ressurs sjekket ut',
-    'License_Checkin_Notification' => 'Lisens sjekket inn',
-    'Expected_Checkin_Report' => 'Rapport over forventet innsjekking av eiendeler',
-    'Expected_Checkin_Notification' => 'Påminnelse: Innsjekkingsfrist for :name nærmer seg',
-    'Expected_Checkin_Date' => 'En enhet som er sjekket ut til deg skal leveres tilbake den :date',
-    'your_assets' => 'Vis dine eiendeler',
-    'rights_reserved' => 'Alle rettigheter forbeholdt.',
-=======
     'your_assets' => 'Vis dine eiendeler',
     'your_credentials' => 'Din Snipe-IT konto',
     'mail_sent' => 'Mail sent successfully!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

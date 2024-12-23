@@ -17,11 +17,8 @@ return [
         'error'   		=> 'Az eszköz nem jött létre, próbálkozzon újra. :(',
         'success' 		=> 'Az eszköz sikeresen létrehozva. :)',
         'success_linked' => 'Eszköz a :tag azonosítóval sikeresen létrehozva. <strong><a href=":link" style="color: white;">Kattintson ide a megtekintéshez</a></strong>.',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -66,10 +63,7 @@ return [
         'file_delete_success'   => 'A fájlt sikeresen törölték',
         'file_delete_error'      => 'A fájlt nem sikerült törölni',
         'file_missing' => 'A kijelölt fájl nem található',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => 'The file selected was already deleted',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'A fejlécsorban egy vagy több attribútum hibás formájú UTF-8 karaktereket tartalmaz',
         'content_row_has_malformed_characters' => 'A tartalom első sorában egy vagy több attribútum hibás formájú UTF-8 karaktereket tartalmaz',
     ],

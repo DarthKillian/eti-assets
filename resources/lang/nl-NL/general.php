@@ -78,11 +78,7 @@ return [
     'consumables'			=> 'Verbruiksartikelen',
     'country'  				=> 'Land',
     'could_not_restore'     => 'Fout herstellen :item_type: :error',
-<<<<<<< HEAD
-    'not_deleted'           => 'De :item_type is niet verwijderd, het kan niet worden hersteld',
-=======
     'not_deleted'           => 'De :item_type is niet verwijderd en kan daarom niet worden hersteld',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Nieuwe aanmaken',
     'created'               => 'Item aangemaakt',
     'created_asset'			=> 'aangemaakt asset',
@@ -103,11 +99,7 @@ return [
     'debug_warning_text'    => 'Deze applicatie draait in productie modus met foutopsporing ingeschakeld. Dit kan betekenen dat mogelijk gevoelige gegevens zichtbaar zijn voor de buitenwereld. Schakel foutopsporing uit door de <code>APP_DEBUG</code> variabele in je <code>.env</code> bestand op <code>false</code> te zetten.',
     'delete'  				=> 'Verwijder',
     'delete_confirm'  		=> 'Weet u zeker dat u :item wilt verwijderen?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Weet je zeker dat je :item wilt verwijderen? Dit kan niet ongedaan gemaakt worden.',
-=======
     'delete_confirm_no_undo' => 'Weet je zeker dat je :item wilt verwijderen? Dit kan niet ongedaan worden gemaakt.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Verwijderd',
     'delete_seats'  		=> 'Verwijderde plekken',
     'deletion_failed'       => 'Verwijderen mislukt',
@@ -165,15 +157,9 @@ return [
     'image_delete'         	=> 'Afbeelding verwijderen',
     'include_deleted'       => 'Verwijderde activa opnemen',
     'image_upload'         	=> 'Afbeelding uploaden',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'Geaccepteerde bestandstype is :types. Maximale toegestane uploadgrootte is :size.|Geaccepteerde bestandstypen zijn :types. Maximale uploadgrootte is :size.',
-    'filetypes_size_help'   => 'Maximale toegestane uploadgrootte is :size.',
-    'image_filetypes_help'  => 'Geaccepteerde bestandstypen zijn jpg, webp, png, gif en svg. Maximale toegestane bestandsgrootte is :size.',
-=======
     'filetypes_accepted_help'    => 'Geaccepteerde bestandstype is :types. De maximale toegestane grootte is :size.|Geaccepteerde bestandstypen zijn :types. De maximale uploadgrootte is :size.',
     'filetypes_size_help'   => 'De maximale uploadgrootte is :size.',
     'image_filetypes_help'  => 'Geaccepteerde bestandstypen zijn jpg, webp, png, gif, svg en avif. De maximale toegestane bestandsgrootte is :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'Dit afbeeldingsbestand is niet leesbaar. Geaccepteerde bestandstypen zijn jpg, webp, png, gif en svg. Het mimetype van dit bestand is: :mimetype.',
     'import'         	    => 'Importeer',
     'import_this_file'      => 'Kaart velden en verwerk dit bestand',
@@ -321,10 +307,7 @@ return [
     'user'					=> 'Gebruiker',
     'accepted'			    => 'geaccepteerd',
     'declined'			    => 'afgewezen',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Geweigerde notities',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Niet-toegewezen',
     'unaccepted_asset_report' => 'Niet-geaccepteerde activa',
     'users'                 => 'Gebruikers',
@@ -438,11 +421,7 @@ return [
     'bulk_soft_delete'      =>'Ook deze gebruikers zacht verwijderen. Hun bezitting geschiedenis blijft intact tenzij u verwijderde records verwijderd in de Admin Instellingen.',
     'bulk_checkin_delete_success' => 'Uw geselecteerde gebruikers zijn verwijderd en hun artikelen zijn ingecheckt.',
     'bulk_checkin_success' => 'De artikelen voor de geselecteerde gebruikers zijn ingecheckt.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Waarden voor deze bezittingľWaarden verwijderen voor alle :asset_count bezittingen ',
-=======
     'set_to_null'           => 'Waarden verwijderen voor deze selectie|Verwijder waarden voor alle :selection_count selecties ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Verwijder :field waardes voor deze gebruiker|Verwijder :field waardes voor alle :user_count gebruikers ',
     'na_no_purchase_date'   => 'N.v.t. - Geen aankoopdatum opgegeven',
     'assets_by_status'      => 'Active op status',
@@ -455,10 +434,7 @@ return [
     'alt_uploaded_image_thumbnail' => 'Upload mini-afbeelding',
     'placeholder_kit'       => 'Selecteer een set',
     'file_not_found'        => 'Bestand niet gevonden',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'No record for that log entry was found.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(geen voorbeeld)',
     'setup'                 => 'Installeren',
     'pre_flight'            => 'Pre-Flight',
@@ -484,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Het genereren van automatisch oplopende asset-tags is uitgeschakeld, dus in alle rijen moet de kolom \'Asset-tag\' zijn ingevuld.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Opmerking: Het genereren van automatisch oplopende asset-tags is ingeschakeld zodat assets worden gemaakt voor rijen waarin de "Asset-tag" niet is ingevuld. Rijen waarin de "Asset Tag" is ingevuld, worden bijgewerkt met de opgegeven informatie.',
     'send_welcome_email_to_users'   => ' Welkomst e-mail verzenden aan nieuwe gebruikers?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'E-mail verzenden',
     'call'                      => 'Bel nummer',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Back-up maken voordat u importeert?',
     'csv_header_field'          => 'CSV-kopveld',
     'import_field'              => 'Veld importeren',
     'sample_value'              => 'Voorbeeldwaarde',
     'no_headers'                => 'Geen kolommen gevonden',
     'error_in_import_file'      => 'Er is een fout opgetreden bij het lezen van het CSV-bestand: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % voltooid',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Er zijn enkele fouten opgetreden tijdens het importeren: ',
     'warning'                   => 'WAARSCHUWING: :warning',
     'success_redirecting'       => '"Succes... Doorsturen.',
@@ -514,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'Voeg geen gebruiker toe voor bulk-toewijzing via de licentieinterface of cli tools.',
     'modal_confirm_generic'      => 'Weet je het zeker?',
     'cannot_be_deleted'      => 'Dit item kan niet worden verwijderd',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'Dit artikel kan niet bewerkt worden',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Dit item kan niet uitgecheckt worden. Controleer de resterende hoeveelheid.',
     'serial_number'        => 'Serienummer',
     'item_notes' => ':item notities',
@@ -546,11 +512,8 @@ return [
         'address2' => 'Adresregel 2',
         'import_note' => 'Geïmporteerd met csv-bestand',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Verwijder dit veld uit de veldenset. Dit zal niet verwijderen van het aangepaste veld, alleen dit veld associatie met deze veldset.',
     'checked_out_to_fields' => 'Uitgecheckt aan velden',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% voltooid',
     'uploading' => 'Uploaden... ',
     'upload_error' => 'Fout bij het uploaden. Controleer of er geen lege rijen zijn en dat er geen kolomnamen zijn gedupliceerd.',
@@ -563,9 +526,6 @@ return [
     'action_permission_generic' => 'Je bent niet gemachtigd om :action dit :item_type',
     'edit' => 'bewerk',
     'action_source' => 'Bron actie',
-<<<<<<< HEAD
-
-=======
     'or' => 'of',
     'url'                   => 'URL',
     'edit_fieldset' => 'Bewerk veldset velden en opties',
@@ -606,5 +566,4 @@ return [
     'import_asset_tag_exists' => 'Een asset met de asset tag :asset_tag bestaat al en een update is niet aangevraagd. Er is geen wijziging aangebracht.',
     'countries_manually_entered_help' => 'De waarden met een asterisk (*) zijn handmatig ingevoerd en komen niet overeen met de bestaande ISO 3166 dropdown waarden',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

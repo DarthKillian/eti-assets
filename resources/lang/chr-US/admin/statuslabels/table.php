@@ -2,7 +2,7 @@
 
 return array(
     'about'      	=> 'About Status Labels',
-    'archived'      	=> 'Arxivat',
+    'archived'      	=> 'Archived',
     'create'      	=> 'Create Status Label',
     'color'      	=> 'Chart Color',
     'default_label' => 'Default Label',

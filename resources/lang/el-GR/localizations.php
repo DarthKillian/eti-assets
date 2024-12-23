@@ -2,56 +2,6 @@
 
 return [
 
-<<<<<<< HEAD
-    'select_language' => 'Επιλέξτε μια γλώσσα',
-    'languages' => [
-        'en-US'=> 'English, US',
-        'en-GB'=> 'Αγγλικά, Ηνωμένο Βασίλειο',
-        'am-ET' => 'Amharic',
-        'af-ZA'=> 'Afrikaans',
-        'ar-SA'=> 'Arabic',
-        'bg-BG'=> 'Bulgarian',
-        'zh-CN'=> 'Κινεζικά Απλοποιημένα',
-        'zh-TW'=> 'Παραδοσιακά Κινέζικα',
-        'ca-ES' => 'Catalan',
-        'hr-HR'=> 'Croatian',
-        'cs-CZ'=> 'Czech',
-        'da-DK'=> 'Danish',
-        'nl-NL'=> 'Dutch',
-        'en-ID'=> 'Αγγλικά, Ινδονησία',
-        'et-EE'=> 'Estonian',
-        'fil-PH'=> 'Filipino',
-        'fi-FI'=> 'Finnish',
-        'fr-FR'=> 'French',
-        'de-DE'=> 'German',
-        'de-if'=> 'German (Informal)',
-        'el-GR'=> 'Greek',
-        'he-IL'=> 'Hebrew',
-        'hu-HU'=> 'Hungarian',
-        'is-IS' => 'Icelandic',
-        'id-ID'=> 'Indonesian',
-        'ga-IE'=> 'Ιρλανδικά',
-        'it-IT'=> 'Italian',
-        'ja-JP'=> 'Japanese',
-        'km-KH'=>'Khmer',
-        'ko-KR'=> 'Korean',
-        'lt-LT'=>'Lithuanian',
-        'lv-LV'=> 'Latvian',
-        'mk-MK'=> 'Macedonian',
-        'ms-MY'=> 'Malay',
-        'mi-NZ'=> 'Maori',
-        'mn-MN'=> 'Mongolian',
-        'no-NO'=> 'Norwegian',
-        'fa-IR'=> 'Persian',
-        'pl-PL'=> 'Polish',
-        'pt-PT'=> 'Πορτογαλικά',
-        'pt-BR'=> 'Πορτογαλικά, Βραζιλίας',
-        'ro-RO'=> 'Romanian',
-        'ru-RU'=> 'Russian',
-        'sr-CS' => 'Serbian (Latin)',
-        'sk-SK'=> 'Slovak',
-        'sl-SI'=> 'Slovenian',
-=======
     'select_language' => 'Select a Language',
     'languages' => [
         'en-US'=> 'Αγγλικά, ΗΠΑ',
@@ -103,7 +53,6 @@ return [
         'sk-SK'=> 'Σλοβακικά',
         'sl-SI'=> 'Slovenian',
         'so-SO'=> 'Somali',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Ισπανικά',
         'es-CO'=> 'Ισπανικά, Κολομβία',
         'es-MX'=> 'Ισπανικά, Μεξικό',
@@ -111,17 +60,6 @@ return [
         'sv-SE'=> 'Σουηδικά',
         'tl-PH'=> 'Tagalog',
         'ta-IN'=> 'Tamil',
-<<<<<<< HEAD
-        'th-TH'=> 'Thai',
-        'tr-TR'=> 'Turkish',
-        'uk-UA'=> 'Ukranian',
-        'vi-VN'=> 'Vietnamese',
-        'cy-GB'=> 'Welsh',
-        'zu-ZA'=> 'Zulu',
-    ],
-
-    'select_country' => 'Επιλέξτε μια χώρα',
-=======
         'th-TH'=> 'Ταϊλανδικά',
         'tr-TR'=> 'Τουρκικά',
         'uk-UA'=> 'Ουκρανικά',
@@ -131,7 +69,6 @@ return [
     ],
 
     'select_country' => 'Select a Country',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     
     'countries' => [
         'AC'=>'Νήσος Αναλήψεως',
@@ -198,10 +135,7 @@ return [
         'EC'=>'Ecuador',
         'EE'=>'Εσθονία',
         'EG'=>'Αίγυπτος',
-<<<<<<< HEAD
-=======
         'GB-ENG'=>'England',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'ER'=>'Ερυθραία',
         'ES'=>'Ισπανία',
         'ET'=>'Ethiopia',
@@ -300,10 +234,7 @@ return [
         'NG'=>'Nigeria',
         'NI'=>'Nicaragua',
         'NL'=>'Ολλανδία',
-<<<<<<< HEAD
-=======
         'GB-NIR' => 'Northern Ireland',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'NO'=>'Νορβηγία',
         'NP'=>'Νεπάλ',
         'NR'=>'Nauru',
@@ -331,11 +262,7 @@ return [
         'RU'=>'Ρωσική Ομοσπονδία',
         'RW'=>'Rwanda',
         'SA'=>'Σαουδική Αραβία',
-<<<<<<< HEAD
-        'UK'=>'Σκωτία',
-=======
         'GB-SCT'=>'Σκωτία',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'SB'=>'Νήσοι Σολομώντος',
         'SC'=>'Seychelles',
         'SS'=>'Νότιο Σουδάν',
@@ -387,10 +314,7 @@ return [
         'VI'=>'Παρθένες Νήσοι (Η.Π.Α.)',
         'VN'=>'Viet Nam',
         'VU'=>'Vanuatu',
-<<<<<<< HEAD
-=======
         'GB-WLS' =>'Wales',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'WF'=>'Νήσοι Ουώλλις Και Φουτούνα',
         'WS'=>'Samoa',
         'YE'=>'Υεμένη',

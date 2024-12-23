@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Je hebt dit asset met succes geweigerd.',
     'bulk_manager_warn'	        => 'Uw gebruikers zijn succesvol bijgewerkt, de gekozen manager kon echter niet toegepast worden omdat deze persoon ook in de lijst staat, gebruikers mogen niet hun eigen manager zijn. Probeer het nogmaals en selecteer de gebruikers zonder de manager.',
     'user_exists'               => 'Gebruiker bestaat reeds!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Gebruiker bestaat niet.',
-=======
     'user_not_found'            => 'Gebruiker bestaat niet of je hebt geen toestemming om deze gebruiker te bekijken.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Het veld gebruikersnaam is verplicht.',
     'user_has_no_assets_assigned' => 'Geen assets toegewezen aan de gebruiker.',
     'user_password_required'    => 'Het veld wachtwoord is verplicht.',

@@ -21,17 +21,10 @@ return array(
     ),
 
      'checkout' => array(
-<<<<<<< HEAD
-        'error'   		=> 'El componente no fue retirado, por favor, inténtalo de nuevo',
-        'success' 		=> 'Componente retirado con éxito.',
-        'user_does_not_exist' => 'Este usuario es inválido. Por favor, inténtalo de nuevo.',
-        'unavailable'      => 'No quedan suficientes componentes: :remaining resting, :requested ',
-=======
         'error'   		=> 'El componente no fue asignado, por favor, inténtelo de nuevo',
         'success' 		=> 'El componente se ha asignado correctamente.',
         'user_does_not_exist' => 'Ese usuario no es válido. Por favor, inténtelo de nuevo.',
         'unavailable'      => 'No quedan suficientes componentes: :remaining disponibles, :requested solicitados ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

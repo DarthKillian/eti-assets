@@ -90,10 +90,6 @@ return [
     'ldap_integration'          => 'LDAP integráció',
     'ldap_settings'             => 'LDAP beállítások',
     'ldap_client_tls_cert_help' => 'Az LDAP-kapcsolatok ügyféloldali TLS-tanúsítványa és kulcsa általában csak a "Biztonságos LDAP" Google Workspace-konfigurációkban hasznos. Mindkettőre szükség van.',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'LDAP ügyféloldali TLS kulcs',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'LDAP Location',
 'ldap_location_help'             => 'The Ldap Location field should be used if <strong>an OU is not being used in the Base Bind DN.</strong> Leave this blank if an OU search is being used.',
     'ldap_login_test_help'      => 'Adjon meg egy érvényes LDAP felhasználónevet és jelszót a fenti alapszintű DN-ből, hogy ellenőrizze, hogy az LDAP-bejelentkezés megfelelően van-e beállítva. EL KELL MENTENIE A MÓDOSÍTOTT LDAP BEÁLLÍTÁSOKAT ELŐBB.',
@@ -211,16 +207,10 @@ return [
     'integrations'               => 'Integrációk',
     'slack'                     => 'Slack',
     'general_webhook'           => 'General Webhook',
-<<<<<<< HEAD
-    'webhook'                   => ':app',
-    'webhook_presave'           => 'Test to Save',
-    'webhook_title'               => 'Update Webhook Settings',
-=======
     'ms_teams'                  => 'Microsoft Teams',
     'webhook'                   => ':app',
     'webhook_presave'           => 'Test to Save',
     'webhook_title'               => 'Webhook beállítások frissítése',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook_help'                => 'Integrációs beállítások',
     'webhook_botname'             => ':app Botname',
     'webhook_channel'             => ':app Channel',
@@ -230,11 +220,8 @@ return [
     'webhook_integration_help'    => ':app integration is optional, however the endpoint and channel are required if you wish to use it. To configure :app integration, you must first <a href=":webhook_link" target="_new" rel="noopener">create an incoming webhook</a> on your :app account. Click on the <strong>Test :app Integration</strong> button to confirm your settings are correct before saving. ',
     'webhook_integration_help_button'    => 'Once you have saved your :app information, a test button will appear.',
     'webhook_test_help'           => 'Test whether your :app integration is configured correctly. YOU MUST SAVE YOUR UPDATED :app SETTINGS FIRST.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Enable Shortcuts',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Snipe-IT változat',
     'support_footer'            => 'Lábjegyzet linkek támogatása ',
     'support_footer_help'       => 'Adja meg, hogy ki láthassa a Snipe-IT támogatási információ és a felhasználói kézikönyv linkjeit',
@@ -341,7 +328,7 @@ return [
     'localization_keywords' => 'lokalizáció, pénznem, helyi, lokalitás, időzóna, időzóna, nemzetközi, internatinalizáció, nyelv, nyelvek, fordítás',
     'localization_help' => 'Nyelv, dátum kijelzés',
     'notifications' => 'Értesítések',
-    'notifications_help' => 'Email Alerts & Audit Settings',
+    'notifications_help' => 'E-mail riasztások, audit beállítások',
     'asset_tags_help' => 'Inkrementálás és előtagok',
     'labels' => 'Címkék',
     'labels_title' => 'Címke beállítások frissítése',
@@ -392,8 +379,6 @@ return [
     'database_driver' => 'Adatbázis Illesztő',
     'bs_table_storage' => 'Table Storage',
     'timezone' => 'Időzóna',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Profil szerkesztése',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
     'default_avatar' => 'Upload custom default avatar',
@@ -403,6 +388,5 @@ return [
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

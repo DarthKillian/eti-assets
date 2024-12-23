@@ -32,6 +32,10 @@ return array(
     'title' 				=> 'Naslov',
 	'to_restore_them'		=> 'da jih obnovite.',
     'total_assets_cost'     => "Celotna cena sredstev",
+    'updateuser' 			=> 'Posodobi uporabnika',
+    'username' 				=> 'Uporabniško ime',
+	'user_deleted_text' 	=> 'Ta uporabnik je bil označen kot izbrisan.',
+    'username_note' 		=> '(Ta uporabnik se uporablja samo za povezavo z Active Directory, in ne za prijavo.)',
     'cloneuser'             => 'Kloniraj uporabnika',
     'viewusers' 			=> 'Ogled uporabnikov',
 );

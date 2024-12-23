@@ -1,13 +1,8 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'about_locations_title'     => 'Informazioni sulle posizioni',
-    'about_locations'           => 'Le posizioni sono usate per tracciare la posizione degli utenti, dei beni e di altri oggetti',
-=======
     'about_locations_title'     => 'Info sulle Sedi',
     'about_locations'           => 'Le Sedi sono usate per tracciare la collocazione degli utenti, dei beni e di altri oggetti',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'assets_rtd'                => 'Beni', // This has NEVER meant Assets Retired. I don't know how it keeps getting reverted.
     'assets_checkedout'         => 'Beni Assegnati',
     'id'                        => 'ID',
@@ -21,17 +16,10 @@ return [
     'name'                      => 'Nome Sede',
     'address'                   => 'Indirizzo',
     'address2'                   => 'Indirizzo, riga 2',
-<<<<<<< HEAD
-    'zip'                       => 'Codice Postale',
-    'locations'                 => 'Posizioni',
-    'parent'                    => 'Genitore',
-    'currency'                  => 'Valuta della Posizione',
-=======
     'zip'                       => 'CAP',
     'locations'                 => 'Sedi',
     'parent'                    => 'Parte di...',
     'currency'                  => 'Valuta della Sede',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_ou'                   => 'LDAP Search OU',
     'user_name'                 => 'Nome Utente',
     'department'                => 'Dipartimento',

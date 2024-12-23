@@ -44,11 +44,8 @@ return array(
         'error'   => 'Vyskytl se problém při výdeji licence. Zkuste to znovu prosím.',
         'success' => 'Licence byla úspěšně vydána',
         'not_enough_seats' => 'Není k dispozici dostatek licenčních míst pro pokladnu',
-<<<<<<< HEAD
-=======
         'mismatch' => 'The license seat provided does not match the license',
         'unavailable' => 'This seat is not available for checkout.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

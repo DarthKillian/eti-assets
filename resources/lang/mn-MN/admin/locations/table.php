@@ -34,10 +34,7 @@ return [
     'asset_checked_out'         => 'Нь шалгаж',
     'asset_expected_checkin'    => 'Expected Checkin',
     'date'                      => 'Огноо:',
-<<<<<<< HEAD
-=======
     'phone'                     => 'Location Phone',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'signed_by_asset_auditor'   => 'Signed By (Asset Auditor):',
     'signed_by_finance_auditor' => 'Signed By (Finance Auditor):',
     'signed_by_location_manager' => 'Signed By (Location Manager):',

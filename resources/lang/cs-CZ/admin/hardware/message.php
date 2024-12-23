@@ -17,11 +17,8 @@ return [
         'error'   		=> 'Majetek se nepodařilo vytvořit, zkuste to prosím znovu.',
         'success' 		=> 'Majetek byl v pořádku vytvořen.',
         'success_linked' => 'Asset with tag :tag was created successfully. <strong><a href=":link" style="color: white;">Click here to view</a></strong>.',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -66,10 +63,7 @@ return [
         'file_delete_success'   => 'Váš soubor byl úspěšně odstraněn',
         'file_delete_error'      => 'Soubor nelze odstranit',
         'file_missing' => 'Vybraný soubor chybí',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => 'The file selected was already deleted',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'Jeden nebo více sloupců obsahuje v záhlaví poškozené UTF-8 znaky',
         'content_row_has_malformed_characters' => 'Jedna nebo více hodnot v prvním řádku obsahu obsahuje poškozené UTF-8 znaky',
     ],

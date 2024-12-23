@@ -7,10 +7,7 @@ return [
     'checkin_and_delete'  	    => 'Verifică tot / Șterge Utilizatorul',
     'delete'  	                => 'Sterge',
     'edit'    	                => 'Editeaza',
-<<<<<<< HEAD
-=======
     'clone'    	                => 'Clone',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'restore' 	                => 'Restaureaza',
     'remove'                    => 'Elimină',
     'request'                   => 'Cerere',
@@ -25,8 +22,6 @@ return [
     'add_maintenance'           => 'Adaugă Mentenanță',
     'append'                    => 'Adăugare',
     'new'                       => 'Nou',
-<<<<<<< HEAD
-=======
     'var' => [
         'clone'     => 'Clone :item_type',
         'edit'      => 'Edit :item_type',
@@ -36,5 +31,4 @@ return [
         'checkout'  => 'Checkout :item_type',
         'checkin'   => 'Checkin :item_type',
     ]
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

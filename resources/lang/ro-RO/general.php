@@ -1,10 +1,7 @@
 <?php
 
 return [
-<<<<<<< HEAD
-=======
     '2FA_reset'             => '2FA reset',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'accessories'			=> 'Accesorii',
     'activated'			    => 'activat',
     'accepted_date'         => 'Data acceptării',
@@ -14,12 +11,9 @@ return [
     'activity_report'		=> 'Raport de activitate',
     'address'				=> 'Adresa',
     'admin'					=> 'Admin',
-<<<<<<< HEAD
-=======
     'admin_tooltip'			=> 'This user has admin privileges',
     'superuser'				=> 'Superuser',
     'superuser_tooltip'		=> 'This user has superuser privileges',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'administrator'			=> 'Administrator',
     'add_seats'             => 'Adăugat scaune',
     'age'                   => "Vârsta",
@@ -70,10 +64,7 @@ return [
     'checkout'  			=> 'Preda',
     'checkouts_count'       => 'Comenzi',
     'checkins_count'        => 'Verificări',
-<<<<<<< HEAD
-=======
     'checkin_and_delete'  	=> 'Checkin and Delete',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_requests_count'   => 'Cereri',
     'city'  				=> 'Oras',
     'click_here'			=> 'Click aici',
@@ -87,11 +78,7 @@ return [
     'consumables'			=> 'Consumabile',
     'country'  				=> 'Tara',
     'could_not_restore'     => 'Eroare la restabilirea :item_type: :error',
-<<<<<<< HEAD
-    'not_deleted'           => ':item_type nu este șters astfel încât nu poate fi restaurat',
-=======
     'not_deleted'           => 'The :item_type was not deleted and therefore cannot be restored',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Creeaza',
     'created'               => 'Articol creat',
     'created_asset'			=> 'Activ creat',
@@ -112,11 +99,7 @@ return [
     'debug_warning_text'    => 'Această aplicație rulează în modul de producție cu debugging activat. Acest lucru poate expune date sensibile dacă aplicația dvs. este accesibilă lumii exterioare. Dezactivați modul de depanare setând valoarea <code>APP_DEBUG</code> din fișierul <code>.env</code> la <code>false</code>.',
     'delete'  				=> 'Sterge',
     'delete_confirm'  		=> 'Sigur doriți să ștergeți :item?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Sigur doriți să ștergeți :item? Această acțiune nu poate fi anulată.',
-=======
     'delete_confirm_no_undo' => 'Are you sure, you wish to delete :item? This cannot be undone.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Sters',
     'delete_seats'  		=> 'Locurile șterse',
     'deletion_failed'       => 'Ștergerea a eșuat',
@@ -152,10 +135,7 @@ return [
     'lastname_firstinitial' => 'Prenume Prima Inițială (smith_j@example.com)',
     'firstinitial.lastname' => 'Primul nume inițial (j.smith@example.com)',
     'firstnamelastinitial'  => 'Prenume Nume Ultima Inițială (janes@example.com)',
-<<<<<<< HEAD
-=======
     'lastnamefirstname'      => 'Last Name.First Name (smith.jane@example.com)',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'first_name'			=> 'Prenume',
     'first_name_format'		=> 'Prenume (jane@example.com)',
     'files'                 => 'Fișiere',
@@ -177,15 +157,9 @@ return [
     'image_delete'         	=> 'Sterge poza',
     'include_deleted'       => 'Include active șterse',
     'image_upload'         	=> 'Incarca poza',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'Tipul de fișier acceptat este :types. Dimensiunea maximă permisă a încărcării este :size.<unk> Tipurile de fișiere acceptate sunt :types. Dimensiunea maximă permisă este de :size.',
-    'filetypes_size_help'   => 'Dimensiunea maximă permisă pentru încărcare este de :size.',
-    'image_filetypes_help'  => 'Tipurile de fișiere acceptate sunt jpg, webp, png, gif și svg. Dimensiunea maximă permisă pentru încărcare este :size.',
-=======
     'filetypes_accepted_help'    => 'Accepted filetype is :types. The maximum size allowed is :size.|Accepted filetypes are :types. The maximum upload size allowed is :size.',
     'filetypes_size_help'   => 'The maximum upload size allowed is :size.',
     'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'Acest fișier de imagine nu a putut fi citit. Tipurile de fișiere acceptate sunt jpg, webp, png, gif și svg. Amprenta acestui fișier este: :mimetype.',
     'import'         	    => 'Import',
     'import_this_file'      => 'Harta câmpuri și procesarea acestui fișier',
@@ -207,15 +181,6 @@ return [
     'last_name'             => 'Nume',
     'license'				=> 'Licenta',
     'license_report'        => 'Raport licente',
-<<<<<<< HEAD
-    'licenses_available'	=> 'Licente disponibile',
-    'licenses'				=> 'Licente',
-    'list_all'				=> 'Arata tot',
-    'loading'				=> 'Încărcare... vă rugăm așteptați....',
-    'lock_passwords'        => 'Această valoare a câmpului nu va fi salvată într-o instalare demonstrativă.',
-    'feature_disabled'      => 'Această funcție a fost dezactivată pentru instalarea demonstrativă.',
-    'location'              => 'Locatie',
-=======
     'licenses_available'	=> 'Licențe disponibile',
     'licenses'				=> 'Licente',
     'list_all'				=> 'Arata tot',
@@ -224,17 +189,12 @@ return [
     'feature_disabled'      => 'Această funcție a fost dezactivată pentru instalarea demonstrativă.',
     'location'              => 'Locatie',
     'location_plural'        => 'Locații',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'locations'				=> 'Locatii',
     'logo_size'				=> 'Logo-urile pătrate arată cel mai bine cu Logo + Text. Dimensiunea maximă a afișajului logo-ului este de 50px lățime maximă x 500px.  ',
     'logout'				=> 'Log out',
     'lookup_by_tag'     => 'Căutarea după eticheta de activ',
     'maintenances'          => 'Mentenanțe',
-<<<<<<< HEAD
-    'manage_api_keys'       => 'Gestionare chei API',
-=======
     'manage_api_keys'       => 'Manage API keys',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'manufacturer'			=> 'Producator',
     'manufacturers'			=> 'Producatori',
     'markdown'				=> 'Acest câmp permite marcarea <a href="https://help.github.com/articles/github-flavored-markdown/">Github markdown</a>.',
@@ -247,12 +207,9 @@ return [
     'new_password'          => 'Parolă nouă',
     'next'					=> 'Următor →',
     'next_audit_date'		=> 'Data următoarei auditări',
-<<<<<<< HEAD
-=======
     'next_audit_date_help'  => 'If you use auditing in your organization, this is usually automatically calculated based on the asset&apos;s last audit date and audit frequency (in <code>Admin Settings &gt; Alerts</code>) and you can leave this blank. You can manually set this date here if you need to, but it must be later than the last audit date. ',
     'audit_images_help'     => 'You can find audit images in the asset\'s history tab.',
     'no_email'              => 'Nicio adresă de e-mail asociată cu acest utilizator',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'last_audit'		    => 'Ultimul audit',
     'new'					=> 'nou!',
     'no_depreciation'		=> 'Fara depreciere',
@@ -273,11 +230,7 @@ return [
     'purchase_date'         => 'Data cumpărării',
     'qty'		            => 'QTY',
     'quantity'		        => 'Cantitate',
-<<<<<<< HEAD
-    'quantity_minimum'      => 'Ai :count articole sub sau aproape sub nivelurile minime de cantitate',
-=======
     'quantity_minimum'      => 'You have one item below or almost below minimum quantity levels|You have :count items below or almost below minimum quantity levels',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'quickscan_checkin'  	=> 'Scanare rapidă Checkin',
     'quickscan_checkin_status'  	=> 'Checkin Status',
     'ready_to_deploy'		=> 'Gata de lansare',
@@ -288,30 +241,21 @@ return [
     'restored'				=> 'restaurat',
     'restore'				=> 'Restaureaza',
     'requestable_models'    => 'Modele de solicitare',
-<<<<<<< HEAD
-=======
     'requestable_items'     => 'Requestable Items',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requested'				=> 'Cereri',
     'requested_date'        => 'Data solicitării',
     'requested_assets'      => 'Activele solicitate',
     'requested_assets_menu' => 'Activele solicitate',
     'request_canceled'      => 'Cerere anulată',
-<<<<<<< HEAD
-=======
     'request_item'          => 'Request this item',
     'external_link_tooltip' => 'External link to',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'save'  				=> 'Salveaza',
     'select_var'            => 'Selectează :thing... ', // this will eventually replace all of our other selects
     'select'				=> 'Selectați',
     'select_all'            => 'Selectează tot',
     'search'				=> 'Căutare',
     'select_category'       => 'Selectați o categorie',
-<<<<<<< HEAD
-=======
     'select_datasource' => 'Select a data source',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'select_department'     => 'Selectați un departament',
     'select_depreciation'	=> 'Selectați un tip de amortizare',
     'select_location'		=> 'Selectați o locație',
@@ -331,24 +275,15 @@ return [
     'signed_off_by'         => 'Semnat dezactivat de',
     'skin'       			=> 'Piele',
     'webhook_msg_note'        => 'O notificare va fi trimisă prin webhook',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Oh hai! Se pare că integrarea ta :app cu Snipe-IT funcționează!',
-=======
     'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'Modul DEMO: Unele caracteristici sunt dezactivate pentru această instalare.',
     'site_name'				=> 'Nume site',
     'state'  				=> 'Judet',
     'status_labels'			=> 'Etichete status',
-<<<<<<< HEAD
-    'status'    			=> 'Stare',
-    'accept_eula'           => 'Acceptare acord',
-=======
     'status_label'			=> 'Status Label',
     'status'    			=> 'Stare',
     'accept_eula'           => 'Acceptare acord',
     'show_or_hide_eulas' => 'Show/Hide EULAs',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'supplier'              => 'Furnizor',
     'suppliers'  			=> 'Furnizori',
     'sure_to_delete'        => 'Sigur doriți să ștergeți',
@@ -372,10 +307,7 @@ return [
     'user'					=> 'Utilizator',
     'accepted'			    => 'acceptat',
     'declined'			    => 'respins',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Declined Notes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Neatribuit',
     'unaccepted_asset_report' => 'Produse neacceptate',
     'users'                 => 'Utilizatori',
@@ -394,13 +326,10 @@ return [
     'token_expired'         => 'Sesiunea de formular a expirat. Vă rugăm să încercați din nou.',
     'login_enabled'         => 'Autentificare activată',
     'audit_due'             => 'De auditat',
-<<<<<<< HEAD
-=======
     'audit_due_days'        => 'Activele scadente pentru audit în termen de :days Active datorate pentru audit în următoarele zile',
     'checkin_due'           => 'De finalizat pentru Checkin',
     'checkin_overdue'       => 'Restabilit pentru Checkin',
     'checkin_due_days'      => 'Activele scadente pentru verificare în termen de :days Active de ziua De finalizat pentru Verificare în următoarele zile',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'audit_overdue'         => 'Audit întârziat',
     'accept'                => 'Acceptă :asset',
     'i_accept'              => 'Accept',
@@ -413,26 +342,16 @@ return [
     'view_all'              => 'vezi toate',
     'hide_deleted'          => 'Ascunde șterse',
     'email'                 => 'E-mail',
-<<<<<<< HEAD
-    'do_not_change'         => 'Nu schimba',
-    'bug_report'            => 'Raportează o eroare',
-=======
     'do_not_change'         => 'Do not change',
     'bug_report'            => 'Report a bug',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_manual'           => 'Manualul utilizatorului',
     'setup_step_1'          => 'Pasul 1',
     'setup_step_2'          => 'Pasul 2',
     'setup_step_3'          => 'Pasul 3',
     'setup_step_4'          => 'Pasul 4',
     'setup_config_check'    => 'Verificare configurație',
-<<<<<<< HEAD
-    'setup_create_database' => 'Creaza tabele baza de date',
-    'setup_create_admin'    => 'Creare utilizator administrator',
-=======
     'setup_create_database' => 'Create database tables',
     'setup_create_admin'    => 'Create an admin user',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'setup_done'            => 'Terminat!',
     'bulk_edit_about_to'    => 'Urmează să editați următoarele: ',
     'checked_out'           => 'Predat',
@@ -489,14 +408,9 @@ return [
     'accessory_name'       => 'Nume accesoriu:',
     'clone_item'            => 'Clonează elementul',
     'checkout_tooltip' => 'Verifică acest articol afară',
-<<<<<<< HEAD
-    'checkin_tooltip' => 'Bifați acest element în',
-    'checkout_user_tooltip' => 'Bifați acest element pentru un utilizator',
-=======
     'checkin_tooltip' => 'Check this item in so that it is available for re-issue, re-imaging, etc',
     'checkout_user_tooltip' => 'Bifați acest element pentru un utilizator',
     'checkin_to_diff_location' => 'You can choose to check this asset in to a location other than this asset\'s default location of :default_location if one is set',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'maintenance_mode'      => 'Serviciul este temporar indisponibil pentru actualizări de sistem. Vă rugăm să verificaţi din nou mai târziu.',
     'maintenance_mode_title' => 'Sistem temporar indisponibil',
     'ldap_import'           => 'Parola de utilizator nu ar trebui să fie gestionată de LDAP. (Acest lucru vă permite să trimiteți cereri de parolă uitată.)',
@@ -507,31 +421,20 @@ return [
     'bulk_soft_delete'      =>'De asemenea, soft-delete acesti utilizatori. Istoricul lor de active va ramane intact numai in cazul in care eliminati inregistrarile sterse din Setarile Administratorului.',
     'bulk_checkin_delete_success' => 'Utilizatorii selectați au fost șterși și elementele lor au fost verificate.',
     'bulk_checkin_success' => 'Elementele pentru utilizatorii selectați au fost verificate.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Ștergeți valorile pentru acest element / Ștergeți valorile pentru toate cele :asset_count active ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Ştergeţi :field values for this user<unk> Ştergeţi :field values for all :user_count users ',
     'na_no_purchase_date'   => 'N/A - Nicio dată de cumpărare furnizată',
     'assets_by_status'      => 'Bunuri după stare',
     'assets_by_status_type'      => 'Bunuri după tipul de stare',
     'pie_chart_type'        => 'Tip diagramă diagramă Dashboard',
     'hello_name'            => 'Salut, :name!',
-<<<<<<< HEAD
-    'unaccepted_profile_warning'   => 'Aveți :count elemente care necesită acceptare. Faceți clic aici pentru a le accepta sau refuzați',
-=======
     'unaccepted_profile_warning'   => 'You have one item requiring acceptance. Click here to accept or decline it | You have :count items requiring acceptance. Click here to accept or decline them',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'start_date'            => 'Data de început',
     'end_date'            => 'Data de încheiere',
     'alt_uploaded_image_thumbnail' => 'Miniatură încărcată',
     'placeholder_kit'       => 'Selectează un kit',
     'file_not_found'        => 'Fișierul nu a fost găsit',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'No record for that log entry was found.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(fără previzualizare)',
     'setup'                 => 'Configurare',
     'pre_flight'            => 'Debrietate',
@@ -557,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Generarea etichetelor de active cu auto-incrementare este dezactivată astfel încât toate rândurile trebuie să aibă coloana "Etichetă activă".',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Notă: Generarea de etichete active auto-incrementare este activată, astfel încât activele vor fi create pentru rândurile care nu au "Eticheta activului" populată. Rândurile care au "Eticheta activului" populate vor fi actualizate cu informaţiile furnizate.',
     'send_welcome_email_to_users'   => ' Trimite Email de Bine ai venit pentru utilizatori noi?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Trimite email',
     'call'                      => 'Nr. apel',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Copie de rezervă înainte de import?',
     'csv_header_field'          => 'Câmp de antet CSV',
     'import_field'              => 'Importă câmp',
     'sample_value'              => 'Valoare mostră',
     'no_headers'                => 'Nici o coloană găsită',
     'error_in_import_file'      => 'A apărut o eroare la citirea fișierului CSV: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':cent % Complet',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Au apărut unele erori în timpul importului: ',
     'warning'                   => 'ATENŢIE: :warning',
     'success_redirecting'       => '"Succes... Redirecţionare.',
@@ -587,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'Nu include utilizatorul pentru atribuirea în bloc a licenţei prin intermediul uneltelor de tip interfaţă sau cli.',
     'modal_confirm_generic'      => 'Ești sigur?',
     'cannot_be_deleted'      => 'Acest element nu poate fi șters',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'Acest element nu poate fi editat.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Acest element nu poate fi verificat. Verificaţi cantitatea rămasă.',
     'serial_number'        => 'Număr de serie',
     'item_notes' => ':item Note',
@@ -619,11 +512,8 @@ return [
         'address2' => 'Adresă linia 2',
         'import_note' => 'Importat folosind importatorul csv',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% complet',
     'uploading' => 'Încărcare... ',
     'upload_error' => 'Eroare la încărcarea fișierului. Vă rugăm să verificați că nu există rânduri goale și că nici un nume de coloane nu este duplicat.',
@@ -636,8 +526,6 @@ return [
     'action_permission_generic' => 'Nu ai permisiunea să :action acest :item_type',
     'edit' => 'editeaza',
     'action_source' => 'Sursa Acțiune',
-<<<<<<< HEAD
-=======
     'or' => 'sau',
     'url'                   => 'URL-',
     'edit_fieldset' => 'Editați câmpurile și opțiunile setului de câmp',
@@ -677,6 +565,5 @@ return [
     'label' => 'Label',
     'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
     'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

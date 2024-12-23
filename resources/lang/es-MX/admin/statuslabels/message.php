@@ -4,11 +4,7 @@ return [
 
     'does_not_exist' => 'Etiqueta de estado no existe.',
     'deleted_label' => 'Etiqueta de estado borrado',
-<<<<<<< HEAD
-    'assoc_assets'	 => 'Esta etiqueta de estado esta actualmente asociado con al menos un activo y no se puede eliminar. Por favor actualice sus activos para ya no hacer referencia a este estado y vuelva a intentarlo. ',
-=======
     'assoc_assets'	 => 'Esta etiqueta de estado está actualmente asociada con al menos un activo y no se puede eliminar. Por favor actualice sus activos para que ya no hagan referencia a este estado e inténtelo de nuevo. ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     'create' => [
         'error'   => 'La etiqueta de estado no pudo ser creada, por favor inténtelo de nuevo.',

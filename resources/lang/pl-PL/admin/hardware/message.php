@@ -17,11 +17,8 @@ return [
         'error'   		=> 'Nabytek nie został utworzony, proszę spróbować ponownie. :(',
         'success' 		=> 'Nowy nabytek został utworzony. :)',
         'success_linked' => 'Zasób o tagu :tag został utworzony pomyślnie. <strong><a href=":link" style="color: white;">Kliknij tutaj, aby wyświetlić</a></strong>.',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -66,10 +63,7 @@ return [
         'file_delete_success'   => 'Twój plik został poprawnie usunięty',
         'file_delete_error'      => 'Plik nie może zostać usunięty',
         'file_missing' => 'Brakuje wybranego pliku',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => 'The file selected was already deleted',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'Jeden lub więcej atrybutów w wierszu nagłówka zawiera nieprawidłowe znaki UTF-8',
         'content_row_has_malformed_characters' => 'Jeden lub więcej atrybutów w pierwszym rzędzie zawartości zawiera nieprawidłowe znaki UTF-8',
     ],

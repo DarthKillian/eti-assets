@@ -1,10 +1,7 @@
 <?php
 
 return [
-<<<<<<< HEAD
-=======
     '2FA_reset'             => 'Zurücksetzen der Zwei-Faktor-Authentifizierung',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'accessories'			=> 'Zubehör',
     'activated'			    => 'Aktiviert',
     'accepted_date'         => 'Datum akzeptiert',
@@ -14,12 +11,9 @@ return [
     'activity_report'		=> 'Aktivitätsbericht',
     'address'				=> 'Adresse',
     'admin'					=> 'Administrator',
-<<<<<<< HEAD
-=======
     'admin_tooltip'			=> 'Dieser Benutzer verfügt über Administratorrechte',
     'superuser'				=> 'Superuser',
     'superuser_tooltip'		=> 'Dieser Benutzer verfügt über Superuserrechte',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'administrator'			=> 'Administrator',
     'add_seats'             => 'Plätze hinzugefügt',
     'age'                   => "Alter",
@@ -37,11 +31,7 @@ return [
     'accept_assets_menu'    => 'Assets akzeptieren',
     'audit'				    => 'Prüfung',
     'audit_report'			=> 'Prüfungs-Log',
-<<<<<<< HEAD
-    'assets'				=> 'Anzahl',
-=======
     'assets'				=> 'Assets',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'assets_audited'        => 'geprüfte Assets',
     'assets_checked_in_count'     => 'Assets zurückgenommen',
     'assets_checked_out_count'     => 'Assets herausgegeben',
@@ -74,10 +64,7 @@ return [
     'checkout'  			=> 'Herausgeben',
     'checkouts_count'       => 'Herausgaben',
     'checkins_count'        => 'Rücknahmen',
-<<<<<<< HEAD
-=======
     'checkin_and_delete'  	=> 'Zurücknehmen und Löschen',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_requests_count'   => 'Anfragen',
     'city'  				=> 'Stadt',
     'click_here'			=> 'Hier klicken',
@@ -91,11 +78,7 @@ return [
     'consumables'			=> 'Verbrauchsmaterialien',
     'country'  				=> 'Land',
     'could_not_restore'     => 'Fehler beim Wiederherstellen von :item_type: :error',
-<<<<<<< HEAD
-    'not_deleted'           => ':item_type wurde nicht gelöscht, kann daher nicht wiederhergestellt werden',
-=======
     'not_deleted'           => 'Diese/s :item_type wurde nicht gelöscht und kann daher nicht wiederhergestellt werden',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Erstellen',
     'created'               => 'Eintrag erstellt',
     'created_asset'			=> 'Asset angelegt',
@@ -116,11 +99,7 @@ return [
     'debug_warning_text'    => 'Diese Anwendung läuft im Produktionsmodus mit Debugging aktiviert. Dies kann sensible Daten verfügbar machen, wenn Ihre Anwendung öffentlich zugänglich ist. Deaktivieren Sie den Debug-Modus, indem Sie den <code>APP_DEBUG</code>-Wert in der <code>.env</code> Datei auf <code>false</code> setzen.',
     'delete'  				=> 'Löschen',
     'delete_confirm'  		=> 'Sind Sie sicher, dass Sie :item löschen möchten?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Sind Sie sicher, dass Sie :item löschen möchten? Dies kann nicht rückgängig gemacht werden.',
-=======
     'delete_confirm_no_undo' => 'Möchten Sie :item wirklich löschen? Dies kann nicht rückgängig gemacht werden.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Gelöscht',
     'delete_seats'  		=> 'Gelöschte Plätze',
     'deletion_failed'       => 'Löschen fehlgeschlagen',
@@ -143,23 +122,6 @@ return [
     'exclude_archived'      => 'Archivierte Assets ausschließen',
     'exclude_deleted'       => 'Gelöschte Assets ausschließen',
     'example'				=> 'Beispiel: ',
-<<<<<<< HEAD
-    'filastname_format'			=> 'Initial des Vornamen + Nachname (jsmith@example.com)',
-    'firstname_lastname_format'	=> 'Vorname.Nachname (jane.smith@example.com)',
-    'firstname_lastname_underscore_format' => 'Vorname_Nachname (max_mustermann@beispiel.com)',
-    'lastnamefirstinitial_format' =>  'Nachname & Initiale des Vornamens (musterm@beispiel.com)',
-    'firstintial_dot_lastname_format' => 'Initiale des Vornamen.Nachname (j.smith@example.com)',
-    'firstname_lastname_display'	=> 'Vorname Nachname (Jane Smith)',
-    'lastname_firstname_display'	=> 'Nachname Vorname (Smith Jane)',
-    'name_display_format'	=> 'Name Anzeigeformat',
-    'first'					=> 'Erste',
-    'firstnamelastname'     => 'VornameNachname (ErikaMustermann@beispiel.de)',
-    'lastname_firstinitial' => 'Nachname_Initiale des Vornamens (mustermann_e@beispiel.de)',
-    'firstinitial.lastname' => 'Initiale des Vornamens.Nachname (e.mustermann@beispiel.de)',
-    'firstnamelastinitial'  => 'Vorname und Initiale des Nachnamen (erika_m@beispiel.de)',
-    'first_name'			=> 'Vorname',
-    'first_name_format'		=> 'Vorname (jane@example.com)',
-=======
     'filastname_format'			=> 'Initial des Vornamen & Nachname (emustermann@example.com)',
     'firstname_lastname_format'	=> 'Vorname.Nachname (erika.mustermann@example.com)',
     'firstname_lastname_underscore_format' => 'Vorname_Nachname (erika_mustermann@example.com)',
@@ -176,7 +138,6 @@ return [
     'lastnamefirstname'      => 'Nachname.Vorname (mustermann.erika@example.com)',
     'first_name'			=> 'Vorname',
     'first_name_format'		=> 'Vorname (erika@example.com)',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'files'                 => 'Dateien',
     'file_name'				=> 'Datei',
     'file_type'             => 'Dateityp',
@@ -196,19 +157,11 @@ return [
     'image_delete'         	=> 'Bild löschen',
     'include_deleted'       => 'Gelöschte Gegenstände einbeziehen',
     'image_upload'         	=> 'Bild hochladen',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'Akzeptierter Dateityp ist :types. Maximal zulässige Hochlade-Größe ist :size.|Akzeptierte Dateitypen sind :types. Maximal erlaubte Hochlade-Größe ist :size.',
-    'filetypes_size_help'   => 'Maximal erlaubte Hochlade-Größe ist :size.',
-    'image_filetypes_help'  => 'Akzeptierte Dateitypen sind jpg, png, gif und svg. Maximale Hochladegröße ist :size.',
-    'unaccepted_image_type'  => 'Diese Bilddatei ist nicht lesbar. Akzeptierte Dateitypen sind jpg, webp, png, gif und svg. Der MIME-Type dieser Datei ist: :mimetype.',
-    'import'         	    => 'Importieren',
-=======
     'filetypes_accepted_help'    => 'Akzeptierter Dateityp ist :types. Maximal zulässige Größe ist :size.|Akzeptierte Dateitypen sind :types. Maximal erlaubte Hochlade-Größe ist :size.',
     'filetypes_size_help'   => 'Maximal erlaubte Hochlade-Größe ist :size.',
     'image_filetypes_help'  => 'Akzeptierte Dateitypen sind jpg, webp, png, gif, svg, und avif. Die maximal zulässige Upload-Größe beträgt :size.',
     'unaccepted_image_type'  => 'Diese Bilddatei ist nicht lesbar. Akzeptierte Dateitypen sind jpg, webp, png, gif und svg. Der MIME-Type dieser Datei ist: :mimetype.',
     'import'         	    => 'Import',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'import_this_file'      => 'Felder zuordnen und diese Datei bearbeiten',
     'importing'         	=> 'Wird importiert',
     'importing_help'        => 'Sie können Assets, Zubehör, Lizenzen, Komponenten, Verbrauchsmaterialien und Benutzer mittels CSV-Datei importieren. <br><br>Die CSV-Datei sollte kommagetrennt sein und eine Kopfzeile enthalten, die mit den <a href="https://snipe-it.readme.io/docs/importing" target="_new">Beispiel-CSVs aus der Dokumentation</a> übereinstimmen.',
@@ -231,18 +184,11 @@ return [
     'licenses_available'	=> 'Verfügbare Lizenzen',
     'licenses'				=> 'Lizenzen',
     'list_all'				=> 'Alle auflisten',
-<<<<<<< HEAD
-    'loading'				=> 'Wird geladen... Bitte warten....',
-    'lock_passwords'        => 'Dieser Feldwert wird in einer Demo-Installation nicht gespeichert.',
-    'feature_disabled'      => 'Dieses Feature wurde für die Demo-Installation deaktiviert.',
-    'location'              => 'Standort',
-=======
     'loading'				=> 'Wird geladen... Bitte warten...',
     'lock_passwords'        => 'Dieser Feldwert wird in einer Demo-Installation nicht gespeichert.',
     'feature_disabled'      => 'Dieses Feature wurde für die Demo-Installation deaktiviert.',
     'location'              => 'Standort',
     'location_plural'        => 'Standort|Orte',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'locations'				=> 'Standorte',
     'logo_size'				=> 'Quadratische Logos sehen am besten aus, mit Logo + Text. Die maximale Logo-Größe beträgt 50px Höhe x 500px Breite.  ',
     'logout'				=> 'Abmelden',
@@ -261,12 +207,9 @@ return [
     'new_password'          => 'Neues Passwort',
     'next'					=> 'Nächste',
     'next_audit_date'		=> 'Nächstes Prüfungsdatum',
-<<<<<<< HEAD
-=======
     'next_audit_date_help'  => 'Wenn Sie in Ihrer Organisation Prüfungen verwenden, wird dies normalerweise automatisch basierend auf dem letzten Prüfungsdatum und der Prüfungshäufigkeit des Assets berechnet (in <code>Admin-Einstellungen &gt; Warnungen</code>) und Sie können dieses Feld leer lassen. Sie können dieses Datum auch hier bei Bedarf manuell festlegen, es muss jedoch nach dem letzten Prüfungsdatum liegen. ',
     'audit_images_help'     => 'Sie können Prüfbilder in der Asset-Historie finden.',
     'no_email'              => 'Es ist keine E-Mail-Adresse mit diesem Benutzer verknüpft',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'last_audit'		    => 'Letzte Prüfung',
     'new'					=> 'Neu!',
     'no_depreciation'		=> 'Nicht abschreiben',
@@ -287,11 +230,7 @@ return [
     'purchase_date'         => 'Kaufdatum',
     'qty'		            => 'Menge',
     'quantity'		        => 'Menge',
-<<<<<<< HEAD
-    'quantity_minimum'      => ':count Artikel sind unter oder fast unter der Mindestmenge',
-=======
     'quantity_minimum'      => 'Sie haben einen Artikel unter oder fast unter Mindestmenge Level|Sie haben :count Artikel unterhalb oder fast unter Mindestmenge',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'quickscan_checkin'  	=> 'Schnell-Rücknahme',
     'quickscan_checkin_status'  	=> 'Rückgabe Status',
     'ready_to_deploy'		=> 'Bereit zum Herausgeben',
@@ -302,30 +241,21 @@ return [
     'restored'				=> 'wiederhergestellt',
     'restore'				=> 'Wiederherstellen',
     'requestable_models'    => 'Angeforderte Modelle',
-<<<<<<< HEAD
-=======
     'requestable_items'     => 'Anforderbare Gegenstände',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requested'				=> 'Angefordert',
     'requested_date'        => 'Angefordertes Datum',
     'requested_assets'      => 'Angeforderte Assets',
     'requested_assets_menu' => 'Angeforderte Assets',
     'request_canceled'      => 'Anfrage abgebrochen',
-<<<<<<< HEAD
-=======
     'request_item'          => 'Diesen Artikel anfordern',
     'external_link_tooltip' => 'Externer Link zu',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'save'  				=> 'Speichern',
     'select_var'            => ':thing auswählen... ', // this will eventually replace all of our other selects
     'select'				=> 'Auswählen',
     'select_all'            => 'Alle markieren',
     'search'				=> 'Suche',
     'select_category'       => 'Kategorie auswählen',
-<<<<<<< HEAD
-=======
     'select_datasource' => 'Datenquelle auswählen',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'select_department'     => 'Abteilung auswählen',
     'select_depreciation'	=> 'Wählen Sie einen Abschreibungstyp',
     'select_location'		=> 'Wählen Sie einen Standort',
@@ -336,11 +266,7 @@ return [
     'select_date'			=> 'Wählen Sie ein Datum (JJJJ-MM-DD)',
     'select_statuslabel'	=> 'Status auswählen',
     'select_company'    	=> 'Firma auswählen',
-<<<<<<< HEAD
-    'select_asset'    		=> 'Asset auswählen',
-=======
     'select_asset'    		=> 'Wählen Sie ein Asset',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'settings'				=> 'Einstellungen',
     'show_deleted'  		=> 'Gelöschte anzeigen',
     'show_current'  		=> 'Aktuelles anzeigen',
@@ -349,24 +275,15 @@ return [
     'signed_off_by'         => 'Freigegeben von',
     'skin'       			=> 'Skin',
     'webhook_msg_note'        => 'Eine Benachrichtigung wird über den Webhook gesendet',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Oh hey! Sieht so aus, als ob Ihre :app Integration mit Snipe-IT funktioniert!',
-=======
     'webhook_test_msg'        => 'Oh hi! Sieht so aus, als ob Ihre :app Integration mit Snipe-IT funktioniert!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'DEMO-MODE: Einige Funktionen sind für diese Installation deaktiviert.',
     'site_name'				=> 'Seitenname',
     'state'  				=> 'Bundesland',
     'status_labels'			=> 'Statusbezeichnungen',
-<<<<<<< HEAD
-    'status'    			=> 'Status',
-    'accept_eula'           => 'Annahmeerklärung',
-=======
     'status_label'			=> 'Statusbezeichnung',
     'status'    			=> 'Status',
     'accept_eula'           => 'Annahmeerklärung',
     'show_or_hide_eulas' => 'EULAs ein-/ausblenden',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'supplier'              => 'Lieferant',
     'suppliers'  			=> 'Lieferanten',
     'sure_to_delete'        => 'Sind Sie sich sicher, dass Sie löschen möchten?',
@@ -390,10 +307,7 @@ return [
     'user'					=> 'Benutzer',
     'accepted'			    => 'angenommen',
     'declined'			    => 'abgelehnt',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Abgelehnte Notizen',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Nicht zugewiesen',
     'unaccepted_asset_report' => 'Nicht akzeptierte Assets',
     'users'                 => 'Benutzer',
@@ -412,13 +326,10 @@ return [
     'token_expired'         => 'Ihre Sitzung ist abgelaufen. Bitte versuchen Sie es erneut.',
     'login_enabled'         => 'Login aktiviert',
     'audit_due'             => 'Prüfung fällig',
-<<<<<<< HEAD
-=======
     'audit_due_days'        => 'Fällige Assets für Prüfung innerhalb von :days Tag|Fällige Assets für Prüfung innerhalb von :days',
     'checkin_due'           => 'Fällig zum Check-in',
     'checkin_overdue'       => 'Überfällig für den Check-in',
     'checkin_due_days'      => 'Fällige Assets für den Check-in innerhalb von :days Tag|Fällige Assets für den Check-in innerhalb von :days',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'audit_overdue'         => 'Prüfung überfällig',
     'accept'                => ':asset akzeptieren',
     'i_accept'              => 'Ich akzeptiere',
@@ -497,14 +408,9 @@ return [
     'accessory_name'       => 'Zubehörname:',
     'clone_item'            => 'Element klonen',
     'checkout_tooltip' => 'Diesen Gegenstand zuweisen',
-<<<<<<< HEAD
-    'checkin_tooltip' => 'Diesen Artikel zurücknehmen',
-    'checkout_user_tooltip' => 'Diesen Artikel an einen Benutzer herausgeben',
-=======
     'checkin_tooltip' => 'Diesen Artikel zurückgeben, sodass er erneut zur Ausgabe bereitsteht',
     'checkout_user_tooltip' => 'Diesen Artikel an einen Benutzer herausgeben',
     'checkin_to_diff_location' => 'Sie können dieses Asset an einen vom Standard-Standort abweichenden Standort herausgeben',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'maintenance_mode'      => 'Der Dienst ist wegen Wartungsarbeiten vorübergehend nicht verfügbar. Bitte versuchen Sie es später noch einmal.',
     'maintenance_mode_title' => 'System vorübergehend nicht verfügbar',
     'ldap_import'           => 'Das Benutzerkennwort sollte nicht von LDAP verwaltet werden. (Dies erlaubt es Ihnen, Links zum Zurücksetzen des Passworts zu senden.)',
@@ -515,31 +421,20 @@ return [
     'bulk_soft_delete'      =>'Die Benutzer auch "soft-löschen". Die Historie der Gegenstände bleibt erhalten, solange die markierten Datensätze nicht in den Admin-Einstellungen endgültig gelöscht werden.',
     'bulk_checkin_delete_success' => 'Die ausgewählten Benutzer wurden gelöscht und ihre Gegenstände wurden eingecheckt.',
     'bulk_checkin_success' => 'Die Gegenstände für die ausgewählten Benutzer wurden eingecheckt.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Werte für dieses Asset|Werte für alle :asset_count Assets löschen ',
-=======
     'set_to_null'           => 'Werte für diese Auswahl löschen|Werte für alle :selection_count Auswahlen löschen ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => ':field Werte für diesen Benutzer löschen|:field Werte für alle :user_count Benutzer löschen ',
     'na_no_purchase_date'   => 'N/A - Kein Kaufdatum angegeben',
     'assets_by_status'      => 'Assets sortiert nach Status',
     'assets_by_status_type'      => 'Assets sortiert nach Statustyp',
     'pie_chart_type'        => 'Dashboard Kreisdiagramm Typ',
     'hello_name'            => 'Hallo, :name!',
-<<<<<<< HEAD
-    'unaccepted_profile_warning'   => 'Sie haben :count Gegenstände, die akzeptiert werden müssen. Klicken Sie hier, um diese anzunehmen oder abzulehnen',
-=======
     'unaccepted_profile_warning'   => 'Sie haben einen Artikel, der akzeptiert werden muss. Klicken Sie hier, um ihn zu akzeptieren oder abzulehnen. | Sie haben :count Artikel, die akzeptiert werden müssen. Klicken Sie hier, um sie zu akzeptieren oder abzulehnen',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'start_date'            => 'Startdatum',
     'end_date'            => 'Enddatum',
     'alt_uploaded_image_thumbnail' => 'Hochgeladene Miniaturansicht',
     'placeholder_kit'       => 'Kit auswählen',
     'file_not_found'        => 'Datei wurde nicht gefunden',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'Es wurde kein Eintrag für diesen Logeintrag gefunden.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(keine Vorschau vorhanden)',
     'setup'                 => 'Setup',
     'pre_flight'            => 'Pre-Flight',
@@ -565,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Das Generieren von fortlaufenden Asset-Tags ist deaktiviert, daher müssen alle Datensätze die Spalte "Asset Tag" enthalten.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Hinweis: Das Generieren von fortlaufenden Asset-Tags ist aktiviert, daher wird für alle Datensätze, die keinen Asset-Tag angegeben haben, einer erstellt. Datensätze, die einen "Asset Tag" angegeben haben, werden mit den angegebenen Informationen aktualisiert.',
     'send_welcome_email_to_users'   => ' Willkommens-E-Mail für neue Benutzer senden?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'E-Mail senden',
     'call'                      => 'Nummer anrufen',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Vor dem Importieren sichern?',
     'csv_header_field'          => 'CSV-Header-Feld',
     'import_field'              => 'Feld importieren',
     'sample_value'              => 'Beispielwert',
     'no_headers'                => 'Keine Spalten gefunden',
     'error_in_import_file'      => 'Beim Lesen der CSV-Datei ist ein Fehler aufgetreten: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % abgeschlossen',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Es sind Fehler während des Importierens aufgetreten: ',
     'warning'                   => 'WARNUNG: :warning',
     'success_redirecting'       => '"Erfolgreich... Weiterleiten.',
@@ -595,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'Den Benutzer nicht bei der Lizenzen Massen-Zuweisung GUI oder CLI-Tools berücksichtigen.',
     'modal_confirm_generic'      => 'Sind Sie sich sicher?',
     'cannot_be_deleted'      => 'Dieser Gegenstand kann nicht gelöscht werden',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'Dieser Gegenstand kann nicht bearbeitet werden.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Dieser Gegenstand kann nicht herausgegeben werden. Überprüfen Sie die verbleibende Menge.',
     'serial_number'        => 'Seriennummer',
     'item_notes' => ':item Notizen',
@@ -627,11 +512,8 @@ return [
         'address2' => 'Adresszeile 2',
         'import_note' => 'Mit CSV-Importer importiert',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Dieses Feld aus dem Feldsatz entfernen. Das benutzerdefinierte Feld wird nicht gelöscht, nur die Verbindung des Feldes mit diesem Feldsatz.',
     'checked_out_to_fields' => 'Folgenden Feldern zugewiesen',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% vollständig',
     'uploading' => 'Wird hochgeladen ... ',
     'upload_error' => 'Fehler beim Hochladen der Datei. Bitte überprüfen Sie, dass keine leeren Zeilen vorhanden sind und keine Spaltennamen dupliziert werden.',
@@ -644,8 +526,6 @@ return [
     'action_permission_generic' => 'Sie haben keine Berechtigung für :action :item_type Id :id',
     'edit' => 'bearbeiten',
     'action_source' => 'Aktionsquelle',
-<<<<<<< HEAD
-=======
     'or' => 'oder',
     'url'                   => 'URL',
     'edit_fieldset' => 'Felder und Optionen des Feldsatzes bearbeiten',
@@ -685,6 +565,5 @@ return [
     'label' => 'Label',
     'import_asset_tag_exists' => 'Ein Asset mit dem Asset-Tag :asset_tag ist bereits vorhanden und es wurde keine Aktualisierung angefordert. Es wurden keine Änderungen vorgenommen.',
     'countries_manually_entered_help' => 'Werte mit einem Sternchen (*) wurden manuell eingegeben und stimmen nicht mit vorhandenen Dropdown-Werten nach ISO 3166 überein',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

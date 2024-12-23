@@ -25,10 +25,6 @@ return [
     'image'		    => 'Ang Imahe ng Device',
     'days_without_acceptance' => 'Ang mga Araw na Walang Pagtanggap',
     'monthly_depreciation' => 'Monthly Depreciation',
-<<<<<<< HEAD
-    'assigned_to'    => 'Nakatalaga Sa',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requesting_user' => 'Requesting User',
     'requested_date' => 'Requested Date',
     'changed'       => 'Changed',

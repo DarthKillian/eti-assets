@@ -14,10 +14,7 @@ return array(
     'info'  					=> 'Informazioni Licenza',
     'license_seats'  			=> 'Licenza Sede',
     'seat'  					=> 'Sede',
-<<<<<<< HEAD
-=======
     'seat_count'  				=> 'Slot :count',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'seats'  					=> 'Sedi',
     'software_licenses'  		=> 'Licenze Software',
     'user'  					=> 'Utente',
@@ -27,20 +24,12 @@ return array(
         [
             'checkin_all'           => [
                 'button'            => 'Check-in di tutte le postazioni',
-<<<<<<< HEAD
-                'modal'             => 'Ciò effettuerà il check-in di una postazione. | Ciò effettuerà il check-in di :checkedout_seats_count postazioni per questa licenza.',
-=======
                 'modal'             => 'Questa azione restituirà uno slot. | Questa azione restituirà tutti i :checkedout_seats_count slot di questa licenza.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
                 'enabled_tooltip'   => 'Check-in di TUTTE le postazioni di questa licenza, sia di utenti che di beni',
                 'disabled_tooltip'  => 'Disattivato perché non ci sono postazioni assegnate',
                 'disabled_tooltip_reassignable'  => 'Disattivato a causa della licenza non reassegnabile',
                 'success'           => 'Check-in della licenza effettuato! | Check-in di tutte le licenze effettuato!',
-<<<<<<< HEAD
-                'log_msg'           => 'Check-in effettuato tramite GUI di assegnazione massiva di licenze',
-=======
                 'log_msg'           => 'Restituzione effettuata tramite la restituzione massiva nell\'interfaccia delle Licenze',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
             ],
 
             'checkout_all'              => [
@@ -57,10 +46,7 @@ return array(
 
             ],
     ],
-<<<<<<< HEAD
-=======
 
     'below_threshold' => 'Ci sono solo :remaining_count installazioni disponibili rimaste per questa licenza con una quantità minima di :min_amt. Si consiglia di acquistarne altre.',
     'below_threshold_short' => 'Questo oggetto è in quantità inferiore alla soglia minima richiesta.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

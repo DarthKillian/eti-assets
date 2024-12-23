@@ -17,11 +17,8 @@ return [
         'error'   		=> 'Актив не был создан, пожалуйста попробуйте снова. :(',
         'success' 		=> 'Актив успешно создан. :)',
         'success_linked' => 'Актив с тегом :tag успешно создан. <strong><a href=":link" style="color: white;">Нажмите для просмотра</a></strong>.',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -66,10 +63,7 @@ return [
         'file_delete_success'   => 'Ваш файл был успешно удален',
         'file_delete_error'      => 'Невозможно удалить файл',
         'file_missing' => 'Выбранный файл отсутствует',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => 'Выбранный файл уже удален',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'Один или несколько атрибутов в строке заголовка содержат неправильно сформированные символы UTF-8',
         'content_row_has_malformed_characters' => 'Один или несколько атрибутов в первой строке содержимого содержат неправильно сформированные символы UTF-8',
     ],

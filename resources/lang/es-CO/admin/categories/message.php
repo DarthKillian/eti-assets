@@ -12,15 +12,9 @@ return array(
     ),
 
     'update' => array(
-<<<<<<< HEAD
-        'error'   => 'La categoría no se actualizó, por favor, inténtalo de nuevo',
-        'success' => 'Categoría actualizada con éxito.',
-        'cannot_change_category_type'   => 'No se puede cambiar el tipo de categoría una vez que se ha creado',
-=======
         'error'   => 'La categoría no se actualizó, por favor, inténtelo de nuevo',
         'success' => 'Categoría actualizada exitosamente.',
         'cannot_change_category_type'   => 'No puede cambiar el tipo de categoría una vez que se ha creado',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'delete' => array(

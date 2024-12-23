@@ -16,13 +16,9 @@ return [
     'create' => [
         'error'   		=> 'El activo no fue creado, por favor, inténtelo de nuevo. :(',
         'success' 		=> 'Activo creado con éxito. :)',
-<<<<<<< HEAD
-        'success_linked' => 'Activo con etiqueta :tag creado con éxito. <strong><a href=":link" style="color: white;">Haga clic aquí para ver</a></strong>.',
-=======
         'success_linked' => 'Activo con placa :tag creado con éxito. <strong><a href=":link" style="color: white;">Haga clic aquí para ver</a></strong>.',
         'multi_success_linked' => 'Activo con etiqueta :links fue creado exitosamente.|:count activos fueron creados correctamente. :links.',
         'partial_failure' => 'No se ha podido crear un activo: Motivo: :failures|No se pudieron crear :count activos. Motivos: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -35,15 +31,9 @@ return [
     ],
 
     'restore' => [
-<<<<<<< HEAD
-        'error'   		=> 'El activo no fue restaurado, por favor, inténtalo de nuevo',
-        'success' 		=> 'Activo restaurado correctamente.',
-        'bulk_success' 		=> 'Activo restaurado correctamente.',
-=======
         'error'   		=> 'El activo no fue restaurado, por favor inténtelo nuevamente',
         'success' 		=> 'Activo restaurado exitosamente.',
         'bulk_success' 		=> 'Activo restaurado exitosamente.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'nothing_updated'   => 'No se seleccionaron activos, por lo que no se restauró nada.', 
     ],
 
@@ -73,14 +63,9 @@ return [
         'file_delete_success'   => 'Su archivo se ha eliminado correctamente',
         'file_delete_error'      => 'El archivo no se pudo eliminar',
         'file_missing' => 'Falta el archivo seleccionado',
-<<<<<<< HEAD
-        'header_row_has_malformed_characters' => 'Uno o más atributos en la fila del encabezado contienen caracteres UTF-8 mal formados',
-        'content_row_has_malformed_characters' => 'Uno o más atributos en la primera fila de contenido contienen caracteres UTF-8 mal formados',
-=======
         'file_already_deleted' => 'El archivo seleccionado ya fue eliminado',
         'header_row_has_malformed_characters' => 'Uno o más atributos en la fila del encabezado contienen caracteres UTF-8 mal formados',
         'content_row_has_malformed_characters' => 'Uno o más atributos en la primera fila contienen caracteres UTF-8 mal formados',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
 

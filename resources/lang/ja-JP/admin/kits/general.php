@@ -37,11 +37,7 @@ return [
     'accessory_detached'                => '付属品は正常に取り外されました。',
     'accessory_error'                   => '付属品は既にキットに取り付けられています。',
     'accessory_deleted'                 => '削除に成功しました。',
-<<<<<<< HEAD
-    'accessory_none'                    => 'The accessory does not exist',
-=======
     'accessory_none'                    => '付属品は存在しません',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'checkout_success'                  => 'チェックアウトに成功しました',
     'checkout_error'                    => 'チェックアウトエラー',
     'kit_none'                          => 'キットが存在しません',

@@ -6,30 +6,17 @@ return array(
     'declined'                  => 'Го одбивте основното средство.',
     'bulk_manager_warn'	        => 'Вашите корисници се ажурирани, но записот за менаџерот не е зачуван, бидејќи менаџерот што го избравте беше во листата на корисници што се ажурираа. Корисниците не може да бидат свој сопствен менаџер. Изберете ги корисниците повторно, со исклучок на менаџерот и пробајте пак.',
     'user_exists'               => 'Корисникот веќе постои!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Корисникот не постои.',
-    'user_login_required'       => 'Полето за корисничко име е задолжително',
-    'user_has_no_assets_assigned' => 'No assets currently assigned to user.',
-=======
     'user_not_found'            => 'Корисникот не постои или немате дозвола да го видите.',
     'user_login_required'       => 'Полето за корисничко име е задолжително',
     'user_has_no_assets_assigned' => 'Моментално нема средства доделени на корисникот.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_password_required'    => 'Потребна е лозинка.',
     'insufficient_permissions'  => 'Недоволни дозволи.',
     'user_deleted_warning'      => 'Овој корисник е избришан. Ќе мора да го вратите за да го ажурирате или да му доделите нови основни средства.',
     'ldap_not_configured'        => 'Интеграција со LDAP не е конфигурирана.',
-<<<<<<< HEAD
-    'password_resets_sent'      => 'The selected users who are activated and have a valid email addresses have been sent a password reset link.',
-    'password_reset_sent'       => 'A password reset link has been sent to :email!',
-    'user_has_no_email'         => 'This user does not have an email address in their profile.',
-    'log_record_not_found'        => 'A matching log record for this user could not be found.',
-=======
     'password_resets_sent'      => 'На избраниот корисник кој е активиран и има валидна адреса на е-пошта испратен е линк за обнова на лозинката.',
     'password_reset_sent'       => 'Линк за обнова на лозинка е испратен на :email!',
     'user_has_no_email'         => 'Корисникот нема адреса на е-пошта во неговиот профил.',
     'log_record_not_found'        => 'Не можеше да се најде соодветен запис од дневникот за овој корисник.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     'success' => array(

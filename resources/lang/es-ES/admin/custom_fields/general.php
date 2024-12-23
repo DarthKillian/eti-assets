@@ -28,16 +28,6 @@ return [
     'order'   		            => 'Orden',
     'create_fieldset'         => 'Nuevo grupo de campos',
     'update_fieldset'         => 'Actualizar grupo de campos',
-<<<<<<< HEAD
-    'fieldset_does_not_exist'   => 'Grupo de campos :id no existe',
-    'fieldset_updated'         => 'Grupo de campos actualizado',
-    'create_fieldset_title' => 'Crear nuevo grupo de campos',
-    'create_field'            => 'Nuevo campo personalizado',
-    'create_field_title' => 'Crear nuevo campo personalizado',
-    'value_encrypted'      	        => 'El valor de este campo está encriptado en la base de datos. Solo los administradores pueden ver el valor desencriptado',
-    'show_in_email'     => '¿Incluye el valor de este campo en los correos de pago enviados al usuario? Los campos cifrados no se pueden incluir en los correos electrónicos',
-    'show_in_email_short'     => 'Incluye en correos electrónicos.',
-=======
     'fieldset_does_not_exist'   => 'El grupo de campos :id no existe',
     'fieldset_updated'         => 'Se actualizó el grupo de campos',
     'create_fieldset_title' => 'Crear un nuevo grupo de campos',
@@ -46,7 +36,6 @@ return [
     'value_encrypted'      	        => 'El valor de este campo está cifrado en la base de datos. Solo los administradores pueden ver el valor descifrado',
     'show_in_email'     => '¿Incluir el valor de este campo en los correos de asignación enviados al usuario? Los campos cifrados no se pueden incluir en los correos electrónicos',
     'show_in_email_short'     => 'Incluir en los correos electrónicos.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'help_text' => 'Texto de ayuda',
     'help_text_description' => 'Este es un texto opcional que aparecerá debajo de los campos del formulario cuando se edite un activo para proporcionar contexto adicional.',
     'about_custom_fields_title' => 'Acerca de los campos personalizados',
@@ -59,16 +48,6 @@ return [
     'db_convert_warning' => 'ADVERTENCIA. Este campo aparece en la tabla de campos personalizados como <code>:db_column</code>, pero se esperaba <code>:expected</code>.',
     'is_unique' => 'Este valor debe ser único para todos los activos',
     'unique' => 'Único',
-<<<<<<< HEAD
-    'display_in_user_view' => 'Permitir al usuario ver estos valores en su página Ver Recursos asignados',
-    'display_in_user_view_table' => 'Visible para el usuario',
-    'auto_add_to_fieldsets' => 'Añadir automáticamente a cada nuevo conjunto de campos',
-    'add_to_preexisting_fieldsets' => 'Añadir a cualquier conjunto de campos existente',
-    'show_in_listview' => 'Mostrar por defecto en las vistas de la lista. Los usuarios autorizados podrán mostrar/ocultar a través del selector de columnas',
-    'show_in_listview_short' => 'Mostrar en listas',
-    'show_in_requestable_list_short' => 'Mostrar en la lista de activos solicitables',
-    'show_in_requestable_list' => 'Mostrar el valor en la lista de activos solicitables. Los campos cifrados no se mostrarán',
-=======
     'display_in_user_view' => 'Permitir al usuario ver estos valores en la página "Ver activos asignados"',
     'display_in_user_view_table' => 'Visible para el usuario',
     'auto_add_to_fieldsets' => 'Añadir automáticamente a cada nuevo grupo de campos',
@@ -77,7 +56,6 @@ return [
     'show_in_listview_short' => 'Mostrar en las listas',
     'show_in_requestable_list_short' => 'Mostrar en la lista de activos que se pueden solicitar',
     'show_in_requestable_list' => 'Mostrar el valor en la lista de activos que se pueden solicitar. Los campos cifrados no se mostrarán',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'encrypted_options' => 'Este campo está cifrado, por lo que algunas opciones de visualización no estarán disponibles.',
 
 ];

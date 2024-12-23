@@ -62,13 +62,7 @@ return [
     'link_to_update_password' => 'Proszę kliknąć na poniższy link, aby zaktualizować swoje hasło na :web:',
     'login' => 'Login',
     'login_first_admin' => 'Zaloguj się do aplikacji Snipe-IT przy użyciu poniższych poświadczeń:',
-<<<<<<< HEAD
-    'login' => 'Login:',
-    'Low_Inventory_Report' => 'Raport niskiego stanu zasobów',
-    'inventory_report' => 'Raport z magazynu',
-=======
     'low_inventory_alert' => 'Istnieje: liczba przedmiot, który jest poniżej minimalnej ilości zapasów lub wkrótce ta wartość będzie niska. | Istnieją: policz przedmioty, które są poniżej minimalnej ilości zapasów lub wkrótce te wartości będą niskie.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Min. ilość',
     'name' => 'Nazwa',
     'new_item_checked' => 'Nowy przedmiot przypisany do Ciebie został zwrócony, szczegóły poniżej.',
@@ -89,12 +83,6 @@ return [
     'test_email' => 'Testowy email z :web',
     'test_mail_text' => 'To jest wiadomość testowa z aplikacji Snipe-IT Asset Management System. Jeśli otrzymałeś ją - poczta działa :)',
     'the_following_item' => 'Następujący sprzęt został otrzymany: ',
-<<<<<<< HEAD
-    'low_inventory_alert' => 'Istnieje: liczba przedmiot, który jest poniżej minimalnej ilości zapasów lub wkrótce ta wartość będzie niska. | Istnieją: policz przedmioty, które są poniżej minimalnej ilości zapasów lub wkrótce te wartości będą niskie.',
-    'assets_warrantee_alert' => 'Istnieje :count aktywów z gwarancją wygasającą w ciągu następnych :thereshold dni. | Istnieje :count aktywów z gwarancją wygasającą w ciągu następnych :threshold dni.',
-    'license_expiring_alert' => 'Istnieje: liczba licencja wygasająca w ciągu następnych: dni progowe. | Istnieje: liczba licencji wygasających w ciągu następnych: dni progowe.',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'to_reset' => 'Aby zresetować hasło na :web, wypełnij ten formularz:',
     'type' => 'Typ',
     'upcoming-audits' => 'Istnieje :count aktywa, które nadchodzą do rewizji w ciągu :threshold days.|Istnieje :count aktywów, które nadchodzą do rewizji w ciągu :threshold dni.',
@@ -103,17 +91,6 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Witaj :name',
     'welcome_to' => 'Witamy na :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Twoje poświadczenia :web',
-    'Accessory_Checkin_Notification' => 'Akcesorium zwrócono',
-    'Asset_Checkin_Notification' => 'Sprzęt zwrócono',
-    'Asset_Checkout_Notification' => 'Zasób wydany',
-    'License_Checkin_Notification' => 'Akcesorium zwrócono',
-    'Expected_Checkin_Report' => 'Oczekiwano raportu kontroli aktywów',
-    'Expected_Checkin_Notification' => 'Przypomnienie: :name sprawdza termin zbliżający się',
-    'Expected_Checkin_Date' => 'Zasób przypisany Tobie ma być zwrócony w dniu :date',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'Zobacz swój sprzęt',
     'your_credentials' => 'Twoje poświadczenia :web',
     'mail_sent' => 'Wiadomość wysłana pomyślnie!',

@@ -2,13 +2,6 @@
 
 return [
 
-<<<<<<< HEAD
-    'undeployable' 		=> '<strong>Attention: </strong> Ce bien a été marqué non déployable.
-                        Si ce statut a changé, veuillez l\'actualiser.',
-    'does_not_exist' 	=> 'Ce bien n\'existe pas.',
-    'does_not_exist_or_not_requestable' => 'Cet actif n\'existe pas ou ne peut pas être demandé.',
-    'assoc_users'	 	=> 'Ce bien est marqué sorti par un utilisateur et ne peut être supprimé. Veuillez d\'abord cliquer sur Retour de Biens, et réessayer.',
-=======
     'undeployable' 		 => '<strong>Attention : </strong> Cet actif est marqué comme indéployable. Si ce statut a changé, merci de mettre à jour le statut d\'actif.',
     'does_not_exist' 	 => 'Ce bien n\'existe pas.',
     'does_not_exist_var' => 'Actif avec le tag :asset_tag introuvable.',
@@ -19,17 +12,13 @@ return [
     'labels_generated'   => 'Labels were successfully generated.',
     'error_generating_labels' => 'Error while generating labels.',
     'no_assets_selected' => 'No assets selected.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     'create' => [
         'error'   		=> 'Ce bien n\'a pas été créé, veuillez réessayer. :(',
         'success' 		=> 'Bien créé correctement. :)',
         'success_linked' => 'L\'actif avec le tag :tag a été créé avec succès. <strong><a href=":link" style="color: white;">Cliquez ici pour voir</a></strong>.',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -74,10 +63,7 @@ return [
         'file_delete_success'   => 'Votre fichier a été correctement supprimé',
         'file_delete_error'      => 'Le fichier n’a pas pu être supprimé',
         'file_missing' => 'Le fichier sélectionné est manquant',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => 'The file selected was already deleted',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'Un ou plusieurs attributs dans la ligne d\'en-tête contiennent des caractères UTF-8 invalides',
         'content_row_has_malformed_characters' => 'Un ou plusieurs attributs dans la première ligne de contenu contiennent des caractères UTF-8 invalides',
     ],

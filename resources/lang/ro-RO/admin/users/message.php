@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Ați refuzat cu succes acest activ.',
     'bulk_manager_warn'	        => 'Utilizatorii dvs. au fost actualizați cu succes, cu toate acestea, intrarea managerului dvs. nu a fost salvată, deoarece managerul pe care l-ați selectat a fost, de asemenea, în lista de utilizatori care urmează să fie editat și este posibil ca utilizatorii să nu fie propriul manager. Selectați din nou utilizatorii dvs., cu excepția managerului.',
     'user_exists'               => 'Utilizatorul exista deja!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Utilizatorul nu exista.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Campul de login este necesar',
     'user_has_no_assets_assigned' => 'Nici un activ alocat utilizatorului în prezent.',
     'user_password_required'    => 'Este necesara parola.',

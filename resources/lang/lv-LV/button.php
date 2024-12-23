@@ -22,8 +22,6 @@ return [
     'add_maintenance'           => 'Add Maintenance',
     'append'                    => 'Append',
     'new'                       => 'Jauns',
-<<<<<<< HEAD
-=======
     'var' => [
         'clone'     => 'Clone :item_type',
         'edit'      => 'Edit :item_type',
@@ -33,5 +31,4 @@ return [
         'checkout'  => 'Checkout :item_type',
         'checkin'   => 'Checkin :item_type',
     ]
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

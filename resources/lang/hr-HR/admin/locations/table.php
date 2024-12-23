@@ -21,11 +21,7 @@ return [
     'parent'                    => 'Roditelj',
     'currency'                  => 'Valuta lokacije',
     'ldap_ou'                   => 'LDAP pretraživanje OU',
-<<<<<<< HEAD
-    'user_name'                 => 'User Name',
-=======
     'user_name'                 => 'Korisničko ime',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'department'                => 'odjel',
     'location'                  => 'Mjesto',
     'asset_tag'                 => 'Assets Tag',
@@ -38,10 +34,7 @@ return [
     'asset_checked_out'         => 'Odjavio',
     'asset_expected_checkin'    => 'Expected Checkin',
     'date'                      => 'Datum:',
-<<<<<<< HEAD
-=======
     'phone'                     => 'Location Phone',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'signed_by_asset_auditor'   => 'Signed By (Asset Auditor):',
     'signed_by_finance_auditor' => 'Signed By (Finance Auditor):',
     'signed_by_location_manager' => 'Signed By (Location Manager):',

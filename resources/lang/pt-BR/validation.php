@@ -92,22 +92,6 @@ return [
         'numeric' => 'The :attribute field must be less than or equal to :value.',
         'string' => 'The :attribute field must be less than or equal to :value characters.',
     ],
-<<<<<<< HEAD
-    'starts_with'          => 'O atributo deve começar com um dos seguintes valores.',
-    'ends_with'            => 'O :attribute deve terminar com um dos seguintes: :values.',
-
-    'not_in'               => 'O :attribute selecionado é inválido.',
-    'numeric'              => 'O :attribute deve ser um número.',
-    'present'              => 'O campo:attribute deve estar presente.',
-    'valid_regex'          => 'Isso não é uma regex válida. ',
-    'regex'                => 'O formato de :attribute é inválido.',
-    'required'             => 'O campo de :attribute é requerido.',
-    'required_if'          => 'O campo de :attribute é requerido quando :other é :value.',
-    'required_unless'      => 'O campo:attribute é obrigatório a não ser que: :other estiver em : :values.',
-    'required_with'        => 'O campo de :attribute é requerido quando :values está presente.',
-    'required_with_all'    => 'O campo :attribute é obrigatorio quando : :values está presente.',
-    'required_without'     => 'O campo de :attribute é requerido quando :values não está presente.',
-=======
     'mac_address' => 'The :attribute field must be a valid MAC address.',
     'max' => [
         'array' => 'The :attribute field must not have more than :max items.',
@@ -162,7 +146,6 @@ return [
     'required_with' => 'O campo de :attribute é requerido quando :values está presente.',
     'required_with_all' => 'The :attribute field is required when :values are present.',
     'required_without' => 'O campo de :attribute é requerido quando :values não está presente.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'required_without_all' => 'O campo :attribute é obrigatório nenhum dos :values está presente.',
     'same' => 'The :attribute field must match :other.',
     'size' => [
@@ -173,21 +156,10 @@ return [
     ],
     'starts_with' => 'The :attribute field must start with one of the following: :values.',
     'string'               => 'O :attribute deve ser string.',
-<<<<<<< HEAD
-    'timezone'             => 'O :attribute deve ser um campo válido.',
-    'two_column_unique_undeleted' => 'O :attribute deve ser único entre :table1 e :table2. ',
-    'unique'               => 'O :attribute já foi tomado.',
-    'uploaded'             => 'O :attribute falhou no upload.',
-    'url'                  => 'O formato de :attribute é inválido.',
-    'unique_undeleted'     => 'O :attribute deve ser único.',
-    'non_circular'         => 'O :attribute não pode criar uma referência circular.',
-    'not_array'            => ':atribute harus array.',
-=======
     'two_column_unique_undeleted' => 'O :attribute deve ser único entre :table1 e :table2. ',
     'unique_undeleted'     => 'O :attribute deve ser único.',
     'non_circular'         => 'O :attribute não pode criar uma referência circular.',
     'not_array'            => ':attribute não pode ser um array.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'disallow_same_pwd_as_user_fields' => 'A senha não pode ser igual ao nome de usuário.',
     'letters'              => 'A senha deve conter pelo menos uma letra.',
     'numbers'              => 'A senha deve conter pelo menos um número.',
@@ -223,13 +195,8 @@ return [
         'custom_field_not_found_on_model' => 'This field seems to exist, but is not available on this Asset Model\'s fieldset.',
 
         // date_format validation with slightly less stupid messages. It duplicates a lot, but it gets the job done :(
-<<<<<<< HEAD
-        // We use this because the default error message for date_format is reflects php Y-m-d, which non-PHP
-        // people won't know how to format. 
-=======
         // We use this because the default error message for date_format reflects php Y-m-d, which non-PHP
         // people won't know how to format.
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'purchase_date.date_format'     => 'O :attribute deve ser uma data válida em formato DD-MM-YYYY',
         'last_audit_date.date_format'   =>  'O :attribute deve ser uma data válida em formato DD-MM-YYYY hh:mm:ss',
         'expiration_date.date_format'   =>  'O :attribute deve ser uma data válida em formato DD-MM-YYYY',
@@ -237,12 +204,9 @@ return [
         'expected_checkin.date_format'  =>  'O :attribute deve ser uma data válida em formato DD-MM-YYYY',
         'start_date.date_format'        =>  'O :attribute deve ser uma data válida em formato DD-MM-YYYY',
         'end_date.date_format'          =>  'O :attribute deve ser uma data válida em formato DD-MM-YYYY',
-<<<<<<< HEAD
-=======
         'checkboxes'           => ':attribute contém opções inválidas.',
         'radio_buttons'        => ':attribute é inválido.',
         'invalid_value_in_field' => 'Valor inválido incluído neste campo',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
         'ldap_username_field' => [
             'not_in' =>         '<code>sAMAccountName</code> (mixed case) will likely not work. You should use <code>samaccountname</code> (lowercase) instead.'

@@ -26,15 +26,11 @@ return array(
         'error'   		=> 'Het accessoire is niet uitgecheckt. Probeer het opnieuw.',
         'success' 		=> 'Het accessoire is uitgecheckt.',
         'unavailable'   => 'Accessoire kan niet worden uitgegeven. Controleer de beschikbare hoeveelheid',
-<<<<<<< HEAD
-        'user_does_not_exist' => 'Deze gebruiker is ongeldig. Probeer het opnieuw.'
-=======
         'user_does_not_exist' => 'Deze gebruiker is ongeldig. Probeer het opnieuw.',
          'checkout_qty' => array(
             'lte'  => 'Er is momenteel slechts één beschikbaar accessoire van dit type en u probeert :checkout_qty uit te checken. Pas het uitcheck aantal of de totale voorraad van dit accessoire aan en probeer het opnieuw.|Er zijn :number_currently_remaining totaal beschikbare accessoires en u probeert :checkout_qty uit te checken. Pas het uitcheck aantal of de totale voorraad van dit accessoire aan en probeer het opnieuw.',
             ),
            
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

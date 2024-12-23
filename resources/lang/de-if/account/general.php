@@ -2,15 +2,6 @@
 
 return array(
     'personal_api_keys' => 'Persönliche API-Schlüssel',
-<<<<<<< HEAD
-    'api_key_warning' => 'Wenn Du ein API-Token generierst, stelle sicher, dass Du es sofort danach kopierst, da es
-                    nicht mehr für Dich sichtbar sein wird.',
-    'api_base_url' => 'Deine API Basis-URL befindet sich unter:',
-    'api_base_url_endpoint' => '/&lt;Endpunkt&gt;',
-    'api_token_expiration_time' => 'API-Token sollen ablaufen in:',
-    'api_reference' => 'Bitte lese die <a href="https://snipe-it.readme.io/reference" target="_blank">API Dokumentation</a> um
-                    Informationen über die verfügbaren API endpoints und ihre Verwendung zu erhalten.',
-=======
     'personal_access_token' => 'Persönlicher Zugangsschlüssel',
     'personal_api_keys_success' => 'Persönlicher API-Schlüssel :key erfolgreich erstellt',
     'here_is_api_key' => 'Hier ist Ihr neuer persönlicher Zugangsschlüssel. Dies ist das einzige Mal, dass er angezeigt wird, also verlieren Sie ihn nicht! Sie können diesen Schlüssel jetzt verwenden, um API-Anfragen zu stellen.',
@@ -23,5 +14,4 @@ return array(
     'no_tokens' => 'Sie haben keine persönlichen Zugangsschlüssel erstellt.',
     'enable_sounds' => 'Soundeffekte aktivieren',
     'enable_confetti' => 'Konfetti-Effekte aktivieren',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

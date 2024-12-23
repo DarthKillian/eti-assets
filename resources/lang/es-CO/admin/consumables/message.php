@@ -22,17 +22,10 @@ return array(
     ),
 
      'checkout' => array(
-<<<<<<< HEAD
-        'error'   		=> 'El consumible no fue retirado, por favor, inténtalo de nuevo',
-        'success' 		=> 'Consumible retirado con éxito.',
-        'user_does_not_exist' => 'Este usuario es inválido. Por favor, inténtalo de nuevo.',
-         'unavailable'      => 'No hay suficientes consumibles para este pago. Por favor, compruebe la cantidad restante. ',
-=======
         'error'   		=> 'El consumible no fue asignado, por favor inténtelo de nuevo',
         'success' 		=> 'Consumible asignado correctamente.',
         'user_does_not_exist' => 'Ese usuario no es válido. Por favor, inténtelo de nuevo.',
          'unavailable'      => 'No hay suficientes consumibles para esta asignación. Por favor, compruebe la cantidad disponible. ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

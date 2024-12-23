@@ -12,13 +12,7 @@ return [
     'remember_me'                   => 'Zapamätať prihlásenie',
     'username_help_top'                 => 'Vložte Vaše <strong>užívateľské meno</strong> pre odoslanie odkazu emailom na resetovanie hesla.',
     'username_help_bottom'          => 'Vaše používateľské meno a e-mailová adresa <em>môžu</em> byť rovnaké, ale nemusia, v závislosti od vašej konfigurácie. Ak si nepamätáte svoje používateľské meno, obráťte sa na správcu. <br><br><strong>Používateľským menám bez priradenej e-mailovej adresy nebude odoslaný odkaz na obnovenie hesla.</strong> ',
-<<<<<<< HEAD
-    'google_login'                  => 'Or login with Google Workspace',
-    'google_login_failed'           => 'Google Login failed, please try again.',
-
-=======
     'google_login'                  => 'Login with Google Workspace',
     'google_login_failed'           => 'Google Login failed, please try again.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];
 

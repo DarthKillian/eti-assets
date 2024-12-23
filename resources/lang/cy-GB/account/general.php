@@ -1,16 +1,6 @@
 <?php
 
 return array(
-<<<<<<< HEAD
-    'personal_api_keys' => 'Asmeniniai API raktai',
-    'api_key_warning' => 'Generuodami API prieigos raktą būtinai nedelsdami nukopijuokite jį, nes jis
-                    nebebus daugiau matomas.',
-    'api_base_url' => 'Your API base url is located at:',
-    'api_base_url_endpoint' => '/&lt;endpoint&gt;',
-    'api_token_expiration_time' => 'API tokens are set to expire in:',
-    'api_reference' => 'Please check the <a href="https://snipe-it.readme.io/reference" target="_blank">API reference</a> to
-                    find specific API endpoints and additional API documentation.',
-=======
     'personal_api_keys' => 'Personal API Keys',
     'personal_access_token' => 'Personal Access Token',
     'personal_api_keys_success' => 'Personal API Key :key created sucessfully',
@@ -24,5 +14,4 @@ return array(
     'no_tokens' => 'You have not created any personal access tokens.',
     'enable_sounds' => 'Enable sound effects',
     'enable_confetti' => 'Enable confetti effects',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

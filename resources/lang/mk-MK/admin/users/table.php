@@ -22,11 +22,7 @@ return array(
     'managed_locations'     => 'Менаџирани локации',
     'managed_users'         => 'Управувани корисници',
     'name' 					=> 'Име',
-<<<<<<< HEAD
-    'nogroup'               => 'No groups have been created yet. To add one, visit: ',
-=======
     'nogroup'               => 'Сеуште нема креирано групи. За да креирате, посетете: ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'notes'                 => 'Забелешки',
     'password_confirm' 		=> 'Потврди ја лозинката',
     'password' 				=> 'Лозинка',
@@ -35,11 +31,7 @@ return array(
     'show_deleted'          => 'Прикажи ги избришаните корисници',
     'title' 				=> 'Наслов',
 	'to_restore_them'		=> 'да се вратат.',
-<<<<<<< HEAD
-    'total_assets_cost'     => "Total Assets Cost",
-=======
     'total_assets_cost'     => "Вкупни трошоци за средствата",
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'updateuser' 			=> 'Ажурирај го корисникот',
     'username' 				=> 'Корисничко име',
 	'user_deleted_text' 	=> 'Овој корисник е обележан како избришан.',

@@ -15,17 +15,10 @@ return [
     'info'				=> 'Información',
     'restore_user'		=> 'Haga clic aquí para restaurarlos.',
     'last_login'        => 'Último acceso',
-<<<<<<< HEAD
-    'ldap_config_text'  => 'Las configuraciones de LDAP estàn en: Admin -> Settings. La ubicaciòn seleccionadada sera asignada a todos los usuarios importados.',
-    'print_assigned'    => 'Imprimir todos los Asignados',
-    'email_assigned'    => 'Lista de Correos Asignados',
-    'user_notified'     => 'Se ha enviado un correo al usuario con sus artículos actualmente asignados.',
-=======
     'ldap_config_text'  => 'Los ajustes de configuración para LDAP se pueden encontrar en Administrador> LDAP. La ubicación (opcional) seleccionada se establecerá para todos los usuarios importados.',
     'print_assigned'    => 'Imprimir todos los asignados',
     'email_assigned'    => 'Enviar correo con todos los asignados',
     'user_notified'     => 'Se ha enviado al usuario un correo electrónico con lista de los elementos que tiene asignados actualmente.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'auto_assign_label' => 'Incluir a este usuario al asignar automáticamente licencias elegibles',
     'auto_assign_help'  => 'Omitir este usuario en la asignación automática de licencias',
     'software_user'     => 'Software asignado a :name',
@@ -35,36 +28,13 @@ return [
     'two_factor_admin_optin_help' => 'La configuración actual permite la aplicación selectiva de la autenticación de dos factores.  ',
     'two_factor_enrolled' => 'Dispositivo con 2FA inscrito ',
     'two_factor_active'   => '2FA activo ',
-<<<<<<< HEAD
-    'user_deactivated'  => 'Usuario no puede iniciar sesión',
-    'user_activated'  => 'Usuario puede iniciar sesión',
-=======
     'user_deactivated'  => 'El usuario no puede iniciar sesión',
     'user_activated'  => 'El usuario puede iniciar sesión',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'activation_status_warning' => 'No cambiar el estado de activación',
     'group_memberships_helpblock' => 'Sólo los superadministradores pueden editar pertenencias a grupo.',
     'superadmin_permission_warning' => 'Sólo los superadministradores pueden conceder acceso a un usuario superadministrador.',
     'admin_permission_warning' => 'Sólo los usuarios con derechos de administrador o mayores pueden conceder acceso de administrador a los usuarios.',
     'remove_group_memberships' => 'Eliminar pertenencias a grupo',
-<<<<<<< HEAD
-    'warning_deletion_information' => 'Estás a punto de disponibilizar TODOS los elementos de :count usuario(s) listados a continuación. Los nombres de Super Admintradores están resaltados en rojo.',
-    'update_user_assets_status' => 'Actualizar todos los activos para estos usuarios a este estado',
-    'checkin_user_properties' => 'Disponibilizar todas las propiedades asociadas a estos usuarios',
-    'remote_label'   => 'Este es un usuario remoto',
-    'remote'   => 'Remoto',
-    'remote_help' => 'Esto puede ser útil si necesita filtrar por usuarios remotos que nunca o raramente entran en sus ubicaciones físicas.',
-    'not_remote_label' => 'Este no es un usuario remoto',
-    'vip_label' => 'Usuario VIP',
-    'vip_help' => 'Esto puede ser útil para marcar a personas importantes en su org si desea manejarlas de maneras especiales.',
-    'create_user' => 'Crear un usuario',
-    'create_user_page_explanation' => 'Esta es la información de la cuenta que usará para acceder al sitio por primera vez.',
-    'email_credentials' => 'Credenciales de email',
-    'email_credentials_text' => 'Enviar mis credenciales a la dirección de correo de arriba',
-    'next_save_user' => 'Siguiente: Guardar usuario',
-    'all_assigned_list_generation' => 'Generado el:',
-    'email_user_creds_on_create' => '¿Enviar a este usuario sus credenciales?',
-=======
     'warning_deletion_information' => 'Está a punto de ingresar TODOS los elementos de :count usuario(s) listados a continuación. Los nombres de usuarios con permisos Super Administrador están resaltados en rojo.',
     'update_user_assets_status' => 'Actualizar todos los activos para estos usuarios a este estado',
     'checkin_user_properties' => 'Comprobar todas las propiedades asociadas a estos usuarios',
@@ -81,5 +51,4 @@ return [
     'next_save_user' => 'Siguiente: Guardar usuario',
     'all_assigned_list_generation' => 'Generado el:',
     'email_user_creds_on_create' => '¿Enviar las credenciales por correo electrónico a este usuario?',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

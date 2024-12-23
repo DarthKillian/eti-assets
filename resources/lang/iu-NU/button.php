@@ -3,15 +3,9 @@
 return [
     'actions' 	                => 'Actions',
     'add'    	                => 'Add New',
-<<<<<<< HEAD
     'cancel'                    => 'Cancel',
     'checkin_and_delete'  	    => 'Checkin All / Delete User',
     'delete'  	                => 'Delete',
-=======
-    'cancel'                    => 'Cancel·la',
-    'checkin_and_delete'  	    => 'Checkin All / Delete User',
-    'delete'  	                => 'Suprimeix',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'edit'    	                => 'Edit',
     'clone'    	                => 'Clone',
     'restore' 	                => 'Restore',

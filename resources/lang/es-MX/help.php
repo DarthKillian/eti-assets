@@ -15,11 +15,7 @@ return [
 
     'more_info_title' => 'Más información',
 
-<<<<<<< HEAD
-    'audit_help' => 'Al marcar esta casilla se editará el registro de activos para reflejar esta nueva ubicación. Dejarla desmarcada simplemente se notará la ubicación en el registro de auditoría.<br><br>Tenga en cuenta que si este activo está desprotegido, no cambiará la ubicación de la persona, el activo o la ubicación en la que está verificado.',
-=======
     'audit_help' => 'Al marcar esta casilla se actualizará el activo para reflejar esta nueva ubicación. Dejarla sin marcar, simplemente almacenará la ubicación en el registro de auditoría.<br><br>Tenga en cuenta que si este activo ya está asignado, no cambiará la ubicación de la persona, del activo o de la ubicación a la que esté asignado.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     'assets' => 'Los activos son artículos rastreados por número de serie o placa de activo.  Suelen ser artículos de alto valor en los que es importante identificar un elemento específico.',
 
@@ -31,15 +27,9 @@ return [
 
     'components'    => 'Los componentes son elementos que son parte de un activo, por ejemplo, el disco duro, RAM, etc.',
 
-<<<<<<< HEAD
-    'consumables'   => 'Los consumibles son cualquier cosa comprada que se usará con el tiempo. Por ejemplo, tinta de impresora o papel copiador.',
-
-    'depreciations' => 'Puede configurar depreciaciones de activos para depreciar activos basados en una depreciación lineal.',
-=======
     'consumables'   => 'Los consumibles son todo aquello que se compra y que se agota con el tiempo. Por ejemplo, tinta de impresora o papel de fotocopiadora.',
 
     'depreciations' => 'Puede configurar la depreciación de activos usando un método de línea recta.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     
     'empty_file'    => 'El importador detecta que este archivo está vacío.'
 ];

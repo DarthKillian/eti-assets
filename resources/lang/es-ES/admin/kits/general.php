@@ -35,15 +35,9 @@ return [
     'accessory_added_success'           => 'Accesorio añadido correctamente',
     'accessory_updated'                 => 'El accesorio fue actualizado correctamente',
     'accessory_detached'                => 'Accesorio desvinculado correctamente',
-<<<<<<< HEAD
-    'accessory_error'                   => 'El accesorio ya vinculado al kit',
-    'accessory_deleted'                 => 'Eliminado correctamente',
-    'accessory_none'                    => 'The accessory does not exist',
-=======
     'accessory_error'                   => 'El accesorio ya está vinculado al kit',
     'accessory_deleted'                 => 'El borrado fue exitoso',
     'accessory_none'                    => 'El accesorio no existe',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'checkout_success'                  => 'Asignación correcta',
     'checkout_error'                    => 'Error al asignar',
     'kit_none'                          => 'El kit no existe',

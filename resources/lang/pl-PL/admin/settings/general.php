@@ -70,11 +70,7 @@ return [
     'footer_text'               => 'Dodatkowy tekst stopki ',
     'footer_text_help'          => 'Ten tekst pojawi się po prawej stronie stopki. Umieszczanie linków możliwe przy użyciu <a href="https://help.github.com/articles/github-flavored-markdown/">Github flavored markdown</a>. Przejścia linii, nagłowki, obrazki itp. dadzą nieokreślone rezultaty.',
     'general_settings'			=> 'Ustawienia ogólne',
-<<<<<<< HEAD
-    'general_settings_keywords' => 'obsługa firmy, podpis, akceptacja, format e-mail, format nazwy użytkownika, obrazy, miniatura, eula, panel nawigacyjny, prywatność',
-=======
     'general_settings_keywords' => 'obsługa firmy, podpis, akceptacja, format e-mail, format nazwy użytkownika, obrazy, miniatura, eula, grawatar, tos, kokpit menedżerski, prywatność',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'general_settings_help'     => 'Domyślna licencja i więcej',
     'generate_backup'			=> 'Stwórz Kopie zapasową',
     'google_workspaces'         => 'Obszary robocze Google',
@@ -94,10 +90,6 @@ return [
     'ldap_integration'          => 'Integracja z LDAP',
     'ldap_settings'             => 'Ustawienia LDAP',
     'ldap_client_tls_cert_help' => 'Certyfikat TLS klienta i klucz dla połączeń LDAP są zwykle użyteczne tylko w konfiguracjach Google Workspace z "Secure LDAP". Wymagane są oba.',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'Klucz TLS klienta LDAP',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'Lokalizacja LDAP',
 'ldap_location_help'             => 'Pole lokalizacji Ldap powinno być używane, jeśli <strong>nie jest używane w Bazowym Bind DN.</strong> Pozostaw to pole puste, jeśli używane jest wyszukiwanie OU.',
     'ldap_login_test_help'      => 'Wprowadź poprawną nazwę użytkownika i hasło w podstawowej domenie, którą wprowadziłeś wyżej. W ten sposób przetestujesz czy logowanie LDAP jest poprawnie skonfigurowane. KONIECZNIE ZAPISZ WCZEŚNIEJ SWOJE USTAWIENIA LDAP.',
@@ -215,10 +207,7 @@ return [
     'integrations'               => 'Integracje',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Ogólny Webhook',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Zespoły Microsoft',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Przetestuj, aby zapisać',
     'webhook_title'               => 'Aktualizuj ustawienia webhooka',
@@ -231,11 +220,8 @@ return [
     'webhook_integration_help'    => 'Integracja z :app jest opcjonalna, jednak endpoint i kanał są wymagane, jeśli chcesz z niej korzystać. Aby skonfigurować integrację z aplikacją, musisz najpierw <a href=":webhook_link" target="_new" rel="noopener">utworzyć przychodzący webhook</a> na swoim koncie :App. Kliknij przycisk <strong>Test :app Integration</strong> , aby potwierdzić poprawność ustawień przed zapisaniem. ',
     'webhook_integration_help_button'    => 'Po zapisaniu informacji o :app pojawi się przycisk testowy.',
     'webhook_test_help'           => 'Sprawdź, czy integracja aplikacji jest poprawnie skonfigurowana. ZAPISZ SWOJE AKTUALIZOWANE :app USTAWIENIA.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Enable Shortcuts',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Wersja Snipe-IT',
     'support_footer'            => 'Obsługa linków stopki ',
     'support_footer_help'       => 'Określ kto widzi linki do Snipe-IT Instrukcji Obsługi oraz Wsparcia',
@@ -393,8 +379,6 @@ return [
     'database_driver' => 'Sterownik bazy danych',
     'bs_table_storage' => 'Pamięć tabeli',
     'timezone' => 'Strefa czasowa',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Edytuj profil',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
     'default_avatar' => 'Upload custom default avatar',
@@ -404,6 +388,5 @@ return [
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

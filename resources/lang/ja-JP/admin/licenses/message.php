@@ -44,11 +44,8 @@ return array(
         'error'   => 'ライセンスのチェックを外す際に問題が発生しました。もう一度、やり直して下さい。',
         'success' => 'ライセンスのチェックを外しました。',
         'not_enough_seats' => '購入可能なライセンスシートが不足しています',
-<<<<<<< HEAD
-=======
         'mismatch' => 'The license seat provided does not match the license',
         'unavailable' => 'This seat is not available for checkout.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

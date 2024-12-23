@@ -78,11 +78,7 @@ return [
     'consumables'			=> '消耗品数',
     'country'  				=> '国',
     'could_not_restore'     => ':item_type: の復元エラー :error',
-<<<<<<< HEAD
-    'not_deleted'           => ':item_type は削除されないため、復元できません',
-=======
     'not_deleted'           => ':item_type は削除されたため、復元できません',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> '新規作成',
     'created'               => 'アイテムを作成しました',
     'created_asset'			=> '資産を作成',
@@ -279,11 +275,7 @@ return [
     'signed_off_by'         => '署名された',
     'skin'       			=> 'スキン',
     'webhook_msg_note'        => 'Webhook経由で通知が送信されます',
-<<<<<<< HEAD
-    'webhook_test_msg'        => ':app とSnipe-ITの連携がうまくいっているようです！',
-=======
     'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'デモモード ： いくつかの機能はこのインストールでは無効化されます',
     'site_name'				=> 'サイト名',
     'state'  				=> '都道府県',
@@ -315,10 +307,7 @@ return [
     'user'					=> '利用者',
     'accepted'			    => '承認済',
     'declined'			    => '却下済',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Declined Notes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => '未割り当て',
     'unaccepted_asset_report' => '未許可資産',
     'users'                 => '利用者',
@@ -432,11 +421,7 @@ return [
     'bulk_soft_delete'      =>'また、これらのユーザーを論理削除します。管理設定で削除したレコードを削除するまで、資産履歴はそのまま残ります。',
     'bulk_checkin_delete_success' => '選択したユーザーが削除され、項目がチェックインされました。',
     'bulk_checkin_success' => '選択したユーザーの項目がチェックインされています。',
-<<<<<<< HEAD
-    'set_to_null'           => 'このアセットの値を削除|全:asset_count個の資産を削除する ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'このユーザーの :field 値を削除|すべての :user_count ユーザーの :field 値を削除する ',
     'na_no_purchase_date'   => '該当なし - 購入日が指定されていません',
     'assets_by_status'      => 'ステータス別資産',
@@ -449,10 +434,7 @@ return [
     'alt_uploaded_image_thumbnail' => 'サムネイルのアップロード',
     'placeholder_kit'       => 'キットを選択',
     'file_not_found'        => 'ファイルが見つかりません',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'ログのエントリが見つかりませんでした。',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(プレビューなし)',
     'setup'                 => 'セットアップ',
     'pre_flight'            => 'プレ・フライト',
@@ -478,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'アセットタグの自動インクリメントの生成は無効になっているため、すべての行に「アセットタグ」列が追加される必要があります。',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => '注: アセットタグの自動インクリメントの生成が有効になっているため、「アセットタグ」が生成されていない行に対してアセットが作成されます。 「アセットタグ」が入力されている行は、入力された情報と共に更新されます。',
     'send_welcome_email_to_users'   => ' 新規ユーザーにウェルカムメールを送信しますか？',
-<<<<<<< HEAD
-=======
     'send_email'                => 'メール送信',
     'call'                      => '電話番号',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'インポートする前にバックアップしますか？',
     'csv_header_field'          => 'CSV ヘッダーフィールド',
     'import_field'              => 'インポートフィールド',
     'sample_value'              => 'サンプル値',
     'no_headers'                => '列が見つかりませんでした',
     'error_in_import_file'      => 'CSV ファイルの読み込み中にエラーが発生しました: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % 完了',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'インポート中に一部のエラーが発生しました: ',
     'warning'                   => '警告: :warning',
     'success_redirecting'       => '"成功... リダイレクト中です。',
@@ -508,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'ライセンスUIやCLIツールで一括割り当てを行うユーザーは含めないでください。',
     'modal_confirm_generic'      => 'よろしいですか？',
     'cannot_be_deleted'      => 'このアイテムは削除できません',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'このアイテムは編集できません。',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'この商品はチェックアウトできません。残りの数量を確認してください。',
     'serial_number'        => 'シリアルナンバー',
     'item_notes' => ':item Notes',
@@ -540,11 +512,8 @@ return [
         'address2' => '住所2',
         'import_note' => 'csvインポートを使用してインポートしました',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% 成功',
     'uploading' => 'アップロード中... ',
     'upload_error' => 'ファイルのアップロード中にエラーが発生しました。空の行がなく、列名が重複していないことを確認してください。',
@@ -557,9 +526,6 @@ return [
     'action_permission_generic' => 'この:item_type:actionへの権限がありません',
     'edit' => '編集',
     'action_source' => 'アクションソース',
-<<<<<<< HEAD
-
-=======
     'or' => 'または',
     'url'                   => 'URL',
     'edit_fieldset' => 'フィールドセットのフィールドとオプションの編集',
@@ -600,5 +566,4 @@ return [
     'import_asset_tag_exists' => 'アセットタグ :asset_tag のアセットは既に存在し、アップデートは要求されませんでした。変更はありません。',
     'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

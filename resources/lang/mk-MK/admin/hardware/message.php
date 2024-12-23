@@ -16,13 +16,9 @@ return [
     'create' => [
         'error'   		=> 'Основното средство не е креирано, обидете се повторно. :(',
         'success' 		=> 'Основното средство е успешно креирано. :)',
-<<<<<<< HEAD
-        'success_linked' => 'Asset with tag :tag was created successfully. <strong><a href=":link" style="color: white;">Click here to view</a></strong>.',
-=======
         'success_linked' => 'Средство со ознака :tag беше создадено успешно. <strong><a href=":link" style="color: white;">Кликнете овде за да видите</a></strong>.',
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -38,11 +34,7 @@ return [
         'error'   		=> 'Основното средство не е вратено, обидете се повторно',
         'success' 		=> 'Основното средство е успешно вратено.',
         'bulk_success' 		=> 'Основното средство е успешно вратено.',
-<<<<<<< HEAD
-        'nothing_updated'   => 'No assets were selected, so nothing was restored.', 
-=======
         'nothing_updated'   => 'Не беа избрани средства, така што ништо не беше обновено.', 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'audit' => [
@@ -70,16 +62,10 @@ return [
         'success'               => 'Вашата датотека е увезена',
         'file_delete_success'   => 'Вашата датотека е избришана',
         'file_delete_error'      => 'Датотеката не можеше да се избрише',
-<<<<<<< HEAD
-        'file_missing' => 'The file selected is missing',
-        'header_row_has_malformed_characters' => 'One or more attributes in the header row contain malformed UTF-8 characters',
-        'content_row_has_malformed_characters' => 'One or more attributes in the first row of content contain malformed UTF-8 characters',
-=======
         'file_missing' => 'Избраната датотека недостасува',
         'file_already_deleted' => 'Избраната датотека е веќе избришана',
         'header_row_has_malformed_characters' => 'Еден или повеќе атрибути во заглавието се содржат неправилни UTF-8 карактери',
         'content_row_has_malformed_characters' => 'Еден или повеќе атрибути во првиот ред на содржина содржат неправилноUTF-8 карактери',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
 

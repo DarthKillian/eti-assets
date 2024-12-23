@@ -16,12 +16,7 @@ return array(
     'update'  							=> 'Uppfæra endabúnað',
     'use_default_eula'					=> 'Notaðu frekar <a href="#" data-toggle="modal" data-target="#eulaModal">',
     'use_default_eula_disabled'			=> '<del>Notaðu frekar sjálfgefna notendaskilmálana.</del>Sjálfgefnu notendaskilmálarnir eru ekki í notkun. Vinsamlegast bættu einhverjum notendaskilmálum við í undir "Stillingar"',
-<<<<<<< HEAD
-    'clone'                             => 'Clone Accessory',
-    'delete_disabled'                   => 'This accessory cannot be deleted yet because some items are still checked out.',
-=======
     'clone'                             => 'Klóna aukabúnað',
     'delete_disabled'                   => 'Ekki hægt að eyða búnaði, þar sem hann er ennþá í skráður út.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 );

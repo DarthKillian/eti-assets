@@ -1,16 +1,6 @@
 <?php
 
 return array(
-<<<<<<< HEAD
-    'personal_api_keys' => 'Personal API Keys',
-    'api_key_warning' => 'When generating an API token, be sure to copy it down immediately as they
-                    will not be visible to you again.',
-    'api_base_url' => 'Your API base url is located at:',
-    'api_base_url_endpoint' => '/&lt;endpoint&gt;',
-    'api_token_expiration_time' => 'API tokens are set to expire in:',
-    'api_reference' => 'Please check the <a href="https://snipe-it.readme.io/reference" target="_blank">API reference</a> to
-                    find specific API endpoints and additional API documentation.',
-=======
     'personal_api_keys' => 'សោ API ផ្ទាល់ខ្លួន',
     'personal_access_token' => 'និមិត្តសញ្ញាចូលប្រើផ្ទាល់ខ្លួន',
     'personal_api_keys_success' => 'សោ API ផ្ទាល់ខ្លួន៖ សោត្រូវបានបង្កើតដោយជោគជ័យ',
@@ -24,5 +14,4 @@ return array(
     'no_tokens' => 'អ្នក​មិន​បាន​បង្កើត​ថូខឹន​ចូល​ប្រើប្រាស់​ផ្ទាល់ខ្លួន​ណា​មួយ​ទេ។',
     'enable_sounds' => 'បើកបែបផែនសំឡេង',
     'enable_confetti' => 'បើកបែបផែនក្រដាស',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'A user has accepted an item',
-    'acceptance_asset_declined' => 'A user has declined an item',
-    'a_user_canceled' => 'Tá úsáideoir tar éis iarratas ar mhír a chealú ar an láithreán gréasáin',
-    'a_user_requested' => 'D\'iarr úsáideoir mír ar an láithreán gréasáin',
-    'accessory_name' => 'Ainm Cúlpháirtí:',
-    'additional_notes' => 'Nótaí Breise:',
-    'admin_has_created' => 'Tá riarthóir tar éis cuntas a chruthú duit ar: láithreán gréasáin gréasáin.',
-    'asset' => 'Sócmhainn:',
-    'asset_name' => 'Ainm Sócmhainne:',
-    'asset_requested' => 'Iarrtar sócmhainn',
-    'asset_tag' => 'Clib Sócmhainní',
-    'assigned_to' => 'Sannadh Chun',
-    'best_regards' => 'Dea-mhéin,',
-    'canceled' => 'Ar ceal:',
-    'checkin_date' => 'Dáta Checkin:',
-    'checkout_date' => 'Dáta Seiceáil:',
-    'click_to_confirm' => 'Cliceáil ar an nasc seo a leanas le do thoil a dheimhniú: cuntas gréasáin:',
-    'click_on_the_link_accessory' => 'Cliceáil ar an nasc ag bun an leathanaigh chun a dheimhniú go bhfuair tú an cúlpháirtí.',
-    'click_on_the_link_asset' => 'Cliceáil ar an nasc ag bun an leathanaigh chun a dheimhniú go bhfuair tú an tsócmhainn.',
-    'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
-=======
 
     'Accessory_Checkin_Notification' => 'Accessory checked in',
     'Accessory_Checkout_Notification' => 'Accessory checked out',
     'Asset_Checkin_Notification' => 'Asset checked in',
     'Asset_Checkout_Notification' => 'Asset checked out',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Accessory checkin confirmation',
     'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
     'Confirm_accessory_delivery' => 'Accessory delivery confirmation',
@@ -97,14 +74,10 @@ return [
     'requested' => 'Iarrtar',
     'reset_link' => 'Do Nasc Athshocraigh Pasfhocal',
     'reset_password' => 'Cliceáil anseo chun do phasfhocal a athshocrú:',
-<<<<<<< HEAD
-    'serial' => 'Sraithuimhir',
-=======
     'rights_reserved' => 'All rights reserved.',
     'serial' => 'Sraithuimhir',
     'snipe_webhook_test' => 'Snipe-IT Integration Test',
     'snipe_webhook_summary' => 'Snipe-IT Integration Test Summary',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'supplier' => 'Soláthraí',
     'tag' => 'Clib',
     'test_email' => 'Tástáil Ríomhphost ó Snipe-IT',
@@ -115,22 +88,9 @@ return [
     'upcoming-audits' => 'There is :count asset that is coming up for audit within :threshold days.|There are :count assets that are coming up for audit within :threshold days.',
     'user' => 'Úsáideoir',
     'username' => 'Ainm Úsáideora',
-<<<<<<< HEAD
-    'welcome' => 'Fáilte: ainm',
-    'welcome_to' => 'Fáilte go dtí: gréasáin!',
-    'your_credentials' => 'Do dhintiúir Snipe-IT',
-    'Accessory_Checkin_Notification' => 'Accessory checked in',
-    'Asset_Checkin_Notification' => 'Asset checked in',
-    'Asset_Checkout_Notification' => 'Asset checked out',
-    'License_Checkin_Notification' => 'License checked in',
-    'Expected_Checkin_Report' => 'Expected asset checkin report',
-    'Expected_Checkin_Notification' => 'Reminder: :name checkin deadline approaching',
-    'Expected_Checkin_Date' => 'An asset checked out to you is due to be checked back in on :date',
-=======
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Fáilte: ainm',
     'welcome_to' => 'Fáilte go dtí: gréasáin!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'View Your Assets',
     'your_credentials' => 'Do dhintiúir Snipe-IT',
     'mail_sent' => 'Mail sent successfully!',

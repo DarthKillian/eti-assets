@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Oled selle vahendi tagasi lükanud.',
     'bulk_manager_warn'	        => 'Sinu kasutajad on edukalt muudetud, kuid sinu juhi-kirjet ei salvestatud sest juht, kelle valisid oli ka muudatavate kasutajate hulgas ning kasutaja ei või olla ise-enda juht. Palun vali oma kasutajad uuesti, jättes juhi kõrvale.',
     'user_exists'               => 'Kasutaja on juba olemas!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Kasutajat ei eksisteeri.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Login väli on kohustuslik',
     'user_has_no_assets_assigned' => 'No assets currently assigned to user.',
     'user_password_required'    => 'Parooli väli on kohustuslik.',

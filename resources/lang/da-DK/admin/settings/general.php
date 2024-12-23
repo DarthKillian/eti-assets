@@ -31,11 +31,8 @@ return [
     'backups'					=> 'Backups',
     'backups_help'              => 'Opret, download og gendan sikkerhedskopier ',
     'backups_restoring'         => 'Gendanner fra sikkerhedskopi',
-<<<<<<< HEAD
-=======
     'backups_clean' => 'Clean the backed-up database before restore',
     'backups_clean_helptext' => "This can be useful if you're changing between database versions",
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'backups_upload'            => 'Upload Sikkerhedskopi',
     'backups_path'              => 'Sikkerhedskopier på serveren gemmes i <code>:path</code>',
     'backups_restore_warning'   => 'Brug gendannelsesknappen <small><span class="btn btn-xs btn-warning"><i class="text-white fas fa-retweet" aria-hidden="true"></i></span></small> til at gendanne fra en tidligere sikkerhedskopi. (Dette virker ikke i øjeblikket med S3 fillagring eller Docker.<br><br>Hele din <strong>:app_name database og eventuelle uploadede filer vil blive fuldstændig erstattet</strong> af, hvad der er i backup-filen.  ',
@@ -73,11 +70,7 @@ return [
     'footer_text'               => 'Ekstra footer tekst ',
     'footer_text_help'          => 'Denne tekst vil vises i footeren i højre side. Der kan anvendes links ved hjælp af <a href="https://help.github.com/articles/github-flavored-markdown/">Github flavored markdown</a>. Linjeskift, headere, billeder etc. kan føre til uforudsigelige resultater.',
     'general_settings'			=> 'Generelle indstillinger',
-<<<<<<< HEAD
-    'general_settings_keywords' => 'firma support, signatur, accept, e-mail format, brugernavn format, billeder, per side, miniaturebillede, eula, tos, dashboard, privatliv',
-=======
     'general_settings_keywords' => 'firma support, signatur, accept, e-mail format, brugernavn format, billeder, per side, miniaturebillede, eula, gravatar, tos, instrumentbræt, privatliv',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'general_settings_help'     => 'Standard slutbrugerlicens og mere',
     'generate_backup'			=> 'Generer sikkerhedskopiering',
     'google_workspaces'         => 'Google Workspaces',
@@ -97,10 +90,6 @@ return [
     'ldap_integration'          => 'LDAP Integration',
     'ldap_settings'             => 'LDAP-indstillinger',
     'ldap_client_tls_cert_help' => 'Client-Side TLS-certifikat og nøgle til LDAP-forbindelser er normalt kun nyttige i Google Workspace konfigurationer med "Secure LDAP." Begge er påkrævet.',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'LDAP-klient-side TLS nøgle',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'LDAP- Placering',
 'ldap_location_help'             => 'Feltet Ldap Location skal anvendes, hvis <strong>en OU ikke anvendes i Base Bind DN.</strong> Efterlad dette tomt hvis en OU søgning bruges.',
     'ldap_login_test_help'      => 'Indtast validt LDAP brugernavn og kodeord fra den basis DN du angav ovenfor for at teste om dit LDAP login er korrekt konfigureret. DU SKAL FØRST OPDATERE og GEMME DINE LDAP INDSTILLINGER.',
@@ -135,13 +124,8 @@ return [
     'ldap_test'                 => 'Test LDAP',
     'ldap_test_sync'            => 'Test LDAP Synkronisering',
     'license'                   => 'Software licens',
-<<<<<<< HEAD
-    'load_remote_text'          => 'Fjernskrifter',
-    'load_remote_help_text'		=> 'Denne Snipe-IT-installation kan indlæse scripts fra omverdenen.',
-=======
     'load_remote'               => 'Load Remote Avatars',
     'load_remote_help_text'		=> 'Uncheck this box if your install cannot load scripts from the outside internet. This will prevent Snipe-IT from trying load avatars from Gravatar or other outside sources.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'login'                     => 'Log Ind Forsøg',
     'login_attempt'             => 'Log Ind Forsøg',
     'login_ip'                  => 'Ip Adresse',
@@ -223,10 +207,7 @@ return [
     'integrations'               => 'Integrationer',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Generel Webhook',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Microsoft Teams',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Test for at gemme',
     'webhook_title'               => 'Opdater Webhook-indstillinger',
@@ -239,11 +220,8 @@ return [
     'webhook_integration_help'    => ':app integration er valgfri, men endepunktet og kanalen er påkrævet, hvis du ønsker at bruge det. For at konfigurere :app integration, skal du først <a href=":webhook_link" target="_new" rel="noopener">oprette en indgående webhook</a> på din :app konto. Klik på knappen <strong>Test :app Integration</strong> for at bekræfte, at dine indstillinger er korrekte, før du gemmer. ',
     'webhook_integration_help_button'    => 'Når du har gemt dine :app oplysninger, vil en test knap vises.',
     'webhook_test_help'           => 'Test om din :app integration er konfigureret korrekt. DU SKAL GEM DIN OPDATERET: app INDSTILLINGER FØRST.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Enable Shortcuts',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Snipe-IT version',
     'support_footer'            => 'Understøt footer links ',
     'support_footer_help'       => 'Angiv hvem der kan se links i Snipe-IT Support info og brugermanual',
@@ -315,10 +293,6 @@ return [
     'zerofill_count'        => 'Længde af aktivetiketter, herunder zerofill',
     'username_format_help'   => 'Denne indstilling vil kun blive brugt af importprocessen, hvis et brugernavn ikke er angivet, og vi er nødt til at generere et brugernavn til dig.',
     'oauth_title' => 'OAuth API Indstillinger',
-<<<<<<< HEAD
-    'oauth' => 'OAuth',
-    'oauth_help' => 'Oauth Endpoint Indstillinger',
-=======
     'oauth_clients' => 'OAuth Clients',
     'oauth' => 'OAuth',
     'oauth_help' => 'Oauth Endpoint Indstillinger',
@@ -331,7 +305,6 @@ return [
     'oauth_callback_url' => 'Your application authorization callback URL.',
     'create_client' => 'Create Client',
     'no_scopes' => 'No scopes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'asset_tag_title' => 'Opdater Aktiv Tag Indstillinger',
     'barcode_title' => 'Opdater Stregkode Indstillinger',
     'barcodes' => 'Barcodes',
@@ -360,10 +333,6 @@ return [
     'labels' => 'Etiketter',
     'labels_title' => 'Opdater Etiketindstillinger',
     'labels_help' => 'Etiketstørrelser &amp; indstillinger',
-<<<<<<< HEAD
-    'purge' => 'Purge',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'purge_keywords' => 'slet permanent',
     'purge_help' => 'Ryd slettet poster',
     'ldap_extension_warning' => 'Det ser ikke ud som om LDAP- udvidelsen er installeret eller aktiveret på denne server. Du kan stadig gemme dine indstillinger, men du bliver nødt til at aktivere LDAP-udvidelsen til PHP, før LDAP-synkronisering eller login vil virke.',
@@ -410,8 +379,6 @@ return [
     'database_driver' => 'Database Chauffør',
     'bs_table_storage' => 'Lagerplads I Tabel',
     'timezone' => 'Timezone',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Edit Profile',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
     'default_avatar' => 'Upload custom default avatar',
@@ -421,6 +388,5 @@ return [
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

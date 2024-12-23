@@ -78,11 +78,7 @@ return [
     'consumables'			=> 'Consumíveis',
     'country'  				=> 'País',
     'could_not_restore'     => 'Erro ao restaurar :item_type: :error',
-<<<<<<< HEAD
-    'not_deleted'           => 'O :item_type não foi apagado, então ele não pode ser restaurado',
-=======
     'not_deleted'           => 'O :item_type não foi excluído e, portanto, não pode ser restaurado',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Criar Novo',
     'created'               => 'Item criado',
     'created_asset'			=> 'artigo criado',
@@ -103,11 +99,7 @@ return [
     'debug_warning_text'    => 'Esta aplicação está em execução no modo de produção com a depuração activada. Isso pode expor dados sensíveis se seu aplicativo é acessível para o mundo exterior. Desactive o modo de depuração mudando o valor de <code>APP_DEBUG</code> no teu ficheiro <code>.env</code> para <code>false</code>.',
     'delete'  				=> 'Remover',
     'delete_confirm'  		=> 'Tem a certeza que deseja eliminar :item?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Tem a certeza que deseja excluir :item? Isto não pode ser desfeito.',
-=======
     'delete_confirm_no_undo' => 'Are you sure, you wish to delete :item? This cannot be undone.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Removidos',
     'delete_seats'  		=> 'Utilizadores apagados',
     'deletion_failed'       => 'Falha ao Eliminar',
@@ -165,15 +157,9 @@ return [
     'image_delete'         	=> 'Apagar imagem',
     'include_deleted'       => 'Incluir Ativos Excluídos',
     'image_upload'         	=> 'Carregar Imagem',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'O tipo de arquivo aceito é :types. O tamanho máximo de upload permitido é :size.abroad. tipos de arquivos aceitos são :types. O tamanho máximo de upload permitido é :size.',
-    'filetypes_size_help'   => 'O tamanho máximo de upload permitido é :size.',
-    'image_filetypes_help'  => 'Os tipos de ficheiros aceites são jpg, webp, png, gif e svg. O tamanho máximo permitido para envio é de :size.',
-=======
     'filetypes_accepted_help'    => 'Accepted filetype is :types. The maximum size allowed is :size.|Accepted filetypes are :types. The maximum upload size allowed is :size.',
     'filetypes_size_help'   => 'The maximum upload size allowed is :size.',
     'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'Este ficheiro de imagem não era legível. Tipos de ficheiros aceites são jpg, webp, png, gif e svg. O mimetype deste ficheiro é: :mimetype.',
     'import'         	    => 'Importar',
     'import_this_file'      => 'Mapear os campos e processar este arquivo',
@@ -198,11 +184,7 @@ return [
     'licenses_available'	=> 'Licenças disponíveis',
     'licenses'				=> 'Licenças',
     'list_all'				=> 'Listar todas',
-<<<<<<< HEAD
-    'loading'				=> 'A carregar... por favor aguarde....',
-=======
     'loading'				=> 'A carregar... por favor aguarde...',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'lock_passwords'        => 'O valor do campo não será guardado numa instalação de demonstração.',
     'feature_disabled'      => 'Esta funcionalidade foi desativada na versão de demonstração.',
     'location'              => 'Localização',
@@ -248,11 +230,7 @@ return [
     'purchase_date'         => 'Data de compra',
     'qty'		            => 'QTD',
     'quantity'		        => 'Quantidade',
-<<<<<<< HEAD
-    'quantity_minimum'      => 'Você tem :count itens abaixo ou quase dos níveis de quantidade mínima',
-=======
     'quantity_minimum'      => 'You have one item below or almost below minimum quantity levels|You have :count items below or almost below minimum quantity levels',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'quickscan_checkin'  	=> 'Receção Rápida',
     'quickscan_checkin_status'  	=> 'Estado da receção',
     'ready_to_deploy'		=> 'Pronto para implementar',
@@ -297,11 +275,7 @@ return [
     'signed_off_by'         => 'Assinado por',
     'skin'       			=> 'Skin',
     'webhook_msg_note'        => 'Uma notificação será enviada via webhook',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Ah, hai! Parece que a sua integração com o Snipe-IT está a funcionar!',
-=======
     'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'MODO DE DEMONSTRAÇÃO: Algumas funcionalidades estão desativadas para esta instalação.',
     'site_name'				=> 'Nome do site',
     'state'  				=> 'Distrito',
@@ -309,10 +283,7 @@ return [
     'status_label'			=> 'Status Label',
     'status'    			=> 'Estado',
     'accept_eula'           => 'Contrato de licença',
-<<<<<<< HEAD
-=======
     'show_or_hide_eulas' => 'Show/Hide EULAs',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'supplier'              => 'Fornecedor',
     'suppliers'  			=> 'Fornecedores',
     'sure_to_delete'        => 'Tem certeza de que deseja excluir',
@@ -336,10 +307,7 @@ return [
     'user'					=> 'Utilizador',
     'accepted'			    => 'aceite',
     'declined'			    => 'recusado',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Notas Rejeitadas',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Não atribuído',
     'unaccepted_asset_report' => 'Artigos recusados',
     'users'                 => 'Utilizadores',
@@ -358,13 +326,10 @@ return [
     'token_expired'         => 'A sua sessão expirou. Inicie sessão novamente.',
     'login_enabled'         => 'Login Ativado',
     'audit_due'             => 'Marcado para Auditoria',
-<<<<<<< HEAD
-=======
     'audit_due_days'        => 'Atributos devidos para auditoria dentro de :days Dias|Ativos devido para auditoria dentro de :days',
     'checkin_due'           => 'Vencimento para o checkin',
     'checkin_overdue'       => 'Atrasado por check-in',
     'checkin_due_days'      => 'Ativos devidos para o check-in dentro de :days Dia| Ativos devido para check-in dentro de :days Dias',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'audit_overdue'         => 'Atrasado para Auditoria',
     'accept'                => 'Aceitar :asset',
     'i_accept'              => 'Aceito',
@@ -377,26 +342,16 @@ return [
     'view_all'              => 'ver todos',
     'hide_deleted'          => 'Ocultar apagados',
     'email'                 => 'Email',
-<<<<<<< HEAD
-    'do_not_change'         => 'Não alterar',
-    'bug_report'            => 'Reportar um Erro',
-=======
     'do_not_change'         => 'Do not change',
     'bug_report'            => 'Report a bug',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_manual'           => 'Manual do Utilizador',
     'setup_step_1'          => 'Passo 1',
     'setup_step_2'          => 'Passo 2',
     'setup_step_3'          => 'Passo 3',
     'setup_step_4'          => 'Passo 4',
     'setup_config_check'    => 'Verificação da configuração',
-<<<<<<< HEAD
-    'setup_create_database' => 'Criar Tabelas de Base de Dados',
-    'setup_create_admin'    => 'Criar Administrador',
-=======
     'setup_create_database' => 'Create database tables',
     'setup_create_admin'    => 'Create an admin user',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'setup_done'            => 'Concluído!',
     'bulk_edit_about_to'    => 'Está prestes a editar o seguinte: ',
     'checked_out'           => 'Entregue',
@@ -453,14 +408,9 @@ return [
     'accessory_name'       => 'Nome do Acessório:',
     'clone_item'            => 'Clonar Item',
     'checkout_tooltip' => 'Entregue este item',
-<<<<<<< HEAD
-    'checkin_tooltip' => 'Rececione este artigo',
-    'checkout_user_tooltip' => 'Rececione este artigo para um utilizador',
-=======
     'checkin_tooltip' => 'Check this item in so that it is available for re-issue, re-imaging, etc',
     'checkout_user_tooltip' => 'Rececione este artigo para um utilizador',
     'checkin_to_diff_location' => 'Você pode optar por verificar este ativo em um local diferente da localização padrão deste ativo de :default_location se estiver definido',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'maintenance_mode'      => 'O serviço está temporariamente indisponível para atualizações do sistema. Por favor, volte mais tarde.',
     'maintenance_mode_title' => 'Serviço temporariamente indisponível',
     'ldap_import'           => 'A senha do utilizador não deve ser gerida pelo LDAP. (Isto permite que seja enviado pedidos de senha esquecida.)',
@@ -471,31 +421,20 @@ return [
     'bulk_soft_delete'      =>'Também exclua esses utilizadores. O seu histórico de ativos permanecerá intacto a menos que / até que purgue os registos apagados nas configurações do Administrador.',
     'bulk_checkin_delete_success' => 'Os utilizadores selecionados foram apagados e os seus itens foram entregues.',
     'bulk_checkin_success' => 'Os itens para os utilizadores selecionados foram recebidos.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Apagar valores para este artigo|Apagar valores para todos os :asset_count ativos ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Apagar os valores de :field para este utilizador|Apagar os valores de :field para todos :user_count utilizadores ',
     'na_no_purchase_date'   => 'N/D - Nenhuma data de compra fornecida',
     'assets_by_status'      => 'Artigos por Estado',
     'assets_by_status_type'      => 'Artigos por Tipo de Estado',
     'pie_chart_type'        => 'Painel Tipo Gráfico "Pie"',
     'hello_name'            => 'Olá, :name!',
-<<<<<<< HEAD
-    'unaccepted_profile_warning'   => 'Tem :count artigos que requerem aceitação. Clique aqui para aceitar ou recusá-los',
-=======
     'unaccepted_profile_warning'   => 'You have one item requiring acceptance. Click here to accept or decline it | You have :count items requiring acceptance. Click here to accept or decline them',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'start_date'            => 'Data de início',
     'end_date'            => 'Data de Fim',
     'alt_uploaded_image_thumbnail' => 'Miniatura carregada',
     'placeholder_kit'       => 'Selecione um kit',
     'file_not_found'        => 'Ficheiro não encontrado',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'No record for that log entry was found.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(sem visualização)',
     'setup'                 => 'Configuração',
     'pre_flight'            => 'Pré-Voo',
@@ -521,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Gestão de auto incremento de etiquetas de conteúdo está desabilitado, assim todas as linhas precisam de ter a coluna "Etiqueta de Artigo" preenchida.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Nota: Gestão de auto incremento de etiquetas de conteúdo está habilitado assim serão criadas \\"Etiquetas de artigo\\" para os artigos que não a possuem. As linhas que possuem "Etiqueta de artigo" preenchidas, serão atualizadas com as informações fornecidas.',
     'send_welcome_email_to_users'   => ' Enviar endereço eletrónico de boas-vindas para novos utilizadores?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Enviar e-mail',
     'call'                      => 'Número de chamada',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Fazer cópias de segurança antes de importar?',
     'csv_header_field'          => 'Campo de cabeçalho CSV',
     'import_field'              => 'Campo de importação',
     'sample_value'              => 'Valor de Amostra',
     'no_headers'                => 'Nenhuma coluna encontrada',
     'error_in_import_file'      => 'Houve um erro ao ler o arquivo CSV: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % Completo',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Ocorreram alguns erros ao importar: ',
     'warning'                   => 'AVISO: :warning',
     'success_redirecting'       => '"Sucesso... Redirecionando.',
@@ -551,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'Não inclua o utilizador para atribuição em massa através da interface do utilizador da licença ou das ferramentas do CLI.',
     'modal_confirm_generic'      => 'Tem a certeza?',
     'cannot_be_deleted'      => 'Este artigo não pode ser apagado',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'Este item não pode ser editado.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Este item não pode ser entregue. Verifique a quantidade restante.',
     'serial_number'        => 'Número de Série',
     'item_notes' => ':item Notas',
@@ -583,11 +512,8 @@ return [
         'address2' => 'Linha de Endereço 2',
         'import_note' => 'Importado usando o importador csv',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% completo',
     'uploading' => 'Enviando... ',
     'upload_error' => 'Erro ao enviar o arquivo. Por favor, verifique se não existem linhas vazias e se nenhum nome de coluna está duplicado.',
@@ -600,9 +526,6 @@ return [
     'action_permission_generic' => 'Você não tem permissão para :action este: item_type',
     'edit' => 'editar',
     'action_source' => 'Fonte da Ação',
-<<<<<<< HEAD
-
-=======
     'or' => 'ou',
     'url'                   => 'URL',
     'edit_fieldset' => 'Editar campos e opções',
@@ -643,5 +566,4 @@ return [
     'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
     'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

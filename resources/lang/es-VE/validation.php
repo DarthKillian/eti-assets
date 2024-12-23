@@ -31,36 +31,6 @@ return [
         'numeric' => 'El campo :attribute debe estar entre :min y :max.',
         'string' => 'El campo :attribute debe tener entre :min y :max caracteres.',
     ],
-<<<<<<< HEAD
-    'boolean'              => 'El :attribute debe ser verdadero o falso.',
-    'confirmed'            => 'La :attribute confirmación no coincide.',
-    'date'                 => 'El :attribute no es una fecha correcta.',
-    'date_format'          => 'El :attribute no cumple el formato :format.',
-    'different'            => 'Los :attribute y :other deben ser diferentes.',
-    'digits'               => 'El :attribute debe tener :digits digitos.',
-    'digits_between'       => 'El :attribute debe tener entre :min y :max dígitos.',
-    'dimensions'           => 'El :attribute tiene dimensiones de imagen no válidas.',
-    'distinct'             => 'El campo :attribute tiene un valor duplicado.',
-    'email'                => 'El formato :attribute es inválido.',
-    'exists'               => 'El :attribute seleccionado es inválido.',
-    'file'                 => 'Estte :attribute debe ser un archivo.',
-    'filled'               => 'El campo :attribute debe tener un valor.',
-    'image'                => 'El :attribute debe ser una imagen.',
-    'import_field_empty'    => 'El valor para :fieldname no puede ser nulo.',
-    'in'                   => 'El :attribute seleccionado es inválido.',
-    'in_array'             => 'El :attribute no existe en :other.',
-    'integer'              => 'El :attribute debe ser un número entero.',
-    'ip'                   => 'El :attribute debe ser una dirección IP correcta.',
-    'ipv4'                 => 'El :atrribute debe ser una dirección IPv4 válida.',
-    'ipv6'                 => 'El :atrribute debe ser una dirección IPv6 válida.',
-    'is_unique_department' => 'El atributo :attribute debe ser único para esta ubicación de la empresa',
-    'json'                 => 'El :atrribute debe ser una dirección IPv4 válida.',
-    'max'                  => [
-        'numeric' => 'El :attribute no debe ser mayor que :max kilobytes.',
-        'file'    => 'El :attribute no debe tener como máximo :max caracteres.',
-        'string'  => 'El :attribute no debe tener más de :max caracteres.',
-        'array'   => 'El :attribute no debe tener más de :max caracteres.',
-=======
     'boolean' => 'El campo :attribute debe ser verdadero o falso.',
     'can' => 'El campo :attribute contiene un valor no autorizado.',
     'confirmed' => 'La confirmación del campo :attribute no coincide.',
@@ -91,7 +61,6 @@ return [
         'file' => 'El campo :attribute debe ser mayor que :value kilobytes.',
         'numeric' => 'El campo :attribute debe ser mayor que :value.',
         'string' => 'El campo :attribute debe ser mayor que :value caracteres.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
     'gte' => [
         'array' => 'El campo :attribute debe tener :value elementos o más.',
@@ -99,29 +68,6 @@ return [
         'numeric' => 'El campo :attribute debe ser mayor que o igual a :value.',
         'string' => 'El campo :attribute debe ser mayor que o igual a :value caracteres.',
     ],
-<<<<<<< HEAD
-    'starts_with'          => 'El :attribute debe comenzar con uno de los siguientes: :values.',
-    'ends_with'            => 'El campo :attribute debe terminar con uno de los siguientes: :values.',
-
-    'not_in'               => 'El :attribute seleccionado es inválido.',
-    'numeric'              => 'El :attribute debe ser un número entero.',
-    'present'              => 'El campo :attribute debe tener un valor.',
-    'valid_regex'          => 'Este no es un regex válido. ',
-    'regex'                => 'El formato :attribute es inválido.',
-    'required'             => 'El campo :attribute es obligatorio.',
-    'required_if'          => 'El :attribute es obligatorio cuando :other es :value.',
-    'required_unless'      => 'El campo :attribute es obligatorio cuando :other es :value.',
-    'required_with'        => 'El :attribute es obligatrio cuando :values está presente.',
-    'required_with_all'    => 'El campo :attribute es obligatrio cuando :values está presente.',
-    'required_without'     => 'El :attribute es obligatrio cuando :values está presente.',
-    'required_without_all' => 'El campo :attribute es obligatrio cuando :values es present.',
-    'same'                 => 'Los :attribute y :other deben ser diferentes.',
-    'size'                 => [
-        'numeric' => 'Estte :attribute debe ser :size.',
-        'file'    => 'El :attribute debe tener :size kilobytes.',
-        'string'  => 'El :attribute debe tener :size kilobytes.',
-        'array'   => 'El :attribute debe contener :size elementos.',
-=======
     'hex_color' => 'El campo :attribute debe ser un color hexadecimal válido.',
     'image' => 'El campo :attribute debe ser una imagen.',
     'import_field_empty'    => 'El valor para :fieldname no puede ser nulo.',
@@ -139,7 +85,6 @@ return [
         'file' => 'El campo :attribute debe ser menor que :value kilobytes.',
         'numeric' => 'El campo :attribute debe ser menor que :value.',
         'string' => 'El campo :attribute debe ser menor que :value caracteres.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
     'lte' => [
         'array' => 'El campo :attribute no debe tener más de :value elementos.',
@@ -211,21 +156,10 @@ return [
     ],
     'starts_with' => 'El campo :attribute debe iniciar con uno de los siguientes: :values.',
     'string'               => 'Este :attribute debe ser una cadena.',
-<<<<<<< HEAD
-    'timezone'             => 'El :attribute debe ser una zona válida.',
-    'two_column_unique_undeleted' => ':attribute debe ser único a través de :table1 y :table2. ',
-    'unique'               => 'El :attribute ya está en uso.',
-    'uploaded'             => 'El :attribute fallo al cargar.',
-    'url'                  => 'El formato :attribute es inválido.',
-    'unique_undeleted'     => 'El :atrribute debe ser único.',
-    'non_circular'         => ':attribute no debe crear una referencia circular.',
-    'not_array'            => ':atribute harus array.',
-=======
     'two_column_unique_undeleted' => ':attribute debe ser único entre la :table1 y :table2. ',
     'unique_undeleted'     => ':attribute debe ser único.',
     'non_circular'         => ':attribute no debe crear una referencia circular.',
     'not_array'            => ':attribute no puede ser una matriz.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'disallow_same_pwd_as_user_fields' => 'La contraseña no puede ser la misma que el nombre de usuario.',
     'letters'              => 'La contraseña debe contener al menos una letra.',
     'numbers'              => 'La contraseña debe contener al menos un número.',
@@ -261,17 +195,6 @@ return [
         'custom_field_not_found_on_model' => 'Este campo parece existir, pero no está disponible en este conjunto de campos para el modelo de activo.',
 
         // date_format validation with slightly less stupid messages. It duplicates a lot, but it gets the job done :(
-<<<<<<< HEAD
-        // We use this because the default error message for date_format is reflects php Y-m-d, which non-PHP
-        // people won't know how to format. 
-        'purchase_date.date_format'     => ':attribute debe ser una fecha válida en formato AAA-MM-DD',
-        'last_audit_date.date_format'   =>  'El campo :attribute debe ser una fecha válida en formato AAA-MM-DD hh:mm:ss',
-        'expiration_date.date_format'   =>  ':attribute debe ser una fecha válida en formato AAA-MM-DD',
-        'termination_date.date_format'  =>  ':attribute debe ser una fecha válida en formato AAA-MM-DD',
-        'expected_checkin.date_format'  =>  ':attribute debe ser una fecha válida en formato AAA-MM-DD',
-        'start_date.date_format'        =>  ':attribute debe ser una fecha válida en formato AAA-MM-DD',
-        'end_date.date_format'          =>  ':attribute debe ser una fecha válida en formato AAA-MM-DD',
-=======
         // We use this because the default error message for date_format reflects php Y-m-d, which non-PHP
         // people won't know how to format.
         'purchase_date.date_format'     => ':attribute debe ser una fecha válida en formato AAAA-MM-DD',
@@ -284,7 +207,6 @@ return [
         'checkboxes'           => ':attribute contiene opciones no válidas.',
         'radio_buttons'        => 'El valor de :attribute no es válido.',
         'invalid_value_in_field' => 'Valor no válido incluido en este campo',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
         'ldap_username_field' => [
             'not_in' =>         '<code>sAMAccountName</code> (mezcla de mayúsculas y minúsculas) no funcionará. Debe utilizar <code>samaccountname</code> (minúsculas) en su lugar.'

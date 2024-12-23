@@ -35,11 +35,7 @@ return [
     'assets_audited'        => 'Assets geprüft',
     'assets_checked_in_count'     => 'Asset zurückgenommen',
     'assets_checked_out_count'     => 'Assets herausgegeben',
-<<<<<<< HEAD
-    'asset_deleted_warning'     => 'Dieses Asset wurde gelöscht. Du musst es wiederherstellen, bevor Du es jemandem zuweisen kannst.',
-=======
     'asset_deleted_warning'     => 'Dieses Asset wurde gelöscht. Du musst es wiederherstellen, bevor du es jemandem zuweisen kannst.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'assigned_date'         => 'Zuweisungsdatum',
     'assigned_to'           => 'Herausgegeben an :name',
     'assignee'              => 'Herausgegeben an',
@@ -82,11 +78,7 @@ return [
     'consumables'			=> 'Verbrauchsmaterialien',
     'country'  				=> 'Land',
     'could_not_restore'     => 'Fehler beim Wiederherstellen von :item_type: :error',
-<<<<<<< HEAD
-    'not_deleted'           => ':item_type wurde nicht gelöscht, kann daher nicht wiederhergestellt werden',
-=======
     'not_deleted'           => 'Diese/s :item_type wurde nicht gelöscht und kann daher nicht wiederhergestellt werden',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Hinzufügen',
     'created'               => 'Eintrag erstellt',
     'created_asset'			=> 'Asset angelegt',
@@ -107,11 +99,7 @@ return [
     'debug_warning_text'    => 'Diese Anwendung läuft im Produktionsmodus mit debugging aktiviert. Dies kann sensible Daten verfügbar machen, wenn Ihre Anwendung öffentlich zugänglich ist. Deaktiviere den Debug-Modus, indem du den <code>APP_DEBUG</code>-Wert in der <code>.env</code> Datei auf <code>false</code> setzt.',
     'delete'  				=> 'Löschen',
     'delete_confirm'  		=> 'Bist du sicher, dass du :item löschen möchtest?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Möchtest du :item wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.',
-=======
     'delete_confirm_no_undo' => 'Möchtest du :item wirklich löschen? Dies kann nicht rückgängig gemacht werden.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Gelöscht',
     'delete_seats'  		=> 'Gelöschte Lizenzen',
     'deletion_failed'       => 'Löschen fehlgeschlagen',
@@ -134,15 +122,6 @@ return [
     'exclude_archived'      => 'Archivierte Assets ausschließen',
     'exclude_deleted'       => 'Gelöschte Assets ausschließen',
     'example'				=> 'Beispiel: ',
-<<<<<<< HEAD
-    'filastname_format'			=> 'Initial des VornamenNachname (emustermann@beispiel.de)',
-    'firstname_lastname_format'	=> 'Vorname.Nachname (Erika.Mustermann@beispiel.de)',
-    'firstname_lastname_underscore_format' => 'Vorname Nachname (Erika_Mustermann@beispiel.de)',
-    'lastnamefirstinitial_format' =>  'NachnameInitial des Vornamens (mustermanne@beispiel.de)',
-    'firstintial_dot_lastname_format' => 'Initial des Vorname.Nachname (e.mustermann@beispiel.de)',
-    'firstname_lastname_display'	=> 'Vorname Nachname (Jane Smith)',
-    'lastname_firstname_display'	=> 'Nachname Vorname (Smith Jane)',
-=======
     'filastname_format'			=> 'Initial des Vornamen & Nachname (emustermann@example.com)',
     'firstname_lastname_format'	=> 'Vorname.Nachname (erika.mustermann@example.com)',
     'firstname_lastname_underscore_format' => 'Vorname_Nachname (erika_mustermann@example.com)',
@@ -150,7 +129,6 @@ return [
     'firstintial_dot_lastname_format' => 'Initiale des Vornamen.Nachname (e.mustermann@example.com)',
     'firstname_lastname_display'	=> 'Vorname Nachname (Max Mustermann)',
     'lastname_firstname_display'	=> 'Nachname Vorname (Mustermann Max)',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'name_display_format'	=> 'Name Anzeigeformat',
     'first'					=> 'Erste',
     'firstnamelastname'     => 'Vorname & Nachname (erikamustermann@example.com)',
@@ -179,15 +157,9 @@ return [
     'image_delete'         	=> 'Bild löschen',
     'include_deleted'       => 'Gelöschte Assets einbeziehen',
     'image_upload'         	=> 'Bild hochladen',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'Akzeptierter Dateityp ist :types. Maximal zulässige Upload-Größe ist :size.|Akzeptierte Dateitypen sind :types. Maximal erlaubte Upload-Größe ist :size.',
-    'filetypes_size_help'   => 'Maximal erlaubte Upload-Größe ist :size.',
-    'image_filetypes_help'  => 'Akzeptierte Dateitypen sind jpg, png, gif und svg. Maximale Uploadgröße ist :size.',
-=======
     'filetypes_accepted_help'    => 'Akzeptierter Dateityp ist :types. Maximal zulässige Größe ist :size.|Akzeptierte Dateitypen sind :types. Maximal erlaubte Hochlade-Größe ist :size.',
     'filetypes_size_help'   => 'Die maximal erlaubte Upload-Größe ist :size.',
     'image_filetypes_help'  => 'Akzeptierte Dateitypen sind jpg, webp, png, gif, svg, und avif. Die maximal zulässige Upload-Größe beträgt :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'Diese Bilddatei ist nicht lesbar. Akzeptierte Dateitypen sind jpg, webp, png, gif und svg. Der MIME-Type dieser Datei ist: :mimetype.',
     'import'         	    => 'Import',
     'import_this_file'      => 'Felder zuordnen und diese Datei bearbeiten',
@@ -283,10 +255,7 @@ return [
     'select_all'            => 'Alle markieren',
     'search'				=> 'Suche',
     'select_category'       => 'Wähle eine Kategorie',
-<<<<<<< HEAD
-=======
     'select_datasource' => 'Datenquelle auswählen',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'select_department'     => 'Wähle eine Abteilung',
     'select_depreciation'	=> 'Wähle einen Abschreibungstyp',
     'select_location'		=> 'Wähle einen Standort',
@@ -306,11 +275,7 @@ return [
     'signed_off_by'         => 'Unterschrieben von',
     'skin'       			=> 'Skin',
     'webhook_msg_note'        => 'Eine Benachrichtigung wird über den Webhook gesendet',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Oh hey! Sieht so aus, als ob Deine :app Integration mit Snipe-IT funktioniert!',
-=======
     'webhook_test_msg'        => 'Oh hi! Sieht so aus, als ob Deine :app Integration mit Snipe-IT funktioniert!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'Einige Funktionen sind für den DEMO-Modus deaktiviert.',
     'site_name'				=> 'Seitenname',
     'state'  				=> 'Bundesland',
@@ -321,13 +286,8 @@ return [
     'show_or_hide_eulas' => 'EULAs ein-/ausblenden',
     'supplier'              => 'Lieferant',
     'suppliers'  			=> 'Lieferanten',
-<<<<<<< HEAD
-    'sure_to_delete'        => 'Bist Du Dir sicher, dass du das löschen möchtest',
-    'sure_to_delete_var'    => 'Willst Du :item wirklich löschen?',
-=======
     'sure_to_delete'        => 'Bist du dir sicher, dass du das löschen möchtest',
     'sure_to_delete_var'    => 'Willst du :item wirklich löschen?',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'delete_what'           => ':item löschen',
     'submit'				=> 'Abschicken',
     'target'                => 'Ziel',
@@ -347,10 +307,7 @@ return [
     'user'					=> 'Benutzer',
     'accepted'			    => 'angenommen',
     'declined'			    => 'abgelehnt',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Abgelehnte Notiz',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Nicht zugewiesen',
     'unaccepted_asset_report' => 'Nicht akzeptierte Assets',
     'users'                 => 'Benutzer',
@@ -403,15 +360,11 @@ return [
     'last_checkout'         => 'Letzte Herausgabe',
     'due_to_checkin'        => 'Folgende :count Elemente werden demnächst zurückgenommen:',
     'expected_checkin'      => 'Erwartetes Rückgabedatum',
-<<<<<<< HEAD
-    'reminder_checked_out_items' => 'Dies ist eine Erinnerung an die Artikel, die gerade an Dich herausgegeben sind. Wenn Du der Meinung bist, dass die Angaben falsch sind (fehlender Artikel oder Artikel, den Du nie erhalten hast), sende bitte eine E-Mail an :reply_to_name unter :reply_to_address.',
-=======
     'reminder_checked_out_items' => 'Dies ist eine Erinnerung an die Artikel, die gerade an dich herausgegeben sind. Wenn du der Meinung bist, dass die Angaben falsch sind (fehlender Artikel oder Artikel, den du nie erhalten hast), sende bitte eine E-Mail an :reply_to_name unter :reply_to_address.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'changed'               => 'Geändert',
     'to'                    => 'An',
-    'report_fields_info'    => '<p>Wähle die Felder aus, die Du in Deinem benutzerdefinierten Bericht einfügen möchtest, und klicke auf Generieren. Die Datei (custom-asset-report-YYYY-mm-dd.csv) wird automatisch heruntergeladen und Du kannst diese in Excel öffnen.</p>
-            <p>Wenn Du nur bestimmte Artikel exportieren möchten, verwende die folgenden Optionen, um das Ergebnis zu verfeinern.</p>',
+    'report_fields_info'    => '<p>Wähle die Felder aus, die du in deinem benutzerdefinierten Bericht einfügen möchtest, und klicke auf Generieren. Die Datei (custom-asset-report-YYYY-mm-dd.csv) wird automatisch heruntergeladen und du kannst diese in Excel öffnen.</p>
+            <p>Wenn du nur bestimmte Artikel exportieren möchten, verwende die folgenden Optionen, um das Ergebnis zu verfeinern.</p>',
     'range'                 => 'Bereich',
     'bom_remark'            => 'Füge ein BOM (Byte-Reihenfolge-Markierung) zu dieser CSV hinzu',
     'improvements'          => 'Verbesserungen',
@@ -428,7 +381,7 @@ return [
     'invalid_item_category_single' => 'Ungültige oder fehlende :type Kategorie. Bitte aktualisiere die Kategorie dieses :type um eine gültige Kategorie vor dem Auschecken hinzuzufügen.',
     'dashboard_info'        => 'Das ist Dein Dashboard. Es gibt viele wie dieses, aber das hier ist Deins.',
     '60_percent_warning'    => '60% abgeschlossen (Warnung)',
-    'dashboard_empty'       => 'Es sieht so aus, als hättest Du noch nichts hinzugefügt, sodass wir nichts Großartiges zum Anzeigen haben. Beginne jetzt mit dem Hinzufügen einiger Gegenstände, Zubehör, Verbrauchsmaterialien oder Lizenzen!',
+    'dashboard_empty'       => 'Es sieht so aus, als hättest du noch nichts hinzugefügt, sodass wir nichts Großartiges zum Anzeigen haben. Beginne jetzt mit dem Hinzufügen einiger Gegenstände, Zubehör, Verbrauchsmaterialien oder Lizenzen!',
     'new_asset'             => 'Neues Asset',
     'new_license'           => 'Neue Lizenz',
     'new_accessory'         => 'Neues Zubehör',
@@ -455,29 +408,20 @@ return [
     'accessory_name'       => 'Zubehörname:',
     'clone_item'            => 'Element klonen',
     'checkout_tooltip' => 'Diesen Gegenstand heraugeben',
-<<<<<<< HEAD
-    'checkin_tooltip' => 'Diesen Artikel zurücknehmen',
-    'checkout_user_tooltip' => 'Diesen Artikel an einen Benutzer herausgeben',
-=======
     'checkin_tooltip' => 'Externer Link zu',
     'checkout_user_tooltip' => 'Diesen Artikel an einen Benutzer herausgeben',
     'checkin_to_diff_location' => 'Du kannst dich dafür entscheiden, dieses Asset an einem anderen Ort als dem standardmäßigen Standort :default_location einzuchecken, falls einer festgelegt ist',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'maintenance_mode'      => 'Der Dienst ist wegen Wartungsarbeiten vorübergehend nicht verfügbar. Bitte versuche es später noch einmal.',
     'maintenance_mode_title' => 'System vorübergehend nicht verfügbar',
     'ldap_import'           => 'Benutzerkennwort sollte nicht von LDAP verwaltet werden. (Das erlaubt es Dir, Passwortrücksetzungen zu versenden.)',
     'purge_not_allowed'     => 'Löschen von "gelöschten Daten" wurde in der .env-Datei verboten. Kontaktiere den Support oder Deinen Systemadministrator.',
     'backup_delete_not_allowed'     => 'Das Löschen von Sicherungen wurde in der .env-Datei verboten. Kontaktiere den Support oder Deinen Systemadministrator.',
     'additional_files'           => 'Zusätzliche Dateien',
-    'shitty_browser'        => 'Keine Signatur erkannt. Wenn Du einen älteren Browser benutzt, verwende bitte einen moderneren Browser, um den Erhalt zu bestätigen.',
+    'shitty_browser'        => 'Keine Signatur erkannt. Wenn du einen älteren Browser benutzt, verwende bitte einen moderneren Browser, um den Erhalt zu bestätigen.',
     'bulk_soft_delete'      =>'Auch diese Benutzer soft-löschen. Die Assets-Historie bleibt erhalten, solange/bis die markierten Datensätze nicht in den Admin-Einstellungen endgültig gelöscht werden.',
     'bulk_checkin_delete_success' => 'Die ausgewählten Benutzer wurden gelöscht und ihre Assets wurden eingecheckt.',
     'bulk_checkin_success' => 'Die Assets der ausgewählten Benutzer wurden eingecheckt.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Werte für dieses Asset|Werte für alle :asset_count Assets löschen ',
-=======
     'set_to_null'           => 'Werte für diese Auswahl löschen|Werte für alle :selection_count Auswahlen löschen ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => ':field Werte für diesen Benutzer löschen|:field Werte für alle :user_count Benutzer löschen ',
     'na_no_purchase_date'   => 'N/A - Kein Kaufdatum angegeben',
     'assets_by_status'      => 'Assets sortiert nach Status',
@@ -490,10 +434,7 @@ return [
     'alt_uploaded_image_thumbnail' => 'Hochgeladene Miniaturansicht',
     'placeholder_kit'       => 'Kit auswählen',
     'file_not_found'        => 'Datei wurde nicht gefunden',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'Es wurde kein Eintrag für diesen Logeintrag gefunden.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(keine Vorschau vorhanden)',
     'setup'                 => 'Setup',
     'pre_flight'            => 'Pre-Flight',
@@ -506,11 +447,7 @@ return [
     'integration_option'    => 'Integrationsoptionen',
     'log_does_not_exist'    => 'Es existiert kein passender Logeintrag.',
     'merge_users'           => 'Benutzer zusammenführen',
-<<<<<<< HEAD
-    'merge_information' =>  'Dies wird die :count Benutzer zu einem Benutzer zusammenführen. Wähle den Benutzer, in den Du die anderen zusammenführen möchtest. Die zugehörigen Assets, Lizenzen, etc. werden in den ausgewählten Benutzer verschoben und die anderen Benutzer werden als gelöscht markiert.',
-=======
     'merge_information' =>  'Dies wird die :count Benutzer zu einem Benutzer zusammenführen. Wähle den Benutzer, in den du die anderen zusammenführen möchtest. Die zugehörigen Assets, Lizenzen, etc. werden in den ausgewählten Benutzer verschoben und die anderen Benutzer werden als gelöscht markiert.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'warning_merge_information' => 'Diese Aktion kann NICHT rückgängig gemacht werden und sollte NUR verwendet werden, wenn Benutzer aufgrund eines falschen Imports oder einer fehlerhaften Synchronisation zusammengeführt werden müssen. Stelle sicher, dass zuerst ein Backup erstellt wird.',
     'no_users_selected'     => 'Keine Benutzer ausgewählt',
     'not_enough_users_selected'     => 'Mindestens :count Benutzer müssen ausgewählt sein',
@@ -523,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Das Generieren von fortlaufenden Asset-Tags ist deaktiviert, daher müssen alle Datensätze die Spalte "Asset Tag" enthalten.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Hinweis: Das Generieren von fortlaufenden Asset-Tags ist aktiviert, daher wird für alle Datensätze, die keinen Asset-Tag angegeben haben, einer erstellt. Datensätze, die einen "Asset Tag" angegeben haben, werden mit den angegebenen Informationen aktualisiert.',
     'send_welcome_email_to_users'   => ' Willkommens-E-Mail für neue Benutzer senden?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'E-Mail senden',
     'call'                      => 'Nummer anrufen',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Vor dem Importieren sichern?',
     'csv_header_field'          => 'CSV-Header-Feld',
     'import_field'              => 'Feld importieren',
     'sample_value'              => 'Beispielwert',
     'no_headers'                => 'Keine Spalten gefunden',
     'error_in_import_file'      => 'Beim Lesen der CSV-Datei ist ein Fehler aufgetreten: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % abgeschlossen',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Einige Fehler sind beim Importieren aufgetreten: ',
     'warning'                   => 'WARNUNG: :warning',
     'success_redirecting'       => '"Erfolgreich... Weiterleiten.',
@@ -551,24 +481,15 @@ return [
     'autoassign_licenses_help' => 'Erlaube diesem Benutzer die Zuweisung von Lizenzen über die Benutzeroberfläche für die Massenzuweisung von Lizenzen oder über die CLI-Tools.',
     'autoassign_licenses_help_long' => 'Es erlaubt einem Benutzer, Lizenzen über die Massen-Zuweisung GUI oder CLI-Tools zugewiesen zu bekommen. (Zum Beispiel möchtest du den Auftragnehmern möglicherweise nicht automatisch eine Lizenz zuweisen, die nur Mitarbeitern zur Verfügung stehen würde. Du kannst diesen Benutzern weiterhin einzelne Lizenzen zuweisen, aber sie werden nicht in der Lizenzen Massenherausgabe der Benutzer berücksichtigt.)',
     'no_autoassign_licenses_help' => 'Den Benutzer nicht bei der Lizenzen Massen-Zuweisung GUI oder CLI-Tools berücksichtigen.',
-<<<<<<< HEAD
-    'modal_confirm_generic'      => 'Bist Du dir sicher?',
-    'cannot_be_deleted'      => 'Dieser Gegenstand kann nicht gelöscht werden',
-=======
     'modal_confirm_generic'      => 'Bist du dir sicher?',
     'cannot_be_deleted'      => 'Dieser Gegenstand kann nicht gelöscht werden',
     'cannot_be_edited'      => 'Dieser Gegenstand kann nicht bearbeitet werden.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Dieser Gegenstand kann nicht herausgegeben werden. Überprüfe die verbleibende Menge.',
     'serial_number'        => 'Seriennummer',
     'item_notes' => ':item Notizen',
     'item_name_var' => ':item Name',
     'error_user_company' => 'Checkout Zielfirma und Asset-Gesellschaft stimmen nicht überein',
-<<<<<<< HEAD
-    'error_user_company_accept_view' => 'Ein Asset, welches Dir zugewiesen wurde, gehört einem anderen Unternehmen, sodass Du es nicht akzeptieren oder ablehnen kannst. Bitte prüfe das mit deinem Vorgesetzten',
-=======
     'error_user_company_accept_view' => 'Ein Asset, welches dir zugewiesen wurde, gehört einem anderen Unternehmen, sodass du es nicht akzeptieren oder ablehnen kannst. Bitte prüfe das mit deinem Vorgesetzten',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'importer' => [
         'checked_out_to_fullname' => 'Herausgegeben an: Voller Name',
         'checked_out_to_first_name' => 'Herausgegeben an: Vorname',
@@ -591,11 +512,8 @@ return [
         'address2' => 'Adresszeile 2',
         'import_note' => 'Mit CSV-Importer importiert',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Entfernst du dieses Feld aus dem Feldsatz, wird das benutzerdefinierte Feld nicht gelöscht, sondern nur die Zuordnung dieses Feldes zu diesem Feldsatz.',
     'checked_out_to_fields' => 'Auf folgende Felder herausgegeben',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% vollständig',
     'uploading' => 'Hochladen... ',
     'upload_error' => 'Fehler beim Hochladen der Datei. Bitte überprüfe, dass keine leeren Zeilen vorhanden sind und keine Spaltennamen dupliziert werden.',
@@ -608,9 +526,6 @@ return [
     'action_permission_generic' => 'Du hast keine Berechtigung für :action :item_type Id :id',
     'edit' => 'bearbeiten',
     'action_source' => 'Aktionsquelle',
-<<<<<<< HEAD
-
-=======
     'or' => 'oder',
     'url'                   => 'URL',
     'edit_fieldset' => 'Felder und Optionen bearbeiten',
@@ -651,5 +566,4 @@ return [
     'import_asset_tag_exists' => 'Ein Asset mit dem Asset-Tag :asset_tag ist bereits vorhanden und es wurde keine Aktualisierung angefordert. Es wurden keine Änderungen vorgenommen.',
     'countries_manually_entered_help' => 'Werte mit einem Sternchen (*) wurden manuell eingegeben und stimmen nicht mit vorhandenen Dropdown-Werten nach ISO 3166 überein',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

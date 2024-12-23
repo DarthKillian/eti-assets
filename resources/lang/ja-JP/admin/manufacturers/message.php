@@ -2,11 +2,7 @@
 
 return array(
 
-<<<<<<< HEAD
-    'support_url_help' => 'Variables <code>{LOCALE}</code>, <code>{SERIAL}</code>, <code>{MODEL_NUMBER}</code>, and <code>{MODEL_NAME}</code> may be used in your URL to have those values auto-populate when viewing assets - for example https://support.apple.com/{LOCALE}/{SERIAL}.',
-=======
     'support_url_help' => 'Variables <code>{LOCALE}</code>, <code>{SERIAL}</code>, <code>{MODEL_NUMBER}</code>, and <code>{MODEL_NAME}</code> may be used in your URL to have those values auto-populate when viewing assets - for example https://checkcoverage.apple.com/{LOCALE}/{SERIAL}.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'does_not_exist' => '製造元が存在しません。',
     'assoc_users'	 => 'この製造元は一つ以上の型番に関連付けられているため、削除できません。この製造元の関連付けを削除後、もう一度試して下さい。 ',
 

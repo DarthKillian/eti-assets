@@ -16,12 +16,7 @@ return array(
     'update'  							=> 'Värskenda tarvikut',
     'use_default_eula'					=> 'Selle asemel kasutage <a href="#" data-toggle="modal" data-target="#eulaModal">primaarset EULA</a> vaikimisi.',
     'use_default_eula_disabled'			=> '<del>Võtke kasutusele esmane vaikimisi EULA-d.</del> Ükski esmane vaikimisi EULA ei ole määratud. Lisage see üksus valikut Seaded.',
-<<<<<<< HEAD
-    'clone'                             => 'Clone Accessory',
-    'delete_disabled'                   => 'This accessory cannot be deleted yet because some items are still checked out.',
-=======
     'clone'                             => 'Klooni tarvik',
     'delete_disabled'                   => 'Seda tarvikut ei saa veel kustutada, sest mõned ühikud on veel väljastatud olekus.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 );

@@ -9,12 +9,6 @@ return [
     'backup' => [
         'delete_confirm'        => '¿Está seguro de que desea eliminar este archivo de respaldo? Esta acción no puede se puede deshacer. ',
         'file_deleted'          => 'El archivo de respaldo fue eliminado satisfactoriamente. ',
-<<<<<<< HEAD
-        'generated'             => 'Un nuevo archivo de respaldo fue creado satisfactoriamente.',
-        'file_not_found'        => 'El archivo de respaldo no se ha encontrado en el servidor.',
-        'restore_warning'       => 'Sí, restaurarlo. Reconozco que esto sobrescribirá cualquier dato existente actualmente en la base de datos. Esto también cerrará la sesión de todos sus usuarios existentes (incluido usted).',
-        'restore_confirm'       => '¿Está seguro que desea restaurar su base de datos desde :filename?'
-=======
         'generated'             => 'Se ha creado correctamente un nuevo archivo de copia de seguridad.',
         'file_not_found'        => 'Ese archivo de copia de seguridad no se pudo encontrar en el servidor.',
         'restore_warning'       => 'Sí, restaurarlo. Reconozco que esto sobrescribirá cualquier dato existente actualmente en la base de datos. Esto también cerrará la sesión de todos sus usuarios existentes (incluido usted).',
@@ -22,7 +16,6 @@ return [
     ],
     'restore' => [
         'success'               => 'Se ha restaurado la copia de seguridad de su sistema. Por favor, vuelva a iniciar sesión.'
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
     'purge' => [
         'error'     => 'Ha ocurrido un error mientras se realizaba el purgado. ',
@@ -30,16 +23,6 @@ return [
         'success'               => 'Registros eliminados correctamente purgados.',
     ],
     'mail' => [
-<<<<<<< HEAD
-        'sending' => 'Enviando correo electrónico...',
-        'success' => '¡Correo enviado!',
-        'error' => 'El correo no pudo ser enviado.',
-        'additional' => 'Ningún mensaje de error adicional proporcionado. Comprueba la configuración de tu correo y el registro de tu aplicación.'
-    ],
-    'ldap' => [
-        'testing' => 'Probando conexión LDAP, Binding & Query ...',
-        '500' => 'Error 500 del servidor. Por favor, compruebe los registros de su servidor para más información.',
-=======
         'sending' => 'Enviando correo electrónico de prueba...',
         'success' => '¡Correo enviado!',
         'error' => 'El correo no pudo ser enviado.',
@@ -48,7 +31,6 @@ return [
     'ldap' => [
         'testing' => 'Probando conexión LDAP, Binding & Query ...',
         '500' => 'Error 500 del servidor. Por favor, compruebe los registros de error de su servidor para más información.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'error' => 'Algo salió mal :(',
         'sync_success' => 'Una muestra de 10 usuarios devueltos desde el servidor LDAP basado en su configuración:',
         'testing_authentication' => 'Probando autenticación LDAP...',
@@ -56,13 +38,8 @@ return [
     ],
     'webhook' => [
         'sending' => 'Enviando mensaje de prueba de :app...',
-<<<<<<< HEAD
-        'success' => '¡Su Integración :webhook_name funciona!',
-        'success_pt1' => '¡Éxito! Comprueba el ',
-=======
         'success' => '¡Su integración :webhook_name funciona!',
         'success_pt1' => '¡Éxito! Compruebe el ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'success_pt2' => ' para su mensaje de prueba, y asegúrese de hacer clic en GUARDAR abajo para guardar su configuración.',
         '500' => 'Error 500 del servidor.',
         'error' => 'Algo salió mal. :app respondió con: :error_message',

@@ -14,10 +14,7 @@ return array(
     'info'  					=> 'ライセンス情報',
     'license_seats'  			=> 'ライセンスシート',
     'seat'  					=> 'シート',
-<<<<<<< HEAD
-=======
     'seat_count'  				=> 'シート :count',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'seats'  					=> 'シート数',
     'software_licenses'  		=> 'ソフトウェア・ライセンス',
     'user'  					=> '利用者',
@@ -27,20 +24,12 @@ return array(
         [
             'checkin_all'           => [
                 'button'            => '全てのシートをチェックイン',
-<<<<<<< HEAD
-                'modal'             => 'このアクションは、1つのシートをチェックインします。 | このアクションは、このライセンスのすべての :checkedout_seats_count シートをチェックインします。',
-=======
                 'modal'             => 'This action will checkin one seat. | This action will checkin all :checkedout_seats_count seats for this license.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
                 'enabled_tooltip'   => 'ユーザーとアセットの両方から、このライセンスのすべてのシートをチェックインします',
                 'disabled_tooltip'  => '現在チェックアウトされているシートがないため、これは無効です',
                 'disabled_tooltip_reassignable'  => 'ライセンスが再割り当てできないため、これは無効です',
                 'success'           => 'ライセンスのチェックインに成功しました! | すべてのライセンスは正常にチェックインされました!',
-<<<<<<< HEAD
-                'log_msg'           => 'ライセンスGUIで一括ライセンスチェックアウトを行いました',
-=======
                 'log_msg'           => 'Checked in via bulk license checkin in license GUI',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
             ],
 
             'checkout_all'              => [
@@ -57,10 +46,7 @@ return array(
 
             ],
     ],
-<<<<<<< HEAD
-=======
 
     'below_threshold' => ':min_amt の最小数量とこのライセンスのために残されている唯一の :remaining_count シートがあります. あなたはより多くの席を購入することを検討したいかもしれません.',
     'below_threshold_short' => 'この商品は最低限の必要量を下回っています。',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

@@ -83,14 +83,7 @@ return [
     'test_email' => 'Email de prueba de Snipe-IT',
     'test_mail_text' => 'Esto es una prueba desde el sistema de gestión de activos Snipe-IT. Si recibió este mensaje, el correo está funcionando :)',
     'the_following_item' => 'El siguiente artículo ha sido devuelto: ',
-<<<<<<< HEAD
-    'low_inventory_alert' => 'Hay :count item por debajo del inventario mínimo o próximo a bajar.|Hay are :count elementos por debajo del inventario mínimo o próximos a bajar.',
-    'assets_warrantee_alert' => 'Hay :count activo con su garantía que expira en los próximos :threshold days.|Hay :count activos con garantías que expiran en los siguientes :threshold days.',
-    'license_expiring_alert' => 'Hay :count licencia que expira en los próximos :threshold días. | Hay :count licencias que expiran en los próximos :threshold días.',
-    'to_reset' => 'Para restaurar tu contraseña de :web, rellena este formulario:',
-=======
     'to_reset' => 'Para restaurar su contraseña de :web, diligencie este formulario:',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'type' => 'Tipo',
     'upcoming-audits' => 'Hay :count activo para ser auditado antes de :threshold días.|Hay :count activos para ser auditados antes de :threshold días.',
     'user' => 'Usuario',
@@ -98,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'Tiene activos pendientes por aceptar.',
     'welcome' => 'Bienvenido, :name',
     'welcome_to' => '¡Bienvenido a: web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Tus credenciales de Snipe-IT',
-    'Accessory_Checkin_Notification' => 'Accesorio devuelto',
-    'Asset_Checkin_Notification' => 'Activo devuelto',
-    'Asset_Checkout_Notification' => 'Activo asignado',
-    'License_Checkin_Notification' => 'Licencia devuelta',
-    'Expected_Checkin_Report' => 'Informe de devolución de activo esperado',
-    'Expected_Checkin_Notification' => 'Recordatorio: :name se acerca la fecha de devolución',
-    'Expected_Checkin_Date' => 'Un activo asignado a ti debe ser devuelto en :date',
-    'your_assets' => 'Ver tus activos',
-    'rights_reserved' => 'Todos los derechos reservados.',
-=======
     'your_assets' => 'Ver sus activos',
     'your_credentials' => 'Sus credenciales de Snipe-IT',
     'mail_sent' => '¡Correo enviado exitosamente!.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

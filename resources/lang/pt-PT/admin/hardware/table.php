@@ -25,10 +25,6 @@ return [
     'image'		    => 'Imagem do equipamento',
     'days_without_acceptance' => 'Dias sem aceitação',
     'monthly_depreciation' => 'Depreciação Mensal',
-<<<<<<< HEAD
-    'assigned_to'    => 'Atribuído a',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requesting_user' => 'Utilizador que solicitou',
     'requested_date' => 'Data de solicitação',
     'changed'       => 'Modificado',

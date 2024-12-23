@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Dhiúltaigh tú an tsócmhainn seo go rathúil.',
     'bulk_manager_warn'	        => 'Rinneadh do chuid úsáideoirí a nuashonrú go rathúil, áfach, níor shábháil do iontráil bainisteora toisc go raibh an bainisteoir a roghnaigh tú chomh maith sa liosta úsáideora le bheith in eagar, agus b\'fhéidir nach mbainfeadh úsáideoirí a mbainisteoir féin. Roghnaigh d\'úsáideoirí arís, gan an bainisteoir a áireamh.',
     'user_exists'               => 'Úsáideoir ann cheana!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Níl an t-úsáideoir ann.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Is gá an réimse logála isteach',
     'user_has_no_assets_assigned' => 'No assets currently assigned to user.',
     'user_password_required'    => 'Tá an focal faire ag teastáil.',

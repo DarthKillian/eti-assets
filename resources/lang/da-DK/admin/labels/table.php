@@ -1,9 +1,6 @@
 <?php
 
 return [
-<<<<<<< HEAD
-
-=======
     'example_company'    => 'Test Company Limited',
     'example_defaultloc' => 'Bygning 1',
     'example_category'   => 'Test Kategori',
@@ -11,7 +8,6 @@ return [
     'example_manufacturer'  => 'Test Manufacturing Inc.',
     'example_model'      => 'Prøvningsmodel',
     'example_supplier'   => 'Test Company Limited',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'labels_per_page'    => 'Etiketter',
     'support_fields'     => 'Felter',
     'support_asset_tag'  => 'Mærkat',

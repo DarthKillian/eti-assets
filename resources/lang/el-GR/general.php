@@ -1,10 +1,7 @@
 <?php
 
 return [
-<<<<<<< HEAD
-=======
     '2FA_reset'             => '2FA reset',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'accessories'			=> 'Αξεσουάρ',
     'activated'			    => 'Ενεργοποιήθηκε',
     'accepted_date'         => 'Ημερομηνία Αποδεκτής',
@@ -14,12 +11,9 @@ return [
     'activity_report'		=> 'Έκθεση Δραστηριότητας',
     'address'				=> 'Διεύθυνση',
     'admin'					=> 'Διαχειριστής',
-<<<<<<< HEAD
-=======
     'admin_tooltip'			=> 'This user has admin privileges',
     'superuser'				=> 'Superuser',
     'superuser_tooltip'		=> 'This user has superuser privileges',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'administrator'			=> 'Διαχειριστής',
     'add_seats'             => 'Προστέθηκαν θέσεις',
     'age'                   => "Ηλικία",
@@ -70,10 +64,7 @@ return [
     'checkout'  			=> 'Ολοκλήρωση αγοράς',
     'checkouts_count'       => 'Έλεγχοι',
     'checkins_count'        => 'Checkins',
-<<<<<<< HEAD
-=======
     'checkin_and_delete'  	=> 'Checkin and Delete',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_requests_count'   => 'Αιτήματα',
     'city'  				=> 'Πόλη',
     'click_here'			=> 'Κάντε κλικ ΕΔΩ',
@@ -87,11 +78,7 @@ return [
     'consumables'			=> 'Αναλώσιμα',
     'country'  				=> 'Χώρα',
     'could_not_restore'     => 'Σφάλμα επαναφοράς :item_type: :error',
-<<<<<<< HEAD
-    'not_deleted'           => 'Το :item_type δεν διαγράφεται έτσι ώστε να μην μπορεί να αποκατασταθεί',
-=======
     'not_deleted'           => 'The :item_type was not deleted and therefore cannot be restored',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Δημιουργία νέου',
     'created'               => 'Το αντικείμενο δημιουργήθηκε',
     'created_asset'			=> 'δημιουργία παγίου',
@@ -112,11 +99,7 @@ return [
     'debug_warning_text'    => 'Αυτή η εφαρμογή εκτελείται σε λειτουργία παραγωγής με ενεργοποιημένο τον εντοπισμό σφαλμάτων. Αυτό μπορεί να εκθέσει τα ευαίσθητα δεδομένα, εάν η εφαρμογή σας είναι προσβάσιμη στον έξω κόσμο. Απενεργοποιήσετε την κατάσταση λειτουργίας εντοπισμού σφαλμάτων, ορίζοντας την τιμή <code>APP_DEBUG</code> στο αρχείο <code>.env</code> για να <code>false</code>.',
     'delete'  				=> 'Διαγραφή',
     'delete_confirm'  		=> 'Επιθυμείτε την διαφραφή :item;',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Είστε βέβαιοι ότι θέλετε να διαγράψετε :αντικείμενο? Αυτό δεν μπορεί να αναιρεθεί.',
-=======
     'delete_confirm_no_undo' => 'Are you sure, you wish to delete :item? This cannot be undone.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Διαγράφηκε',
     'delete_seats'  		=> 'Διαγραμμένα καθίσματα',
     'deletion_failed'       => 'Αποτυχία διαγραφής',
@@ -152,10 +135,7 @@ return [
     'lastname_firstinitial' => 'Πρώτο Όνομα Αρχικό (smith_j@example.com)',
     'firstinitial.lastname' => 'Πρώτο Αρχικό Όνομα (j.smith@example.com)',
     'firstnamelastinitial'  => 'Επίθετο Όνομα (janes@example.com)',
-<<<<<<< HEAD
-=======
     'lastnamefirstname'      => 'Last Name.First Name (smith.jane@example.com)',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'first_name'			=> 'Όνομα',
     'first_name_format'		=> 'Όνομα (jane@example.com)',
     'files'                 => 'Αρχεία',
@@ -177,15 +157,9 @@ return [
     'image_delete'         	=> 'Διαγραφή εικόνας',
     'include_deleted'       => 'Συμπερίληψη Διαγραμμένων Αντικειμένων',
     'image_upload'         	=> 'Μεταφόρτωση εικόνας',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'Ο τύπος αρχείου είναι :types. Το μέγιστο επιτρεπόμενο μέγεθος μεταφορτώσεων είναι :size."Οι αποδεκτοί τύποι αρχείων είναι :types. Το μέγιστο επιτρεπόμενο μέγεθος αποστολής είναι :size.',
-    'filetypes_size_help'   => 'Το μέγιστο επιτρεπόμενο μέγεθος ανεβάσματος είναι :size.',
-    'image_filetypes_help'  => 'Οι αποδεκτοί τύποι αρχείων είναι jpg, webp, png, gif και svg. Το μέγιστο επιτρεπόμενο μέγεθος ανεβάσματος είναι :size.',
-=======
     'filetypes_accepted_help'    => 'Accepted filetype is :types. The maximum size allowed is :size.|Accepted filetypes are :types. The maximum upload size allowed is :size.',
     'filetypes_size_help'   => 'The maximum upload size allowed is :size.',
     'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'Αυτό το αρχείο εικόνας δεν ήταν αναγνώσιμο. Οι αποδεκτοί τύποι αρχείων είναι jpg, webp, png, gif, και svg. Ο τύπος mime αυτού του αρχείου είναι: :mimetype.',
     'import'         	    => 'Εισαγωγή',
     'import_this_file'      => 'Χάρτης πεδίων και επεξεργασία αυτού του αρχείου',
@@ -207,15 +181,6 @@ return [
     'last_name'             => 'Επίθετο',
     'license'				=> 'Άδεια Χρήσεως',
     'license_report'        => 'Αναφορά άδειας',
-<<<<<<< HEAD
-    'licenses_available'	=> 'διαθέσιμες άδειες',
-    'licenses'				=> 'Άδειες',
-    'list_all'				=> 'Λίστα όλων',
-    'loading'				=> 'Φόρτωση... παρακαλώ περιμένετε...',
-    'lock_passwords'        => 'Αυτή η τιμή πεδίου δεν θα αποθηκευτεί σε μια εγκατάσταση επίδειξης.',
-    'feature_disabled'      => 'Αυτή η λειτουργία έχει απενεργοποιηθεί για την εγκατάσταση επίδειξης.',
-    'location'              => 'Τοποθεσία',
-=======
     'licenses_available'	=> 'Διαθέσιμες άδειες',
     'licenses'				=> 'Άδειες',
     'list_all'				=> 'Λίστα όλων',
@@ -224,17 +189,12 @@ return [
     'feature_disabled'      => 'Αυτή η λειτουργία έχει απενεργοποιηθεί για την εγκατάσταση επίδειξης.',
     'location'              => 'Τοποθεσία',
     'location_plural'        => 'Τοποθεσίες',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'locations'				=> 'Τοποθεσίες',
     'logo_size'				=> 'Τετραγωνικά λογότυπα φαίνονται καλύτερα με λογότυπο + κείμενο. Το μέγιστο μέγεθος επίδειξης λογότυπων είναι 50px υψηλό x 500px πλάτος.  ',
     'logout'				=> 'Αποσύνδεση',
     'lookup_by_tag'     => 'Αναζήτηση με ετικέτα περιουσιακών στοιχείων',
     'maintenances'          => 'Συντήρηση',
-<<<<<<< HEAD
-    'manage_api_keys'       => 'Διαχείριση Κλειδιών Api',
-=======
     'manage_api_keys'       => 'Manage API keys',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'manufacturer'			=> 'Κατασκευαστής',
     'manufacturers'			=> 'Κατασκευαστές',
     'markdown'				=> 'Αυτό το πεδίο επιτρέπει <a href="https://help.github.com/articles/github-flavored-markdown/">Github flavored markdown</a>.',
@@ -247,12 +207,9 @@ return [
     'new_password'          => 'Νέος Κωδικός Πρόσβασης',
     'next'					=> 'Επόμενο',
     'next_audit_date'		=> 'Επόμενη ημερομηνία ελέγχου',
-<<<<<<< HEAD
-=======
     'next_audit_date_help'  => 'If you use auditing in your organization, this is usually automatically calculated based on the asset&apos;s last audit date and audit frequency (in <code>Admin Settings &gt; Alerts</code>) and you can leave this blank. You can manually set this date here if you need to, but it must be later than the last audit date. ',
     'audit_images_help'     => 'You can find audit images in the asset\'s history tab.',
     'no_email'              => 'Καμία διεύθυνση ηλεκτρονικού ταχυδρομείου δεν συσχετίζεται με αυτόν το χρήστη',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'last_audit'		    => 'Τελευταίος Έλεγχος',
     'new'					=> 'νεό!',
     'no_depreciation'		=> 'Δεν Αποσβέσεις',
@@ -273,11 +230,7 @@ return [
     'purchase_date'         => 'Ημερομηνία αγοράς',
     'qty'		            => 'Τεμάχια',
     'quantity'		        => 'Ποσότητα',
-<<<<<<< HEAD
-    'quantity_minimum'      => 'Έχετε :count στοιχεία κάτω ή σχεδόν κάτω από τα ελάχιστα επίπεδα ποσότητας',
-=======
     'quantity_minimum'      => 'You have one item below or almost below minimum quantity levels|You have :count items below or almost below minimum quantity levels',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'quickscan_checkin'  	=> 'Γρήγορη Σάρωση Checkin',
     'quickscan_checkin_status'  	=> 'Checkin Status',
     'ready_to_deploy'		=> 'Είστε έτοιμοι να αναπτύξετε',
@@ -288,30 +241,21 @@ return [
     'restored'				=> 'επαναφέρθηκε',
     'restore'				=> 'Επαναφορά',
     'requestable_models'    => 'Απαιτούμενα Μοντέλα',
-<<<<<<< HEAD
-=======
     'requestable_items'     => 'Requestable Items',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requested'				=> 'Ζητήθηκαν',
     'requested_date'        => 'Ημερομηνία Που Ζητήθηκε',
     'requested_assets'      => 'Ζητούμενα Περιουσιακά Στοιχεία',
     'requested_assets_menu' => 'Ζητούμενα Περιουσιακά Στοιχεία',
     'request_canceled'      => 'Το αίτημα ακυρώθηκε',
-<<<<<<< HEAD
-=======
     'request_item'          => 'Request this item',
     'external_link_tooltip' => 'External link to',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'save'  				=> 'Αποθήκευση',
     'select_var'            => 'Επιλέξτε :thing... ', // this will eventually replace all of our other selects
     'select'				=> 'Επιλογή',
     'select_all'            => 'Επιλογή Όλων',
     'search'				=> 'Αναζήτηση',
     'select_category'       => 'Επιλέξτε μια κατηγορία',
-<<<<<<< HEAD
-=======
     'select_datasource' => 'Select a data source',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'select_department'     => 'Επιλέξτε ένα Τμήμα',
     'select_depreciation'	=> 'Επιλέξτε τύπο απόσβεσης',
     'select_location'		=> 'Επιλέξτε τοποθεσία',
@@ -331,24 +275,15 @@ return [
     'signed_off_by'         => 'Υπογραφή Από',
     'skin'       			=> 'Θέμα',
     'webhook_msg_note'        => 'Μια ειδοποίηση θα σταλεί μέσω webhook',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Ωχ χάλι! Φαίνεται σαν την ενσωμάτωσή σας :app με Snipe-IT λειτουργεί!',
-=======
     'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'ΛΕΙΤΟΥΡΓΙΑ DEMO: Ορισμένες λειτουργίες είναι απενεργοποιημένες για αυτήν την εγκατάσταση.',
     'site_name'				=> 'Όνομα ιστότοπου',
     'state'  				=> 'Κατάσταση',
     'status_labels'			=> 'Ετικέτα Κατάστασης',
-<<<<<<< HEAD
-    'status'    			=> 'Κατάσταση',
-    'accept_eula'           => 'Συμφωνία Αποδοχής',
-=======
     'status_label'			=> 'Status Label',
     'status'    			=> 'Κατάσταση',
     'accept_eula'           => 'Συμφωνία Αποδοχής',
     'show_or_hide_eulas' => 'Show/Hide EULAs',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'supplier'              => 'Προμηθευτής',
     'suppliers'  			=> 'Προμηθευτές',
     'sure_to_delete'        => 'Είστε βέβαιοι ότι θέλετε να διαγράψετε',
@@ -372,10 +307,7 @@ return [
     'user'					=> 'Χρήστης',
     'accepted'			    => 'αποδεκτή',
     'declined'			    => 'απορρίφθηκε',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Declined Notes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Ανεκχώρησε',
     'unaccepted_asset_report' => 'Μη αποδεκτά πάγια',
     'users'                 => 'Χρήστες',
@@ -394,13 +326,10 @@ return [
     'token_expired'         => 'Έχει λήξει η συνεδρία σας. Παρακαλώ συνδεθείτε ξανά.',
     'login_enabled'         => 'Ενεργοποίηση Σύνδεσης',
     'audit_due'             => 'Οφειλόμενη για έλεγχο',
-<<<<<<< HEAD
-=======
     'audit_due_days'        => 'Στοιχεία που οφείλονται για έλεγχο Εντός :days Ημερήσια Εξόφληση περιουσιακών στοιχείων για έλεγχο Εντός :days',
     'checkin_due'           => 'Πληρωμή για Checkin',
     'checkin_overdue'       => 'Εκπρόθεσμο για Checkin',
     'checkin_due_days'      => 'Τα περιουσιακά στοιχεία που οφείλονται για Checkin Εντός :days Ημερήσια Πάγια Checkin Μέσα σε :days Ημέρες',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'audit_overdue'         => 'Εκπρόθεσμο για έλεγχο',
     'accept'                => 'Αποδοχή :asset',
     'i_accept'              => 'Αποδέχομαι',
@@ -413,26 +342,16 @@ return [
     'view_all'              => 'προβολή όλων',
     'hide_deleted'          => 'Απόκρυψη Διαγραμμένων',
     'email'                 => 'Ηλεκτρονικό ταχυδρομείο',
-<<<<<<< HEAD
-    'do_not_change'         => 'Να Μη Γίνει Αλλαγή',
-    'bug_report'            => 'Αναφορά σφάλματος',
-=======
     'do_not_change'         => 'Do not change',
     'bug_report'            => 'Report a bug',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_manual'           => 'Εγχειρίδιο Χρήστη',
     'setup_step_1'          => 'Βήμα 1',
     'setup_step_2'          => 'Βήμα 2',
     'setup_step_3'          => 'Βήμα 3',
     'setup_step_4'          => '4Ο Βήμα.',
     'setup_config_check'    => 'Έλεγχος Ρύθμισης',
-<<<<<<< HEAD
-    'setup_create_database' => 'Δημιουργία Πινάκων Βάσης Δεδομένων',
-    'setup_create_admin'    => 'Δημιουργία Χρήστη Διαχειριστή',
-=======
     'setup_create_database' => 'Create database tables',
     'setup_create_admin'    => 'Create an admin user',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'setup_done'            => 'Ολοκληρώθηκε!',
     'bulk_edit_about_to'    => 'Πρόκειται να επεξεργαστείτε τα ακόλουθα: ',
     'checked_out'           => 'Checked Out',
@@ -489,14 +408,9 @@ return [
     'accessory_name'       => 'Όνομα ανταλλακτικού:',
     'clone_item'            => 'Κλωνοποίηση Αντικειμένου',
     'checkout_tooltip' => 'Ελέγξτε αυτό το στοιχείο έξω',
-<<<<<<< HEAD
-    'checkin_tooltip' => 'Ελέγξτε αυτό το στοιχείο στο',
-    'checkout_user_tooltip' => 'Επιλέξτε αυτό το στοιχείο έξω σε ένα χρήστη',
-=======
     'checkin_tooltip' => 'Check this item in so that it is available for re-issue, re-imaging, etc',
     'checkout_user_tooltip' => 'Επιλέξτε αυτό το στοιχείο έξω σε ένα χρήστη',
     'checkin_to_diff_location' => 'Μπορείτε να επιλέξετε να ελέγξετε αυτό το στοιχείο σε μια τοποθεσία άλλη από την προεπιλεγμένη θέση αυτού του περιουσιακού στοιχείου του :default_location αν έχει οριστεί',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'maintenance_mode'      => 'Η υπηρεσία δεν είναι προσωρινά διαθέσιμη για ενημερώσεις συστήματος. Παρακαλούμε ελέγξτε ξανά αργότερα.',
     'maintenance_mode_title' => 'Προσωρινά Μη Διαθέσιμο Σύστημα',
     'ldap_import'           => 'Ο κωδικός πρόσβασης χρήστη δεν πρέπει να γίνεται από το LDAP. (Αυτό σας επιτρέπει να στείλετε αιτήματα ξεχασμένων κωδικών.)',
@@ -507,31 +421,20 @@ return [
     'bulk_soft_delete'      =>'Επίσης απαλή διαγραφή αυτών των χρηστών. Το ιστορικό των περιουσιακών στοιχείων τους θα παραμείνει άθικτο χωρίς / μέχρι να καθαρίσετε τις διαγραφές εγγραφών στις Ρυθμίσεις Διαχειριστή.',
     'bulk_checkin_delete_success' => 'Οι επιλεγμένοι χρήστες έχουν διαγραφεί και τα στοιχεία τους έχουν ελεγχθεί.',
     'bulk_checkin_success' => 'Τα στοιχεία για τους επιλεγμένους χρήστες έχουν ελεγχθεί.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Διαγραφή τιμών για αυτό το στοιχείο:asset_count στοιχείων ενεργητικού ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Διαγραφή τιμών :field για αυτόν τον χρήστη: Διαγραφή τιμών :field για όλους τους χρήστες :user_count ',
     'na_no_purchase_date'   => 'N/A - Δεν δόθηκε ημερομηνία αγοράς',
     'assets_by_status'      => 'Ενεργητικό ανά κατάσταση',
     'assets_by_status_type'      => 'Ενεργητικό ανά τύπο κατάστασης',
     'pie_chart_type'        => 'Τύπος Γραφήματος Πίτας Ταινιών',
     'hello_name'            => 'Γεια Σε, :name!',
-<<<<<<< HEAD
-    'unaccepted_profile_warning'   => 'Έχετε :count στοιχεία που απαιτούν αποδοχή. Κάντε κλικ εδώ για να τα αποδεχτείτε ή να τα απορρίψετε',
-=======
     'unaccepted_profile_warning'   => 'You have one item requiring acceptance. Click here to accept or decline it | You have :count items requiring acceptance. Click here to accept or decline them',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'start_date'            => 'Ημερομηνία Έναρξης',
     'end_date'            => 'Ημερομηνία Λήξης',
     'alt_uploaded_image_thumbnail' => 'Ανεβασμένη μικρογραφία',
     'placeholder_kit'       => 'Επιλέξτε ένα κιτ',
     'file_not_found'        => 'Το αρχείο δεν βρέθηκε',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'No record for that log entry was found.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(χωρίς προεπισκόπηση)',
     'setup'                 => 'Ρύθμιση',
     'pre_flight'            => 'Προ-Φωτισμός',
@@ -557,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Η δημιουργία ετικετών στοιχείων ενεργητικού αυτόματης αύξησης είναι απενεργοποιημένη, έτσι ώστε όλες οι σειρές πρέπει να έχουν τη στήλη "Ετικέτα ενεργητικού" συμπιεσμένη.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Σημείωση: Η δημιουργία ετικετών στοιχείων ενεργητικού αυτόματης προσαύξησης είναι ενεργοποιημένη έτσι ώστε τα περιουσιακά στοιχεία θα δημιουργηθούν για γραμμές που δεν έχουν την "Ετικέτα ενεργητικού" κατοικημένα. Οι σειρές που έχουν συμπληρώσει την "Ετικέτα περιουσιακών στοιχείων" θα ενημερωθούν με τις παρεχόμενες πληροφορίες.',
     'send_welcome_email_to_users'   => ' Αποστολή Email καλωσορίσματος για τους νέους χρήστες?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Αποστολή Email',
     'call'                      => 'Αριθμός κλήσης',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Αντίγραφο ασφαλείας πριν από την εισαγωγή?',
     'csv_header_field'          => 'Πεδίο Κεφαλίδας Csv',
     'import_field'              => 'Εισαγωγή Πεδίου',
     'sample_value'              => 'Τιμή Δείγματος',
     'no_headers'                => 'Δεν Βρέθηκαν Στήλες',
     'error_in_import_file'      => 'Παρουσιάστηκε σφάλμα κατά την ανάγνωση του αρχείου CSV: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % Ολοκληρώθηκε',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Κάποια σφάλματα συνέβησαν κατά την εισαγωγή: ',
     'warning'                   => 'ΠΡΟΕΙΔΟΠΟΙΗΣΗ: :warning',
     'success_redirecting'       => '"Επιτυχία... Ανακατεύθυνση.',
@@ -587,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'Μην συμπεριλάβετε το χρήστη για εκχώρηση όγκου μέσω της άδειας χρήσης UI ή cli εργαλεία.',
     'modal_confirm_generic'      => 'Είσαι σίγουρος?',
     'cannot_be_deleted'      => 'Αυτό το στοιχείο δεν μπορεί να διαγραφεί',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'Αυτό το στοιχείο δεν μπορεί να επεξεργαστεί.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Αυτό το στοιχείο δεν μπορεί να ελεγχθεί. Ελέγξτε την ποσότητα που απομένει.',
     'serial_number'        => 'Σειριακός Αριθμός',
     'item_notes' => ':item Σημειώσεις',
@@ -619,11 +512,8 @@ return [
         'address2' => 'Γραμμή Διεύθυνσης 2',
         'import_note' => 'Εισήχθη με χρήση εισαγωγέα csv',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% πλήρης',
     'uploading' => 'Μεταφόρτωση... ',
     'upload_error' => 'Σφάλμα κατά τη μεταφόρτωση του αρχείου. Παρακαλώ ελέγξτε ότι δεν υπάρχουν κενές γραμμές και ότι δεν υπάρχουν διπλότυπα ονόματα στηλών.',
@@ -636,8 +526,6 @@ return [
     'action_permission_generic' => 'Δεν έχετε άδεια για :action αυτό το :item_type',
     'edit' => 'επεξεργασία',
     'action_source' => 'Πηγή Ενέργειας',
-<<<<<<< HEAD
-=======
     'or' => 'ή',
     'url'                   => 'URL',
     'edit_fieldset' => 'Επεξεργασία πεδίων και επιλογών',
@@ -677,6 +565,5 @@ return [
     'label' => 'Label',
     'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
     'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

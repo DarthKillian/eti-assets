@@ -20,12 +20,8 @@ return array(
     'lock_passwords'		=> 'Los detalles de inicio de sesión no pueden ser cambiados en esta instalación.',
     'manager' 				=> 'Supervisor',
     'managed_locations'     => 'Ubicaciones gestionadas',
-<<<<<<< HEAD
-    'name' 					=> 'Usuario',
-=======
     'managed_users'         => 'Usuarios gestionados',
     'name' 					=> 'Nombre',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'nogroup'               => 'Aún no se han creado grupos. Para añadir uno, visite: ',
     'notes'                 => 'Notas',
     'password_confirm' 		=> 'Confirmar Password',
@@ -35,15 +31,9 @@ return array(
     'show_deleted'          => 'Mostrar usuarios eliminados',
     'title' 				=> 'Cargo',
 	'to_restore_them'		=> 'para restaurarlos.',
-<<<<<<< HEAD
-    'total_assets_cost'     => "Coste total de activos",
-    'updateuser' 			=> 'Actualizar Usuario',
-    'username' 				=> 'Usuario',
-=======
     'total_assets_cost'     => "Costo total de activos",
     'updateuser' 			=> 'Actualizar usuario',
     'username' 				=> 'Nombre de usuario',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 	'user_deleted_text' 	=> 'Este usuario ha sido marcado como eliminado.',
     'username_note' 		=> '(Esto se usa solo para la conexión con Active Directory, no para el inicio de sesión.)',
     'cloneuser'             => 'Clonar usuario',

@@ -15,17 +15,10 @@ return [
     'info'				=> 'Información',
     'restore_user'		=> 'Haga clic aquí para restaurarlos.',
     'last_login'        => 'Último acceso',
-<<<<<<< HEAD
-    'ldap_config_text'  => 'Las configuraciones de LDAP estàn en: Admin -> Settings. La ubicaciòn seleccionadada sera asignada a todos los usuarios importados.',
-    'print_assigned'    => 'Imprimir todos los Asignados',
-    'email_assigned'    => 'Lista de correos de los asignados',
-    'user_notified'     => 'Se ha enviado al usuario un correo con la lista de sus articulos asignados.',
-=======
     'ldap_config_text'  => 'Los ajustes de configuración para LDAP se pueden encontrar en Administrador> LDAP. La ubicación (opcional) seleccionada se establecerá para todos los usuarios importados.',
     'print_assigned'    => 'Imprimir todos los asignados',
     'email_assigned'    => 'Enviar correo con todos los asignados',
     'user_notified'     => 'Se ha enviado al usuario un correo electrónico con lista de los elementos que tiene asignados actualmente.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'auto_assign_label' => 'Incluye a este usuario al asignar automáticamente licencias elegibles',
     'auto_assign_help'  => 'Omitir este usuario en la asignación automática de licencias',
     'software_user'     => 'Software asignado a :name',
@@ -42,24 +35,6 @@ return [
     'superadmin_permission_warning' => 'Solo los superadmins pueden conceder acceso de superadmin a un usuario.',
     'admin_permission_warning' => 'Solo los usuarios con derechos administrativos o superiores pueden conceder acceso administrativo a un usuario.',
     'remove_group_memberships' => 'Remover membresías de grupo',
-<<<<<<< HEAD
-    'warning_deletion_information' => 'Estas a punto de reingresar los :count usuario(s) listados abajo. Los nombres de Super admins están resaltados en rojo.',
-    'update_user_assets_status' => 'Actualizar todos los recursos para estos usuarios a este estado',
-    'checkin_user_properties' => 'Recibir todas las propiedades asociadas con estos usuarios',
-    'remote_label'   => 'Este es un usuario remoto',
-    'remote'   => 'Remoto',
-    'remote_help' => 'Esto puede ser útil si necesita filtrar por usuarios remotos que nunca o raramente entran en sus ubicaciones físicas.',
-    'not_remote_label' => 'Este no es un usuario remoto',
-    'vip_label' => 'Usuario VIP',
-    'vip_help' => 'Esto puede ser útil para marcar a personas importantes en su organización si desea manejarlas de maneras especiales.',
-    'create_user' => 'Crear Usuario',
-    'create_user_page_explanation' => 'Esta es la información de la cuenta que usará para acceder al sitio por primera vez.',
-    'email_credentials' => 'Credenciales de email',
-    'email_credentials_text' => 'Enviar mis credenciales a la dirección de correo de arriba',
-    'next_save_user' => 'Siguiente: Guardar usuario',
-    'all_assigned_list_generation' => 'Generado el:',
-    'email_user_creds_on_create' => '¿Enviar a este usuario sus credenciales?',
-=======
     'warning_deletion_information' => 'Está a punto de ingresar TODOS los elementos de :count usuario(s) listados a continuación. Los nombres de usuarios con permisos Super Administrador están resaltados en rojo.',
     'update_user_assets_status' => 'Actualizar todos los activos para estos usuarios a este estado',
     'checkin_user_properties' => 'Comprobar todas las propiedades asociadas a estos usuarios',
@@ -76,5 +51,4 @@ return [
     'next_save_user' => 'Siguiente: Guardar usuario',
     'all_assigned_list_generation' => 'Generado el:',
     'email_user_creds_on_create' => '¿Enviar las credenciales por correo electrónico a este usuario?',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

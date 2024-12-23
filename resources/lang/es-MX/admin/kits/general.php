@@ -9,16 +9,6 @@ return [
     'update'                            => 'Actualizar kit predefinido',
     'delete_success'                    => 'Kit eliminado correctamente.',
     'update_success'                    => 'El kit se ha actualizado correctamente.',
-<<<<<<< HEAD
-    'none_models'                       => 'No hay suficientes activos disponibles para :model para asignar. :qty son requeridos. ',
-    'none_licenses'                     => 'No hay suficientes licencias disponibles para :license para asignar. :qty son requeridos. ',
-    'none_consumables'                  => 'No hay suficientes unidades disponibles de :consumable para asignar. :qty son requeridas. ',
-    'none_accessory'                    => 'No hay suficientes unidades disponibles de :accesory para asignar. :qty son requeridas. ',
-    'append_accessory'                  => 'Añadir accesorio',
-    'update_appended_accessory'         => 'Actualizar accesorio adjunto',
-    'append_consumable'                 => 'Añadir consumible',
-    'update_appended_consumable'        => 'Actualizar consumible adjunto',
-=======
     'none_models'                       => 'No hay suficientes activos disponibles de :model para asignar. Se requieren :qty. ',
     'none_licenses'                     => 'No hay suficientes licencias disponibles de :license para asignar. Se requieren :qty. ',
     'none_consumables'                  => 'No hay suficientes unidades disponibles de :consumable para asignar. Se requieren :qty. ',
@@ -27,31 +17,20 @@ return [
     'update_appended_accessory'         => 'Actualizar accesorio añadido',
     'append_consumable'                 => 'Añadir consumible',
     'update_appended_consumable'        => 'Actualizar consumible añadido',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'append_license'                    => 'Añadir licencia',
     'update_appended_license'           => 'Actualizar licencia añadida',
     'append_model'                      => 'Añadir modelo',
     'update_appended_model'             => 'Actualizar modelo añadido',
-<<<<<<< HEAD
-    'license_error'                     => 'Licencia ya está vinculada al kit',
-    'license_added_success'             => 'Licencia añadida correctamente',
-    'license_updated'                   => 'La licencia se ha actualizado correctamente',
-=======
     'license_error'                     => 'Licencia ya vinculada al kit',
     'license_added_success'             => 'Licencia añadida correctamente',
     'license_updated'                   => 'La licencia fue actualizada correctamente',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'license_none'                      => 'La licencia no existe',
     'license_detached'                  => 'Licencia desvinculada correctamente',
     'consumable_added_success'          => 'Consumible añadido correctamente',
     'consumable_updated'                => 'El consumible fue actualizado correctamente',
     'consumable_error'                  => 'Consumible ya vinculado al kit',
     'consumable_deleted'                => 'El borrado fue exitoso',
-<<<<<<< HEAD
-    'consumable_none'                   => 'El Consumible no existe',
-=======
     'consumable_none'                   => 'El consumible no existe',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'consumable_detached'               => 'Consumible desvinculado correctamente',
     'accessory_added_success'           => 'Accesorio añadido correctamente',
     'accessory_updated'                 => 'El accesorio fue actualizado correctamente',
@@ -63,18 +42,10 @@ return [
     'checkout_error'                    => 'Error al asignar',
     'kit_none'                          => 'El kit no existe',
     'kit_created'                       => 'Kit creado correctamente',
-<<<<<<< HEAD
-    'kit_updated'                       => 'El kit se ha actualizado correctamente',
-    'kit_not_found'                     => 'Kit no encontrado',
-    'kit_deleted'                       => 'El kit ha sido eliminado correctamente',
-    'kit_model_updated'                 => 'Modelo actualizado correctamente',
-    'kit_model_detached'                => 'Modelo desvinculado correctamente',
-=======
     'kit_updated'                       => 'El kit fue actualizado correctamente',
     'kit_not_found'                     => 'Kit no encontrado',
     'kit_deleted'                       => 'El kit fue eliminado correctamente',
     'kit_model_updated'                 => 'El modelo fue actualizado correctamente',
     'kit_model_detached'                => 'El modelo fue desvinculado correctamente',
     'model_already_attached'            => 'Modelo ya vinculado al kit',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

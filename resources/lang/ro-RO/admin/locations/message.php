@@ -8,10 +8,7 @@ return array(
     'assoc_child_loc'	 => 'Această locație este în prezent părinte pentru cel puțin o locație copil și nu poate fi ștearsă. Actualizați locațiile dvs. pentru a nu mai referi această locație și încercați din nou.',
     'assigned_assets' => 'Atribuire Active',
     'current_location' => 'Locația curentă',
-<<<<<<< HEAD
-=======
     'open_map' => 'Open in :map_provider_icon Maps',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     'create' => array(

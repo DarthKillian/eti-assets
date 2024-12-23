@@ -39,12 +39,9 @@ return [
     'order'				=> 'Numéro de Commande',
     'qr'				=> 'Code QR',
     'requestable'		=> 'Les utilisateurs·trices peuvent demander cet actif',
-<<<<<<< HEAD
-=======
     'redirect_to_all'   => 'Retourner à tous les :type',
     'redirect_to_type'   => 'Aller à :type',
     'redirect_to_checked_out_to'   => 'Aller aux attributions',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'select_statustype'	=> 'Choisissez le type de statut',
     'serial'			=> 'Série ',
     'status'			=> 'Statut',

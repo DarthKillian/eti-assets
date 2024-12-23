@@ -2,13 +2,6 @@
 
 return [
 
-<<<<<<< HEAD
-    'undeployable' 		=> '<strong>Warning: </strong> Το περιουσιακό αυτό στοιχείο έχει επισημανθεί ως επί του παρόντος undeployable.
-                        Εάν αυτή η κατάσταση έχει αλλάξει, παρακαλούμε να ενημερώσετε την κατάσταση των περιουσιακών στοιχείων.',
-    'does_not_exist' 	=> 'To πάγιο δεν υπάρχει.',
-    'does_not_exist_or_not_requestable' => 'Αυτό το στοιχείο δεν υπάρχει ή δεν απαιτείται.',
-    'assoc_users'	 	=> 'Αυτό το στοιχείο είναι συνήθως αποσυνδεδεμένο από έναν χρήστη και δεν μπορεί να διαγραφεί. Ελέγξτε πρώτα το στοιχείο και, στη συνέχεια, δοκιμάστε ξανά τη διαγραφή.',
-=======
     'undeployable' 		 => '<strong>Warning: </strong> This asset has been marked as currently undeployable. If this status has changed, please update the asset status.',
     'does_not_exist' 	 => 'To πάγιο δεν υπάρχει.',
     'does_not_exist_var' => 'Asset with tag :asset_tag not found.',
@@ -19,17 +12,13 @@ return [
     'labels_generated'   => 'Labels were successfully generated.',
     'error_generating_labels' => 'Error while generating labels.',
     'no_assets_selected' => 'No assets selected.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     'create' => [
         'error'   		=> 'Το περιουσιακού στοιχείο δεν δημιουργήθηκε, παρακαλώ προσπαθήστε ξανά. :(',
         'success' 		=> 'Το πάγιο δημιουργήθηκε επιτυχώς',
         'success_linked' => 'Asset with tag :tag was created successfully. <strong><a href=":link" style="color: white;">Click here to view</a></strong>.',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -38,10 +27,7 @@ return [
         'encrypted_warning' => 'Το πάγιο ενημερώθηκε επιτυχώς, αλλά τα κρυπτογραφημένα προσαρμοσμένα πεδία δεν οφείλονταν στα δικαιώματα',
         'nothing_updated'	=>  'Δεν επιλέχθηκαν πεδία, επομένως τίποτα δεν ενημερώθηκε.',
         'no_assets_selected'  =>  'Δεν επιλέχθηκαν στοιχεία ενεργητικού, επομένως τίποτα δεν ενημερώθηκε.',
-<<<<<<< HEAD
-=======
         'assets_do_not_exist_or_are_invalid' => 'Τα επιλεγμένα περιουσιακά στοιχεία δεν μπορούν να ενημερωθούν.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'restore' => [
@@ -77,10 +63,7 @@ return [
         'file_delete_success'   => 'Το αρχείο σας έχει διαγραφεί με επιτυχία',
         'file_delete_error'      => 'Το αρχείο δεν μπόρεσε να διαγραφεί',
         'file_missing' => 'Λείπει το επιλεγμένο αρχείο',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => 'The file selected was already deleted',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'Ένα ή περισσότερα χαρακτηριστικά στη σειρά κεφαλίδας περιέχουν κακοσχηματισμένους UTF-8 χαρακτήρες',
         'content_row_has_malformed_characters' => 'Ένα ή περισσότερα χαρακτηριστικά στην πρώτη σειρά περιεχομένου περιέχουν κακοσχηματισμένους UTF-8 χαρακτήρες',
     ],

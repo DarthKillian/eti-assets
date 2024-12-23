@@ -52,11 +52,7 @@ return [
     'bulk_checkin_delete'   => 'Check-in / Excluir Usuários em Massa',
     'byod'                  => 'BYOD',
     'byod_help'             => 'Este dispositivo é de propriedade do usuário',
-<<<<<<< HEAD
-    'bystatus'              => 'por status',
-=======
     'bystatus'              => 'por situação',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'cancel'  				=> 'Cancelar',
     'categories'			=> 'Categorias',
     'category'				=> 'Categoria',
@@ -103,11 +99,7 @@ return [
     'debug_warning_text'    => 'Esta aplicação está em execução no modo de produção com a depuração ativada. Isso pode expor dados sensíveis se seu aplicativo é acessível para o mundo exterior. Desative o modo de depuração mudando o valor de <code>APP_DEBUG</code> no seu arquivo<code>.env</code> para <code>false</code>.',
     'delete'  				=> 'Excluir',
     'delete_confirm'  		=> 'Você tem certeza que deseja excluir :item?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Tem certeza que deseja excluir :item? Isto não pode ser desfeito.',
-=======
     'delete_confirm_no_undo' => 'Tem certeza de que deseja excluir :item? Isto não pode ser desfeito.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Excluído',
     'delete_seats'  		=> 'Assentos Excluídos',
     'deletion_failed'       => 'Falha ao excluir',
@@ -283,11 +275,7 @@ return [
     'signed_off_by'         => 'Assinado por',
     'skin'       			=> 'Temas',
     'webhook_msg_note'        => 'Uma notificação será enviada via webhook',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Parabéns! Parece que sua integração :app com o sistema está funcionando!',
-=======
     'webhook_test_msg'        => 'Parabéns! Parece que sua integração de :app com o sistema está funcionando!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'MODO DE DEMONSTRAÇÃO: Algumas funcionalidades estão desativadas nesta instalação.',
     'site_name'				=> 'Nome do Site',
     'state'  				=> 'Estado',
@@ -319,10 +307,7 @@ return [
     'user'					=> 'Usuário',
     'accepted'			    => 'aceitar',
     'declined'			    => 'recusar',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Notas Rejeitadas',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Não atribuído',
     'unaccepted_asset_report' => 'Ativos Recusados',
     'users'                 => 'Usuários',
@@ -450,10 +435,7 @@ Resultados da Sincronização',
     'alt_uploaded_image_thumbnail' => 'Miniatura carregada',
     'placeholder_kit'       => 'Selecione um kit',
     'file_not_found'        => 'Arquivo não encontrado',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'No record for that log entry was found.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(sem visualização)',
     'setup'                 => 'Configuração',
     'pre_flight'            => 'Pré-Lançamento',
@@ -479,21 +461,14 @@ Resultados da Sincronização',
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'A geração de etiquetas auto-incrementais de ativos está desabilitada, então todas as linhas precisam ter a coluna "Etiqueta de ativo" preenchidas.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Nota: A geração de etiquetas auto-incrementais de ativos está habilitada assim serão criadas para registros que não possuem a "Etiqueta de ativo" preenchida. As linhas que possuem "Etiqueta de ativo" preenchida serão atualizadas com as informações fornecidas.',
     'send_welcome_email_to_users'   => ' Enviar E-mail de Boas-vindas para novos Usuários?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Enviar e-mail',
     'call'                      => 'Número de chamada',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Fazer backup antes de importar?',
     'csv_header_field'          => 'Campo de Cabeçalho CSV',
     'import_field'              => 'Campo de importação',
     'sample_value'              => 'Valor de Amostra',
     'no_headers'                => 'Nenhuma Coluna Encontrada',
     'error_in_import_file'      => 'Houve um erro ao ler o arquivo CSV: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % Completo',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Ocorreram alguns Erros ao importar: ',
     'warning'                   => 'AVISO: :warning',
     'success_redirecting'       => '"Sucesso... Redirecionando.',
@@ -505,18 +480,11 @@ Resultados da Sincronização',
     'confirm' => 'Confirmar',
     'autoassign_licenses' => 'Atribuir licenças automaticamente',
     'autoassign_licenses_help' => 'Permitir que este usuário tenha licenças atribuídas por meio da interface de atribuição em massa de licenças ou por meio de ferramentas de linha de comando.',
-<<<<<<< HEAD
-    'autoassign_licenses_help_long' => 'Isto permite que um usuário possa ter licenças atribuídas através da interface de usuário ou ferramentas de licença de atribuição direta. (Por exemplo, você pode não querer que os empreiteiros tenham uma licença que você forneceria apenas para membros da equipe. Você ainda pode atribuir licenças individualmente para esses usuários, mas eles não serão incluídos na licença de check-out para as funções de todos os usuários.)',
-    'no_autoassign_licenses_help' => 'Não inclua o usuário para atribuição em massa através da interface do usuário da licença ou das ferramentas do CLI.',
-    'modal_confirm_generic'      => 'Você tem certeza?',
-    'cannot_be_deleted'      => 'Este item não pode ser excluído',
-=======
     'autoassign_licenses_help_long' => 'Isto permite que um usuário possa ter licenças atribuídas através da interface de usuário ou ferramentas de licença de atribuição direta. (Por exemplo, você pode não querer que os empreiteiros tenham uma licença que você forneceria apenas para membros da equipe. Você ainda pode atribuir licenças individualmente para esses usuários, mas eles não serão incluídos na licença de disponibilização para as funções de todos os usuários.)',
     'no_autoassign_licenses_help' => 'Não inclua o usuário para atribuição em massa através da interface do usuário da licença ou das ferramentas do CLI.',
     'modal_confirm_generic'      => 'Você tem certeza?',
     'cannot_be_deleted'      => 'Este item não pode ser excluído',
     'cannot_be_edited'      => 'Este item não pode ser editado.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Este item não pode ser retirado. Verifique a quantidade restante.',
     'serial_number'        => 'Número de Série',
     'item_notes' => ':item Notas',
@@ -545,30 +513,20 @@ Resultados da Sincronização',
         'address2' => 'Complemento',
         'import_note' => 'Importado usando o importador csv',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Remover este campo do conjunto de campos. Isto não irá apagar o campo personalizado, apenas a associação deste campo com este conjunto de campos.',
     'checked_out_to_fields' => 'Check-out para os campos',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% completo',
     'uploading' => 'Enviando... ',
     'upload_error' => 'Erro ao enviar o arquivo. Por favor, verifique se não existem linhas vazias e se nenhum nome de coluna está duplicado.',
     'copy_to_clipboard' => 'Copiar para Área de Transferência',
     'copied' => 'Copiado!',
-<<<<<<< HEAD
-    'status_compatibility' => 'Se os ativos já estão atribuídos, eles não podem ser alterados para um tipo de status não implantável e este valor será ignorado.',
-=======
     'status_compatibility' => 'Se os ativos já estão atribuídos, eles não podem ser alterados para um tipo de situação não implementável e este valor será ignorado.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'rtd_location_help' => 'Esta é a localização do ativo quando ele não está em uso',
     'item_not_found' => ':item_type ID :id não existe ou foi excluído',
     'action_permission_denied' => 'Você não tem permissão para :action :item_type ID :id',
     'action_permission_generic' => 'Você não tem permissão para :action este :item_type',
     'edit' => 'editar',
     'action_source' => 'Fonte da Ação',
-<<<<<<< HEAD
-
-=======
     'or' => 'ou',
     'url'                   => 'URL',
     'edit_fieldset' => 'Editar campos e opções',
@@ -609,5 +567,4 @@ Resultados da Sincronização',
     'import_asset_tag_exists' => 'Um ativo com a etiqueta de ativo :asset_tag já existe e uma atualização não foi solicitada. Nenhuma alteração foi feita.',
     'countries_manually_entered_help' => 'Os valores com um asterisco (*) foram inseridos manualmente e não correspondem aos valores existentes na lista suspensa do ISO 3166',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

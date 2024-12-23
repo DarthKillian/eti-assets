@@ -2,11 +2,7 @@
 
 return array(
 
-<<<<<<< HEAD
-    'support_url_help' => 'Les variables <code>{LOCALE}</code>, <code>{SERIAL}</code>, <code>{MODEL_NUMBER}</code>, et <code>{MODEL_NAME}</code> peuvent être utilisés dans votre URL pour que ces valeurs soient remplies automatiquement lors de la visualisation des ressources - par exemple https://support.apple.com/{LOCALE}/{SERIAL}.',
-=======
     'support_url_help' => 'Les variables <code>{LOCALE}</code>, <code>{SERIAL}</code>, <code>{MODEL_NUMBER}</code>, et <code>{MODEL_NAME}</code> peuvent être utilisés dans votre URL pour que ces valeurs soient remplies automatiquement lors de la visualisation des ressources - par exemple https://checkcoverage.apple.com/{LOCALE}/{SERIAL}.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'does_not_exist' => 'Le fabricant n\'existe pas.',
     'assoc_users'	 => 'Ce fabricant est actuellement associé avec au moins un modèle et ne peut pas être supprimé. Veuillez mettre à jour les modèles pour ne plus référencer un fabricant et essayer à nouveau. ',
 

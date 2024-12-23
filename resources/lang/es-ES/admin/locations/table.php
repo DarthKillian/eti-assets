@@ -16,17 +16,10 @@ return [
     'name'                      => 'Nombre de ubicación',
     'address'                   => 'Dirección',
     'address2'                   => 'Dirección (línea 2)',
-<<<<<<< HEAD
-    'zip'                       => 'Códio Postal',
-    'locations'                 => 'Localizaciones',
-    'parent'                    => 'Padre',
-    'currency'                  => 'Divisa de la Localización',
-=======
     'zip'                       => 'Código postal',
     'locations'                 => 'Ubicaciones',
     'parent'                    => 'Ubicación padre',
     'currency'                  => 'Divisa de la ubicación',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_ou'                   => 'Búsqueda LDAP OU',
     'user_name'                 => 'Nombre de usuario',
     'department'                => 'Departamento',

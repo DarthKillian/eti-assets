@@ -13,92 +13,6 @@ return [
     |
     */
 
-<<<<<<< HEAD
-    'accepted'             => ':attribute muss akzeptiert werden.',
-    'active_url'           => ':attribute ist keine gültige URL.',
-    'after'                => ':attribute muss ein Datum nach dem :date sein.',
-    'after_or_equal'       => ':attribute muss ein Datum nach oder gleich :date sein.',
-    'alpha'                => ':attribute darf nur aus Buchstaben bestehen.',
-    'alpha_dash'           => ':attribute darf nur aus Buchstaben, Zahlen und Gedankenstrichen bestehen.',
-    'alpha_num'            => ':attribute darf nur aus Buchstaben und Zahlen bestehen.',
-    'array'                => ':attribute muss ein Array sein.',
-    'before'               => ':attribute muss ein Datum vor dem :date sein.',
-    'before_or_equal'      => ':attribute muss ein Datum vor oder gleich dem :date sein.',
-    'between'              => [
-        'numeric' => ':attribute muss zwischen :min und :max liegen.',
-        'file'    => ':attribute darf nur zwischen :min und :max kilobytes groß sein.',
-        'string'  => ':attribute muss mindestens :min und maximal :max Zeichen enthalten.',
-        'array'   => ':attribute muss mindestens :min und darf maximal :max Einträge haben.',
-    ],
-    'boolean'              => ':attribute muss wahr oder falsch sein.',
-    'confirmed'            => ':attribute Bestätigung stimmt nicht überein.',
-    'date'                 => ':attribute ist kein gültiges Datum.',
-    'date_format'          => ':attribute passt nicht zur :format Formatierung.',
-    'different'            => ':attribute und :other müssen sich unterscheiden.',
-    'digits'               => ':attribute muss :digits Stellen haben.',
-    'digits_between'       => ':attribute soll mindestens :min und darf maximal :max Stellen haben.',
-    'dimensions'           => ':attribute hat ein ungültiges Bildformat.',
-    'distinct'             => ':attribute hat einen doppelten Wert.',
-    'email'                => 'Das Format von :attribute ist ungültig.',
-    'exists'               => 'Auswahl :attribute ist ungültig.',
-    'file'                 => ':attribute muss eine Datei sein.',
-    'filled'               => ':attribute muss einen Wert haben.',
-    'image'                => ':attribute muss ein Bild sein.',
-    'import_field_empty'    => ':fieldname darf nicht leer sein.',
-    'in'                   => 'Auswahl :attribute ist ungültig.',
-    'in_array'             => 'Das Feld :attribute existiert nicht in :other.',
-    'integer'              => ':attribute muss eine ganze Zahl sein.',
-    'ip'                   => ':attribute muss eine gültige IP Adresse sein.',
-    'ipv4'                 => ':attribute muss eine gültige IPv4 Adresse sein.',
-    'ipv6'                 => ':attribute muss eine gültige IPv6 Adresse sein.',
-    'is_unique_department' => ':attribute muss einzigartig an diesem Standort sein',
-    'json'                 => 'Das Attribut muss eine gültige JSON-Zeichenfolge sein.',
-    'max'                  => [
-        'numeric' => ':attribute darf nicht größer als :max sein.',
-        'file'    => ':attribute darf nicht größer als :max Kilobyte sein.',
-        'string'  => ':attribute darf nicht mehr als :max Zeichen sein.',
-        'array'   => 'Das: -Attribut darf nicht mehr als: maximale Elemente haben.',
-    ],
-    'mimes'                => ':attribute muss eine Datei des Typs :values sein.',
-    'mimetypes'            => ':attribute muss eine Datei vom Typ: :values sein.',
-    'min'                  => [
-        'numeric' => ':attribute muss kleiner als :min sein.',
-        'file'    => ':attribute muss mindestens :min Kilobyte groß sein.',
-        'string'  => ':attribute benötigt mindestens :min Zeichen.',
-        'array'   => ':attribute muss mindestens :min Elemente enthalten.',
-    ],
-    'starts_with'          => ':attribute muss mit einem der folgenden Werte beginnen: :values.',
-    'ends_with'            => ':attribute muss mit einem der folgenden Werte enden: :values.',
-
-    'not_in'               => 'Auswahl :attribute ist ungültig.',
-    'numeric'              => ':attribute muss eine Zahl sein.',
-    'present'              => ':attribute muss vorhanden sein.',
-    'valid_regex'          => 'Dies ist kein gültiger Regex-Ausdruck. ',
-    'regex'                => ':attribute Format ungültig.',
-    'required'             => ':attribute Feld muss ausgefüllt sein.',
-    'required_if'          => ':attribute wird benötigt, wenn :other :value entspricht.',
-    'required_unless'      => ':attribute ist erforderlich, es sei denn :other ist in :values.',
-    'required_with'        => ':attribute wird benötigt wenn :value ausgewählt ist.',
-    'required_with_all'    => ':attribute field ist erforderlich, wenn :values vorhanden sind.',
-    'required_without'     => ':attribute wird benötigt wenn :value nicht ausgewählt ist.',
-    'required_without_all' => 'Das: Attributfeld ist erforderlich, wenn keine der folgenden Werte vorhanden sind.',
-    'same'                 => ':attribute und :other müssen übereinstimmen.',
-    'size'                 => [
-        'numeric' => ':attribute muss :size groß sein.',
-        'file'    => ':attribute muss :size Kilobyte groß sein.',
-        'string'  => ':attribute muss :size Zeichen haben.',
-        'array'   => 'Das Attribut muss Folgendes enthalten: Größenelemente.',
-    ],
-    'string'               => 'Das Attribut muss eine Zeichenfolge sein.',
-    'timezone'             => ':attribute muss eine gültige Zone sein.',
-    'two_column_unique_undeleted' => ':attribute muss in :table1 und :table2 einzigartig sein. ',
-    'unique'               => ':attribute ist bereits vergeben.',
-    'uploaded'             => ':attribute konnte nicht hochgeladen werden.',
-    'url'                  => ':attribute Format ungültig.',
-    'unique_undeleted'     => 'Die Variable :attribute muss eindeutig sein.',
-    'non_circular'         => 'Das :attribute darf keinen Zirkelbezug ergeben.',
-    'not_array'            => ':atribute harus array.',
-=======
     'accepted' => 'Das Feld :attribute muss akzeptiert werden.',
     'accepted_if' => 'Das Feld :attribute muss akzeptiert werden, wenn :other :value ist.',
     'active_url' => 'Das Feld :attribute muss eine gültige URL sein.',
@@ -246,17 +160,11 @@ return [
     'unique_undeleted'     => 'Die Variable :attribute muss eindeutig sein.',
     'non_circular'         => 'Das :attribute darf keinen Zirkelbezug ergeben.',
     'not_array'            => ':attribute darf kein Array sein.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'disallow_same_pwd_as_user_fields' => 'Das Passwort muss sich vom Nutzernamen unterscheiden.',
     'letters'              => 'Das Passwort muss mindestens einen Buchstaben beinhalten.',
     'numbers'              => 'Das Passwort muss mindestens eine Zahl beinhalten.',
     'case_diff'            => 'Das Passwort muss Groß- und Kleinschreibung beinhalten.',
     'symbols'              => 'Das Passwort muss Sonderzeichen beinhalten.',
-<<<<<<< HEAD
-    'gte'                  => [
-        'numeric'          => 'Wert darf nicht negativ sein'
-    ],
-=======
     'timezone' => 'Das Feld :attribute muss eine gültige Zeitzone sein.',
     'unique' => ':attribute ist bereits vergeben.',
     'uploaded' => ':attribute konnte nicht hochgeladen werden.',
@@ -264,7 +172,6 @@ return [
     'url' => 'Das Feld :attribute muss eine gültige URL sein.',
     'ulid' => 'Das Feld :attribute muss eine gültige ULID sein.',
     'uuid' => 'Das Feld :attribute muss eine gültige UUID sein.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     /*
@@ -284,19 +191,12 @@ return [
         'hashed_pass'      => 'Ihr derzeitiges Passwort ist nicht korrekt',
         'dumbpwd'          => 'Das Passwort ist zu gebräuchlich.',
         'statuslabel_type' => 'Du musst einen gültigen Statuslabel-Typ auswählen',
-<<<<<<< HEAD
-
-        // date_format validation with slightly less stupid messages. It duplicates a lot, but it gets the job done :(
-        // We use this because the default error message for date_format is reflects php Y-m-d, which non-PHP
-        // people won't know how to format. 
-=======
         'custom_field_not_found'          => 'Dieses Feld scheint nicht zu existieren. Bitte überprüfe deine benutzerdefinierten Feldnamen noch einmal.',
         'custom_field_not_found_on_model' => 'Dieses Feld scheint vorhanden zu sein, ist aber im Feldsatz dieses Asset-Modells nicht verfügbar.',
 
         // date_format validation with slightly less stupid messages. It duplicates a lot, but it gets the job done :(
         // We use this because the default error message for date_format reflects php Y-m-d, which non-PHP
         // people won't know how to format.
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'purchase_date.date_format'     => ':attribute muss ein gültiges Datum im Format JJJJ-MM-TT sein',
         'last_audit_date.date_format'   =>  ':attribute muss ein gültiges Datum im Format JJJJ-MM-TT hh:mm:ss sein',
         'expiration_date.date_format'   =>  ':attribute muss ein gültiges Datum im Format JJJJ-MM-TT sein',
@@ -304,11 +204,6 @@ return [
         'expected_checkin.date_format'  =>  ':attribute muss ein gültiges Datum im Format JJJJ-MM-TT sein',
         'start_date.date_format'        =>  ':attribute muss ein gültiges Datum im Format JJJJ-MM-TT sein',
         'end_date.date_format'          =>  ':attribute muss ein gültiges Datum im Format JJJJ-MM-TT sein',
-<<<<<<< HEAD
-
-    ],
-
-=======
         'checkboxes'           => ':attribute enthält ungültige Optionen.',
         'radio_buttons'        => ':attribute ist ungültig.',
         'invalid_value_in_field' => 'Ungültiger Wert in diesem Feld enthalten',
@@ -320,7 +215,6 @@ return [
         'ldap_filter' => ['regex' => 'Dieser Wert sollte wahrscheinlich nicht in Klammern gesetzt werden.'],
 
         ],
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Attributes
@@ -334,8 +228,6 @@ return [
 
     'attributes' => [],
 
-<<<<<<< HEAD
-=======
     /*
     |--------------------------------------------------------------------------
     | Generic Validation Messages - we use these in the jquery validation where we don't have
@@ -350,5 +242,4 @@ return [
     ],
 
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

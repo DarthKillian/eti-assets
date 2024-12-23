@@ -25,10 +25,6 @@ return [
     'image'		    => 'Image',
     'days_without_acceptance' => 'Jours sans acceptation',
     'monthly_depreciation' => 'Dépréciation mensuelle',
-<<<<<<< HEAD
-    'assigned_to'    => 'Affecté à',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requesting_user' => 'Demandeur·euse',
     'requested_date' => 'Date de la demande',
     'changed'       => 'Modifié',

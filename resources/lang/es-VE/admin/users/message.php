@@ -6,19 +6,6 @@ return array(
     'declined'                  => 'Ha rechazado correctamente este activo.',
     'bulk_manager_warn'	        => 'Sus usuarios han sido actualizados con éxito, sin embargo, la entrada supervisor (manager) no fue guardada porque el supervisor seleccionado también estaba en la lista de usuarios a editar, y los usuarios no pueden ser su propio supervisor. Vuelva a seleccionar los usuarios, excluyendo al supervisor.',
     'user_exists'               => '¡El usuario ya existe!',
-<<<<<<< HEAD
-    'user_not_found'            => 'El usuario no existe.',
-    'user_login_required'       => 'El campo de usuario es obligatorio',
-    'user_has_no_assets_assigned' => 'No hay activos asignados al usuario.',
-    'user_password_required'    => 'La contraseña es obligatoria.',
-    'insufficient_permissions'  => 'Permisos insuficientes.',
-    'user_deleted_warning'      => 'Este usuario ha sido eliminado. Deberás restaurar este usuario para editarlo o asignarle nuevos activos.',
-    'ldap_not_configured'        => 'La integración LDAP no ha sido configurada para esta instalación.',
-    'password_resets_sent'      => 'Los usuarios seleccionados que están activados y tienen una dirección de correo electrónico válida han sido enviados un enlace de restablecimiento de contraseña.',
-    'password_reset_sent'       => 'Un enlace para restablecer la contraseña ha sido enviado a :email!',
-    'user_has_no_email'         => 'Este usuario no tiene una dirección de correo electrónico en su perfil.',
-    'log_record_not_found'        => 'No se pudo encontrar un registro de registro coincidente para este usuario.',
-=======
     'user_not_found'            => 'El usuario no existe o usted no tiene permisos para verlo.',
     'user_login_required'       => 'El campo usuario es obligatorio',
     'user_has_no_assets_assigned' => 'No hay activos asignados al usuario.',
@@ -30,7 +17,6 @@ return array(
     'password_reset_sent'       => 'Un enlace para restablecer la contraseña ha sido enviado a :email!',
     'user_has_no_email'         => 'Este usuario no tiene una dirección de correo electrónico en su perfil.',
     'log_record_not_found'        => 'No se pudo encontrar un registro de eventos que coincida con este usuario.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     'success' => array(

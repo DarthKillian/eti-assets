@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'Un utilisateur a accepté un article',
-    'acceptance_asset_declined' => 'Un utilisateur a refusé un article',
-    'a_user_canceled' => 'Un·e utilisateur·trice a annulé une demande d’article sur le site Web',
-    'a_user_requested' => 'Un·e utilisateur·trice a demandé un article sur le site Web',
-    'accessory_name' => 'Nom de l’accessoire :',
-    'additional_notes' => 'Notes complémentaires :',
-    'admin_has_created' => 'Un administrateur a créé un compte pour vous sur le site :web.',
-    'asset' => 'Produit:',
-    'asset_name' => 'Nom du produit:',
-    'asset_requested' => 'Produit demandé',
-    'asset_tag' => 'Numéro d\'inventaire',
-    'assigned_to' => 'Affecté à',
-    'best_regards' => 'Cordialement,',
-    'canceled' => 'Annulé:',
-    'checkin_date' => 'Date d\'association :',
-    'checkout_date' => 'Date de dissociation :',
-    'click_to_confirm' => 'Veuillez cliquer sur le lien suivant pour confirmer votre :web account:',
-    'click_on_the_link_accessory' => 'Merci de cliquer sur le lien ci-dessous pour confirmer la bonne réception de l\'accessoire.',
-    'click_on_the_link_asset' => 'Cliquez sur le lien ci-dessous pour confirmer que vous avez reçu l\'actif.',
-    'Confirm_Asset_Checkin' => 'Confirmation de l\'association du matériel',
-=======
 
     'Accessory_Checkin_Notification' => 'Accessoire enregistré',
     'Accessory_Checkout_Notification' => 'Accessoire verrouillé',
     'Asset_Checkin_Notification' => 'Actif restitué',
     'Asset_Checkout_Notification' => 'Actif affecté',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Confirmation de l\'association de l\'accessoire',
     'Confirm_Asset_Checkin' => 'Confirmation de l\'association du matériel',
     'Confirm_accessory_delivery' => 'Confirmation de la livraison de l\'accessoire',
@@ -78,26 +55,14 @@ return [
     'hello' => 'Bonjour',
     'hi' => 'Salut',
     'i_have_read' => 'J\'ai bien lu et approuvé les conditions d\'utilisation, et reçu cet objet.',
-<<<<<<< HEAD
-    'item' => 'Article :',
-    'Item_Request_Canceled' => 'Demande d\'article annulée',
-    'Item_Requested' => 'Article demandé',
-=======
     'inventory_report' => 'Rapport d\'inventaire',
     'item' => 'Item',
     'item_checked_reminder' => 'Ceci est un rappel que vous avez actuellement :count articles que vous n\'avez pas acceptés ou refusés. Veuillez cliquer sur le lien ci-dessous pour confirmer votre décision.',
     'license_expiring_alert' => 'Il y a :count licence expirant dans les prochains :threshold jours.|Il y a :count licences expirant dans les prochains :threshold jours.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'link_to_update_password' => 'Veuillez cliquer sur le lien suivant pour confirmer votre :web account:',
     'login' => 'Connexion',
     'login_first_admin' => 'Connectez-vous à votre nouvelle installation Snipe-IT en utilisant les informations d\'identification ci-dessous :',
-<<<<<<< HEAD
-    'login' => 'Nom d\'utilisateur:',
-    'Low_Inventory_Report' => 'Rapport d’inventaire bas',
-    'inventory_report' => 'Rapport d\'inventaire',
-=======
     'low_inventory_alert' => 'Il y a :count item qui est en dessous du minimum d\'inventaire ou qui sera bas sous peu.|Il y a :count articles qui sont en dessous du minimum d\'inventaire ou qui seront bas sous peu.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Quantité minimum',
     'name' => 'Nom',
     'new_item_checked' => 'Un nouvel élément a été vérifié sous votre nom, les détails sont ci-dessous.',
@@ -105,13 +70,8 @@ return [
     'password' => 'Mot de passe',
     'password_reset' => 'Réinitialisation du mot de passe',
     'read_the_terms' => 'Merci de lire les conditions d\'utilisation ci-dessous.',
-<<<<<<< HEAD
-    'read_the_terms_and_click' => 'Merci de lire les conditions d\'utilisation ci-dessous, et cliquer sur le lien ci-dessous pour confirmer que vous avez lu                         et accepté les conditions d\'utilisation et reçu l\'équipement.',
-    'requested' => 'Demandé :',
-=======
     'read_the_terms_and_click' => 'Veuillez lire les conditions d\'utilisation ci-dessous, et cliquez sur le lien en bas pour confirmer que vous avez lu et accepté les conditions d\'utilisation, et que vous avez reçu l\'actif.',
     'requested' => 'Demandé',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'reset_link' => 'Votre lien pour réinitialiser le mot de passe',
     'reset_password' => 'Cliquez ici pour réinitialiser votre mot de passe:',
     'rights_reserved' => 'Tous droits réservés.',
@@ -131,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'Vous avez des actifs non acceptés.',
     'welcome' => 'Bienvenue, :name',
     'welcome_to' => 'Bienvenue sur :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Vos identifiants Snipe-IT',
-    'Accessory_Checkin_Notification' => 'Accessoire enregistré',
-    'Asset_Checkin_Notification' => 'Actif restitué',
-    'Asset_Checkout_Notification' => 'Actif affecté',
-    'License_Checkin_Notification' => 'Licence enregistrée',
-    'Expected_Checkin_Report' => 'Rapport de vérification de matériel attendu',
-    'Expected_Checkin_Notification' => 'Rappel : la date limite de vérification de :name approche',
-    'Expected_Checkin_Date' => 'Un matériel que vous avez emprunté doit être vérifié à nouveau le :date',
-    'your_assets' => 'Voir vos matériels',
-    'rights_reserved' => 'Tous droits réservés.',
-=======
     'your_assets' => 'Voir vos matériels',
     'your_credentials' => 'Vos identifiants Snipe-IT',
     'mail_sent' => 'Email envoyé avec succès !',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

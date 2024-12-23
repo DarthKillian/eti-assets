@@ -44,11 +44,8 @@ return array(
         'error'   => 'Un problème a eu lieu pendant l\'association de la licence. Veuillez essayer à nouveau.',
         'success' => 'La licence a été associée avec succès',
         'not_enough_seats' => 'Pas assez de sièges de licence disponibles pour le paiement',
-<<<<<<< HEAD
-=======
         'mismatch' => 'Le poste de licence fourni ne correspond pas à la licence',
         'unavailable' => 'Ce poste n\'est pas disponible pour attribution.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

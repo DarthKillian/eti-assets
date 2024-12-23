@@ -2,16 +2,6 @@
 
 return array(
 
-<<<<<<< HEAD
-    'accepted'                  => 'Ha aceptado con éxito este equipo.',
-    'declined'                  => 'Ha declinado con éxito este equipo.',
-    'bulk_manager_warn'	        => 'Sus usuarios han sido correctamente actualizados, de todos modos la entrada de administrador no fue guardada porque el administrador seleccionado también estaba en la lista de usuarios a ser editada, y los usuarios no pueden ser sus propior administradores. Vuelva a seleccionar los usuarios, excluyendo al administrador.',
-    'user_exists'               => 'El Usuario ya existe!',
-    'user_not_found'            => 'El usuario no existe.',
-    'user_login_required'       => 'El campo Usuario es obligatorio',
-    'user_has_no_assets_assigned' => 'No hay activos asignados al usuario.',
-    'user_password_required'    => 'El password es obligatorio.',
-=======
     'accepted'                  => 'Ha aceptado este artículo exitosamente.',
     'declined'                  => 'Ha rechazado correctamente este activo.',
     'bulk_manager_warn'	        => 'Sus usuarios han sido actualizados con éxito, sin embargo, la entrada supervisor (manager) no fue guardada porque el supervisor seleccionado también estaba en la lista de usuarios a editar, y los usuarios no pueden ser su propio supervisor. Vuelva a seleccionar los usuarios, excluyendo al supervisor.',
@@ -20,18 +10,13 @@ return array(
     'user_login_required'       => 'El campo usuario es obligatorio',
     'user_has_no_assets_assigned' => 'No hay activos asignados al usuario.',
     'user_password_required'    => 'La contraseña es obligatoria.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'insufficient_permissions'  => 'No tiene permiso.',
     'user_deleted_warning'      => 'Este usuario ha sido eliminado. Tendrá que restaurar este usuario para editarlo o para asignarle nuevos activos.',
     'ldap_not_configured'        => 'La integración con LDAP no ha sido configurada para esta instalación.',
     'password_resets_sent'      => 'Los usuarios seleccionados que están activados y tienen una dirección de correo electrónico válida han sido enviados un enlace de restablecimiento de contraseña.',
     'password_reset_sent'       => '¡Se ha enviado un enlace de restablecimiento de contraseña a :email!',
     'user_has_no_email'         => 'Este usuario no tiene una dirección de correo electrónico en su perfil.',
-<<<<<<< HEAD
-    'log_record_not_found'        => 'No se pudo encontrar un registro de registro coincidente para este usuario.',
-=======
     'log_record_not_found'        => 'No se pudo encontrar un registro de eventos que coincida con este usuario.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     'success' => array(

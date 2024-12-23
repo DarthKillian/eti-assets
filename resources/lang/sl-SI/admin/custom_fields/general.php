@@ -49,19 +49,11 @@ return [
     'is_unique' => 'This value must be unique across all assets',
     'unique' => 'Unique',
     'display_in_user_view' => 'Allow the checked out user to view these values in their View Assigned Assets page',
-<<<<<<< HEAD
-    'display_in_user_view_table' => 'Visible to User',
-    'auto_add_to_fieldsets' => 'Automatically add this to every new fieldset',
-    'add_to_preexisting_fieldsets' => 'Add to any existing fieldsets',
-    'show_in_listview' => 'Show in list views by default. Authorized users will still be able to show/hide via the column selector',
-    'show_in_listview_short' => 'Show in lists',
-=======
     'display_in_user_view_table' => 'Vidno uporabniku',
     'auto_add_to_fieldsets' => 'Automatically add this to every new fieldset',
     'add_to_preexisting_fieldsets' => 'Add to any existing fieldsets',
     'show_in_listview' => 'Show in list views by default. Authorized users will still be able to show/hide via the column selector',
     'show_in_listview_short' => 'Pokaži v seznamih',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'show_in_requestable_list_short' => 'Show in requestable assets list',
     'show_in_requestable_list' => 'Show value in requestable assets list. Encrypted fields will not be shown',
     'encrypted_options' => 'This field is encrypted, so some display options will not be available.',

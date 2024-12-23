@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-
-<?php
-
-return [
-    'sent'	        => 'If a matching user with a valid email address exists in our system, a password recovery email has been sent.',
-    'user'			=> 'If a matching user with a valid email address exists in our system, a password recovery email has been sent.',
-    'token'         => 'This password reset token is invalid or expired, or does not match the username provided.',
-    'reset'         => 'Your password has been reset!',
-];
-=======
 <?php
 
 return [
@@ -18,4 +7,3 @@ return [
     'reset'         => 'ពាក្យសម្ងាត់របស់អ្នកត្រូវបានកំណត់ឡើងវិញ!',
     'password_change'  => 'ពាក្យសម្ងាត់របស់អ្នកត្រូវបានធ្វើបច្ចុប្បន្នភាព!',
 ];
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65

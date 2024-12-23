@@ -14,17 +14,11 @@ return [
     'no_assets_selected' => 'No se han seleccionado activos.',
 
     'create' => [
-<<<<<<< HEAD
-        'error'   		=> 'Equipo no creado, intentalo de nuevo. :(',
-        'success' 		=> 'Equipo creado. :)',
-        'success_linked' => 'Activo con etiqueta :tag creado con éxito. <strong><a href=":link" style="color: white;">Haga clic aquí para ver</a></strong>.',
-=======
         'error'   		=> 'El activo no fue creado, por favor, inténtelo de nuevo. :(',
         'success' 		=> 'Activo creado con éxito. :)',
         'success_linked' => 'Activo con placa :tag creado con éxito. <strong><a href=":link" style="color: white;">Haga clic aquí para ver</a></strong>.',
         'multi_success_linked' => 'Activo con etiqueta :links fue creado exitosamente.|:count activos fueron creados correctamente. :links.',
         'partial_failure' => 'No se ha podido crear un activo: Motivo: :failures|No se pudieron crear :count activos. Motivos: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -37,15 +31,9 @@ return [
     ],
 
     'restore' => [
-<<<<<<< HEAD
-        'error'   		=> 'El equipo no fue restaurado, por favor intente nuevamente',
-        'success' 		=> 'Equipo restaurado correctamente.',
-        'bulk_success' 		=> 'Equipo restaurado correctamente.',
-=======
         'error'   		=> 'El activo no fue restaurado, por favor inténtelo nuevamente',
         'success' 		=> 'Activo restaurado exitosamente.',
         'bulk_success' 		=> 'Activo restaurado exitosamente.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'nothing_updated'   => 'No se seleccionaron activos, por lo que no se restauró nada.', 
     ],
 
@@ -71,14 +59,6 @@ return [
         'import_button'         => 'Importar',
         'error'                 => 'Algunos elementos no se pudieron importar correctamente.',
         'errorDetail'           => 'Estos elementos no pudieron importarse debido a errores.',
-<<<<<<< HEAD
-        'success'               => 'Tu archivo ha sido importado',
-        'file_delete_success'   => 'Tu archivo ha sido eliminado con éxito',
-        'file_delete_error'      => 'No pudimos eliminar tu archivo',
-        'file_missing' => 'Falta el archivo seleccionado',
-        'header_row_has_malformed_characters' => 'Uno o más atributos en la fila del encabezado contienen caracteres UTF-8 mal formados',
-        'content_row_has_malformed_characters' => 'Uno o más atributos en la primera fila de contenido contienen caracteres UTF-8 mal formados',
-=======
         'success'               => 'Su archivo ha sido importado',
         'file_delete_success'   => 'Su archivo se ha eliminado correctamente',
         'file_delete_error'      => 'El archivo no se pudo eliminar',
@@ -86,7 +66,6 @@ return [
         'file_already_deleted' => 'El archivo seleccionado ya fue eliminado',
         'header_row_has_malformed_characters' => 'Uno o más atributos en la fila del encabezado contienen caracteres UTF-8 mal formados',
         'content_row_has_malformed_characters' => 'Uno o más atributos en la primera fila contienen caracteres UTF-8 mal formados',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
 

@@ -4,11 +4,7 @@ return [
     'actions' 	                => 'Acciones',
     'add'    	                => 'Agregar nuevo',
     'cancel'                    => 'Cancelar',
-<<<<<<< HEAD
-    'checkin_and_delete'  	    => 'Checkin All / Eliminar Usuario',
-=======
     'checkin_and_delete'  	    => 'Ingresar todo / Eliminar usuario',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'delete'  	                => 'Eliminar',
     'edit'    	                => 'Editar',
     'clone'    	                => 'Clonar',

@@ -31,11 +31,8 @@ return [
     'backups'					=> 'Cópias de segurança',
     'backups_help'              => 'Criar, baixar e restaurar cópias de segurança ',
     'backups_restoring'         => 'Restaurar da cópia de segurança',
-<<<<<<< HEAD
-=======
     'backups_clean' => 'Clean the backed-up database before restore',
     'backups_clean_helptext' => "This can be useful if you're changing between database versions",
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'backups_upload'            => 'Carregar cópia de segurança',
     'backups_path'              => 'As cópia de segurança no servidor são guardadas em <code>:path</code>',
     'backups_restore_warning'   => 'Use o botão de restaurar <small><span class="btn btn-xs btn-warning"><i class="text-white fas fa-retweet" aria-hidden="true"></i></span></small> para restaurar de uma cópia de segurança anterior. (Isto não funciona actualmente com armazenamento de ficheiro S3 ou Docker)<br><br>A sua <strong>inteira :app_name base de dados e algum ficheiro enviado irá ser apagado</strong> pelo que está no ficheiro da cópia de segurança.  ',
@@ -73,11 +70,7 @@ return [
     'footer_text'               => 'Texto de rodapé adicional',
     'footer_text_help'          => 'Este texto aparecerá no lado direito do rodapé. São permitidos o uso de hiperligações, utilizando <a href="https://help.github.com/articles/github-flavored-markdown/">Github flavored markdown</a>. O uso de quebras de linha, cabeçalhos, imagens, etc... podem ter resultados imprevisíveis. ',
     'general_settings'			=> 'Configurações Gerais',
-<<<<<<< HEAD
-    'general_settings_keywords' => 'suporte à empresa, assinatura, aceitação, formato de endereço eletrónico, formato de nome de utilizador, imagens, por página, miniatura, contrato de licença de utilizador final, termos de serviço, painel, privacidade',
-=======
     'general_settings_keywords' => 'suporte à empresa, assinatura, aceitação, formato de e-mail, formato de nome de usuário, imagens, por página, miniatura, gravatar, por, painel, privacidade',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'general_settings_help'     => 'EULA padrão e mais',
     'generate_backup'			=> 'Gerar Backup',
     'google_workspaces'         => 'Espaços do Google',
@@ -97,10 +90,6 @@ return [
     'ldap_integration'          => 'Integração LDAP',
     'ldap_settings'             => 'Configurações LDAP',
     'ldap_client_tls_cert_help' => 'Certificado e chave TLS do cliente para conexões LDAP geralmente são úteis apenas em configurações do Google Workspace com LDAP seguro. Ambos são necessários.',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'Chave TLS do cliente LDAP',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'Localização LDAP',
 'ldap_location_help'             => 'O campo Ldap de localização deverá ser usado se <strong>uma OU não estiver a ser usada na "Base Bind DN".</strong> Deixe em branco se uma pesquisa por OU estiver a ser usada.',
     'ldap_login_test_help'      => 'Introduza um utilizador e palavra-passe da LDAP válido pertencente ao DN que especificou acima +ara testar se a sua autenticação da LDAP foi configurada corretamente, PRIMEIRO DEVE GRAVAR AS SUAS DEFINIÇÕES ATUALIZADAS DA LDAP.',
@@ -135,13 +124,8 @@ return [
     'ldap_test'                 => 'Testar LDAP',
     'ldap_test_sync'            => 'Testar Sincronização LDAP',
     'license'                   => 'Licença de software',
-<<<<<<< HEAD
-    'load_remote_text'          => 'Scripts Remotos',
-    'load_remote_help_text'		=> 'Esta instalação do Snipe-IT pode carregar scripts do mundo exterior.',
-=======
     'load_remote'               => 'Load Remote Avatars',
     'load_remote_help_text'		=> 'Uncheck this box if your install cannot load scripts from the outside internet. This will prevent Snipe-IT from trying load avatars from Gravatar or other outside sources.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'login'                     => 'Tentativas de login',
     'login_attempt'             => 'Tentativa de login',
     'login_ip'                  => 'Endereço IP',
@@ -168,11 +152,7 @@ return [
     'optional'					=> 'opcional',
     'per_page'                  => 'Resultados por página',
     'php'                       => 'Versão do PHP',
-<<<<<<< HEAD
-    'php_info'                  => 'Informações do PHP',
-=======
     'php_info'                  => 'PHP info',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'php_overview'              => 'PHP',
     'php_overview_keywords'     => 'phpinfo, sistema, informações',
     'php_overview_help'         => 'Informação do sistema PHP',
@@ -227,10 +207,7 @@ return [
     'integrations'               => 'Integrações',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Webhook geral',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Equipes da Microsoft',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Teste para salvar',
     'webhook_title'               => 'Atualizar configurações de Webhook',
@@ -243,11 +220,8 @@ return [
     'webhook_integration_help'    => ':A integração com Slack é opcional. Contudo, se quiser usá-la, o endpoint e o canal são obrigatórios. Para configurar a integração com Slack, deve previamente <a href=":webhook_link" target="_new" rel="noopener">criar um webhook de receção</a> na sua conta Slack. Clique no botão <strong>Teste :app Integração</strong> para confirmar que as suas configurações estão corretas antes de salvar. ',
     'webhook_integration_help_button'    => 'Após salvar as suas informações do :app, será exibido um botão de teste.',
     'webhook_test_help'           => 'Teste se a sua integração :app está configurada corretamente. VOCÊ DEVE SALVAR AS CONFIGURAÇÕES DE :app PRIMEIRO.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Enable Shortcuts',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Versão Snipe-IT',
     'support_footer'            => 'Links de rodapé de suporte',
     'support_footer_help'       => 'Especifica quem vê os links de Suporte e Manual de utilizador do Snipe-IT',
@@ -319,10 +293,6 @@ return [
     'zerofill_count'        => 'Comprimento de tags de artigos, incluindo zerofill',
     'username_format_help'   => 'Esta configuração será usada apenas pelo processo de importação se um nome de utilizador não for fornecido e tivermos de gerar um nome de utilizador para si.',
     'oauth_title' => 'Configurações da API OAuth',
-<<<<<<< HEAD
-    'oauth' => 'OAuth',
-    'oauth_help' => 'Configurações de Endpoint Oauth',
-=======
     'oauth_clients' => 'OAuth Clients',
     'oauth' => 'OAuth',
     'oauth_help' => 'Configurações de Endpoint Oauth',
@@ -335,7 +305,6 @@ return [
     'oauth_callback_url' => 'Your application authorization callback URL.',
     'create_client' => 'Create Client',
     'no_scopes' => 'No scopes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'asset_tag_title' => 'Atualizar configurações de Etiquetas de Artigo',
     'barcode_title' => 'Atualizar Configurações de Código de Barras',
     'barcodes' => 'Código de barras',
@@ -364,10 +333,6 @@ return [
     'labels' => 'Etiquetas',
     'labels_title' => 'Atualizar Configurações de Etiquetas',
     'labels_help' => 'Tamanho da etiqueta &amp; configurações',
-<<<<<<< HEAD
-    'purge' => 'Purgar',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'purge_keywords' => 'apagar permanentemente',
     'purge_help' => 'Remover registos apagados',
     'ldap_extension_warning' => 'Não parece que a extensão LDAP esteja instalada ou ativada neste servidor. Ainda pode salvar as suas configurações, mas precisará de ativar a extensão LDAP para PHP antes de a sincronização LDAP ou login funcionar.',
@@ -414,8 +379,6 @@ return [
     'database_driver' => 'Driver Base de Dados',
     'bs_table_storage' => 'Armazenamento de mesa',
     'timezone' => 'Fuso horário',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Edit Profile',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
     'default_avatar' => 'Upload custom default avatar',
@@ -425,6 +388,5 @@ return [
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'Quantos dias antes do esperado check-in de um ativo deve ser listado na página "Due for checkin"?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

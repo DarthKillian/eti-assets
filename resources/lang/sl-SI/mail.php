@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'A user has accepted an item',
-    'acceptance_asset_declined' => 'A user has declined an item',
-    'a_user_canceled' => 'Uporabnik je preklical zahtevo za sredstev na spletnem mestu',
-    'a_user_requested' => 'Uporabnik je zahteval sredstev na spletnem mestu',
-    'accessory_name' => 'Ime Dodatka:',
-    'additional_notes' => 'Dodatne opombe:',
-    'admin_has_created' => 'Skrbnik vam je ustvaril račun na :web spletni strani.',
-    'asset' => 'Sredstvo:',
-    'asset_name' => 'Ime sredstva:',
-    'asset_requested' => 'Sredstev zahtevano',
-    'asset_tag' => 'Oznaka sredstva',
-    'assigned_to' => 'Dodeljena',
-    'best_regards' => 'Lep pozdrav,',
-    'canceled' => 'Preklicana:',
-    'checkin_date' => 'Datum sprejema:',
-    'checkout_date' => 'Datum izdaje:',
-    'click_to_confirm' => 'Prosimo, kliknite na naslednjo povezavo, da potrdite svoj :spletni račun:',
-    'click_on_the_link_accessory' => 'Prosimo, kliknite povezavo na dnu, da potrdite, da ste prejeli dodatno opremo.',
-    'click_on_the_link_asset' => 'Prosimo, kliknite na povezavo na dnu, da potrdite, da ste prejeli opremo.',
-    'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
-=======
 
     'Accessory_Checkin_Notification' => 'Accessory checked in',
     'Accessory_Checkout_Notification' => 'Accessory checked out',
     'Asset_Checkin_Notification' => 'Asset checked in',
     'Asset_Checkout_Notification' => 'Asset checked out',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Accessory checkin confirmation',
     'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
     'Confirm_accessory_delivery' => 'Accessory delivery confirmation',
@@ -97,14 +74,10 @@ return [
     'requested' => 'Zahtevano',
     'reset_link' => 'Povezava za ponastavitev gesla',
     'reset_password' => 'Kliknite tukaj, če želite ponastaviti geslo:',
-<<<<<<< HEAD
-    'serial' => 'Serijska številka',
-=======
     'rights_reserved' => 'All rights reserved.',
     'serial' => 'Serijska številka',
     'snipe_webhook_test' => 'Snipe-IT Integration Test',
     'snipe_webhook_summary' => 'Snipe-IT Integration Test Summary',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'supplier' => 'Dobavitelj',
     'tag' => 'Oznaka',
     'test_email' => 'Testna e-pošta od Snipe-IT',
@@ -115,22 +88,9 @@ return [
     'upcoming-audits' => 'There is :count asset that is coming up for audit within :threshold days.|There are :count assets that are coming up for audit within :threshold days.',
     'user' => 'Uporabnik',
     'username' => 'Uporabniško ime',
-<<<<<<< HEAD
-    'welcome' => 'Dobrodošli: ime',
-    'welcome_to' => 'Dobrodošli na :web!',
-    'your_credentials' => 'Vaše poverilnice Snipe-IT',
-    'Accessory_Checkin_Notification' => 'Accessory checked in',
-    'Asset_Checkin_Notification' => 'Asset checked in',
-    'Asset_Checkout_Notification' => 'Asset checked out',
-    'License_Checkin_Notification' => 'License checked in',
-    'Expected_Checkin_Report' => 'Expected asset checkin report',
-    'Expected_Checkin_Notification' => 'Reminder: :name checkin deadline approaching',
-    'Expected_Checkin_Date' => 'An asset checked out to you is due to be checked back in on :date',
-=======
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Dobrodošli: ime',
     'welcome_to' => 'Dobrodošli na :web!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'View Your Assets',
     'your_credentials' => 'Vaše poverilnice Snipe-IT',
     'mail_sent' => 'Mail sent successfully!',

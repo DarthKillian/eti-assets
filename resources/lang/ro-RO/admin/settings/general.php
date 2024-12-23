@@ -31,11 +31,8 @@ return [
     'backups'					=> 'Copiile de rezervă',
     'backups_help'              => 'Creează, descarcă și restaurează copii de rezervă ',
     'backups_restoring'         => 'Restaurare din Backup',
-<<<<<<< HEAD
-=======
     'backups_clean' => 'Clean the backed-up database before restore',
     'backups_clean_helptext' => "This can be useful if you're changing between database versions",
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'backups_upload'            => 'Încărcare copie de rezervă',
     'backups_path'              => 'Copiile de rezervă de pe server sunt stocate în <code>:path</code>',
     'backups_restore_warning'   => 'Utilizaţi butonul de restaurare <small><span class="btn btn-xs btn-warning"><i class="text-white fas fa-retweet" aria-hidden="true"></i></span></small> pentru a restaura dintr-o copie de rezervă anterioară. (Acest lucru nu funcționează în prezent cu stocarea fișierului S3 sau cu Docker.<br><br>Întreaga bază de date <strong>cu :app_name şi orice fişiere încărcate vor fi înlocuite complet</strong> cu ce se află în fişierul de rezervă.  ',
@@ -54,10 +51,7 @@ return [
     'default_eula_text'			=> 'EULA implicita',
     'default_language'			=> 'Limba implicita',
     'default_eula_help_text'	=> 'De asemenea, puteți asocia clauze personalizate personalizate cu anumite categorii de active.',
-<<<<<<< HEAD
-=======
     'acceptance_note'           => 'Add a note for your decision (Optional)',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'display_asset_name'        => 'Afiseaza nume activ',
     'display_checkout_date'     => 'Arata data predare',
     'display_eol'               => 'Arata EOL in tabel',
@@ -76,16 +70,10 @@ return [
     'footer_text'               => 'Textul suplimentar în subsol ',
     'footer_text_help'          => 'Acest text va apărea în subsolul din dreapta. Linkurile sunt permise folosind <a href="https://help.github.com/articles/github-flavored-markdown/">marcaje de tip Github</a>. Pauzele de linii, anteturile, imaginile etc. pot avea rezultate imprevizibile.',
     'general_settings'			=> 'setari generale',
-<<<<<<< HEAD
-    'general_settings_keywords' => 'suport companie, semnătură, acceptare, format e-mail, format nume de utilizator, imagini, per pagină, miniatură, eula, tos, dashboard, confidențialitate',
-    'general_settings_help'     => 'EULA implicită și altele',
-    'generate_backup'			=> 'Generați Backup',
-=======
     'general_settings_keywords' => 'suport companie, signature, acceptance, e-mail format, nume de utilizator, imagini, per pagină, thumbnail, eula, gravatar, tos, dashboard, confidențialitate',
     'general_settings_help'     => 'EULA implicită și altele',
     'generate_backup'			=> 'Generați Backup',
     'google_workspaces'         => 'Spaţii de lucru Google',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'header_color'              => 'Culoarea antetului',
     'info'                      => 'Aceste setari va lasa sa modificati anumite aspecte ale instalarii.',
     'label_logo'                => 'Sigla etichetei',
@@ -102,21 +90,13 @@ return [
     'ldap_integration'          => 'Integrarea LDAP',
     'ldap_settings'             => 'Setări LDAP',
     'ldap_client_tls_cert_help' => 'Certificatul TLS client și cheia pentru conexiunile LDAP sunt de obicei utile doar în configurațiile Google Workspace cu "Secure LDAP". Ambele sunt necesare.',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'Cheie TLS Client-Side LDAP',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'Locație LDAP',
 'ldap_location_help'             => 'Câmpul de locație Ldap ar trebui să fie utilizat dacă <strong>un OU nu este utilizat în baza DN.</strong> Lăsați acest câmp necompletat dacă o căutare OU este utilizată.',
     'ldap_login_test_help'      => 'Introduceți un nume de utilizator LDAP și o parolă valabilă din DN-ul de bază pe care l-ați specificat mai sus pentru a testa dacă datele de conectare LDAP sunt configurate corect. TREBUIE SĂ SAȚI PRIMUL SETĂRI LDAP ACTUALIZATE.',
     'ldap_login_sync_help'      => 'Acest lucru testează numai faptul că LDAP poate sincroniza corect. Dacă interogarea dvs. de autentificare LDAP nu este corectă, este posibil ca utilizatorii să nu se poată conecta. TREBUIE SĂ ACTUALIZAȚI SETĂRILE LDAP MAI ÎNTÂI.',
     'ldap_manager'              => 'Manager LDAP',
     'ldap_server'               => 'LDAP Server',
-<<<<<<< HEAD
-    'ldap_server_help'          => 'Acest lucru ar trebui să înceapă cu ldap: // (pentru TCP sau TLS) sau ldaps: // (pentru SSL)',
-=======
     'ldap_server_help'          => 'This should start with ldap:// (for unencrypted) or ldaps:// (for TLS or SSL)',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_server_cert'			=> 'Validarea certificatelor SSL pentru LDAP',
     'ldap_server_cert_ignore'	=> 'Permiteți certificatul SSL nevalid',
     'ldap_server_cert_help'		=> 'Bifați această casetă de selectare dacă utilizați un certificat SSL auto-semnat și doriți să acceptați un certificat SSL nevalid.',
@@ -144,13 +124,8 @@ return [
     'ldap_test'                 => 'Testează LDAP',
     'ldap_test_sync'            => 'Testează sincronizarea LDAP',
     'license'                   => 'Licență software',
-<<<<<<< HEAD
-    'load_remote_text'          => 'Scripturi de la distanță',
-    'load_remote_help_text'		=> 'Această instalare Snipe-IT poate încărca scripturi din lumea exterioară.',
-=======
     'load_remote'               => 'Load Remote Avatars',
     'load_remote_help_text'		=> 'Uncheck this box if your install cannot load scripts from the outside internet. This will prevent Snipe-IT from trying load avatars from Gravatar or other outside sources.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'login'                     => 'Încercări de conectare',
     'login_attempt'             => 'Încercare de conectare',
     'login_ip'                  => 'Adresă IP',
@@ -177,11 +152,7 @@ return [
     'optional'					=> 'facultativ',
     'per_page'                  => 'Rezultate pe pagina',
     'php'                       => 'Versiune PHP',
-<<<<<<< HEAD
-    'php_info'                  => 'PHP Info',
-=======
     'php_info'                  => 'PHP info',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'php_overview'              => 'PHP',
     'php_overview_keywords'     => 'phpinfo, sistem, info',
     'php_overview_help'         => 'Informaţii sistem PHP',
@@ -236,10 +207,7 @@ return [
     'integrations'               => 'Integrări',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Webhook general',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Echipele Microsoft',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Testează pentru a salva',
     'webhook_title'               => 'Actualizați setările Webhook-ului',
@@ -252,11 +220,8 @@ return [
     'webhook_integration_help'    => 'Integrarea :app este opțională, totuși punctul final și canalul sunt necesare dacă doriți să îl folosiți. Pentru a configura integrarea :app, trebuie să creați mai întâi <a href=":webhook_link" target="_new" rel="noopener">un webhook</a> primit pe contul dvs. :app. Faceți clic pe butonul <strong>Test :app Integration</strong> pentru a confirma că setările sunt corecte înainte de salvare. ',
     'webhook_integration_help_button'    => 'Odată ce ați salvat informațiile dvs. de :app, va apărea un buton de testare.',
     'webhook_test_help'           => 'Testează dacă integrarea ta :app este configurată corect. TREBUIE SĂ VĂ APĂSAȚI ACTUALIZAT :app SETTINGS FIRST.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Enable Shortcuts',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Snipe-IT versiune',
     'support_footer'            => 'Legăturile de suport in subsol ',
     'support_footer_help'       => 'Specificați cine vede legăturile la informațiile despre asistența Snipe-IT și la Manualul utilizatorilor',
@@ -301,11 +266,7 @@ return [
     'two_factor_enrollment'        => 'Înscrierea în doi factori',
     'two_factor_enabled_text'        => 'Activați doi factori',
     'two_factor_reset'        => 'Resetați secretul cu două factori',
-<<<<<<< HEAD
-    'two_factor_reset_help'        => 'Acest lucru va obliga utilizatorul să-și înregistreze din nou dispozitivul cu Google Authenticator. Acest lucru poate fi util dacă dispozitivul înmatriculat în prezent este pierdut sau furat.',
-=======
     'two_factor_reset_help'        => 'Acest lucru va forța utilizatorul să înregistreze din nou dispozitivul cu aplicația de autentificare. Acest lucru poate fi util dacă dispozitivul înscris în prezent este pierdut sau furat. ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'two_factor_reset_success'          => 'Aparatul cu două factori se resetează',
     'two_factor_reset_error'          => 'Restabilirea dispozitivului cu două factori a eșuat',
     'two_factor_enabled_warning'        => 'Dacă activați două factori dacă nu este activat în prezent, vă forțați imediat să vă autentificați cu un dispozitiv Google Auth înscris. Veți avea capacitatea de a vă înregistra dispozitivul dacă nu sunteți înscris în prezent.',
@@ -319,11 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Este necesară autentificarea cu două factori, cu toate acestea, dispozitivul dvs. nu a fost încă înscris. Deschideți aplicația Google Authenticator și scanați codul QR de mai jos pentru a vă înregistra dispozitivul. După ce ați înscris dispozitivul, introduceți codul de mai jos",
     'require_accept_signature'      => 'Solicită semnătura',
     'require_accept_signature_help_text'      => 'Activarea acestei funcții va impune utilizatorilor să se deconecteze fizic la acceptarea unui activ.',
-<<<<<<< HEAD
-=======
     'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
     'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'left'        => 'stânga',
     'right'        => 'dreapta',
     'top'        => 'top',
@@ -335,10 +293,6 @@ return [
     'zerofill_count'        => 'Lungimea etichetelor de activ, inclusiv zerofill',
     'username_format_help'   => 'Această setare va fi folosită de procesul de import doar dacă un nume de utilizator nu este furnizat și trebuie să generăm un nume de utilizator pentru tine.',
     'oauth_title' => 'Setări API OAuth',
-<<<<<<< HEAD
-    'oauth' => 'OAuth',
-    'oauth_help' => 'Setări Oauth final',
-=======
     'oauth_clients' => 'OAuth Clients',
     'oauth' => 'OAuth',
     'oauth_help' => 'Setări Oauth final',
@@ -351,7 +305,6 @@ return [
     'oauth_callback_url' => 'Your application authorization callback URL.',
     'create_client' => 'Create Client',
     'no_scopes' => 'No scopes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'asset_tag_title' => 'Actualizați setările etichetei de active',
     'barcode_title' => 'Actualizați setările codului de bare',
     'barcodes' => 'Barcodes',
@@ -380,10 +333,6 @@ return [
     'labels' => 'Etichete',
     'labels_title' => 'Actualizați setările etichetei',
     'labels_help' => 'Setări etichete &amp;',
-<<<<<<< HEAD
-    'purge' => 'Purge',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'purge_keywords' => 'şterge permanent',
     'purge_help' => 'Eliminați înregistrările șterse',
     'ldap_extension_warning' => 'Nu arată ca și cum extensia LDAP este instalată sau activată pe acest server. Încă puteți salva setările, dar va trebui să activați extensia LDAP pentru PHP înainte ca logarea sau sincronizarea LDAP să funcționeze.',
@@ -430,8 +379,6 @@ return [
     'database_driver' => 'Șofer bază de date',
     'bs_table_storage' => 'Stocare tabel',
     'timezone' => 'Timezone',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Edit Profile',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
     'default_avatar' => 'Upload custom default avatar',
@@ -441,6 +388,5 @@ return [
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

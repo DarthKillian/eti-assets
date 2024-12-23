@@ -4,18 +4,6 @@ return array(
 
     'account_already_exists' => 'Ya existe una cuenta con este correo electrónico.',
     'account_not_found'      => 'El nombre de usuario o la contraseña son incorrectos.',
-<<<<<<< HEAD
-    'account_not_activated'  => 'La cuenta de este usuario no está activada.',
-    'account_suspended'      => 'La cuenta de este usuario está suspendida.',
-    'account_banned'         => 'La cuenta de este usuario está bloqueada.',
-    'throttle'               => 'Demasiados intentos fallidos de inicio de sesión. Por favor, inténtalo de nuevo en :minutes minutos.',
-
-    'two_factor' => array(
-        'already_enrolled'      => 'Su dispositivo ya está inscrito.',
-        'success'               => 'Has iniciado sesión con éxito.',
-        'code_required'         => 'El código de doble factor es necesario.',
-        'invalid_code'          => 'El código de doble factor no es válido.',
-=======
     'account_not_activated'  => 'Esta cuenta de usuario no está activada.',
     'account_suspended'      => 'Esta cuenta de usuario está suspendida.',
     'account_banned'         => 'Esta cuenta de usuario está bloqueada.',
@@ -28,7 +16,6 @@ return array(
         'invalid_code'          => 'El código de doble factor no es válido.',
         'enter_two_factor_code' => 'Por favor ingrese su código de autenticación de doble factor.',
         'please_enroll'         => 'Por favor inscriba un dispositivo en la autenticación de dos factores.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'signin' => array(
@@ -47,11 +34,7 @@ return array(
     ),
 
     'forgot-password' => array(
-<<<<<<< HEAD
-        'error'   => 'Hubo un problema al intentar obtener un código para restablecer la contraseña, inténtalo de nuevo.',
-=======
         'error'   => 'Ha habido un problema al obtener un código de restablecimiento de la contraseña. Por favor, inténtelo de nuevo.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'success' => 'Si esa dirección de correo electrónico existe en nuestro sistema, se ha enviado un correo electrónico de recuperación de contraseña.',
     ),
 

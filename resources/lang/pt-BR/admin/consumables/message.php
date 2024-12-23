@@ -23,11 +23,7 @@ return array(
 
      'checkout' => array(
         'error'   		=> 'Consumível não foi verificado, por favor tente novamente',
-<<<<<<< HEAD
-        'success' 		=> 'Realizada a verificação do consumível com êxito.',
-=======
         'success' 		=> 'Realizada a saída do consumível com êxito.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'user_does_not_exist' => 'Esse usuário é inválido. Por favor, tente novamente.',
          'unavailable'      => 'Não há consumíveis suficientes para este checkout. Por favor, verifique a quantidade restante. ',
     ),

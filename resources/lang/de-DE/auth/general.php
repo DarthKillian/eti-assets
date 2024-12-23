@@ -12,13 +12,7 @@ return [
     'remember_me'                   => 'Angemeldet bleiben',
     'username_help_top'                 => '<strong>Benutzernamen</strong> eingeben, um einen Link zum Zurücksetzen des Passwortes per E-Mail zu erhalten.',
     'username_help_bottom'          => 'Abhängig von der Konfiguration, <em>kann</em> der Benutzername identisch mit ihrer E-Mailadresse sein. Falls Sie ihren Benutzernamen vergessen haben, kontaktieren Sie ihren Administrator.<br><br><strong>Benutzernamen ohne zugeordnete E-Mailadresse erhalten keine E-Mail zum Zurücksetzen des Passwortes.</strong> ',
-<<<<<<< HEAD
-    'google_login'                  => 'Oder mit Google Workspace anmelden',
-    'google_login_failed'           => 'Google-Anmeldung fehlgeschlagen, bitte versuchen Sie es erneut.',
-
-=======
     'google_login'                  => 'Mit Google Workspace anmelden',
     'google_login_failed'           => 'Google-Anmeldung fehlgeschlagen, bitte versuchen Sie es erneut.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];
 

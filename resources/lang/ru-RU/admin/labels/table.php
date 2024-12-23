@@ -1,9 +1,6 @@
 <?php
 
 return [
-<<<<<<< HEAD
-
-=======
     'example_company'    => 'Тестовая компания Ограниченная',
     'example_defaultloc' => 'Здание 1',
     'example_category'   => 'Категория теста',
@@ -11,7 +8,6 @@ return [
     'example_manufacturer'  => 'Тест Manufacturing Inc.',
     'example_model'      => 'Тестовая модель',
     'example_supplier'   => 'Тестовая компания Ограниченная',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'labels_per_page'    => 'Этикетки',
     'support_fields'     => 'Поля',
     'support_asset_tag'  => 'Тег',

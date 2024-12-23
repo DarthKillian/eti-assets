@@ -21,11 +21,7 @@ return [
     'user_notified'     => 'Um usuário recebeu um e-mail com uma lista de seus itens atualmente atribuídos.',
     'auto_assign_label' => 'Inclua este usuário quando atribuir licenças elegíveis automaticamente',
     'auto_assign_help'  => 'Ignorar este usuário em atribuição automática de licenças',
-<<<<<<< HEAD
-    'software_user'     => 'Check-out de software para :name',
-=======
     'software_user'     => 'Disponibilização de software para :name',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'send_email_help'   => 'Você deve fornecer um endereço de e-mail para este usuário enviar credenciais. As credenciais de e-mail só podem ser feitas na criação do usuário. As senhas são armazenadas em hash unidirecional e não podem ser recuperadas uma vez salva.',
     'view_user'         => 'Ver Usuário :name',
     'usercsv'           => 'Arquivo CSV',

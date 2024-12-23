@@ -28,13 +28,8 @@ return [
     'two_factor_admin_optin_help' => 'Sinu praegused admin seaded lubavad kahe-astmelist autantimis jõustada valikulselt. ',
     'two_factor_enrolled' => '2FA-seade on registreeritud',
     'two_factor_active'   => '2FA aktiivne ',
-<<<<<<< HEAD
-    'user_deactivated'  => 'User cannot login',
-    'user_activated'  => 'User can login',
-=======
     'user_deactivated'  => 'Kasutaja ei saa sisse logida',
     'user_activated'  => 'Kasutaja saab sisse logida',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'activation_status_warning' => 'Do not change activation status',
     'group_memberships_helpblock' => 'Only superadmins may edit group memberships.',
     'superadmin_permission_warning' => 'Only superadmins may grant a user superadmin access.',
@@ -47,15 +42,9 @@ return [
     'remote'   => 'Remote',
     'remote_help' => 'See võib olla kasulik, kui vajad kaugkasutajate filtrit inimestest, kes käivad harva või ei käi üldse ettevõtte füüsilistes asukohtades.',
     'not_remote_label' => 'See ei ole kaugkasutaja',
-<<<<<<< HEAD
-    'vip_label' => 'VIP user',
-    'vip_help' => 'This can be helpful to mark important people in your org if you would like to handle them in special ways.',
-    'create_user' => 'Create a user',
-=======
     'vip_label' => 'VIP kasutaja',
     'vip_help' => 'This can be helpful to mark important people in your org if you would like to handle them in special ways.',
     'create_user' => 'Loo kasutaja',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create_user_page_explanation' => 'This is the account information you will use to access the site for the first time.',
     'email_credentials' => 'Email credentials',
     'email_credentials_text' => 'Email my credentials to the email address above',

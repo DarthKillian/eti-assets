@@ -8,10 +8,7 @@ return array(
     'assoc_child_loc'	 => 'Tämä sijainti on ylempi toiselle sijainnille eikä sitä voi poistaa. Päivitä sijainnit, jotta et enää viitata tähän sijaintiin ja yritä uudelleen. ',
     'assigned_assets' => 'Luovutetut laitteet',
     'current_location' => 'Nykyinen sijainti',
-<<<<<<< HEAD
-=======
     'open_map' => 'Open in :map_provider_icon Maps',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     'create' => array(

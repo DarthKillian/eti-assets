@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'Pengguna telah menerima',
-    'acceptance_asset_declined' => 'Pengguna telah menolak',
-    'a_user_canceled' => 'Pengguna telah membatalkan permintaan item di situs web',
-    'a_user_requested' => 'Pengguna telah meminta item di situs web',
-    'accessory_name' => 'Nama Aksesori:',
-    'additional_notes' => 'Catatan Tambahan:',
-    'admin_has_created' => 'Administrator telah membuat akun untuk Anda di: situs web web.',
-    'asset' => 'Aset:',
-    'asset_name' => 'Nama Aset:',
-    'asset_requested' => 'Permintaan aset',
-    'asset_tag' => 'Tag Aset',
-    'assigned_to' => 'Ditugaskan untuk',
-    'best_regards' => 'Salam Hormat,',
-    'canceled' => 'Dibatalkan:',
-    'checkin_date' => 'Tanggal Checkin:',
-    'checkout_date' => 'Tanggal keluar:',
-    'click_to_confirm' => 'Silahkan klik pada link berikut untuk mengkonfirmasi: akun web Anda:',
-    'click_on_the_link_accessory' => 'Silahkan klik pada link di bagian bawah untuk mengkonfirmasi bahwa Anda telah menerima aksesori.',
-    'click_on_the_link_asset' => 'Silahkan klik pada link di bagian bawah untuk mengkonfirmasi bahwa Anda telah menerima aset tersebut.',
-    'Confirm_Asset_Checkin' => 'Konfirmasi check-in Aset',
-=======
 
     'Accessory_Checkin_Notification' => 'Aksesoris Kembali',
     'Accessory_Checkout_Notification' => 'Accessory checked out',
     'Asset_Checkin_Notification' => 'Aset Kembali',
     'Asset_Checkout_Notification' => 'Kembali-kan aset',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Konfirmasi check-in Aksesoris',
     'Confirm_Asset_Checkin' => 'Konfirmasi check-in Aset',
     'Confirm_accessory_delivery' => 'Konfirmasi pengiriman Aksesoris',
@@ -85,13 +62,7 @@ return [
     'link_to_update_password' => 'Silahkan klik pada link berikut untuk mengupdate: password web anda:',
     'login' => 'Masuk',
     'login_first_admin' => 'Login ke instalasi Snipe-IT baru Anda dengan menggunakan kredensial di bawah ini:',
-<<<<<<< HEAD
-    'login' => 'Login:',
-    'Low_Inventory_Report' => 'Laporan Inventaris Rendah',
-    'inventory_report' => 'Laporan Inventori',
-=======
     'low_inventory_alert' => 'Ada :count item yang di bawah minimum persediaan atau akan segera habis.|Ada :count item yang di bawah minimum persediaan atau akan segera habis.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Min QTY',
     'name' => 'Nama',
     'new_item_checked' => 'Item baru telah diperiksa berdasarkan nama Anda, rinciannya ada di bawah.',
@@ -120,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Selamat datang: nama',
     'welcome_to' => 'Selamat Datang di: web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Kredensial Snipe-IT Anda',
-    'Accessory_Checkin_Notification' => 'Aksesoris Kembali',
-    'Asset_Checkin_Notification' => 'Aset Kembali',
-    'Asset_Checkout_Notification' => 'Kembali-kan aset',
-    'License_Checkin_Notification' => 'Lisensi Kembali',
-    'Expected_Checkin_Report' => 'Laporan check-in aset yang diharapkan',
-    'Expected_Checkin_Notification' => 'Pengingat: :name mendekati batas waktu check-in [Dikembalikan]',
-    'Expected_Checkin_Date' => 'Aset yang check out untuk Anda akan check in kembali pada :date',
-    'your_assets' => 'Lihat Aset Anda',
-    'rights_reserved' => 'Hak cipta di lindungi undang-undang.',
-=======
     'your_assets' => 'Lihat Aset Anda',
     'your_credentials' => 'Kredensial Snipe-IT Anda',
     'mail_sent' => 'Mail sent successfully!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

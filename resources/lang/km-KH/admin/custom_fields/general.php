@@ -1,36 +1,6 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'custom_fields'		        => 'Custom Fields',
-    'manage'                    => 'គ្រប់គ្រង',
-    'field'		                => 'Field',
-    'about_fieldsets_title'		=> 'About Fieldsets',
-    'about_fieldsets_text'		=> 'Fieldsets allow you to create groups of custom fields that are frequently re-used for specific asset model types.',
-    'custom_format'             => 'Custom Regex format...',
-    'encrypt_field'      	        => 'Encrypt the value of this field in the database',
-    'encrypt_field_help'      => 'WARNING: Encrypting a field makes it unsearchable.',
-    'encrypted'      	        => 'Encrypted',
-    'fieldset'      	        => 'Fieldset',
-    'qty_fields'      	      => 'Qty Fields',
-    'fieldsets'      	        => 'Fieldsets',
-    'fieldset_name'           => 'Fieldset Name',
-    'field_name'              => 'Field Name',
-    'field_values'            => 'Field Values',
-    'field_values_help'       => 'Add selectable options, one per line. Blank lines other than the first line will be ignored.',
-    'field_element'           => 'Form Element',
-    'field_element_short'     => 'Element',
-    'field_format'            => 'Format',
-    'field_custom_format'     => 'Custom Regex Format',
-    'field_custom_format_help'     => 'This field allows you to use a regex expression for validation. It should start with "regex:" - for example, to validate that a custom field value contains a valid IMEI (15 numeric digits), you would use <code>regex:/^[0-9]{15}$/</code>.',
-    'required'   		          => 'Required',
-    'req'   		              => 'Req.',
-    'used_by_models'   		    => 'Used By Models',
-    'order'   		            => 'Order',
-    'create_fieldset'         => 'New Fieldset',
-    'update_fieldset'         => 'Update Fieldset',
-    'fieldset_does_not_exist'   => 'Fieldset :id does not exist',
-=======
     'custom_fields'		        => 'វាលផ្ទាល់ខ្លួន',
     'manage'                    => 'គ្រប់គ្រង',
     'field'		                => 'វាល',
@@ -59,18 +29,13 @@ return [
     'create_fieldset'         => 'New Fieldset',
     'update_fieldset'         => 'Update Fieldset',
     'fieldset_does_not_exist'   => 'Fieldset : id មិនមានទេ។',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'fieldset_updated'         => 'Fieldset updated',
     'create_fieldset_title' => 'Create a new fieldset',
     'create_field'            => 'New Custom Field',
     'create_field_title' => 'Create a new custom field',
     'value_encrypted'      	        => 'The value of this field is encrypted in the database. Only admin users will be able to view the decrypted value',
-<<<<<<< HEAD
-    'show_in_email'     => 'Include the value of this field in checkout emails sent to the user? Encrypted fields cannot be included in emails.',
-=======
     'show_in_email'     => 'Include the value of this field in checkout emails sent to the user? Encrypted fields cannot be included in emails',
     'show_in_email_short'     => 'Include in emails.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'help_text' => 'Help Text',
     'help_text_description' => 'This is optional text that will appear below the form elements while editing an asset to provide context on the field.',
     'about_custom_fields_title' => 'About Custom Fields',
@@ -87,15 +52,10 @@ return [
     'display_in_user_view_table' => 'Visible to User',
     'auto_add_to_fieldsets' => 'Automatically add this to every new fieldset',
     'add_to_preexisting_fieldsets' => 'Add to any existing fieldsets',
-<<<<<<< HEAD
-    'show_in_listview' => 'Show in list views by default. Authorized users will still be able to show/hide via the column selector.',
-    'show_in_listview_short' => 'Show in lists',
-=======
     'show_in_listview' => 'Show in list views by default. Authorized users will still be able to show/hide via the column selector',
     'show_in_listview_short' => 'Show in lists',
     'show_in_requestable_list_short' => 'Show in requestable assets list',
     'show_in_requestable_list' => 'Show value in requestable assets list. Encrypted fields will not be shown',
     'encrypted_options' => 'This field is encrypted, so some display options will not be available.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

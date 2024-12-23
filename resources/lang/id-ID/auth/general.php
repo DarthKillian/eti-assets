@@ -12,13 +12,7 @@ return [
     'remember_me'                   => 'Ingat saya',
     'username_help_top'                 => 'Masukkan <strong>nama pengguna</strong> Anda untuk dikirimi email tautan setel ulang sandi.',
     'username_help_bottom'          => 'Nama pengguna dan alamat email Anda <em>mungkin</em> sama, tetapi mungkin tidak, tergantung pada konfigurasi Anda. Jika Anda tidak dapat mengingat nama pengguna Anda, hubungi administrator Anda. <br><br><strong>Nama pengguna tanpa alamat email terkait tidak akan dikirimi email berupa tautan setel ulang sandi.</strong> ',
-<<<<<<< HEAD
-    'google_login'                  => 'Or login with Google Workspace',
-    'google_login_failed'           => 'Google Login failed, please try again.',
-
-=======
     'google_login'                  => 'Login with Google Workspace',
     'google_login_failed'           => 'Google Login failed, please try again.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];
 

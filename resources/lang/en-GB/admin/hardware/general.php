@@ -15,13 +15,8 @@ return [
     'delete_confirm'            => 'Are you sure you want to delete this asset?',
     'edit'  					=> 'Edit Asset',
     'model_deleted'  			=> 'This Assets model has been deleted. You must restore the model before you can restore the Asset.',
-<<<<<<< HEAD
-    'model_invalid'             => 'The model of this asset is invalid.',
-    'model_invalid_fix'         => 'The asset should be edited to correct this before attempting to check it in or out.',
-=======
     'model_invalid'             => 'This model for this asset is invalid.',
     'model_invalid_fix'         => 'The asset must be updated use a valid asset model before attempting to check it in or out, or to audit it.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requestable'               => 'Requestable',
     'requested'				    => 'Requested',
     'not_requestable'           => 'Not Requestable',

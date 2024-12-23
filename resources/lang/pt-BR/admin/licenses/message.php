@@ -44,11 +44,8 @@ return array(
         'error'   => 'Houve um problema de registro na licença. Favor tentar novamente.',
         'success' => 'A licença foi registrada com sucesso',
         'not_enough_seats' => 'Não há vagas de licença suficientes disponíveis para o pagamento',
-<<<<<<< HEAD
-=======
         'mismatch' => 'A alocação de licença fornecida não corresponde à licença',
         'unavailable' => 'Esta alocação não está disponível para empréstimo.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

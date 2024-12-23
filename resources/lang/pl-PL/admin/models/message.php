@@ -34,11 +34,7 @@ return array(
     'bulkedit' => array(
         'error'   		=> 'Żadne pole nie zostało zmodyfikowane, więc nic nie zostało zaktualizowane.',
         'success' 		=> 'Model pomyślnie zaktualizowany. |:model_count modele pomyślnie zaktualizowane.',
-<<<<<<< HEAD
-        'warn'          => 'Zamierzasz zaktualizować właściwości następującego modelu: |Zamierzasz edytować właściwości następujących modeli :model_count:',
-=======
         'warn'          => 'Zamierzasz zaktualizować właściwości następującego modelu:|Zamierzasz edytować właściwości następujących modeli :model_count:',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     ),
 

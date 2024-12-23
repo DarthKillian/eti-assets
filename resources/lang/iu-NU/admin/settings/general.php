@@ -90,17 +90,6 @@ return [
     'ldap_integration'          => 'LDAP Integration',
     'ldap_settings'             => 'LDAP Settings',
     'ldap_client_tls_cert_help' => 'Client-Side TLS Certificate and Key for LDAP connections are usually only useful in Google Workspace configurations with "Secure LDAP." Both are required.',
-<<<<<<< HEAD
-<<<<<<<< HEAD:resources/lang/iu-NU/admin/settings/general.php
-     'ldap_client_tls_key'       => 'LDAP Client-Side TLS key',
-========
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/sq-AL/admin/settings/general.php
-=======
-<<<<<<<< HEAD:resources/lang/ca-ES/admin/settings/general.php
-     'ldap_client_tls_key'       => 'LDAP Client-Side TLS key',
-========
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/iu-NU/admin/settings/general.php
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'LDAP Location',
 'ldap_location_help'             => 'The Ldap Location field should be used if <strong>an OU is not being used in the Base Bind DN.</strong> Leave this blank if an OU search is being used.',
     'ldap_login_test_help'      => 'Enter a valid LDAP username and password from the base DN you specified above to test whether your LDAP login is configured correctly. YOU MUST SAVE YOUR UPDATED LDAP SETTINGS FIRST.',
@@ -218,17 +207,7 @@ return [
     'integrations'               => 'Integrations',
     'slack'                     => 'Slack',
     'general_webhook'           => 'General Webhook',
-<<<<<<< HEAD
-<<<<<<<< HEAD:resources/lang/iu-NU/admin/settings/general.php
-========
     'ms_teams'                  => 'Microsoft Teams',
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/sq-AL/admin/settings/general.php
-=======
-<<<<<<<< HEAD:resources/lang/ca-ES/admin/settings/general.php
-========
-    'ms_teams'                  => 'Microsoft Teams',
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/iu-NU/admin/settings/general.php
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Test to Save',
     'webhook_title'               => 'Update Webhook Settings',
@@ -241,19 +220,8 @@ return [
     'webhook_integration_help'    => ':app integration is optional, however the endpoint and channel are required if you wish to use it. To configure :app integration, you must first <a href=":webhook_link" target="_new" rel="noopener">create an incoming webhook</a> on your :app account. Click on the <strong>Test :app Integration</strong> button to confirm your settings are correct before saving. ',
     'webhook_integration_help_button'    => 'Once you have saved your :app information, a test button will appear.',
     'webhook_test_help'           => 'Test whether your :app integration is configured correctly. YOU MUST SAVE YOUR UPDATED :app SETTINGS FIRST.',
-<<<<<<< HEAD
-<<<<<<<< HEAD:resources/lang/iu-NU/admin/settings/general.php
-========
     'shortcuts_enabled'         => 'Enable Shortcuts',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/sq-AL/admin/settings/general.php
-=======
-<<<<<<<< HEAD:resources/lang/ca-ES/admin/settings/general.php
-========
-    'shortcuts_enabled'         => 'Enable Shortcuts',
-    'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/iu-NU/admin/settings/general.php
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Snipe-IT version',
     'support_footer'            => 'Support Footer Links ',
     'support_footer_help'       => 'Specify who sees the links to the Snipe-IT Support info and Users Manual',
@@ -411,12 +379,6 @@ return [
     'database_driver' => 'Database Driver',
     'bs_table_storage' => 'Table Storage',
     'timezone' => 'Timezone',
-<<<<<<< HEAD
-<<<<<<<< HEAD:resources/lang/iu-NU/admin/settings/general.php
-=======
-<<<<<<<< HEAD:resources/lang/ca-ES/admin/settings/general.php
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
-========
     'profile_edit'          => 'Edit Profile',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
     'default_avatar' => 'Upload custom default avatar',
@@ -426,10 +388,5 @@ return [
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
-<<<<<<< HEAD
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/sq-AL/admin/settings/general.php
-=======
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/iu-NU/admin/settings/general.php
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

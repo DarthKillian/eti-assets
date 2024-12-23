@@ -91,17 +91,6 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => '환영합니다 :name',
     'welcome_to' => '환영합니다 :web!',
-<<<<<<< HEAD
-    'your_credentials' => '당신의 Snipe-IT 인증들',
-    'Accessory_Checkin_Notification' => '부속품 반입 됨',
-    'Asset_Checkin_Notification' => '자산 반입 됨',
-    'Asset_Checkout_Notification' => 'Asset checked out',
-    'License_Checkin_Notification' => '라이센스 확인 됨.',
-    'Expected_Checkin_Report' => 'Expected asset checkin report',
-    'Expected_Checkin_Notification' => 'Reminder: :name checkin deadline approaching',
-    'Expected_Checkin_Date' => 'An asset checked out to you is due to be checked back in on :date',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => '자산 확인',
     'your_credentials' => '당신의 Snipe-IT 인증들',
     'mail_sent' => 'Mail sent successfully!',

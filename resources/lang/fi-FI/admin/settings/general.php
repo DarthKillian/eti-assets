@@ -70,11 +70,7 @@ return [
     'footer_text'               => 'Lisäys alatunnisteen tekstiin ',
     'footer_text_help'          => 'Tämä teksti esiintyy oikeanpuoleisessa alatunnisteessa. Linkkejä voi lisätä käyttämällä <a href="https://help.github.com/articles/github-flavored-markdown/">Github merkintätapaa</a>. Rivinvaihdot, otsikot, kuvat, jne. voivat johtaa epätoivottuihin tuloksiin.',
     'general_settings'			=> 'Yleiset asetukset',
-<<<<<<< HEAD
-    'general_settings_keywords' => 'yritystuki, allekirjoitus, hyväksyminen, sähköpostimuoto, käyttäjätunnusten muoto, kuvat, per sivu, pikkukuva, eula, käyttöehdot, kojelauta, yksityisyys',
-=======
     'general_settings_keywords' => 'yrityksen tuki, allekirjoitus, hyväksyminen, sähköpostimuoto, käyttäjänimi muodossa, kuvia, sivua, pikkukuvat, eula, gravatar, tos, kojelauta, yksityisyys',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'general_settings_help'     => 'Oletuskäyttöehdot ja muuta',
     'generate_backup'			=> 'Luo varmuuskopio',
     'google_workspaces'         => 'Googlen Työtilat',
@@ -94,10 +90,6 @@ return [
     'ldap_integration'          => 'LDAP integraatio',
     'ldap_settings'             => 'LDAP-asetukset',
     'ldap_client_tls_cert_help' => 'Client-Side TLS Certificate and Key for LDAP connection are usually useful only in Google Workspace configurations with "Secure LDAP".',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'LDAP Client-Side TLS avain',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'LDAP Sijainti',
 'ldap_location_help'             => 'Ldap Location -kenttää tulee käyttää, jos tukikohdan Bind-nimisessä nimessä ei käytetä <strong>-yksikköä.</strong> Jätä tämä tyhjäksi, jos hakua käytetään.',
     'ldap_login_test_help'      => 'Syötä toimiva LDAP-käyttäjätunnus ja salasana määrittelemästäsi base DN: stä testataksesi LDAP-kirjautumisen toimivuutta. SINUN TULEE TALLENTAA UUDET LDAP ASETUKSET ENSIN.',
@@ -132,13 +124,8 @@ return [
     'ldap_test'                 => 'Testaa LDAP',
     'ldap_test_sync'            => 'Testaa Ldap Synkronointi',
     'license'                   => 'Ohjelmistolisenssi',
-<<<<<<< HEAD
-    'load_remote_text'          => 'Etäkriptit',
-    'load_remote_help_text'		=> 'Tämä Snipe-IT-asennus voi ladata skriptejä ulkopuolelta.',
-=======
     'load_remote'               => 'Load Remote Avatars',
     'load_remote_help_text'		=> 'Uncheck this box if your install cannot load scripts from the outside internet. This will prevent Snipe-IT from trying load avatars from Gravatar or other outside sources.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'login'                     => 'Kirjautumisyritykset',
     'login_attempt'             => 'Kirjautuminen Yritti',
     'login_ip'                  => 'Ip Osoite',
@@ -220,10 +207,7 @@ return [
     'integrations'               => 'Integraatiot',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Yleinen Webkoukku',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Microsoft Teams',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Testaa tallennettavaksi',
     'webhook_title'               => 'Päivitä Webkoukun Asetukset',
@@ -236,11 +220,8 @@ return [
     'webhook_integration_help'    => ':app integraatio on valinnainen, mutta päätepiste ja kanava vaaditaan, jos haluat käyttää sitä. Määrittääksesi :app integraation, sinun täytyy ensin <a href=":webhook_link" target="_new" rel="noopener">luoda saapuva webhook</a> :app tilillesi. Klikkaa <strong>Testaa :app Integration</strong> -painiketta varmistaaksesi, että asetuksesi ovat oikein ennen tallentamista. ',
     'webhook_integration_help_button'    => 'Kun olet tallentanut :app tietosi, ilmestyy testipainike.',
     'webhook_test_help'           => 'Testaa, onko sovelluksen :app integraatio määritetty oikein. SINUN TULEE TALLENTAA PÄIVÄNÄ :app ASETTINGS FIRST.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Enable Shortcuts',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Snipe-IT versio',
     'support_footer'            => 'Tuki-alatunnisteen linkit ',
     'support_footer_help'       => 'Määrittele, kuka voi nähdä linkit Snipe-IT tukipalvelun tietoihin ja käyttöohjeeseen',
@@ -312,10 +293,6 @@ return [
     'zerofill_count'        => 'Laitetunnisteen pituus, mukaan lukien nollat',
     'username_format_help'   => 'Käytetään tietoja tuodessa, jos käyttäjänimeä ei ole annettu ja nimitietojen perusteella on luotava käyttäjälle käyttäjätunnus.',
     'oauth_title' => 'OAuth API Asetukset',
-<<<<<<< HEAD
-    'oauth' => 'OAuth',
-    'oauth_help' => 'Oauth Päätepisteen Asetukset',
-=======
     'oauth_clients' => 'OAuth Clients',
     'oauth' => 'OAuth',
     'oauth_help' => 'Oauth Päätepisteen Asetukset',
@@ -328,7 +305,6 @@ return [
     'oauth_callback_url' => 'Your application authorization callback URL.',
     'create_client' => 'Create Client',
     'no_scopes' => 'No scopes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'asset_tag_title' => 'Päivitä Laitetunnisteen Asetukset',
     'barcode_title' => 'Päivitä Viivakoodin Asetukset',
     'barcodes' => 'Barcodes',
@@ -357,10 +333,6 @@ return [
     'labels' => 'Tunnisteet',
     'labels_title' => 'Päivitä Tunnisteasetukset',
     'labels_help' => 'Tunnistekoot &amp; asetukset',
-<<<<<<< HEAD
-    'purge' => 'Purge',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'purge_keywords' => 'poista pysyvästi',
     'purge_help' => 'Puhdista poistetut tietueet',
     'ldap_extension_warning' => 'Se ei näytä LDAP laajennus on asennettu tai otettu käyttöön tällä palvelimella. Voit silti tallentaa asetuksesi, mutta sinun täytyy ottaa käyttöön LDAP laajennus PHP ennen LDAP synkronointia tai kirjautuminen toimii.',
@@ -407,8 +379,6 @@ return [
     'database_driver' => 'Tietokannan Ajuri',
     'bs_table_storage' => 'Taulukko Tallennustila',
     'timezone' => 'Timezone',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Edit Profile',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
     'default_avatar' => 'Upload custom default avatar',
@@ -418,6 +388,5 @@ return [
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

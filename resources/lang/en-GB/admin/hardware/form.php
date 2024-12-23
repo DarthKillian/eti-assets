@@ -59,10 +59,6 @@ return [
     'asset_deployable' => 'That status is deployable. This asset can be checked out.',
     'processing_spinner' => 'Processing… (This might take a bit of time on large files)',
     'optional_infos'  => 'Optional Information',
-<<<<<<< HEAD
-    'order_details'   => 'Order-related Information'
-=======
     'order_details'   => 'Order-related Information',
     'calc_eol'    => 'If nulling the EOL date, use automatic EOL calculation based on the purchase date and EOL rate.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Jūs esat veiksmīgi atteicies no šī īpašuma.',
     'bulk_manager_warn'	        => 'Jūsu lietotāji ir veiksmīgi atjaunināti, taču jūsu pārvaldnieka ieraksts netika saglabāts, jo izvēlētā pārvaldnieks bija arī rediģējamo lietotāju sarakstā, un lietotāji, iespējams, nav viņu īpašnieks. Lūdzu, vēlreiz atlasiet savus lietotājus, izņemot pārvaldnieku.',
     'user_exists'               => 'Lietotājs jau eksistē!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Lietotājs neeksistē.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Ievades lauks ir nepieciešams',
     'user_has_no_assets_assigned' => 'No assets currently assigned to user.',
     'user_password_required'    => 'Parole ir nepieciešama.',

@@ -13,92 +13,6 @@ return [
     |
     */
 
-<<<<<<< HEAD
-    'accepted'             => ':attribute должен быть принят.',
-    'active_url'           => ':attribute некорректный URL.',
-    'after'                => 'The :attribute должен быть после :date.',
-    'after_or_equal'       => 'Атрибут: должен быть датой после или равной: дата.',
-    'alpha'                => ':attribute может содержать только символы.',
-    'alpha_dash'           => ':attribute может содержать только буквы, цифры и тире.',
-    'alpha_num'            => ':attribute может содержать только буквы и цифры.',
-    'array'                => 'Атрибут: должен быть массивом.',
-    'before'               => ':attribute должен быть датой до :date.',
-    'before_or_equal'      => 'Атрибут: должен быть дата до или равна: дата.',
-    'between'              => [
-        'numeric' => ':attribute должен быть между :min - :max.',
-        'file'    => ':attribute должен быть между :min - :max килобайт.',
-        'string'  => ':attribute должен быть между :min - :max символов.',
-        'array'   => 'Атрибут: должен находиться между: min и: max элементами.',
-    ],
-    'boolean'              => ':attribute должен быть true или false.',
-    'confirmed'            => 'Подтверждение :attribute не совпадает.',
-    'date'                 => ':attribute неправильная дата.',
-    'date_format'          => ':attribute не совпадает с форматом :format.',
-    'different'            => ':attribute и :other должны быть разными.',
-    'digits'               => ':attribute должен содержать :digits цифр.',
-    'digits_between'       => ':attribute должно быть между :min и :max цифр.',
-    'dimensions'           => 'Атрибут: имеет недопустимые размеры изображения.',
-    'distinct'             => 'Поле атрибута: имеет двойное значение.',
-    'email'                => 'Неправильный формат :attribute.',
-    'exists'               => 'Выбранный :attribute неправильный.',
-    'file'                 => 'Атрибут: должен быть файлом.',
-    'filled'               => 'Поле атрибута: должно иметь значение.',
-    'image'                => ':attribute должен быть изображением.',
-    'import_field_empty'    => 'Значение :fieldname не может быть пустым.',
-    'in'                   => 'Выбранный :attribute неправильный.',
-    'in_array'             => 'Поле: атрибут не существует в: other.',
-    'integer'              => ':attribute должно быть числом.',
-    'ip'                   => ':attribute должно быть IP адресом.',
-    'ipv4'                 => 'Атрибут: должен быть действительным адресом IPv4.',
-    'ipv6'                 => 'Атрибут: должен быть действительным адресом IPv6.',
-    'is_unique_department' => ':attribute должен быть уникальным для этого местоположения компании',
-    'json'                 => 'Атрибут: должен быть действительной строкой JSON.',
-    'max'                  => [
-        'numeric' => ':attribute не должно быть больше :max.',
-        'file'    => ':attribute не должен превышать :max килобайт.',
-        'string'  => ':attribute не должно превышать :max символов.',
-        'array'   => 'Атрибут: может быть не больше: max элементов.',
-    ],
-    'mimes'                => ':attribute тип файла должен быть: :values.',
-    'mimetypes'            => 'Атрибут: должен быть файл типа:: values.',
-    'min'                  => [
-        'numeric' => ':attribute должно быть не менее :min.',
-        'file'    => ':attribute должно быть не менее :min килобайт.',
-        'string'  => ':attribute должно быть не менее :min символов.',
-        'array'   => 'Атрибут: должен содержать не менее: мин.',
-    ],
-    'starts_with'          => ':attribute должен начинаться с одного из следующих значений: :values.',
-    'ends_with'            => 'Атрибут :attribute должен заканчиваться одним из следующих значений: :values.',
-
-    'not_in'               => 'Выбранный :attribute неправильный.',
-    'numeric'              => ':attribute должно быть числом.',
-    'present'              => 'Поле атрибута: должно присутствовать.',
-    'valid_regex'          => 'Это не верно составленное регулярное выражение. ',
-    'regex'                => 'Неправильный формат :attribute.',
-    'required'             => ':attribute обязательное поле.',
-    'required_if'          => ':attribute обязательное поле, когда :other :value.',
-    'required_unless'      => 'Поле атрибута: требуется, если: other находится в: значения.',
-    'required_with'        => ':attribute обязательное поле, когда присутствует :values.',
-    'required_with_all'    => 'Поле атрибута: требуется, когда: есть значения.',
-    'required_without'     => ':attribute обязательное поле, когда отсутствует :values.',
-    'required_without_all' => 'Поле атрибута: требуется, если ни один из: значений не присутствует.',
-    'same'                 => ':attribute и :other должны совпадать.',
-    'size'                 => [
-        'numeric' => ':attribute должен быть :size.',
-        'file'    => ':attribute должен быть :size килобайт.',
-        'string'  => ':attribute должен быть :size символов.',
-        'array'   => 'Атрибут: должен содержать: элементы размера.',
-    ],
-    'string'               => 'Атрибут: должен быть строкой.',
-    'timezone'             => 'Атрибут: должен быть допустимой зоной.',
-    'two_column_unique_undeleted' => 'Поле :attribute должно быть уникальным для :table1 и :table2. ',
-    'unique'               => ':attribute уже занят.',
-    'uploaded'             => 'Атрибут: не удалось загрузить.',
-    'url'                  => 'Неправильный формат :attribute.',
-    'unique_undeleted'     => 'Свойство :attribute должно быть уникальным.',
-    'non_circular'         => ':attribute не должен создавать циклическую ссылку.',
-    'not_array'            => ':atribute harus array.',
-=======
     'accepted' => 'Поле :attribute должно быть принято.',
     'accepted_if' => 'Поле :attribute должно быть принято, когда :other равно :value.',
     'active_url' => 'Поле :attribute должно быть действительным URL-адресом.',
@@ -246,17 +160,11 @@ return [
     'unique_undeleted'     => 'Свойство :attribute должно быть уникальным.',
     'non_circular'         => ':attribute не должен создавать циклическую ссылку.',
     'not_array'            => ':attribute не может быть массивом.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'disallow_same_pwd_as_user_fields' => 'Пароль не может совпадать с именем пользователя.',
     'letters'              => 'Пароль должен содержать хотя бы одну букву.',
     'numbers'              => 'Пароль должен содержать хотя бы одну цифру.',
     'case_diff'            => 'Пароль должен использовать смешанный регистр.',
     'symbols'              => 'Пароль должен содержать символы.',
-<<<<<<< HEAD
-    'gte'                  => [
-        'numeric'          => 'Значение не может быть отрицательным'
-    ],
-=======
     'timezone' => 'Поле :attribute должно содержать действительный часовой пояс.',
     'unique' => ':attribute уже занят.',
     'uploaded' => 'Атрибут: не удалось загрузить.',
@@ -264,7 +172,6 @@ return [
     'url' => 'Поле :attribute должно быть действительным URL-адресом.',
     'ulid' => 'Поле :attribute должно быть корректным значением UUID.',
     'uuid' => 'Поле :attribute должно быть корректным значением UUID.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     /*
@@ -284,19 +191,12 @@ return [
         'hashed_pass'      => 'Ваш текущий пароль неверен',
         'dumbpwd'          => 'Этот пароль слишком распространен.',
         'statuslabel_type' => 'Вы должны выбрать допустимый тип метки статуса',
-<<<<<<< HEAD
-
-        // date_format validation with slightly less stupid messages. It duplicates a lot, but it gets the job done :(
-        // We use this because the default error message for date_format is reflects php Y-m-d, which non-PHP
-        // people won't know how to format. 
-=======
         'custom_field_not_found'          => 'Похоже, это поле не существует. Пожалуйста, проверьте еще раз имена ваших пользовательских полей.',
         'custom_field_not_found_on_model' => 'Это поле существует, но недоступно в наборе полей этой модели актива.',
 
         // date_format validation with slightly less stupid messages. It duplicates a lot, but it gets the job done :(
         // We use this because the default error message for date_format reflects php Y-m-d, which non-PHP
         // people won't know how to format.
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'purchase_date.date_format'     => ':attribute должен быть допустимой датой в формате YYYY-MM-DD',
         'last_audit_date.date_format'   =>  ':attribute должен быть допустимой датой в формате YYYY-MM-DD hh:mm:ss',
         'expiration_date.date_format'   =>  ':attribute должен быть допустимой датой в формате YYYY-MM-DD',
@@ -304,11 +204,6 @@ return [
         'expected_checkin.date_format'  =>  ':attribute должен быть допустимой датой в формате YYYY-MM-DD',
         'start_date.date_format'        =>  ':attribute должен быть допустимой датой в формате YYYY-MM-DD',
         'end_date.date_format'          =>  ':attribute должен быть допустимой датой в формате YYYY-MM-DD',
-<<<<<<< HEAD
-
-    ],
-
-=======
         'checkboxes'           => ':attribute содержит недопустимые параметры.',
         'radio_buttons'        => ':attribute не верно.',
         'invalid_value_in_field' => 'Недопустимое значение в этом поле',
@@ -320,7 +215,6 @@ return [
         'ldap_filter' => ['regex' => 'This value should probably not be wrapped in parentheses.'],
 
         ],
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Attributes
@@ -334,8 +228,6 @@ return [
 
     'attributes' => [],
 
-<<<<<<< HEAD
-=======
     /*
     |--------------------------------------------------------------------------
     | Generic Validation Messages - we use these in the jquery validation where we don't have
@@ -350,5 +242,4 @@ return [
     ],
 
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

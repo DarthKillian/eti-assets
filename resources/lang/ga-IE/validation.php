@@ -92,22 +92,6 @@ return [
         'numeric' => 'The :attribute field must be less than or equal to :value.',
         'string' => 'The :attribute field must be less than or equal to :value characters.',
     ],
-<<<<<<< HEAD
-    'starts_with'          => 'The :attribute must start with one of the following: :values.',
-    'ends_with'            => 'The :attribute must end with one of the following: :values.',
-
-    'not_in'               => 'An roghnaithe: tá tréith neamhbhailí.',
-    'numeric'              => 'An: Ní mór tréith a bheith ina líon.',
-    'present'              => 'Ní mór an réimse tréith a bheith i láthair.',
-    'valid_regex'          => 'That is not a valid regex. ',
-    'regex'                => 'Tá an fhormáid tréithbhail neamhbhailí.',
-    'required'             => 'An: Tá réimse tréith ag teastáil.',
-    'required_if'          => 'An: Tá réimse tréith ag teastáil nuair: eile é: luach.',
-    'required_unless'      => 'An: Tá réimse tréith de dhíth mura bhfuil: eile i: luachanna.',
-    'required_with'        => 'An: Tá réimse tréith ag teastáil nuair a bhíonn: luachanna i láthair.',
-    'required_with_all'    => 'An: Tá réimse tréith ag teastáil nuair a bhíonn: luachanna i láthair.',
-    'required_without'     => 'An: Tá réimse tréith ag teastáil nuair nach bhfuil luachanna i láthair.',
-=======
     'mac_address' => 'The :attribute field must be a valid MAC address.',
     'max' => [
         'array' => 'The :attribute field must not have more than :max items.',
@@ -162,7 +146,6 @@ return [
     'required_with' => 'An: Tá réimse tréith ag teastáil nuair a bhíonn: luachanna i láthair.',
     'required_with_all' => 'The :attribute field is required when :values are present.',
     'required_without' => 'An: Tá réimse tréith ag teastáil nuair nach bhfuil luachanna i láthair.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'required_without_all' => 'An: Tá réimse tréith ag teastáil nuair nach bhfuil aon cheann de na luachanna i láthair.',
     'same' => 'The :attribute field must match :other.',
     'size' => [
@@ -173,21 +156,10 @@ return [
     ],
     'starts_with' => 'The :attribute field must start with one of the following: :values.',
     'string'               => 'An: Ní mór tréith a bheith ina teaghrán.',
-<<<<<<< HEAD
-    'timezone'             => 'An: Ní mór go mbeadh tréith ina chrios bailí.',
-    'two_column_unique_undeleted' => 'The :attribute must be unique across :table1 and :table2. ',
-    'unique'               => 'An: tá tréith déanta cheana féin.',
-    'uploaded'             => 'The: theip ar an tréith a uaslódáil.',
-    'url'                  => 'Tá an fhormáid tréithbhail neamhbhailí.',
-    'unique_undeleted'     => 'An: Ní mór tréith a bheith uathúil.',
-    'non_circular'         => 'The :attribute must not create a circular reference.',
-    'not_array'            => ':atribute harus array.',
-=======
     'two_column_unique_undeleted' => 'The :attribute must be unique across :table1 and :table2. ',
     'unique_undeleted'     => 'An: Ní mór tréith a bheith uathúil.',
     'non_circular'         => 'The :attribute must not create a circular reference.',
     'not_array'            => ':attribute cannot be an array.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'disallow_same_pwd_as_user_fields' => 'Password cannot be the same as the username.',
     'letters'              => 'Password must contain at least one letter.',
     'numbers'              => 'Password must contain at least one number.',

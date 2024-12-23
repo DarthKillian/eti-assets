@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'Пользователь принял элемент',
-    'acceptance_asset_declined' => 'Пользователь отклонил элемент',
-    'a_user_canceled' => 'Пользователь отменил запрос элемента на веб-сайте',
-    'a_user_requested' => 'Пользователь запросил элемент на веб-сайте',
-    'accessory_name' => 'Аксессуар:',
-    'additional_notes' => 'Дополнительные Примечания:',
-    'admin_has_created' => 'Администратор создал аккаунт для вас на :web.',
-    'asset' => 'Актив:',
-    'asset_name' => 'Имя актива:',
-    'asset_requested' => 'Актив запрошен',
-    'asset_tag' => 'Тег актива',
-    'assigned_to' => 'Выдано',
-    'best_regards' => 'С наилучшими пожеланиями,',
-    'canceled' => 'Отменен:',
-    'checkin_date' => 'Дата возврата:',
-    'checkout_date' => 'Дата выдачи:',
-    'click_to_confirm' => 'Пожалуйста, перейдите по ссылке, чтобы подтвердить ваш :web аккаунт:',
-    'click_on_the_link_accessory' => 'Пожалуйста, перейдите по ссылке внизу, чтобы подтвердить получение аксессуара.',
-    'click_on_the_link_asset' => 'Пожалуйста, перейдите по ссылке внизу, чтобы подтвердить получение актива.',
-    'Confirm_Asset_Checkin' => 'Подтверждение возврата активов',
-=======
 
     'Accessory_Checkin_Notification' => 'Аксессуар выдан',
     'Accessory_Checkout_Notification' => 'Аксессуар выведен',
     'Asset_Checkin_Notification' => 'Актив принят',
     'Asset_Checkout_Notification' => 'Актив выдан',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Подтвердить возврат аксессуара',
     'Confirm_Asset_Checkin' => 'Подтверждение возврата активов',
     'Confirm_accessory_delivery' => 'Подтвердить доставку аксессуара',
@@ -85,13 +62,7 @@ return [
     'link_to_update_password' => 'Пожалуйста, перейдите по ссылке, чтобы обновить ваш :web пароль:',
     'login' => 'Логин',
     'login_first_admin' => 'Чтобы войти в Snipe-It используйте следующие логин и пароль:',
-<<<<<<< HEAD
-    'login' => 'Логин:',
-    'Low_Inventory_Report' => 'Отчет о заканчивающихся предметах',
-    'inventory_report' => 'Отчет о запасах',
-=======
     'low_inventory_alert' => 'Осталась :count штука, что или уже ниже минимального запаса, или скоро будет ниже.|Осталось :count штук, что или уже ниже минимального запаса, или скоро будет ниже.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Мин Кол-во',
     'name' => 'Название',
     'new_item_checked' => 'Новый предмет был выдан под вашем именем, подробности ниже.',
@@ -112,12 +83,6 @@ return [
     'test_email' => 'Тестовое сообщение от Snipe-IT',
     'test_mail_text' => 'Это тестовое сообщение от Snipe-IT. Если вы его получили, значит почта работает :)',
     'the_following_item' => 'Данный предмет был возвращен: ',
-<<<<<<< HEAD
-    'low_inventory_alert' => 'Осталась :count штука, что или уже ниже минимального запаса, или скоро будет ниже.|Осталось :count штук, что или уже ниже минимального запаса, или скоро будет ниже.',
-    'assets_warrantee_alert' => 'Имеется :count актив, гарантия на который истечет в следующ(ие/ий) :threshold дней/день.|Имеется :count активов, гарантия на которые истечет в следующ(ие/ий) :threshold дней/день.',
-    'license_expiring_alert' => 'Имеется :count лицензия, срок которой истечет в следующ(ие/ий) :threshold дней/день.|Имеются :count лицензии, срок которых истечет в следующ(ие/ий) :threshold дней/день.',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'to_reset' => 'Чтобы сбросить ваш :web пароль, заполните форму:',
     'type' => 'Тип',
     'upcoming-audits' => ':count активов запланированы для аудита в течение :threshold дней.| :count активов будут запланированы для аудита через :threshold дней.',
@@ -126,17 +91,6 @@ return [
     'unaccepted_asset_reminder' => 'У вас есть непринятые активы.',
     'welcome' => 'Добро пожаловать, :name',
     'welcome_to' => 'Добро пожаловать на :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Ваш логин и пароль от Snipe-IT',
-    'Accessory_Checkin_Notification' => 'Аксессуар выдан',
-    'Asset_Checkin_Notification' => 'Актив принят',
-    'Asset_Checkout_Notification' => 'Актив выдан',
-    'License_Checkin_Notification' => 'Лицензия выдана',
-    'Expected_Checkin_Report' => 'Отчёт запрошенных активов',
-    'Expected_Checkin_Notification' => 'Напоминание: приближается крайний срок проверки :name',
-    'Expected_Checkin_Date' => 'Актив, выданный вам ранее, должен быть проверен :date дней назад',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'Посмотреть активы',
     'your_credentials' => 'Ваш логин и пароль от Snipe-IT',
     'mail_sent' => 'Письмо успешно отправлено!',

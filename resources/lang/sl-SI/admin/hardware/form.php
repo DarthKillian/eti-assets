@@ -2,19 +2,6 @@
 
 return [
     'bulk_delete'		=> 'Potrdite množičn izbris sredstev',
-<<<<<<< HEAD
-    'bulk_restore'      => 'Confirm Bulk Restore Assets', 
-  'bulk_delete_help'	=> 'Pregled sredstev za množično brisanje je v seznamu spodaj. Ko bodo sredstva izbrisana, jih je mogoče obnoviti, vendar ne bodo povezana z nobenimi uporabnikom, kot so jim trenutno dodeljena.',
-  'bulk_restore_help'	=> 'Review the assets for bulk restoration below. Once restored, these assets will not be associated with any users they were previously assigned to.',
-  'bulk_delete_warn'	=> 'Brisali boste: asset_count sredstev.',
-  'bulk_restore_warn'	=> 'You are about to restore :asset_count assets.',
-    'bulk_update'		=> 'Množično posodabljanje sredstev',
-    'bulk_update_help'	=> 'Ta obrazec vam omogoča, da posodobite več sredstev hkrati. Izpolnite le polja, ki jih morate spremeniti. Vsa polja, ki ostanejo prazna, bodo ostala nespremenjena. ',
-    'bulk_update_warn'	=> 'You are about to edit the properties of a single asset.|You are about to edit the properties of :asset_count assets.',
-    'bulk_update_with_custom_field' => 'Note the assets are :asset_model_count different types of models.',
-    'bulk_update_model_prefix' => 'On Models', 
-    'bulk_update_custom_field_unique' => 'This is a unique field and can not be bulk edited.',
-=======
     'bulk_restore'      => 'Potrdite množično obnovitev sredstev', 
   'bulk_delete_help'	=> 'Pregled sredstev za množično brisanje je v seznamu spodaj. Ko bodo sredstva izbrisana, jih je mogoče obnoviti, vendar ne bodo povezana z nobenimi uporabnikom, kot so jim trenutno dodeljena.',
   'bulk_restore_help'	=> 'Spodaj si oglejte sredstva za obnovo v množičnem stanju. Po obnovitvi ta sredstva ne bodo povezana z nobenim uporabnikom, ki so mu bila prej dodeljena.',
@@ -26,7 +13,6 @@ return [
     'bulk_update_with_custom_field' => 'Opomnik, da :asset_model_count različni tipi modelov.',
     'bulk_update_model_prefix' => 'Na modelih', 
     'bulk_update_custom_field_unique' => 'To je unikatno polje in ne more biti množično urejeno.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'checkedout_to'		=> 'Izdano osebi',
     'checkout_date'		=> 'Datum izdaje',
     'checkin_date'		=> 'Datum sprejema',
@@ -64,17 +50,6 @@ return [
     'warranty'			=> 'Garancija',
         'warranty_expires'		=> 'Garancija poteče',
     'years'				=> 'let',
-<<<<<<< HEAD
-    'asset_location' => 'Update Asset Location',
-    'asset_location_update_default_current' => 'Update default location AND actual location',
-    'asset_location_update_default' => 'Update only default location',
-    'asset_location_update_actual' => 'Update only actual location',
-    'asset_not_deployable' => 'That asset status is not deployable. This asset cannot be checked out.',
-    'asset_deployable' => 'That status is deployable. This asset can be checked out.',
-    'processing_spinner' => 'Processing... (This might take a bit of time on large files)',
-    'optional_infos'  => 'Optional Information',
-    'order_details'   => 'Order Related Information'
-=======
     'asset_location' => 'Posodobi lokacijo sredstva',
     'asset_location_update_default_current' => 'Posodobi privzeto lokacijo in aktualno lokacijo',
     'asset_location_update_default' => 'Posodobi samo privzeto lokacijo',
@@ -86,5 +61,4 @@ return [
     'optional_infos'  => 'Neobvezne informacije',
     'order_details'   => 'Informacije povezane z naročilom',
     'calc_eol'    => 'If nulling the EOL date, use automatic EOL calculation based on the purchase date and EOL rate.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

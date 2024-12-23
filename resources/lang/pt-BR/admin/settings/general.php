@@ -8,11 +8,7 @@ return [
     'ad_append_domain'          => 'Acrescentar nome de domínio ao campo de usuário',
     'ad_append_domain_help'     => 'Usuário não é necessário para escrever "username@domain.local", ele pode apenas digitar "username".',
     'admin_cc_email'            => 'E-mail em CC',
-<<<<<<< HEAD
-    'admin_cc_email_help'       => 'Se você quiser enviar uma cópia dos e-mails de check-in / check-out que são enviados aos usuários para uma conta de e-mail adicional, insira-a aqui. Caso contrário, deixe este campo em branco.',
-=======
     'admin_cc_email_help'       => 'Se você quiser enviar uma cópia dos e-mails de devolução / saída que são enviados aos usuários para uma conta de e-mail adicional, insira-a aqui. Caso contrário, deixe este campo em branco.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'admin_settings'            => 'Configurações de administrador',
     'is_ad'				        => 'Este é um servidor de Diretório Ativo',
     'alerts'                	=> 'Alertas',
@@ -94,10 +90,6 @@ return [
     'ldap_integration'          => 'Integração LDAP',
     'ldap_settings'             => 'Configurações LDAP',
     'ldap_client_tls_cert_help' => 'Certificado e chave TLS do Client-Side para conexões LDAP geralmente são úteis apenas em configurações do Google Workspace com "Secure LDAP". Ambas são necessárias.',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'Chave TLS do lado do cliente LDAP',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'Localização LDAP',
 'ldap_location_help'             => 'O campo de Localização do dap deve ser usado se <strong>um OU não estiver sendo usado no DNS de vinculação base.</strong> Deixe em branco se uma busca OU estiver sendo usada.',
     'ldap_login_test_help'      => 'Digite um nome de usuário e senha LDAP válidos a partir do DN base que você especificou acima para testar se seu login LDAP está configurado corretamente. VOCÊ DEVE SALVAR AS CONFIGURAÇÕES LDAP ATUALIZADAS PRIMEIRAMENTE.',
@@ -215,10 +207,7 @@ return [
     'integrations'               => 'Integrações',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Webhook Geral',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Equipes da Microsoft',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Teste para salvar',
     'webhook_title'               => 'Atualizar configurações de Webhook',
@@ -231,11 +220,8 @@ return [
     'webhook_integration_help'    => 'integração :app é opcional, porém o endpoint e o canal são necessários se você deseja usá-lo. Para configurar a integração :app, primeiro você deve <a href=":webhook_link" target="_new" rel="noopener">criar um webhook entrante</a> na sua conta :app. Clique no botão <strong>Teste a integração do :app</strong> para confirmar se suas configurações estão corretas antes de salvar. ',
     'webhook_integration_help_button'    => 'Depois de salvar suas informações do :app, será exibido um botão de teste.',
     'webhook_test_help'           => 'Teste se sua integração :app está configurada corretamente. VOCÊ DEVE SALVAR SUAS CONFIGURAÇÃO :app PRIMEIRO.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Ativar Atalhos',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Tecla de acesso, <strong>Mac</strong>: Control + Option + Tecla de acesso',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Versão do Snipe-IT',
     'support_footer'            => 'Links de rodapé de suporte ',
     'support_footer_help'       => 'Especifique quem vê os links para as informações de Suporte Snipe-IT e o Manual do Usuário',
@@ -393,8 +379,6 @@ return [
     'database_driver' => 'Driver de Banco de Dados',
     'bs_table_storage' => 'Armazenamento de Tabela',
     'timezone' => 'Fuso horário',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Editar perfil',
     'profile_edit_help'          => 'Permitir que os usuários editem seus próprios perfis.',
     'default_avatar' => 'Carregar avatar padrão personalizado',
@@ -404,6 +388,5 @@ return [
     'due_checkin_days' => 'Aviso de Devolução Pendente',
     'due_checkin_days_help' => 'Quantos dias antes da data esperada de devolução de um ativo ele deve ser listado na página "Pendente para devolução"?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

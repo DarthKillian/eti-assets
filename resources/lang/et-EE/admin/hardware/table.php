@@ -15,11 +15,7 @@ return [
     'dl_csv' 		=> 'Laadige alla CSV',
     'eol' 			=> 'EOL',
     'id'      		=> 'ID',
-<<<<<<< HEAD
-    'last_checkin_date' => 'Last Checkin Date',
-=======
     'last_checkin_date' => 'Viimane Sissevõtmise kuupäev',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'location' 		=> 'Asukoht',
     'purchase_cost'	=> 'Kulud',
     'purchase_date'	=> 'Ostetud',

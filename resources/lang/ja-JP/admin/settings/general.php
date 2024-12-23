@@ -90,10 +90,6 @@ return [
     'ldap_integration'          => 'LDAP 統合',
     'ldap_settings'             => 'LDAP 設定',
     'ldap_client_tls_cert_help' => 'クライアント側のTLS証明書とLDAP接続用のキーは、通常 "Secure LDAP" を搭載したGoogle Workspaceでのみ有効です。',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'LDAPクライアントTLSキー',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'LDAP ロケーション',
 'ldap_location_help'             => '[LDAPロケーション] フィールドは、<strong>ベース バインド DN で OU が使用されていない</strong>場合に使用する必要があります。OU 検索が使用されている場合は、これを空白のままにしてください。',
     'ldap_login_test_help'      => 'LDAPログインが正しく構成されているかどうかをテストするために、上で指定したベースDNから有効なLDAPユーザー名とパスワードを入力して下さい。その前に必ず更新後のLDAP設定を保存しておいてください。',
@@ -214,10 +210,7 @@ return [
     'integrations'               => 'サービス連携',
     'slack'                     => 'Slack',
     'general_webhook'           => '一般的な Webhook',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Microsoft Teams',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => '保存のテスト',
     'webhook_title'               => 'Webhook設定を更新',
@@ -230,11 +223,8 @@ return [
     'webhook_integration_help'    => 'Slackとの連携は任意ですが、利用する場合はエンドポイントとチャンネルが必要です。Slackとの連携を設定するには、まず、Slackに<a href=":webhook_link" target="_new" rel="noopener">Incoming Webhookを作成</a>する必要があります。<strong>Slack統合テスト</strong> ボタンをクリックし、設定が正しいことを確認してから保存してください。 ',
     'webhook_integration_help_button'    => ':app の設定を保存すると、テストボタンが表示されます。',
     'webhook_test_help'           => ':app の連携が正しく設定されているかどうかをテストします。:app の設定を最初に保存しなければなりません。',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'ショートカットを有効化',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Snipe-IT バージョン',
     'support_footer'            => 'フッターのリンクをサポートします。 ',
     'support_footer_help'       => 'Snipe-ITサポート情報とユーザーマニュアルへのリンクを確認する',
@@ -392,8 +382,6 @@ return [
     'database_driver' => 'データベースドライバ',
     'bs_table_storage' => 'テーブルストレージ',
     'timezone' => 'Timezone',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Edit Profile',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
     'default_avatar' => 'Upload custom default avatar',
@@ -403,6 +391,5 @@ return [
     'due_checkin_days' => 'チェックイン期限の警告',
     'due_checkin_days_help' => 'アセットの期待されるチェックインの何日前に、「チェックイン期限」ページにリストされるべきですか?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

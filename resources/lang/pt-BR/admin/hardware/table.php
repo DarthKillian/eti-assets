@@ -8,11 +8,7 @@ return [
     'book_value'  	=> 'Valor Atual',
     'change' 		=> 'Entrada/Saída',
     'checkout_date' => 'Data de saída',
-<<<<<<< HEAD
-    'checkoutto' 	=> 'check-out',
-=======
     'checkoutto' 	=> 'Disponibilizado',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'components_cost' => 'Custo Total de Componentes',
     'current_value' => 'Valor Atual',
     'diff' 			=> 'Diferença',

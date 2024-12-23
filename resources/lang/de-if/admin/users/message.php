@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Du hast diesen Gegenstand erfolgreich abgelehnt.',
     'bulk_manager_warn'	        => 'Deine Benutzer wurden erfolgreich aktualisiert, aber dein Manager-Eintrag wurde nicht gespeichert, da der Manager, den du ausgewählt hast, auch in der zu bearbeitenden Liste war, und Benutzer dürfen nicht ihr eigener Manager sein. Bitte wähle deine Benutzer erneut aus, ohne diesen Manager.',
     'user_exists'               => 'Benutzer existiert bereits!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Benutzer existiert nicht.',
-=======
     'user_not_found'            => 'Der Benutzer existiert nicht oder du bistnicht berechtigt, ihn anzuzeigen.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Das Loginfeld ist erforderlich',
     'user_has_no_assets_assigned' => 'Derzeit sind keine Assets dem Benutzer zugewiesen.',
     'user_password_required'    => 'Das Passswortfeld ist erforderlich.',

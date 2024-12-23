@@ -3,11 +3,7 @@
 return array(
 
     'does_not_exist' => 'Lisensen finnes ikke, eller du har ikke tillatelse til å se den.',
-<<<<<<< HEAD
-    'user_does_not_exist' => 'Bruker eksisterer ikke.',
-=======
     'user_does_not_exist' => 'Brukeren finnes ikke, eller du har ikke tillatelse til å se dem.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'asset_does_not_exist' 	=> 'Eiendelen du prøver å koble til denne lisensen eksisterer ikke.',
     'owner_doesnt_match_asset' => 'Eiendelen du prøver å koble til denne lisensen er eid av noen andre enn personen du har valgt i tildelt til-nedtrekkslista.',
     'assoc_users'	 => 'Denne lisensen er sjekket ut til en bruker og kan ikke slettes. Vennligst sjekk inn lisensen først, og forsøk sletting på nytt. ',
@@ -48,11 +44,8 @@ return array(
         'error'   => 'Det oppstod et problem under utsjekk av lisens. Vennligst prøv igjen.',
         'success' => 'Vellykket utsjekk av lisens',
         'not_enough_seats' => 'Ikke nok lisensseter tilgjengelige for utsjekking',
-<<<<<<< HEAD
-=======
         'mismatch' => 'The license seat provided does not match the license',
         'unavailable' => 'This seat is not available for checkout.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

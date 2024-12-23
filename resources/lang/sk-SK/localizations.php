@@ -2,11 +2,7 @@
 
 return [
 
-<<<<<<< HEAD
-    'select_language' => 'Select a language',
-=======
     'select_language' => 'Select a Language',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'languages' => [
         'en-US'=> 'English, US',
         'en-GB'=> 'English, UK',
@@ -44,13 +40,9 @@ return [
         'ms-MY'=> 'Malay',
         'mi-NZ'=> 'Maori',
         'mn-MN'=> 'Mongolian',
-<<<<<<< HEAD
-        'no-NO'=> 'Norwegian',
-=======
         //'no-NO'=> 'Norwegian',
         'nb-NO'=> 'Norwegian Bokmål',
         //'nn-NO'=> 'Norwegian Nynorsk',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'fa-IR'=> 'Persian',
         'pl-PL'=> 'Polish',
         'pt-PT'=> 'Portuguese',
@@ -60,10 +52,7 @@ return [
         'sr-CS' => 'Serbian (Latin)',
         'sk-SK'=> 'Slovak',
         'sl-SI'=> 'Slovenian',
-<<<<<<< HEAD
-=======
         'so-SO'=> 'Somali',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Spanish',
         'es-CO'=> 'Spanish, Colombia',
         'es-MX'=> 'Spanish, Mexico',
@@ -79,11 +68,7 @@ return [
         'zu-ZA'=> 'Zulu',
     ],
 
-<<<<<<< HEAD
-    'select_country' => 'Select a country',
-=======
     'select_country' => 'Select a Country',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     
     'countries' => [
         'AC'=>'Ascension Island',
@@ -114,24 +99,14 @@ return [
         'BI'=>'Burundi',
         'BJ'=>'Benin',
         'BM'=>'Bermuda',
-<<<<<<< HEAD
-        'BN'=>'Sultanato del Brunei',
-=======
         'BN'=>'Brunei Darussalam',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'BO'=>'Bolivia',
         'BR'=>'Brazil',
         'BS'=>'Bahamas',
         'BT'=>'Bhutan',
-<<<<<<< HEAD
-        'BV'=>'Isola di Bouvet',
-        'BW'=>'Botswana',
-        'BY'=>'Bielorussia',
-=======
         'BV'=>'Bouvet Island',
         'BW'=>'Botswana',
         'BY'=>'Belarus',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'BZ'=>'Belize',
         'CA'=>'Canada',
         'CC'=>'Cocos (Keeling) Islands',
@@ -155,19 +130,12 @@ return [
         'DJ'=>'Djibouti',
         'DK'=>'Denmark',
         'DM'=>'Dominica',
-<<<<<<< HEAD
-        'DO'=>'Repubblica Dominicana',
-=======
         'DO'=>'Dominican Republic',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'DZ'=>'Algeria',
         'EC'=>'Ecuador',
         'EE'=>'Estonia',
         'EG'=>'Egypt',
-<<<<<<< HEAD
-=======
         'GB-ENG'=>'England',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'ER'=>'Eritrea',
         'ES'=>'Spain',
         'ET'=>'Ethiopia',
@@ -181,19 +149,6 @@ return [
         'GA'=>'Gabon',
         'GD'=>'Grenada',
         'GE'=>'Georgia',
-<<<<<<< HEAD
-        'GF'=>'Guyana Francese',
-        'GG'=>'Guernsey',
-        'GH'=>'Ghana',
-        'GI'=>'Gibilterra',
-        'GL'=>'Groenlandia',
-        'GM'=>'Gambia',
-        'GN'=>'Guinea',
-        'GP'=>'Guadaupe',
-        'GQ'=>'Guinea Equatoriale',
-        'GR'=>'Grecia',
-        'GS'=>'Georgia Del Sud E Isole Sandwich Del Sud',
-=======
         'GF'=>'French Guiana',
         'GG'=>'Guernsey',
         'GH'=>'Ghana',
@@ -205,25 +160,11 @@ return [
         'GQ'=>'Equatorial Guinea',
         'GR'=>'Greece',
         'GS'=>'South Georgia And The South Sandwich Islands',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'GT'=>'Guatemala',
         'GU'=>'Guam',
         'GW'=>'Guinea-Bissau',
         'GY'=>'Guyana',
         'HK'=>'Hong Kong',
-<<<<<<< HEAD
-        'HM'=>'Isole Heard E Mc Donald',
-        'HN'=>'Honduras',
-        'HR'=>'Croazia (nome locale: Hrvatska)',
-        'HT'=>'Haiti',
-        'HU'=>'Ungheria',
-        'ID'=>'Indonesia',
-        'IE'=>'Irlanda',
-        'IL'=>'Israel',
-        'IM'=>'Isola di Man',
-        'IN'=>'India',
-        'IO'=>'Territorio Britannico Dell\'Oceano Indiano',
-=======
         'HM'=>'Heard And Mc Donald Islands',
         'HN'=>'Honduras',
         'HR'=>'Croatia (local name: Hrvatska)',
@@ -235,51 +176,12 @@ return [
         'IM'=>'Isle of Man',
         'IN'=>'India',
         'IO'=>'British Indian Ocean Territory',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'IQ'=>'Iraq',
         'IR'=>'Iran, Islamic Republic Of',
         'IS'=>'Iceland',
         'IT'=>'Italy',
         'JE'=>'Jersey',
         'JM'=>'Jamaica',
-<<<<<<< HEAD
-        'JO'=>'Giordania',
-        'JP'=>'Giappone',
-        'KE'=>'Kenia',
-        'KG'=>'Kyrgyzstan',
-        'KH'=>'Cambogia',
-        'KI'=>'Kiribati',
-        'KM'=>'Comore',
-        'KN'=>'Saint Kitts E Nevis',
-        'KR'=>'Corea, Repubblica Di',
-        'KW'=>'Kuwait',
-        'KY'=>'Isole Cayman',
-        'KZ'=>'Kazakistan',
-        'LA'=>'Repubblica Democratica Popolare Del Laos',
-        'LB'=>'Libano',
-        'LC'=>'Santa Lucia',
-        'LI'=>'Liechtenstein',
-        'LK'=>'Sri Lanka',
-        'LR'=>'Liberia',
-        'LS'=>'Lesoto',
-        'LT'=>'Lituania',
-        'LU'=>'Lussemburgo',
-        'LV'=>'Lettonia',
-        'LY'=>'Libyan Arab Jamahiriya',
-        'MA'=>'Marocco',
-        'MC'=>'Monaco',
-        'MD'=>'Moldavia, Repubblica di',
-        'ME'=>'Montenegro',
-        'MG'=>'Madagascar',
-        'MH'=>'Isole Marshall',
-        'MK'=>'Macedonia, Repubblica Ex Jugoslava di',
-        'ML'=>'Mali',
-        'MM'=>'Myanmar/Birmania',
-        'MN'=>'Mongolia',
-        'MO'=>'Macao',
-        'MP'=>'Isole Marianne Settentrionali',
-        'MQ'=>'Martinica',
-=======
         'JO'=>'Jordan',
         'JP'=>'Japan',
         'KE'=>'Kenya',
@@ -316,63 +218,10 @@ return [
         'MO'=>'Macau',
         'MP'=>'Northern Mariana Islands',
         'MQ'=>'Martinique',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'MR'=>'Mauritania',
         'MS'=>'Montserrat',
         'MT'=>'Malta',
         'MU'=>'Mauritius',
-<<<<<<< HEAD
-        'MV'=>'Maldive',
-        'MW'=>'Malawi',
-        'MX'=>'Messico',
-        'MY'=>'Malaysia',
-        'MZ'=>'Mozambico',
-        'NA'=>'Namibia',
-        'NC'=>'Nuova Caledonia',
-        'NE'=>'Niger',
-        'NF'=>'Isola Norfolk',
-        'NG'=>'Nigeria',
-        'NI'=>'Nicaragua',
-        'NL'=>'Paesi Bassi',
-        'NO'=>'Norvegia',
-        'NP'=>'Nepal',
-        'NR'=>'Nauru',
-        'NU'=>'Niue',
-        'NZ'=>'Nuova Zelanda',
-        'OM'=>'Oman',
-        'PA'=>'Panama',
-        'PE'=>'Peru',
-        'PF'=>'Polinesia Francese',
-        'PG'=>'Papua New Guinea',
-        'PH'=>'Filippine, Repubblica del',
-        'PK'=>'Pakistan',
-        'PL'=>'Polonia',
-        'PM'=>'St. Pierre E Miquelon',
-        'PN'=>'Pitcairn',
-        'PR'=>'Puerto Rico',
-        'PS'=>'Palestina',
-        'PT'=>'Portogallo',
-        'PW'=>'Palau',
-        'PY'=>'Paraguay',
-        'QA'=>'Qatar',
-        'RE'=>'Riunione',
-        'RO'=>'Romania',
-        'RS'=>'Serbia',
-        'RU'=>'Federazione Russa',
-        'RW'=>'Rwanda',
-        'SA'=>'Arabia Saudita',
-        'UK'=>'Scozia',
-        'SB'=>'Isole Salomone',
-        'SC'=>'Seychelles',
-        'SS'=>'Sudan Sud',
-        'SD'=>'Sudan',
-        'SE'=>'Regno di Svezia',
-        'SG'=>'Singapore',
-        'SH'=>'St. Helena',
-        'SI'=>'Slovenia',
-        'SJ'=>'Isole Svalbard e Jan Mayen',
-        'SK'=>'Slovacchia (Repubblica Slovacca)',
-=======
         'MV'=>'Maldives',
         'MW'=>'Malawi',
         'MX'=>'Mexico',
@@ -424,22 +273,11 @@ return [
         'SI'=>'Slovenia',
         'SJ'=>'Svalbard And Jan Mayen Islands',
         'SK'=>'Slovakia (Slovak Republic)',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'SL'=>'Sierra Leone',
         'SM'=>'San Marino',
         'SN'=>'Senegal',
         'SO'=>'Somalia',
         'SR'=>'Suriname',
-<<<<<<< HEAD
-        'ST'=>'São Tomé e Príncipe',
-        'SU'=>'Unione Sovietica',
-        'SV'=>'El Salvador',
-        'SY'=>'Repubblica Araba Siriana',
-        'SZ'=>'Swaziland',
-        'TC'=>'Isole Turks e Caicos',
-        'TD'=>'Chad',
-        'TF'=>'Territori australi francesi',
-=======
         'ST'=>'Sao Tome And Principe',
         'SU'=>'Soviet Union',
         'SV'=>'El Salvador',
@@ -448,16 +286,11 @@ return [
         'TC'=>'Turks And Caicos Islands',
         'TD'=>'Chad',
         'TF'=>'French Southern Territories',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'TG'=>'Togo',
         'TH'=>'Thailand',
         'TJ'=>'Tajikistan',
         'TK'=>'Tokelau',
-<<<<<<< HEAD
-        'TI'=>'Timor Est',
-=======
         'TI'=>'East Timor',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'TM'=>'Turkmenistan',
         'TN'=>'Tunisia',
         'TO'=>'Tonga',
@@ -477,20 +310,12 @@ return [
         'VA'=>'Vatican City State (Holy See)',
         'VC'=>'Saint Vincent And The Grenadines',
         'VE'=>'Venezuela',
-<<<<<<< HEAD
-        'VG'=>'Isole Vergini (British)',
-        'VI'=>'Isole Vergini (British.)',
-        'VN'=>'Vietnam',
-        'VU'=>'Vanuatu',
-        'WF'=>'Isole di Wallis e Futuna',
-=======
         'VG'=>'Virgin Islands (British)',
         'VI'=>'Virgin Islands (U.S.)',
         'VN'=>'Viet Nam',
         'VU'=>'Vanuatu',
         'GB-WLS' =>'Wales',
         'WF'=>'Wallis And Futuna Islands',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'WS'=>'Samoa',
         'YE'=>'Yemen',
         'YT'=>'Mayotte',

@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'Käyttäjä on hyväksynyt kohteen',
-    'acceptance_asset_declined' => 'Käyttäjä on hylännyt kohteen',
-    'a_user_canceled' => 'Käyttäjä on peruuttanut nimikkeen pyynnön sivustolla',
-    'a_user_requested' => 'Käyttäjä on pyytänyt nimikettä sivustolla',
-    'accessory_name' => 'Oheistarvikkeen nimi:',
-    'additional_notes' => 'Muistiinpanot:',
-    'admin_has_created' => 'Järjestelmänvalvoja on luonut tilin sinulle :web verkkosivustolle.',
-    'asset' => 'Laite:',
-    'asset_name' => 'Laitteen nimi:',
-    'asset_requested' => 'Pyydetty laite',
-    'asset_tag' => 'Laitetunniste',
-    'assigned_to' => 'Osoitettu',
-    'best_regards' => 'Parhain terveisin,',
-    'canceled' => 'Peruutettu:',
-    'checkin_date' => 'Palautuspäivä:',
-    'checkout_date' => 'Luovutuspäivä:',
-    'click_to_confirm' => 'Vahvista tilisi klikkaamalla seuraavaa linkkiä :web:',
-    'click_on_the_link_accessory' => 'Klikkaa alla olevaa linkkiä vahvistaaksesi, että olet vastaanottanut oheistarvikeen.',
-    'click_on_the_link_asset' => 'Klikkaa alla olevaa linkkiä vahvistaaksesi, että olet vastaanottanut laitteen.',
-    'Confirm_Asset_Checkin' => 'Laitteen palautuksen vahvistus',
-=======
 
     'Accessory_Checkin_Notification' => 'Oheistarvike palautettu',
     'Accessory_Checkout_Notification' => 'Lisävaruste tarkistettu',
     'Asset_Checkin_Notification' => 'Laite palautettu',
     'Asset_Checkout_Notification' => 'Laite tarkistettu',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Oheistarvikkeen palautuksen vahvistus',
     'Confirm_Asset_Checkin' => 'Laitteen palautuksen vahvistus',
     'Confirm_accessory_delivery' => 'Oheistarvikkeen toimittamisen vahvistaminen',
@@ -85,13 +62,7 @@ return [
     'link_to_update_password' => 'Napsauta seuraavaa linkkiä päivittääksesi :web salasanasi:',
     'login' => 'Kirjaudu',
     'login_first_admin' => 'Kirjaudu sisään uuteen Snipe-IT asennukseen käyttäen alla olevia tunnistetietoja:',
-<<<<<<< HEAD
-    'login' => 'Kirjaudu sisään:',
-    'Low_Inventory_Report' => 'Alhainen määrä raportti',
-    'inventory_report' => 'Varaston Raportti',
-=======
     'low_inventory_alert' => ':count nimikkeen saldomäärä on alle minimirajan tai kohta alhainen.|:count nimikkeen saldomäärä on alle minimirajan tai kohta alhainen.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Minimi määrä',
     'name' => 'Nimi',
     'new_item_checked' => 'Uusi nimike on luovutettu sinulle, yksityiskohdat ovat alla.',
@@ -112,12 +83,6 @@ return [
     'test_email' => 'Testi sähköposti Snipe-IT: stä',
     'test_mail_text' => 'Tämä on testi Snipe-IT Asset Management -järjestelmästä. Jos saat tämän, sähköposti toimii :)',
     'the_following_item' => 'Seuraava kohde on palautettu: ',
-<<<<<<< HEAD
-    'low_inventory_alert' => ':count nimikkeen saldomäärä on alle minimirajan tai kohta alhainen.|:count nimikkeen saldomäärä on alle minimirajan tai kohta alhainen.',
-    'assets_warrantee_alert' => 'There is :count asset with a guarantee expiring in the next :threshold days .- There are :count assets with warranties expiring in the next :threshold days.',
-    'license_expiring_alert' => ':count lisenssiä vanhenee :threshold päivän sisällä.|:count lisenssiä vanhenee :threshold päivän sisällä.',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'to_reset' => 'Voit palauttaa :web salasanasi täyttämällä tämän lomakkeen:',
     'type' => 'Tyyppi',
     'upcoming-audits' => 'Seuraavien :count laitteiden tarkistus on tulossa :threshold päivän aikana .|Seuraavien :count laitteiden tarkistus on tulossa :threshold päivän aikana.',
@@ -126,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Tervetuloa :name',
     'welcome_to' => 'Tervetuloa :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Snipe-IT - kirjautumistietosi',
-    'Accessory_Checkin_Notification' => 'Oheistarvike palautettu',
-    'Asset_Checkin_Notification' => 'Laite palautettu',
-    'Asset_Checkout_Notification' => 'Laite tarkistettu',
-    'License_Checkin_Notification' => 'Lisenssi palautettu',
-    'Expected_Checkin_Report' => 'Odotettujen palautuspäivien raportti',
-    'Expected_Checkin_Notification' => 'Muistutus: :name palautuspäivä lähestyy',
-    'Expected_Checkin_Date' => 'Sinulle luovutettu laite on määrä palauttaa takaisin :date',
-    'your_assets' => 'Omat laitteesi',
-    'rights_reserved' => 'Kaikki oikeudet pidätetään.',
-=======
     'your_assets' => 'Omat laitteesi',
     'your_credentials' => 'Snipe-IT - kirjautumistietosi',
     'mail_sent' => 'Mail sent successfully!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

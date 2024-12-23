@@ -4,30 +4,6 @@ return [
     'about_assets_title'           => 'Acerca de los activos',
     'about_assets_text'            => 'Los activos son artículos rastreados por número de serie o placa de activo.  Suelen ser artículos de alto valor en los que es importante identificar un elemento específico.',
     'archived'  				=> 'Archivado',
-<<<<<<< HEAD
-    'asset'  					=> 'Equipo',
-    'bulk_checkout'             => 'Asignar Equipos',
-    'bulk_checkin'              => 'Checkin Assets',
-    'checkin'  					=> 'Devolver Equipo',
-    'checkout'  				=> 'Asignar Equipo',
-    'clone'  					=> 'Clonar Equipo',
-    'deployable'  				=> 'Desplegable',
-    'deleted'  					=> 'Este activo ha sido borrado.',
-    'delete_confirm'            => '¿Está seguro de que desea eliminar este recurso?',
-    'edit'  					=> 'Editar Equipo',
-    'model_deleted'  			=> 'El modelo de este activo ha sido borrado. Debe restaurar el modelo antes de restaurar o crear el activo.',
-    'model_invalid'             => 'El modelo de este activo no es válido.',
-    'model_invalid_fix'         => 'El Activo debe ser editado para corregir esto antes de intentar comprobarlo dentro o fuera.',
-    'requestable'               => 'Puede Solicitarse',
-    'requested'				    => 'Solicitado',
-    'not_requestable'           => 'No solicitable',
-    'requestable_status_warning' => 'No cambiar el estado solicitable',
-    'restore'  					=> 'Restaurar equipo',
-    'pending'  					=> 'Equipos Pendiente',
-    'undeployable'  			=> 'No desplegable',
-    'undeployable_tooltip'  	=> 'Este activo tiene una etiqueta de estado que no es desplegable y no puede ser revisado en este momento.',
-    'view'  					=> 'Ver Equipo',
-=======
     'asset'  					=> 'Activo',
     'bulk_checkout'             => 'Asignar activos',
     'bulk_checkin'              => 'Ingresar activos',
@@ -50,7 +26,6 @@ return [
     'undeployable'  			=> 'No utilizable',
     'undeployable_tooltip'  	=> 'Este activo tiene una etiqueta de estado que no es desplegable y no puede ser revisado en este momento.',
     'view'  					=> 'Ver activo',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'csv_error' => 'Tiene un error en su archivo CSV:',
     'import_text' => '<p>Cargue un archivo CSV que contenga el historial de los activos. Los activos y los usuarios DEBEN existir ya en el sistema, o serán omitidos. La comparación de activos para importar el historial se realiza con la placa del activo. Intentaremos encontrar un usuario usando el nombre del usuario que proporcione y los criterios que seleccione a continuación. Si no selecciona ningún criterio, el sistema simplemente intentará usar el formato de nombre de usuario configurado en <code>Administrador &gt; Configuración General</code>.</p><p>Los campos incluidos en el CSV deben coincidir con los encabezados: <strong>Asset Tag, Name, Checkout Date, Checkin Date</strong>. Cualquier campo adicional será ignorado.</p><p>Checkin Date(Fecha de recepción): dejar en blanco o usar fechas futuras asignará los elementos al usuario asociado. Excluir la columna Checkin Date creará una fecha de recepción con la fecha de hoy.</p>    ',
     'csv_import_match_f-l' => 'Intente asociar usuarios usando el formato <strong>nombre.apellido</strong> (<code>jane.smith</code>)',
@@ -61,13 +36,7 @@ return [
     'error_messages' => 'Mensajes de error:',
     'success_messages' => 'Mensajes de éxito:',
     'alert_details' => 'Por favor vea abajo para más detalles.',
-<<<<<<< HEAD
-    'custom_export' => 'Exportación personalizada',
-    'mfg_warranty_lookup' => ':fabricante Garantía Estado Búsqueda',
-    'user_department' => 'Departamento de Usuario',
-=======
     'custom_export' => 'Personalizar exportación',
     'mfg_warranty_lookup' => 'Búsqueda del estado de garantía para :manufacturer',
     'user_department' => 'Departamento del usuario',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

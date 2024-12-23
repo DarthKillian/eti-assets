@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Hai rifiutato con successo questo prodotto.',
     'bulk_manager_warn'	        => 'I tuoi utenti sono stati aggiornati con successo, tuttavia la voce del gestore non è stata salvata perché il gestore selezionato è stato anche nell\'elenco utenti da modificare e gli utenti potrebbero non essere il proprio gestore. Seleziona nuovamente i tuoi utenti, esclusi il gestore.',
     'user_exists'               => 'Utente già esistente!',
-<<<<<<< HEAD
-    'user_not_found'            => 'L\'utente non esiste.',
-=======
     'user_not_found'            => 'L\'Utente non esiste, oppure non hai i permessi per visualizzarlo.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'È necessario il campo login',
     'user_has_no_assets_assigned' => 'Nessun bene assegnato all\'utente.',
     'user_password_required'    => 'È richiesta la password.',

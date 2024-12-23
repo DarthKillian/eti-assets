@@ -99,11 +99,7 @@ return [
     'debug_warning_text'    => 'Ta aplikacja jest uruchomiona w trybie produkcyjnym z włączonym debugowaniem. Jeśli aplikacja jest dostępna na zewnątrz, może to zagrażać ujawnieniem wrażliwych danych. Wyłącz tryb debugowania przez ustawienie wartości <code>APP_DEBUG</code> w pliku <code>.env</code> na <code>false</code>.',
     'delete'  				=> 'Kasuj',
     'delete_confirm'  		=> 'Czy na pewno chcesz usunąć :przedmiot?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Czy na pewno chcesz usunąć :item? Nie można tego cofnąć.',
-=======
     'delete_confirm_no_undo' => 'Czy na pewno chcesz usunąć :item? Tej operacji nie można cofnąć.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Usunięte',
     'delete_seats'  		=> 'Usunięte miejsca',
     'deletion_failed'       => 'Usunięcie nieudane',
@@ -139,10 +135,7 @@ return [
     'lastname_firstinitial' => 'Nazwisko i pierwsza litera imienia (smith_j@example.com)',
     'firstinitial.lastname' => 'Pierwsza litera imienia i nazwisko (jsmith@example.com)',
     'firstnamelastinitial'  => 'Nazwisko i pierwsza litera imienia (smithj@example.com)',
-<<<<<<< HEAD
-=======
     'lastnamefirstname'      => 'Nazwisko.Imię (kowal.jan@przyklad.com)',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'first_name'			=> 'Imię',
     'first_name_format'		=> 'Imię (jane@example.com)',
     'files'                 => 'Pliki',
@@ -164,15 +157,9 @@ return [
     'image_delete'         	=> 'Usuń zdjęcie',
     'include_deleted'       => 'Dołącz usunięte zasoby',
     'image_upload'         	=> 'Dodaj zdjęcie',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'Akceptowany typ pliku to :types. Maksymalny dozwolony rozmiar pliku to :size.|Akceptowane typy plików to :types. Maksymalny dozwolony rozmiar plików to :size.',
-    'filetypes_size_help'   => 'Maksymalny dozwolony rozmiar wysyłania to :size.',
-    'image_filetypes_help'  => 'Akceptowane typy plików to jpg, webp, png, gif i svg. Maksymalny dozwolony rozmiar to :size.',
-=======
     'filetypes_accepted_help'    => 'Akceptowany typ pliku to :types. Maksymalny dozwolony rozmiar pliku to :size.|Akceptowane typy plików to :types. Maksymalny dozwolony rozmiar pliku to :size.',
     'filetypes_size_help'   => 'Maksymalny rozmiar pliku to :size.',
     'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'Plik z obrazem jest nieczytelny. Akceptowane typy plików to JPG, WebP, PNG, GIF i SVG. Typ MIME przesłanego pliku to :mimetype.',
     'import'         	    => 'Zaimportuj',
     'import_this_file'      => 'Mapuj pola i przetwarzaj ten plik',
@@ -243,11 +230,7 @@ return [
     'purchase_date'         => 'Data zakupu',
     'qty'		            => 'Ilość',
     'quantity'		        => 'Ilość',
-<<<<<<< HEAD
-    'quantity_minimum'      => 'Masz :count przedmiotów poniżej lub prawie poniżej minimalnych poziomów ilości',
-=======
     'quantity_minimum'      => 'You have one item below or almost below minimum quantity levels|You have :count items below or almost below minimum quantity levels',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'quickscan_checkin'  	=> 'Szybkie skanowanie',
     'quickscan_checkin_status'  	=> 'Status przypisania',
     'ready_to_deploy'		=> 'Gotowe do wdrożenia',
@@ -258,10 +241,7 @@ return [
     'restored'				=> 'przywrócone',
     'restore'				=> 'Przywróć',
     'requestable_models'    => 'Żądane modele',
-<<<<<<< HEAD
-=======
     'requestable_items'     => 'Requestable Items',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'requested'				=> 'Wymagane',
     'requested_date'        => 'Data złożenia zapotrzebowania',
     'requested_assets'      => 'Żądane zasoby',
@@ -295,11 +275,7 @@ return [
     'signed_off_by'         => 'Podpisano przez',
     'skin'       			=> 'Motyw',
     'webhook_msg_note'        => 'Powiadomienie zostanie wysłane przez webhook',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Super! Wygląda na to, że Twoja integracja :app z Snipe-IT działa!',
-=======
     'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'Wersja demonstracyjna: Pewne funkcje zostały wyłączone w tej instalacji.',
     'site_name'				=> 'Nazwa Witryny',
     'state'  				=> 'Województwo',
@@ -331,10 +307,7 @@ return [
     'user'					=> 'Użytkownik',
     'accepted'			    => 'zatwierdzone',
     'declined'			    => 'odrzucony',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Odrzucone notatki',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Nieprzypisane',
     'unaccepted_asset_report' => 'Aktywa niezatwierdzone',
     'users'                 => 'Użytkownicy',
@@ -435,11 +408,7 @@ return [
     'accessory_name'       => 'Nazwa akcesorium:',
     'clone_item'            => 'Klonuj obiekt',
     'checkout_tooltip' => 'Sprawdź ten element',
-<<<<<<< HEAD
-    'checkin_tooltip' => 'Sprawdź ten element w',
-=======
     'checkin_tooltip' => 'Check this item in so that it is available for re-issue, re-imaging, etc',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'checkout_user_tooltip' => 'Sprawdź ten element do użytkownika',
     'checkin_to_diff_location' => 'You can choose to check this asset in to a location other than this asset\'s default location of :default_location if one is set',
     'maintenance_mode'      => 'Usługa jest tymczasowo niedostępna z powodu aktualizacji systemu. Sprawdź ponownie później.',
@@ -452,11 +421,7 @@ return [
     'bulk_soft_delete'      =>'Również miękkie usuwanie tych użytkowników. Ich historia zasobów pozostanie nieuszkodzona/dopóki nie usuniesz usuniętych rekordów w ustawieniach administratora.',
     'bulk_checkin_delete_success' => 'Wybrani użytkownicy zostali usunięci i ich zasoby zostały odebrane.',
     'bulk_checkin_success' => 'Elementy dla wybranych użytkowników zostały odebrane.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Usuń wartości dla tego zasobu|Usuń wartości dla wszystkich :asset_count aktywów ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Usuń :field wartości dla tego użytkownika|Usuń :field wartości dla wszystkich użytkowników :user_count ',
     'na_no_purchase_date'   => 'N/A - Nie podano daty zakupu',
     'assets_by_status'      => 'Zasoby wg statusu',
@@ -469,10 +434,7 @@ return [
     'alt_uploaded_image_thumbnail' => 'Przesłano miniaturę',
     'placeholder_kit'       => 'Wybierz zestaw',
     'file_not_found'        => 'Nie odnaleziono pliku',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'Nie znaleziono rekordu dla tego wpisu dziennika.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(brak podglądu)',
     'setup'                 => 'Ustawienia',
     'pre_flight'            => 'Sprawdzenie',
@@ -498,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Generowanie automatycznie zwiększających się tagów aktywów jest wyłączone, więc wszystkie wiersze muszą mieć wypełnioną kolumnę "Znacznik aktywów".',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Uwaga: Generowanie automatycznie zwiększających się tagów aktywów jest włączone, więc aktywa zostaną utworzone dla wierszy, które nie mają wypełnionego "znacznika aktywów". Wiersze z wypełnionym "Znacznikiem aktywów" zostaną zaktualizowane podanymi informacjami.',
     'send_welcome_email_to_users'   => ' Wysłać e-mail powitalny dla nowych użytkowników?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Wyślij e-mail',
     'call'                      => 'Numer wywoławczy',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Kopia zapasowa przed zaimportowaniem?',
     'csv_header_field'          => 'Nagłówki pól pliku CSV',
     'import_field'              => 'Importuj pole',
     'sample_value'              => 'Przykładowa wartość',
     'no_headers'                => 'Nie znaleziono kolumn',
     'error_in_import_file'      => 'Wystąpił błąd podczas odczytu pliku CSV: :error',
-<<<<<<< HEAD
-    'percent_complete'          => 'Ukończono :percent %',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Podczas importowania wystąpiły błędy: ',
     'warning'                   => 'Ostrzeżenie: :warning',
     'success_redirecting'       => '"Sukces... Przekierowanie.',
@@ -528,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'Nie włączaj użytkownika do grupowego przypisywania przez licencję interfejsu użytkownika lub narzędzia CL.',
     'modal_confirm_generic'      => 'Czy jesteś pewien?',
     'cannot_be_deleted'      => 'Nie można usunąć tego elementu',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'Ten element nie może być edytowany.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Ten przedmiot nie może zostać zablokowany. Sprawdź pozostałą ilość.',
     'serial_number'        => 'Numer seryjny',
     'item_notes' => ':item Notatki',
@@ -560,11 +512,8 @@ return [
         'address2' => 'Druga linia adresu',
         'import_note' => 'Zaimportowano przy użyciu importera csv',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% ukończone',
     'uploading' => 'Wgrywanie... ',
     'upload_error' => 'Błąd podczas przesyłania pliku. Sprawdź, czy nie ma pustych wierszy i czy nazwy kolumn nie są zduplikowane.',
@@ -577,9 +526,6 @@ return [
     'action_permission_generic' => 'Nie masz uprawnień do :action this :item_type',
     'edit' => 'edycja',
     'action_source' => 'Źródło akcji',
-<<<<<<< HEAD
-
-=======
     'or' => 'lub',
     'url'                   => 'Adres WWW',
     'edit_fieldset' => 'Edytuj pola i opcje zestawu pól',
@@ -620,5 +566,4 @@ return [
     'import_asset_tag_exists' => 'Zasób z tagiem aktywów :asset_tag już istnieje i nie zażądano aktualizacji. Nie dokonano żadnych zmian.',
     'countries_manually_entered_help' => 'Wartości z gwiazdką (*) zostały wprowadzone ręcznie i nie odpowiadają istniejącym wartościom rozwijanym ISO 3166',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

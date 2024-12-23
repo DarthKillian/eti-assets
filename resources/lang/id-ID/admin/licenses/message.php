@@ -44,11 +44,8 @@ return array(
         'error'   => 'Terdapat kesalahan pada saat pemberian lisensi ini. Silahkan coba kembali.',
         'success' => 'Lisensi telah berhasil diberikan',
         'not_enough_seats' => 'Not enough license seats available for checkout',
-<<<<<<< HEAD
-=======
         'mismatch' => 'The license seat provided does not match the license',
         'unavailable' => 'This seat is not available for checkout.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

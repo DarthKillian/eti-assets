@@ -4,10 +4,7 @@ return [
 
     'asset_tag'   	=> 'ស្លាកទ្រព្យសម្បត្តិ',
     'asset_model'       => 'គំរូ',
-<<<<<<< HEAD
-=======
     'assigned_to'   => 'ចាត់តាំងទៅ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'book_value'  	=> 'Current Value',
     'change' 		=> 'In/Out',
     'checkout_date' => 'ថ្ងៃប្រគល់អោយ',
@@ -28,15 +25,8 @@ return [
     'image'		    => 'Device Image',
     'days_without_acceptance' => 'Days Without Acceptance',
     'monthly_depreciation' => 'Monthly Depreciation',
-<<<<<<< HEAD
-    'assigned_to'    => 'Assigned To',
-    'requesting_user' => 'Requesting User',
-    'requested_date' => 'Requested Date',
-    'changed'       => 'Changed',
-=======
     'requesting_user' => 'Requesting User',
     'requested_date' => 'កាលបរិច្ឆេទដែលបានស្នើសុំ',
     'changed'       => 'បានផ្លាស់ប្តូរ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'icon' => 'Icon',
 ];

@@ -15,11 +15,7 @@ return [
 
     'more_info_title' => 'Повеќе информации',
 
-<<<<<<< HEAD
-    'audit_help' => 'Checking this box will edit the asset record to reflect this new location. Leaving it unchecked will simply note the location in the audit log.<br><br>Note that if this asset is checked out, it will not change the location of the person, asset or location it is checked out to.',
-=======
     'audit_help' => 'Обележувањето на ова поле ќе го уреди записот на средствата за да ја одрази оваа нова локација. Оставањето необележано едноставно ќе ја забележи локацијата во дневникот за ревизија. <br><br>Забележете дека ако се обележи ова средство, тоа нема да ја промени локацијата на лицето, средството или локацијата на која се проверува.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     'assets' => 'Основни средства се ставки следени по сериски број или код на средства. Тие обично имаат повисока набавна вредност и е важно нивно поединечно евидентирање.',
 
@@ -35,9 +31,5 @@ return [
 
     'depreciations' => 'Можете да поставите амортизационен план за основните средства за да ја намалувате нивната вредност праволиниски.',
     
-<<<<<<< HEAD
-    'empty_file'    => 'The importer detects that this file is empty.'
-=======
     'empty_file'    => 'Увозникот открива дека оваа датотека е празна.'
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

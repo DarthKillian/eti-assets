@@ -54,14 +54,9 @@ return [
     'asset_location_update_default_current' => 'Atualizar a localização padrão e local real',
     'asset_location_update_default' => 'Atualizar somente local padrão',
     'asset_location_update_actual' => 'Atualizar somente a localização atual',
-<<<<<<< HEAD
-    'asset_not_deployable' => 'Este status de ativo não é implantado. Este ativo não pode ser verificado.',
-    'asset_deployable' => 'Este status pode ser implementado. Este ativo pode ser verificado.',
-=======
     'asset_not_deployable' => 'Esta situação de ativo não é implementável. A saída deste ativo não pode ser realizada.',
     'asset_not_deployable_checkin' => 'That asset status is not deployable. Using this status label will checkin the asset.',
     'asset_deployable' => 'Esta situação pode ser implementado. A saída deste ativo pode ser realizada.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'processing_spinner' => 'Processando... (Isso pode levar algum tempo em arquivos grandes)',
     'optional_infos'  => 'Informação Opcional',
     'order_details'   => 'Informações do pedido relacionado',

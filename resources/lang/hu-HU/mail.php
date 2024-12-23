@@ -62,13 +62,7 @@ return [
     'link_to_update_password' => 'Kérjük, kattintson a következő linkre a frissítéshez: webes jelszó:',
     'login' => 'Belépés',
     'login_first_admin' => 'Jelentkezzen be az új Snipe-IT telepítésébe az alábbi hitelesítő adatok alapján:',
-<<<<<<< HEAD
-    'login' => 'Belépés:',
-    'Low_Inventory_Report' => 'Alacsony készletjelentés',
-    'inventory_report' => 'Készlet Jelentés',
-=======
     'low_inventory_alert' => ':count darab tétel érhető el, ami kevesebb mint a minimum készlet vagy hamarosan kevesebb lesz.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Min QTY',
     'name' => 'Név',
     'new_item_checked' => 'Egy új elemet az Ön neve alatt ellenőriztek, a részletek lent találhatók.',
@@ -97,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'Elfogadatlan eszközei vannak.',
     'welcome' => 'Üdvözöljük: név',
     'welcome_to' => 'Üdvözöljük a weboldalon!',
-<<<<<<< HEAD
-    'your_credentials' => 'A Snipe-IT hitelesítő adatai',
-    'Accessory_Checkin_Notification' => 'Tartozék kiadva',
-    'Asset_Checkin_Notification' => 'Eszköz kiadva',
-    'Asset_Checkout_Notification' => 'Eszköz kiadva',
-    'License_Checkin_Notification' => 'Licensz kiadva',
-    'Expected_Checkin_Report' => 'Várható eszköz kiadásának jelentése',
-    'Expected_Checkin_Notification' => 'Emlékeztető: :name kiadásának idejéhez közelít',
-    'Expected_Checkin_Date' => 'Az eszközt amelyet kiadtak neked, hamarosan visszavételre kerül a :date napon',
-    'your_assets' => 'Eszközeidnek megtekíntése',
-    'rights_reserved' => 'Minden jog fenntartva.',
-=======
     'your_assets' => 'Eszközeidnek megtekíntése',
     'your_credentials' => 'A Snipe-IT hitelesítő adatai',
     'mail_sent' => 'E-mail sikeresen elküldve!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

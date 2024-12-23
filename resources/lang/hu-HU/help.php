@@ -31,9 +31,5 @@ return [
 
     'depreciations' => 'Az eszközök értékcsökkenését beállíthatja úgy, hogy az eszközök értékcsökkenése lineáris értékcsökkenés alapján történjen.',
     
-<<<<<<< HEAD
-    'empty_file'    => 'The importer detects that this file is empty.'
-=======
     'empty_file'    => 'Az importáló szerint ez a fájl üres.'
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

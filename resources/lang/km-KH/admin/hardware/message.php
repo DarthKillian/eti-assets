@@ -2,13 +2,6 @@
 
 return [
 
-<<<<<<< HEAD
-    'undeployable' 		=> '<strong>ការព្រមាន៖ </strong> ទ្រព្យសកម្មនេះត្រូវបានសម្គាល់ថាមិនអាចប្រើប្រាស់បាននាពេលបច្ចុប្បន្ន។
-                         ប្រសិនបើស្ថានភាពនេះត្រូវបានផ្លាស់ប្តូរ សូមធ្វើបច្ចុប្បន្នភាពស្ថានភាពទ្រព្យសម្បត្តិ។',
-    'does_not_exist' 	=> 'ទ្រព្យសកម្មមិនមានទេ។',
-    'does_not_exist_or_not_requestable' => 'ទ្រព្យសកម្មនោះមិនមានទេ ឬមិនអាចស្នើសុំបាន។',
-    'assoc_users'	 	=> 'This asset is currently checked out to a user and cannot be deleted. Please check the asset in first, and then try deleting again. ',
-=======
     'undeployable' 		 => '<strong>Warning: </strong> This asset has been marked as currently undeployable. If this status has changed, please update the asset status.',
     'does_not_exist' 	 => 'ទ្រព្យសកម្មមិនមានទេ។',
     'does_not_exist_var' => 'Asset with tag :asset_tag not found.',
@@ -19,31 +12,22 @@ return [
     'labels_generated'   => 'ស្លាកត្រូវបានបង្កើតដោយជោគជ័យ។',
     'error_generating_labels' => 'កំហុសខណៈពេលបង្កើតស្លាក។',
     'no_assets_selected' => 'មិនបានជ្រើសរើសទ្រព្យសម្បត្តិទេ។',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     'create' => [
         'error'   		=> 'ទ្រព្យសកម្មមិនត្រូវបានបង្កើតទេ សូមព្យាយាមម្តងទៀត។ :(',
         'success' 		=> 'ទ្រព្យសកម្មត្រូវបានបង្កើតដោយជោគជ័យ។ :)',
         'success_linked' => 'ទ្រព្យសកម្មជាមួយស្លាក៖ ស្លាកត្រូវបានបង្កើតដោយជោគជ័យ។ <strong><a href=":link" style="color: white;">ចុចទីនេះដើម្បីមើល</a></strong>។',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
         'error'   			=> 'ទ្រព្យសកម្មមិនត្រូវបានធ្វើបច្ចុប្បន្នភាពទេ សូមព្យាយាមម្តងទៀត',
         'success' 			=> 'ទ្រព្យសកម្មបានធ្វើបច្ចុប្បន្នភាពដោយជោគជ័យ។',
-<<<<<<< HEAD
-        'nothing_updated'	=>  'គ្មាន​វាល​ត្រូវ​បាន​ជ្រើស ដូច្នេះ​មិន​មាន​អ្វី​ត្រូវ​បាន​ធ្វើ​បច្ចុប្បន្នភាព​។',
-        'no_assets_selected'  =>  'គ្មានទ្រព្យសម្បត្តិត្រូវបានជ្រើសរើស ដូច្នេះគ្មានអ្វីត្រូវបានធ្វើបច្ចុប្បន្នភាពទេ។',
-=======
         'encrypted_warning' => 'Asset updated successfully, but encrypted custom fields were not due to permissions',
         'nothing_updated'	=>  'គ្មាន​វាល​ត្រូវ​បាន​ជ្រើស ដូច្នេះ​មិន​មាន​អ្វី​ត្រូវ​បាន​ធ្វើ​បច្ចុប្បន្នភាព​។',
         'no_assets_selected'  =>  'គ្មានទ្រព្យសម្បត្តិត្រូវបានជ្រើសរើស ដូច្នេះគ្មានអ្វីត្រូវបានធ្វើបច្ចុប្បន្នភាពទេ។',
         'assets_do_not_exist_or_are_invalid' => 'Selected assets cannot be updated.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'restore' => [
@@ -54,11 +38,7 @@ return [
     ],
 
     'audit' => [
-<<<<<<< HEAD
-        'error'   		=> 'សវនកម្មទ្រព្យសកម្មមិនបានជោគជ័យទេ។ សូម​ព្យាយាម​ម្តង​ទៀត។',
-=======
         'error'   		=> 'Asset audit unsuccessful: :error ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'success' 		=> 'សវនកម្មទ្រព្យសកម្មត្រូវបានកត់ត្រាដោយជោគជ័យ។',
     ],
 
@@ -76,20 +56,14 @@ return [
     ],
 
     'import' => [
-<<<<<<< HEAD
-=======
         'import_button'         => 'Process Import',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'error'                 => 'Some items did not import correctly.',
         'errorDetail'           => 'The following Items were not imported because of errors.',
         'success'               => 'ឯកសាររបស់អ្នកត្រូវបាននាំចូល',
         'file_delete_success'   => 'ឯកសាររបស់អ្នកត្រូវបានលុបដោយជោគជ័យ',
         'file_delete_error'      => 'ឯកសារមិនអាចលុបបានទេ។',
         'file_missing' => 'បាត់ឯកសារដែលបានជ្រើសរើស',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => 'The file selected was already deleted',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'គុណលក្ខណៈមួយ ឬច្រើននៅក្នុងជួរបឋមកថាមានតួអក្សរ UTF-8 ខុសទម្រង់',
         'content_row_has_malformed_characters' => 'គុណលក្ខណៈមួយ ឬច្រើននៅក្នុងជួរទីមួយនៃមាតិកាមានតួអក្សរ UTF-8 ខុសទម្រង់',
     ],
@@ -110,14 +84,11 @@ return [
         'no_assets_selected' => 'អ្នកត្រូវតែជ្រើសរើសយ៉ាងហោចណាស់ទ្រព្យសកម្មមួយពីបញ្ជី',
     ],
 
-<<<<<<< HEAD
-=======
     'multi-checkout' => [
         'error'   => 'Asset was not checked out, please try again|Assets were not checked out, please try again',
         'success' => 'Asset checked out successfully.|Assets checked out successfully.',
     ],
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'checkin' => [
         'error'   		=> 'ទ្រព្យសកម្មមិនត្រូវ checked in ទេ, សូមព្យាយាមម្តងទៀត',
         'success' 		=> 'ទ្រព្យសកម្មបាន checked in ជោគជ័យ។',

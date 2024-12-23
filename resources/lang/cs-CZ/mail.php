@@ -62,13 +62,7 @@ return [
     'link_to_update_password' => 'Klepnutím na následující odkaz aktualizujte své heslo pro :web:',
     'login' => 'Přihlášení',
     'login_first_admin' => 'Přihlaste se k nové instalaci Snipe-IT pomocí níže uvedených pověření:',
-<<<<<<< HEAD
-    'login' => 'Uživatelské jméno:',
-    'Low_Inventory_Report' => 'Hlášení o nízkých zásobách',
-    'inventory_report' => 'Zpráva o majetku',
-=======
     'low_inventory_alert' => 'Je zde :count položka která je pod minimálním stavem nebo brzy bude.|Jsou zde :count položky které jsou pod minimálním stavem nebo brzy budou.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Minimální množství',
     'name' => 'Položka',
     'new_item_checked' => 'Nová položka byla odevzdána pod vaším jménem, podrobnosti jsou uvedeny níže.',
@@ -97,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Vítej uživateli :name',
     'welcome_to' => 'Vítejte na :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Vaše pověření Snipe-IT',
-    'Accessory_Checkin_Notification' => 'Příslušenství přidáno v',
-    'Asset_Checkin_Notification' => 'Majetek přidán v',
-    'Asset_Checkout_Notification' => 'Majetek zkontrolován',
-    'License_Checkin_Notification' => 'Licence přidána v',
-    'Expected_Checkin_Report' => 'Předpokládaný report o dostupném majetku',
-    'Expected_Checkin_Notification' => 'Připomenutí: blížící se lhůta pro :name',
-    'Expected_Checkin_Date' => 'Majetek, který vám byl předán, musí být vrácen zpět do :date',
-    'your_assets' => 'Zobrazit vaše položky',
-    'rights_reserved' => 'Všechna práva vyhrazena.',
-=======
     'your_assets' => 'Zobrazit vaše položky',
     'your_credentials' => 'Vaše pověření Snipe-IT',
     'mail_sent' => 'Mail sent successfully!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

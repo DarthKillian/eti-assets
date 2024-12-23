@@ -8,13 +8,8 @@ return array(
     'clone'                             => 'Kloniraj Karegorijo',
     'create'  							=> 'Ustvari kategorijo',
     'edit'                              => 'Uredi Kategorijo',
-<<<<<<< HEAD
-    'email_will_be_sent_due_to_global_eula' => 'An email will be sent to the user because the global EULA is being used.',
-    'email_will_be_sent_due_to_category_eula' => 'An email will be sent to the user because a EULA is set for this category.',
-=======
     'email_will_be_sent_due_to_global_eula' => 'E pošta bo uporabniku poslana ker je v uporabi globalna EULA.',
     'email_will_be_sent_due_to_category_eula' => 'E pošta bo bila poslana uporabniku, ker je za to kategorijo v uporabi EULA.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'eula_text'							=> 'Kategorija EULA',
     'eula_text_help'					=> 'To polje vam omogoča prilagajanje EULA za določene vrste sredstev. Če imate samo eno EULA za vsa vaša sredstva, lahko potrdite spodnje polje, da uporabite kot privzeto.',
     'name'                              => 'Ime kategorije',

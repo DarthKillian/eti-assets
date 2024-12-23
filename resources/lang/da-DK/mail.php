@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'En bruger har accepteret et emne',
-    'acceptance_asset_declined' => 'En bruger har afvist et emne',
-    'a_user_canceled' => 'En bruger har annulleret en vareforespørgsel på hjemmesiden',
-    'a_user_requested' => 'En bruger har anmodet om et emne på hjemmesiden',
-    'accessory_name' => 'Tilbehør Navn:',
-    'additional_notes' => 'Yderligere bemærkninger:',
-    'admin_has_created' => 'En administrator har oprettet en konto til dig på webstedet:.',
-    'asset' => 'aktiv:',
-    'asset_name' => 'Aktivnavn:',
-    'asset_requested' => 'Aktiver bedt om',
-    'asset_tag' => 'Inventarnummer',
-    'assigned_to' => 'Tildelt',
-    'best_regards' => 'Med venlig hilsen,',
-    'canceled' => 'annulleret:',
-    'checkin_date' => 'Checkin dato:',
-    'checkout_date' => 'Checkout dato:',
-    'click_to_confirm' => 'Venligst klik på følgende link for at bekræfte din: web-konto:',
-    'click_on_the_link_accessory' => 'Venligst klik på linket nederst for at bekræfte, at du har modtaget tilbehør.',
-    'click_on_the_link_asset' => 'Klik venligst på linket nederst for at bekræfte, at du har modtaget aktivet.',
-    'Confirm_Asset_Checkin' => 'Asset checkin bekræftelse',
-=======
 
     'Accessory_Checkin_Notification' => 'Tilbehør tjekket ind',
     'Accessory_Checkout_Notification' => 'Tilbehør tjekket ud',
     'Asset_Checkin_Notification' => 'Asset tjekket ind',
     'Asset_Checkout_Notification' => 'Aktiv tjekket ud',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Tilbehør checkin bekræftelse',
     'Confirm_Asset_Checkin' => 'Asset checkin bekræftelse',
     'Confirm_accessory_delivery' => 'Tilbehør leveringsbekræftelse',
@@ -85,13 +62,7 @@ return [
     'link_to_update_password' => 'Venligst klik på følgende link for at opdatere din: webadgangskode:',
     'login' => 'Login',
     'login_first_admin' => 'Log ind på din nye Snipe-IT-installation ved hjælp af nedenstående referencer:',
-<<<<<<< HEAD
-    'login' => 'Log på:',
-    'Low_Inventory_Report' => 'Lav lagerrapport',
-    'inventory_report' => 'Lagerrapport',
-=======
     'low_inventory_alert' => 'Der er :count enhed som er under minimum lagertal eller som snart vil være det.|Der er :count enheder som er under minimum lagertal eller som snart vil være det.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Min QTY',
     'name' => 'Navn',
     'new_item_checked' => 'En ny vare er blevet tjekket ud under dit navn, detaljerne er nedenfor.',
@@ -112,12 +83,6 @@ return [
     'test_email' => 'Test E-mail fra Snipe-IT',
     'test_mail_text' => 'Dette er en test fra Snipe-IT Asset Management System. Hvis du fik dette, virker mailen :)',
     'the_following_item' => 'Følgende vare er blevet kontrolleret i:',
-<<<<<<< HEAD
-    'low_inventory_alert' => 'Der er :count enhed som er under minimum lagertal eller som snart vil være det.|Der er :count enheder som er under minimum lagertal eller som snart vil være det.',
-    'assets_warrantee_alert' => 'Der er :count aktiv hvor garantien udløber indenfor de næste :threshold dage.|Der er :count aktiver hvor garantien udløber indenfor de næste :threshold dage.',
-    'license_expiring_alert' => 'Der er :count licens(er) der udløber indenfor den/de næste :threshold dag(e).',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'to_reset' => 'Nulstille din :web-adgangskode, udfylde denne formular:',
     'type' => 'Type',
     'upcoming-audits' => 'Der er :count asset, som skal tilses inden :threshold dage. |Der er :count assets, som skal tilses inden :threshold dage.',
@@ -126,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Velkommen :navn',
     'welcome_to' => 'Velkommen til :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Dine Snipe-IT Legitimationsoplysninger',
-    'Accessory_Checkin_Notification' => 'Tilbehør tjekket ind',
-    'Asset_Checkin_Notification' => 'Asset tjekket ind',
-    'Asset_Checkout_Notification' => 'Aktiv tjekket ud',
-    'License_Checkin_Notification' => 'Licens tjekket ind',
-    'Expected_Checkin_Report' => 'Forventet asset checkin rapport',
-    'Expected_Checkin_Notification' => 'Påmindelse: :name checkin deadline nærmer sig',
-    'Expected_Checkin_Date' => 'Et asset tjekket ud til dig skal tjekkes tilbage den :date',
-    'your_assets' => 'Se dine assets',
-    'rights_reserved' => 'Alle rettigheder forbeholdt.',
-=======
     'your_assets' => 'Se dine assets',
     'your_credentials' => 'Dine Snipe-IT Legitimationsoplysninger',
     'mail_sent' => 'Mail sent successfully!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

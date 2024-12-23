@@ -24,11 +24,7 @@ return array(
         'error'   		=> 'Компонентата не беше задолжена, обидете се повторно',
         'success' 		=> 'Компонентата е задолжена.',
         'user_does_not_exist' => 'Тој корисник е неважечки. Обидете се повторно.',
-<<<<<<< HEAD
-        'unavailable'      => 'Not enough components remaining: :remaining remaining, :requested requested ',
-=======
         'unavailable'      => 'Нема доволно компоненти: :remaining remaining, :requested requested ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

@@ -8,11 +8,7 @@ return [
     'ad_append_domain'          => 'Domänenname an das Feld Benutzername anhängen',
     'ad_append_domain_help'     => 'Der Benutzer muss nicht "username@domain.local" eingeben, "username" ist ausreichend.',
     'admin_cc_email'            => 'CC Email',
-<<<<<<< HEAD
-    'admin_cc_email_help'       => 'Wenn Du eine Kopie der Rücknahme-/Herausgabe-E-Mails, die an Benutzer gehen, auch an zusätzliche E-Mail-Empfänger versenden möchtest, gebe sie hier ein. Ansonsten lass dieses Feld blank.',
-=======
     'admin_cc_email_help'       => 'Wenn du eine Kopie der Check-in-/Check-out-E-Mails, die an Benutzer gesendet werden, an ein zusätzliches E-Mail-Konto senden möchtest, gebe es hier ein. Andernfalls lasse dieses Feld einfach leer.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'admin_settings'            => 'Admin-Einstellungen',
     'is_ad'				        => 'Dies ist ein Active Directory Server',
     'alerts'                	=> 'Alarme',
@@ -40,11 +36,7 @@ return [
     'backups_upload'            => 'Backup hochladen',
     'backups_path'              => 'Backups auf dem Server werden in <code>:path</code> gespeichert',
     'backups_restore_warning'   => 'Klicke den Wiederherstellungs-Knopf <small><span class="btn btn-xs btn-warning"><i class="text-white fas fa-retweet" aria-hidden="true"></i></span></small> um ein Backup wiederherzustellen. (Funktioniert derzeit nicht mit S3 Datenspeicher oder Docker.)<br><br><strong>Die gesamte :app_name Datenbank und alle hochgeladenen Dateien werden mit den Inhalten des Backups überschrieben.</strong>  ',
-<<<<<<< HEAD
-    'backups_logged_out'         => 'Alle vorhandenen Benutzer, auch Du, werden abgemeldet, sobald Deine Wiederherstellung abgeschlossen ist.',
-=======
     'backups_logged_out'         => 'Alle vorhandenen Benutzer, einschließlich dir selbst, werden abgemeldet, sobald die Wiederherstellung abgeschlossen ist.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'backups_large'             => 'Sehr große Backups können beim Wiederherstellungsversuch ausfallen (Time-Out) und müssen eventuell über die Kommandozeile ausgeführt werden. ',
     'barcode_settings'			=> 'Barcode Einstellungen',
     'confirm_purge'			    => 'Bereinigung bestätigen',
@@ -97,12 +89,7 @@ return [
     'ldap_enabled'              => 'LDAP aktiviert',
     'ldap_integration'          => 'LDAP Integration',
     'ldap_settings'             => 'LDAP Einstellungen',
-<<<<<<< HEAD
-    'ldap_client_tls_cert_help' => 'Client-seitige TLS-Zertifikat und Schlüssel für LDAP Verbindungen sind in der Regel nur in Google Workspace Konfigurationen mit "Secure LDAP" nützlich. Beide werden benötigt.',
-     'ldap_client_tls_key'       => 'LDAP Client-seitiger TLS-Schlüssel',
-=======
     'ldap_client_tls_cert_help' => 'Clientseitiges TLS-Zertifikat und Schlüssel für LDAP-Verbindungen sind normalerweise nur in Google Workspace-Konfigurationen mit „Secure LDAP“ nützlich. Beide sind aber erforderlich.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'LDAP Standort',
 'ldap_location_help'             => 'Das Feld LDAP Standort sollte verwendet werden, wenn <strong>keine OU im Basis Bind DN verwendet wird.</strong> Leer lassen, wenn eine OU-Suche verwendet wird.',
     'ldap_login_test_help'      => 'Gib einen gültigen LDAP-Benutzernamen und ein Passwort von der oben angegebenen Basis-DN ein, um zu testen, ob Deine LDAP-Anmeldung korrekt konfiguriert ist. DU MUSST DEINE AKTUALISIERTEN LDAP-EINSTELLUNGEN ZUERST SPEICHERN.',
@@ -220,10 +207,7 @@ return [
     'integrations'               => 'Integrationen',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Allgemeiner Webhook',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Microsoft-Teams',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Teste zum Speichern',
     'webhook_title'               => 'Webhook Einstellungen aktualisieren',
@@ -236,11 +220,8 @@ return [
     'webhook_integration_help'    => ':app Integration ist optional, allerdings sind Endpunkt und Kanal erforderlich, wenn du sie verwenden möchtet. Um die :app Integration zu konfigurieren, musst du zuerst in deinem :app Account <a href=":webhook_link" target="_new" rel="noopener">einen eingehenden Webhook erstellen</a>. Klicke auf den <strong>:app Integration testen</strong>-Knopf, um zu bestätigen, dass die Einstellungen vor dem Speichern korrekt sind. ',
     'webhook_integration_help_button'    => 'Sobald die :app Einstellungen gespeichert wurden, erscheint eine Schaltfläche zum testen.',
     'webhook_test_help'           => 'Teste, ob deine :app Integration korrekt konfiguriert ist. DIE AKTUELLEN :app EINSTELLUNGEN MÜSSEN ZUERST GESPEICHERT WERDEN.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Shortcuts aktivieren',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access-Taste, <strong>Mac</strong>: Control + Option + Access-Taste',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Snipe-IT Version',
     'support_footer'            => 'Support-Link in der Fußzeile ',
     'support_footer_help'       => 'Lege fest, wer die Links zu Snipe-IT Support-Information und Benutzerhandbuch sieht',
@@ -398,8 +379,6 @@ return [
     'database_driver' => 'Datenbanktreiber',
     'bs_table_storage' => 'Tabellen Speicher',
     'timezone' => 'Zeitzone',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Profil bearbeiten',
     'profile_edit_help'          => 'Benutzern erlauben, ihre eigenen Profile zu bearbeiten.',
     'default_avatar' => 'Eigenen Standard-Avatar hochladen',
@@ -409,6 +388,5 @@ return [
     'due_checkin_days' => 'Zum Einchecken fällig Warnung',
     'due_checkin_days_help' => 'Wie viele Tage vor dem voraussichtlichen Check-in eines Vermögenswerts soll dieser auf der Seite „Zur Eincheckzeit fällig“ aufgeführt werden?',
     'no_groups' => 'Es wurden noch keine Gruppen erstellt. Navigiere zu <code>Admin-Einstellungen > Berechtigungsgruppen</code>, um eine hinzuzufügen.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

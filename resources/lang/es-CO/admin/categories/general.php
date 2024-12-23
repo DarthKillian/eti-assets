@@ -1,28 +1,6 @@
 <?php
 
 return array(
-<<<<<<< HEAD
-    'asset_categories' 					=> 'Categorías de Equipos',
-    'category_name'  					=> 'Nombre de la Categoría',
-    'checkin_email'                     => 'Enviar un correo al usuario al asignar/desasignar.',
-    'checkin_email_notification'        => 'A este usuario se le enviará un correo electrónico al asignar/desasignar.',
-    'clone'                             => 'Clonar Categoría',
-    'create'  							=> 'Crear Categoría',
-    'edit'                              => 'Editar Categoría',
-    'email_will_be_sent_due_to_global_eula' => 'Se enviará un correo electrónico al usuario porque se está utilizando el EULA global.',
-    'email_will_be_sent_due_to_category_eula' => 'Se enviará un correo electrónico al usuario porque se ha establecido un EULA para esta categoría.',
-    'eula_text'							=> 'Licencia de Categoría',
-    'eula_text_help'					=> 'Este campo te permite personalizar tus licencias para tipos específicos de equipos, Si sólo tienes una licencia para todos tus activos, puedes seleccionar el cuadro debajo para usar la licencia primaria por defecto.',
-    'name'                              => 'Nombre de la Categoría',
-    'require_acceptance'				=> 'Requerir que los usuarios confirmen que aceptan los equipos en esta categoría.',
-    'required_acceptance'				=> 'Se le enviará un email a este usuario con un enlace para confirmar que acepta este elemento.',
-    'required_eula'						=> 'Se le enviará una copia de las licencias a este usuario',
-    'no_default_eula'					=> 'No se ha encontrado una licencia primaria por defecto. Añade una en Configuración.',
-    'update'  							=> 'Actualizar Categoría',
-    'use_default_eula'					=> 'Usa la <a href="#" data-toggle="modal" data-target="#eulaModal">licencia primaria predeterminada</a> en su lugar.',
-    'use_default_eula_disabled'			=> '<del>Usa la licencia primaria predeterminada en su lugar.</del> No se ha establecido ninguna licencia primaria predeterminada. Por favor, añade una en las Configuraciones.',
-    'use_default_eula_column'			=> 'Usar EULA por defecto',
-=======
     'asset_categories' 					=> 'Categorías de activos',
     'category_name'  					=> 'Nombre de la categoría',
     'checkin_email'                     => 'Enviar un correo electrónico al usuario al recibir/devolver.',
@@ -43,6 +21,5 @@ return array(
     'use_default_eula'					=> 'En su lugar, utilice el <a href="#" data-toggle="modal" data-target="#eulaModal">acuerdo de uso predeterminado</a>.',
     'use_default_eula_disabled'			=> '<del>En su lugar, utilice el acuerdo de uso predeterminado.</del> No se ha establecido el acuerdo de uso predeterminado. Por favor agregue uno en Configuración.',
     'use_default_eula_column'			=> 'Utilizar el acuerdo de uso predeterminado',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 );

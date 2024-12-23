@@ -2,15 +2,9 @@
 
 return [
 
-<<<<<<< HEAD
-    'does_not_exist' => 'Rótulo de estado não existe.',
-    'deleted_label' => 'Rótulo de estado excluído',
-    'assoc_assets'	 => 'Este rótulo de estado está associado com pelo menos um Asset e não pode ser removido. Por favor atualize seus assets para não referenciarem este rótulo e tente novamente. ',
-=======
     'does_not_exist' => 'Rótulo de situação não existe.',
     'deleted_label' => 'Rótulo de situação excluído',
     'assoc_assets'	 => 'Este rótulo de situação está associado com pelo menos um Ativo e não pode ser removido. Por favor atualize seus ativos para não referenciarem este rótulo e tente novamente. ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     'create' => [
         'error'   => 'Rótulo de situação não foi criado, por favor tente novamente.',

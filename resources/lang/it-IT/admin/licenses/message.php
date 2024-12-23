@@ -44,11 +44,8 @@ return array(
         'error'   => 'C\'è stato un problema nell\'estrazione della licenza. Riprova.',
         'success' => 'La licenza è stata estratta con successo',
         'not_enough_seats' => 'Non ci sono abbastanza copie della licenza disponibili per l\'assegnazione',
-<<<<<<< HEAD
-=======
         'mismatch' => 'Lo slot di licenza fornito non corrisponde alla licenza',
         'unavailable' => 'Questo slot non è disponibile per l\'Assegnazione.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

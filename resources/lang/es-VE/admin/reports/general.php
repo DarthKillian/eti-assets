@@ -9,16 +9,9 @@ return [
     'acceptance_request' => 'Solicitud de aceptación',
     'custom_export' => [
         'user_address' => 'Dirección de usuario',
-<<<<<<< HEAD
-        'user_city' => 'Ciudad del Usuario',
-        'user_state' => 'Estado del usuario',
-        'user_country' => 'País de usuario',
-        'user_zip' => 'Usuario Zip'
-=======
         'user_city' => 'Ciudad del usuario',
         'user_state' => 'Estado del usuario',
         'user_country' => 'País del usuario',
         'user_zip' => 'Código postal del usuario'
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ]
 ];

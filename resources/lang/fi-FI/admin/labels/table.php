@@ -1,9 +1,6 @@
 <?php
 
 return [
-<<<<<<< HEAD
-
-=======
     'example_company'    => 'Testi Yritys Limited',
     'example_defaultloc' => 'Rakennus 1',
     'example_category'   => 'Testaa Kategoria',
@@ -11,7 +8,6 @@ return [
     'example_manufacturer'  => 'Test Manufacturing Inc.',
     'example_model'      => 'Testaa Malli',
     'example_supplier'   => 'Testi Yritys Limited',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'labels_per_page'    => 'Tunnisteet',
     'support_fields'     => 'Kentät',
     'support_asset_tag'  => 'Tunniste',

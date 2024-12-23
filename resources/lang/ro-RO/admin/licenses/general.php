@@ -14,10 +14,7 @@ return array(
     'info'  					=> 'Info licenta',
     'license_seats'  			=> 'Locuri licenta',
     'seat'  					=> 'Loc',
-<<<<<<< HEAD
-=======
     'seat_count'  				=> 'Seat :count',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'seats'  					=> 'Locuri',
     'software_licenses'  		=> 'Licente software',
     'user'  					=> 'Utilizator',
@@ -27,20 +24,12 @@ return array(
         [
             'checkin_all'           => [
                 'button'            => 'Verifică toate locurile',
-<<<<<<< HEAD
-                'modal'             => 'Aceasta actiune va verifica un singur loc. This action will checkin all :checkedout_seats_count seats for this license.',
-=======
                 'modal'             => 'This action will checkin one seat. | This action will checkin all :checkedout_seats_count seats for this license.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
                 'enabled_tooltip'   => 'Verificați TOATE scaunele pentru această licență atât de la utilizatori, cât și de la active',
                 'disabled_tooltip'  => 'Acest lucru este dezactivat deoarece nu există locuri în prezent verificate',
                 'disabled_tooltip_reassignable'  => 'Acest lucru este dezactivat deoarece licența nu este reatribuită',
                 'success'           => 'Licenta a fost verificata cu succes! In toate licentele au fost verificate cu succes!',
-<<<<<<< HEAD
-                'log_msg'           => 'Verificat prin licenta colectiva in Licenta GUI',
-=======
                 'log_msg'           => 'Checked in via bulk license checkin in license GUI',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
             ],
 
             'checkout_all'              => [
@@ -57,10 +46,7 @@ return array(
 
             ],
     ],
-<<<<<<< HEAD
-=======
 
     'below_threshold' => 'Mai sunt doar :remaining_count seats pentru această licență cu o cantitate minimă de :min_amt. Poate doriți să luați în considerare achiziționarea mai multor locuri.',
     'below_threshold_short' => 'Acest obiect este sub cantitatea minimă cerută.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

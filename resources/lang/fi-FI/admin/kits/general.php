@@ -47,8 +47,5 @@ return [
     'kit_deleted'                       => 'Sarja poistettu',
     'kit_model_updated'                 => 'Malli päivitettiin onnistuneesti',
     'kit_model_detached'                => 'Malli poistettu',
-<<<<<<< HEAD
-=======
     'model_already_attached'            => 'Model already attached to kit',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

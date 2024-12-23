@@ -12,11 +12,7 @@ return [
         'bg-BG'=> 'Bolgár',
         'zh-CN'=> 'Egyszerűsített kínai',
         'zh-TW'=> 'Hagyományos kínai',
-<<<<<<< HEAD
-        'ca-ES' => 'Catalan',
-=======
         'ca-ES' => 'katalán',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'hr-HR'=> 'Horvát',
         'cs-CZ'=> 'Cseh',
         'da-DK'=> 'Dán',
@@ -44,13 +40,9 @@ return [
         'ms-MY'=> 'Maláj',
         'mi-NZ'=> 'Maori',
         'mn-MN'=> 'Mongol',
-<<<<<<< HEAD
-        'no-NO'=> 'Norvég',
-=======
         //'no-NO'=> 'Norwegian',
         'nb-NO'=> 'Norwegian Bokmål',
         //'nn-NO'=> 'Norwegian Nynorsk',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'fa-IR'=> 'Perzsa',
         'pl-PL'=> 'Lengyel',
         'pt-PT'=> 'Portugál',
@@ -58,14 +50,9 @@ return [
         'ro-RO'=> 'Román',
         'ru-RU'=> 'Orosz',
         'sr-CS' => 'Szerb (latin betűs)',
-<<<<<<< HEAD
-        'sk-SK'=> 'Slovak',
-        'sl-SI'=> 'Szlovèn',
-=======
         'sk-SK'=> 'szlovák',
         'sl-SI'=> 'Szlovèn',
         'so-SO'=> 'Szomáli',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Spanyol',
         'es-CO'=> 'Spanyol, Kolumbia',
         'es-MX'=> 'Spanyol, Mexikó',

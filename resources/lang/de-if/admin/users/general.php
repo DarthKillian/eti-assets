@@ -45,11 +45,7 @@ return [
     'vip_label' => 'VIP Benutzer',
     'vip_help' => 'Dies kann hilfreich sein, um wichtige Personen zu markieren, wenn du möchtest.',
     'create_user' => 'Benutzer erstellen',
-<<<<<<< HEAD
-    'create_user_page_explanation' => 'Dies sind die Anmeldeinformationen, die Du verwendest, um zum ersten Mal auf die Webseite zuzugreifen.',
-=======
     'create_user_page_explanation' => 'Dies sind die Anmeldeinformationen, die du verwendest, um zum ersten Mal auf die Webseite zuzugreifen.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'email_credentials' => 'E-Mail-Anmeldedaten',
     'email_credentials_text' => 'Meine Zugangsdaten an die oben genannte E-Mail-Adresse senden',
     'next_save_user' => 'Weiter: Benutzer speichern',

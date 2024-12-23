@@ -70,11 +70,7 @@ return [
     'footer_text'               => 'Texte supplémentaire en pied de page ',
     'footer_text_help'          => 'Ce texte apparaîtra dans le pied de page de droitre. Les liens sont autorisés en utilisant <a href="https://help.github.com/articles/github-flavored-markdown/">Github flavored markdown</a>. Les sauts de ligne, les en-têtes, les images, etc. peuvent entraîner des résultats imprévisibles.',
     'general_settings'			=> 'Configuration générale',
-<<<<<<< HEAD
-    'general_settings_keywords' => 'support de l\'entreprise, signature, acceptation, format de courriel, format de nom d\'utilisateur, images, par page, vignette, eula, tos, tableau de bord, confidentialité',
-=======
     'general_settings_keywords' => 'support de l\'entreprise, signature, acceptation, format de courriel, format de nom d\'utilisateur, images, par page, miniature, eula, gravatar, tos, tableau de bord, confidentialité',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'general_settings_help'     => 'CLUF par défaut et plus encore',
     'generate_backup'			=> 'Générer une sauvegarde',
     'google_workspaces'         => 'Espaces de travail Google',
@@ -94,10 +90,6 @@ return [
     'ldap_integration'          => 'Intégration LDAP',
     'ldap_settings'             => 'Paramètres LDAP',
     'ldap_client_tls_cert_help' => 'Le certificat TLS côté client et la clé pour les connexions LDAP ne sont généralement utiles qu\'avec les configurations Google Workspace en mode "LDAP sécurisé". Les deux sont requis.',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'Clé TLS du client LDAP',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'LDAP Localisation',
 'ldap_location_help'             => 'Le champ "LDAP Localisation" ne doit être utilisé que si <strong>aucune OU n\'est définie dans le champ Bind de base DN</strong>. Laissez vide si une recherche par OU est utilisée.',
     'ldap_login_test_help'      => 'Entrez un nom d\'utilisateur et mot de passe LDAP valide depuis la base DN que vous avez spécifié ci-dessus afin de tester si votre configuration LDAP est correcte. VOUS DEVEZ D\'ABORD ENREGISTRER VOS PARAMÈTRES LDAP MIS À JOUR.',
@@ -215,10 +207,7 @@ return [
     'integrations'               => 'Intégrations',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Webhook général',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Équipes Microsoft',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Tester pour enregistrer',
     'webhook_title'               => 'Mettre à jour les paramètres Webhook',
@@ -231,11 +220,8 @@ return [
     'webhook_integration_help'    => ':L\'intégration de :app est optionnelle, cependant le point de terminaison et le canal sont requis si vous souhaitez l\'utiliser. Pour configurer l\'intégration de :app, vous devez d\'abord <a href=":webhook_link" target="_new" rel="noopener">créer un webhook entrant</a> sur votre compte :app. Cliquez sur le bouton <strong>Tester l\'intégration :app</strong> pour confirmer que vos paramètres sont corrects avant d\'enregistrer. ',
     'webhook_integration_help_button'    => 'Une fois que vous aurez enregistré vos informations :app, un bouton de test apparaîtra.',
     'webhook_test_help'           => 'Testez si votre intégration :app est correctement configurée. VOUS DEVEZ D\'ABORD ENREGISTRER LES PARAMÈTRES MIS À JOUR DE :app.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Activer les raccourcis',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Version de Snipe-IT',
     'support_footer'            => 'Support des liens de pied de page ',
     'support_footer_help'       => 'Spécifiez qui voit les liens vers les manuels de support utilisateur Snipe-IT',
@@ -393,8 +379,6 @@ return [
     'database_driver' => 'Pilote de base de données',
     'bs_table_storage' => 'Stockage de la table',
     'timezone' => 'Fuseau horaire',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Modifier le profil',
     'profile_edit_help'          => 'Permettre aux utilisateurs de modifier leur propre profil.',
     'default_avatar' => 'Téléverser un avatar par défaut personnalisé',
@@ -404,6 +388,5 @@ return [
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

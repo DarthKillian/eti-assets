@@ -2,15 +2,6 @@
 
 return array(
     'personal_api_keys' => 'Προσωπικά Κλειδιά Api',
-<<<<<<< HEAD
-    'api_key_warning' => 'Κατά τη δημιουργία ενός διακριτικού API, φροντίστε να το αντιγράψετε αμέσως καθώς
-                    δεν θα είναι ορατό σε σας ξανά.',
-    'api_base_url' => 'Η βάση url σας API βρίσκεται στο:',
-    'api_base_url_endpoint' => '/&lt;endpoint&gt;',
-    'api_token_expiration_time' => 'Τα API tokens έχουν οριστεί να λήγουν:',
-    'api_reference' => 'Παρακαλούμε ελέγξτε τον <a href="https://snipe-it.readme.io/reference" target="_blank">API κωδικό</a> στο
-                    βρείτε συγκεκριμένα endpoints API και πρόσθετη τεκμηρίωση API.',
-=======
     'personal_access_token' => 'Personal Access Token',
     'personal_api_keys_success' => 'Personal API Key :key created sucessfully',
     'here_is_api_key' => 'Here is your new personal access token. This is the only time it will be shown so do not lose it! You may now use this token to make API requests.',
@@ -23,5 +14,4 @@ return array(
     'no_tokens' => 'You have not created any personal access tokens.',
     'enable_sounds' => 'Enable sound effects',
     'enable_confetti' => 'Enable confetti effects',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

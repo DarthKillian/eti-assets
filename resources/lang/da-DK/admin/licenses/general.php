@@ -14,10 +14,7 @@ return array(
     'info'  					=> 'Licens Info',
     'license_seats'  			=> 'Licenssæder',
     'seat'  					=> 'Sæde',
-<<<<<<< HEAD
-=======
     'seat_count'  				=> 'Seat :count',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'seats'  					=> 'Sæder',
     'software_licenses'  		=> 'Softwarelicenser',
     'user'  					=> 'Bruger',
@@ -27,20 +24,12 @@ return array(
         [
             'checkin_all'           => [
                 'button'            => 'Tjek Alle Pladser Ind',
-<<<<<<< HEAD
-                'modal'             => 'Dette vil handle checkin et sæde. - Denne handling vil tjekke alle :checkedout_seats_count sæder for denne licens.',
-=======
                 'modal'             => 'This action will checkin one seat. | This action will checkin all :checkedout_seats_count seats for this license.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
                 'enabled_tooltip'   => 'Checkin ALLE pladser til denne licens fra både brugere og aktiver',
                 'disabled_tooltip'  => 'Dette er deaktiveret, fordi der ikke er nogen pladser i øjeblikket tjekket ud',
                 'disabled_tooltip_reassignable'  => 'Dette er deaktiveret fordi licensen ikke kan gentildeles',
                 'success'           => 'Licensen blev tjekket ind! - Alle licenser blev tjekket ind!',
-<<<<<<< HEAD
-                'log_msg'           => 'Checket ind via bulk licens checkout i licens GUI',
-=======
                 'log_msg'           => 'Checked in via bulk license checkin in license GUI',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
             ],
 
             'checkout_all'              => [
@@ -57,10 +46,7 @@ return array(
 
             ],
     ],
-<<<<<<< HEAD
-=======
 
     'below_threshold' => 'Der er kun :remaining_count pladser tilbage til denne licens med et minimum antal :min_amt. Du kan overveje at købe flere pladser.',
     'below_threshold_short' => 'Denne vare er under den krævede minimumsmængde.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

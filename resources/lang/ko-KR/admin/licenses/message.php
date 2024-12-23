@@ -44,11 +44,8 @@ return array(
         'error'   => '라이선스 반출 중 문제가 발생했습니다. 다시 시도해 주세요.',
         'success' => '라이선스가 반출 되었습니다.',
         'not_enough_seats' => 'Not enough license seats available for checkout',
-<<<<<<< HEAD
-=======
         'mismatch' => 'The license seat provided does not match the license',
         'unavailable' => 'This seat is not available for checkout.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

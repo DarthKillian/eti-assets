@@ -10,13 +10,7 @@ return array(
     'support_email'   		=> 'គាំទ្រអ៊ីម៉ែល',
     'support_phone'   		=> 'ទូរស័ព្ទគាំទ្រ',
     'support_url'   		=> 'គាំទ្រ URL',
-<<<<<<< HEAD
-    'warranty_lookup_url'   => 'Warranty Lookup URL',
-    'update'				=> 'ធ្វើបច្ចុប្បន្នភាពក្រុមហ៊ុនផលិត',
-    'url'   				=> 'URL',
-=======
     'warranty_lookup_url'   => 'URL រកមើលការធានា',
     'update'				=> 'ធ្វើបច្ចុប្បន្នភាពក្រុមហ៊ុនផលិត',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 );

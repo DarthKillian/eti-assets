@@ -31,15 +31,9 @@ return array(
     'show_deleted'          => 'Mostrar usuarios eliminados',
     'title' 				=> 'Cargo',
 	'to_restore_them'		=> 'para restaurarlos.',
-<<<<<<< HEAD
-    'total_assets_cost'     => "Coste total de activos",
-    'updateuser' 			=> 'Actualizar usuario',
-    'username' 				=> 'Usuario',
-=======
     'total_assets_cost'     => "Costo total de activos",
     'updateuser' 			=> 'Actualizar usuario',
     'username' 				=> 'Nombre de usuario',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 	'user_deleted_text' 	=> 'Este usuario ha sido marcado como eliminado.',
     'username_note' 		=> '(Esto se utiliza sólo para enlazar Active Directory, no para iniciar sesión.)',
     'cloneuser'             => 'Clonar usuario',

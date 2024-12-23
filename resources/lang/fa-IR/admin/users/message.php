@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'شما با موفقیت این دارایی را به کاهش دادید.',
     'bulk_manager_warn'	        => 'کاربران شما با موفقیت به روز شده اند، با این حال مدیر ورود شما ذخیره نشد زیرا مدیر شما انتخاب شده بود نیز در لیست کاربر برای ویرایش، و کاربران ممکن است مدیر خود نیست. لطفا کاربران خود را دوباره انتخاب کنید، به غیر از مدیر.',
     'user_exists'               => 'کاربر "{0}" در حال حاضر وجود دارد.',
-<<<<<<< HEAD
-    'user_not_found'            => 'کاربر وجود ندارد.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'فیلد ورود الزامی است.',
     'user_has_no_assets_assigned' => 'No assets currently assigned to user.',
     'user_password_required'    => 'کلمه عبور ضروری است.',

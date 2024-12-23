@@ -6,6 +6,13 @@ return array(
     'does_not_exist' => 'Model ne obstaja.',
     'no_association' => 'OPOZORILO! Model sredstva za ta element je neveljaven ali manjka!',
     'no_association_fix' => 'To bo zrušilo stvari na čudne in grozljive načine. Uredite to sredstvo zdaj in mu dodelite model.',
+    'assoc_users'	 => 'Ta model je trenutno povezan z enim ali več sredstvi in ​​ga ni mogoče izbrisati. Prosimo, izbrišite sredstva in poskusite zbrisati znova. ',
+    'invalid_category_type' => 'Ta kategorija mora biti kategorija sredstva.',
+
+    'create' => array(
+        'error'   => 'Model ni bil ustvarjen, poskusite znova.',
+        'success' => 'Model je bil uspešno ustvarjen.',
+        'duplicate_set' => 'Model sredstva s tem imenom, proizvajalcem in številko modela že obstaja.',
     ),
 
     'update' => array(
@@ -33,6 +40,8 @@ return array(
 
     'bulkdelete' => array(
         'error'   		    => 'Modeli niso bili izbrani, nič ni izbrisano.',
-        'success' 		=> 'Model je bil uspešno posodobljen. |:model_count modeli uspešno posodobljeni.',
-        'warn'          => 'Posodobili boste lastnosti naslednjega modela:|Urejali boste lastnosti naslednjega :model_count modeli:',
         'success' 		    => 'Model izbrisan!|:success_count modeli izbrisani!',
+        'success_partial' 	=> ': modeli so bili izbrisani, vendar: fail_count ni bilo mogoče izbrisati, ker so še vedno sredstva, povezana z njimi.'
+    ),
+
+);

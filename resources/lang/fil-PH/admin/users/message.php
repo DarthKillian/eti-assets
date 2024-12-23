@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Matagumpay mong hindi tinaggap ang asset na ito.',
     'bulk_manager_warn'	        => 'Ang iyong mga user ay matagumpay nang nai-update, subalit ang iyong manager entry ay hindi nai-save dahil ang manager na iyong pinili ay kabilang sa listahan ng user na kailangang i-edit, at ang mga user ay maaaring wala sa sarili nilang pamamahala. Mangyaring pumiling muli ng iyong user, hindi kasama ang manager.',
     'user_exists'               => 'Ang user ay umiiral na!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Ang gumagamit ay hindi umiiral.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Ang field ng login ay kinakailangan',
     'user_has_no_assets_assigned' => 'No assets currently assigned to user.',
     'user_password_required'    => 'Ang password ay kinakailangan.',

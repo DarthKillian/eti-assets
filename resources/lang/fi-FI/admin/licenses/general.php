@@ -14,10 +14,7 @@ return array(
     'info'  					=> 'Lisenssin lisätiedot',
     'license_seats'  			=> 'Lisenssien määrä',
     'seat'  					=> 'Määrä',
-<<<<<<< HEAD
-=======
     'seat_count'  				=> 'Seat :count',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'seats'  					=> 'Määrät',
     'software_licenses'  		=> 'Ohjelmistolisenssit',
     'user'  					=> 'Käyttäjä',
@@ -27,20 +24,12 @@ return array(
         [
             'checkin_all'           => [
                 'button'            => 'Palauta kaikki paikat',
-<<<<<<< HEAD
-                'modal'             => 'Tämä toiminto palauttaa yhden paikan. - Tämä toiminto palauttaa :checkedout_seats_count paikkaa tälle lisenssille.',
-=======
                 'modal'             => 'This action will checkin one seat. | This action will checkin all :checkedout_seats_count seats for this license.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
                 'enabled_tooltip'   => 'Palauttaa KAIKKI paikat tälle lisenssille sekä käyttäjiltä että laitteilta',
                 'disabled_tooltip'  => 'Tämä ei ole käytössä, koska paikkoja ei ole tällä hetkellä luovutettuina',
                 'disabled_tooltip_reassignable'  => 'Tämä ei ole käytössä, koska lisenssi ei ole uudelleenosoitettavissa',
                 'success'           => 'Lisenssi onnistuneesti palautettu! - Kaikki lisenssit palautettiin onnistuneesti!',
-<<<<<<< HEAD
-                'log_msg'           => 'Palautettu lisenssien massalainauskäyttöliittymän kautta',
-=======
                 'log_msg'           => 'Checked in via bulk license checkin in license GUI',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
             ],
 
             'checkout_all'              => [
@@ -57,10 +46,7 @@ return array(
 
             ],
     ],
-<<<<<<< HEAD
-=======
 
     'below_threshold' => 'Tälle lisenssille jää vain :remaining_count istuimet ja vähimmäismäärä :min_amt. Voit halutessasi harkita useampien paikkojen ostamista.',
     'below_threshold_short' => 'Tämä kohta on alle vaaditun vähimmäismäärän.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 );

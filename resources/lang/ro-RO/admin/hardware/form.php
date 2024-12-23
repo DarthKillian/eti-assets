@@ -59,10 +59,6 @@ return [
     'asset_deployable' => 'Activul e disponibil și poate fi eliberat.',
     'processing_spinner' => 'Procesare... (Ar putea dura puţin timp pe fişiere mari)',
     'optional_infos'  => 'Informații opționale',
-<<<<<<< HEAD
-    'order_details'   => 'Informații legate de comandă'
-=======
     'order_details'   => 'Informații legate de comandă',
     'calc_eol'    => 'If nulling the EOL date, use automatic EOL calculation based on the purchase date and EOL rate.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

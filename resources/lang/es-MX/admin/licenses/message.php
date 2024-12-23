@@ -9,11 +9,7 @@ return array(
     'assoc_users'	 => 'Esta licencia está actualmente asignada a un usuario y no puede ser eliminada. Por favor, reciba primero la licencia y vuelva a intentarlo. ',
     'select_asset_or_person' => 'Debe seleccionar un activo o un usuario, pero no ambos.',
     'not_found' => 'Licencia no encontrada',
-<<<<<<< HEAD
-    'seats_available' => ':seat_count plazas disponibles',
-=======
     'seats_available' => ':seat_count disponibles',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     'create' => array(
@@ -45,17 +41,11 @@ return array(
     ),
 
     'checkout' => array(
-<<<<<<< HEAD
-        'error'   => 'Equipo no asignado, intentalo de nuevo',
-        'success' => 'Equipo asignado.',
-        'not_enough_seats' => 'No hay suficientes asientos de licencia disponibles para la compra',
-=======
         'error'   => 'Hubo un problema asignando la licencia. Por favor, inténtelo de nuevo.',
         'success' => 'La licencia fue asignada con éxito',
         'not_enough_seats' => 'No hay suficientes licencias disponibles para asignar',
         'mismatch' => 'La licencia proporcionada no coincide con la licencia seleccionada',
         'unavailable' => 'Esta licencia no está disponible para ser asignada.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

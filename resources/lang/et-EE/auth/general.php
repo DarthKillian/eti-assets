@@ -12,13 +12,7 @@ return [
     'remember_me'                   => 'Jäta mind meelde',
     'username_help_top'                 => 'Parooli lähtestamiseks sisesta oma <strong>kasutajanimi</strong>.',
     'username_help_bottom'          => 'Kasutajanimi ja e-posti aadress <em>võivad</em> olla samad, aga ei pruugi olla. Kui oled kasutajanime unustanud, võta ühendust oma süsteemiadministraatoriga. <br><br><strong>Kasutajatele ilma liidetud e-posti aadressita ei saa parooli lähtestamise linki saata.</strong> ',
-<<<<<<< HEAD
-    'google_login'                  => 'Or login with Google Workspace',
-    'google_login_failed'           => 'Google Login failed, please try again.',
-
-=======
     'google_login'                  => 'Login with Google Workspace',
     'google_login_failed'           => 'Google Login failed, please try again.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];
 

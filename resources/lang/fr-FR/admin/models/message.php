@@ -34,11 +34,7 @@ return array(
     'bulkedit' => array(
         'error'   		=> 'Aucun champ n\'a été changé, donc rien n\'a été mis à jour.',
         'success' 		=> 'Modèle mis à jour avec succès. |:model_count modèles mis à jour avec succès.',
-<<<<<<< HEAD
-        'warn'          => 'Vous êtes sur le point de mettre à jour les propriétés du modèle suivant : |Vous êtes sur le point de modifier les propriétés des :model_count modèles suivants :',
-=======
         'warn'          => 'Vous êtes sur le point de mettre à jour les propriétés du modèle suivant :|Vous êtes sur le point de modifier les propriétés des modèles :model_count suivants :',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     ),
 

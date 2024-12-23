@@ -18,12 +18,6 @@ return [
     'generate_labels'           => '{1} Generiraj Oznako|[2,2] Generiraj Oznaki|[3,*] Generiraj Oznake',
     'send_password_link'        => 'Pošlji povezavo za ponastavitev gesla',
     'go'                        => 'Go',
-<<<<<<< HEAD
-    'bulk_actions'              => 'Bulk Actions',
-    'add_maintenance'           => 'Add Maintenance',
-    'append'                    => 'Append',
-    'new'                       => 'Novo',
-=======
     'bulk_actions'              => 'Množične akcije',
     'add_maintenance'           => 'Dodaj vzdrževanje',
     'append'                    => 'Priloži',
@@ -37,5 +31,4 @@ return [
         'checkout'  => 'Checkout :item_type',
         'checkin'   => 'Checkin :item_type',
     ]
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

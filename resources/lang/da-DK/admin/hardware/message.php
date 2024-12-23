@@ -2,12 +2,6 @@
 
 return [
 
-<<<<<<< HEAD
-    'undeployable' 		=> '<strong>Advarsel: </strong> Dette aktiv er blevet markeret som uudnytteligt. Hvis denne status er ændret, skal du opdatere aktivstatus.',
-    'does_not_exist' 	=> 'Asset eksisterer ikke.',
-    'does_not_exist_or_not_requestable' => 'Dette aktiv findes ikke eller er ikke påkrævet.',
-    'assoc_users'	 	=> 'Dette aktiv er i øjeblikket tjekket ud til en bruger og kan ikke slettes. Kontroller aktivet først, og prøv derefter at slette igen.',
-=======
     'undeployable' 		 => '<strong>Warning: </strong> This asset has been marked as currently undeployable. If this status has changed, please update the asset status.',
     'does_not_exist' 	 => 'Asset eksisterer ikke.',
     'does_not_exist_var' => 'Asset with tag :asset_tag not found.',
@@ -18,17 +12,13 @@ return [
     'labels_generated'   => 'Labels were successfully generated.',
     'error_generating_labels' => 'Error while generating labels.',
     'no_assets_selected' => 'No assets selected.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     'create' => [
         'error'   		=> 'Akten blev ikke oprettet, prøv igen. :(',
         'success' 		=> 'Aktivet blev oprettet med succes. :)',
         'success_linked' => 'Aktiv med tag :tag blev oprettet. <strong><a href=":link" style="color: white;">Klik her for at se</a></strong>.',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -37,10 +27,7 @@ return [
         'encrypted_warning' => 'Asset opdateret med succes, men krypterede brugerdefinerede felter skyldtes ikke tilladelser',
         'nothing_updated'	=>  'Ingen felter blev valgt, så intet blev opdateret.',
         'no_assets_selected'  =>  'Ingen aktiver blev valgt, så intet blev opdateret.',
-<<<<<<< HEAD
-=======
         'assets_do_not_exist_or_are_invalid' => 'Valgte aktiver kan ikke opdateres.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'restore' => [
@@ -76,10 +63,7 @@ return [
         'file_delete_success'   => 'Din fil er blevet slettet korrekt',
         'file_delete_error'      => 'Filen kunne ikke slettes',
         'file_missing' => 'Den valgte fil mangler',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => 'The file selected was already deleted',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'En eller flere attributter i overskriftsrækken indeholder misdannede UTF-8 tegn',
         'content_row_has_malformed_characters' => 'En eller flere attributter i den første række indhold indeholder misdannede UTF-8 tegn',
     ],

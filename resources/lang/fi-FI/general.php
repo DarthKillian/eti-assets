@@ -78,11 +78,7 @@ return [
     'consumables'			=> 'Kulutustarvikkeet',
     'country'  				=> 'Maa',
     'could_not_restore'     => 'Virhe palautettaessa :item_type: :error',
-<<<<<<< HEAD
-    'not_deleted'           => 'Tyyppiä :item_type ei poisteta, joten sitä ei voi palauttaa',
-=======
     'not_deleted'           => 'The :item_type was not deleted and therefore cannot be restored',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Luo uusi',
     'created'               => 'Nimike luotiin',
     'created_asset'			=> 'laite luotu',
@@ -103,11 +99,7 @@ return [
     'debug_warning_text'    => 'Sovellus on käynnissä tuotantotilassa, jossa virheenkorjaus on käytössä. Tämä voi paljastaa arkaluonteisia tietoja, jos sovellus avoinna internettiin. Poista virheenkorjaus käytöstä asettamalla <code>APP_DEBUG</code> -arvoksi <code>false</code> <code>.env</code> -tiedostoosi.',
     'delete'  				=> 'Poista',
     'delete_confirm'  		=> 'Oletko varma että haluat poistaa :item?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Oletko varma, että haluat poistaa :item? Toimintoa ei voi perua.',
-=======
     'delete_confirm_no_undo' => 'Are you sure, you wish to delete :item? This cannot be undone.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Poistettu',
     'delete_seats'  		=> 'Poistettu käytöstä',
     'deletion_failed'       => 'Poisto epäonnistui',
@@ -165,15 +157,9 @@ return [
     'image_delete'         	=> 'Poista kuva',
     'include_deleted'       => 'Sisällytä poistetut laitteet',
     'image_upload'         	=> 'Lähetä kuva',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'Hyväksytty tiedostotyyppi on :types. Suurin sallittu tiedostokoko on :size. Hyväksytyt tiedostotyypit ovat :types. Suurin sallittu tiedostokoko on :size.',
-    'filetypes_size_help'   => 'Suurin sallittu tiedostokoko on :size.',
-    'image_filetypes_help'  => 'Hyväksytyt tiedostotyyppejä ovat jpg, png, gif ja svg. Suurin sallittu lähetyskoko on :size.',
-=======
     'filetypes_accepted_help'    => 'Accepted filetype is :types. The maximum size allowed is :size.|Accepted filetypes are :types. The maximum upload size allowed is :size.',
     'filetypes_size_help'   => 'The maximum upload size allowed is :size.',
     'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'Kuvatiedostoa ei voitu lukea. Hyväksytyt tiedostotyypit ovat jpg, webp, png, gif ja svg. Tämän tiedoston mimetype on: :mimetype.',
     'import'         	    => 'Tuo tiedot',
     'import_this_file'      => 'Kartta kentät ja käsitellä tätä tiedostoa',
@@ -289,11 +275,7 @@ return [
     'signed_off_by'         => 'Luovuttanut',
     'skin'       			=> 'Ulkoasu',
     'webhook_msg_note'        => 'Ilmoitus lähetetään webhookin kautta',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Jestas! Näyttää siltä, että :app integraatio Snipe-ITn kanssa toimii!',
-=======
     'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'DEMO-TILA: Jotkin ominaisuudet eivät ole käytössä tässä asennuksessa.',
     'site_name'				=> 'Sivuston nimi',
     'state'  				=> 'Maakunta',
@@ -325,10 +307,7 @@ return [
     'user'					=> 'Käyttäjä',
     'accepted'			    => 'hyväksytty',
     'declined'			    => 'hylkää',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Declined Notes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Määrittämätön',
     'unaccepted_asset_report' => 'Hyväksymättömät laitteet',
     'users'                 => 'Käyttäjät',
@@ -442,11 +421,7 @@ return [
     'bulk_soft_delete'      =>'Piilota myös nämä käyttäjät. Heidän laitehistoria säilyy ennallaan ellet/kunnes puhdistat poistetut tietueet Admin Asetuksista.',
     'bulk_checkin_delete_success' => 'Valitut käyttäjät on poistettu ja heidän kohteet on palautettu.',
     'bulk_checkin_success' => 'Valittujen käyttäjien laitteet on palautettu.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Poista tämän laitteen arvot|Poista arvot kaikille :asset_count laitteille ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Poista tämän käyttäjän :field -arvot|Poista :field -arvot kaikilta : user_count käyttäjältä ',
     'na_no_purchase_date'   => 'N/A - ostopäivää ei annettu',
     'assets_by_status'      => 'Laitteet tilan mukaan',
@@ -459,10 +434,7 @@ return [
     'alt_uploaded_image_thumbnail' => 'Ladattu pikkukuva',
     'placeholder_kit'       => 'Valitse sarja',
     'file_not_found'        => 'Tiedostoa ei löytynyt',
-<<<<<<< HEAD
-=======
     'log_record_not_found'  => 'No record for that log entry was found.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'preview_not_available' => '(ei esikatselua)',
     'setup'                 => 'Alkutoimet',
     'pre_flight'            => 'Ennen käynnistämistä',
@@ -488,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Automaattisesti kasvavien laitetunnisteiden luominen on pois päältä, joten kaikilla riveillä on oltava laitetunniste asetettuna.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Huomautus: Automaattisesti kasvavien laitetunnisteiden luominen on käytössä, joten uudet laitteet luodaan riveille, joilla ei ole laitetunnistetta määriteltynä. Rivit, joilla on laitetunniste määriteltynä, tiedot päivitetään olemassaoleville laitteille.',
     'send_welcome_email_to_users'   => ' Lähetä tervetuliaissähköposti uusille käyttäjille?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Lähetä Sähköposti',
     'call'                      => 'Puhelun numero',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Varmuuskopioi ennen tuontia?',
     'csv_header_field'          => 'CSV-otsikon kenttä',
     'import_field'              => 'Tuo kenttä',
     'sample_value'              => 'Esimerkkiarvo',
     'no_headers'                => 'Sarakkeita ei löytynyt',
     'error_in_import_file'      => 'CSV-tiedostoa luettaessa tapahtui virhe: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % valmiina',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Tuonnissa tapahtui joitakin virheitä: ',
     'warning'                   => 'VAROITUS: :warning',
     'success_redirecting'       => '"Onnistui... Uudelleenohjataan.',
@@ -518,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'Älä sisällytä käyttäjää massamäärittämiseen käyttöliittymän tai CLI-työkalujen kautta.',
     'modal_confirm_generic'      => 'Oletko varma?',
     'cannot_be_deleted'      => 'Tätä kohdetta ei voi poistaa',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'Tätä kohdetta ei voi muokata.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'Tätä kohdetta ei voi lainata. Tarkasta jäljellä oleva määrä.',
     'serial_number'        => 'Sarjanumero',
     'item_notes' => ':item muistiinpanot',
@@ -550,11 +512,8 @@ return [
         'address2' => 'Osoiterivi 2',
         'import_note' => 'Tuotu käyttämällä CSV-tuontia',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% valmis',
     'uploading' => 'Lähetetään... ',
     'upload_error' => 'Virhe tiedostoa lähetettäessä. Tarkista, että tyhjiä rivejä ei ole ja että sarakkeiden nimiä ei ole kopioitu.',
@@ -567,9 +526,6 @@ return [
     'action_permission_generic' => 'Sinulla ei ole oikeuksia :action this :item_type',
     'edit' => 'muokkaa',
     'action_source' => 'Toiminnan Lähde',
-<<<<<<< HEAD
-
-=======
     'or' => 'tai',
     'url'                   => 'URL',
     'edit_fieldset' => 'Muokkaa kentän kenttiä ja asetuksia',
@@ -610,5 +566,4 @@ return [
     'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
     'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

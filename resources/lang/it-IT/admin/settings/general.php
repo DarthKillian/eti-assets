@@ -8,11 +8,7 @@ return [
     'ad_append_domain'          => 'Aggiungi il dominio al campo username',
     'ad_append_domain_help'     => 'L\'utente non è tenuto a scrivere "username@domain.local", può semplicemente digitare "username".',
     'admin_cc_email'            => 'Email CC',
-<<<<<<< HEAD
-    'admin_cc_email_help'       => 'Se desideri inviare una copia delle e-mail di consegna / ritiro che vengono inviate agli utenti a un altro account e-mail, inseriscile qui. Altrimenti, lascia questo campo vuoto.',
-=======
     'admin_cc_email_help'       => 'Se vuoi inviare ad un altro account email una copia delle email di Restituzione/Assegnazione inviate agli utenti, inseriscilo qui. Altrimenti, lascia vuoto questo campo.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'admin_settings'            => 'Impostazioni Admin',
     'is_ad'				        => 'Si tratta di un server Active Directory',
     'alerts'                	=> 'Avvisi',
@@ -94,10 +90,6 @@ return [
     'ldap_integration'          => 'Integrazione LDAP',
     'ldap_settings'             => 'Impostazioni LDAP',
     'ldap_client_tls_cert_help' => 'Il Certificato e la Chiave TLS Client per le connessioni LDAP sono di solito richieste solo nelle configurazioni di Google Workspace con "Secure LDAP".',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'Chiave TLS client LDAP',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'Posizione LDAP',
 'ldap_location_help'             => 'Il campo Posizione LDAP deve essere usato se <strong>una OU non viene utilizzata nella Base Bind DN</strong> Lascia vuoto se viene usata la ricerca OU.',
     'ldap_login_test_help'      => 'Immettere un nome utente e una password LDAP validi dal DN di base specificato in precedenza per verificare se il login LDAP è configurato correttamente. DEVI SALVARE LE IMPOSTAZIONI LDAP AGGIORNATE PRIMA.',
@@ -215,10 +207,7 @@ return [
     'integrations'               => 'Integrazioni',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Webhook Generale',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Microsoft Teams',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Test da Salvare',
     'webhook_title'               => 'Aggiorna Impostazioni Webhook',
@@ -231,11 +220,8 @@ return [
     'webhook_integration_help'    => 'L\'integrazione con :app è facoltativa, ma se si desidera utilizzarla bisogna specificare l\'endpoint e il canale. Per configurare l\'integrazione devi <a href=":webhook_link" target="_new" rel="noopener">creare un webhook in arrivo</a> sul tuo account :app . Clicca su <strong>Prova integrazione :app</strong> per confermare che le impostazioni siano corrette prima di salvare. ',
     'webhook_integration_help_button'    => 'Una volta salvate le informazioni di :app, apparirà un pulsante di prova.',
     'webhook_test_help'           => 'Verifica se l\'integrazione :app è configurata correttamente. DEVI PRIMA SALVARE LE IMPOSTAZIONI :app AGGIORNATE.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Abilita Scorciatoie',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Tasto accesso, <strong>Mac</strong>: Control + Option + Tasto accesso',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Snipe-IT version',
     'support_footer'            => 'Supporto per i collegamenti a piè di pagina ',
     'support_footer_help'       => 'Specificare chi vede i collegamenti alle informazioni sul supporto IT e su Snipe-IT',
@@ -393,8 +379,6 @@ return [
     'database_driver' => 'Driver del database',
     'bs_table_storage' => 'Archiviazione Tabella',
     'timezone' => 'Fuso orario',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Modifica Profilo',
     'profile_edit_help'          => 'Consenti agli utenti di modificare i propri profili.',
     'default_avatar' => 'Carica avatar predefinito personalizzato',
@@ -404,6 +388,5 @@ return [
     'due_checkin_days' => 'Avviso di prevista Restituzione',
     'due_checkin_days_help' => 'Quanti giorni prima della restituzione prevista di un Bene dovrebbe essere elencato nella pagina della "Restituzioni Previste"?',
     'no_groups' => 'Ancora non è stato creato alcun gruppo. Per aggiungerne uno vai a <code>Impostazioni Admin > Gruppi</code>.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

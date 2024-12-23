@@ -17,11 +17,8 @@ return [
         'error'   		=> 'Activul nu a fost creat, va rugam incercati iar. :(',
         'success' 		=> 'Activul a fost creat. :)',
         'success_linked' => 'Activul cu tag-ul :tag a fost creat cu succes. <strong><a href=":link" style="color: white;">Click aici pentru a vizualiza</a></strong>.',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -30,10 +27,7 @@ return [
         'encrypted_warning' => 'Activă actualizată cu succes, dar câmpurile personalizate criptate nu s-au datorat permisiunilor',
         'nothing_updated'	=>  'Nu au fost selectate câmpuri, deci nimic nu a fost actualizat.',
         'no_assets_selected'  =>  'Nu au fost selectate active, deci nimic nu a fost actualizat.',
-<<<<<<< HEAD
-=======
         'assets_do_not_exist_or_are_invalid' => 'Activele selectate nu pot fi actualizate.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'restore' => [
@@ -69,10 +63,7 @@ return [
         'file_delete_success'   => 'Fișierul dvs. a fost șters cu succes',
         'file_delete_error'      => 'Fișierul nu a putut fi șters',
         'file_missing' => 'Fișierul selectat lipsește',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => 'The file selected was already deleted',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'Unul sau mai multe atribute din rândul de antet conțin caractere UTF-8 incorecte',
         'content_row_has_malformed_characters' => 'Unul sau mai multe atribute din primul rând de conținut conțin caractere UTF-8 formatate incorect',
     ],

@@ -34,11 +34,7 @@ return array(
     'bulkedit' => array(
         'error'   		=> 'Nu au fost modificate câmpuri, deci nimic nu a fost actualizat.',
         'success' 		=> 'Modelul a fost actualizat cu succes. <unk> :model_count modele actualizate cu succes.',
-<<<<<<< HEAD
-        'warn'          => 'Sunteți pe cale să actualizați proprietățile următorului model: w Sunteți pe cale să editați proprietățile următoarelor modele :model_count:',
-=======
         'warn'          => 'Sunteți pe cale să actualizați proprietățile următorului model: Sunteți pe cale să editați proprietățile următoarelor modele :model_count:',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     ),
 

@@ -14,12 +14,9 @@ return [
         'restore_warning'       => 'Kyllä, palauttaa sen. Ymmärrän, että tämä korvaa kaikki olemassa olevat tiedot tietokannassa. Tämä myös kirjautuu ulos kaikista nykyisistä käyttäjistä (mukaan lukien sinä).',
         'restore_confirm'       => 'Oletko varma, että haluat palauttaa tietokannan :filename?'
     ],
-<<<<<<< HEAD
-=======
     'restore' => [
         'success'               => 'Your system backup has been restored. Please log in again.'
     ],
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'purge' => [
         'error'     => 'Virhe on ilmennyt puhdistuksen aikana.',
         'validation_failed'     => 'Puhdistusvahvistus on virheellinen. Kirjoita vahvistusruutuun sana "DELETE".',

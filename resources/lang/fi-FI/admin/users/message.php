@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Olet onnistuneesti hylännyt tämän laitteen.',
     'bulk_manager_warn'	        => 'Käyttäjät on onnistuneesti päivitetty, mutta esimies-merkintää ei tallennettu, koska valitsemasi esimies oli mukana käyttäjäluettelossa, eikä käyttäjä voi olla itsensä esimies. Valitse käyttäjät uudelleen, poislukien esimies.',
     'user_exists'               => 'Käyttäjä on jo luotu!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Käyttäjää ei löydy.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Käyttäjätunnus vaaditaan',
     'user_has_no_assets_assigned' => 'Käyttäjälle ei tällä hetkellä ole määritetty omaisuutta.',
     'user_password_required'    => 'Salasana vaaditaan.',

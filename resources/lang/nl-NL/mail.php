@@ -62,13 +62,7 @@ return [
     'link_to_update_password' => 'Klik op de volgende link om je :web wachtwoord te vernieuwen:',
     'login' => 'Inloggen',
     'login_first_admin' => 'Meld u aan op uw nieuwe Snipe-IT installatie met onderstaande inloggegevens:',
-<<<<<<< HEAD
-    'login' => 'Login:',
-    'Low_Inventory_Report' => 'Lage inventarisrapport',
-    'inventory_report' => 'Inventarisrapport',
-=======
     'low_inventory_alert' => 'Er is :count item dat onder de minimumvoorraad ligt of binnenkort laag zal zijn.|Er zijn :count items die onder de minimumvoorraad zijn of binnenkort laag zullen zijn.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Minimale hoeveelheid',
     'name' => 'Naam',
     'new_item_checked' => 'Een nieuw item is onder uw naam uitgecheckt, details staan hieronder.',
@@ -97,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'Je hebt niet geaccepteerde Assets.',
     'welcome' => 'Welkom :name',
     'welcome_to' => 'Welkom bij :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Je Snipe-IT inloggegevens',
-    'Accessory_Checkin_Notification' => 'Accessoire ingecheckt',
-    'Asset_Checkin_Notification' => 'Asset ingecheckt',
-    'Asset_Checkout_Notification' => 'Asset uitgecheckt',
-    'License_Checkin_Notification' => 'Licentie ingecheckt',
-    'Expected_Checkin_Report' => 'Verwachte asset check in rapport',
-    'Expected_Checkin_Notification' => 'Herinnering: :name check in deadline nadert',
-    'Expected_Checkin_Date' => 'Een asset uitgecheckt aan jou moet worden ingecheckt op :date',
-    'your_assets' => 'Bekijk je activa',
-    'rights_reserved' => 'Alle rechten voorbehouden.',
-=======
     'your_assets' => 'Bekijk je activa',
     'your_credentials' => 'Je Snipe-IT inloggegevens',
     'mail_sent' => 'Mail is succesvol verstuurd!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

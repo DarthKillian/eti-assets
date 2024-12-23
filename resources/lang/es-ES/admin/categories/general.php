@@ -1,19 +1,6 @@
 <?php
 
 return array(
-<<<<<<< HEAD
-    'asset_categories' 					=> 'Categorias',
-    'category_name'  					=> 'Categoría',
-    'checkin_email'                     => 'Enviar un correo al usuario al asignar/desasignar.',
-    'checkin_email_notification'        => 'A este usuario se le enviará un correo electrónico al asignar/desasignar.',
-    'clone'                             => 'Clonar Categoría',
-    'create'  							=> 'Crear Categoría',
-    'edit'                              => 'Editar Categoría',
-    'email_will_be_sent_due_to_global_eula' => 'Se enviará un correo electrónico al usuario porque se está utilizando el EULA global.',
-    'email_will_be_sent_due_to_category_eula' => 'Se enviará un correo electrónico al usuario porque se ha establecido un EULA para esta categoría.',
-    'eula_text'							=> 'Categoría EULA',
-    'eula_text_help'					=> 'Este campo permite personalizar sus EULAs para tipos específicos de equipos. Si solo tiene un EULA para todos sus equipos, puede seleccionar la siguiente opción para usar el valor por defecto.',
-=======
     'asset_categories' 					=> 'Categorías de activos',
     'category_name'  					=> 'Nombre de la categoría',
     'checkin_email'                     => 'Enviar un correo electrónico al usuario al recibir/devolver.',
@@ -25,7 +12,6 @@ return array(
     'email_will_be_sent_due_to_category_eula' => 'Se enviará un correo electrónico al usuario porque se ha establecido un acuerdo de uso para esta categoría.',
     'eula_text'							=> 'Acuerdo de uso de la categoría',
     'eula_text_help'					=> 'Este campo permite personalizar los términos y condiciones para tipos específicos de activos. Si solo tiene unos términos y condiciones para todos sus activos, puede seleccionar la siguiente opción para usar la definición por defecto.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'name'                              => 'Nombre de la categoría',
     'require_acceptance'				=> 'Requerir a los usuarios que confirmen la aceptación de los elementos en esta categoría.',
     'required_acceptance'				=> 'Este usuario recibirá un correo electrónico con un enlace para confirmar la aceptación de este elemento.',

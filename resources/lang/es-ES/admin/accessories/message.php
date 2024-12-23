@@ -4,11 +4,7 @@ return array(
 
     'does_not_exist' => 'El accesorio [:id] no existe.',
     'not_found' => 'Ese accesorio no fue encontrado.',
-<<<<<<< HEAD
-    'assoc_users'	 => 'Este accesorio actualmente tiene :count entregados a usuarios. Por favor ingrese los accesorios y vuelva a intentar. ',
-=======
     'assoc_users'	 => 'Este accesorio actualmente tiene :count elemento(s) asignado(s) a usuarios. Por favor realice el ingreso de los accesorios y vuelva a intentar. ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     'create' => array(
         'error'   => 'El accesorio no fue creado, por favor inténtelo de nuevo.',
@@ -27,12 +23,6 @@ return array(
     ),
 
      'checkout' => array(
-<<<<<<< HEAD
-        'error'   		=> 'El accesorio no fue retirado, por favor vuelva a intentarlo',
-        'success' 		=> 'Accesorio retirado correctamente.',
-        'unavailable'   => 'El accesorio no está disponible para su retirada. Compruebe la cantidad disponible',
-        'user_does_not_exist' => 'Este usuario es inválido . Inténtalo de nuevo.'
-=======
         'error'   		=> 'El accesorio no fue asignado, por favor vuelva a intentarlo',
         'success' 		=> 'Accesorio asignado correctamente.',
         'unavailable'   => 'El accesorio no está disponible para ser asignado. Compruebe la cantidad disponible',
@@ -41,7 +31,6 @@ return array(
             'lte'  => 'En este momento solo existe un accesorio disponible de este tipo y está tratando de asignar :checkout_qty. Por favor, ajuste la cantidad asignada o el total de existencias de este accesorio e intente nuevamente.|Existen en total :number_currently_remaining accesorios disponibles y está tratando de asignar :checkout_qty. Por favor, ajuste la cantidad asignada o el total de existencias de este accesorio e intente nuevamente.',
             ),
            
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

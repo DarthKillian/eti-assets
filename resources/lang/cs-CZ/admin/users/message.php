@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Úspěšně jste odmítli tento majetek.',
     'bulk_manager_warn'	        => 'Uživatelé byli úspěšně aktualizováni, položka správce však nebyla uložena, protože správce, který jste si vybrali, byl také v seznamu uživatelů, který má být upraven, a uživatelé nemusí být jejich vlastní správce. Zvolte své uživatele znovu, kromě správce.',
     'user_exists'               => 'Uživatel již existuje!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Uživatel neexistuje.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Přihlašovací pole je povinné',
     'user_has_no_assets_assigned' => 'Momentálně nejsou uživateli přiřazeny žádné položky.',
     'user_password_required'    => 'Je vyžadováno heslo.',

@@ -20,14 +20,9 @@ return array(
     'lock_passwords'		=> 'Prisijungimo duomenys negali būti keičiami šio diegimo metu.',
     'manager' 				=> 'Tiesioginis vadovas',
     'managed_locations'     => 'Valdomos vietos',
-<<<<<<< HEAD
-    'name' 					=> 'Pavadinimas',
-    'nogroup'               => 'No groups have been created yet. To add one, visit: ',
-=======
     'managed_users'         => 'Pavaldiniai',
     'name' 					=> 'Visas vardas',
     'nogroup'               => 'Dar nesukurta jokia grupė. Norėdami sukurti grupę, apsilankykite: ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'notes'                 => 'Pastabos',
     'password_confirm' 		=> 'Patvirtinti slaptažodį',
     'password' 				=> 'Slaptažodis',
@@ -36,11 +31,7 @@ return array(
     'show_deleted'          => 'Rodyti panaikintus naudotojus',
     'title' 				=> 'Antraštė',
 	'to_restore_them'		=> 'juos atkurti.',
-<<<<<<< HEAD
-    'total_assets_cost'     => "Bendra įrangos vertė",
-=======
     'total_assets_cost'     => "Bendra turto vertė",
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'updateuser' 			=> 'Atnaujinti naudotoją',
     'username' 				=> 'Naudotojo vardas',
 	'user_deleted_text' 	=> 'Šis naudotojas buvo pažymėtas kaip panaikintas.',

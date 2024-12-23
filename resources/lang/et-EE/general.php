@@ -49,11 +49,7 @@ return [
     'bulk_edit'             => 'Hulgiredigeerimine',
     'bulk_delete'           => 'Hulgikustutamine',
     'bulk_actions'          => 'Hulgitoimingud',
-<<<<<<< HEAD
-    'bulk_checkin_delete'   => 'Bulk Checkin / Delete Users',
-=======
     'bulk_checkin_delete'   => 'Hulgitagastus / Kustuta kasutajad',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'byod'                  => 'BYOD',
     'byod_help'             => 'See seade kuulub kasutajale',
     'bystatus'              => 'staatuse järgi',
@@ -82,11 +78,7 @@ return [
     'consumables'			=> 'Kulumaterjalid',
     'country'  				=> 'Riik',
     'could_not_restore'     => 'Error restoring :item_type: :error',
-<<<<<<< HEAD
-    'not_deleted'           => 'The :item_type is not deleted so it cannot be restored',
-=======
     'not_deleted'           => 'The :item_type was not deleted and therefore cannot be restored',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Loo uus',
     'created'               => 'Üksus on loodud',
     'created_asset'			=> 'loodud vara',
@@ -107,11 +99,7 @@ return [
     'debug_warning_text'    => 'See rakendus töötab tootmisrežiimis, kus silumisvõimalused on lubatud. See võib avaldada tundlikke andmeid, kui teie rakendus on välismaailmale juurdepääsetav. Keela debugrežiim, määrates <code>APP_DEBUG</code> väärtuse oma <code>.env</code> failis <code>false</code>.',
     'delete'  				=> 'Kustuta',
     'delete_confirm'  		=> 'Kas olete kindel, et soovite kustutada :item?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Are you sure you wish to delete :item? This can not be undone.',
-=======
     'delete_confirm_no_undo' => 'Kas olete kindel, et soovite kustutada :item? Seda toimingut ei saa tagasi võtta.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'Kustutatud',
     'delete_seats'  		=> 'Kustutatud istmed',
     'deletion_failed'       => 'Kustutamine ebaõnnestus',
@@ -139,15 +127,9 @@ return [
     'firstname_lastname_underscore_format' => 'Eesnimi Perenimi (eesnimi.perenimi@poleolemas.ee)',
     'lastnamefirstinitial_format' =>  'Perenimi Eesnime lühend (perenimie@poleolemas.ee)',
     'firstintial_dot_lastname_format' => 'Eesnime algustäht Perenimi (j.smith@example.com)',
-<<<<<<< HEAD
-    'firstname_lastname_display'	=> 'First Name Last Name (Jane Smith)',
-    'lastname_firstname_display'	=> 'Last Name First Name (Smith Jane)',
-    'name_display_format'	=> 'Name Display Format',
-=======
     'firstname_lastname_display'	=> 'Eesnimi Perekonnanimi (Minu Nimi)',
     'lastname_firstname_display'	=> 'Last Name First Name (Smith Jane)',
     'name_display_format'	=> 'Nime Kuvamise Formaat',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'first'					=> 'Esimene',
     'firstnamelastname'     => 'Eesnimi Perenimi (janesmith@example.com)',
     'lastname_firstinitial' => 'Perenimi Eesnimi algustäht (smith_j@example.com)',
@@ -175,21 +157,12 @@ return [
     'image_delete'         	=> 'Kustuta pilt',
     'include_deleted'       => 'Kaasa Kustutatud Varad',
     'image_upload'         	=> 'Laadi pilt üles',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'Aktsepteeritud failitüüp on :types. Maksimaalne lubatud üleslaaditav suurus on :size.|Aktsepteeritud failitüübid on :types. Maksimaalne lubatud üleslaadimise suurus on :size.',
-    'filetypes_size_help'   => 'Maksimaalne lubatud üleslaadimise suurus on :size.',
-    'image_filetypes_help'  => 'Lubatud faililaiendid on jpg, png, gif ja svg. Suurim lubatud üleslaadimise maht on :size.',
-    'unaccepted_image_type'  => 'This image file was not readable. Accepted filetypes are jpg, webp, png, gif, and svg. The mimetype of this file is: :mimetype.',
-    'import'         	    => 'Impordi',
-    'import_this_file'      => 'Map fields and process this file',
-=======
     'filetypes_accepted_help'    => 'Aktsepteeritud failitüüp on: :types. Maksimaalne lubatud suurus on: :size." "Aktsepteeritud failitüübid on: :types. Maksimaalne lubatud üleslaadimise suurus on: :size.',
     'filetypes_size_help'   => 'Maksimaalne lubatud üleslaadimise suurus on: :size.',
     'image_filetypes_help'  => 'Aktsepteeritud failitüübid on jpg, webp, png, gif, svg ja avif. Maksimaalne lubatud üleslaadimise suurus on: :size.',
     'unaccepted_image_type'  => 'Seda pildifaili ei olnud võimalik lugeda. Aktsepteeritud failitüübid on jpg, webp, png, gif ja svg. Selle faili Mime-tüüp on: :mimetype.',
     'import'         	    => 'Impordi',
     'import_this_file'      => 'Kaardista väljad ja töötle see fail',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'importing'         	=> 'Importimine',
     'importing_help'        => 'CSV-faili kaudu saate importida vahendeid, tarvikuid, litsentse, komponente, kulumaterjale ja kasutajaid. <br><br>CSV peaks olema komadega eraldatud ja vormindatud päistega, mis ühtivad <a href="https://snipe-it.readme.io/docs/importing" target="_new">CSV-de näidistega dokumentatsioonis</a>.',
     'import-history'        => 'Impordi ajalugu',
@@ -198,13 +171,8 @@ return [
     'asset_maintenances'       => 'Vara säilimine',
     'item'  				=> 'Vara',
     'item_name'             => 'Üksuse nimi',
-<<<<<<< HEAD
-    'import_file'  			=> 'import CSV file',
-    'import_type'  			=> 'CSV import type',
-=======
     'import_file'  			=> 'impordi CSV fail',
     'import_type'  			=> 'CSV impordi tüüp',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'insufficient_permissions' => 'Ei ole piisavalt õigusi!',
     'kits'       			=> 'Eelnevalt määratud komplektid',
     'language'				=> 'Keel',
@@ -307,11 +275,7 @@ return [
     'signed_off_by'         => 'Allkiri',
     'skin'       			=> 'Väljanägemine',
     'webhook_msg_note'        => 'A notification will be sent via webhook',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Oh hai! Looks like your :app integration with Snipe-IT is working!',
-=======
     'webhook_test_msg'        => 'Juhhuu! Näib, et teie :app integratsioon Snipe-IT-ga töötab!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'DEMOVERSIOON: Selles installatsioonis mõned funktsioonid ei tööta.',
     'site_name'				=> 'Saidi nimi',
     'state'  				=> 'Maakond',
@@ -324,11 +288,7 @@ return [
     'suppliers'  			=> 'Tarnijad',
     'sure_to_delete'        => 'Kas olete kindel, et soovite kustutada',
     'sure_to_delete_var'    => 'Kas olete kindel, et soovite kustutada :item?',
-<<<<<<< HEAD
-    'delete_what'           => 'Delete :item',
-=======
     'delete_what'           => 'Kustuta :item',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'submit'				=> 'Kinnita',
     'target'                => 'Sihtimine',
     'time_and_date_display' => 'Kellaaja ja kuupäeva kuvamine',
@@ -347,12 +307,8 @@ return [
     'user'					=> 'Kasutaja',
     'accepted'			    => 'aktsepteeritud',
     'declined'			    => 'tagasi lükatud',
-<<<<<<< HEAD
-    'unassigned'            => 'Unassigned',
-=======
     'declined_note'         => 'Tagasilükatud märkmed',
     'unassigned'            => 'Määramata',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_asset_report' => 'Mitteaktsepteeritud varad',
     'users'                 => 'Kasutajad',
     'viewall'				=> 'Vaata kõiki',
@@ -383,21 +339,12 @@ return [
     'clear_signature'       => 'Puhasta allkirja väli',
     'show_help'             => 'Näita abi',
     'hide_help'             => 'Peida abi',
-<<<<<<< HEAD
-    'view_all'              => 'view all',
-    'hide_deleted'          => 'Hide Deleted',
-    'email'                 => 'E-mail',
-    'do_not_change'         => 'Do Not Change',
-    'bug_report'            => 'Report a Bug',
-    'user_manual'           => 'User\'s Manual',
-=======
     'view_all'              => 'kuva kõik',
     'hide_deleted'          => 'Peida kustutatud',
     'email'                 => 'E-mail',
     'do_not_change'         => 'Do not change',
     'bug_report'            => 'Teata veast',
     'user_manual'           => 'Kasutusjuhend',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'setup_step_1'          => 'Step 1',
     'setup_step_2'          => 'Step 2',
     'setup_step_3'          => 'Step 3',
@@ -474,11 +421,7 @@ return [
     'bulk_soft_delete'      =>'Also soft-delete these users. Their asset history will remain intact unless/until you purge deleted records in the Admin Settings.',
     'bulk_checkin_delete_success' => 'Your selected users have been deleted and their items have been checked in.',
     'bulk_checkin_success' => 'The items for the selected users have been checked in.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Delete values for this asset|Delete values for all :asset_count assets ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Delete :field values for this user|Delete :field values for all :user_count users ',
     'na_no_purchase_date'   => 'N/A - No purchase date provided',
     'assets_by_status'      => 'Assets by Status',
@@ -517,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Generating auto-incrementing asset tags is disabled so all rows need to have the "Asset Tag" column populated.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Note: Generating auto-incrementing asset tags is enabled so assets will be created for rows that do not have "Asset Tag" populated. Rows that do have "Asset Tag" populated will be updated with the provided information.',
     'send_welcome_email_to_users'   => ' Send Welcome Email for new Users?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Send Email',
     'call'                      => 'Call number',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Backup before importing?',
     'csv_header_field'          => 'CSV Header Field',
     'import_field'              => 'Import Field',
     'sample_value'              => 'Sample Value',
     'no_headers'                => 'No Columns Found',
     'error_in_import_file'      => 'There was an error reading the CSV file: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % Complete',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Some Errors occurred while importing: ',
     'warning'                   => 'WARNING: :warning',
     'success_redirecting'       => '"Success... Redirecting.',
@@ -547,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'Do not include user for bulk-assigning through the license UI or cli tools.',
     'modal_confirm_generic'      => 'Are you sure?',
     'cannot_be_deleted'      => 'This item cannot be deleted',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'This item cannot be edited.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'This item cannot be checked out. Check the quantity remaining.',
     'serial_number'        => 'Serial Number',
     'item_notes' => ':item Notes',
@@ -579,11 +512,8 @@ return [
         'address2' => 'Address Line 2',
         'import_note' => 'Imported using csv importer',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% tehtud',
     'uploading' => 'Uploading... ',
     'upload_error' => 'Error uploading file. Please check that there are no empty rows and that no column names are duplicated.',
@@ -596,9 +526,6 @@ return [
     'action_permission_generic' => 'You do not have permission to :action this :item_type',
     'edit' => 'muuda',
     'action_source' => 'Action Source',
-<<<<<<< HEAD
-
-=======
     'or' => 'or',
     'url'                   => 'URL',
     'edit_fieldset' => 'Edit fieldset fields and options',
@@ -639,5 +566,4 @@ return [
     'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
     'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

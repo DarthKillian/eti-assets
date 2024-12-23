@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'Um usuário aceitou um item',
-    'acceptance_asset_declined' => 'Um usuário recusou um item',
-    'a_user_canceled' => 'Um utilizador cancelou um pedido de artigo no site',
-    'a_user_requested' => 'Um utilizador solicitou um artigo no site',
-    'accessory_name' => 'Nome do acessório:',
-    'additional_notes' => 'Notas adicionais:',
-    'admin_has_created' => 'Um administrador criou uma conta para ti no :web site.',
-    'asset' => 'Artigo:',
-    'asset_name' => 'Nome do Artigo:',
-    'asset_requested' => 'Artigo requesitado',
-    'asset_tag' => 'Etiqueta do Ativo',
-    'assigned_to' => 'Atribuído a',
-    'best_regards' => 'Atenciosamente',
-    'canceled' => 'Cancelado:',
-    'checkin_date' => 'Data de devolução:',
-    'checkout_date' => 'Data de atribuição:',
-    'click_to_confirm' => 'Por favor clique no link a seguir para confirmar sua conta :web:',
-    'click_on_the_link_accessory' => 'Por favor clique no link na parte inferior para confirmar que recebeu o acessório.',
-    'click_on_the_link_asset' => 'Por favor clique no link na parte inferior para confirmar que recebeu o artigo.',
-    'Confirm_Asset_Checkin' => 'Confirmação da devolução do artigo',
-=======
 
     'Accessory_Checkin_Notification' => 'Acessório recebido',
     'Accessory_Checkout_Notification' => 'Acessório verificado',
     'Asset_Checkin_Notification' => 'Artigos recebidos',
     'Asset_Checkout_Notification' => 'Artigos entregues',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Confirme a devolução do acessório',
     'Confirm_Asset_Checkin' => 'Confirmação da devolução do artigo',
     'Confirm_accessory_delivery' => 'Confirme a entrega do acessório',
@@ -85,13 +62,7 @@ return [
     'link_to_update_password' => 'Por favor clique no link abaixo para actualizar a sua senha do :web:',
     'login' => 'Nome de registo',
     'login_first_admin' => 'Faça login na sua instalação do Snipe-IT usando os dados abaixo:',
-<<<<<<< HEAD
-    'login' => 'Login:',
-    'Low_Inventory_Report' => 'Relatório de baixas de inventario',
-    'inventory_report' => 'Relatório de Inventário',
-=======
     'low_inventory_alert' => 'Há :count que está abaixo do estoque mínimo ou em breve estará baixo. Existem :count itens que estão abaixo do estoque mínimo ou em breve estarão baixos.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Qt. Min.',
     'name' => 'Nome',
     'new_item_checked' => 'Um novo item foi atribuído a ti, os detalhes estão abaixo.',
@@ -120,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Bem vindo, :name',
     'welcome_to' => 'Bem-vindo ao :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Suas credenciais do Snipe-IT',
-    'Accessory_Checkin_Notification' => 'Acessório recebido',
-    'Asset_Checkin_Notification' => 'Artigos recebidos',
-    'Asset_Checkout_Notification' => 'Artigos entregues',
-    'License_Checkin_Notification' => 'Licença recebida',
-    'Expected_Checkin_Report' => 'Relatório de entregas de artigos esperados',
-    'Expected_Checkin_Notification' => 'Lembrete: :name entrega com prazo aproximado',
-    'Expected_Checkin_Date' => 'Um ativo entregue a si deve ser entregue até :date',
-    'your_assets' => 'Ver seus ativos',
-    'rights_reserved' => 'Todos os direitos reservados.',
-=======
     'your_assets' => 'Ver seus ativos',
     'your_credentials' => 'Suas credenciais do Snipe-IT',
     'mail_sent' => 'Mail sent successfully!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

@@ -3,15 +3,6 @@
 return array(
 
     'does_not_exist' => 'La licencia no existe o no tiene permiso para verla.',
-<<<<<<< HEAD
-    'user_does_not_exist' => 'Usuario inexistente.',
-    'asset_does_not_exist' 	=> 'El equipo que intentas asignar a esta licencia no existe.',
-    'owner_doesnt_match_asset' => 'El equipo al que estas intentando asignar esta licenciam, está asignado a un usuario diferente que el de la licencia.',
-    'assoc_users'	 => 'Esta categoría está asignada al menos a un modelo y no puede ser eliminada.',
-    'select_asset_or_person' => 'Debe seleccionar un activo o un usuario, pero no ambos.',
-    'not_found' => 'Licencia no encontrada',
-    'seats_available' => ':seat_count plazas disponibles',
-=======
     'user_does_not_exist' => 'El usuario no existe o no tiene permiso para verlos.',
     'asset_does_not_exist' 	=> 'El activo que intenta asociar con esta licencia no existe.',
     'owner_doesnt_match_asset' => 'El activo que está intentando asignar con esta licencia está asignado a un usuario diferente al de la persona seleccionada de la lista.',
@@ -19,7 +10,6 @@ return array(
     'select_asset_or_person' => 'Debe seleccionar un activo o un usuario, pero no ambos.',
     'not_found' => 'Licencia no encontrada',
     'seats_available' => ':seat_count disponibles',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 
     'create' => array(
@@ -51,17 +41,11 @@ return array(
     ),
 
     'checkout' => array(
-<<<<<<< HEAD
-        'error'   => 'Equipo no asignado, intentalo de nuevo',
-        'success' => 'Equipo asignado.',
-        'not_enough_seats' => 'No hay suficientes asientos de licencia disponibles para la compra',
-=======
         'error'   => 'Hubo un problema asignando la licencia. Por favor, inténtelo de nuevo.',
         'success' => 'La licencia fue asignada con éxito',
         'not_enough_seats' => 'No hay suficientes licencias disponibles para asignar',
         'mismatch' => 'La licencia proporcionada no coincide con la licencia seleccionada',
         'unavailable' => 'Esta licencia no está disponible para ser asignada.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(

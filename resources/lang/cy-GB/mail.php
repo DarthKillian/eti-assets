@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'A user has accepted an item',
-    'acceptance_asset_declined' => 'A user has declined an item',
-    'a_user_canceled' => 'Mae defnyddiwr wedi canslo cais am eitem ar y wefan',
-    'a_user_requested' => 'Mae defnyddiwr wedi gwneud cais am eitem ar y wefan',
-    'accessory_name' => 'Enw Ategolyn:',
-    'additional_notes' => 'Nodiadau ychwanegol:',
-    'admin_has_created' => 'Mae gweinyddwr wedi creu cyfrif i chi a yr :web wefan.',
-    'asset' => 'Ased:',
-    'asset_name' => 'Enw Ased:',
-    'asset_requested' => 'Gofynnwyd am ased',
-    'asset_tag' => 'Tag Ased',
-    'assigned_to' => 'Wedi Neilltuo i',
-    'best_regards' => 'Cofon gorau,',
-    'canceled' => 'Wedi canslo:',
-    'checkin_date' => 'Dyddian i mewn:',
-    'checkout_date' => 'Dyddiad Allan:',
-    'click_to_confirm' => 'Cliciwch ar y ddolen ganlynol i gadarnhau eich cyfrif :gwe:',
-    'click_on_the_link_accessory' => 'Cliciwch ar y ddolen ar y gwaelod i gadarnhau eich bod wedi derbyn yr ategolyn.',
-    'click_on_the_link_asset' => 'Cliciwch ar y ddolen ar y gwaelod i gadarnhau eich bod wedi derbyn yr ased.',
-    'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
-=======
 
     'Accessory_Checkin_Notification' => 'Accessory checked in',
     'Accessory_Checkout_Notification' => 'Accessory checked out',
     'Asset_Checkin_Notification' => 'Asset checked in',
     'Asset_Checkout_Notification' => 'Asset checked out',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Accessory checkin confirmation',
     'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
     'Confirm_accessory_delivery' => 'Accessory delivery confirmation',
@@ -114,17 +91,6 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Croeso, :name',
     'welcome_to' => 'Croeso i :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Eich manylion defnyddiwr Snipe-IT',
-    'Accessory_Checkin_Notification' => 'Accessory checked in',
-    'Asset_Checkin_Notification' => 'Asset checked in',
-    'Asset_Checkout_Notification' => 'Asset checked out',
-    'License_Checkin_Notification' => 'License checked in',
-    'Expected_Checkin_Report' => 'Expected asset checkin report',
-    'Expected_Checkin_Notification' => 'Reminder: :name checkin deadline approaching',
-    'Expected_Checkin_Date' => 'An asset checked out to you is due to be checked back in on :date',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'View Your Assets',
     'your_credentials' => 'Eich manylion defnyddiwr Snipe-IT',
     'mail_sent' => 'Mail sent successfully!',

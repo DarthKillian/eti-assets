@@ -52,11 +52,7 @@ return array(
 
     'fieldset_default_value' => array(
 
-<<<<<<< HEAD
-        'error' => 'Error al validar los valores por defecto del conjunto de campos.',
-=======
         'error' => 'Error al validar los valores predeterminados del grupo de campos.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     ),
 

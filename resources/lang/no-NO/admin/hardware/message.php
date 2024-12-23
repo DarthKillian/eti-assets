@@ -17,11 +17,8 @@ return [
         'error'   		=> 'Eiendelen ble ikke opprettet, prøv igjen :(',
         'success' 		=> 'Eiendelen ble opprettet :)',
         'success_linked' => 'Eiendelen med taggen :tag ble opprettet. <strong><a href=":link" style="color: white;">Klikk her for å vise</a></strong>.',
-<<<<<<< HEAD
-=======
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -30,10 +27,7 @@ return [
         'encrypted_warning' => 'Eiendel er oppdatert, men kryptert tilpassede felter var ikke grunnet tillatelser',
         'nothing_updated'	=>  'Ingen felter er valgt, så ingenting ble endret.',
         'no_assets_selected'  =>  'Ingen felter er valgt, så ingenting ble endret.',
-<<<<<<< HEAD
-=======
         'assets_do_not_exist_or_are_invalid' => 'Valgte eiendeler kan ikke oppdateres.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'restore' => [
@@ -69,10 +63,7 @@ return [
         'file_delete_success'   => 'Filen har blitt slettet',
         'file_delete_error'      => 'Filen kunne ikke bli slettet',
         'file_missing' => 'Valgt fil mangler (fant ikke filen)',
-<<<<<<< HEAD
-=======
         'file_already_deleted' => 'The file selected was already deleted',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'En eller flere attributter i overskriftsraden inneholder feilformede UTF-8 tegn',
         'content_row_has_malformed_characters' => 'En eller flere attributter i første rad i inneholdet inneholder feilformet UTF-8 tegn',
     ],

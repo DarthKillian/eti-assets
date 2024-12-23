@@ -92,22 +92,6 @@ return [
         'numeric' => 'The :attribute field must be less than or equal to :value.',
         'string' => 'The :attribute field must be less than or equal to :value characters.',
     ],
-<<<<<<< HEAD
-    'starts_with'          => 'The :attribute must start with one of the following: :values.',
-    'ends_with'            => 'The :attribute must end with one of the following: :values.',
-
-    'not_in'               => 'Yang dipilih: atribut tidak valid.',
-    'numeric'              => 'The: atribut harus berupa angka.',
-    'present'              => 'Bidang atribut harus ada.',
-    'valid_regex'          => 'Ini bukan regex yang valid. ',
-    'regex'                => 'Format atribut tidak valid.',
-    'required'             => 'Bidang :attribute harus diisi.',
-    'required_if'          => 'Kolom :attribute wajib di-isi ketika :other nya :value.',
-    'required_unless'      => 'Kolom :attribute wajib di-isi kecuali :other nya :value.',
-    'required_with'        => 'Kolom :attribute wajib di-isi ketika :values terisi.',
-    'required_with_all'    => 'Kolom :attribute wajib di-isi ketika :values terisi.',
-    'required_without'     => 'Kolom :attribute wajib di-isi ketika :values kosong.',
-=======
     'mac_address' => 'The :attribute field must be a valid MAC address.',
     'max' => [
         'array' => 'The :attribute field must not have more than :max items.',
@@ -162,7 +146,6 @@ return [
     'required_with' => 'Kolom :attribute wajib di-isi ketika :values terisi.',
     'required_with_all' => 'The :attribute field is required when :values are present.',
     'required_without' => 'Kolom :attribute wajib di-isi ketika :values kosong.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'required_without_all' => 'Kolom :attribute wajib di-isi jika tidak ada :values yang terisi.',
     'same' => 'The :attribute field must match :other.',
     'size' => [
@@ -173,21 +156,10 @@ return [
     ],
     'starts_with' => 'The :attribute field must start with one of the following: :values.',
     'string'               => ':attribute haruslah sebuah string.',
-<<<<<<< HEAD
-    'timezone'             => ':attribute haruslah sebuah zone yang valid.',
-    'two_column_unique_undeleted' => 'The :attribute must be unique across :table1 and :table2. ',
-    'unique'               => ':attribute sudah pernah digunakan.',
-    'uploaded'             => ':attribute gagal di-upload.',
-    'url'                  => 'Format :attribute tidaklah benar.',
-    'unique_undeleted'     => ':attribute haruslah unik.',
-    'non_circular'         => 'The :attribute must not create a circular reference.',
-    'not_array'            => ':atribute harus array.',
-=======
     'two_column_unique_undeleted' => 'The :attribute must be unique across :table1 and :table2. ',
     'unique_undeleted'     => ':attribute haruslah unik.',
     'non_circular'         => 'The :attribute must not create a circular reference.',
     'not_array'            => ':attribute cannot be an array.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'disallow_same_pwd_as_user_fields' => 'Password cannot be the same as the username.',
     'letters'              => 'Password must contain at least one letter.',
     'numbers'              => 'Password must contain at least one number.',

@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'A user has accepted an item',
-    'acceptance_asset_declined' => 'A user has declined an item',
-    'a_user_canceled' => 'Ang gumagamit o user ay nag-kansela ng rekwest na aytem sa website',
-    'a_user_requested' => 'Ang gumagamit ay nag-rekwest ng aytem sa website',
-    'accessory_name' => 'Ang Pangalan ng Aksesorya:',
-    'additional_notes' => 'Ang mga Karagdagang mga Lista:',
-    'admin_has_created' => 'Ang tagapangasiwa ay nakapagsagawa ng isang account para sa iyo sa :web website.',
-    'asset' => 'Ang Asset:',
-    'asset_name' => 'Ang Pangalan ng Asset:',
-    'asset_requested' => 'Ang nirekwest na asset',
-    'asset_tag' => 'Ang Tag ng Asset',
-    'assigned_to' => 'Nakatalaga Sa',
-    'best_regards' => 'Lubos na bumabati,',
-    'canceled' => 'Nakansela:',
-    'checkin_date' => 'Ang Petsa ng Pag-checkin:',
-    'checkout_date' => 'Ang Petsa ng Pag-checkout:',
-    'click_to_confirm' => 'Paki-klik sa mga sumusunod na link para i-komperma ang iyong :web account:',
-    'click_on_the_link_accessory' => 'Paki-klik sa link na nasa ibaba para i-komperma na ikaw ay nakakatanggap ng aksesorya.',
-    'click_on_the_link_asset' => 'Paki-klik sa link na nasa ibaba para i-komperma na ikaw ay nakakatanggap ng asset.',
-    'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
-=======
 
     'Accessory_Checkin_Notification' => 'Accessory checked in',
     'Accessory_Checkout_Notification' => 'Accessory checked out',
     'Asset_Checkin_Notification' => 'Asset checked in',
     'Asset_Checkout_Notification' => 'Asset checked out',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Accessory checkin confirmation',
     'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
     'Confirm_accessory_delivery' => 'Accessory delivery confirmation',
@@ -97,14 +74,10 @@ return [
     'requested' => 'Ang Nirekwest',
     'reset_link' => 'Ang Link para sa Pag-reset ng Password',
     'reset_password' => 'I-klik ito para ma-reset ang iyong password:',
-<<<<<<< HEAD
-    'serial' => 'Ang Seryal',
-=======
     'rights_reserved' => 'All rights reserved.',
     'serial' => 'Ang Seryal',
     'snipe_webhook_test' => 'Snipe-IT Integration Test',
     'snipe_webhook_summary' => 'Snipe-IT Integration Test Summary',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'supplier' => 'Ang Tagapagsuplay',
     'tag' => 'Ang Tag',
     'test_email' => 'I-test ang Email mula sa Snipe-IT',
@@ -115,22 +88,9 @@ return [
     'upcoming-audits' => 'There is :count asset that is coming up for audit within :threshold days.|There are :count assets that are coming up for audit within :threshold days.',
     'user' => 'Ang gumagamit',
     'username' => 'Ang pangalan ng gumagamit',
-<<<<<<< HEAD
-    'welcome' => 'Maligayang pagdating :ang pangalan',
-    'welcome_to' => 'Maligayang pagdating sa: web!',
-    'your_credentials' => 'Ang iyong mga Kredensyal sa Snipe-IT',
-    'Accessory_Checkin_Notification' => 'Accessory checked in',
-    'Asset_Checkin_Notification' => 'Asset checked in',
-    'Asset_Checkout_Notification' => 'Asset checked out',
-    'License_Checkin_Notification' => 'License checked in',
-    'Expected_Checkin_Report' => 'Expected asset checkin report',
-    'Expected_Checkin_Notification' => 'Reminder: :name checkin deadline approaching',
-    'Expected_Checkin_Date' => 'An asset checked out to you is due to be checked back in on :date',
-=======
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Maligayang pagdating :ang pangalan',
     'welcome_to' => 'Maligayang pagdating sa: web!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'View Your Assets',
     'your_credentials' => 'Ang iyong mga Kredensyal sa Snipe-IT',
     'mail_sent' => 'Mail sent successfully!',

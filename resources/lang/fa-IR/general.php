@@ -81,11 +81,7 @@ return [
     'consumables'			=> 'اقلام قابل مصرف',
     'country'  				=> 'كشور',
     'could_not_restore'     => 'Error restoring :item_type: :error',
-<<<<<<< HEAD
-    'not_deleted'           => 'The :item_type is not deleted so it cannot be restored',
-=======
     'not_deleted'           => 'The :item_type was not deleted and therefore cannot be restored',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'ایجاد مورد جدید',
     'created'               => 'مورد ایجاد شده',
     'created_asset'			=> 'دارایی ایجاد شده',
@@ -109,11 +105,7 @@ return [
     'debug_warning_text'    => 'این برنامه در حالت تولید با استفاده از اشکال زدایی فعال است. این می تواند اطلاعات حساس را در صورت درخواست شما برای جهان خارج در دسترس قرار دهد. با تنظیم مقداری <code>APP_DEBUG</code> در <code>.env</code> فایل خود را به <code>false</code> غیرفعال کنید.',
     'delete'  				=> 'حذف',
     'delete_confirm'  		=> 'آیا اطمینان دارید که می خواهید این را حذف نمایید؟',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Are you sure you wish to delete :item? This can not be undone.',
-=======
     'delete_confirm_no_undo' => 'Are you sure, you wish to delete :item? This cannot be undone.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'حذف شد',
     'delete_seats'  		=> 'صندلی ها حذف شده
 ',
@@ -177,17 +169,9 @@ return [
     'include_deleted'       => 'دارایی های بایگانی شده را حذف کنید
 ',
     'image_upload'         	=> 'آپلود تصویر',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'نوع فایل پذیرفته شده :types است. حداکثر اندازه مجاز آپلود :size است.|نوع فایل های پذیرفته شده عبارتند از :types. حداکثر اندازه مجاز بارگذاری: اندازه است.
-',
-    'filetypes_size_help'   => 'حداکثر اندازه مجاز بارگذاری: اندازه است.
-',
-    'image_filetypes_help'  => 'نوع فایل های قابل قبول: jpg, webp, png, gif, و svg. حداکثر سایز فایل :size.',
-=======
     'filetypes_accepted_help'    => 'Accepted filetype is :types. The maximum size allowed is :size.|Accepted filetypes are :types. The maximum upload size allowed is :size.',
     'filetypes_size_help'   => 'The maximum upload size allowed is :size.',
     'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'This image file was not readable. Accepted filetypes are jpg, webp, png, gif, and svg. The mimetype of this file is: :mimetype.',
     'import'         	    => 'واردات',
     'import_this_file'      => 'Map fields and process this file',
@@ -315,11 +299,7 @@ return [
 ',
     'skin'       			=> 'پوسته',
     'webhook_msg_note'        => 'A notification will be sent via webhook',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Oh hai! Looks like your :app integration with Snipe-IT is working!',
-=======
     'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'MODE DEMO: برخی از ویژگی ها برای این نصب غیر فعال هستند.',
     'site_name'				=> 'نام سایت',
     'state'  				=> 'وضعیت',
@@ -353,10 +333,7 @@ return [
     'user'					=> 'کاربر',
     'accepted'			    => 'تأیید شد',
     'declined'			    => 'خودداری شد',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Declined Notes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Unassigned',
     'unaccepted_asset_report' => 'دارایی های پذیرفته',
     'users'                 => 'کاربران',
@@ -526,11 +503,7 @@ return [
 ',
     'bulk_checkin_success' => 'موارد برای کاربران انتخاب شده بررسی شده است.
 ',
-<<<<<<< HEAD
-    'set_to_null'           => 'Delete values for this asset|Delete values for all :asset_count assets ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Delete :field values for this user|Delete :field values for all :user_count users ',
     'na_no_purchase_date'   => 'N/A - No purchase date provided',
     'assets_by_status'      => 'Assets by Status',
@@ -569,21 +542,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Generating auto-incrementing asset tags is disabled so all rows need to have the "Asset Tag" column populated.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Note: Generating auto-incrementing asset tags is enabled so assets will be created for rows that do not have "Asset Tag" populated. Rows that do have "Asset Tag" populated will be updated with the provided information.',
     'send_welcome_email_to_users'   => ' Send Welcome Email for new Users?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Send Email',
     'call'                      => 'Call number',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Backup before importing?',
     'csv_header_field'          => 'CSV Header Field',
     'import_field'              => 'Import Field',
     'sample_value'              => 'Sample Value',
     'no_headers'                => 'No Columns Found',
     'error_in_import_file'      => 'There was an error reading the CSV file: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % Complete',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Some Errors occurred while importing: ',
     'warning'                   => 'WARNING: :warning',
     'success_redirecting'       => '"Success... Redirecting.',
@@ -602,10 +568,7 @@ return [
     'no_autoassign_licenses_help' => 'Do not include user for bulk-assigning through the license UI or cli tools.',
     'modal_confirm_generic'      => 'Are you sure?',
     'cannot_be_deleted'      => 'This item cannot be deleted',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'This item cannot be edited.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'This item cannot be checked out. Check the quantity remaining.',
     'serial_number'        => 'Serial Number',
     'item_notes' => ':item Notes',
@@ -634,11 +597,8 @@ return [
         'address2' => 'Address Line 2',
         'import_note' => 'Imported using csv importer',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% تکمیل',
     'uploading' => 'Uploading... ',
     'upload_error' => 'Error uploading file. Please check that there are no empty rows and that no column names are duplicated.',
@@ -651,9 +611,6 @@ return [
     'action_permission_generic' => 'You do not have permission to :action this :item_type',
     'edit' => 'ويرايش',
     'action_source' => 'Action Source',
-<<<<<<< HEAD
-
-=======
     'or' => 'or',
     'url'                   => 'نشانی اینترنتی',
     'edit_fieldset' => 'Edit fieldset fields and options',
@@ -694,5 +651,4 @@ return [
     'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
     'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

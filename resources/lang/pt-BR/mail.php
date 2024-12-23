@@ -62,13 +62,7 @@ return [
     'link_to_update_password' => 'Por favor clique no link abaixo para atualizar a sua senha do :web:',
     'login' => 'Entrar',
     'login_first_admin' => 'Faça login na sua instalação do Snipe-IT usando os dados abaixo:',
-<<<<<<< HEAD
-    'login' => 'Login:',
-    'Low_Inventory_Report' => 'Relatório de baixas de inventario',
-    'inventory_report' => 'Relatório de Inventário',
-=======
     'low_inventory_alert' => 'Há um :count que está abaixo do estoque mínimo ou em breve estará abaixo. | Existem :count items que estão abaixo do estoque mínimo ou em breve estarão baixos.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Qtde. Min',
     'name' => 'Nome',
     'new_item_checked' => 'Um novo item foi atribuído em seu nome, os detalhes estão abaixo.',
@@ -97,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'Você tem Ativos não Aceitos.',
     'welcome' => 'Bem-vindo(a), :name',
     'welcome_to' => 'Bem-vindo ao :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Suas credenciais do Snipe-IT',
-    'Accessory_Checkin_Notification' => 'Ativo verificado em',
-    'Asset_Checkin_Notification' => 'Ativo verificado em',
-    'Asset_Checkout_Notification' => 'Ativo retornado',
-    'License_Checkin_Notification' => 'Licença verificada em',
-    'Expected_Checkin_Report' => 'Relatório de check-in de ativos esperado',
-    'Expected_Checkin_Notification' => 'Lembrete: :name prazo de devolução aproximando',
-    'Expected_Checkin_Date' => 'Um ativo com check-out para você deve ser verificado novamente em :date',
-    'your_assets' => 'Ver seus ativos',
-    'rights_reserved' => 'Todos os direitos reservados.',
-=======
     'your_assets' => 'Ver seus ativos',
     'your_credentials' => 'Suas credenciais do Snipe-IT',
     'mail_sent' => 'Email enviado com sucesso!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

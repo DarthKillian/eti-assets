@@ -1,17 +1,6 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'Un usuario ha aceptado un artículo',
-    'acceptance_asset_declined' => 'Un usuario ha rechazado un artículo',
-    'a_user_canceled' => 'Un usuario ha cancelado una solicitud de articulo en el sitio web',
-    'a_user_requested' => 'Un usuario ha solicitado un artículo en el sitio web',
-    'accessory_name' => 'Nombre del Accesorio:',
-    'additional_notes' => 'Notas Adicionales:',
-    'admin_has_created' => 'Un administrador ha creado una cuenta para ti en el sitio web de :web.',
-    'asset' => 'Activo:',
-    'asset_name' => 'Nombre de Activo:',
-=======
 
     'Accessory_Checkin_Notification' => 'Accesorio ingresado',
     'Accessory_Checkout_Notification' => 'Accesorio asignado',
@@ -45,7 +34,6 @@ return [
     'admin_has_created' => 'Un administrador ha creado una cuenta para usted en el sitio :web.',
     'asset' => 'Activo',
     'asset_name' => 'Nombre del activo',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'asset_requested' => 'Activo solicitado',
     'asset_tag' => 'Placa del activo',
     'assets_warrantee_alert' => 'Hay :count activo con una garantía que expira en los próximos :threshold days.|Hay :count activos con garantías que expiran en los siguientes :threshold days.',
@@ -66,17 +54,6 @@ return [
     'expires' => 'Vence',
     'hello' => 'Hola',
     'hi' => 'Hola',
-<<<<<<< HEAD
-    'i_have_read' => 'He leído y acepto los términos de uso, y he recibido éste artículo.',
-    'item' => 'Artículo:',
-    'Item_Request_Canceled' => 'Solicitud de Artículo Cancelada',
-    'Item_Requested' => 'Artículo Solicitado',
-    'link_to_update_password' => 'Haz click en el siguiente link para actualizar la contraseña de tu :web:',
-    'login_first_admin' => 'Inicia sesión en tu nueva instalación de Snipe-IT usando las credenciales abajo:',
-    'login' => 'Iniciar Sesión:',
-    'Low_Inventory_Report' => 'Reporte de inventario bajo',
-    'inventory_report' => 'Informe de inventario',
-=======
     'i_have_read' => 'He leído y aceptado los términos de uso, y he recibido este artículo.',
     'inventory_report' => 'Informe de inventario',
     'item' => 'Elemento',
@@ -86,7 +63,6 @@ return [
     'login' => 'Iniciar sesión',
     'login_first_admin' => 'Inicie sesión en su nueva instalación de Snipe-IT usando las credenciales:',
     'low_inventory_alert' => 'Hay :count elemento que está por debajo del inventario mínimo o que pronto lo estará.|Hay :count elementos que están por debajo del inventario mínimo o que pronto lo estarán.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'min_QTY' => 'Cantidad mínima',
     'name' => 'Nombre',
     'new_item_checked' => 'Un nuevo artículo ha sido asignado a su nombre, los detalles están a continuación.',
@@ -107,14 +83,7 @@ return [
     'test_email' => 'Email de prueba de Snipe-IT',
     'test_mail_text' => 'Esto es una prueba desde el sistema de gestión de activos Snipe-IT. Si recibió este mensaje, el correo está funcionando :)',
     'the_following_item' => 'El siguiente artículo ha sido devuelto: ',
-<<<<<<< HEAD
-    'low_inventory_alert' => 'Hay :count elemento que está por debajo del inventario mínimo o que pronto estará debajo.|Hay :count elementos que están por debajo del inventario mínimo o que pronto serán bajos.',
-    'assets_warrantee_alert' => 'Hay :count activo con una garantía que expira en los próximos :threshold days.|Hay :count activos con garantías que expiran en los siguientes :threshold days.',
-    'license_expiring_alert' => 'Hay :count licencia que expira en los próximos :threshold días. | Hay :count licencias que expiran en los próximos :threshold días.',
-    'to_reset' => 'Para restaurar tu contraseña de :web, rellena este formulario:',
-=======
     'to_reset' => 'Para restaurar su contraseña de :web, diligencie este formulario:',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'type' => 'Tipo',
     'upcoming-audits' => 'Hay :count activo para ser auditado antes de :threshold días.|Hay :count activos para ser auditados antes de :threshold días.',
     'user' => 'Usuario',
@@ -122,20 +91,7 @@ return [
     'unaccepted_asset_reminder' => 'Tiene activos pendientes por aceptar.',
     'welcome' => 'Bienvenido :name',
     'welcome_to' => '¡Bienvenido a :web!',
-<<<<<<< HEAD
-    'your_credentials' => 'Tus credenciales de Snipe-IT',
-    'Accessory_Checkin_Notification' => 'Accesorio devuelto',
-    'Asset_Checkin_Notification' => 'Activo devuelto',
-    'Asset_Checkout_Notification' => 'Recurso reservado',
-    'License_Checkin_Notification' => 'Licencia devuelta',
-    'Expected_Checkin_Report' => 'Informe de devolución de activo esperado',
-    'Expected_Checkin_Notification' => 'Recordatorio: :name se acerca la fecha de devolución',
-    'Expected_Checkin_Date' => 'Un activo asignado a ti debe ser devuelto en :date',
-    'your_assets' => 'Ver tus activos',
-    'rights_reserved' => 'Todos los derechos reservados.',
-=======
     'your_assets' => 'Ver sus activos',
     'your_credentials' => 'Sus credenciales de Snipe-IT',
     'mail_sent' => '¡Correo enviado exitosamente!.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

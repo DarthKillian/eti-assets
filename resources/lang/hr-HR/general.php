@@ -46,13 +46,8 @@ return [
     'bulkaudit'             => 'Skupna revizija',
     'bulkaudit_status'      => 'Status revizije',
     'bulk_checkout'  		=> 'Bulk Checkout',
-<<<<<<< HEAD
-    'bulk_edit'             => 'Bulk Edit',
-    'bulk_delete'           => 'Bulk Delete',
-=======
     'bulk_edit'             => 'Masovno uredi',
     'bulk_delete'           => 'Masovno briši',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'bulk_actions'          => 'Masovne radnje',
     'bulk_checkin_delete'   => 'Bulk Checkin / Delete Users',
     'byod'                  => 'BYOD',
@@ -82,13 +77,8 @@ return [
     'consumable'			=> 'potrošni',
     'consumables'			=> 'Potrošni',
     'country'  				=> 'Zemlja',
-<<<<<<< HEAD
-    'could_not_restore'     => 'Error restoring :item_type: :error',
-    'not_deleted'           => 'The :item_type is not deleted so it cannot be restored',
-=======
     'could_not_restore'     => 'Greška u obnavljanju :item_type: :error',
     'not_deleted'           => 'The :item_type was not deleted and therefore cannot be restored',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'create'				=> 'Izradi novu',
     'created'               => 'Stavka je stvorena',
     'created_asset'			=> 'stvorio imovinu',
@@ -109,11 +99,7 @@ return [
     'debug_warning_text'    => 'Ova se aplikacija izvodi u načinu rada s omogućenim uklanjanjem pogrešaka. To može otkriti osjetljive podatke ako je aplikacija dostupna vanjskom svijetu. Onemogućite način otklanjanja pogrešaka postavljanjem vrijednosti <code>APP_DEBUG</code> u <code>.env</code> datoteci na <code>false</code>.',
     'delete'  				=> 'Izbrisati',
     'delete_confirm'  		=> 'Jeste li sigurni da želite izbrisati :item?',
-<<<<<<< HEAD
-    'delete_confirm_no_undo' => 'Are you sure you wish to delete :item? This can not be undone.',
-=======
     'delete_confirm_no_undo' => 'Are you sure, you wish to delete :item? This cannot be undone.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'deleted'  				=> 'izbrisana',
     'delete_seats'  		=> 'Izbrisana mjesta',
     'deletion_failed'       => 'Deletion failed',
@@ -140,15 +126,9 @@ return [
     'firstname_lastname_format'	=> 'Prezime prezime (jane.smith@example.com)',
     'firstname_lastname_underscore_format' => 'Ime Prezime (jane_smith@example.com)',
     'lastnamefirstinitial_format' =>  'Prezime Prvo slovo imena (smithj@example.com)',
-<<<<<<< HEAD
-    'firstintial_dot_lastname_format' => 'First Initial Last Name (j.smith@example.com)',
-    'firstname_lastname_display'	=> 'First Name Last Name (Jane Smith)',
-    'lastname_firstname_display'	=> 'Last Name First Name (Smith Jane)',
-=======
     'firstintial_dot_lastname_format' => 'Inicijal imena i prezime (i.ivic)',
     'firstname_lastname_display'	=> 'Ime prezime (Ivana Ivić)',
     'lastname_firstname_display'	=> 'Prezime ime (Ivić Ivana)',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'name_display_format'	=> 'Name Display Format',
     'first'					=> 'Prvi',
     'firstnamelastname'     => 'First Name Last Name (janesmith@example.com)',
@@ -177,15 +157,9 @@ return [
     'image_delete'         	=> 'Izbriši sliku',
     'include_deleted'       => 'Include Deleted Assets',
     'image_upload'         	=> 'Prenesite sliku',
-<<<<<<< HEAD
-    'filetypes_accepted_help'    => 'Accepted filetype is :types. Max upload size allowed is :size.|Accepted filetypes are :types. Max upload size allowed is :size.',
-    'filetypes_size_help'   => 'Max upload size allowed is :size.',
-    'image_filetypes_help'  => 'Accepted filetypes are jpg, webp, png, gif, and svg. Max upload size allowed is :size.',
-=======
     'filetypes_accepted_help'    => 'Accepted filetype is :types. The maximum size allowed is :size.|Accepted filetypes are :types. The maximum upload size allowed is :size.',
     'filetypes_size_help'   => 'The maximum upload size allowed is :size.',
     'image_filetypes_help'  => 'Accepted Filetypes are jpg, webp, png, gif, svg, and avif. The maximum upload size allowed is :size.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unaccepted_image_type'  => 'This image file was not readable. Accepted filetypes are jpg, webp, png, gif, and svg. The mimetype of this file is: :mimetype.',
     'import'         	    => 'Uvoz',
     'import_this_file'      => 'Map fields and process this file',
@@ -301,11 +275,7 @@ return [
     'signed_off_by'         => 'Signed Off By',
     'skin'       			=> 'Skin',
     'webhook_msg_note'        => 'A notification will be sent via webhook',
-<<<<<<< HEAD
-    'webhook_test_msg'        => 'Oh hai! Looks like your :app integration with Snipe-IT is working!',
-=======
     'webhook_test_msg'        => 'Oh hai! It looks like your :app integration with Snipe-IT is working!',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'some_features_disabled' => 'DEMO MODE: Neke su značajke onemogućene za ovu instalaciju.',
     'site_name'				=> 'Ime stranice',
     'state'  				=> 'država',
@@ -337,10 +307,7 @@ return [
     'user'					=> 'Korisnik',
     'accepted'			    => 'priznat',
     'declined'			    => 'odbijeno',
-<<<<<<< HEAD
-=======
     'declined_note'         => 'Declined Notes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'unassigned'            => 'Unassigned',
     'unaccepted_asset_report' => 'Neprihvaćene imovine',
     'users'                 => 'Korisnici',
@@ -375,13 +342,8 @@ return [
     'view_all'              => 'view all',
     'hide_deleted'          => 'Hide Deleted',
     'email'                 => 'E-mail',
-<<<<<<< HEAD
-    'do_not_change'         => 'Do Not Change',
-    'bug_report'            => 'Report a Bug',
-=======
     'do_not_change'         => 'Do not change',
     'bug_report'            => 'Report a bug',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_manual'           => 'User\'s Manual',
     'setup_step_1'          => 'Step 1',
     'setup_step_2'          => 'Step 2',
@@ -431,11 +393,7 @@ return [
     'consumables_count'     => 'Consumables Count',
     'components_count'      => 'Components Count',
     'licenses_count'        => 'Licenses Count',
-<<<<<<< HEAD
-    'notification_error'    => 'Error',
-=======
     'notification_error'    => 'Greška',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'notification_error_hint' => 'Please check the form below for errors',
     'notification_bulk_error_hint' => 'The following fields had validation errors and were not edited:',
     'notification_success'  => 'Success',
@@ -463,11 +421,7 @@ return [
     'bulk_soft_delete'      =>'Also soft-delete these users. Their asset history will remain intact unless/until you purge deleted records in the Admin Settings.',
     'bulk_checkin_delete_success' => 'Your selected users have been deleted and their items have been checked in.',
     'bulk_checkin_success' => 'The items for the selected users have been checked in.',
-<<<<<<< HEAD
-    'set_to_null'           => 'Delete values for this asset|Delete values for all :asset_count assets ',
-=======
     'set_to_null'           => 'Delete values for this selection|Delete values for all :selection_count selections ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'set_users_field_to_null'  => 'Delete :field values for this user|Delete :field values for all :user_count users ',
     'na_no_purchase_date'   => 'N/A - No purchase date provided',
     'assets_by_status'      => 'Assets by Status',
@@ -506,21 +460,14 @@ return [
     'auto_incrementing_asset_tags_disabled_so_tags_required' => 'Generating auto-incrementing asset tags is disabled so all rows need to have the "Asset Tag" column populated.',
     'auto_incrementing_asset_tags_enabled_so_now_assets_will_be_created' => 'Note: Generating auto-incrementing asset tags is enabled so assets will be created for rows that do not have "Asset Tag" populated. Rows that do have "Asset Tag" populated will be updated with the provided information.',
     'send_welcome_email_to_users'   => ' Send Welcome Email for new Users?',
-<<<<<<< HEAD
-=======
     'send_email'                => 'Send Email',
     'call'                      => 'Call number',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'back_before_importing'     => 'Backup before importing?',
     'csv_header_field'          => 'CSV Header Field',
     'import_field'              => 'Import Field',
     'sample_value'              => 'Sample Value',
     'no_headers'                => 'No Columns Found',
     'error_in_import_file'      => 'There was an error reading the CSV file: :error',
-<<<<<<< HEAD
-    'percent_complete'          => ':percent % Complete',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'errors_importing'          => 'Some Errors occurred while importing: ',
     'warning'                   => 'WARNING: :warning',
     'success_redirecting'       => '"Success... Redirecting.',
@@ -536,10 +483,7 @@ return [
     'no_autoassign_licenses_help' => 'Do not include user for bulk-assigning through the license UI or cli tools.',
     'modal_confirm_generic'      => 'Are you sure?',
     'cannot_be_deleted'      => 'This item cannot be deleted',
-<<<<<<< HEAD
-=======
     'cannot_be_edited'      => 'This item cannot be edited.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'undeployable_tooltip'      => 'This item cannot be checked out. Check the quantity remaining.',
     'serial_number'        => 'Serial Number',
     'item_notes' => ':item Notes',
@@ -568,11 +512,8 @@ return [
         'address2' => 'Address Line 2',
         'import_note' => 'Imported using csv importer',
     ],
-<<<<<<< HEAD
-=======
     'remove_customfield_association' => 'Remove this field from the fieldset. This will not delete the custom field, only this field\'s association with this fieldset.',
     'checked_out_to_fields' => 'Checked Out To Fields',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'percent_complete' => '% potpun',
     'uploading' => 'Uploading... ',
     'upload_error' => 'Error uploading file. Please check that there are no empty rows and that no column names are duplicated.',
@@ -585,9 +526,6 @@ return [
     'action_permission_generic' => 'You do not have permission to :action this :item_type',
     'edit' => 'uredi',
     'action_source' => 'Action Source',
-<<<<<<< HEAD
-
-=======
     'or' => 'or',
     'url'                   => 'URL',
     'edit_fieldset' => 'Edit fieldset fields and options',
@@ -628,5 +566,4 @@ return [
     'import_asset_tag_exists' => 'An asset with the asset tag :asset_tag already exists and an update was not requested. No change was made.',
     'countries_manually_entered_help' => 'Values with an asterisk (*) were manually entered and do not match existing ISO 3166 dropdown values',
 
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 ];

@@ -1,34 +1,11 @@
 <?php
 
 return [
-<<<<<<< HEAD
-    'acceptance_asset_accepted' => 'A user has accepted an item',
-    'acceptance_asset_declined' => 'A user has declined an item',
-    'a_user_canceled' => 'Хэрэглэгч вэбсайт дээрх зүйл хүсэлтийг цуцалсан байна',
-    'a_user_requested' => 'Хэрэглэгч вэбсайт дээрх зүйлийг хүссэн байна',
-    'accessory_name' => 'Дагалдах хэрэгслийн нэр:',
-    'additional_notes' => 'Нэмэлт тайлбар:',
-    'admin_has_created' => 'Администратор танд зориулж дараах вэбсайт дээр акаунт үүсгэсэн байна.',
-    'asset' => 'Актив:',
-    'asset_name' => 'Хөрөнгийн нэр:',
-    'asset_requested' => 'Хөрөнгө хүссэн',
-    'asset_tag' => 'Хөрөнгийн шошго',
-    'assigned_to' => 'Томилогдсон',
-    'best_regards' => 'Хамгийн сайн нь,',
-    'canceled' => 'Цуцалсан:',
-    'checkin_date' => 'Огноо шалгах:',
-    'checkout_date' => 'Тооцоо хийх өдөр:',
-    'click_to_confirm' => 'Вэбсайтаа баталгаажуулахын тулд дараах холбоос дээр дарна уу:',
-    'click_on_the_link_accessory' => 'Дагалдах хэрэгслийг хүлээн авсан гэдгээ батлахын тулд доорх холбоос дээр дарна уу.',
-    'click_on_the_link_asset' => 'Хөрөнгийг хүлээн авсан гэдгээ батлахын тулд доорх холбоос дээр дарна уу.',
-    'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
-=======
 
     'Accessory_Checkin_Notification' => 'Accessory checked in',
     'Accessory_Checkout_Notification' => 'Accessory checked out',
     'Asset_Checkin_Notification' => 'Asset checked in',
     'Asset_Checkout_Notification' => 'Asset checked out',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'Confirm_Accessory_Checkin' => 'Accessory checkin confirmation',
     'Confirm_Asset_Checkin' => 'Asset checkin confirmation',
     'Confirm_accessory_delivery' => 'Accessory delivery confirmation',
@@ -114,17 +91,6 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'Тавтай морилно уу: нэр',
     'welcome_to' => 'Тавтай морилно уу: Вэб хуудас!',
-<<<<<<< HEAD
-    'your_credentials' => 'Таны Snipe-IT итгэмжлэлүүд',
-    'Accessory_Checkin_Notification' => 'Accessory checked in',
-    'Asset_Checkin_Notification' => 'Asset checked in',
-    'Asset_Checkout_Notification' => 'Asset checked out',
-    'License_Checkin_Notification' => 'License checked in',
-    'Expected_Checkin_Report' => 'Expected asset checkin report',
-    'Expected_Checkin_Notification' => 'Reminder: :name checkin deadline approaching',
-    'Expected_Checkin_Date' => 'An asset checked out to you is due to be checked back in on :date',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'View Your Assets',
     'your_credentials' => 'Таны Snipe-IT итгэмжлэлүүд',
     'mail_sent' => 'Mail sent successfully!',

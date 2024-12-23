@@ -100,21 +100,6 @@ return [
     'unaccepted_asset_reminder' => 'You have Unaccepted Assets.',
     'welcome' => 'خوش آمدید نام',
     'welcome_to' => 'به وب سایت خوش آمدید',
-<<<<<<< HEAD
-    'your_credentials' => 'مدارک Snipe-IT شما',
-    'Accessory_Checkin_Notification' => 'لوازم جانبی بررسی شد',
-    'Asset_Checkin_Notification' => 'دارایی ثبت شد
-',
-    'Asset_Checkout_Notification' => 'Asset checked out',
-    'License_Checkin_Notification' => 'مجوز بررسی شد
-',
-    'Expected_Checkin_Report' => 'گزارش بررسی دارایی مورد انتظار
-',
-    'Expected_Checkin_Notification' => 'یادآوری: :نام مهلت اعلام حضور نزدیک است
-',
-    'Expected_Checkin_Date' => 'دارایی‌ای که برای شما بررسی شده است باید دوباره در تاریخ :date بررسی شود',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'your_assets' => 'دارایی های خود را مشاهده کنید
 ',
     'your_credentials' => 'مدارک Snipe-IT شما',

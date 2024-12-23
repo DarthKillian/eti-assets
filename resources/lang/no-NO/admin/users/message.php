@@ -6,11 +6,7 @@ return array(
     'declined'                  => 'Du har avvist eiendelen.',
     'bulk_manager_warn'	        => 'Brukerne er oppdatert, men lederen ble ikke lagret fordi lederen du valgte også i brukerlisten for redigering og brukere kan ikke være sin egen leder. Velg brukerne igjen, unntatt lederen.',
     'user_exists'               => 'Bruker finnes allerede!',
-<<<<<<< HEAD
-    'user_not_found'            => 'Brukeren finnes ikke.',
-=======
     'user_not_found'            => 'User does not exist or you do not have permission view them.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'user_login_required'       => 'Login-feltet er påkrevd',
     'user_has_no_assets_assigned' => 'Ingen eiendeler er tilordnet brukeren for øyeblikket.',
     'user_password_required'    => 'Passord er påkrevd.',

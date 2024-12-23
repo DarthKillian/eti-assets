@@ -17,16 +17,8 @@ return [
         'error'   		=> 'Asset was not created, please try again. :(',
         'success' 		=> 'Asset created successfully. :)',
         'success_linked' => 'Asset with tag :tag was created successfully. <strong><a href=":link" style="color: white;">Click here to view</a></strong>.',
-<<<<<<< HEAD
-<<<<<<<< HEAD:resources/lang/iu-NU/admin/hardware/message.php
-========
         'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
         'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/en-US/admin/hardware/message.php
-=======
-        'multi_success_linked' => 'Asset with tag :links was created successfully.|:count assets were created succesfully. :links.',
-        'partial_failure' => 'An asset was unable to be created. Reason: :failures|:count assets were unable to be created. Reasons: :failures',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ],
 
     'update' => [
@@ -71,17 +63,7 @@ return [
         'file_delete_success'   => 'Your file has been been successfully deleted',
         'file_delete_error'      => 'The file was unable to be deleted',
         'file_missing' => 'The file selected is missing',
-<<<<<<< HEAD
-<<<<<<<< HEAD:resources/lang/iu-NU/admin/hardware/message.php
-========
         'file_already_deleted' => 'The file selected was already deleted',
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/en-US/admin/hardware/message.php
-=======
-<<<<<<<< HEAD:resources/lang/en-US/admin/hardware/message.php
-========
-        'file_already_deleted' => 'The file selected was already deleted',
->>>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65:resources/lang/iu-NU/admin/hardware/message.php
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'header_row_has_malformed_characters' => 'One or more attributes in the header row contain malformed UTF-8 characters',
         'content_row_has_malformed_characters' => 'One or more attributes in the first row of content contain malformed UTF-8 characters',
     ],

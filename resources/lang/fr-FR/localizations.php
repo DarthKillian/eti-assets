@@ -40,13 +40,9 @@ return [
         'ms-MY'=> 'Malais',
         'mi-NZ'=> 'Maori',
         'mn-MN'=> 'Mongol',
-<<<<<<< HEAD
-        'no-NO'=> 'Norvégien',
-=======
         //'no-NO'=> 'Norwegian',
         'nb-NO'=> 'Norvégien (Bokmål)',
         //'nn-NO'=> 'Norwegian Nynorsk',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'fa-IR'=> 'Perse',
         'pl-PL'=> 'Polonais',
         'pt-PT'=> 'Portugais',
@@ -54,14 +50,9 @@ return [
         'ro-RO'=> 'Roumain',
         'ru-RU'=> 'Russe',
         'sr-CS' => 'Serbe (latin)',
-<<<<<<< HEAD
-        'sk-SK'=> 'Slovak',
-        'sl-SI'=> 'Slovène',
-=======
         'sk-SK'=> 'Slovaque',
         'sl-SI'=> 'Slovène',
         'so-SO'=> 'Somali',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'Espagnol',
         'es-CO'=> 'Espagnol, Colombie',
         'es-MX'=> 'Espagnol, Mexique',

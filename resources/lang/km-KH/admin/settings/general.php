@@ -9,13 +9,8 @@ return [
     'ad_append_domain_help'     => 'អ្នក​ប្រើ​មិន​ត្រូវ​បាន​តម្រូវ​ឱ្យ​សរសេរ "username@domain.local" ទេ ពួកគេ​គ្រាន់តែ​វាយ​ពាក្យ "username"។',
     'admin_cc_email'            => 'CC អ៊ីមែល',
     'admin_cc_email_help'       => 'ប្រសិនបើ​អ្នក​ចង់​ផ្ញើ​ច្បាប់​ចម្លង​នៃ​អ៊ីមែល checkin​/​checkout ​ដែល​ត្រូវ​បាន​ផ្ញើ​ទៅ​អ្នក​ប្រើ​ទៅកាន់​គណនី​អ៊ីមែល​បន្ថែម សូម​បញ្ចូល​វា​នៅទីនេះ។ បើមិនដូច្នោះទេទុក field នេះឱ្យនៅទទេ។',
-<<<<<<< HEAD
-    'admin_settings'            => 'Admin Settings',
-    'is_ad'				        => 'This is an Active Directory server',
-=======
     'admin_settings'            => 'ការកំណត់អ្នកគ្រប់គ្រង',
     'is_ad'				        => 'នេះគឺជាម៉ាស៊ីនមេ Active Directory',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'alerts'                	=> 'ការជូនដំណឹង',
     'alert_title'               => 'ធ្វើបច្ចុប្បន្នភាពការកំណត់ការជូនដំណឹង',
     'alert_email'				=> 'ផ្ញើការជូនដំណឹងទៅ',
@@ -36,71 +31,14 @@ return [
     'backups'					=> 'ការបម្រុងទុក',
     'backups_help'              => 'បង្កើត ទាញយក និងស្ដារការបម្រុងទុក ',
     'backups_restoring'         => 'ការស្ដារឡើងវិញពីការបម្រុងទុក',
-<<<<<<< HEAD
-=======
     'backups_clean' => 'សម្អាតមូលដ្ឋានទិន្នន័យដែលបានបម្រុងទុកមុនពេលស្តារឡើងវិញ',
     'backups_clean_helptext' => "វាអាចមានប្រយោជន៍ប្រសិនបើអ្នកកំពុងផ្លាស់ប្តូររវាងកំណែមូលដ្ឋានទិន្នន័យ",
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'backups_upload'            => 'ផ្ទុកឡើងការបម្រុងទុក',
     'backups_path'              => 'ការបម្រុងទុកនៅលើម៉ាស៊ីនមេត្រូវបានរក្សាទុកក្នុង <code>:path</code>',
     'backups_restore_warning'   => 'ប្រើប៊ូតុងស្ដារ <small><span class="btn btn-xs btn-warning"><i class="text-white fas fa-retweet" aria-hidden="true"></i></span> </small> ដើម្បីស្តារពីការបម្រុងទុកពីមុន។ (បច្ចុប្បន្នវាមិនដំណើរការជាមួយការផ្ទុកឯកសារ S3 ឬ Docker ទេ។)<br><br>មូលដ្ឋានទិន្នន័យ <strong>ទាំងមូល :app_name របស់អ្នក និងឯកសារដែលបានផ្ទុកឡើងណាមួយនឹងត្រូវបានជំនួសទាំងស្រុង</strong> ដោយអ្វីដែលមាននៅក្នុងឯកសារបម្រុងទុក។  ',
     'backups_logged_out'         => 'អ្នក​ប្រើ​ដែល​មាន​ស្រាប់​ទាំង​អស់ រួម​ទាំង​អ្នក​នឹង​ត្រូវ​បានចាក​ចេញ​នៅ​ពេល​ដែល​ការ​ស្ដារ​របស់​អ្នក​ត្រូវ​បាន​បញ្ចប់។',
     'backups_large'             => 'ការបម្រុងទុកដ៏ធំបំផុតអាចនឹងអស់ពេលក្នុងការព្យាយាមស្ដារ ហើយប្រហែលជានៅតែត្រូវដំណើរការតាមរយៈបន្ទាត់ពាក្យបញ្ជា។ ',
     'barcode_settings'			=> 'ការកំណត់បាកូដ',
-<<<<<<< HEAD
-    'confirm_purge'			    => 'Confirm Purge',
-    'confirm_purge_help'		=> 'Enter the text "DELETE" in the box below to purge your deleted records. This action cannot be undone and will PERMANENTLY delete all soft-deleted items and users. (You should make a backup first, just to be safe.)',
-    'custom_css'				=> 'Custom CSS',
-    'custom_css_help'			=> 'Enter any custom CSS overrides you would like to use. Do not include the &lt;style&gt;&lt;/style&gt; tags.',
-    'custom_forgot_pass_url'	=> 'Custom Password Reset URL',
-    'custom_forgot_pass_url_help'	=> 'This replaces the built-in forgotten password URL on the login screen, useful to direct people to internal or hosted LDAP password reset functionality. It will effectively disable local user forgotten password functionality.',
-    'dashboard_message'			=> 'Dashboard Message',
-    'dashboard_message_help'	=> 'This text will appear on the dashboard for anyone with permission to view the dashboard.',
-    'default_currency'  		=> 'រូបិយប័ណ្ណលំនាំដើម',
-    'default_eula_text'			=> 'EULA លំនាំដើម',
-    'default_language'			=> 'ភាសាលំនាំដើម',
-    'default_eula_help_text'	=> 'You can also associate custom EULAs to specific asset categories.',
-    'display_asset_name'        => 'បង្ហាញ​ឈ្មោះ​ទ្រព្យសកម្ម',
-    'display_checkout_date'     => 'Display Checkout Date',
-    'display_eol'               => 'បង្ហាញ EOL នៅក្នុងទិដ្ឋភាពតារាង',
-    'display_qr'                => 'Display Square Codes',
-    'display_alt_barcode'		=> 'Display 1D barcode',
-    'email_logo'                => 'Email Logo',
-    'barcode_type'				=> '2D Barcode Type',
-    'alt_barcode_type'			=> '1D barcode type',
-    'email_logo_size'       => 'Square logos in email look best. ',
-    'enabled'                   => 'Enabled',
-    'eula_settings'				=> 'EULA Settings',
-    'eula_markdown'				=> 'This EULA allows <a href="https://help.github.com/articles/github-flavored-markdown/">Github flavored markdown</a>.',
-    'favicon'                   => 'Favicon',
-    'favicon_format'            => 'Accepted filetypes are ico, png, and gif. Other image formats may not work in all browsers.',
-    'favicon_size'          => 'Favicons should be square images, 16x16 pixels.',
-    'footer_text'               => 'Additional Footer Text ',
-    'footer_text_help'          => 'This text will appear in the right-side footer. Links are allowed using <a href="https://help.github.com/articles/github-flavored-markdown/">Github flavored markdown</a>. Line breaks, headers, images, etc may result in unpredictable results.',
-    'general_settings'			=> 'General Settings',
-    'general_settings_keywords' => 'company support, signature, acceptance, email format, username format, images, per page, thumbnail, eula,  tos, dashboard, privacy',
-    'general_settings_help'     => 'Default EULA and more',
-    'generate_backup'			=> 'Generate Backup',
-    'header_color'              => 'Header Color',
-    'info'                      => 'These settings let you customize certain aspects of your installation.',
-    'label_logo'                => 'Label Logo',
-    'label_logo_size'           => 'Square logos look best - will be displayed in the top right of each asset label. ',
-    'laravel'                   => 'Laravel Version',
-    'ldap'                      => 'LDAP',
-    'ldap_default_group'        => 'Default Permissions Group',
-    'ldap_default_group_info'   => 'Select a group to assign to newly synced users. Remember that a user takes on the permissions of the group they are assigned.',
-    'no_default_group'          => 'No Default Group',
-    'ldap_help'                 => 'LDAP/Active Directory',
-    'ldap_client_tls_key'       => 'LDAP Client TLS Key',
-    'ldap_client_tls_cert'      => 'LDAP Client-Side TLS Certificate',
-    'ldap_enabled'              => 'LDAP enabled',
-    'ldap_integration'          => 'LDAP Integration',
-    'ldap_settings'             => 'LDAP Settings',
-    'ldap_client_tls_cert_help' => 'Client-Side TLS Certificate and Key for LDAP connections are usually only useful in Google Workspace configurations with "Secure LDAP." Both are required.',
-     'ldap_client_tls_key'       => 'LDAP Client-Side TLS key',
-    'ldap_location'             => 'LDAP Location',
-'ldap_location_help'             => 'The Ldap Location field should be used if <strong>an OU is not being used in the Base Bind DN.</strong> Leave this blank if an OU search is being used.',
-=======
     'confirm_purge'			    => 'បញ្ជាក់ការលុប',
     'confirm_purge_help'		=> 'បញ្ចូលអត្ថបទ "DELETE" នៅក្នុងប្រអប់ខាងក្រោម ដើម្បីលុបកំណត់ត្រាដែលបានលុបរបស់អ្នក។ សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ ហើយនឹងលុបធាតុដែលបានលុប និងអ្នកប្រើប្រាស់ទាំងអស់ជាអចិន្ត្រៃយ៍។ (អ្នកគួរតែធ្វើការបម្រុងទុកជាមុនសិន ទើបមានសុវត្ថិភាព។)',
     'custom_css'				=> 'បញ្ចូលអត្ថបទ "DELETE" នៅក្នុងប្រអប់ខាងក្រោម ដើម្បីលុបកំណត់ត្រាដែលបានលុបរបស់អ្នក។ សកម្មភាពនេះមិនអាចត្រឡប់វិញបានទេ ហើយនឹងលុបធាតុដែលបានលុប និងអ្នកប្រើប្រាស់ទាំងអស់ជាអចិន្ត្រៃយ៍។ (អ្នកគួរតែធ្វើការបម្រុងទុកជាមុនសិន ទើបមានសុវត្ថិភាព។)',
@@ -154,16 +92,11 @@ return [
     'ldap_client_tls_cert_help' => 'វិញ្ញាបនបត្រ TLS ខាង Client-Side និងកូនសោសម្រាប់ការតភ្ជាប់ LDAP ជាធម្មតាមានប្រយោជន៍តែនៅក្នុងការកំណត់រចនាសម្ព័ន្ធ Google Workspace ជាមួយ " LDAP សុវត្ថិភាព។" ទាំងពីរត្រូវបានទាមទារ។',
     'ldap_location'             => 'ទីតាំង LDAP',
 'ldap_location_help'             => 'វាលទីតាំង Ldap គួរតែត្រូវបានប្រើ ប្រសិនបើ <strong> OU មិនត្រូវបានប្រើនៅក្នុង Base Bind DN។</strong> ទុកវាឱ្យនៅទទេ ប្រសិនបើការស្វែងរក OU កំពុងត្រូវបានប្រើប្រាស់។',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_login_test_help'      => 'Enter a valid LDAP username and password from the base DN you specified above to test whether your LDAP login is configured correctly. YOU MUST SAVE YOUR UPDATED LDAP SETTINGS FIRST.',
     'ldap_login_sync_help'      => 'This only tests that LDAP can sync correctly. If your LDAP Authentication query is not correct, users may still not be able to login. YOU MUST SAVE YOUR UPDATED LDAP SETTINGS FIRST.',
     'ldap_manager'              => 'LDAP Manager',
     'ldap_server'               => 'LDAP Server',
-<<<<<<< HEAD
-    'ldap_server_help'          => 'This should start with ldap:// (for unencrypted or TLS) or ldaps:// (for SSL)',
-=======
     'ldap_server_help'          => 'This should start with ldap:// (for unencrypted) or ldaps:// (for TLS or SSL)',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_server_cert'			=> 'LDAP SSL certificate validation',
     'ldap_server_cert_ignore'	=> 'អនុញ្ញាតឱ្យវិញ្ញាបនបត្រ SSL មិនត្រឹមត្រូវ',
     'ldap_server_cert_help'		=> 'ជ្រើសរើសប្រអប់ធីកនេះ ប្រសិនបើអ្នកកំពុងប្រើវិញ្ញាបនបត្រ SSL ដែលបានចុះហត្ថលេខាដោយខ្លួនឯង ហើយចង់ទទួលយកវិញ្ញាបនបត្រ SSL ដែលមិនត្រឹមត្រូវ។',
@@ -191,13 +124,8 @@ return [
     'ldap_test'                 => 'Test LDAP',
     'ldap_test_sync'            => 'Test LDAP Synchronization',
     'license'                   => 'អាជ្ញាប័ណ្ណកម្មវិធី',
-<<<<<<< HEAD
-    'load_remote_text'          => 'Remote Scripts',
-    'load_remote_help_text'		=> 'This Snipe-IT install can load scripts from the outside world.',
-=======
     'load_remote'               => 'Load Remote Avatars',
     'load_remote_help_text'		=> 'Uncheck this box if your install cannot load scripts from the outside internet. This will prevent Snipe-IT from trying load avatars from Gravatar or other outside sources.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'login'                     => 'ការប៉ុនប៉ងចូល',
     'login_attempt'             => 'ការប៉ុនប៉ងចូល',
     'login_ip'                  => 'អាសយដ្ឋាន IP',
@@ -224,11 +152,7 @@ return [
     'optional'					=> 'optional',
     'per_page'                  => 'លទ្ធផលក្នុងមួយទំព័រ',
     'php'                       => 'កំណែ PHP',
-<<<<<<< HEAD
-    'php_info'                  => 'ព័ត៌មាន PHP',
-=======
     'php_info'                  => 'PHP info',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'php_overview'              => 'ព័ត៌មាន PHP',
     'php_overview_keywords'     => 'phpinfo, system, info',
     'php_overview_help'         => 'PHP System info',
@@ -283,10 +207,7 @@ return [
     'integrations'               => 'Integrations',
     'slack'                     => 'Slack',
     'general_webhook'           => 'General Webhook',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Microsoft Teams',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Test to Save',
     'webhook_title'               => 'Update Webhook Settings',
@@ -299,11 +220,8 @@ return [
     'webhook_integration_help'    => ':app integration is optional, however the endpoint and channel are required if you wish to use it. To configure :app integration, you must first <a href=":webhook_link" target="_new" rel="noopener">create an incoming webhook</a> on your :app account. Click on the <strong>Test :app Integration</strong> button to confirm your settings are correct before saving. ',
     'webhook_integration_help_button'    => 'Once you have saved your :app information, a test button will appear.',
     'webhook_test_help'           => 'Test whether your :app integration is configured correctly. YOU MUST SAVE YOUR UPDATED :app SETTINGS FIRST.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Enable Shortcuts',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Access key, <strong>Mac</strong>: Control + Option + Access key',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Snipe-IT version',
     'support_footer'            => 'Support Footer Links ',
     'support_footer_help'       => 'Specify who sees the links to the Snipe-IT Support info and Users Manual',
@@ -317,11 +235,7 @@ return [
     'brand_help'                => 'Logo, Site Name',
     'web_brand'                 => 'Web Branding Type',
     'about_settings_title'      => 'About Settings',
-<<<<<<< HEAD
-    'about_settings_text'       => 'These settings let you customize certain aspects of your installation.',
-=======
     'about_settings_text'       => 'ការកំណត់ទាំងនេះអនុញ្ញាតឱ្យអ្នកប្ដូរទិដ្ឋភាពជាក់លាក់នៃការដំឡើងរបស់អ្នក។',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'labels_per_page'           => 'Labels per page',
     'label_dimensions'          => 'Label dimensions (inches)',
     'next_auto_tag_base'        => 'Next auto-increment',
@@ -352,11 +266,7 @@ return [
     'two_factor_enrollment'        => 'Two-Factor Enrollment',
     'two_factor_enabled_text'        => 'Enable Two Factor',
     'two_factor_reset'        => 'Reset Two-Factor Secret',
-<<<<<<< HEAD
-    'two_factor_reset_help'        => 'This will force the user to enroll their device with Google Authenticator again. This can be useful if their currently enrolled device is lost or stolen. ',
-=======
     'two_factor_reset_help'        => 'This will force the user to enroll their device with their authenticator app again. This can be useful if their currently enrolled device is lost or stolen. ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'two_factor_reset_success'          => 'Two factor device successfully reset',
     'two_factor_reset_error'          => 'Two factor device reset failed',
     'two_factor_enabled_warning'        => 'Enabling two-factor if it is not currently enabled will immediately force you to authenticate with a Google Auth enrolled device. You will have the ability to enroll your device if one is not currently enrolled.',
@@ -370,11 +280,8 @@ return [
     'two_factor_enrollment_text'	=> "Two factor authentication is required, however your device has not been enrolled yet. Open your Google Authenticator app and scan the QR code below to enroll your device. Once you've enrolled your device, enter the code below",
     'require_accept_signature'      => 'Require Signature',
     'require_accept_signature_help_text'      => 'Enabling this feature will require users to physically sign off on accepting an asset.',
-<<<<<<< HEAD
-=======
     'require_checkinout_notes'  => 'Require Notes on Checkin/Checkout',
     'require_checkinout_notes_help_text'    => 'Enabling this feature will require the note fields to be populated when checking in or checking out an asset.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'left'        => 'left',
     'right'        => 'right',
     'top'        => 'top',
@@ -386,10 +293,6 @@ return [
     'zerofill_count'        => 'Length of asset tags, including zerofill',
     'username_format_help'   => 'This setting will only be used by the import process if a username is not provided and we have to generate a username for you.',
     'oauth_title' => 'OAuth API Settings',
-<<<<<<< HEAD
-    'oauth' => 'OAuth',
-    'oauth_help' => 'Oauth Endpoint Settings',
-=======
     'oauth_clients' => 'OAuth Clients',
     'oauth' => 'OAuth',
     'oauth_help' => 'Oauth Endpoint Settings',
@@ -402,7 +305,6 @@ return [
     'oauth_callback_url' => 'Your application authorization callback URL.',
     'create_client' => 'Create Client',
     'no_scopes' => 'No scopes',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'asset_tag_title' => 'Update Asset Tag Settings',
     'barcode_title' => 'Update Barcode Settings',
     'barcodes' => 'Barcodes',
@@ -431,10 +333,6 @@ return [
     'labels' => 'ស្លាក',
     'labels_title' => 'Update Label Settings',
     'labels_help' => 'Label sizes &amp; settings',
-<<<<<<< HEAD
-    'purge' => 'Purge',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'purge_keywords' => 'permanently delete',
     'purge_help' => 'Purge Deleted Records',
     'ldap_extension_warning' => 'It does not look like the LDAP extension is installed or enabled on this server. You can still save your settings, but you will need to enable the LDAP extension for PHP before LDAP syncing or login will work.',
@@ -461,11 +359,7 @@ return [
     'label2_asset_logo_help'  => 'Use the logo of the asset&apos;s assigned company, rather than the value at <code>:setting_name</code>',
     'label2_1d_type'          => '1D Barcode Type',
     'label2_1d_type_help'     => 'Format for 1D barcodes',
-<<<<<<< HEAD
-    'label2_2d_type'          => '2D Barcode Type',
-=======
     'label2_2d_type'          => 'ប្រភេទ 2D Barcode',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'label2_2d_type_help'     => 'Format for 2D barcodes',
     'label2_2d_target'        => '2D Barcode Target',
     'label2_2d_target_help'   => 'The URL the 2D barcode points to when scanned',
@@ -485,8 +379,6 @@ return [
     'database_driver' => 'Database Driver',
     'bs_table_storage' => 'Table Storage',
     'timezone' => 'Timezone',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Edit Profile',
     'profile_edit_help'          => 'Allow users to edit their own profiles.',
     'default_avatar' => 'Upload custom default avatar',
@@ -496,6 +388,5 @@ return [
     'due_checkin_days' => 'Due For Checkin Warning',
     'due_checkin_days_help' => 'How many days before the expected checkin of an asset should it be listed in the "Due for checkin" page?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

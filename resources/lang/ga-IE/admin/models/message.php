@@ -34,11 +34,7 @@ return array(
     'bulkedit' => array(
         'error'   		=> 'Níor athraíodh aon réimsí, mar sin níor nuashonraíodh aon rud.',
         'success' 		=> 'Model successfully updated. |:model_count models successfully updated.',
-<<<<<<< HEAD
-        'warn'          => 'You are about to update the properies of the following model: |You are about to edit the properties of the following :model_count models:',
-=======
         'warn'          => 'You are about to update the properties of the following model:|You are about to edit the properties of the following :model_count models:',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
     ),
 

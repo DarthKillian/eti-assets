@@ -6,21 +6,13 @@ return [
     'languages' => [
         'en-US'=> 'អង់គ្លេស អាមេរិក',
         'en-GB'=> 'ភាសាអង់គ្លេស ចក្រភពអង់គ្លេស',
-<<<<<<< HEAD
-        'am-ET' => 'Amharic',
-=======
         'am-ET' => 'អាំហារិក',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'af-ZA'=> 'អាហ្រ្វិក',
         'ar-SA'=> 'ភាសាអារ៉ាប់',
         'bg-BG'=> 'ប៊ុលហ្គារី',
         'zh-CN'=> 'ភាសាចិនសាមញ្ញ',
         'zh-TW'=> 'ភាសា​ចិន ប្រពៃណី',
-<<<<<<< HEAD
-        'ca-ES' => 'Catalan',
-=======
         'ca-ES' => 'កាតាឡាន',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'hr-HR'=> 'ក្រូអាត',
         'cs-CZ'=> 'ឆេក',
         'da-DK'=> 'ដាណឺម៉ាក',
@@ -48,13 +40,9 @@ return [
         'ms-MY'=> 'ម៉ាឡេ',
         'mi-NZ'=> 'ម៉ៅរី',
         'mn-MN'=> 'ម៉ុងហ្គោលី',
-<<<<<<< HEAD
-        'no-NO'=> 'ន័រវេស',
-=======
         //'no-NO'=> 'Norwegian',
         'nb-NO'=> 'ន័រវែស Bokmål',
         //'nn-NO'=> 'Norwegian Nynorsk',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'fa-IR'=> 'ពែរ្ស',
         'pl-PL'=> 'ប៉ូឡូញ',
         'pt-PT'=> 'ព័រទុយហ្គាល់',
@@ -62,14 +50,9 @@ return [
         'ro-RO'=> 'រ៉ូម៉ានី',
         'ru-RU'=> 'រុស្សី',
         'sr-CS' => 'ស៊ែប៊ី (ឡាតាំង)',
-<<<<<<< HEAD
-        'sk-SK'=> 'Slovak',
-        'sl-SI'=> 'ស្លូវេនី',
-=======
         'sk-SK'=> 'ស្លូវ៉ាគី',
         'sl-SI'=> 'ស្លូវេនី',
         'so-SO'=> 'សូម៉ាលី',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'es-ES'=> 'ភាសាអេស្ប៉ាញ',
         'es-CO'=> 'អេស្ប៉ាញ កូឡុំប៊ី',
         'es-MX'=> 'អេស្ប៉ាញ ម៉ិកស៊ិក',
@@ -132,46 +115,6 @@ return [
         'CG'=>'កុងហ្គោ (សាធារណរដ្ឋ)',
         'CH'=>'ប្រទេស​ស្វីស',
         'CI'=>'Côte d\'Ivoire',
-<<<<<<< HEAD
-        'CK'=>'Cook Islands',
-        'CL'=>'Chile',
-        'CM'=>'Cameroon',
-        'CN'=>'People\'s Republic of China',
-        'CO'=>'Colombia',
-        'CR'=>'Costa Rica',
-        'CU'=>'Cuba',
-        'CV'=>'Cape Verde',
-        'CX'=>'Christmas Island',
-        'CY'=>'Cyprus',
-        'CZ'=>'Czech Republic',
-        'DE'=>'Germany',
-        'DJ'=>'Djibouti',
-        'DK'=>'Denmark',
-        'DM'=>'Dominica',
-        'DO'=>'Dominican Republic',
-        'DZ'=>'Algeria',
-        'EC'=>'Ecuador',
-        'EE'=>'Estonia',
-        'EG'=>'Egypt',
-        'ER'=>'Eritrea',
-        'ES'=>'Spain',
-        'ET'=>'Ethiopia',
-        'EU'=>'European Union',
-        'FI'=>'Finland',
-        'FJ'=>'Fiji',
-        'FK'=>'Falkland Islands (Malvinas)',
-        'FM'=>'Micronesia, Federated States Of',
-        'FO'=>'Faroe Islands',
-        'FR'=>'France',
-        'GA'=>'Gabon',
-        'GD'=>'Grenada',
-        'GE'=>'Georgia',
-        'GF'=>'French Guiana',
-        'GG'=>'Guernsey',
-        'GH'=>'Ghana',
-        'GI'=>'Gibraltar',
-        'GL'=>'Greenland',
-=======
         'CK'=>'កោះឃុក',
         'CL'=>'ឈីលី',
         'CM'=>'កេមេរូន',
@@ -211,7 +154,6 @@ return [
         'GH'=>'ហ្គាណា',
         'GI'=>'ហ្គីលប្រាត័រ',
         'GL'=>'ហ្រ្គិនលែនដ៍',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'GM'=>'Gambia',
         'GN'=>'Guinea',
         'GP'=>'Guadeloupe',
@@ -292,10 +234,7 @@ return [
         'NG'=>'Nigeria',
         'NI'=>'Nicaragua',
         'NL'=>'Netherlands',
-<<<<<<< HEAD
-=======
         'GB-NIR' => 'Northern Ireland',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'NO'=>'Norway',
         'NP'=>'Nepal',
         'NR'=>'Nauru',
@@ -323,11 +262,7 @@ return [
         'RU'=>'Russian Federation',
         'RW'=>'Rwanda',
         'SA'=>'Saudi Arabia',
-<<<<<<< HEAD
-        'UK'=>'Scotland',
-=======
         'GB-SCT'=>'Scotland',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'SB'=>'Solomon Islands',
         'SC'=>'សីស្ហែល',
         'SS'=>'South Sudan',
@@ -379,10 +314,7 @@ return [
         'VI'=>'Virgin Islands (U.S.)',
         'VN'=>'Viet Nam',
         'VU'=>'Vanuatu',
-<<<<<<< HEAD
-=======
         'GB-WLS' =>'Wales',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
         'WF'=>'Wallis And Futuna Islands',
         'WS'=>'Samoa',
         'YE'=>'Yemen',
@@ -391,8 +323,4 @@ return [
         'ZM'=>'Zambia',
         'ZW'=>'Zimbabwe',
     ],
-<<<<<<< HEAD
 ];
-=======
-];
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65

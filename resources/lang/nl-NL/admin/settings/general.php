@@ -90,10 +90,6 @@ return [
     'ldap_integration'          => 'LDAP integratie',
     'ldap_settings'             => 'LDAP instellingen',
     'ldap_client_tls_cert_help' => 'Client-Side TLS-certificaat en sleutel voor LDAP verbindingen zijn meestal alleen nuttig in Google Workspace configuraties met "Secure LDAP." Beide zijn vereist.',
-<<<<<<< HEAD
-     'ldap_client_tls_key'       => 'LDAP Client-Side TLS-sleutel',
-=======
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'ldap_location'             => 'LDAP Locatie',
 'ldap_location_help'             => 'Het Ldap Locatie veld moet worden gebruikt als <strong>een OU niet gebruikt wordt in de Base Bind DN.</strong> Laat dit leeg als er een OU zoekopdracht wordt gebruikt.',
     'ldap_login_test_help'      => 'Voer een geldig LDAP gebruikersnaam en paswoord in van de base DN die u hierboven heeft bepaald. Dit om te testen of uw LDAP login correct is geconfigureerd. U MOET EERST UW BIJGEWERKTE LDAP INSTELLINGEN OPSLAAN.',
@@ -211,10 +207,7 @@ return [
     'integrations'               => 'Integraties',
     'slack'                     => 'Slack',
     'general_webhook'           => 'Algemene Webhook',
-<<<<<<< HEAD
-=======
     'ms_teams'                  => 'Microsoft Teams',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'webhook'                   => ':app',
     'webhook_presave'           => 'Test om op te slaan',
     'webhook_title'               => 'Webhook instellingen bijwerken',
@@ -227,11 +220,8 @@ return [
     'webhook_integration_help'    => ':app integratie is optioneel, maar het eindpunt en kanaal zijn vereist als je het wilt gebruiken. Om :app integratie te configureren, moet je eerst <a href=":webhook_link" target="_new" rel="noopener">een inkomende webhook</a> maken op je :app account. Klik op de knop <strong>Test :app Integration</strong> om te bevestigen dat je instellingen correct zijn voordat je ze opslaat. ',
     'webhook_integration_help_button'    => 'Zodra je :app informatie hebt opgeslagen, verschijnt er een testknop.',
     'webhook_test_help'           => 'Test of je :app integratie correct is geconfigureerd. JE MOET EERST DE AANGEPASTE :app INSTELLINGEN OPSLAAN.',
-<<<<<<< HEAD
-=======
     'shortcuts_enabled'         => 'Sneltoetsen inschakelen',
     'shortcuts_help_text'       => '<strong>Windows</strong>: Alt + Sneltoets, <strong>Mac</strong>: Control + Option + Sneltoets',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     'snipe_version'  			=> 'Snipe-IT Versie',
     'support_footer'            => 'Ondersteuningsvoettekst links ',
     'support_footer_help'       => 'Geef aan wie de links naar de Snipe-IT-ondersteuningsinformatie en gebruikershandleiding ziet',
@@ -389,8 +379,6 @@ return [
     'database_driver' => 'Database Stuurprogramma',
     'bs_table_storage' => 'Tafel opslag',
     'timezone' => 'Tijdzone',
-<<<<<<< HEAD
-=======
     'profile_edit'          => 'Profiel bewerken',
     'profile_edit_help'          => 'Gebruikers toestaan hun eigen profielen te bewerken.',
     'default_avatar' => 'Aangepaste standaard avatar uploaden',
@@ -400,6 +388,5 @@ return [
     'due_checkin_days' => 'Waarschuwing voor aankomende Checkin',
     'due_checkin_days_help' => 'Hoeveel dagen vóór de verwachte check-in van een product moet het worden weergegeven op de pagina "Waarschuwing voor aankomende Check-in"?',
     'no_groups' => 'No groups have been created yet. Visit <code>Admin Settings > Permission Groups</code> to add one.',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
 
 ];

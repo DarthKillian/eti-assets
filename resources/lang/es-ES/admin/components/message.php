@@ -21,17 +21,10 @@ return array(
     ),
 
      'checkout' => array(
-<<<<<<< HEAD
-        'error'   		=> 'El componente no hizo check out, intentalo de nuevo',
-        'success' 		=> 'Check out del componente satisfactorio.',
-        'user_does_not_exist' => 'El usuario es invalido, intentalo de nuevo.',
-        'unavailable'      => 'No quedan suficientes componentes: :remaining resting, :requested ',
-=======
         'error'   		=> 'El componente no fue asignado, por favor, inténtelo de nuevo',
         'success' 		=> 'El componente se ha asignado correctamente.',
         'user_does_not_exist' => 'Ese usuario no es válido. Por favor, inténtelo de nuevo.',
         'unavailable'      => 'No quedan suficientes componentes: :remaining disponibles, :requested solicitados ',
->>>>>>> 49918d330202a1e91ba8e33e3a7d3d06655c3a65
     ),
 
     'checkin' => array(
