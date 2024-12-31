@@ -33,38 +33,27 @@
             <!-- box-header -->
             <div class="box-header with-border">
 
-                @if ((isset($topSubmit) && ($topSubmit=='true')) || (isset($item->id)) || (isset($newAsset) && ($newAsset == 'true')))
-                    <div class="col-md-12 box-title text-right" style="padding: 0px; margin: 0px;">
-                            <div class="col-md-9 text-left">
-                                @if ($item->id)
-                                    <h2 class="box-title" style="padding-top: 8px; padding-bottom: 7px;">
-                                        {{ $item->display_name }}
-                                    </h2>
-                                @endif
-                            </div>
-                            @if (isset($topSubmit) && ($topSubmit=='true'))
-                            <div class="col-md-3 text-right" style="padding-right: 10px;">
-                                <button type="submit" class="btn btn-primary pull-right">
-                                    <i class="fas fa-check icon-white" aria-hidden="true"></i>
-                                    {{ trans('general.save') }}
-                                </button>
-                            </div>
-                            @endif
-                            @if((isset($newAsset) && ($newAsset == 'true')))
-                                <div class="col-md-3 text-right" style="padding-right: 10px;">
-                                    @if(Route::is('rma.create'))
-                                        <a href="{{ route('productflow.receiving', ['new_rma' => 1]) }}" class="btn btn-sm btn-primary pull-right" id="newAssetBtn" >
-                                            {{ trans('general.new_asset') }}
-                                        </a>
-                                    @endif
-                                </div>
-                            @endif
-                    </div>
-                    
-                </div><!-- /.box-header -->
-            @endif
+                @if ((isset($topSubmit) && ($topSubmit=='true')) || (isset($item->id)))
 
-            
+                <div class="col-md-12 box-title text-right" style="padding: 0px; margin: 0px;">
+                        <div class="col-md-9 text-left">
+                            @if ($item->id)
+                                <h2 class="box-title" style="padding-top: 8px; padding-bottom: 7px;">
+                                    {{ $item->display_name }}
+                                </h2>
+                            @endif
+                        </div>
+                        @if (isset($topSubmit) && ($topSubmit=='true'))
+                        <div class="col-md-3 text-right" style="padding-right: 10px;">
+                            <button type="submit" class="btn btn-primary pull-right">
+                                <x-icon type="checkmark" />
+                                {{ trans('general.save') }}
+                            </button>
+                        </div>
+                        @endif
+                </div>
+            </div><!-- /.box-header -->
+            @endif
 
             <!-- box-body -->
             <div class="box-body">
@@ -77,7 +66,11 @@
                     <!-- CSRF Token -->
                     {{ csrf_field() }}
                     @yield('inputFields')
-                    @include('partials.forms.edit.submit')
+                        <x-redirect_submit_options
+                                :index_route="$index_route ?? null"
+                                :button_label="trans('general.save')"
+                                :options="$options ?? []"
+                        />
                 </div>
 
             </div> <!-- ./box-body -->

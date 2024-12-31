@@ -1,10 +1,10 @@
 <?php
 return array (
-  'app_version' => 'v5.1.5',
-  'full_app_version' => 'v5.1.5 - build 9674-g3a0a19f80',
-  'build_version' => '9674',
+  'app_version' => 'v7.1.15',
+  'full_app_version' => 'v7.1.15 - build 16052-g25bfd3e84',
+  'build_version' => '16052',
   'prerelease_version' => '',
-  'hash_version' => 'g3a0a19f80',
-  'full_hash' => 'v5.1.4-3770-g3a0a19f80',
-  'branch' => 'Add_Companies_for_Checkin',
+  'hash_version' => 'g25bfd3e84',
+  'full_hash' => 'v7.1.15-105-g25bfd3e84',
+  'branch' => 'master',
 );

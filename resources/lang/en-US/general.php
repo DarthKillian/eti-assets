@@ -1,4 +1,3 @@
-
 <?php
 
 return [
@@ -232,11 +231,13 @@ return [
     'restored'				=> 'restored',
     'restore'				=> 'Restore',
     'requestable_models'    => 'Requestable Models',
+    'requestable_items'     => 'Requestable Items',
     'requested'				=> 'Requested',
     'requested_date'        => 'Requested Date',
     'requested_assets'      => 'Requested Assets',
     'requested_assets_menu' => 'Requested Assets',
     'request_canceled'      => 'Request Canceled',
+    'request_item'          => 'Request this item',
     'save'  				=> 'Save',
     'select_var'            => 'Select :thing... ', // this will eventually replace all of our other selects
     'select'				=> 'Select',
@@ -311,6 +312,8 @@ return [
     'login_enabled'         => 'Login Enabled',
     'audit_due'             => 'Due for Audit',
     'audit_overdue'         => 'Overdue for Audit',
+    'audit_due_days'        => 'Assets Due for Audit Within :days Day|Assets Due for Audit Within :days Days',
+    'checkin_due'           => 'Due for Checkin',
     'accept'                => 'Accept :asset',
     'i_accept'              => 'I accept',
     'i_decline'             => 'I decline',
@@ -501,6 +504,9 @@ return [
     'edit' => 'edit',
     'action_source' => 'Action Source',
     'or' => 'or',
+    'url' => 'URL',
     'stock_report' => 'Stock Report',
+    'checkin_and_delete' => "Check in and Delete Asset",
+    'accessories_assigned' => 'Assigned Accessories',
 
 ];

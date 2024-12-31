@@ -4,6 +4,7 @@ return [
 
     'asset_tag'   	=> 'ស្លាកទ្រព្យសម្បត្តិ',
     'asset_model'       => 'គំរូ',
+    'assigned_to'   => 'ចាត់តាំងទៅ',
     'book_value'  	=> 'Current Value',
     'change' 		=> 'In/Out',
     'checkout_date' => 'ថ្ងៃប្រគល់អោយ',
@@ -24,9 +25,8 @@ return [
     'image'		    => 'Device Image',
     'days_without_acceptance' => 'Days Without Acceptance',
     'monthly_depreciation' => 'Monthly Depreciation',
-    'assigned_to'    => 'Assigned To',
     'requesting_user' => 'Requesting User',
-    'requested_date' => 'Requested Date',
-    'changed'       => 'Changed',
+    'requested_date' => 'កាលបរិច្ឆេទដែលបានស្នើសុំ',
+    'changed'       => 'បានផ្លាស់ប្តូរ',
     'icon' => 'Icon',
 ];

@@ -1,6 +1,6 @@
 <?php
 
 return array(
-    'created'   => 'Създаден',
-    'size' => 'Размер',
+    'created'   => 'Abuuray',
+    'size' => 'Cabbirka',
 );

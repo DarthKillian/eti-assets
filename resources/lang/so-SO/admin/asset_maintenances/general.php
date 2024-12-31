@@ -1,12 +1,16 @@
 <?php
 
     return [
-        'asset_maintenances' => 'Asset Maintenances',
-        'edit'               => 'Edit Asset Maintenance',
-        'delete'             => 'Delete Asset Maintenance',
-        'view'               => 'View Asset Maintenance Details',
-        'eti_repair'         => 'ETI Repair',
-        'warranty_repair'     => 'Warranty RMA',
-        'oow_repair'         => 'OOW Repair',
-        'ar'                 => 'Advanced Replacement',
+        'asset_maintenances' => 'Dayactirka hantida',
+        'edit'               => 'Wax ka beddel Dayactirka Hantida',
+        'delete'             => 'Tirtir Dayactirka Hantida',
+        'view'               => 'Daawo Faahfaahinta Dayactirka Hantida',
+        'repair'             => 'Dayactirka',
+        'maintenance'        => 'Dayactirka',
+        'upgrade'            => 'Cusboonaysii',
+        'calibration'        => 'Calibration',
+        'software_support'   => 'Taageerada Software',
+        'hardware_support'   => 'Taageerada Hardware',
+        'configuration_change'   => 'Isbeddelka Qaabaynta',
+        'pat_test'           => 'Imtixaanka PAT',
     ];
