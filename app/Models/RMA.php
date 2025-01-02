@@ -23,7 +23,7 @@ class RMA extends Model
         'with_admin',
         'warranty_expired',
         'repair_cost',
-        'user_id',
+        'created_by',
         'contact',
         'status',
         'notes',
@@ -96,7 +96,7 @@ class RMA extends Model
      */
     public function users()
     {
-        return $this->belongsTo(\App\Models\User::class, 'user_id');
+        return $this->belongsTo(\App\Models\User::class, 'created_by');
     }
 
     /**
@@ -245,7 +245,7 @@ class RMA extends Model
                 break;
         }
         $maintenance->title = $this->asset->serial . " | RMA # " . $this->rma_number;
-        $maintenance->user_id = $this->user_id;
+        $maintenance->created_by = $this->created_by;
         $maintenance->start_date = $this->start_date;
         
         if ($this->warranty_expired == 0) {
