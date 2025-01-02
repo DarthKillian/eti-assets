@@ -9,6 +9,7 @@ use App\Models\Traits\Acceptable;
 use App\Models\Traits\Searchable;
 use Watson\Validating\ValidatingTrait;
 use Carbon\Carbon;
+use Auth;
 
 class RMA extends Model
 {
@@ -219,13 +220,13 @@ class RMA extends Model
         if ($method == "create") {
             $maintenance = new \App\Models\AssetMaintenance();
             $maintenance->rma_id = $this->id;
-            $maintenance->notes = $this->notes . "\n" . "AUTO CREATED BY: " . $this->users->first_name . " " . $this->users->last_name . " FROM RMA: " . $this->rma_number . " " . Carbon::now()->isoFormat('Y-MM-DD HH:MM');
+            $maintenance->notes = $this->notes . "\n" . "AUTO CREATED BY: " . Auth::user()->first_name . " " . Auth::user()->last_name . " FROM RMA: " . $this->rma_number . " " . Carbon::now()->isoFormat('Y-MM-DD HH:MM');
         }
 
         if ($method == "update") {
             $maintenance = \App\Models\AssetMaintenance::find($this->asset_maintenance_id);
             $maintenance->notes = $this->notes . "\n" . "AUTO CREATED BY: " . $this->users->first_name . " " . $this->users->last_name . " FROM RMA: " . $this->rma_number;
-            $maintenance->notes .= "\n" . "AUTO UPDATED BY: " . $this->users->first_name . " " . $this->users->last_name . " FROM RMA: " . $this->rma_number . " " . Carbon::now()->isoFormat('Y-MM-DD HH:MM');
+            $maintenance->notes .= "\n" . "AUTO UPDATED BY: " . Auth::user()->first_name . " " . Auth::user()->last_name . " FROM RMA: " . $this->rma_number . " " . Carbon::now()->isoFormat('Y-MM-DD HH:MM');
         }
         
         $maintenance->asset_id = $this->asset_id;
