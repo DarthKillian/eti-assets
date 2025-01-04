@@ -1,4 +1,3 @@
-
 @can('view', \App\Models\User::class)
     <div id="userBulkEditToolbar" class="pull-left" style="min-width:500px !important; padding-top: 10px;">
 

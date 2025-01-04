@@ -85,6 +85,7 @@ Route::group(['middleware' => 'auth'], function () {
             '{locationId}/printallassigned',
             [LocationsController::class, 'print_all_assigned']
         )->name('locations.print_all_assigned');
+
     });
 
     Route::resource('locations', LocationsController::class, [

@@ -1,4 +1,3 @@
-
 @section('title')
     {{ trans('general.import') }}
     @parent

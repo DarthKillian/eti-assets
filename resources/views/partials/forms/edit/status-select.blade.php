@@ -1,5 +1,3 @@
-
-
 <!-- Asset Model -->
 <div id="{{ $fieldname }}" class="form-group{{ $errors->has($fieldname) ? ' has-error' : '' }}">
 

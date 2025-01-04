@@ -1,5 +1,3 @@
-
-
 <!-- {{ $logoVariable }}logo image upload -->
 
 <div class="form-group">

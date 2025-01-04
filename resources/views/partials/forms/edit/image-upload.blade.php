@@ -1,4 +1,3 @@
-
 <!-- Image stuff - kept in /resources/views/partials/forms/edit/image-upload.blade.php -->
 <!-- Image Delete -->
 @if (isset($item) && ($item->{($fieldname ?? 'image')}))

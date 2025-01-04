@@ -1,5 +1,3 @@
-
-
 <span>
     <div class="form-group{{ $errors->has('custom_fieldset') ? ' has-error' : '' }}">
         <label for="custom_fieldset" class="col-md-3 control-label">

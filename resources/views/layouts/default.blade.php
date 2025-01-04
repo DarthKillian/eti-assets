@@ -987,6 +987,8 @@ dir="{{ Helper::determineLanguageDirection() }}">
             </div>
         </div>
 
+
+
         {{-- Javascript files --}}
         <script src="{{ url(mix('js/dist/all.js')) }}" nonce="{{ csrf_token() }}"></script>
         <script src="{{ url('js/select2/i18n/'.Helper::mapBackToLegacyLocale(app()->getLocale()).'.js') }}"></script>
@@ -1172,11 +1174,6 @@ dir="{{ Helper::determineLanguageDirection() }}">
                 observer.observe(document.body, config);
             });
 
-        @if ((Session::get('topsearch')=='true') || (Request::is('/')))
-            <script nonce="{{ csrf_token() }}">
-                $("#tagSearch").focus();
-            </script>
-        @endif
 
         </script>
 

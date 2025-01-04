@@ -303,6 +303,31 @@ class BulkAssetsController extends Controller
                     $this->update_array['name'] = null;
                 }
 
+                if (!($asset->eol_explicit)) {
+					if ($request->filled('model_id')) {
+						$model = AssetModel::find($request->input('model_id'));
+						if ($model->eol > 0) {
+							if ($request->filled('purchase_date')) {
+								$this->update_array['asset_eol_date'] = Carbon::parse($request->input('purchase_date'))->addMonths($model->eol)->format('Y-m-d');
+							} else {
+								$this->update_array['asset_eol_date'] = Carbon::parse($asset->purchase_date)->addMonths($model->eol)->format('Y-m-d');
+							}
+						} else {
+							$this->update_array['asset_eol_date'] = null;
+						}
+					} elseif (($request->filled('purchase_date')) && ($asset->model->eol > 0)) {
+						$this->update_array['asset_eol_date'] = Carbon::parse($request->input('purchase_date'))->addMonths($asset->model->eol)->format('Y-m-d');
+					}
+				}                
+                
+                /**
+                 * Blank out fields that were requested to be blanked out via checkbox
+                 */
+                if ($request->input('null_name')=='1') {
+
+                    $this->update_array['name'] = null;
+                }
+
                 /**
                  * Blank out fields that were requested to be blanked out via checkbox
                  */
@@ -550,7 +575,7 @@ class BulkAssetsController extends Controller
     public function showCheckout() : View
     {
         $this->authorize('checkout', Asset::class);
-        return view('hardware/bulk-checkout')->with('statusLabel_list', Helper::deployableStatusLabelList());
+        return view('hardware/bulk-checkout');
     }
 
     /**
@@ -607,12 +632,12 @@ class BulkAssetsController extends Controller
 
 
             $errors = [];
-            DB::transaction(function () use ($target, $admin, $checkout_at, $company_id, $order_number, $status_id, &$errors, $asset_ids, $request) { //NOTE: $errors is passsed by reference!
+            DB::transaction(function () use ($target, $admin, $checkout_at, $expected_checkin, &$errors, $asset_ids, $request) { //NOTE: $errors is passsed by reference!
                 foreach ($asset_ids as $asset_id) {
                     $asset = Asset::findOrFail($asset_id);
                     $this->authorize('checkout', $asset);
 
-                    $checkout_success = $asset->checkOut($target, $admin, $checkout_at, $company_id, $order_number, $status_id, e($request->get('note')), $asset->name, null);
+                    $checkout_success = $asset->checkOut($target, $admin, $checkout_at, $expected_checkin, e($request->get('note')), $asset->name, null);
 
                     //TODO - I think this logic is duplicated in the checkOut method?
                     if ($target->location_id != '') {

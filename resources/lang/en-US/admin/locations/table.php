@@ -5,7 +5,7 @@ return [
     'about_locations'           => 'Locations are used to track location information for users, assets, and other items',
     'assets_rtd'                => 'Assets', // This has NEVER meant Assets Retired. I don't know how it keeps getting reverted.
     'assets_checkedout'         => 'Assets Assigned',
-    'id'                        => 'Ang ID',
+    'id'                        => 'ID',
     'city'                      => 'City',
     'state'                     => 'State',
     'country'                   => 'Country',
@@ -25,7 +25,7 @@ return [
     'department'                => 'Department',
     'location'                  => 'Location',
     'asset_tag'                 => 'Assets Tag',
-    'asset_name'                => 'Ngalan',
+    'asset_name'                => 'Name',
     'asset_category'            => 'Category',
     'asset_manufacturer'        => 'Manufacturer',
     'asset_model'               => 'Model',

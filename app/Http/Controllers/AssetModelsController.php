@@ -155,9 +155,6 @@ class AssetModelsController extends Controller
 
         $model->fieldset_id = $request->input('fieldset_id');
 
-       
-      
-       
         if ($model->save()) {
             $this->removeCustomFieldsDefaultValues($model);
 

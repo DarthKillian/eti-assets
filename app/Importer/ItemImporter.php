@@ -92,17 +92,6 @@ class ItemImporter extends Importer
 //        }
 
 
-        $this->item['asset_eol_date'] = null;
-            if($this->findCsvMatch($row, 'asset_eol_date') != '') {
-                $csvMatch = $this->findCsvMatch($row, 'asset_eol_date');
-                try {
-                    $this->item['asset_eol_date'] = CarbonImmutable::parse($csvMatch)->format('Y-m-d');
-                } catch (\Exception $e) {
-                    Log::info($e->getMessage());
-                    $this->log('Unable to parse date: '.$csvMatch);
-                }
-        }
-
         $this->item['qty'] = $this->findCsvMatch($row, 'quantity');
         $this->item['requestable'] = $this->findCsvMatch($row, 'requestable');
         $this->item['created_by'] = auth()->id();

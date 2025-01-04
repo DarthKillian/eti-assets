@@ -354,10 +354,6 @@ class ValidationServiceProvider extends ServiceProvider
 
             return in_array($value, $options);
         });
-
-        Validator::extend('not_array', function ($attribute, $value, $parameters, $validator) {
-            return !is_array($value);
-        });
     }
 
     /**

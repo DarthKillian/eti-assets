@@ -21,6 +21,7 @@
     <p>{{ trans('admin/hardware/form.bulk_update_help') }}</p>
 
 
+
     <form class="form-horizontal" method="post" action="{{ route('hardware/bulksave') }}" autocomplete="off" role="form">
       {{ csrf_field() }}
 

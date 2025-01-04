@@ -168,23 +168,6 @@ trait Loggable
             $log->log_meta = json_encode($changed);
         }
 
-        $changed = [];
-        $originalValues = array_intersect_key($originalValues, array_flip(['action_date','name','status_id','location_id','rtd_location_id','expected_checkin']));
-
-        foreach ($originalValues as $key => $value) {
-            if ($key == 'action_date' && $value != $action_date) {
-                $changed[$key]['old'] = $value;
-                $changed[$key]['new'] = is_string($action_date) ? $action_date : $action_date->format('Y-m-d H:i:s');
-            } elseif ($value != $this->getAttributes()[$key]) {
-                $changed[$key]['old'] = $value;
-                $changed[$key]['new'] = $this->getAttributes()[$key];
-            }
-        }
-
-        if (!empty($changed)){
-            $log->log_meta = json_encode($changed);
-        }
-
         $log->logaction('checkin from');
 
         return $log;

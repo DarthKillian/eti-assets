@@ -521,7 +521,6 @@ class License extends Depreciable
      * @return int
      */
 
-
     /**
      * Returns the number of total available seats for this license
      *

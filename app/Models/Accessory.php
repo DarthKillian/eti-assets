@@ -378,6 +378,22 @@ class Accessory extends SnipeModel
     }
 
     /**
+     * Run after the checkout acceptance was declined by the user
+     * 
+     * @param  User   $acceptedBy
+     * @param  string $signature
+     */
+    public function declinedCheckout(User $declinedBy, $signature)
+    {
+        if (is_null($accessory_checkout = AccessoryCheckout::userAssigned()->where('assigned_to', $declinedBy->id)->where('accessory_id', $this->id)->latest('created_at'))) {
+            // Redirect to the accessory management page with error
+            return redirect()->route('accessories.index')->with('error', trans('admin/accessories/message.does_not_exist'));
+        }
+
+        $accessory_checkout->limit(1)->delete();
+    }
+
+    /**
      * -----------------------------------------------
      * BEGIN MUTATORS
      * -----------------------------------------------
@@ -414,22 +430,6 @@ class Accessory extends SnipeModel
     public function scopeOrderByCreatedByName($query, $order)
     {
         return $query->leftJoin('users as admin_sort', 'accessories.created_by', '=', 'admin_sort.id')->select('accessories.*')->orderBy('admin_sort.first_name', $order)->orderBy('admin_sort.last_name', $order);
-    }
-
-    /**
-     * Run after the checkout acceptance was declined by the user
-     * 
-     * @param  User   $acceptedBy
-     * @param  string $signature
-     */
-    public function declinedCheckout(User $declinedBy, $signature)
-    {
-        if (is_null($accessory_user = \DB::table('accessories_users')->where('assigned_to', $declinedBy->id)->where('accessory_id', $this->id)->latest('created_at'))) {
-            // Redirect to the accessory management page with error
-            return redirect()->route('accessories.index')->with('error', trans('admin/accessories/message.does_not_exist'));
-        }
-
-        $accessory_user->limit(1)->delete();
     }
 
     /**

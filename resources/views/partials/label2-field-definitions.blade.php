@@ -1,5 +1,3 @@
-
-
 @once
     @push('css')
         <style>

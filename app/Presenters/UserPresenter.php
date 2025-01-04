@@ -476,7 +476,6 @@ class UserPresenter extends Presenter
         if ((Setting::getSettings()->load_remote == '1') && (Setting::getSettings()->default_avatar == '')) {
 
             if ($this->model->gravatar != '') {
-
                 $gravatar = md5(strtolower(trim($this->model->gravatar)));
                 return '//gravatar.com/avatar/'.$gravatar;
 

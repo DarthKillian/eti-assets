@@ -1,4 +1,3 @@
-
 <div>
     <!-- EULA text -->
     <div class="form-group {{ $errors->has('eula_text') ? 'error' : '' }}">

@@ -748,5 +748,30 @@
           $(this).find(".modal-header").text(title);
       });
 
+      $("#savetemplateform").submit(function(e) {
+          e.preventDefault(e);
+
+          let form = $('#custom-report-form');
+          $('<input>').attr({
+              type: 'hidden',
+              name: 'name',
+              value: $('#name').val(),
+          }).appendTo(form);
+
+          form.attr('action', '{{ route('report-templates.store') }}').submit();
+      });
+
+      $('#saved_report_select')
+          .on('select2:select', function (event) {
+              window.location.href = '/reports/templates/' + event.params.data.id;
+          });
+
+      $('#dataConfirmModal').on('show.bs.modal', function (event) {
+          var content = $(event.relatedTarget).data('content');
+          var title = $(event.relatedTarget).data('title');
+          $(this).find(".modal-body").text(content);
+          $(this).find(".modal-header").text(title);
+      });
+
   </script>
 @stop

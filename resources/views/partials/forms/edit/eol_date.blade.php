@@ -1,4 +1,3 @@
-
 <!-- EOL Date -->
 <div class="form-group {{ $errors->has('asset_eol_date') ? ' has-error' : '' }}">
     <label for="asset_eol_date" class="col-md-3 control-label">{{ trans('admin/hardware/form.eol_date') }}</label>

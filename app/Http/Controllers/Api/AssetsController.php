@@ -36,7 +36,6 @@ use App\View\Label;
 use Illuminate\Support\Facades\Storage;
 
 
-
 /**
  * This class controls all actions related to assets for
  * the Snipe-IT Asset Management application.
@@ -168,6 +167,44 @@ class AssetsController extends Controller
             $assets->TextSearch($request->input('search'));
         }
 
+
+        /**
+         * Handle due and overdue audits and checkin dates
+         */
+        switch ($action) {
+                // Audit (singular) is left over from earlier legacy APIs
+            case 'audits':
+                switch ($upcoming_status) {
+                    case 'due':
+                        $assets->DueForAudit($settings);
+                        break;
+                    case 'overdue':
+                        $assets->OverdueForAudit();
+                        break;
+                    case 'due-or-overdue':
+                        $assets->DueOrOverdueForAudit($settings);
+                        break;
+                }
+                break;
+
+            case 'checkins':
+                switch ($upcoming_status) {
+                    case 'due':
+                        $assets->DueForCheckin($settings);
+                        break;
+                    case 'overdue':
+                        $assets->OverdueForCheckin();
+                        break;
+                    case 'due-or-overdue':
+                        $assets->DueOrOverdueForCheckin($settings);
+                        break;
+                }
+                break;
+        }
+
+        /**
+         * End handling due and overdue audits and checkin dates
+         */
 
         /**
          * Handle due and overdue audits and checkin dates

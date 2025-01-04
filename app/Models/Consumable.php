@@ -268,7 +268,7 @@ class Consumable extends SnipeModel
      */
     public function supplier()
     {
-        return $this->belongsTo(\App\Models\Supplier::class, 'supplier_id');
+        return $this->belongsTo(Supplier::class, 'supplier_id');
     }
 
 

@@ -103,6 +103,25 @@
                         </div>
 
 
+                        <!-- Show last audit date -->
+                        <div class="form-group">
+                            <label class="control-label col-md-3">
+                                {{ trans('general.last_audit') }}
+                            </label>
+                            <div class="col-md-8">
+
+                                <p class="form-control-static">
+                                    @if ($asset->last_audit_date)
+                                        {{ Helper::getFormattedDateObject($asset->last_audit_date, 'datetime', false) }}
+                                    @else
+                                        {{ trans('admin/settings/general.none') }}
+                                    @endif
+                                </p>
+                            </div>
+
+                        </div>
+
+
                         <!-- Next Audit -->
                         <div class="form-group{{ $errors->has('next_audit_date') ? ' has-error' : '' }}">
                             <label for="next_audit_date" class="col-sm-3 control-label">

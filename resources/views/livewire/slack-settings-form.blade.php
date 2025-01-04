@@ -1,5 +1,3 @@
-
-
 {{-- Page title --}}
 @section('title')
 {{ trans('admin/settings/general.webhook_title') }}

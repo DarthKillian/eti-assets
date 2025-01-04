@@ -10,7 +10,6 @@ use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
 
 
-
 class GroupsController extends Controller
 {
     /**

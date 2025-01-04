@@ -1,4 +1,3 @@
-
 @extends('layouts/default', [
     'helpText' => trans('admin/custom_fields/general.about_fieldsets_text'),
     'helpPosition' => 'right',

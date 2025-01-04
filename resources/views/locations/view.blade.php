@@ -153,17 +153,6 @@
                     </span>
                   </a>
               </li>
-              
-              <li>
-                  <a href="#history" data-toggle="tab">
-                    <span class="hidden-lg hidden-md">
-                        <i class="fas fa-hdd fa-2x" aria-hidden="true"></i>
-                    </span>
-                      <span class="hidden-xs hidden-sm">
-                          {{ trans('general.history') }}
-                    </span>
-                  </a>
-              </li>
           </ul>
 
 
