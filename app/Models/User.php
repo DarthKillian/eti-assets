@@ -240,25 +240,6 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
         return false;
     }
 
-    /**
-     * Checks if the user is deletable
-     *
-     * @author A. Gianotto <snipe@snipe.net>
-     * @since [v6.3.4]
-     * @return bool
-     */
-    public function isDeletable()
-    {
-        return Gate::allows('delete', $this)
-            && ($this->assets->count() === 0)
-            && ($this->licenses->count() === 0)
-            && ($this->consumables->count() === 0)
-            && ($this->accessories->count() === 0)
-            && ($this->managedLocations->count() === 0)
-            && ($this->managesUsers->count() === 0)
-            && ($this->deleted_at == '');
-    }
-
 
     /**
      * Establishes the user -> company relationship
