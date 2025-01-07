@@ -47,11 +47,6 @@ class RMA extends Model
 
     protected $rules = [
         'asset_id' => 'required|integer',
-        // 'new_asset_id' => 'nullable',
-        // 'with_admin' => 'required|integer',
-        // 'warranty_expired' => 'integer|nullable',
-        // 'repair_cost' => 'nullable',
-        // 'rma_status' => 'required',
         'notes' => 'required',
         'contact' => 'required',
         'start_date' => 'required',

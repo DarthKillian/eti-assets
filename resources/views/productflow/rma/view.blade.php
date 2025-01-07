@@ -246,10 +246,10 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-2">
-                                            <strong>{{ trans('admin/rma/general.technician') }}</strong>
+                                            <strong>{{ trans('admin/rma/general.contact') }}</strong>
                                         </div>
                                         <div class="col-md-6">
-                                            {{ $rma->technician }}
+                                            {{ $rma->contact }}
                                         </div>
                                     </div>
                                     <div class="row">
