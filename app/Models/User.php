@@ -241,22 +241,6 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     }
 
     /**
-     * Checks if the can edit their own profile
-     *
-     * @author A. Gianotto <snipe@snipe.net>
-     * @since [v6.3.4]
-     * @return bool
-     */
-    public function canEditProfile() : bool {
-
-        $setting = Setting::getSettings();
-        if ($setting->profile_edit == 1) {
-            return true;
-        }
-        return false;
-    }
-
-    /**
      * Checks if the user is deletable
      *
      * @author A. Gianotto <snipe@snipe.net>
