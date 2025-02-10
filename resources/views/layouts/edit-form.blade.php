@@ -35,7 +35,7 @@
                 <!-- box-header -->
                 <div class="box-header with-border">
 
-                    @if ((isset($topSubmit) && ($topSubmit == 'true')) || (isset($item->id)))
+                    @if ((isset($topSubmit) && ($topSubmit == 'true')) || (isset($item->id) || (isset($newAsset) && ($newAsset == 'true')))
 
                             <div class="col-md-12 box-title text-right" style="padding: 0px; margin: 0px;">
                                 <div class="col-md-9 text-left">
