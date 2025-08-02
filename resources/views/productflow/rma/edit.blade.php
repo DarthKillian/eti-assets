@@ -129,7 +129,7 @@
         <div class="col-md-7 col-md-offset-3">
             <label for="notify" class="form-control">
                 <input type="checkbox" value="1" name="notify" checked aria-label="notify">
-                {{ trans('general.rma_notify') }}
+                {{ trans('admin/rma/general.rma_notify') }}
             </label>
             <p class="help-block">{{ trans('admin/rma/general.rma_notify_help') }}
             </p>
