@@ -34,7 +34,7 @@ class RMATransformer
             'repair_cost' => $rma->repair_cost,
             'company' => $rma->asset->company->name,
             'status' => $rma->status,
-            'technician' => $rma->technician,
+            'contact' => $rma->contact,
             'notes' => $rma->notes,
             'requestor' => $rma->users->first_name . " " . $rma->users->last_name,
             'start_date' => $rma->start_date,

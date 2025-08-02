@@ -91,10 +91,10 @@ class RMAPresenter extends Presenter
                 'title' => 'Status',
                 'formatter' => 'rmaStatusLinkFormatter',
             ], [
-                'field' => 'technician',
+                'field' => 'contact',
                 'searchable' => true,
                 'sortable' => true,
-                'title' => 'Technician',
+                'title' => 'contact',
                 // 'formatter' => 'accessoriesLinkFormatter',
             ],
             [

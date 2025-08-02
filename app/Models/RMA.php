@@ -24,7 +24,7 @@ class RMA extends Model
         'warranty_expired',
         'repair_cost',
         'created_by',
-        'technician',
+        'contact',
         'status',
         'notes',
         'start_date',
@@ -33,7 +33,7 @@ class RMA extends Model
 
     use Searchable;
     use Acceptable;
-    protected $searchableAttributes = ['rma_number', 'case_number', 'technician', 'notes', 'status', 'start_date', 'completion_date'];
+    protected $searchableAttributes = ['rma_number', 'case_number', 'contact', 'notes', 'status', 'start_date', 'completion_date'];
 
     protected $searchableRelations = [
         'asset' => ['asset_tag', 'serial'],
@@ -52,7 +52,7 @@ class RMA extends Model
         // 'repair_cost' => 'nullable',
         // 'rma_status' => 'required',
         'notes' => 'required',
-        'technician' => 'required',
+        'contact' => 'required',
         'start_date' => 'required',
     ];
 
