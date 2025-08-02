@@ -31,6 +31,7 @@ use League\Csv\EscapeFormula;
 use App\Http\Requests\CustomAssetReportRequest;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Http\RedirectResponse;
+use DB;
 
 /**
  * This controller handles all actions related to Reports for
@@ -1345,5 +1346,32 @@ class ReportsController extends Controller
         return $this->getCheckedOutAssetsRequiringAcceptance(
             $this->getModelsInCategoriesThatRequireAcceptance($this->getCategoriesThatRequireAcceptance())
         );
+    }
+
+    /** 
+     * getStockReport
+     * @return array
+     * @author DarthKillian
+     */
+
+    public function getStockReport()
+    {
+        $this->authorize('reports.view');
+        $models = DB::table('assets')
+            ->join('models', 'assets.model_id', '=', 'models.id')
+            ->join('manufacturers', 'models.manufacturer_id', '=', 'manufacturers.id')
+            ->select('asset_tag', 'models.name as model', 'models.model_number as part_number', 'manufacturers.name as manufacturer')
+            ->where('Status_id', 4)
+            ->orderBy('manufacturers.name', 'ASC');
+
+        $stock = [];
+        $count = [];
+        foreach ($models->get() as $model) {
+            // dd($model->model->manufacturer);
+            $count[$model->model] = ($count[$model->model] ?? 0) + 1;
+            $stock[$model->model] = array('part_number' => $model->part_number, 'qty' => $count[$model->model]);
+        }
+
+        return view('reports/stock_report', compact('stock'));
     }
 }
