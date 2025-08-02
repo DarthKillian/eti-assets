@@ -14,7 +14,7 @@ return [
     'warranty_expired' => 'Warranty Expired',
     'repair_cost' => 'Repair Cost',
     'requestor' => 'Requestor',
-    'technician' => 'Technican',
+    'contact' => 'contact',
     'notes' => 'Notes',
     'start_date' => 'Start Date',
     'completion_date' => 'Completion Date',

@@ -131,7 +131,7 @@
                 <input type="checkbox" value="1" name="notify" checked aria-label="notify">
                 {{ trans('general.rma_notify') }}
             </label>
-            <p class="help-block">{{ trans('general.rma_notify_help') }}
+            <p class="help-block">{{ trans('admin/rma/general.rma_notify_help') }}
             </p>
         </div>
     </div>
