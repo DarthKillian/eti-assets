@@ -582,7 +582,7 @@ Route::group(['prefix' => 'reports', 'middleware' => ['auth']], function () {
         [ReportsController::class, 'postAssetAcceptanceReport']
     )
         ->name('reports/export/unaccepted_assets');
-    Route::get('reports/stockreport', [ReportsController::class, 'getStockReport'])->name('reports/stock_report');
+    Route::get('stockreport', [ReportsController::class, 'getStockReport'])->name('reports/stock_report');
 });
 
 
