@@ -61,7 +61,7 @@ class RMARequestController extends Controller
         // Prepare new RMA
         $rma = new RMA();
         $rma->asset_id = $request->input('asset_id');
-        $rma->user_id = Auth::id();
+        $rma->created_by = Auth::id();
         $rma->notes = $request->input('notes');
         $rma->technician = $request->input('technician');
         $rma->start_date = Carbon::now()->isoFormat('Y-MM-DD');
