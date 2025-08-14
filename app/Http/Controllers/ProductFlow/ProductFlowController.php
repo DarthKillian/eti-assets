@@ -93,7 +93,7 @@ class ProductFlowController extends Controller
         $asset->company_id              = Company::select('id')->where('name', '=', 'ETI')->get()[0]->id; // Hardcoded to ETI
         $asset->model_id                = AssetModel::select('id')->where('model_number', '=', $request->input('model_number'))->get()[0]->id;
         $asset->serial                  = $serialNumber;
-        $asset->user_id                 = Auth::id();
+        $asset->created_by              = Auth::id();
         $asset->archived                = '0';
         $asset->physical                = '1';
         $asset->depreciate              = '0';

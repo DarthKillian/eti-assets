@@ -1,3 +1,4 @@
+
 @extends('layouts/default')
 
 {{-- Page title --}}
@@ -39,18 +40,7 @@
           </div>
           @endif
 
-         @if ($accessory->company)
-             <!-- accessory name -->
-             <div class="form-group">
-                 <label class="col-sm-3 control-label">{{ trans('general.company') }}</label>
-                 <div class="col-md-6">
-                     <p class="form-control-static">{{ $accessory->company->name }}</p>
-                 </div>
-             </div>
-         @endif
-
-
-         @if ($accessory->category)
+          @if ($accessory->category)
           <!-- accessory name -->
           <div class="form-group">
             <label class="col-sm-3 control-label">{{ trans('admin/accessories/general.accessory_category') }}</label>
@@ -79,13 +69,11 @@
 
           <!-- checkout selector -->
 
-             @include ('partials.forms.checkout-selector', ['user_select' => 'true','asset_select' => 'true', 'location_select' => 'true'])
-             @include ('partials.forms.edit.user-select', ['translated_name' => trans('general.select_user'), 'fieldname' => 'assigned_user'])
+             @include ('partials.forms.checkout-selector', ['user_select' => 'false','asset_select' => 'true', 'location_select' => 'true'])
+             {{-- @include ('partials.forms.edit.user-select', ['translated_name' => trans('general.select_user'), 'fieldname' => 'assigned_user']) --}}
              <!-- We have to pass unselect here so that we don't default to the asset that's being checked out. We want that asset to be pre-selected everywhere else. -->
-
-             @include ('partials.forms.edit.asset-select', ['translated_name' => trans('general.select_asset'), 'fieldname' => 'assigned_asset', 'company_id' => $accessory->company_id, 'unselect' => 'true', 'style' => 'display:none;'])
-
-             @include ('partials.forms.edit.location-select', ['translated_name' => trans('general.location'), 'fieldname' => 'assigned_location', 'style' => 'display:none;'])
+             @include ('partials.forms.edit.asset-select', ['translated_name' => trans('general.asset'), 'fieldname' => 'assigned_asset', 'unselect' => 'true', 'style' => 'display:none;'])
+             @include ('partials.forms.edit.location-select', ['translated_name' => trans('general.location'), 'fieldname' => 'assigned_location'])
 
 
              <!-- Checkout QTY -->
@@ -128,8 +116,8 @@
           <!-- Note -->
           <div class="form-group {{ $errors->has('note') ? 'error' : '' }}">
             <label for="note" class="col-md-3 control-label">{{ trans('admin/hardware/form.notes') }}</label>
-            <div class="col-md-7">
-              <textarea class="col-md-6 form-control" id="note" name="note">{{ old('note', $accessory->note) }}</textarea>
+            <div class="col-md-7 required">
+              <textarea class="col-md-6 form-control" id="note" name="note" data-validation="required" required>{{ old('note', $accessory->note) }}</textarea>
               {!! $errors->first('note', '<span class="alert-msg" aria-hidden="true"><i class="fas fa-times" aria-hidden="true"></i> :message</span>') !!}
             </div>
           </div>

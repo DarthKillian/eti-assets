@@ -55,11 +55,10 @@ class AccessoriesController extends Controller
                 'qty',
             ];
 
-        /**
-         * Instantiate our Eloquent query. We then use various methods below to define our search
-         */
-        $accessories = Accessory::select('accessories.*')->with('category', 'company', 'manufacturer', 'users', 'location', 'supplier')
-                                ->withCount('users as users_count');
+
+        $accessories = Accessory::select('accessories.*')
+            ->with('category', 'company', 'manufacturer', 'checkouts', 'location', 'supplier', 'adminuser')
+            ->withCount('checkouts as checkouts_count');
 
         /**
          * This is the primary method of querying the Eloquent model instantiated above.
@@ -70,7 +69,7 @@ class AccessoriesController extends Controller
         }
 
         if ($request->filled('company_id')) {
-            $accessories->where('accessories.company_id', '=', $request->input('company_id'));
+            $accessories->where('company_id', '=', $request->input('company_id'));
         }
 
         if ($request->filled('category_id')) {
@@ -257,11 +256,11 @@ class AccessoriesController extends Controller
     public function destroy($id)
     {
         $this->authorize('delete', Accessory::class);
-        $accessory = Accessory::withCount('checkouts as checkouts_count')->findOrFail($id);
+        $accessory = Accessory::findOrFail($id);
         $this->authorize($accessory);
 
-        if ($accessory->checkouts_count > 0) {
-            return response()->json(Helper::formatStandardApiResponse('error', null, trans('admin/accessories/general.delete_disabled')));
+        if ($accessory->hasUsers() > 0) {
+            return response()->json(Helper::formatStandardApiResponse('error', null, trans('admin/accessories/message.assoc_users', ['count'=> $accessory->hasUsers()])));
         }
 
         $accessory->delete();
