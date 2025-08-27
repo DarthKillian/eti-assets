@@ -89,9 +89,14 @@ class AssetCheckoutController extends Controller
                 $checkout_at = $request->get('checkout_at');
             }
 
-            $expected_checkin = '';
-            if ($request->filled('expected_checkin')) {
-                $expected_checkin = $request->get('expected_checkin');
+            $company_id = '';
+            if ($request->filled('company_id')) {
+                $company_id = $request->get('company_id');
+            }
+
+            $order_number = '';
+            if($request->filled('order_number')) {
+                $order_number = $request->input('order_number');
             }
 
             if ($request->filled('status_id')) {
@@ -122,7 +127,7 @@ class AssetCheckoutController extends Controller
 
             session()->put(['redirect_option' => $request->get('redirect_option'), 'checkout_to_type' => $request->get('checkout_to_type')]);
 
-            if ($asset->checkOut($target, $admin, $checkout_at, $expected_checkin, $request->get('note'), $request->get('name'))) {
+            if ($asset->checkOut($target, $admin, $checkout_at, $company_id, $order_number, $request->get('note'), $request->get('name'))) {
                 return Helper::getRedirectOption($request, $asset->id, 'Assets')
                     ->with('success', trans('admin/hardware/message.checkout.success'));
             }
