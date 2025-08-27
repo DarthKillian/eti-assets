@@ -335,7 +335,7 @@ class Asset extends Depreciable
      * @since  [v3.0]
      * @return bool
      */
-    public function checkOut($target, $admin = null, $checkout_at = null, $expected_checkin = null, $note = null, $name = null, $location = null)
+    public function checkOut($target, $admin = null, $checkout_at = null, $company_id = null, $order_number = null, $note = null, $name = null, $location = null)
     {
         if (! $target) {
             return false;
@@ -344,8 +344,12 @@ class Asset extends Depreciable
             throw new CheckoutNotAllowed('You cannot check an asset out to itself.');
         }
 
-        if ($expected_checkin) {
-            $this->expected_checkin = $expected_checkin;
+        if ($company_id) {
+            $this->company_id = $company_id;
+        }
+
+        if ($order_number) {
+            $this->order_number = $order_number;
         }
 
         $this->last_checkout = $checkout_at;
