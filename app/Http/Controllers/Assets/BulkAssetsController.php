@@ -658,14 +658,18 @@ class BulkAssetsController extends Controller
                 $checkout_at = $request->get('checkout_at');
             }
 
-            $expected_checkin = '';
+            $company_id = '';
+            if ($request->filled('company_id')) {
+                $company_id = $request->get('company_id');
+            }
 
-            if ($request->filled('expected_checkin')) {
-                $expected_checkin = $request->get('expected_checkin');
+            $order_number = '';
+            if($request->filled('order_number')) {
+                $order_number = $request->input('order_number');
             }
 
             $errors = [];
-            DB::transaction(function () use ($target, $admin, $checkout_at, $expected_checkin, &$errors, $assets, $request) { //NOTE: $errors is passsed by reference!
+            DB::transaction(function () use ($target, $admin, $checkout_at, $company_id, $order_number, &$errors, $assets, $request) { //NOTE: $errors is passsed by reference!
                 foreach ($assets as $asset) {
                     $this->authorize('checkout', $asset);
 
@@ -674,7 +678,14 @@ class BulkAssetsController extends Controller
                         $asset->status_id = $request->get('status_id');
                     }
 
-                    $checkout_success = $asset->checkOut($target, $admin, $checkout_at, $expected_checkin, e($request->get('note')), $asset->name, null);
+                    $status = Statuslabel::find($asset->status_id);
+
+                    // Clear Audit data - Darth Killian
+                    if($status->name == "Deployed" || $status->name == "Delivered to Customer Site") {
+                        Asset::clearAudit($asset);
+                    }
+
+                    $checkout_success = $asset->checkOut($target, $admin, $checkout_at, $company_id, $order_number, e($request->get('note')), $asset->name, null);
 
                     //TODO - I think this logic is duplicated in the checkOut method?
                     if ($target->location_id != '') {

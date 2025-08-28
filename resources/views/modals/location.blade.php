@@ -12,14 +12,16 @@
                 @include('modals.partials.name', ['item' => new \App\Models\Location(), 'required' => 'true'])
 
                 <!-- Setup of default company, taken from asset creator if scoped locations are activated in the settings -->
-				@if (($snipeSettings->scope_locations_fmcs == '1') && ($user->company))
+				{{-- @if (($snipeSettings->scope_locations_fmcs == '1') && ($user->company))
 					<input type="hidden" name="company_id" id='modal-company' value='{{ $user->company->id }}' class="form-control">
-				@endif
+				@endif --}}
 
-				<!-- Select company, only for users with multicompany access - replace default company -->
-				<div class="dynamic-form-row">
+                {{-- Removed as we do not use this - Darth Killian --}}
+
+                <!-- Select company, only for users with multicompany access - replace default company -->
+				{{-- <div class="dynamic-form-row">
 					@include ('partials.forms.edit.company-select', ['translated_name' => trans('general.company'), 'fieldname' => 'company_id'])
-				</div>
+				</div> --}}
 
                 <div class="dynamic-form-row">
                     <div class="col-md-4 col-xs-12"><label for="modal-city">{{ trans('general.city') }}:</label></div>
